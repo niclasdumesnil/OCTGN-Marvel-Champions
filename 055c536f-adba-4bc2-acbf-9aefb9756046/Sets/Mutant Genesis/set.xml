@@ -1156,7 +1156,7 @@ Permanent.</property>
     <card name="Unreleting Savage" id="47d34c5d-5319-45a9-a2d6-1fb975032070" size="EncounterCard">
       <property name="CardNumber" value="32070"/>
       <property name="Position" value="70"/>
-      <property name="Quantity" value="4"/>
+      <property name="Quantity" value="3"/>
       <property name="Type" value="treachery"/>
       <property name="Owner" value="sabretooth"/>
       <property name="Boost" value="1"/>
@@ -1164,7 +1164,7 @@ Permanent.</property>
     <card name="Medical Emergency" id="47d34c5d-5319-45a9-a2d6-1fb975032071" size="SchemeCard">
       <property name="CardNumber" value="32071"/>
       <property name="Position" value="71"/>
-      <property name="Quantity" value="1"/>
+      <property name="Quantity" value="2"/>
       <property name="Type" value="side_scheme"/>
       <property name="Owner" value="sabretooth"/>
       <property name="Boost" value="2"/>

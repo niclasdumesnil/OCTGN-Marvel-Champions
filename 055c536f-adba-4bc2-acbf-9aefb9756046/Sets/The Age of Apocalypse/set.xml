@@ -1,0 +1,3239 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Age of Apocalypse" id="1ab538aa-6ad1-4d9d-83a6-3ebc3aa25a34" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card name="Bishop" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045001">
+      <property name="CardNumber" value="45001a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="bishop"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="1"/>
+      <property name="HP" value="12"/>
+      <property name="Attribute" value="Temporal. X-Men."/>
+      <property name="Text">&lt;i&gt;Energy Absorption&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After Bishop takes any amount of damage from an attack, discard an equal number of cards from the top of your deck. Add each resource card discarded this way to your hand.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Lucas Bishop" type="b">
+        <property name="CardNumber" value="45001b"/>
+        <property name="Position" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="bishop"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="12"/>
+        <property name="Attribute" value="Mutant. Temporal."/>
+        <property name="Text">&lt;i&gt;Temporally Displaced&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you change to this form, add a [[TEMPORAL]] card in your discard pile to your hand.</property>
+        <property name="Quote">"When I journeyed to the past to save my future, this was not what I had in mind."</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Malcolm" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045002">
+      <property name="CardNumber" value="45002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="bishop"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Temporal. X-Men."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Discard a resource card from your hand → ready Malcolm. If that card has a printed [physical] icon, heal 1 damage from Malcolm. (Limit once per phase.)</property>
+      <property name="Quote">"Multiple contacts. Engaging."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Randall" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045003">
+      <property name="CardNumber" value="45003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="bishop"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Temporal. X-Men."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Discard a resource card from your hand → ready Randall. If that card has a printed [energy] icon, heal 1 damage from Randall. (Limit once per phase.)</property>
+      <property name="Quote">"We're with you, boss. All the way."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Bishop's Rifle" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045004">
+      <property name="CardNumber" value="45004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="bishop"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Temporal. Weapon."/>
+      <property name="Text">Restricted.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Exhaust Bishop's Rifle and choose an enemy → deal 1 damage to that enemy for each resource card in your hand. This attack gains ranged.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Bishop's Uniform" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045005">
+      <property name="CardNumber" value="45005"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="bishop"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Item. Temporal."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After you resolve Bishop's &lt;i&gt;"Energy Absorption"&lt;/i&gt; ability, exhaust Bishop's Uniform → heal 1 damage from Bishop for each resource card in your hand.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Super-Charged" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045006">
+      <property name="CardNumber" value="45006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="bishop"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Discard a resource card from your hand → place 1 charge counter here for each resource icon on that card.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you make a basic attack, discard Super-Charged → you get +2 ATK for this attack for each charge counter here (to a maximum of +8 ATK).</property>
+    </card>
+    <card name="Concussive Blast" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045007">
+      <property name="CardNumber" value="45007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="bishop"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 6 damage to an enemy. If you paid for this event with a resource card, ready Bishop.</property>
+      <property name="Quote">Bishop's power allows him to absorb energy and rechannel it into powerful blasts.</property>
+    </card>
+    <card name="Command Authority" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045008">
+      <property name="CardNumber" value="45008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="bishop"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme. If you paid for this event with a resource card, draw 1 card.</property>
+      <property name="Quote">"Everyone, on me!" —Bishop</property>
+    </card>
+    <card name="Energy Conversion" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045009">
+      <property name="CardNumber" value="45009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="bishop"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Defense."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(defense)&lt;/i&gt;: When an enemy attacks, shuffle each resource card in your discard pile into your deck. You cannot take more than 3 damage from this attack.</property>
+    </card>
+    <card name="Stored Energy" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045010">
+      <property name="CardNumber" value="45010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="bishop"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Temporal."/>
+      <property name="Quote">"The more you hit me, the harder I hit back!" —Bishop</property>
+    </card>
+    <card name="Cable" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045011">
+      <property name="CardNumber" value="45011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Psionic. X-Force."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Cable thwarts and defeats a side scheme, draw 1 card.</property>
+      <property name="Quote">"I know too much about what the future holds."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="X-23" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045012">
+      <property name="CardNumber" value="45012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Force."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After X-23 attacks and defeats an enemy, ready her.</property>
+      <property name="Quote">"Call me 'Lady-Wolverine' one more time - I dare you!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Team Training" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045013">
+      <property name="CardNumber" value="45013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Play under any player's control. Max 1 per player.
+Each ally you control gets +1 hit point.</property>
+    </card>
+    <card name="Advanced Suit" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045014">
+      <property name="CardNumber" value="45014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Armor. Item."/>
+      <property name="Text">Attach to an [[X-FORCE]] or [[X-MEN]] ally. Max 1 per ally.
+&lt;b&gt;Response&lt;/b&gt;: After attached ally defeats a minion or side scheme, discard 1 card from your hand → heal 1 damage from attached ally for each resource on that card.</property>
+    </card>
+    <card name="Sidekick" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045015">
+      <property name="CardNumber" value="45015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text">Attach to an identity-specific ally you control. Max 1 per deck.
+Attached ally gets +2 hit points and is your "sidekick."
+&lt;b&gt;Response&lt;/b&gt;: After you make a basic recovery, heal 2 damage from attached ally.</property>
+    </card>
+    <card name="Side-by-Side" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045016">
+      <property name="CardNumber" value="45016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Ready your sidekick → ready your hero and choose one:
+• Heal 1 damage from both characters.
+• Both characters get +1 THW and +1 ATK until the end of the phase.</property>
+    </card>
+    <card name="Suit Up" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045017">
+      <property name="CardNumber" value="45017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Search your deck and discard pile for an ally and an upgrade that can be attached to that ally. Add them to your hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+    </card>
+    <card name="Lead from the Front" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045018">
+      <property name="CardNumber" value="45018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Choose a player. Each character that player controls gets +1 THW and +1 ATK until the end of the phase.</property>
+    </card>
+    <card name="The Power of Leadership" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045019">
+      <property name="CardNumber" value="45019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="resource"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">Max 2 per deck.
+Double the number of resources this card generates while paying for a Leadership &lt;i&gt;(blue)&lt;/i&gt; card.</property>
+    </card>
+    <card name="Legion" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045020">
+      <property name="CardNumber" value="45020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Psionic. X-Men."/>
+      <property name="Text">[star] &lt;b&gt;Response&lt;/b&gt;: After Legion uses a basic power, discard the top card of your deck. If that card's printed resource has:
+[energy] — Deal 2 damage to an enemy.
+[mental] — Remove 2 threat from a scheme.
+[physical] — Heal 2 damage from Legion.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Marrow" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045021">
+      <property name="CardNumber" value="45021"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="X-Force."/>
+      <property name="Text">Play only if you have the [[X-FORCE]] or [[X-MEN]] trait.
+&lt;b&gt;Response&lt;/b&gt;: After Marrow enters play, deal 2 damage to an enemy.</property>
+      <property name="Quote">"You won't look so pretty once I get you!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Magik" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045030">
+      <property name="CardNumber" value="45030a"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="magik"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Mystic. X-Men."/>
+      <property name="Text">Play with the top card of your deck faceup.
+Once per phase, you may play the top card of your deck as if it was in your hand, reducing its resource cost by 1.</property>
+      <property name="Quote">"There are no snowflakes in Limbo."</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Illyana Rasputin" type="b">
+        <property name="CardNumber" value="45030b"/>
+        <property name="Position" value="30"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="magik"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Mutant. Mystic."/>
+        <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When you change to hero form, choose a [[SPELL]] in your discard pile and put it on top of your deck. (Limit once per phase.)</property>
+        <property name="Quote">"I would sell the last piece of my soul for an egg roll right now!"</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Colossus" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045031">
+      <property name="CardNumber" value="45031"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="magik"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">Toughness.
+&lt;b&gt;Interrupt&lt;/b&gt;: When an enemy attacks you, play Colossus from your hand (paying his resource cost) and declare him the defender without exhausting him.</property>
+      <property name="Quote">"I will always protect you, little Snowflake."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Limbo" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045032">
+      <property name="CardNumber" value="45032"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="magik"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Dimension."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After the villain phase begins, exhaust Limbo → swap a card in your hand with the top card of your deck.
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Limbo → swap a card in your hand with the top card of your deck.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Magik's Crown" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045033">
+      <property name="CardNumber" value="45033"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="magik"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Magik gains steady.
+While the top card of your deck has a [mental] or [wild] resource icon, Magik gets +1 THW.</property>
+      <property name="Quote">Raised in Limbo, Magik is destined to usurp its rule from the man who brought her there.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Soulsword" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045034">
+      <property name="CardNumber" value="45034"/>
+      <property name="Position" value="34"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="magik"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Armor."/>
+      <property name="Text">Restricted.
+Magik's basic attacks gain piercing.
+While the top card of your deck has a [physical] or [wild] resource icon, Magik gets +1 ATK.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Mystical Armor" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045035">
+      <property name="CardNumber" value="45035"/>
+      <property name="Position" value="35"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="magik"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Armor."/>
+      <property name="Text">Magik gains retaliate 1.
+While the top card of your deck has a [energy] or [wild] resource icon, Magik gets +1 DEF.</property>
+      <property name="Quote">It's very fashionable in Limbo.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Scrying" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045036">
+      <property name="CardNumber" value="45036"/>
+      <property name="Position" value="36"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="magik"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Spell."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Look at the top 3 cards of your deck. Draw one, discard one, and put one back on top of your deck.</property>
+      <property name="Quote">"Yes, I've seen your future. No, I will not tell you."—Magik</property>
+    </card>
+    <card name="Stepping Disc" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045037">
+      <property name="CardNumber" value="45037"/>
+      <property name="Position" value="37"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="magik"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Ready your hero. Choose a Magik card in your discard pile not named Stepping Disc and put it on top of your deck.</property>
+      <property name="Quote">Magik's teleportation discs can take her anywhere by opening a portal through Limbo.</property>
+    </card>
+    <card name="Exorcism" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045038">
+      <property name="CardNumber" value="45038"/>
+      <property name="Position" value="38"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="magik"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Spell. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 4 threat from a scheme. If the top card of your deck has a [mental] or [wild] resource icon, confuse the villain.</property>
+      <property name="Quote">"I have purged the evil from within you." —Magik</property>
+    </card>
+    <card name="Soul Strike" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045039">
+      <property name="CardNumber" value="45039"/>
+      <property name="Position" value="39"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="magik"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Attack. Spell."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy. If the top card of your deck has a [physical] or [wild] resource icon, stun that enemy.</property>
+      <property name="Quote">"Very well. Feel the bite of my Soulsword!" —Magik</property>
+    </card>
+    <card name="Magic Barrier" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045040">
+      <property name="CardNumber" value="45040"/>
+      <property name="Position" value="40"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="magik"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Defense. Spell."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(defense)&lt;/i&gt;: When an enemy initiates an attack, prevent 3 damage from this attack. If the top card of your deck has a [energy] or [wild] resource icon, deal 3 damage to the attacking enemy.</property>
+    </card>
+    <card name="Goldballs" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045041">
+      <property name="CardNumber" value="45041"/>
+      <property name="Position" value="41"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">[star] &lt;b&gt;Interrupt&lt;/b&gt;: When Goldballs attacks, discard up to 3 cards from the top of your deck → Goldballs gets +X ATK for this attack, where X is the number of cards discarded this way.</property>
+      <property name="Quote">"I didn't choose the name."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Tempus" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045042">
+      <property name="CardNumber" value="45042"/>
+      <property name="Position" value="42"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">Play only if your identity has the [[X-MEN]] trait.
+&lt;b&gt;Interrupt&lt;/b&gt;: When the villain would scheme, discard Tempus → cancel that activation. Deal yourself 1 facedown encounter card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Blood Rage" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045043">
+      <property name="CardNumber" value="45043"/>
+      <property name="Position" value="43"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Max 1 per player.
+&lt;b&gt;Response&lt;/b&gt;: After you defeat an enemy with a basic attack, exhaust Blood Rage and take 1 damage → draw 1 card.</property>
+    </card>
+    <card name="Test the Defense" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045044">
+      <property name="CardNumber" value="45044"/>
+      <property name="Position" value="44"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">Max 1 per player.
+&lt;b&gt;Response&lt;/b&gt;: After you play an [[ATTACK]] event, place 1 test counter here. If there are 5 test counters here, discard this card to deal 5 damage to an enemy.</property>
+    </card>
+    <card name="Full-Body Charge" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045045">
+      <property name="CardNumber" value="45045"/>
+      <property name="Position" value="45"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 8 damage to an enemy. If your hero's remaining hit points are less than half your hero's starting hit points, this attack gains overkill.</property>
+      <property name="Quote">"Coming through, tovarisch!"—Colossus</property>
+    </card>
+    <card name="Clobber" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045046">
+      <property name="CardNumber" value="45046"/>
+      <property name="Position" value="46"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(Attack)&lt;/i&gt;: Deal 3 damage to an enemy. If this is the first card you have played this round, return this card to your hand.</property>
+    </card>
+    <card name="The Power of Aggression" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045047">
+      <property name="CardNumber" value="45047"/>
+      <property name="Position" value="47"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="resource"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">Max 2 per deck.
+Double the number of resources this card generates while paying for a Aggression &lt;i&gt;(red)&lt;/i&gt; card.</property>
+    </card>
+    <card name="Triage" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045048">
+      <property name="CardNumber" value="45048"/>
+      <property name="Position" value="48"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Triage enters play, heal 2 damage from an [[X-Men]] character.</property>
+      <property name="Quote">"Let me have a look at that."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Stepford Cuckoos" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045049">
+      <property name="CardNumber" value="45049"/>
+      <property name="Position" value="49"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Persona. Psionic."/>
+      <property name="Text">Play only if your identity has the [[X-Men]] trait. Uses (3 psi counters).
+&lt;b&gt;Interrupt&lt;/b&gt;: When a player reveals a treachery, exhaust Stepford Cuckoos and remove 1 psi counter here → cancel the effects of that card and discard it. That player reveals another encounter card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Bloodgem" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045050">
+      <property name="CardNumber" value="45050"/>
+      <property name="Position" value="50"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Play only if your identity has the [[MYSTIC]] trait. Max 1 per deck.
+&lt;b&gt;Resource&lt;/b&gt;: Exhaust Bloodgem and take 2 damage → generate a [wild] resource.</property>
+    </card>
+    <card name="Basic Spell" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045051">
+      <property name="CardNumber" value="45051"/>
+      <property name="Position" value="51"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Spell."/>
+      <property name="Text">Play only if your identity has the [[MYSTIC]] trait.
+&lt;b&gt;Hero Action&lt;/b&gt;: Choose one:
+• Heal 3 damage from an identity.
+• Remove 3 threat from a scheme.
+• Deal 3 damage to an enemy.</property>
+    </card>
+    <card name="Spiritual Meditation" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045052">
+      <property name="CardNumber" value="45052"/>
+      <property name="Position" value="52"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Spell."/>
+      <property name="Text">Play only if your identity has the [[Mystic]] trait.
+&lt;b&gt;Action&lt;/b&gt;: Draw 2 cards. Choose and discard 1 card from your hand.</property>
+    </card>
+    <card name="Mission Team" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045171">
+      <property name="CardNumber" value="45171a"/>
+      <property name="Position" value="171"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="aoa_campaign"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Mission."/>
+      <property name="Text">Mission Team cannot be discarded and the first player gains control of it.
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Mission Team → choose:
+• Reduce the cost of the next ally played to the mission by 2.
+• Make a mission attempt.</property>
+      <alternate name="Mission Team" type="b">
+        <property name="CardNumber" value="45171b"/>
+        <property name="Position" value="171"/>
+        <property name="Faction" value="campaign"/>
+        <property name="Type" value="support"/>
+        <property name="Resource_Wild" value="1"/>
+        <property name="Attribute" value="Finished."/>
+        <property name="Text">Mission Team cannot be discarded and the first player gains control of it.
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Mission Team → choose a player to draw 1 card.</property>
+        <property name="Quote">"Another successful mission. Hopefully this time they don't sue for damages!" —Polaris</property>
+      </alternate>
+    </card>
+    <card name="Destiny" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045172">
+      <property name="CardNumber" value="45172"/>
+      <property name="Position" value="172"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="aoa_campaign"/>
+      <property name="Thwart" value="3"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Destiny enters your hand, remove 2 threat from the main scheme.</property>
+      <property name="Quote">"Outsmarting your opponent is child's play when you know the future."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Blink" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045173">
+      <property name="CardNumber" value="45173"/>
+      <property name="Position" value="173"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="aoa_campaign"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Blink enters your hand, deal 2 damage to the villain.</property>
+      <property name="Quote">"My name's Blink. Who do you think is faster?"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Morph" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045174">
+      <property name="CardNumber" value="45174"/>
+      <property name="Position" value="174"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="aoa_campaign"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Morph enters your hand, confuse the villain.</property>
+      <property name="Quote">"What's all the hubbub, bub?"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="X-Man" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045175">
+      <property name="CardNumber" value="45175"/>
+      <property name="Position" value="175"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="aoa_campaign"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After X-Man enters your hand, give your identity a tough status card.</property>
+      <property name="Quote">"The innocent are safe so long as I have anything to say!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Desperate Measures" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045176">
+      <property name="CardNumber" value="45176"/>
+      <property name="Position" value="176"/>
+      <property name="Quantity" value="4"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="aoa_campaign"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">Attach to an ally. Limit 1 per ally.
+Attached ally gets +1 THW, +1 ATK, +1 hit point, and is considered to have a wild ([wild]) resource icon in addition to its printed resource icon.</property>
+      <property name="Quote">"My brother will never stop." —Magik</property>
+    </card>
+    <card name="Fear the Future" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045025" size="EncounterCard">
+      <property name="CardNumber" value="45025"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="bishop"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Lucas Bishop player.&lt;/i&gt;&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+• Exhaust Lucas Bishop → remove Fear the Future from the game.
+• Discard this card and each resource card from your hand. If no resource cards are discarded this way, this card gains surge.</property>
+    </card>
+    <card name="Trevor Fitzroy" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045026" size="EncounterCard">
+      <property name="CardNumber" value="45026"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="bishop_nemesis"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Elite. Temporal."/>
+      <property name="Text">Quickstrike.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Trevor Fitzroy attacks and defeats an ally, if Portal Through Time is in play, place 2 threat on it. Otherwise, find it and reveal it.
+&lt;i&gt;(Bishop's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Portal Through Time" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045027" size="SchemeCard">
+      <property name="CardNumber" value="45027"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="bishop_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When a [[Temporal]] card is revealed, it gains surge. (Limit once per phase.)</property>
+      <property name="Quote">Trevor Fitzroy uses his time portals to commit crimes and escape justice.</property>
+    </card>
+    <card name="Bantam" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045028" size="EncounterCard">
+      <property name="CardNumber" value="45028"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="bishop_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Temporal."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If Portal Through Time is in play, place 2 threat on it. Otherwise, find Portal Through Time and reveal it.</property>
+      <property name="Quote">"Time to go, Trevor."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Temporal Trickery" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045029" size="EncounterCard">
+      <property name="CardNumber" value="45029"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="bishop_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Temporal."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard a card in your hand with the most printed resource icons. Place 1 threat on each scheme for each resource icon on that card.</property>
+      <property name="Quote">"That's why I love time travel no matter how many times I rob this bank, they're always surprised." —Trevor Fitzroy</property>
+    </card>
+    <card name="Darkchilde" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045053" size="EncounterCard">
+      <property name="CardNumber" value="45053"/>
+      <property name="Position" value="53"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="magik"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Illyana Rasputin player.&lt;/i&gt;&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+• Exhaust Illyana Rasputin → remove Darkchilde from the game.
+• Deal 1 damage to each character you control. Discard this obligation.</property>
+    </card>
+    <card name="Belasco" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045054" size="EncounterCard">
+      <property name="CardNumber" value="45054"/>
+      <property name="Position" value="54"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="magik_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Elite. Limbo."/>
+      <property name="Text">Villainous.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Belasco activates against you, discard the top 3 cards of your deck. If Ruler of Limbo is in play, attach those cards to it facedown.
+&lt;i&gt;(Magik's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Ruler of Limbo" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045055" size="SchemeCard">
+      <property name="CardNumber" value="45055"/>
+      <property name="Position" value="55"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="magik_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Threat cannot be removed from this scheme while Belasco is in play.
+&lt;b&gt;When Revealed&lt;/b&gt;: The Illyana Rasputin player finds Limbo and attaches it facedown here. When this scheme is defeated, put Limbo into play under its owner's control.</property>
+    </card>
+    <card name="S'ym" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045056" size="EncounterCard">
+      <property name="CardNumber" value="45056"/>
+      <property name="Position" value="56"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="magik_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Limbo."/>
+      <property name="Text">Guard.
+&lt;b&gt;When Revealed&lt;/b&gt;: If Ruler of Limbo is in play, place 2 threat on it. Otherwise, place 2 threat on the main scheme.</property>
+      <property name="Quote">"The boss says he's had enough of your constant meddling."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Witchfire" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045057" size="EncounterCard">
+      <property name="CardNumber" value="45057"/>
+      <property name="Position" value="57"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="magik_nemesis"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Limbo."/>
+      <property name="Text">Quickstrike.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Witchfire attacks and defeats an ally, place 1 threat on Ruler of Limbo. Otherwise, place 1 threat on the main scheme.</property>
+      <property name="Quote">"Limbo is my birthright!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Battle for Limbo" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045058" size="EncounterCard">
+      <property name="CardNumber" value="45058"/>
+      <property name="Position" value="58"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="magik_nemesis"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Each [[Limbo]] minion in play activates against the player it is engaged with. If no [[Limbo]] minion activated this way, this card gains surge.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: If Ruler of Limbo is in play, place 2 threat on it.</property>
+    </card>
+    <card name="Unus" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045059" size="VillainCard">
+      <property name="CardNumber" value="45059"/>
+      <property name="Position" value="59"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="unus"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="12"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Prelate."/>
+      <property name="Text">Toughness.
+If the amount of threat on Gene Pool is at least:
+• 3 — Unus gains retaliate 1.
+• 6 — Unus also gains stalwart.
+• 9 — Unus also gains a [amplify] icon.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Unus" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045060" size="VillainCard">
+      <property name="CardNumber" value="45060"/>
+      <property name="Position" value="60"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="unus"/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="15"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Prelate."/>
+      <property name="Text">Toughness.
+If the amount of threat on Gene Pool is at least:
+• 3 — Unus gains retaliate 1.
+• 6 — Unus also gains stalwart.
+• 9 — Unus also gains a [amplify] icon.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Unus" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045061" size="VillainCard">
+      <property name="CardNumber" value="45061"/>
+      <property name="Position" value="61"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="unus"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="18"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Prelate."/>
+      <property name="Text">Toughness.
+If the amount of threat on Gene Pool is at least:
+• 3 — Unus gains retaliate 1.
+• 6 — Unus also gains stalwart.
+• 9 — Unus also gains a [amplify] icon.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Hunting Gene Traitors" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045062" size="SchemeCard">
+      <property name="CardNumber" value="45062a"/>
+      <property name="Position" value="62"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="unus"/>
+      <property name="Stage" value="1"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Unus (I) and Unus (II). &lt;i&gt;(Unus (II) and Unus (III) instead for expert mode.)&lt;/i&gt; Unus, Infinites, and Standard sets. One modular set &lt;i&gt;(Dystopian Nightmare)&lt;/i&gt;.
+&lt;b&gt;Setup&lt;/b&gt;: Reveal the Gene Pool side scheme. In expert mode, deal each player a facedown encounter card.</property>
+      <alternate name="Hunting Gene Traitors" type="b" size="SchemeCard">
+		  <property name="CardNumber" value="45062b"/>
+		  <property name="Position" value="62"/>
+		  <property name="Faction" value="encounter"/>
+		  <property name="Type" value="main_scheme"/>
+		  <property name="Owner" value="unus"/>
+		  <property name="Stage" value="1"/>
+		  <property name="BaseThreat" value="0"/>
+		  <property name="BaseThreatFixed" value="True"/>
+		  <property name="Threat" value="11"/>
+		  <property name="EscalationThreat" value="1"/>
+		  <property name="EscalationThreatFixed" value="False"/>
+		  <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After resolving step one of the villain phase, place 1 threat on Gene Pool.
+	&lt;b&gt;If this scheme is completed, the players lose the game.&lt;/b&gt;</property>
+		  <property name="Quote">Prelate Unus and his squad of Infinites scour the ruins of the X-Mansion for the enemies of Apocalypse.</property>
+      </alternate>
+    </card>
+    <card name="Prelate Sidearm" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045063" size="EncounterCard">
+      <property name="CardNumber" value="45063"/>
+      <property name="Position" value="63"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="unus"/>
+      <property name="Attack" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Attach to Unus.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Unus attacks and defeats an ally, place 1 threat on Gene Pool.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you make a basic attack against Unus, spend [energy] [physical] resources → discard this card.</property>
+    </card>
+    <card name="Prelate Armor" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045064" size="EncounterCard">
+      <property name="CardNumber" value="45064"/>
+      <property name="Position" value="64"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="unus"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="Attribute" value="Armor."/>
+      <property name="Text">Attach to Unus.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Unus schemes, give him a tough status card.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you make a basic attack against Unus, spend [mental] [physical] resources → discard this card.</property>
+    </card>
+    <card name="Infinite Hunter" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045065" size="EncounterCard">
+      <property name="CardNumber" value="45065"/>
+      <property name="Position" value="65"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="unus"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Infinite."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Deal 3 damage to an ally you control.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Choose to either place 2 threat on Gene Pool, or the activating enemy gets +2 SCH and +2 ATK for this activation.</property>
+    </card>
+    <card name="Genetic Experiments" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045066" size="EncounterCard">
+      <property name="CardNumber" value="45066"/>
+      <property name="Position" value="66"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="unus"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attach to an [[Infinite]] minion. Otherwise, this card gains surge.
+Attached minion gets +2 hit points.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached minion is defeated, place 2 threat on Gene Pool.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Attach this card to an [[Infinite]] minion.</property>
+    </card>
+    <card name="Infinite Prelate" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045067" size="EncounterCard">
+      <property name="CardNumber" value="45067"/>
+      <property name="Position" value="67"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="unus"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Unus activates against you. If the amount of threat on Gene Pool is at least:
+• 3 — Give Unus a tough status card.
+• 6 — Heal 3 damage from Unus as well.
+• 9 — Give Unus an additional boost card for this activation as well.</property>
+    </card>
+    <card name="Endless Ranks" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045068" size="SchemeCard">
+      <property name="CardNumber" value="45068"/>
+      <property name="Position" value="68"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="unus"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: Place 3 threat on Gene Pool.</property>
+      <property name="Quote">The Infinites live up to their name: no matter how many you defeat, they keep making more.</property>
+    </card>
+    <card name="Infinite Soldier" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045069" size="EncounterCard">
+      <property name="CardNumber" value="45069"/>
+      <property name="Position" value="69"/>
+      <property name="Quantity" value="5"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="infinites"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Infinite."/>
+      <property name="Text">Guard.
+If the amount of threat on Gene Pool is at least:
+• 3 — This minion gains quickstrike.
+• 6 — This minion also gains surge.
+• 9 — This minion also gets +3 hit points.</property>
+    </card>
+    <card name="Culling the Weak" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045070" size="EncounterCard">
+      <property name="CardNumber" value="45070"/>
+      <property name="Position" value="70"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="infinites"/>
+      <property name="Scheme" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 4 threat on Gene Pool.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 2 threat on Gene Pool.</property>
+      <property name="Quote">The Infinites were created to enforce the mandate of Apocalypse: the weak must perish.</property>
+    </card>
+    <card name="Gene Pool" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045071" size="SchemeCard">
+      <property name="CardNumber" value="45071"/>
+      <property name="Position" value="71"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="infinites"/>
+      <property name="Scheme" value="1"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Permanent. Setup.
+&lt;b&gt;Forced Response&lt;/b&gt;: After an ally is defeated by anything other than consequential damage, place 3 threat here.</property>
+      <property name="Quote">Apocalypse uses the raw genetic material of his victims to create the Infinites.</property>
+    </card>
+    <card name="Hunted" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045072" size="EncounterCard">
+      <property name="CardNumber" value="45072"/>
+      <property name="Position" value="72"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="dystopian_nightmare"/>
+      <property name="Boost" value="2"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Discard a card from your hand → discard this card.</property>
+    </card>
+    <card name="War-Weary" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045073" size="EncounterCard">
+      <property name="CardNumber" value="45073"/>
+      <property name="Position" value="73"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="dystopian_nightmare"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: You are stunned. If you were already stunned, take 2 damage instead.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: You are stunned. If you were already stunned, take 2 damage instead.</property>
+    </card>
+    <card name="Targeted for Extermination" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045074" size="SchemeCard">
+      <property name="CardNumber" value="45074"/>
+      <property name="Position" value="74"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="dystopian_nightmare"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this scheme confuses their identity.</property>
+      <property name="Quote">The Infinites hunt down those whom their master deems unworthy.</property>
+    </card>
+    <card name="Pursued by the Past" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045075" size="EncounterCard">
+      <property name="CardNumber" value="45075a"/>
+      <property name="Position" value="75"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="standard_iii"/>
+      <property name="Text">Permanent. Setup.
+&lt;b&gt;Forced Response&lt;/b&gt;: After you place a pursuit counter here, if the number of counters here is at least 3 more than the number of players, remove each counter here → if your nemesis minion is in play, it activates against you. Otherwise, flip this card over.</property>
+      <alternate name="Pursued by the Past" type="b" size="EncounterCard">
+        <property name="CardNumber" value="45075b"/>
+        <property name="Position" value="75"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="environment"/>
+        <property name="Owner" value="standard_iii"/>
+        <property name="Text">Permanent.
+&lt;b&gt;Forced Response&lt;/b&gt;: After you flip to this side, find your nemesis minion and reveal it. Search the set-aside area for your nemesis side scheme and reveal it. Shuffle your remaining set-aside nemesis set into the encounter deck. Flip this card over.</property>
+      </alternate>
+    </card>
+    <card name="Dark Design" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045076" size="EncounterCard">
+      <property name="CardNumber" value="45076"/>
+      <property name="Position" value="76"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="standard_iii"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 pursuit counter on Pursued by the Past. Then, if it has any counters on it, the villain schemes.
+[star] &lt;b&gt;Boost&lt;/b&gt;: After this activation resolves, place 1 pursuit counter on Pursued by the Past.</property>
+    </card>
+    <card name="Sinister Strike" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045077" size="EncounterCard">
+      <property name="CardNumber" value="45077"/>
+      <property name="Position" value="77"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="standard_iii"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed (Alter-Ego)&lt;/b&gt;: Place 1 pursuit counter on Pursued by the Past. Then, if it has any counters on it, this card gains surge.
+&lt;b&gt;When Revealed (Hero)&lt;/b&gt;: Place 1 pursuit counter on Pursued by the Past. Then, if it has any counters on it, the villain attacks you.</property>
+    </card>
+    <card name="Evil Alliance" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045078" size="EncounterCard">
+      <property name="CardNumber" value="45078"/>
+      <property name="Position" value="78"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="standard_iii"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Each nemesis minion in play activates against you. If no minions activated this way, place 3 pursuit counters on Pursued by the Past.
+[star] &lt;b&gt;Boost&lt;/b&gt;: After this activation resolves, place 1 pursuit counter on Pursued by the Past.</property>
+    </card>
+    <card name="Nowhere is Safe" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045079" size="EncounterCard">
+      <property name="CardNumber" value="45079"/>
+      <property name="Position" value="79"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="standard_iii"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 pursuit counter on Pursued by the Past. Then, if it has any counters on it, discard an upgrade or support you control.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: After this activation resolves, place 1 pursuit counter on Pursued by the Past.</property>
+    </card>
+    <card name="Drawing Near" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045080" size="EncounterCard">
+      <property name="CardNumber" value="45080"/>
+      <property name="Position" value="80"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="standard_iii"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After your turn begins, discard the top card of your deck. Place 1 pursuit counter on Pursued by the Past for each printed resource icon on that card.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Discard an identity-specific card from your hand → discard this card.</property>
+    </card>
+    <card name="War" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045081" size="VillainCard">
+      <property name="CardNumber" value="45081a"/>
+      <property name="Position" value="81"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Stage" value="0"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="9"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Horsemen."/>
+      <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After War attacks you, if he has at least 1 hit point, discard an upgrade or support you control.
+&lt;b&gt;War cannot be defeated while another villain has at least 1 hit point.&lt;/b&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="War" type="b" size="VillainCard">
+        <property name="CardNumber" value="45081b"/>
+        <property name="Position" value="81"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="four_horsemen"/>
+        <property name="Stage" value="0"/>
+        <property name="Attack" value="3"/>
+        <property name="Scheme" value="2"/>
+        <property name="HP" value="12"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Horsemen."/>
+        <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After War attacks you, if he has at least 1 hit point, discard an upgrade or support you control.
+&lt;b&gt;War cannot be defeated while another villain has at least 1 hit point.&lt;/b&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Famine" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045082" size="VillainCard">
+      <property name="CardNumber" value="45082a"/>
+      <property name="Position" value="82"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Stage" value="0"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="9"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Horsemen."/>
+      <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Famine attacks you, if she has at least 1 hit point, discard the top 10 cards of your deck.
+&lt;b&gt;Famine cannot be defeated while another villain has at least 1 hit point.&lt;/b&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Famine" type="b" size="VillainCard">
+        <property name="CardNumber" value="45082b"/>
+        <property name="Position" value="82"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="four_horsemen"/>
+        <property name="Stage" value="0"/>
+        <property name="Attack" value="2"/>
+        <property name="Scheme" value="3"/>
+        <property name="HP" value="12"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Horsemen."/>
+        <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Famine attacks you, if she has at least 1 hit point, discard the top 10 cards of your deck.
+&lt;b&gt;Famine cannot be defeated while another villain has at least 1 hit point.&lt;/b&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Pestilence" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045083" size="VillainCard">
+      <property name="CardNumber" value="45083a"/>
+      <property name="Position" value="83"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Stage" value="0"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="9"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Horsemen."/>
+      <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Pestilence attacks you, if she has at least 1 hit point, treat your identity's text box as if it were blank &lt;i&gt;(except for [[Traits]])&lt;/i&gt; until the next villain phase begins.
+&lt;b&gt;Pestilence cannot be defeated while another villain has at least 1 hit point.&lt;/b&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Pestilence" type="b" size="VillainCard">
+        <property name="CardNumber" value="45083b"/>
+        <property name="Position" value="83"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="four_horsemen"/>
+        <property name="Stage" value="0"/>
+        <property name="Attack" value="2"/>
+        <property name="Scheme" value="3"/>
+        <property name="HP" value="12"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Horsemen."/>
+        <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Pestilence attacks you, if she has at least 1 hit point, treat your identity's text box as if it were blank &lt;i&gt;(except for [[Traits]])&lt;/i&gt; until the next villain phase begins.
+&lt;b&gt;Pestilence cannot be defeated while another villain has at least 1 hit point.&lt;/b&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Death" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045084" size="VillainCard">
+      <property name="CardNumber" value="45084a"/>
+      <property name="Position" value="84"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Stage" value="0"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="9"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Aerial. Horsemen."/>
+      <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Death attacks you, if he has at least 1 hit point, deal 1 damage to each character you control.
+&lt;b&gt;Death cannot be defeated while another villain has at least 1 hit point.&lt;/b&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Death" type="b" size="VillainCard">
+        <property name="CardNumber" value="45084b"/>
+        <property name="Position" value="84"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="four_horsemen"/>
+        <property name="Stage" value="0"/>
+        <property name="Attack" value="3"/>
+        <property name="Scheme" value="2"/>
+        <property name="HP" value="12"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Aerial. Horsemen."/>
+        <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Death attacks you, if he has at least 1 hit point, deal 1 damage to each character you control.
+&lt;b&gt;Death cannot be defeated while another villain has at least 1 hit point.&lt;/b&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="The Horsemen of Apocalypse" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045085" size="SchemeCard">
+      <property name="CardNumber" value="45085a"/>
+      <property name="Position" value="85"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Stage" value="1"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: War (A), Famine (A), Pestilence (A), Death (A), Four Horsemen, Standard, and two modular sets &lt;i&gt;(Dystopian Nightmare and Hounds) &lt;/i&gt;.
+&lt;b&gt;Setup&lt;/b&gt;: Shuffle the four [[Horsemen]] villains, then reveal them in a row from left to right. Place the active counter on the leftmost villain (see rulebook). Each player reveals a random side scheme from the Four Horsemen encounter set.</property>
+      <alternate name="The Horsemen of Apocalypse" type="b" size="SchemeCard">
+		  <property name="CardNumber" value="45085b"/>
+		  <property name="Position" value="85"/>
+		  <property name="Faction" value="encounter"/>
+		  <property name="Type" value="main_scheme"/>
+		  <property name="Owner" value="four_horsemen"/>
+		  <property name="Stage" value="1"/>
+		  <property name="BaseThreat" value="0"/>
+		  <property name="BaseThreatFixed" value="True"/>
+		  <property name="Threat" value="12"/>
+		  <property name="EscalationThreat" value="1"/>
+		  <property name="EscalationThreatFixed" value="False"/>
+		  <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After a villain activates, move the active counter to the next villain.
+	&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+		  <property name="Quote">The Four Horsemen are the most brutal servants of Apocalypse. They strike in turn, using their powers as a team.</property>
+      </alternate>
+    </card>
+    <card name="The Ravages of War" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045086" size="SchemeCard">
+      <property name="CardNumber" value="45086"/>
+      <property name="Position" value="86"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="6"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this scheme discards an upgrade or support they control.</property>
+      <property name="Quote">War uses the shockwaves created by his arms to keep his opponents off balance.</property>
+    </card>
+    <card name="A Time of Famine" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045087" size="SchemeCard">
+      <property name="CardNumber" value="45087"/>
+      <property name="Position" value="87"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="6"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this scheme discards the top 10 cards of their deck.</property>
+      <property name="Quote">The mere touch of Famine leaves even the strongest mutant enfeebled.</property>
+    </card>
+    <card name="Plague and Pestilence" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045088" size="SchemeCard">
+      <property name="CardNumber" value="45088"/>
+      <property name="Position" value="88"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="6"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this scheme treats their identity's text box as if it were blank (except for [[Traits]]) until the next villain phase begins.</property>
+      <property name="Quote">Pestilence uses her power to make her enemies sick and helpless.</property>
+    </card>
+    <card name="The Specter of Death" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045089" size="SchemeCard">
+      <property name="CardNumber" value="45089"/>
+      <property name="Position" value="89"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="6"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this scheme deals 1 damage to each character they control.</property>
+      <property name="Quote">The shadow of Death drives fear into the hearts of those he hunts.</property>
+    </card>
+    <card name="Golden Horse" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045090" size="EncounterCard">
+      <property name="CardNumber" value="45090"/>
+      <property name="Position" value="90"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Item. Tech."/>
+      <property name="Text">Attach to the villain with the fewest hit points without the [[Aerial]] trait.
+Attached villain gains the [[Aerial]] trait and is considered to have at least 1 hit point.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you attack attached villain, resolve its "&lt;b&gt;Forced Response&lt;/b&gt;" as if it just attacked you → discard this card.</property>
+    </card>
+    <card name="Metal Wings" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045091" size="EncounterCard">
+      <property name="CardNumber" value="45091"/>
+      <property name="Position" value="91"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Item. Tech."/>
+      <property name="Text">Attach to Death and move the active counter to him.
+Death gains retaliate 1 and is considered to have at least 1 hit point remaining.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you attack Death, resolve his "&lt;b&gt;Forced Response&lt;/b&gt;" as if he just attacked you → discard this card.</property>
+    </card>
+    <card name="Horseman of War" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045092" size="EncounterCard">
+      <property name="CardNumber" value="45092"/>
+      <property name="Position" value="92"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Heal 2 damage from War and give him a tough status card. He activates against you.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: After this activation, War activates against you. Do not give War a boost card for that activation.</property>
+    </card>
+    <card name="Horseman of Famine" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045093" size="EncounterCard">
+      <property name="CardNumber" value="45093"/>
+      <property name="Position" value="93"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Heal 2 damage from Famine and give her a tough status card. She activates against you.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: After this activation, Famine activates against you. Do not give Famine a boost card for that activation.</property>
+    </card>
+    <card name="Horseman of Pestilence" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045094" size="EncounterCard">
+      <property name="CardNumber" value="45094"/>
+      <property name="Position" value="94"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Heal 2 damage from Pestilence and give her a tough status card. She activates against you.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: After this activation, Pestilence activates against you. Do not give Pestilence a boost card for that activation.</property>
+    </card>
+    <card name="Horseman of Death" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045095" size="EncounterCard">
+      <property name="CardNumber" value="45095"/>
+      <property name="Position" value="95"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Heal 2 damage from Death and give him a tough status card. He activates against you.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: After this activation, Death activates against you. Do not give Death a boost card for that activation.</property>
+    </card>
+    <card name="Rough Riders" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045096" size="EncounterCard">
+      <property name="CardNumber" value="45096"/>
+      <property name="Position" value="96"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="four_horsemen"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Resolve the "&lt;b&gt;Forced Response&lt;/b&gt;" on the active villain as if it has at least 1 hit point and attacked you. Move the active counter to the next villain and resolve its "&lt;b&gt;Forced Response&lt;/b&gt;" the same way.</property>
+    </card>
+    <card name="Ahab" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045097" size="EncounterCard">
+      <property name="CardNumber" value="45097"/>
+      <property name="Position" value="97"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="hounds"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Cyborg. Tracker."/>
+      <property name="Text">Toughness.
+&lt;b&gt;When Revealed&lt;/b&gt;: If Release the Hounds is in play, place 3 threat on it. Otherwise, find the Release the Hounds side scheme and reveal it.</property>
+      <property name="Quote">"You cannot hide from me, mutant."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Hound" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045098" size="EncounterCard">
+      <property name="CardNumber" value="45098"/>
+      <property name="Position" value="98"/>
+      <property name="Quantity" value="4"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="hounds"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Tracker."/>
+      <property name="Text">Guard.
+&lt;b&gt;When Revealed&lt;/b&gt;: If you are in hero form, Hound attacks you. Otherwise, change your identity to hero form.</property>
+      <property name="Quote">Ahab's hounds are mutants stripped of free will and forced to hunt their own kind.</property>
+    </card>
+    <card name="Ahab's Energy Spear" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045099" size="EncounterCard">
+      <property name="CardNumber" value="45099"/>
+      <property name="Position" value="99"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="hounds"/>
+      <property name="Attack" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Attach to Ahab. Otherwise, attach to the villain.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached enemy attacks you, this attack gains overkill and piercing. At the end of this attack, discard Ahab's Energy Spear.</property>
+    </card>
+    <card name="Release the Hounds" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045100" size="SchemeCard">
+      <property name="CardNumber" value="45100"/>
+      <property name="Position" value="100"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="hounds"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">The first copy of Hound revealed each phase gains surge.
+&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this scheme searches the encounter deck and discard pile for a copy of Hound and deals it to themself as a facedown encounter card.</property>
+      <property name="Quote">Ahab takes pleasure in hunting mutants with the help of his hounds.</property>
+    </card>
+    <card name="Apocalypse" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045101" size="VillainCard">
+      <property name="CardNumber" value="45101a"/>
+      <property name="Position" value="101"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="apocalypse"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="8"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Mutant."/>
+      <property name="Text">Toughness.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the main scheme is completed, remove all threat from it &lt;i&gt;(ignoring any crisis ([crisis]) icons)&lt;/i&gt;. Flip this card and reveal Apocalypse (II).</property>
+      <property name="Quote">"Challenge me and be reminded why Apocalypse reigns supreme."</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Apocalypse" type="b" size="VillainCard">
+        <property name="CardNumber" value="45101b"/>
+        <property name="Position" value="101"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="apocalypse"/>
+        <property name="Stage" value="2"/>
+        <property name="Attack" value="2"/>
+        <property name="Scheme" value="2"/>
+        <property name="HP" value="9"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Mutant."/>
+        <property name="Text">Steady. Toughness.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the main scheme is completed, remove all threat from it &lt;i&gt;(ignoring any crisis ([crisis]) icons)&lt;/i&gt;. Remove this card from the game and reveal Apocalypse (III).</property>
+        <property name="Quote">"You are foolish to oppose me."</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Apocalypse" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045102" size="VillainCard">
+      <property name="CardNumber" value="45102a"/>
+      <property name="Position" value="102"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="apocalypse"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="10"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Mutant."/>
+      <property name="Text">Steady. Toughness.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the main scheme is completed, remove all threat from it &lt;i&gt;(ignoring any crisis ([crisis]) icons)&lt;/i&gt;. Flip this card and reveal Apocalypse (IV).</property>
+      <property name="Quote">"This world belongs to me and those I deem worthy."</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Apocalypse" type="b" size="VillainCard">
+        <property name="CardNumber" value="45102b"/>
+        <property name="Position" value="102"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="apocalypse"/>
+        <property name="Stage" value="4"/>
+        <property name="Attack" value="3"/>
+        <property name="Scheme" value="3"/>
+        <property name="HP" value="11"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Mutant."/>
+        <property name="Text">Stalwart. Toughness.
+[star] Apocalypse's attacks gain overkill.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the main scheme is completed, the players lose the game.</property>
+        <property name="Quote">"I will cleanse this world with fire. Only the strong will survive."</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="The Age of Apocalypse" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045103" size="SchemeCard">
+      <property name="CardNumber" value="45103a"/>
+      <property name="Position" value="103"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="apocalypse"/>
+      <property name="Stage" value="1"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Apocalypse (II) and Apocalypse (III). &lt;i&gt;(Apocalypse (III) only for expert mode.)&lt;/i&gt; Apocalypse, Prelates, and Standard sets. Two modular sets &lt;i&gt;(Dark Riders and Infinites)&lt;/i&gt;.
+&lt;b&gt;Setup&lt;/b&gt;: Set aside each unused villain card, each [[Prelate]] minion, and The Tyrant's Throne side scheme. Reveal the Heart of the Empire side scheme. The first player reveals a random, set-aside [[Prelate]] minion.</property>
+	  <alternate name="The Age of Apocalypse" type="b" size="SchemeCard">
+		  <property name="CardNumber" value="45103b"/>
+		  <property name="Position" value="103"/>
+		  <property name="Faction" value="encounter"/>
+		  <property name="Type" value="main_scheme"/>
+		  <property name="Owner" value="apocalypse"/>
+		  <property name="Stage" value="1"/>
+		  <property name="BaseThreat" value="1"/>
+		  <property name="BaseThreatFixed" value="False"/>
+		  <property name="Threat" value="-1"/>
+		  <property name="EscalationThreat" value="1"/>
+		  <property name="EscalationThreatFixed" value="False"/>
+		  <property name="Text">X is the numeral in Apocalypse's printed hit point value.
+	&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Apocalypse would be defeated, discard each attachment from him and heal all damage from him instead. Remove X threat from this scheme &lt;i&gt;(ignoring any crisis ([crisis]) icons)&lt;/i&gt;.</property>
+		  <property name="Quote">The time has come for a direct assault on Apocalypse in his towering citadel.</property>
+	  </alternate>
+    </card>
+    <card name="Heart of the Empire" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045104" size="SchemeCard">
+      <property name="CardNumber" value="45104a"/>
+      <property name="Position" value="104"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="apocalypse"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">Threat cannot be removed from this scheme while a [[Prelate]] minion is in play.
+&lt;b&gt;When Defeated&lt;/b&gt;: The first player reveals a random set-aside [[Prelate]] minion. Deal each other player an encounter card. Flip this card over.</property>
+      <property name="Quote">Before you can challenge Apocalypse, you must fight your way through his tower.</property>
+      <alternate name="The Towering Citadel" type="b" size="SchemeCard">
+        <property name="CardNumber" value="45104b"/>
+        <property name="Position" value="104"/>
+		<property name="Faction" value="encounter"/>
+		<property name="Type" value="side_scheme"/>
+		<property name="Owner" value="apocalypse"/>
+		<property name="BaseThreat" value="3"/>
+		<property name="BaseThreatFixed" value="True"/>
+		<property name="EscalationThreatFixed" value="False"/>
+		<property name="Scheme_Acceleration" value="2"/>
+		<property name="Text">Threat cannot be removed from this scheme while a [[Prelate]] minion is in play.
+		&lt;b&gt;When Defeated&lt;/b&gt;: The first player reveals a random set-aside [[Prelate]] minion. Deal each other player an encounter card. Reveal The Tyrant's Throne side scheme and remove this card from the game.</property>
+      </alternate>
+    </card>
+    <card name="The Tyrant's Throne" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045105" size="SchemeCard">
+      <property name="CardNumber" value="45105a"/>
+      <property name="Position" value="105"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side Discard"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="apocalypse"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="3"/>
+      <property name="Text">Threat cannot be removed from this scheme while a [[Prelate]] minion is in play.
+&lt;b&gt;When Defeated&lt;/b&gt;: The first player reveals a random set-aside [[Prelate]] minion. Deal each other player an encounter card. Flip this card over and reveal No Longer Worthy.</property>
+      <alternate name="No Longer Worthy" type="b" size="EncounterCard">
+        <property name="CardNumber" value="45105b"/>
+        <property name="Position" value="105"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="attachment"/>
+        <property name="Owner" value="apocalypse"/>
+        <property name="Attribute" value="Condition."/>
+        <property name="Text">Attach to Apocalypse and heal 5[per_hero] hit points from him. He cannot take damage while a [[Prelate]] minion is in play.
+Ignore the "&lt;b&gt;Forced Interrupt&lt;/b&gt;" on the main scheme.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Apocalypse is defeated, the players win the game.</property>
+      </alternate>
+    </card>
+    <card name="Cyberpathy" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045106" size="EncounterCard">
+      <property name="CardNumber" value="45106"/>
+      <property name="Position" value="106"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="apocalypse"/>
+      <property name="Scheme" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Attach to Apocalypse.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Apocalypse schemes, place 1 threat on each side scheme.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Attach this card to Apocalypse.</property>
+    </card>
+    <card name="Biomorphing" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045107" size="EncounterCard">
+      <property name="CardNumber" value="45107"/>
+      <property name="Position" value="107"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="apocalypse"/>
+      <property name="Attack" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Attach to Apocalypse.
+[star] Apocalypse's attacks gain overkill.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Attach this card to Apocalypse.</property>
+    </card>
+    <card name="Molecular Control" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045108" size="EncounterCard">
+      <property name="CardNumber" value="45108"/>
+      <property name="Position" value="108"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="apocalypse"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Attach to Apocalypse.
+Apocalypse gains retaliate 1 and stalwart.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Attach this card to Apocalypse.</property>
+      <property name="Quote">Apocalypse's power to control every molecule in his body makes him an unpredictable foe.</property>
+    </card>
+    <card name="The Fittest" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045109" size="EncounterCard">
+      <property name="CardNumber" value="45109"/>
+      <property name="Position" value="109"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="apocalypse"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attach to the minion with the highest printed hit points and give it a tough status card. Otherwise, this card gains surge.
+Attached enemy gets +5 hit points.</property>
+      <property name="Quote">Apocalypse promotes only the strongest and most ruthless mutants to the rank of Prelate.</property>
+    </card>
+    <card name="Wolf Among Sheep" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045110" size="EncounterCard">
+      <property name="CardNumber" value="45110"/>
+      <property name="Position" value="110"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="apocalypse"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: The [[Prelate]] minion activates against you. Otherwise, Apocalypse activates against you.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Give the [[Prelate]] minion a tough status card. Otherwise, give Apocalypse a tough status card.</property>
+    </card>
+    <card name="The Apocalypse Solution" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045111" size="SchemeCard">
+      <property name="CardNumber" value="45111"/>
+      <property name="Position" value="111"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="apocalypse"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: Discard the top X cards of the encounter deck, where X is the numeral in Apocalypse's printed hit point value.</property>
+      <property name="Quote">Apocalypse would rather burn his kingdom to the ground than surrender his rule.</property>
+    </card>
+    <card name="Gauntlet" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045112" size="EncounterCard">
+      <property name="CardNumber" value="45112"/>
+      <property name="Position" value="112"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="dark_riders"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Dark Riders."/>
+      <property name="Text">Teamwork ([[Dark Riders]]).
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Gauntlet attacks you, discard an upgrade you control.</property>
+      <property name="Quote">"You want someone gone? You hire the Dark Riders."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Barrage" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045113" size="EncounterCard">
+      <property name="CardNumber" value="45113"/>
+      <property name="Position" value="113"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="dark_riders"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Dark Riders."/>
+      <property name="Text">Teamwork ([[Dark Riders]]).
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Barrage attacks you, deal 1 damage to each character you control.</property>
+      <property name="Quote">"Don't expect someone named 'Barrage' to be picky with their targets." —Cyclops</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Hard-Drive" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045114" size="EncounterCard">
+      <property name="CardNumber" value="45114"/>
+      <property name="Position" value="114"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="dark_riders"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Dark Riders."/>
+      <property name="Text">Teamwork ([[Dark Riders]]).
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Hard-Drive attacks you, place 1 threat on each scheme.</property>
+      <property name="Quote">"I've finished my scan. Ready to jump."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Tusk" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045115" size="EncounterCard">
+      <property name="CardNumber" value="45115"/>
+      <property name="Position" value="115"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="dark_riders"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="0"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Dark Riders."/>
+      <property name="Text">Teamwork ([[Dark Riders]]).
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Tusk attacks you, you are stunned.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: You are stunned.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Psynapse" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045116" size="EncounterCard">
+      <property name="CardNumber" value="45116"/>
+      <property name="Position" value="116"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="dark_riders"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Dark Riders."/>
+      <property name="Text">Teamwork ([[Dark Riders]]).
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Psynapse attacks you, you are confused.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: You are confused.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Dark Riders" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045117" size="SchemeCard">
+      <property name="CardNumber" value="45117"/>
+      <property name="Position" value="117"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="dark_riders"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Hinder 1[per_hero].
+Each [[Dark Riders]] minion gains toughness.
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard cards from the encounter deck until a [[Dark Riders]] minion is discarded and reveal it.</property>
+      <property name="Quote">Dark Riders live by the axiom: The weak must perish.</property>
+    </card>
+    <card name="Dark Beast" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045118" size="VillainCard">
+      <property name="CardNumber" value="45118"/>
+      <property name="Position" value="118"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="dark_beast"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="15"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Brute. Genius."/>
+      <property name="Text">[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Dark Beast attacks you, resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment.
+&lt;b&gt;When Revealed&lt;/b&gt;: Reveal a random set-aside environment and shuffle the rest of its encounter set into the encounter deck.</property>
+      <property name="Quote">"A villain's work is never done!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Dark Beast" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045119" size="VillainCard">
+      <property name="CardNumber" value="45119"/>
+      <property name="Position" value="119"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="dark_beast"/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="18"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Brute. Genius."/>
+      <property name="Text">[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Dark Beast attacks you, resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment.
+&lt;b&gt;When Revealed&lt;/b&gt;: Reveal a random set-aside environment and shuffle the rest of its encounter set into the encounter deck. Deal each player an encounter card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Dark Beast" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045120" size="VillainCard">
+      <property name="CardNumber" value="45120"/>
+      <property name="Position" value="120"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="dark_beast"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="3"/>
+      <property name="HP" value="22"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Brute. Genius."/>
+      <property name="Text">[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Dark Beast attacks you, resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment.
+&lt;b&gt;When Revealed&lt;/b&gt;: Reveal a random set-aside environment and shuffle the rest of its encounter set into the encounter deck. Deal each player an encounter card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Dark Beast's Bogus Journey" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045121" size="SchemeCard">
+      <property name="CardNumber" value="45121a"/>
+      <property name="Position" value="121"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="dark_beast"/>
+      <property name="Stage" value="1"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Dark Beast (I) and Dark Beast (II). &lt;i&gt;(Dark Beast (II) and Dark Beast (III) for expert mode.)&lt;/i&gt; Dark Beast, Blue Moon, Genosha, Savage Land, and Standard sets. One modular set &lt;i&gt;(Dystopian Nightmare)&lt;/i&gt;.
+&lt;b&gt;Setup&lt;/b&gt;: Set the Blue Moon, Genosha, and Savage Land sets aside &lt;i&gt;(including each environment card in those sets)&lt;/i&gt;. In expert mode, reveal the High-Tech Goggles attachment.</property>
+	  <alternate name="Dark Beast's Bogus Journey" type="b" size="SchemeCard">
+		<property name="CardNumber" value="45121b"/>
+		<property name="Position" value="121"/>
+		<property name="Faction" value="encounter"/>
+		<property name="Type" value="main_scheme"/>
+		<property name="Owner" value="dark_beast"/>
+		<property name="Stage" value="1"/>
+		<property name="BaseThreat" value="1"/>
+		<property name="BaseThreatFixed" value="False"/>
+		<property name="Threat" value="10"/>
+		<property name="EscalationThreat" value="1"/>
+		<property name="EscalationThreatFixed" value="False"/>
+		<property name="Text">&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+		<property name="Quote">Dark Beast activates his time machine to ensure the rise of Apocalypse, but your quick action ruins his calculations. You wrestle for control of the device as it transports you through time and space!</property>
+	  </alternate>
+    </card>
+    <card name="High-Tech Goggles" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045122" size="EncounterCard">
+      <property name="CardNumber" value="45122"/>
+      <property name="Position" value="122"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="dark_beast"/>
+      <property name="Scheme" value="1"/>
+      <property name="Attribute" value="Tech."/>
+      <property name="Text">Attach to Dark Beast.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust your hero and resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment. → discard this card.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Attach this card to Dark Beast.</property>
+    </card>
+    <card name="Genetic Enhancement" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045123" size="EncounterCard">
+      <property name="CardNumber" value="45123"/>
+      <property name="Position" value="123"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="dark_beast"/>
+      <property name="Attack" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attach to Dark Beast.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust your hero and resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment. → discard this card.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Attach this card to Dark Beast.</property>
+    </card>
+    <card name="Cruel Experiment" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045124" size="EncounterCard">
+      <property name="CardNumber" value="45124"/>
+      <property name="Position" value="124"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="dark_beast"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attached minion gets +2 hit points and gains guard.
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard cards from the top of the encounter deck until you discard a minion. Reveal that minion and attach Cruel Experiment to it.</property>
+      <property name="Quote">"I could do this with anesthesia, but what fun would that be?" —Dark Beast</property>
+    </card>
+    <card name="Evil Genius" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045125" size="EncounterCard">
+      <property name="CardNumber" value="45125"/>
+      <property name="Position" value="125"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="dark_beast"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed (Alter-Ego)&lt;/b&gt;: Dark Beast schemes. Give him a tough status card.
+&lt;b&gt;When Revealed (Hero)&lt;/b&gt;: Dark Beast attacks you. Give him an additional boost card for this attacks.</property>
+    </card>
+    <card name="Time-Travel Shenanigans" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045126" size="SchemeCard">
+      <property name="CardNumber" value="45126"/>
+      <property name="Position" value="126"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="dark_beast"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this scheme discards cards from the top of the encounter deck until they discard a card from the same encounter set as the [[Setting]] environment and reveals the just-discarded card.</property>
+    </card>
+    <card name="The Savage Land" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045127" size="EncounterCard">
+      <property name="CardNumber" value="45127"/>
+      <property name="Position" value="127"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="savage_land"/>
+      <property name="Boost" value="3"/>
+      <property name="Attribute" value="Location. Setting."/>
+      <property name="Text">Setup.
+The villain gains retaliate 1.
+&lt;b&gt;Special&lt;/b&gt;: Discard the top 3 cards of your deck.
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard each other [[Setting]] environment in play.</property>
+    </card>
+    <card name="Pterosaur" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045128" size="EncounterCard">
+      <property name="CardNumber" value="45128"/>
+      <property name="Position" value="128"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="savage_land"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="0"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Aerial. Creature."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: If The Savage Land is in play, deal Pterosaur to yourself as a facedown encounter card.</property>
+    </card>
+    <card name="Velociraptor" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045129" size="EncounterCard">
+      <property name="CardNumber" value="45129"/>
+      <property name="Position" value="129"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="savage_land"/>
+      <property name="Attack" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Creature."/>
+      <property name="Text">Quickstrike.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Velociraptor attacks you, discard the top card of your deck. Velociraptor gets +1 ATK for this attack for each resource icon discarded this way.</property>
+    </card>
+    <card name="Giant Ape" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045130" size="EncounterCard">
+      <property name="CardNumber" value="45130"/>
+      <property name="Position" value="130"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="savage_land"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Creature."/>
+      <property name="Text">Guard.
+&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated Giant Ape resolves the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment.</property>
+      <property name="Quote">"This is why you don't feed the animals!" —Jubilee</property>
+    </card>
+    <card name="Land Out of Time" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045131" size="EncounterCard">
+      <property name="CardNumber" value="45131"/>
+      <property name="Position" value="131"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="savage_land"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If the Savage Land is in play, resolve its "&lt;b&gt;Special&lt;/b&gt;" ability and take 1 indirect damage for each resource icon on the discarded cards. Otherwise, find The Savage Land and reveal it.</property>
+      <property name="Quote">The Savage Land is exactly what you'd expect from a prehistoric jungle in the middle of Antarctica.</property>
+    </card>
+    <card name="Village Under Attack" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045132" size="SchemeCard">
+      <property name="CardNumber" value="45132"/>
+      <property name="Position" value="132"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="savage_land"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Text">Hinder 1[per_hero].
+&lt;b&gt;When Defeated&lt;/b&gt;: Each player resolves the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment.</property>
+      <property name="Quote">"We need ta save the village from those dinosaurs! (is something Ah never imagined saying.)" —Rogue</property>
+    </card>
+    <card name="Genosha" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045133" size="EncounterCard">
+      <property name="CardNumber" value="45133"/>
+      <property name="Position" value="133"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="genosha"/>
+      <property name="Boost" value="3"/>
+      <property name="Attribute" value="Location. Setting."/>
+      <property name="Text">Setup.
+The villain gains steady.
+&lt;b&gt;Special&lt;/b&gt;: Place 1 threat on the main scheme.
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard each other [[Setting]] environment in play.</property>
+    </card>
+    <card name="Magistrate" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045134" size="EncounterCard">
+      <property name="CardNumber" value="45134"/>
+      <property name="Position" value="134"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="genosha"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Genosha."/>
+      <property name="Text">Patrol.
+&lt;b&gt;When Defeated&lt;/b&gt;: The defeating player finds Escaped Mutant and attaches it to their identity.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: If Escaped Mutant is attached to your identity, this card gains [boost][boost][boost].</property>
+    </card>
+    <card name="Armored Unibike" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045135" size="EncounterCard">
+      <property name="CardNumber" value="45135"/>
+      <property name="Position" value="135"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="genosha"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Genosha. Vehicle."/>
+      <property name="Text">Armored Unibike engages the player with Escaped Mutant attached, if able.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Armored Unibike attacks, resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment.</property>
+      <property name="Quote">"I have the mutant's signal. Moving to intercept."</property>
+    </card>
+    <card name="Genoshan Mech" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045136" size="EncounterCard">
+      <property name="CardNumber" value="45136"/>
+      <property name="Position" value="136"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="genosha"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Genosha. Vehicle."/>
+      <property name="Text">Guard. Toughness.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Genoshan Mech attacks and defeats one of your allies, resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment twice.</property>
+      <property name="Quote">"Their suits are built to counter our powers." —Storm</property>
+    </card>
+    <card name="Escaped Mutant" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045137" size="EncounterCard">
+      <property name="CardNumber" value="45137"/>
+      <property name="Position" value="137"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="genosha"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">Attach to your identity.
+Each [[Genosha]] minion that engages you gains quickstrike.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment → discard this card.</property>
+      <property name="Quote">Mutants who wish to escape Genosha must find a way to evade the magistrate.</property>
+    </card>
+    <card name="Police State" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045138" size="SchemeCard">
+      <property name="CardNumber" value="45138"/>
+      <property name="Position" value="138"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="genosha"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Text">Hinder 1[per_hero].
+&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this scheme finds the Escaped Mutant attachment and reveals it.</property>
+      <property name="Quote">Genosha built its wealth by exploiting its mutant population.</property>
+    </card>
+    <card name="Blue Area of the Moon" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045139" size="EncounterCard">
+      <property name="CardNumber" value="45139"/>
+      <property name="Position" value="139"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="blue_moon"/>
+      <property name="Boost" value="3"/>
+      <property name="Attribute" value="Location. Setting."/>
+      <property name="Text">Setup.
+Each minion gains guard.
+&lt;b&gt;Special&lt;/b&gt;: Deal 1 damage to your identity.
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard each other [[Setting]] environment in play.</property>
+    </card>
+    <card name="Gladiator" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045140" size="EncounterCard">
+      <property name="CardNumber" value="45140"/>
+      <property name="Position" value="140"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="blue_moon"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Elite. Imperial Guard."/>
+      <property name="Text">Teamwork ([[Imperial Guard]]).
+While Trial by Combat is in play, Gladiator cannot take damage.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: If Trial by Combat is in play, deal Gladiator by yourself as a facedown encounter card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Oracle" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045141" size="EncounterCard">
+      <property name="CardNumber" value="45141"/>
+      <property name="Position" value="141"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="blue_moon"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Imperial Guard."/>
+      <property name="Text">Teamwork ([[Imperial Guard]]).
+&lt;b&gt;When Revealed&lt;/b&gt;: You are confused. If you were already confused, resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment.</property>
+      <property name="Quote">"This is not a fight you can win."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Manta" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045142" size="EncounterCard">
+      <property name="CardNumber" value="45142"/>
+      <property name="Position" value="142"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="blue_moon"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Imperial Guard."/>
+      <property name="Text">Teamwork ([[Imperial Guard]]).
+&lt;b&gt;When Revealed&lt;/b&gt;: You are stunned. If you were already stunned, resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Earthquake" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045143" size="EncounterCard">
+      <property name="CardNumber" value="45143"/>
+      <property name="Position" value="143"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="blue_moon"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Imperial Guard."/>
+      <property name="Text">Teamwork ([[Imperial Guard]]).
+&lt;b&gt;When Revealed&lt;/b&gt;: Exhaust your identity. If you were already exhausted, resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment.</property>
+      <property name="Quote">"Let me shake things up!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Warstar" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045144" size="EncounterCard">
+      <property name="CardNumber" value="45144"/>
+      <property name="Position" value="144"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="blue_moon"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Imperial Guard."/>
+      <property name="Text">Teamwork ([[Imperial Guard]]).
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard the top card of the encounter deck. If that card is an [[Imperial Guard]] minion, reveal it. Otherwise, resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Imperial Guardsman" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045145" size="EncounterCard">
+      <property name="CardNumber" value="45145"/>
+      <property name="Position" value="145"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="blue_moon"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text">Attach to a minion. Otherwise, this card gains surge.
+Attached minion gets +4 hit points and gains the [[Imperial Guard]] trait.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached minion is defeated, resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on the [[Setting]] environment.</property>
+    </card>
+    <card name="Trial by Combat" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045146" size="SchemeCard">
+      <property name="CardNumber" value="45146"/>
+      <property name="Position" value="146"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="blue_moon"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Hinder 1[per_hero].
+&lt;b&gt;When Defeated&lt;/b&gt;: Shuffle each [[Imperial Guard]] minion in the encounter discard pile into the encounter deck.</property>
+      <property name="Quote">Shi'ar law grants the accused an opportunity to defend themselves, but they must battle the Imperial Guard.</property>
+    </card>
+    <card name="En Sabah Nur's Pyramid" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045147" size="SchemeCard">
+      <property name="CardNumber" value="45147a"/>
+      <property name="Position" value="147"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="en_sabah_nur"/>
+      <property name="Stage" value="1"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Apocalypse (I) and Apocalypse (II). &lt;i&gt;(Apocalypse (II) and Apocalypse (III) for expert mode.)&lt;/i&gt; En Sabah Nur and Standard sets. Two modular sets &lt;i&gt;(Celestial Tech and Clan Akkaba)&lt;/i&gt;.
+&lt;b&gt;Setup&lt;/b&gt;: Apocalypse begins the game in [[Biomorph]] form. Deal each player a facedown encounter card.</property>
+	  <alternate name="En Sabah Nur's Pyramid" type="b" size="SchemeCard">
+		<property name="CardNumber" value="45147b"/>
+		<property name="Position" value="147"/>
+		<property name="Faction" value="encounter"/>
+		<property name="Type" value="main_scheme"/>
+		<property name="Owner" value="en_sabah_nur"/>
+		<property name="Stage" value="1"/>
+		<property name="BaseThreat" value="1"/>
+		<property name="BaseThreatFixed" value="False"/>
+		<property name="Threat" value="8"/>
+		<property name="EscalationThreat" value="1"/>
+		<property name="EscalationThreatFixed" value="False"/>
+		<property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After resolving step 1 of the villain phase, place 1 power counter here. If there are at least 4 power counters here, the first player removes 4 of them and discards cards from the top of the encounter deck until a [[Superpower]] card is discarded and reveal it.</property>
+		<property name="Quote">Within his high-tech pyramid, Apocalypse prepares for his ascension.</property>
+	  </alternate>
+    </card>
+    <card name="The Rise of Apocalypse" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045148" size="SchemeCard">
+      <property name="CardNumber" value="45148a"/>
+      <property name="Position" value="148"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="en_sabah_nur"/>
+      <property name="Stage" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: The first player discards cards from the top of the encounter deck until a [[Superpower]] card is discarded and reveals it.</property>
+      <property name="Quote">You've seen what the future looks like if Apocalypse's influence is allowed to grow. It's up to you to stop the megalomaniac here and now!</property>
+	  <alternate name="The Rise of Apocalypse" type="b" size="SchemeCard">
+		<property name="CardNumber" value="45148b"/>
+		<property name="Position" value="148"/>
+		<property name="Faction" value="encounter"/>
+		<property name="Type" value="main_scheme"/>
+		<property name="Owner" value="en_sabah_nur"/>
+		<property name="Stage" value="2"/>
+		<property name="BaseThreat" value="1"/>
+		<property name="BaseThreatFixed" value="False"/>
+		<property name="Threat" value="10"/>
+		<property name="EscalationThreat" value="1"/>
+		<property name="EscalationThreatFixed" value="False"/>
+		<property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After resolving step 1 of the villain phase, place 1 power counter here. If there are at least 4 power counters here, the first player removes 4 of them and discards cards from the top of the encounter deck until a [[Superpower]] card is discarded and reveals it.
+		&lt;b&gt;If this scheme is completed, the players lose the game.&lt;/b&gt;</property>
+	  </alternate>
+    </card>
+    <card name="Staggering Strength" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045149" size="EncounterCard">
+      <property name="CardNumber" value="45149"/>
+      <property name="Position" value="149"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="en_sabah_nur"/>
+      <property name="Attack" value="2"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Attach to Apocalypse and change him to [[Giant]] form.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Apocalypse attacks you, you are stunned. Discard this card after this activation.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: After this activation, reveal this card.</property>
+    </card>
+    <card name="Biomorphic Blast" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045150" size="EncounterCard">
+      <property name="CardNumber" value="45150"/>
+      <property name="Position" value="150"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="en_sabah_nur"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If Apocalypse is in [[Biomorph]] form, he activates against you. Otherwise, change Apocalypse to [[Biomorph]] form and place 1 power counter on the main scheme.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: After this activation, change Apocalypse to [[Biomorph]] form.</property>
+    </card>
+    <card name="Technological Interface" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045151" size="EncounterCard">
+      <property name="CardNumber" value="45151"/>
+      <property name="Position" value="151"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="en_sabah_nur"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If Apocalypse is in [[Cyberpath]] form, he activates against you. Otherwise, change Apocalypse to [[Cyberpath]] form and place 1 power counter on the main scheme.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: After this activation, change Apocalypse to [[Cyberpath]] form.</property>
+    </card>
+    <card name="Giant-Sized Despot" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045152" size="EncounterCard">
+      <property name="CardNumber" value="45152"/>
+      <property name="Position" value="152"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="en_sabah_nur"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If Apocalypse is in [[Giant]] form, he activates against you. Otherwise, change Apocalypse to [[Giant]] form and place 1 power counter on the main scheme.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: After this activation, change Apocalypse to [[Giant]] form.</property>
+    </card>
+    <card name="Source of Power" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045153" size="SchemeCard">
+      <property name="CardNumber" value="45153"/>
+      <property name="Position" value="153"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="en_sabah_nur"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: If Apocalypse is in [[Biomorph]] form, he activates against the player who defeated this scheme. Otherwise, change Apocalypse to [[Biomorph]] form and give him a tough status card.</property>
+    </card>
+    <card name="Plugged In" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045154" size="SchemeCard">
+      <property name="CardNumber" value="45154"/>
+      <property name="Position" value="154"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="en_sabah_nur"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: If Apocalypse is in [[Cyberpath]] form, he activates against the player who defeated this scheme. Otherwise, change Apocalypse to [[Cyberpath]] form and give him a tough status card.</property>
+    </card>
+    <card name="Giant Growth" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045155" size="SchemeCard">
+      <property name="CardNumber" value="45155"/>
+      <property name="Position" value="155"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="en_sabah_nur"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: If Apocalypse is in [[Giant]] form, he activates against the player who defeated this scheme. Otherwise, change Apocalypse to [[Giant]] form and give him a tough status card.</property>
+    </card>
+    <card name="Celestial Armor" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045156" size="EncounterCard">
+      <property name="CardNumber" value="45156"/>
+      <property name="Position" value="156"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="celestial_tech"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Armor. Celestial."/>
+      <property name="Text">Attach to the villain.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When the villain schemes against you, discard the top card of your deck. If that card's resource has:
+[energy] — Heal 2 damage from the villain.
+[mental] — You are confused. Discard this card.
+[physical] — Give the villain a tough status card.
+[wild] — Do all of the above.</property>
+    </card>
+    <card name="Celestial Weapon" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045157" size="EncounterCard">
+      <property name="CardNumber" value="45157"/>
+      <property name="Position" value="157"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="celestial_tech"/>
+      <property name="Attack" value="0"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Celestial. Weapon."/>
+      <property name="Text">Attach to the villain.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When the villain attacks you, discard the top card of your deck. If that card's resource has:
+[energy] — Deal 2 damage to your identity.
+[mental] — Discard a card from your hand.
+[physical] — You are stunned. Discard this card.
+[wild] — Do all of the above.</property>
+    </card>
+    <card name="Celestial Tech" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045158" size="EncounterCard">
+      <property name="CardNumber" value="45158"/>
+      <property name="Position" value="158"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="celestial_tech"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: For each [[Celestial]] attachment in play, resolve its effect as if the attached villain just schemed against you and attacked you. If there are no [[Celestial]] attachments on the villain, search the encounter deck and discard pile for a [[Celestial]] attachment and reveal it. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+    </card>
+    <card name="Ozymandias" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045159" size="EncounterCard">
+      <property name="CardNumber" value="45159"/>
+      <property name="Position" value="159"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="clan_akkaba"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Clan Akkaba. Elite."/>
+      <property name="Text">Toughness. Villainous.
+[star] When Ozymandias schemes, place the threat on Ancient Ritual.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Choose: Either place 3 threat on Ancient Ritual, or this card gains [boost][boost][boost].</property>
+    </card>
+    <card name="Scarab" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045160" size="EncounterCard">
+      <property name="CardNumber" value="45160"/>
+      <property name="Position" value="160"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="clan_akkaba"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Clan Akkaba."/>
+      <property name="Text">Quickstrike.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Scarab attacks, place 1 threat on Ancient Ritual (3 threat instead if the attack defeated an ally).</property>
+    </card>
+    <card name="Clan Akkaba Zealot" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045161" size="EncounterCard">
+      <property name="CardNumber" value="45161"/>
+      <property name="Position" value="161"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="clan_akkaba"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Clan Akkaba."/>
+      <property name="Text">Guard.
+&lt;b&gt;When Defeated&lt;/b&gt;: Place 2 threat on Ancient Ritual.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 1 threat on Ancient Ritual.</property>
+    </card>
+    <card name="Tyrant Worship" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045162" size="EncounterCard">
+      <property name="CardNumber" value="45162"/>
+      <property name="Position" value="162"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="clan_akkaba"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 5 threat on Ancient Ritual.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Choose: Either place 3 threat on Ancient Ritual, or this card gains [boost][boost][boost].</property>
+      <property name="Quote">Clan Akkaba has dedicated itself completely to its lord's merciless doctrine.</property>
+    </card>
+    <card name="Ancient Ritual" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045163" size="SchemeCard">
+      <property name="CardNumber" value="45163"/>
+      <property name="Position" value="163"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="clan_akkaba"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Permanent. Setup.
+&lt;b&gt;Forced Response&lt;/b&gt;: After threat is placed here, if there is at least 10 threat here, remove 5 threat from this scheme and deal each player a facedown encounter card.</property>
+      <property name="Quote">"Not sure what they're doing, but I'm sure it's not good." —Iceman</property>
+    </card>
+    <card name="Agent of Apocalypse" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045164" size="EncounterCard">
+      <property name="CardNumber" value="45164"/>
+      <property name="Position" value="164"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="age_of_apocalypse"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Clan Akkaba."/>
+      <property name="Text">Guard.
+&lt;b&gt;When Revealed&lt;/b&gt;: Choose: Either add Agent of Apocalypse to the mission area, or it activates against you.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Deal 1 damage to an ally at the mission. Give the activating enemy an additional boost card.</property>
+    </card>
+    <card name="Worldwide Crisis" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045165" size="EncounterCard">
+      <property name="CardNumber" value="45165"/>
+      <property name="Position" value="165"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="age_of_apocalypse"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Choose: Either place 3 threat on the [[Mission]] side scheme, or take 1 damage and this card gains surge.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 1 threat on the [[Mission]] side scheme. Give the activating enemy an additional boost card.</property>
+    </card>
+    <card name="Mission Rules" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045999" size="EncounterCard">
+      <property name="CardNumber" value="45999a"/>
+      <property name="Position" value="999"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="aoa_mission"/>
+      <alternate name="Mission Attempt" type="b" size="EncounterCard">
+        <property name="CardNumber" value="45999b"/>
+        <property name="Position" value="999"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="treachery"/>
+        <property name="Owner" value="aoa_mission"/>
+      </alternate>
+    </card>
+    <card name="Liberate the Seattle Core" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045166" size="SchemeCard">
+      <property name="CardNumber" value="45166a"/>
+      <property name="Position" value="166"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="aoa_mission"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Attribute" value="Mission."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After you resolve a mission attempt, place 1 attempt counter here and deal 1 damage to each ally at the mission. If there are 4 attempt counters here, remove Mission Team from the game and flip this card over.
+&lt;b&gt;When Defeated&lt;/b&gt;: Shuffle each player card at the mission into its owner's deck. Flip Mission Team and this card over.</property>
+      <alternate name="Liberate the Seattle Core" type="b" size="SchemeCard">
+        <property name="CardNumber" value="45166b"/>
+        <property name="Position" value="166"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="side_scheme"/>
+        <property name="Owner" value="aoa_mission"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Attribute" value="Finished."/>
+        <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After you flip to this side, remove each card in the mission area from the game and do the following:
+• If the mission was not defeated, place 2[per_hero] threat on the main scheme.
+• If the mission was defeated, each player adds 1 copy of the Desperate Measures upgrade to their hand.</property>
+      </alternate>
+    </card>
+    <card name="Evacuate Survivors" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045167" size="SchemeCard">
+      <property name="CardNumber" value="45167a"/>
+      <property name="Position" value="167"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="aoa_mission"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Attribute" value="Mission."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After you resolve a mission attempt, place 1 attempt counter here and deal 1 damage to each ally at the mission. If there are 4 attempt counters here, remove Mission Team from the game and flip this card over.
+&lt;b&gt;When Defeated&lt;/b&gt;: Shuffle each player card at the mission into its owner's deck. Flip Mission Team and this card over.</property>
+      <alternate name="Evacuate Survivors" type="b" size="SchemeCard">
+        <property name="CardNumber" value="45167b"/>
+        <property name="Position" value="167"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="side_scheme"/>
+        <property name="Owner" value="aoa_mission"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Attribute" value="Finished."/>
+        <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After you flip to this side, remove each card in the mission area from the game and do the following:
+• If the mission was not defeated, deal each player a facedown encounter card.
+• If the mission was defeated, each player searches their deck and discard pile for 1 card and adds it to their hand.</property>
+      </alternate>
+    </card>
+    <card name="Sabotage the Sea Wall" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045168" size="SchemeCard">
+      <property name="CardNumber" value="45168a"/>
+      <property name="Position" value="168"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="aoa_mission"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Attribute" value="Mission."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After you resolve a mission attempt, place 1 attempt counter here and deal 1 damage to each ally at the mission. If there are 4 attempt counters here, remove Mission Team from the game and flip this card over.
+&lt;b&gt;When Defeated&lt;/b&gt;: Shuffle each player card at the mission into its owner's deck. Flip Mission Team and this card over.</property>
+      <alternate name="Sabotage the Sea Wall" type="b" size="SchemeCard">
+        <property name="CardNumber" value="45168b"/>
+        <property name="Position" value="168"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="side_scheme"/>
+        <property name="Owner" value="aoa_mission"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Attribute" value="Finished."/>
+        <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After you flip to this side, remove each card in the mission area from the game and do the following:
+• If the mission was not defeated, find North American Sea Wall and reveal it. &lt;i&gt;(Shuffle.)&lt;/i&gt;
+• If the mission was defeated, find North American Sea Wall, remove it from the game, and each player deals 3 damage to an enemy.</property>
+      </alternate>
+    </card>
+    <card name="Find Lost Mutants" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045169" size="SchemeCard">
+      <property name="CardNumber" value="45169a"/>
+      <property name="Position" value="169"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="aoa_mission"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Attribute" value="Mission."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After you resolve a mission attempt, place 1 attempt counter here and deal 1 damage to each ally at the mission. If there are 4 attempt counters here, remove Mission Team from the game and flip this card over.
+&lt;b&gt;When Defeated&lt;/b&gt;: Shuffle each player card at the mission into its owner's deck. Flip Mission Team and this card over.</property>
+      <alternate name="Find Lost Mutants" type="b" size="SchemeCard">
+        <property name="CardNumber" value="45169b"/>
+        <property name="Position" value="169"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="side_scheme"/>
+        <property name="Owner" value="aoa_mission"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Attribute" value="Finished."/>
+        <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After you flip to this side, remove each card in the mission area from the game and do the following:
+• If the mission was not defeated, each player discards 1 card from their hand.
+• If the mission was defeated, each player adds one set-aside campaign ally to their hand.</property>
+      </alternate>
+    </card>
+    <card name="Protect the Professor" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045170" size="SchemeCard">
+      <property name="CardNumber" value="45170a"/>
+      <property name="Position" value="170"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="aoa_mission"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Attribute" value="Mission."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After you resolve a mission attempt, place 1 attempt counter here and deal 1 damage to each ally at the mission. If there are 4 attempt counters here, remove Mission Team from the game and flip this card over.
+&lt;b&gt;When Defeated&lt;/b&gt;: Shuffle each player card at the mission into its owner's deck. Flip Mission Team and this card over.</property>
+      <alternate name="Protect the Professor" type="b" size="SchemeCard">
+        <property name="CardNumber" value="45170b"/>
+        <property name="Position" value="170"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="side_scheme"/>
+        <property name="Owner" value="aoa_mission"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Attribute" value="Finished."/>
+        <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After you flip to this side, remove each card in the mission area from the game and do the following:
+• If the mission was not defeated, the players lose the game.
+• If the mission was defeated, each player searches their deck and discard pile for an ally and adds it to their hand.</property>
+      </alternate>
+    </card>
+    <card name="North American Sea Wall" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045177" size="SchemeCard">
+      <property name="CardNumber" value="45177"/>
+      <property name="Position" value="177"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="aoa_campaign"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Hinder 2[per_hero]. Surge. Victory 2.
+The villain cannot take damage.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Deal this card to yourself as a facedown encounter card.</property>
+      <property name="Quote">Apocalypse's high-tech sea wall protects the eastern frontier of his realm.</property>
+    </card>
+    <card name="Panicked Refugees" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045178">
+      <property name="CardNumber" value="45178"/>
+      <property name="Position" value="178"/>
+      <property name="Quantity" value="4"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="aoa_campaign"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After this card enters your hand, reveal it. Then, draw 1 card.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust your identity → remove this card from the game.</property>
+    </card>
+    <card name="Mister Sinister" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045179" size="EncounterCard">
+      <property name="CardNumber" value="45179a"/>
+      <property name="Position" value="179"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="overseer"/>
+      <property name="HP" value="5"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Elite. Overseer."/>
+      <property name="Text">Victory 5.
+Cannot take damage while another minion is at the mission.
+Players cannot assign cards with the same resource icon ([energy], [mental], [physical], or [wild]) to more than one ally each mission attempt.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Mister Sinister" type="b" size="EncounterCard">
+        <property name="CardNumber" value="45179b"/>
+        <property name="Position" value="179"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="minion"/>
+        <property name="Owner" value="prelates"/>
+        <property name="Attack" value="1"/>
+        <property name="Scheme" value="1"/>
+        <property name="Boost" value="3"/>
+        <property name="HP" value="5"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Elite. Prelate."/>
+        <property name="Text">Retaliate 1. Toughness. Villainous. Victory 3.
+Mister Sinister engages the first player.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="The Shadow King" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045180" size="EncounterCard">
+      <property name="CardNumber" value="45180a"/>
+      <property name="Position" value="180"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="overseer"/>
+      <property name="HP" value="5"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Elite. Overseer."/>
+      <property name="Text">Victory 5.
+Cannot take damage while another minion is at the mission.
+&lt;b&gt;Mission Response&lt;/b&gt;: After you discard cards, place 2 threat on the [[Mission] side schemes for each mental resource ([mental]) discarded.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="The Shadow King" type="b" size="EncounterCard">
+        <property name="CardNumber" value="45180b"/>
+        <property name="Position" value="180"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="minion"/>
+        <property name="Owner" value="prelates"/>
+        <property name="Attack" value="1"/>
+        <property name="Scheme" value="3"/>
+        <property name="Boost" value="3"/>
+        <property name="HP" value="5"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Elite. Prelate."/>
+        <property name="Text">Toughness. Victory 3.
+Shadow King engages the first player.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After The Shadow King attacks you, choose an ally you control with the highest THW. Either discard that ally, or place threat on the main scheme equal to its THW.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Abyss" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045181" size="EncounterCard">
+      <property name="CardNumber" value="45181a"/>
+      <property name="Position" value="181"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="overseer"/>
+      <property name="HP" value="5"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Elite. Overseer."/>
+      <property name="Unique" value="True"/>
+      <alternate name="Abyss" type="b" size="EncounterCard">
+        <property name="CardNumber" value="45181b"/>
+        <property name="Position" value="181"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="minion"/>
+        <property name="Owner" value="prelates"/>
+        <property name="Attack" value="2"/>
+        <property name="Scheme" value="2"/>
+        <property name="Boost" value="3"/>
+        <property name="HP" value="5"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Elite. Prelate."/>
+        <property name="Text">Toughness. Victory 3.
+Abyss gets +2 hit points for each facedown card attached to him and engages the first player.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Abyss activates against you, attach the top card of your deck to him, facedown.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Sugar Man" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045182" size="EncounterCard">
+      <property name="CardNumber" value="45182a"/>
+      <property name="Position" value="182"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="overseer"/>
+      <property name="HP" value="5"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Elite. Overseer."/>
+      <property name="Text">Victory 5.
+Cannot take damage while another minion is at the mission.
+&lt;b&gt;Mission Response&lt;/b&gt;: After you discard cards, heal 3 damage from Sugar Man for each physical resource ([physical]) discarded.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Sugar Man" type="b" size="EncounterCard">
+        <property name="CardNumber" value="45182b"/>
+        <property name="Position" value="182"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="minion"/>
+        <property name="Owner" value="prelates"/>
+        <property name="Attack" value="3"/>
+        <property name="Scheme" value="1"/>
+        <property name="Boost" value="3"/>
+        <property name="HP" value="5"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Elite. Prelate."/>
+        <property name="Text">Toughness. Victory 3.
+Sugar Man engages the first player.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Sugar Man attacks, this attack gains piercing. If this attack defeats a character, heal 5 damage from Sugar Man.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Mikhail Rasputin" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045183" size="EncounterCard">
+      <property name="CardNumber" value="45183a"/>
+      <property name="Position" value="183"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="overseer"/>
+      <property name="HP" value="5"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Elite. Overseer."/>
+      <property name="Unique" value="True"/>
+      <alternate name="Mikhail Rasputin" type="b" size="EncounterCard">
+        <property name="CardNumber" value="45183b"/>
+        <property name="Position" value="183"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="minion"/>
+        <property name="Owner" value="prelates"/>
+        <property name="Attack" value="2"/>
+        <property name="Scheme" value="2"/>
+        <property name="Boost" value="3"/>
+        <property name="HP" value="5"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Elite. Prelate."/>
+        <property name="Text">Toughness. Victory 3.
+Mikhail Rasputin engages the first player.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Mikhail Rasputin attacks you, deal 1 damage to your identity.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Apocalypse (Biomorph)" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045184" size="VillainCard">
+      <property name="CardNumber" value="45184a"/>
+      <property name="Position" value="184"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="en_sabah_nur"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="16"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Mutant. Biomorph."/>
+      <property name="Text">[star] Apocalypse's attacks gain overkill.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Apocalypse changes to this form, deal 1 indirect damage to each player.</property>
+      <property name="Quote">"Now I claim my destiny!"</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Apocalypse (Cyberpath)" type="b" size="VillainCard">
+        <property name="CardNumber" value="45184b"/>
+        <property name="Position" value="184"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="en_sabah_nur"/>
+        <property name="Stage" value="1"/>
+        <property name="Attack" value="1"/>
+        <property name="Scheme" value="2"/>
+        <property name="HP" value="16"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Mutant. Cyberpath."/>
+        <property name="Text">Retaliate 1.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Apocalypse changes to this form, place 1 threat on each scheme in play.</property>
+        <property name="Quote">"I have judged you and found you wanting."</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+      <alternate name="Apocalypse (Giant)" type="c" size="VillainCard">
+        <property name="CardNumber" value="45184c"/>
+        <property name="Position" value="184"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="en_sabah_nur"/>
+        <property name="Stage" value="1"/>
+        <property name="Attack" value="2"/>
+        <property name="Scheme" value="2"/>
+        <property name="HP" value="16"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Mutant. Giant."/>
+        <property name="Text">Stalwart.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Apocalypse changes to this form, heal 1 damage from him.</property>
+        <property name="Quote">"I am as far beyond mutants as they are above humans."</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Apocalypse (Biomorph)" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045185" size="VillainCard">
+      <property name="CardNumber" value="45185a"/>
+      <property name="Position" value="185"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="en_sabah_nur"/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="20"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Mutant. Biomorph."/>
+      <property name="Text">[star] Apocalypse's attacks gain overkill.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Apocalypse changes to this form, deal 2 indirect damage to each player.</property>
+      <property name="Quote">"Now I claim my destiny!"</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Apocalypse (Cyberpath)" type="b" size="VillainCard">
+        <property name="CardNumber" value="45185b"/>
+        <property name="Position" value="185"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="en_sabah_nur"/>
+        <property name="Stage" value="2"/>
+        <property name="Attack" value="1"/>
+        <property name="Scheme" value="3"/>
+        <property name="HP" value="20"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Mutant. Cyberpath."/>
+        <property name="Text">Retaliate 1.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Apocalypse changes to this form, place 2 threat on each scheme in play.</property>
+        <property name="Quote">"I have judged you and found you wanting."</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+      <alternate name="Apocalypse (Giant)" type="c" size="VillainCard">
+        <property name="CardNumber" value="45185c"/>
+        <property name="Position" value="185"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="en_sabah_nur"/>
+        <property name="Stage" value="2"/>
+        <property name="Attack" value="3"/>
+        <property name="Scheme" value="2"/>
+        <property name="HP" value="20"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Mutant. Giant."/>
+        <property name="Text">Stalwart.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Apocalypse changes to this form, heal 2 damage from him.</property>
+        <property name="Quote">"I am as far beyond mutants as they are above humans."</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Apocalypse (Biomorph)" id="1ab538aa-6ad1-4d9d-83a6-3ebc3a045186" size="VillainCard">
+      <property name="CardNumber" value="45186a"/>
+      <property name="Position" value="186"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="en_sabah_nur"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="24"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Mutant. Biomorph."/>
+      <property name="Text">[star] Apocalypse's attacks gain overkill.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Apocalypse changes to this form, deal 3 indirect damage to each player.</property>
+      <property name="Quote">"Now I claim my destiny!"</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Apocalypse (Cyberpath)" type="b" size="VillainCard">
+        <property name="CardNumber" value="45186b"/>
+        <property name="Position" value="186"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="en_sabah_nur"/>
+        <property name="Stage" value="3"/>
+        <property name="Attack" value="2"/>
+        <property name="Scheme" value="3"/>
+        <property name="HP" value="24"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Mutant. Cyberpath."/>
+        <property name="Text">Retaliate 1.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Apocalypse changes to this form, place 3 threat on each scheme in play.</property>
+        <property name="Quote">"I have judged you and found you wanting."</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+      <alternate name="Apocalypse (Giant)" type="c" size="VillainCard">
+        <property name="CardNumber" value="45186c"/>
+        <property name="Position" value="186"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="en_sabah_nur"/>
+        <property name="Stage" value="3"/>
+        <property name="Attack" value="3"/>
+        <property name="Scheme" value="3"/>
+        <property name="HP" value="24"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Mutant. Giant."/>
+        <property name="Text">Stalwart.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Apocalypse changes to this form, heal 3 damage from him.</property>
+        <property name="Quote">"I am as far beyond mutants as they are above humans."</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+  </cards>
+</set>

@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="(FM) Dragon's Madripoor (By Merlin)" id="6583557d-1377-4643-8c37-1a89e583e47d" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+ <cards>
+    <card id="6583557d-1377-4643-8c37-1a89e5900001" name="Dragon's Madripoor (By Merlin)">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="nbModular" value="1"/>
+      <property name="recommendedModular" value="{'streets_of_mayhem':['Streets of Mayhem', 'Encounter', False]}"/>
+    </card>
+    <card name="Gorgon I" id="6583557d-1377-4643-8c37-1a89e5999001" size="VillainCard">
+      <property name="CardNumber" value="999001"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="HP" value="14"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Hand."/>
+    </card>
+    <card name="Gorgon II" id="6583557d-1377-4643-8c37-1a89e5999002" size="VillainCard">
+      <property name="CardNumber" value="999002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="16"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Hand."/>
+    </card>
+    <card name="Gorgon III" id="6583557d-1377-4643-8c37-1a89e5999003" size="VillainCard">
+      <property name="CardNumber" value="999003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="18"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Hand."/>
+    </card>
+    <card name="Madripoor is Burning" id="6583557d-1377-4643-8c37-1a89e5999004" size="SchemeCard">
+      <property name="CardNumber" value="999004a"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="Stage" value="1"/>
+      <alternate name="Madripoor is Burning" size="SchemeCard" type="b">
+        <property name="CardNumber" value="999004b"/>
+        <property name="Position" value="4"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+        <property name="Stage" value="1"/>
+        <property name="BaseThreat" value="2"/>
+      </alternate>
+    </card>
+    <card name="Attack on Hong Kong" id="6583557d-1377-4643-8c37-1a89e5999005" size="SchemeCard">
+      <property name="CardNumber" value="999005a"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="Stage" value="2"/>
+      <alternate name="Attack on Hong Kong" size="SchemeCard" type="b">
+        <property name="CardNumber" value="999005b"/>
+        <property name="Position" value="5"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+        <property name="Stage" value="2"/>
+        <property name="BaseThreat" value="1"/>
+      </alternate>
+    </card>
+    <card name="Gorgon Katana" id="6583557d-1377-4643-8c37-1a89e5999006" size="EncounterCard">
+      <property name="CardNumber" value="999006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+    </card>
+    <card name="Trance" id="6583557d-1377-4643-8c37-1a89e5999007" size="EncounterCard">
+      <property name="CardNumber" value="999007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+    </card>
+    <card name="Hand Soldier" id="6583557d-1377-4643-8c37-1a89e5999008" size="EncounterCard">
+      <property name="CardNumber" value="999008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="HP" value="3"/>
+    </card>
+    <card name="Hand Soldier" id="6583557d-1377-4643-8c37-1a89e5999009" size="EncounterCard">
+      <property name="CardNumber" value="999009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="HP" value="3"/>
+    </card>
+    <card name="Hand Soldier" id="6583557d-1377-4643-8c37-1a89e5999010" size="EncounterCard">
+      <property name="CardNumber" value="999010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="HP" value="3"/>
+    </card>
+    <card name="Hand Soldier" id="6583557d-1377-4643-8c37-1a89e5999011" size="EncounterCard">
+      <property name="CardNumber" value="999011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="HP" value="3"/>
+    </card>
+    <card name="Hand Soldier" id="6583557d-1377-4643-8c37-1a89e5999012" size="EncounterCard">
+      <property name="CardNumber" value="999012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="HP" value="3"/>
+    </card>
+    <card name="Mounted Dragon" id="6583557d-1377-4643-8c37-1a89e5999013" size="EncounterCard">
+      <property name="CardNumber" value="999013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="HP" value="5"/>
+      <property name="Text" value="Guard."/>
+    </card>
+    <card name="Mounted Dragon" id="6583557d-1377-4643-8c37-1a89e5999014" size="EncounterCard">
+      <property name="CardNumber" value="999014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="HP" value="5"/>
+      <property name="Text" value="Guard."/>
+    </card>
+    <card name="Mounted Dragon" id="6583557d-1377-4643-8c37-1a89e5999015" size="EncounterCard">
+      <property name="CardNumber" value="999015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="HP" value="5"/>
+      <property name="Text" value="Guard."/>
+    </card>
+    <card name="The Circle" id="6583557d-1377-4643-8c37-1a89e5999016" size="SchemeCard">
+      <property name="CardNumber" value="999016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="BaseThreat" value="3"/>
+    </card>
+    <card name="Untold" id="6583557d-1377-4643-8c37-1a89e5999017" size="SchemeCard">
+      <property name="CardNumber" value="999017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="Hinder 2[per_hero]."/>
+    </card>
+    <card name="Untold" id="6583557d-1377-4643-8c37-1a89e5999018" size="SchemeCard">
+      <property name="CardNumber" value="999018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="Hinder 2[per_hero]."/>
+    </card>
+    <card name="Attack on S.P.E.A.R." id="6583557d-1377-4643-8c37-1a89e5999019" size="SchemeCard">
+      <property name="CardNumber" value="999019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+      <property name="BaseThreat" value="3"/>
+    </card>
+    <card name="Argh" id="6583557d-1377-4643-8c37-1a89e5999020" size="EncounterCard">
+      <property name="CardNumber" value="999020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+    </card>
+    <card name="Argh" id="6583557d-1377-4643-8c37-1a89e5999021" size="EncounterCard">
+      <property name="CardNumber" value="999021"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+    </card>
+    <card name="Duel" id="6583557d-1377-4643-8c37-1a89e5999022" size="EncounterCard">
+      <property name="CardNumber" value="999022"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+    </card>
+    <card name="Duel" id="6583557d-1377-4643-8c37-1a89e5999023" size="EncounterCard">
+      <property name="CardNumber" value="999023"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+    </card>
+    <card name="Hand Reinforcement" id="6583557d-1377-4643-8c37-1a89e5999024" size="EncounterCard">
+      <property name="CardNumber" value="999024"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+    </card>
+    <card name="Hand Reinforcement" id="6583557d-1377-4643-8c37-1a89e5999025" size="EncounterCard">
+      <property name="CardNumber" value="999025"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_dragon's_madripoor_by_Merlin"/>
+    </card>
+ </cards>
+</set>

@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="(FM) Mister Negative (By Andy)" id="5e971b79-8b4f-47a5-8e99-166b34fc1280" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+ <cards>
+    <card id="5e971b79-8b4f-47a5-8e99-166b34900001" name="Mister Negative (By Andy)">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="nbModular" value="1"/>
+      <property name="recommendedModular" value="{'running_interference':['Running Interference', 'Encounter', False]}"/>
+    </card>
+    <card name="Mister Negative I" id="5e971b79-8b4f-47a5-8e99-166b34999001" size="VillainCard">
+      <property name="CardNumber" value="999001"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="HP" value="12"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+    </card>
+    <card name="Mister Negative II" id="5e971b79-8b4f-47a5-8e99-166b34999002" size="VillainCard">
+      <property name="CardNumber" value="999002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="14"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text" value="Steady."/>
+    </card>
+    <card name="Mister Negative III" id="5e971b79-8b4f-47a5-8e99-166b34999003" size="VillainCard">
+      <property name="CardNumber" value="999003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="16"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text" value="Steady. Toughness."/>
+    </card>
+    <card name="Destructive Rivalry" id="5e971b79-8b4f-47a5-8e99-166b34999004" size="SchemeCard">
+      <property name="CardNumber" value="999004a"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="Stage" value="1"/>
+      <alternate name="Destructive Rivalry" size="SchemeCard" type="b">
+        <property name="CardNumber" value="999004b"/>
+        <property name="Position" value="4"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="fm_mister_negative_by_Andy"/>
+        <property name="Stage" value="1"/>
+        <property name="BaseThreat" value="1"/>
+      </alternate>
+    </card>
+    <card name="Reign of Terror" id="5e971b79-8b4f-47a5-8e99-166b34999005" size="SchemeCard">
+      <property name="CardNumber" value="999005a"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="Stage" value="2"/>
+      <alternate name="Reign of Terror" size="SchemeCard" type="b">
+        <property name="CardNumber" value="999005b"/>
+        <property name="Position" value="5"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="fm_mister_negative_by_Andy"/>
+        <property name="Stage" value="2"/>
+        <property name="BaseThreat" value="2"/>
+      </alternate>
+    </card>
+    <card name="Negative Sword" id="5e971b79-8b4f-47a5-8e99-166b34999006" size="EncounterCard">
+      <property name="CardNumber" value="999006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text" value="Uses (3 darkforce tokens)."/>
+    </card>
+    <card name="Powers of Persuasion" id="5e971b79-8b4f-47a5-8e99-166b34999007" size="EncounterCard">
+      <property name="CardNumber" value="999007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text" value="Uses (3 darkforce tokens)."/>
+    </card>
+    <card name="Demon Brute" id="5e971b79-8b4f-47a5-8e99-166b34999008" size="EncounterCard">
+      <property name="CardNumber" value="999008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Criminal. Inner Demon."/>
+      <property name="Text" value="Toughness."/>
+    </card>
+    <card name="Demon Brute" id="5e971b79-8b4f-47a5-8e99-166b34999009" size="EncounterCard">
+      <property name="CardNumber" value="999009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Criminal. Inner Demon."/>
+      <property name="Text" value="Toughness."/>
+    </card>
+    <card name="Demon Brute" id="5e971b79-8b4f-47a5-8e99-166b34999010" size="EncounterCard">
+      <property name="CardNumber" value="999010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Criminal. Inner Demon."/>
+      <property name="Text" value="Toughness."/>
+    </card>
+    <card name="Demon Brute" id="5e971b79-8b4f-47a5-8e99-166b34999011" size="EncounterCard">
+      <property name="CardNumber" value="999011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Criminal. Inner Demon."/>
+      <property name="Text" value="Toughness."/>
+    </card>
+    <card name="Demon Soldiers" id="5e971b79-8b4f-47a5-8e99-166b34999012" size="EncounterCard">
+      <property name="CardNumber" value="999012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Criminal. Inner Demon."/>
+      <property name="Text" value="Guard."/>
+    </card>
+    <card name="Demon Soldiers" id="5e971b79-8b4f-47a5-8e99-166b34999013" size="EncounterCard">
+      <property name="CardNumber" value="999013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Criminal. Inner Demon."/>
+      <property name="Text" value="Guard."/>
+    </card>
+    <card name="Demon Soldiers" id="5e971b79-8b4f-47a5-8e99-166b34999014" size="EncounterCard">
+      <property name="CardNumber" value="999014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Criminal. Inner Demon."/>
+      <property name="Text" value="Guard."/>
+    </card>
+    <card name="Demon Soldiers" id="5e971b79-8b4f-47a5-8e99-166b34999015" size="EncounterCard">
+      <property name="CardNumber" value="999015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Criminal. Inner Demon."/>
+      <property name="Text" value="Guard."/>
+    </card>
+    <card name="Overdrive" id="5e971b79-8b4f-47a5-8e99-166b34999016" size="EncounterCard">
+      <property name="CardNumber" value="999016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Criminal. Elite."/>
+      <property name="Text" value="Patrol."/>
+    </card>
+    <card name="Spot" id="5e971b79-8b4f-47a5-8e99-166b34999017" size="EncounterCard">
+      <property name="CardNumber" value="999017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Criminal. Elite."/>
+    </card>
+    <card name="Deceived by Martin Li" id="5e971b79-8b4f-47a5-8e99-166b34999018" size="EncounterCard">
+      <property name="CardNumber" value="999018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+    </card>
+    <card name="Deceived by Martin Li" id="5e971b79-8b4f-47a5-8e99-166b34999019" size="EncounterCard">
+      <property name="CardNumber" value="999019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+    </card>
+    <card name="Targeted by Demons" id="5e971b79-8b4f-47a5-8e99-166b34999020" size="EncounterCard">
+      <property name="CardNumber" value="999020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+    </card>
+    <card name="Targeted by Demons" id="5e971b79-8b4f-47a5-8e99-166b34999021" size="EncounterCard">
+      <property name="CardNumber" value="999021"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+    </card>
+    <card name="Demons Unleashed" id="5e971b79-8b4f-47a5-8e99-166b34999022" size="SchemeCard">
+      <property name="CardNumber" value="999022"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="BaseThreat" value="3"/>
+    </card>
+    <card name="Demons Unleashed" id="5e971b79-8b4f-47a5-8e99-166b34999023" size="SchemeCard">
+      <property name="CardNumber" value="999023"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="BaseThreat" value="3"/>
+    </card>
+    <card name="Held Hostage" id="5e971b79-8b4f-47a5-8e99-166b34999024" size="SchemeCard">
+      <property name="CardNumber" value="999024"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="BaseThreat" value="2"/>
+    </card>
+    <card name="Held Hostage" id="5e971b79-8b4f-47a5-8e99-166b34999025" size="SchemeCard">
+      <property name="CardNumber" value="999025"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="BaseThreat" value="2"/>
+    </card>
+    <card name="Workplace Bombing" id="5e971b79-8b4f-47a5-8e99-166b34999026" size="SchemeCard">
+      <property name="CardNumber" value="999026"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+    </card>
+    <card name="Workplace Bombing" id="5e971b79-8b4f-47a5-8e99-166b34999027" size="SchemeCard">
+      <property name="CardNumber" value="999027"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+    </card>
+    <card name="Criminal Undertaking" id="5e971b79-8b4f-47a5-8e99-166b34999028" size="EncounterCard">
+      <property name="CardNumber" value="999028"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+    </card>
+    <card name="Criminal Undertaking" id="5e971b79-8b4f-47a5-8e99-166b34999029" size="EncounterCard">
+      <property name="CardNumber" value="999029"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+    </card>
+    <card name="Inverse Machinations" id="5e971b79-8b4f-47a5-8e99-166b34999030" size="EncounterCard">
+      <property name="CardNumber" value="999030"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+    </card>
+    <card name="Inverse Machinations" id="5e971b79-8b4f-47a5-8e99-166b34999031" size="EncounterCard">
+      <property name="CardNumber" value="999031"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+    </card>
+    <card name="Negative Blast" id="5e971b79-8b4f-47a5-8e99-166b34999032" size="EncounterCard">
+      <property name="CardNumber" value="999032"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+    </card>
+    <card name="Negative Blast" id="5e971b79-8b4f-47a5-8e99-166b34999033" size="EncounterCard">
+      <property name="CardNumber" value="999033"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+    </card>
+    <card name="Negative Healing Factor" id="5e971b79-8b4f-47a5-8e99-166b34999034" size="EncounterCard">
+      <property name="CardNumber" value="999034"/>
+      <property name="Position" value="34"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+    </card>
+    <card name="Negative Healing Factor" id="5e971b79-8b4f-47a5-8e99-166b34999035" size="EncounterCard">
+      <property name="CardNumber" value="999035"/>
+      <property name="Position" value="35"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+    </card>
+    <card name="Spreading Fear" id="5e971b79-8b4f-47a5-8e99-166b34999036" size="EncounterCard">
+      <property name="CardNumber" value="999036"/>
+      <property name="Position" value="36"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+    </card>
+    <card name="Spreading Fear" id="5e971b79-8b4f-47a5-8e99-166b34999037" size="EncounterCard">
+      <property name="CardNumber" value="999037"/>
+      <property name="Position" value="37"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_mister_negative_by_Andy"/>
+    </card>
+ </cards>
+</set>

@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="(FM) Celestial Messiah (By CptScorp)" id="6721c947-368b-49b3-a15e-eabcd93c02b0" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+ <cards>
+    <card id="6721c947-368b-49b3-a15e-eabcd9900001" name="Celestial Messiah (By CptScorp)">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="nbModular" value="1"/>
+      <property name="recommendedModular" value="{'fm_cotati_infection_by_CptScorp':['Cotati Infection', 'Encounter', False]}"/>
+    </card>
+    <card name="Quoi" id="6721c947-368b-49b3-a15e-eabcd9999001" size="VillainCard">
+      <property name="CardNumber" value="999001"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="HP" value="13"/>
+      <property name="HP_Per_Hero" value="True"/>
+    </card>
+    <card name="Quoi" id="6721c947-368b-49b3-a15e-eabcd9999002" size="VillainCard">
+      <property name="CardNumber" value="999002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="17"/>
+      <property name="HP_Per_Hero" value="True"/>
+    </card>
+    <card name="Quoi" id="6721c947-368b-49b3-a15e-eabcd9999003" size="VillainCard">
+      <property name="CardNumber" value="999003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="19"/>
+      <property name="HP_Per_Hero" value="True"/>
+    </card>
+    <card name="Blue Area of the Moon" id="6721c947-368b-49b3-a15e-eabcd9999004" size="SchemeCard">
+      <property name="CardNumber" value="999004a"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="Stage" value="1"/>
+      <alternate name="Blue Area of the Moon" size="SchemeCard" type="b">
+        <property name="CardNumber" value="999004b"/>
+        <property name="Position" value="4"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+        <property name="Stage" value="1"/>
+        <property name="BaseThreat" value="1"/>
+      </alternate>
+    </card>
+    <card name="Battle for Wakanda" id="6721c947-368b-49b3-a15e-eabcd9999005" size="SchemeCard">
+      <property name="CardNumber" value="999005a"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="Stage" value="2"/>
+      <alternate name="Battle for Wakanda" size="SchemeCard" type="b">
+        <property name="CardNumber" value="999005b"/>
+        <property name="Position" value="5"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+        <property name="Stage" value="2"/>
+        <property name="BaseThreat" value="0"/>
+      </alternate>
+    </card>
+    <card name="Deadly Vines" id="6721c947-368b-49b3-a15e-eabcd9999006" size="EncounterCard">
+      <property name="CardNumber" value="999006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="Text" value="Permanent."/>
+    </card>
+    <card name="Deadly Vines" id="6721c947-368b-49b3-a15e-eabcd9999007" size="EncounterCard">
+      <property name="CardNumber" value="999007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="Text" value="Permanent."/>
+    </card>
+    <card name="Deadly Vines" id="6721c947-368b-49b3-a15e-eabcd9999008" size="EncounterCard">
+      <property name="CardNumber" value="999008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="Text" value="Permanent."/>
+    </card>
+    <card name="Deadly Vines" id="6721c947-368b-49b3-a15e-eabcd9999009" size="EncounterCard">
+      <property name="CardNumber" value="999009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="Text" value="Permanent."/>
+    </card>
+    <card name="Swordsman" id="6721c947-368b-49b3-a15e-eabcd9999010" size="EncounterCard">
+      <property name="CardNumber" value="999010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="HP" value="5"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Text" value="Retaliate 2."/>
+    </card>
+    <card name="Quoi's Golden Sword" id="6721c947-368b-49b3-a15e-eabcd9999011" size="EncounterCard">
+      <property name="CardNumber" value="999011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+    </card>
+    <card name="Quoi's Golden Sword" id="6721c947-368b-49b3-a15e-eabcd9999012" size="EncounterCard">
+      <property name="CardNumber" value="999012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+    </card>
+    <card name="Wooden Shackles" id="6721c947-368b-49b3-a15e-eabcd9999013" size="EncounterCard">
+      <property name="CardNumber" value="999013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+    </card>
+    <card name="Wooden Shackles" id="6721c947-368b-49b3-a15e-eabcd9999014" size="EncounterCard">
+      <property name="CardNumber" value="999014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+    </card>
+    <card name="Cotati Warrior" id="6721c947-368b-49b3-a15e-eabcd9999015" size="EncounterCard">
+      <property name="CardNumber" value="999015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="HP" value="3"/>
+      <property name="Text" value="Quickstrike."/>
+    </card>
+    <card name="Cotati Warrior" id="6721c947-368b-49b3-a15e-eabcd9999016" size="EncounterCard">
+      <property name="CardNumber" value="999016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="HP" value="3"/>
+      <property name="Text" value="Quickstrike."/>
+    </card>
+    <card name="Cotati Warrior" id="6721c947-368b-49b3-a15e-eabcd9999017" size="EncounterCard">
+      <property name="CardNumber" value="999017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="HP" value="3"/>
+      <property name="Text" value="Quickstrike."/>
+    </card>
+    <card name="Cotati Warrior" id="6721c947-368b-49b3-a15e-eabcd9999018" size="EncounterCard">
+      <property name="CardNumber" value="999018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="HP" value="3"/>
+      <property name="Text" value="Quickstrike."/>
+    </card>
+    <card name="Excruating Release" id="6721c947-368b-49b3-a15e-eabcd9999019" size="EncounterCard">
+      <property name="CardNumber" value="999019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+    </card>
+    <card name="Excruating Release" id="6721c947-368b-49b3-a15e-eabcd9999020" size="EncounterCard">
+      <property name="CardNumber" value="999020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+    </card>
+    <card name="Growth Spurt" id="6721c947-368b-49b3-a15e-eabcd9999021" size="EncounterCard">
+      <property name="CardNumber" value="999021"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+    </card>
+    <card name="Growth Spurt" id="6721c947-368b-49b3-a15e-eabcd9999022" size="EncounterCard">
+      <property name="CardNumber" value="999022"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+    </card>
+    <card name="Growth Spurt" id="6721c947-368b-49b3-a15e-eabcd9999023" size="EncounterCard">
+      <property name="CardNumber" value="999023"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+    </card>
+    <card name="Seize Control" id="6721c947-368b-49b3-a15e-eabcd9999024" size="EncounterCard">
+      <property name="CardNumber" value="999024"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+    </card>
+    <card name="Seize Control" id="6721c947-368b-49b3-a15e-eabcd9999025" size="EncounterCard">
+      <property name="CardNumber" value="999025"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+    </card>
+    <card name="Cotati Empyre" id="6721c947-368b-49b3-a15e-eabcd9999026" size="SchemeCard">
+      <property name="CardNumber" value="999026"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="BaseThreat" value="3"/>
+    </card>
+    <card name="Green Domain" id="6721c947-368b-49b3-a15e-eabcd9999027" size="SchemeCard">
+      <property name="CardNumber" value="999027"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+    </card>
+    <card name="Organic Portal" id="6721c947-368b-49b3-a15e-eabcd9999028" size="SchemeCard">
+      <property name="CardNumber" value="999028"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_celestial_messiah_by_CptScorp"/>
+      <property name="BaseThreat" value="1"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="Hinder 2[per_hero]."/>
+    </card>
+    <card id="6721c947-368b-49b3-a15e-eabcd9900002" name="Cotati Infection (By CptScorp)">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="fm_cotati_infection_by_CptScorp"/>
+    </card>
+    <card name="Body Takeover" id="6721c947-368b-49b3-a15e-eabcd9999029" size="EncounterCard">
+      <property name="CardNumber" value="999029"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_cotati_infection_by_CptScorp"/>
+    </card>
+    <card name="Body Takeover" id="6721c947-368b-49b3-a15e-eabcd9999030" size="EncounterCard">
+      <property name="CardNumber" value="999030"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_cotati_infection_by_CptScorp"/>
+    </card>
+    <card name="Body Takeover" id="6721c947-368b-49b3-a15e-eabcd9999031" size="EncounterCard">
+      <property name="CardNumber" value="999031"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_cotati_infection_by_CptScorp"/>
+    </card>
+    <card name="Cotati Wizard" id="6721c947-368b-49b3-a15e-eabcd9999032" size="EncounterCard">
+      <property name="CardNumber" value="999032"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_cotati_infection_by_CptScorp"/>
+      <property name="HP" value="2"/>
+    </card>
+    <card name="Cotati Wizard" id="6721c947-368b-49b3-a15e-eabcd9999033" size="EncounterCard">
+      <property name="CardNumber" value="999033"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_cotati_infection_by_CptScorp"/>
+      <property name="HP" value="2"/>
+    </card>
+    <card name="Cotati Wizard" id="6721c947-368b-49b3-a15e-eabcd9999034" size="EncounterCard">
+      <property name="CardNumber" value="999034"/>
+      <property name="Position" value="34"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_cotati_infection_by_CptScorp"/>
+      <property name="HP" value="2"/>
+    </card>
+    <card name="She-Hulk" id="6721c947-368b-49b3-a15e-eabcd9999035" size="EncounterCard">
+      <property name="CardNumber" value="999035"/>
+      <property name="Position" value="35"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_cotati_infection_by_CptScorp"/>
+      <property name="HP" value="5"/>
+      <property name="Text" value="Toughness."/>
+    </card>
+ </cards>
+</set>

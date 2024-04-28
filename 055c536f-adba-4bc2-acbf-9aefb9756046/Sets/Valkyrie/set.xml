@@ -153,7 +153,7 @@ Valkyrie gets +1 ATK (+2 ATK instead while attacking the enemy with Death-Glow a
       <property name="Owner" value="valk"/>
       <property name="Cost" value="1"/>
       <property name="Resource_Physical" value="1"/>
-      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When the enemy with Death-Glow attached attacks, declare Valkyrie the defender without exhausting her. She gets +2 DEF for this attack.</property>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;(defense): When the enemy with Death-Glow attached attacks, declare Valkyrie the defender without exhausting her. She gets +2 DEF for this attack.</property>
     </card>
     <card name="Have at Thee!" id="a652d56e-1df5-4987-9a3f-d62817ed53a0">
       <property name="CardNumber" value="25012"/>

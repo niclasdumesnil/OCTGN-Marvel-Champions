@@ -229,5 +229,33 @@
             <property name="nbModular" value="2"/>
             <property name="mandatoryModular" value="{'hope_summers':['Hope Summers', 'Encounter', False]}"/>
         </card>
+        <card id="055c536f-adba-4bc2-acbf-200000000042" name="Unus">
+            <property name="Type" value="villain_setup" />
+            <property name="Owner" value="unus"/>
+            <property name="nbModular" value="1"/>
+            <property name="mandatoryModular" value="{'infinites':['Infinites', 'Encounter', False]}"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-200000000043" name="Four Horsemen">
+            <property name="Type" value="villain_setup" />
+            <property name="Owner" value="four_horsemen"/>
+            <property name="nbModular" value="2"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-200000000044" name="Apocalypse">
+            <property name="Type" value="villain_setup" />
+            <property name="Owner" value="apocalypse"/>
+            <property name="nbModular" value="2"/>
+            <property name="mandatoryModular" value="{'overseer':['Prelates', 'Side', False]}"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-200000000045" name="Dark Beast">
+            <property name="Type" value="villain_setup" />
+            <property name="Owner" value="dark_beast"/>
+            <property name="nbModular" value="1"/>
+            <property name="mandatoryModular" value="{'blue_moon':['Blue Moon', 'Side', False], 'genosha':['Genosha', 'Side', False], 'savage_land':['Savage Land', 'Side', False]}"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-200000000046" name="En Sabah Nur">
+            <property name="Type" value="villain_setup" />
+            <property name="Owner" value="en_sabah_nur"/>
+            <property name="nbModular" value="2"/>
+        </card>
     </cards>
 </set>

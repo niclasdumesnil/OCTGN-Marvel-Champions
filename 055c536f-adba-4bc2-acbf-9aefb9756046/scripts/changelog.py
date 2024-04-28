@@ -327,7 +327,7 @@ changelog = {
 		"Feature: Hero, Villain and Encounters can now be selected either alphabetically or by release date",
 		"Feature: Nemesis sets added as a choice among all other Encounter sets",
 		"Fix: All data updated from marvelcdb",
-		"Fix: Change the way FanMade is loaded. Please re-download ZIP files from GDrive as previous one won't work anymore",
+		"Fix: Changed the way FanMade is loaded. Please re-download ZIP files from GDrive as previous one won't work anymore",
         "Major updates: A lot of changes have been made to the various scripts in order to improve MC module behaviour, future updates and fanmade integration. Although I conducted a lot of tests, bugs could reappear. Please let me know if this is the case."
         ]),
     '0000363': ("0.0.3.63", "1 October 2023", [
@@ -345,5 +345,10 @@ changelog = {
         "Fix: Villainous keyword on Exodus minion",
         "Fix: Magneto I, II, III was loaded in standard and expert",
         "Fix: Orbital Decay side scheme threat fixed"
+        ]),
+    '0000372': ("0.0.3.72", "08 April 2024", [
+        "Age of Apocalypse added",
+        "Feature: Standard I, II, III and Expert I, II sets can be mixed. That changed the way those sets are selected.",
+        "Fanmade: From now on, some fanmade villain scenario are included in octgn. You still need to apply image packs as always."
         ])
 }

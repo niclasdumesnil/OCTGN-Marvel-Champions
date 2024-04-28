@@ -197,5 +197,25 @@
             <property name="Type" value="hero_setup" />
             <property name="Owner" value="deadpool" />
         </card>
+        <card id="055c536f-adba-4bc2-acbf-100000000050" name="Bishop">
+            <property name="Type" value="hero_setup" />
+            <property name="Owner" value="bishop" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-100000000051" name="Magik">
+            <property name="Type" value="hero_setup" />
+            <property name="Owner" value="magik" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-100000000052" name="Iceman">
+            <property name="Owner" value="iceman" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-100000000053" name="Jubilee">
+            <property name="Owner" value="jubilee" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-100000000054" name="Nightcrawler">
+            <property name="Owner" value="nightcrawler" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-100000000055" name="">
+            <property name="Owner" value="" />
+        </card>
     </cards>
 </set>

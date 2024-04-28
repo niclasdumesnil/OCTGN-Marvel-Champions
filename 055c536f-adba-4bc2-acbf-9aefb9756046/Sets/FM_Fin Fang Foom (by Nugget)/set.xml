@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="(FM) Fin Fang Foom (By Nugget)" id="94b0c1b4-c80e-409b-b6bd-8d0e0e6bb141" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+ <cards>
+    <card id="94b0c1b4-c80e-409b-b6bd-8d0e0e900001" name="Fin Fang Foom (By Nugget)">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="nbModular" value="1"/>
+      <property name="recommendedModular" value="{'fm_collateral_damage_by_Nugget':['Collateral Damage', 'Encounter', False]}"/>
+    </card>
+    <card name="Insert" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999000" size="EncounterCard">
+      <property name="CardNumber" value="999000"/>
+      <property name="Position" value="0"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="insert"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+    </card>
+    <card name="Fin Fang Foom" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999001" size="VillainCard">
+      <property name="CardNumber" value="999001"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="HP" value="16"/>
+      <property name="HP_Per_Hero" value="True"/>
+    </card>
+    <card name="Fin Fang Foom" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999002" size="VillainCard">
+      <property name="CardNumber" value="999002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="18"/>
+      <property name="HP_Per_Hero" value="True"/>
+    </card>
+    <card name="Fin Fang Foom (Torso)" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999003" size="VillainCard">
+      <property name="CardNumber" value="999003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="HP" value="6"/>
+      <property name="HP_Per_Hero" value="True"/>
+    </card>
+    <card name="Fin Fang Foom (Torso)" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999004" size="VillainCard">
+      <property name="CardNumber" value="999004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="7"/>
+      <property name="HP_Per_Hero" value="True"/>
+    </card>
+    <card name="Fin Fang Foom (Neck)" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999005" size="VillainCard">
+      <property name="CardNumber" value="999005"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="HP" value="6"/>
+      <property name="HP_Per_Hero" value="True"/>
+    </card>
+    <card name="Fin Fang Foom (Neck)" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999006" size="VillainCard">
+      <property name="CardNumber" value="999006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="7"/>
+      <property name="HP_Per_Hero" value="True"/>
+    </card>
+    <card name="Fin Fang Foom (Legs)" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999007" size="VillainCard">
+      <property name="CardNumber" value="999007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="HP" value="6"/>
+      <property name="HP_Per_Hero" value="True"/>
+    </card>
+    <card name="Fin Fang Foom (Legs)" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999008" size="VillainCard">
+      <property name="CardNumber" value="999008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="7"/>
+      <property name="HP_Per_Hero" value="True"/>
+    </card>
+    <card name="City Rampage" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999009" size="SchemeCard">
+      <property name="CardNumber" value="999009a"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="Stage" value="1"/>
+      <alternate name="City Rampage" size="SchemeCard" type="b">
+        <property name="CardNumber" value="999009b"/>
+        <property name="Position" value="9"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+        <property name="Stage" value="1"/>
+        <property name="BaseThreat" value="0"/>
+      </alternate>
+    </card>
+    <card name="\&quot;Put You in His Pants\&quot;" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999010" size="SchemeCard">
+      <property name="CardNumber" value="999010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="BaseThreat" value="2"/>
+    </card>
+    <card name="Snack for the Road" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999011" size="SchemeCard">
+      <property name="CardNumber" value="999011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="BaseThreat" value="2"/>
+    </card>
+    <card name="Monsters Unleashed" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999012" size="SchemeCard">
+      <property name="CardNumber" value="999012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+    </card>
+    <card name="Googam" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999013" size="EncounterCard">
+      <property name="CardNumber" value="999013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="HP" value="4"/>
+    </card>
+    <card name="Googam (Bottom)" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999014" size="EncounterCard">
+      <property name="CardNumber" value="999014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="HP" value="4"/>
+    </card>
+    <card name="Vandoom" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999015" size="EncounterCard">
+      <property name="CardNumber" value="999015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="HP" value="6"/>
+    </card>
+    <card name="Vandoom (Bottom)" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999016" size="EncounterCard">
+      <property name="CardNumber" value="999016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="HP" value="3"/>
+    </card>
+    <card name="Monstrom" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999017" size="EncounterCard">
+      <property name="CardNumber" value="999017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="HP" value="2"/>
+    </card>
+    <card name="Monstrom (Bottom)" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999018" size="EncounterCard">
+      <property name="CardNumber" value="999018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+      <property name="HP" value="7"/>
+    </card>
+    <card name="Limbs That Shatter Mountains" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999019" size="EncounterCard">
+      <property name="CardNumber" value="999019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+    </card>
+    <card name="Back That Scrapes the Sun" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999020" size="EncounterCard">
+      <property name="CardNumber" value="999020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+    </card>
+    <card name="Fin Fang Foom's Purple Pants" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999021" size="EncounterCard">
+      <property name="CardNumber" value="999021"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+    </card>
+    <card name="Mass Destruction" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999022" size="EncounterCard">
+      <property name="CardNumber" value="999022"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+    </card>
+    <card name="Rugged Scales" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999023" size="EncounterCard">
+      <property name="CardNumber" value="999023"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+    </card>
+    <card name="Acid Mist" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999024" size="EncounterCard">
+      <property name="CardNumber" value="999024"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_fin_fang_foom_by_Nugget"/>
+    </card>
+    <card id="94b0c1b4-c80e-409b-b6bd-8d0e0e900002" name="Collateral Damage (By Nugget)">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="fm_collateral_damage_by_Nugget"/>
+    </card>
+    <card name="Collateral Damage" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999025" size="SchemeCard">
+      <property name="CardNumber" value="999025"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_collateral_damage_by_Nugget"/>
+      <property name="BaseThreat" value="2"/>
+    </card>
+    <card name="Endangered Bystanders" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999026" size="EncounterCard">
+      <property name="CardNumber" value="999026"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="fm_collateral_damage_by_Nugget"/>
+      <property name="Text" value="Uses (2 bystander counters)."/>
+    </card>
+    <card name="Colapsing Building" id="94b0c1b4-c80e-409b-b6bd-8d0e0e999027" size="EncounterCard">
+      <property name="CardNumber" value="999027"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="fm_collateral_damage_by_Nugget"/>
+      <property name="Text" value="Uses (2 collapse counters)."/>
+    </card>
+ </cards>
+</set>

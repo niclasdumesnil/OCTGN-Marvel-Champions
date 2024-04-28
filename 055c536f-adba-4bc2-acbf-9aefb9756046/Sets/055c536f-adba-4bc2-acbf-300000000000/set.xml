@@ -263,7 +263,7 @@
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000066" name="Sci-Fi">
             <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="sci_fi"/>
+            <property name="Owner" value="sci-fi"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000067" name="Sitcom">
             <property name="Type" value="encounter_setup" />
@@ -316,6 +316,42 @@
         <card id="055c536f-adba-4bc2-acbf-300000000079" name="Mutant Insurrection">
             <property name="Type" value="encounter_setup" />
             <property name="Owner" value="mutant_insurrection"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000080" name="Infinites">
+            <property name="Type" value="encounter_setup" />
+            <property name="Owner" value="infinites"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000081" name="Dystopian Nightmare">
+            <property name="Type" value="encounter_setup" />
+            <property name="Owner" value="dystopian_nightmare"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000082" name="Hounds">
+            <property name="Type" value="encounter_setup" />
+            <property name="Owner" value="hounds"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000083" name="Dark Riders">
+            <property name="Type" value="encounter_setup" />
+            <property name="Owner" value="dark_riders"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000084" name="Savage Land">
+            <property name="Type" value="encounter_setup" />
+            <property name="Owner" value="savage_land"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000085" name="Genosha">
+            <property name="Type" value="encounter_setup" />
+            <property name="Owner" value="genosha"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000086" name="Blue Moon">
+            <property name="Type" value="encounter_setup" />
+            <property name="Owner" value="blue_moon"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000087" name="Celestial Tech">
+            <property name="Type" value="encounter_setup" />
+            <property name="Owner" value="celestial_tech"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000088" name="Clan Akkaba">
+            <property name="Type" value="encounter_setup" />
+            <property name="Owner" value="clan_akkaba"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009001" name="Nemesis: Vulture">
             <property name="Type" value="encounter_setup" />
@@ -505,13 +541,33 @@
             <property name="Type" value="encounter_setup" />
             <property name="Owner" value="angel_nemesis" />
         </card>
-            <card id="055c536f-adba-4bc2-acbf-300000009048" name="Nemesis: X-23">
+		<card id="055c536f-adba-4bc2-acbf-300000009048" name="Nemesis: X-23">
             <property name="Type" value="encounter_setup" />
             <property name="Owner" value="x23_nemesis" />
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009049" name="Nemesis: Deadpool">
             <property name="Type" value="encounter_setup" />
             <property name="Owner" value="deadpool_nemesis" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000009050" name="Nemesis: Bishop">
+            <property name="Type" value="encounter_setup" />
+            <property name="Owner" value="bishop_nemesis" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000009049" name="Nemesis: Magik">
+            <property name="Type" value="encounter_setup" />
+            <property name="Owner" value="magik_nemesis" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000009049" name="Nemesis: Iceman">
+            <property name="Owner" value="iceman_nemesis" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000009049" name="Nemesis: Jubilee">
+            <property name="Owner" value="jubilee_nemesis" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000009049" name="Nemesis: Nightcrawler">
+            <property name="Owner" value="nightcrawler_nemesis" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000009049" name="Nemesis: ">
+            <property name="Owner" value="_nemesis" />
         </card>
     </cards>
 </set>

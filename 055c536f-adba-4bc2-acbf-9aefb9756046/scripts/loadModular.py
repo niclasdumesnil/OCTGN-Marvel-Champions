@@ -147,6 +147,19 @@ def recommendedEncounter(group, villainName = ''):
     if villainName == 'Stryfe':
         createCardsFromSet(group, "extreme_measures", "Extreme Measures", True)
         createCardsFromSet(group, "mutant_insurrection", "Mutant Insurrection", True)
+    if villainName == 'Unus':
+        createCardsFromSet(group, "dystopian_nightmare", "Dystopian Nightmare", True)
+    if villainName == 'Four Horsemen':
+        createCardsFromSet(group, "dystopian_nightmare", "Dystopian Nightmare", True)
+        createCardsFromSet(group, "hounds", "Hounds", True)
+    if villainName == 'Apocalypse':
+        createCardsFromSet(group, "dark_riders", "Dark Riders", True)
+        createCardsFromSet(group, "infinites", "Infinites", True)
+    if villainName == 'Dark Beast':
+        createCardsFromSet(group, "dystopian_nightmare", "Dystopian Nightmare", True)
+    if villainName == 'En Sabah Nur':
+        createCardsFromSet(group, "celestial_tech", "Celestial Tech", True)
+        createCardsFromSet(group, "clan_akkaba", "Clan Akkaba", True)
     elif len(recommendedModular) > 0:
         recommendedModular = eval(recommendedModular)
         for k, i in recommendedModular.items():
@@ -220,3 +233,9 @@ def campaignEncounter(villainSet = '', x = 0, y = 0):
 
     if villainSet == "morlock_siege" or villainSet == "on_the_run" or villainSet == "juggernaut" or villainSet == "mister_sinister" or villainSet == "stryfe":
         createCardsFromSet(campaignDeck(), "next_evol_campaign", "NeXt Evolution Campaign", True)
+
+    if villainSet == "unus" or villainSet == "four_horsemen" or villainSet == "apocalypse" or villainSet == "dark_beast" or villainSet == "en_sabah_nur":
+        createCardsFromSet(campaignDeck(), "age_of_apocalypse", "Age of Apocalypse", True)
+        createCardsFromSet(campaignDeck(), "aoa_campaign", "Age of Apocalypse Campaign", True)
+        createCardsFromSet(campaignDeck(), "aoa_mission", "Age of Apocalypse Mission", True)
+        createCardsFromSet(campaignDeck(), "overseer", "Overseer-Prelates", True)

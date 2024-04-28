@@ -1798,7 +1798,7 @@ Give this enemy 1 additional boost card</property>
       <property name="Type" value="attachment"/>
       <property name="Owner" value="infinity_gauntlet"/>
       <property name="Attribute" value="Artifact. Weapon."/>
-      <property name="Text">Permanent. setup
+      <property name="Text">Permanent. Setup.
 [star] &lt;b&gt; Forced Response: &lt;/b&gt; After attached villain activates, resolve the &lt;b&gt; Special &lt;/b&gt; ability of each [[infinity stone]] in play. Otherwise, put the top card of the [[infinity stone]] deck into play.</property>
       <property name="Unique" value="True"/>
     </card>
@@ -1806,6 +1806,7 @@ Give this enemy 1 additional boost card</property>
       <property name="CardNumber" value="21130"/>
       <property name="Position" value="130"/>
       <property name="Quantity" value="1"/>
+	  <property name="DefaultSetupPile" value="Special"/>
       <property name="Type" value="environment"/>
       <property name="Owner" value="infinity_gauntlet"/>
       <property name="Boost" value="2"/>
@@ -1816,6 +1817,7 @@ Give this enemy 1 additional boost card</property>
       <property name="CardNumber" value="21131"/>
       <property name="Position" value="131"/>
       <property name="Quantity" value="1"/>
+	  <property name="DefaultSetupPile" value="Special"/>
       <property name="Type" value="environment"/>
       <property name="Owner" value="infinity_gauntlet"/>
       <property name="Boost" value="3"/>
@@ -1826,6 +1828,7 @@ Give this enemy 1 additional boost card</property>
       <property name="CardNumber" value="21132"/>
       <property name="Position" value="132"/>
       <property name="Quantity" value="1"/>
+	  <property name="DefaultSetupPile" value="Special"/>
       <property name="Type" value="environment"/>
       <property name="Owner" value="infinity_gauntlet"/>
       <property name="Boost" value="3"/>
@@ -1836,6 +1839,7 @@ Give this enemy 1 additional boost card</property>
       <property name="CardNumber" value="21133"/>
       <property name="Position" value="133"/>
       <property name="Quantity" value="1"/>
+	  <property name="DefaultSetupPile" value="Special"/>
       <property name="Type" value="environment"/>
       <property name="Owner" value="infinity_gauntlet"/>
       <property name="Boost" value="1"/>
@@ -1846,6 +1850,7 @@ Give this enemy 1 additional boost card</property>
       <property name="CardNumber" value="21134"/>
       <property name="Position" value="134"/>
       <property name="Quantity" value="1"/>
+	  <property name="DefaultSetupPile" value="Special"/>
       <property name="Type" value="environment"/>
       <property name="Owner" value="infinity_gauntlet"/>
       <property name="Boost" value="2"/>
@@ -1856,6 +1861,7 @@ Give this enemy 1 additional boost card</property>
       <property name="CardNumber" value="21135"/>
       <property name="Position" value="135"/>
       <property name="Quantity" value="1"/>
+	  <property name="DefaultSetupPile" value="Special"/>
       <property name="Type" value="environment"/>
       <property name="Owner" value="infinity_gauntlet"/>
       <property name="Boost" value="4"/>

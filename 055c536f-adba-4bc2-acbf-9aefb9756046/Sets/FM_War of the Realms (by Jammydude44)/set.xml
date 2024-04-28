@@ -1,0 +1,1426 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="(FM) War of the Realms (By Jammydude44)" id="651759cd-af11-4a06-a2d8-e5b30a90548f" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+ <cards>
+    <card id="651759cd-af11-4a06-a2d8-e5b30a900001" name="Minotaur (By Jammydude44)">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="nbModular" value="1"/>
+      <property name="mandatoryModular" value="{'fm_realms_campaign_by_Jammydude44':['War of the Realms Campaign', 'Campaign', False]}"/>
+      <property name="recommendedModular" value="{'fm_corporate_meddling_by_Jammydude44':['Corporate Meddling', 'Encounter', False]}"/>
+    </card>
+    <card name="Minotaur I" id="651759cd-af11-4a06-a2d8-e5b30a999001" size="VillainCard">
+      <property name="CardNumber" value="999001"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="HP" value="14"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Hybrid."/>
+    </card>
+    <card name="Minotaur II" id="651759cd-af11-4a06-a2d8-e5b30a999002" size="VillainCard">
+      <property name="CardNumber" value="999002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="16"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Hybrid."/>
+    </card>
+    <card name="Minotaur III" id="651759cd-af11-4a06-a2d8-e5b30a999003" size="VillainCard">
+      <property name="CardNumber" value="999003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="18"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Hybrid."/>
+    </card>
+    <card name="Rapid Expansion" id="651759cd-af11-4a06-a2d8-e5b30a999004" size="SchemeCard">
+      <property name="CardNumber" value="999004a"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="Stage" value="1"/>
+      <alternate name="Rapid Expansion" size="SchemeCard" type="b">
+        <property name="CardNumber" value="999004b"/>
+        <property name="Position" value="4"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+        <property name="Stage" value="1"/>
+        <property name="BaseThreat" value="2"/>
+      </alternate>
+    </card>
+    <card name="War of the Realms" id="651759cd-af11-4a06-a2d8-e5b30a999005" size="SchemeCard">
+      <property name="CardNumber" value="999005a"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="Stage" value="2"/>
+      <alternate name="War of the Realms" size="SchemeCard" type="b">
+        <property name="CardNumber" value="999005b"/>
+        <property name="Position" value="5"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+        <property name="Stage" value="2"/>
+        <property name="BaseThreat" value="2"/>
+      </alternate>
+    </card>
+    <card name="Roxxon Energy" id="651759cd-af11-4a06-a2d8-e5b30a999006" size="EncounterCard">
+      <property name="CardNumber" value="999006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="Attribute" value="Business. Location."/>
+    </card>
+    <card name="Dark Council" id="651759cd-af11-4a06-a2d8-e5b30a999007" size="SchemeCard">
+      <property name="CardNumber" value="999007a"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="hinder 1[per_player]"/>
+      <alternate name="Loki" size="EncounterCard" type="b">
+        <property name="CardNumber" value="999007b"/>
+        <property name="Position" value="7"/>
+        <property name="Type" value="minion"/>
+        <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+        <property name="HP" value="5"/>
+        <property name="Attribute" value="Asgard. Dark Council."/>
+        <property name="Text" value="Victory 1."/>
+      </alternate>
+    </card>
+    <card name="Dark Council" id="651759cd-af11-4a06-a2d8-e5b30a999008" size="SchemeCard">
+      <property name="CardNumber" value="999008a"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="hinder 1[per_player]"/>
+      <alternate name="Ulik" size="EncounterCard" type="b">
+        <property name="CardNumber" value="999008b"/>
+        <property name="Position" value="8"/>
+        <property name="Type" value="minion"/>
+        <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+        <property name="HP" value="8"/>
+        <property name="Attribute" value="Dark Council. Troll."/>
+        <property name="Text" value="Victory 1."/>
+      </alternate>
+    </card>
+    <card name="Dark Council" id="651759cd-af11-4a06-a2d8-e5b30a999009" size="SchemeCard">
+      <property name="CardNumber" value="999009a"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="hinder 1[per_player]"/>
+      <alternate name="Sindr" size="EncounterCard" type="b">
+        <property name="CardNumber" value="999009b"/>
+        <property name="Position" value="9"/>
+        <property name="Type" value="minion"/>
+        <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+        <property name="HP" value="4"/>
+        <property name="Attribute" value="Dark Council."/>
+        <property name="Text" value="Victory 1. Retaliate 2."/>
+      </alternate>
+    </card>
+    <card name="Dark Council" id="651759cd-af11-4a06-a2d8-e5b30a999010" size="SchemeCard">
+      <property name="CardNumber" value="999010a"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="hinder 1[per_player]"/>
+      <alternate name="Kurse" size="EncounterCard" type="b">
+        <property name="CardNumber" value="999010b"/>
+        <property name="Position" value="10"/>
+        <property name="Type" value="minion"/>
+        <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+        <property name="HP" value="4"/>
+        <property name="Attribute" value="Dark Council. Dark Elf."/>
+        <property name="Text" value="Victory 1."/>
+      </alternate>
+    </card>
+    <card name="Dark Council" id="651759cd-af11-4a06-a2d8-e5b30a999011" size="SchemeCard">
+      <property name="CardNumber" value="999011a"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="hinder 1[per_player]"/>
+      <alternate name="Queen of Angels" size="EncounterCard" type="b">
+        <property name="CardNumber" value="999011b"/>
+        <property name="Position" value="11"/>
+        <property name="Type" value="minion"/>
+        <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+        <property name="HP" value="3"/>
+        <property name="Attribute" value="Dark Council. Heven."/>
+        <property name="Text" value="Victory 1."/>
+      </alternate>
+    </card>
+    <card name="Dark Council" id="651759cd-af11-4a06-a2d8-e5b30a999012" size="SchemeCard">
+      <property name="CardNumber" value="999012a"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="hinder 1[per_player]"/>
+      <alternate name="Enchantress" size="EncounterCard" type="b">
+        <property name="CardNumber" value="999012b"/>
+        <property name="Position" value="12"/>
+        <property name="Type" value="minion"/>
+        <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+        <property name="HP" value="5"/>
+        <property name="Attribute" value="Asgard. Dark Council."/>
+        <property name="Text" value="Victory 1."/>
+      </alternate>
+    </card>
+    <card name="Roxxon Guard" id="651759cd-af11-4a06-a2d8-e5b30a999013" size="EncounterCard">
+      <property name="CardNumber" value="999013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Roxxon."/>
+      <property name="Text" value="Guard."/>
+    </card>
+    <card name="Roxxon Guard" id="651759cd-af11-4a06-a2d8-e5b30a999014" size="EncounterCard">
+      <property name="CardNumber" value="999014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Roxxon."/>
+      <property name="Text" value="Guard."/>
+    </card>
+    <card name="Roxxon Guard" id="651759cd-af11-4a06-a2d8-e5b30a999015" size="EncounterCard">
+      <property name="CardNumber" value="999015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Roxxon."/>
+      <property name="Text" value="Guard."/>
+    </card>
+    <card name="Roxxon Guard" id="651759cd-af11-4a06-a2d8-e5b30a999016" size="EncounterCard">
+      <property name="CardNumber" value="999016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Roxxon."/>
+      <property name="Text" value="Guard."/>
+    </card>
+    <card name="Roxxon Tank" id="651759cd-af11-4a06-a2d8-e5b30a999017" size="EncounterCard">
+      <property name="CardNumber" value="999017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Roxxon. Vehicle."/>
+      <property name="Text" value="Toughness."/>
+    </card>
+    <card name="Roxxon Tank" id="651759cd-af11-4a06-a2d8-e5b30a999018" size="EncounterCard">
+      <property name="CardNumber" value="999018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Roxxon. Vehicle."/>
+      <property name="Text" value="Toughness."/>
+    </card>
+    <card name="Media Blitz" id="651759cd-af11-4a06-a2d8-e5b30a999019" size="SchemeCard">
+      <property name="CardNumber" value="999019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="BaseThreat" value="3"/>
+    </card>
+    <card name="Rapid Mining Expansion" id="651759cd-af11-4a06-a2d8-e5b30a999020" size="SchemeCard">
+      <property name="CardNumber" value="999020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="BaseThreat" value="3"/>
+    </card>
+    <card name="Universal Bank Meeting" id="651759cd-af11-4a06-a2d8-e5b30a999021" size="SchemeCard">
+      <property name="CardNumber" value="999021"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="BaseThreat" value="3"/>
+    </card>
+    <card name="Air Support" id="651759cd-af11-4a06-a2d8-e5b30a999022" size="EncounterCard">
+      <property name="CardNumber" value="999022"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+    </card>
+    <card name="Air Support" id="651759cd-af11-4a06-a2d8-e5b30a999023" size="EncounterCard">
+      <property name="CardNumber" value="999023"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+    </card>
+    <card name="Agger Imperative" id="651759cd-af11-4a06-a2d8-e5b30a999024" size="EncounterCard">
+      <property name="CardNumber" value="999024"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+    </card>
+    <card name="Agger Imperative" id="651759cd-af11-4a06-a2d8-e5b30a999025" size="EncounterCard">
+      <property name="CardNumber" value="999025"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+    </card>
+    <card name="Dark Reinforcements" id="651759cd-af11-4a06-a2d8-e5b30a999026" size="EncounterCard">
+      <property name="CardNumber" value="999026"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+    </card>
+    <card name="Dark Reinforcements" id="651759cd-af11-4a06-a2d8-e5b30a999027" size="EncounterCard">
+      <property name="CardNumber" value="999027"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+    </card>
+    <card name="Building Strength" id="651759cd-af11-4a06-a2d8-e5b30a999028" size="EncounterCard">
+      <property name="CardNumber" value="999028"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text" value="Uses (2 strategy counters)."/>
+    </card>
+    <card name="Ferocious Ambition" id="651759cd-af11-4a06-a2d8-e5b30a999029" size="EncounterCard">
+      <property name="CardNumber" value="999029"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_roxxon_by_Jammydude44"/>
+    </card>
+    <card id="651759cd-af11-4a06-a2d8-e5b30a900002" name="corporate_meddling (By Jammydude44)">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="fm_corporate_meddling_by_Jammydude44"/>
+    </card>
+    <card name="Privacy Concern" id="651759cd-af11-4a06-a2d8-e5b30a999030" size="EncounterCard">
+      <property name="CardNumber" value="999030"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_corporate_meddling_by_Jammydude44"/>
+      <property name="Attribute" value="Notification."/>
+    </card>
+    <card name="Small Print" id="651759cd-af11-4a06-a2d8-e5b30a999031" size="EncounterCard">
+      <property name="CardNumber" value="999031"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_corporate_meddling_by_Jammydude44"/>
+      <property name="Attribute" value="Notification."/>
+    </card>
+    <card name="Cease and Desist" id="651759cd-af11-4a06-a2d8-e5b30a999032" size="EncounterCard">
+      <property name="CardNumber" value="999032"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_corporate_meddling_by_Jammydude44"/>
+      <property name="Attribute" value="Notification."/>
+    </card>
+    <card name="Patent Claim" id="651759cd-af11-4a06-a2d8-e5b30a999033" size="EncounterCard">
+      <property name="CardNumber" value="999033"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_corporate_meddling_by_Jammydude44"/>
+      <property name="Attribute" value="Legal."/>
+    </card>
+    <card name="Public Statement" id="651759cd-af11-4a06-a2d8-e5b30a999034" size="EncounterCard">
+      <property name="CardNumber" value="999034"/>
+      <property name="Position" value="34"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_corporate_meddling_by_Jammydude44"/>
+      <property name="Attribute" value="Technique."/>
+    </card>
+    <card id="651759cd-af11-4a06-a2d8-e5b30a900003" name="Laufey (By Jammydude44)">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="nbModular" value="1"/>
+      <property name="mandatoryModular" value="{'fm_realms_campaign_by_Jammydude44':['War of the Realms Campaign', 'Campaign', False]}"/>
+      <property name="recommendedModular" value="{'fm_uncharted_territory_by_Jammydude44':['Uncharted Territory', 'Encounter', False]}"/>
+    </card>
+    <card name="Laufey I" id="651759cd-af11-4a06-a2d8-e5b30a999035" size="VillainCard">
+      <property name="CardNumber" value="999035"/>
+      <property name="Position" value="35"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="HP" value="15"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Giant. King."/>
+      <property name="Text" value="Toughness."/>
+    </card>
+    <card name="Laufey II" id="651759cd-af11-4a06-a2d8-e5b30a999036" size="VillainCard">
+      <property name="CardNumber" value="999036"/>
+      <property name="Position" value="36"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="20"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Giant. King."/>
+      <property name="Text" value="Toughness."/>
+    </card>
+    <card name="Laufey III" id="651759cd-af11-4a06-a2d8-e5b30a999037" size="VillainCard">
+      <property name="CardNumber" value="999037"/>
+      <property name="Position" value="37"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="24"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Giant. King."/>
+      <property name="Text" value="Toughness."/>
+    </card>
+    <card name="Thor" id="651759cd-af11-4a06-a2d8-e5b30a999038">
+      <property name="CardNumber" value="999038"/>
+      <property name="Position" value="38"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Asgard. Wounded."/>
+    </card>
+    <card name="Journey to Jotunheim A" id="651759cd-af11-4a06-a2d8-e5b30a999039" size="SchemeCard">
+      <property name="CardNumber" value="999039a"/>
+      <property name="Position" value="39"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Stage" value="1"/>
+      <alternate name="Journey to Jotunheim B" size="SchemeCard" type="b">
+        <property name="CardNumber" value="999039b"/>
+        <property name="Position" value="39"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+        <property name="Stage" value="1"/>
+        <property name="BaseThreat" value="0"/>
+        <property name="BaseThreatFixed" value="True"/>
+      </alternate>
+    </card>
+    <card name="King of the Frost Giants" id="651759cd-af11-4a06-a2d8-e5b30a999040" size="EncounterCard">
+      <property name="CardNumber" value="999040"/>
+      <property name="Position" value="40"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text" value="Permanent."/>
+    </card>
+    <card name="Blizzard" id="651759cd-af11-4a06-a2d8-e5b30a999041" size="EncounterCard">
+      <property name="CardNumber" value="999041"/>
+      <property name="Position" value="41"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="DefaultDiscardPile" value="Side Discard"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Attribute" value="Expedition."/>
+    </card>
+    <card name="Icy Passage" id="651759cd-af11-4a06-a2d8-e5b30a999042" size="EncounterCard">
+      <property name="CardNumber" value="999042"/>
+      <property name="Position" value="42"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="DefaultDiscardPile" value="Side Discard"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Attribute" value="Expedition."/>
+    </card>
+    <card name="Steep Incline" id="651759cd-af11-4a06-a2d8-e5b30a999043" size="EncounterCard">
+      <property name="CardNumber" value="999043"/>
+      <property name="Position" value="43"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="DefaultDiscardPile" value="Side Discard"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Attribute" value="Expedition."/>
+    </card>
+    <card name="Unending Cold" id="651759cd-af11-4a06-a2d8-e5b30a999044" size="EncounterCard">
+      <property name="CardNumber" value="999044"/>
+      <property name="Position" value="44"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="DefaultDiscardPile" value="Side Discard"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Attribute" value="Expedition."/>
+    </card>
+    <card name="Thick Fog" id="651759cd-af11-4a06-a2d8-e5b30a999045" size="EncounterCard">
+      <property name="CardNumber" value="999045"/>
+      <property name="Position" value="45"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="DefaultDiscardPile" value="Side Discard"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Attribute" value="Expedition."/>
+    </card>
+    <card name="Deep Freeze" id="651759cd-af11-4a06-a2d8-e5b30a999046" size="EncounterCard">
+      <property name="CardNumber" value="999046"/>
+      <property name="Position" value="46"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="DefaultDiscardPile" value="Side Discard"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Attribute" value="Expedition."/>
+    </card>
+    <card name="Frosty Winds" id="651759cd-af11-4a06-a2d8-e5b30a999047" size="EncounterCard">
+      <property name="CardNumber" value="999047"/>
+      <property name="Position" value="47"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="DefaultDiscardPile" value="Side Discard"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Attribute" value="Expedition."/>
+    </card>
+    <card name="Frost Giant Archer" id="651759cd-af11-4a06-a2d8-e5b30a999048" size="EncounterCard">
+      <property name="CardNumber" value="999048"/>
+      <property name="Position" value="48"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Giant."/>
+      <property name="Text" value="Uses (1 ambush counters)."/>
+    </card>
+    <card name="Frost Giant Archer" id="651759cd-af11-4a06-a2d8-e5b30a999049" size="EncounterCard">
+      <property name="CardNumber" value="999049"/>
+      <property name="Position" value="49"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Giant."/>
+      <property name="Text" value="Uses (1 ambush counters)."/>
+    </card>
+    <card name="Frost Giant Archer" id="651759cd-af11-4a06-a2d8-e5b30a999050" size="EncounterCard">
+      <property name="CardNumber" value="999050"/>
+      <property name="Position" value="50"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Giant."/>
+      <property name="Text" value="Uses (1 ambush counters)."/>
+    </card>
+    <card name="Frost Giant Archer" id="651759cd-af11-4a06-a2d8-e5b30a999051" size="EncounterCard">
+      <property name="CardNumber" value="999051"/>
+      <property name="Position" value="51"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Giant."/>
+      <property name="Text" value="Uses (1 ambush counters)."/>
+    </card>
+    <card name="Frost Giant Enforcer" id="651759cd-af11-4a06-a2d8-e5b30a999052" size="EncounterCard">
+      <property name="CardNumber" value="999052"/>
+      <property name="Position" value="52"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Giant."/>
+      <property name="Text" value="Toughness. Guard."/>
+    </card>
+    <card name="Frost Giant Enforcer" id="651759cd-af11-4a06-a2d8-e5b30a999053" size="EncounterCard">
+      <property name="CardNumber" value="999053"/>
+      <property name="Position" value="53"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Giant."/>
+      <property name="Text" value="Toughness. Guard."/>
+    </card>
+    <card name="Frost Beast" id="651759cd-af11-4a06-a2d8-e5b30a999054" size="EncounterCard">
+      <property name="CardNumber" value="999054"/>
+      <property name="Position" value="54"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Giant."/>
+      <property name="Text" value="Toughness. Patrol."/>
+    </card>
+    <card name="Laufey's Club" id="651759cd-af11-4a06-a2d8-e5b30a999055" size="EncounterCard">
+      <property name="CardNumber" value="999055"/>
+      <property name="Position" value="55"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text" value="Uses (1 + 1[per_player] smash counters)."/>
+    </card>
+    <card name="Isolated Position" id="651759cd-af11-4a06-a2d8-e5b30a999056" size="EncounterCard">
+      <property name="CardNumber" value="999056"/>
+      <property name="Position" value="56"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+    </card>
+    <card name="Giant Hand Grapple" id="651759cd-af11-4a06-a2d8-e5b30a999057" size="EncounterCard">
+      <property name="CardNumber" value="999057"/>
+      <property name="Position" value="57"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Attribute" value="Condition."/>
+    </card>
+    <card name="Swinging Club" id="651759cd-af11-4a06-a2d8-e5b30a999058" size="EncounterCard">
+      <property name="CardNumber" value="999058"/>
+      <property name="Position" value="58"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Attribute" value="Attack."/>
+    </card>
+    <card name="Swinging Club" id="651759cd-af11-4a06-a2d8-e5b30a999059" size="EncounterCard">
+      <property name="CardNumber" value="999059"/>
+      <property name="Position" value="59"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Attribute" value="Attack."/>
+    </card>
+    <card name="Treacherous Conditions." id="651759cd-af11-4a06-a2d8-e5b30a999060" size="EncounterCard">
+      <property name="CardNumber" value="999060"/>
+      <property name="Position" value="60"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="Text" value="Surge."/>
+    </card>
+    <card name="Bloodcycle Canyon" id="651759cd-af11-4a06-a2d8-e5b30a999061" size="EncounterCard">
+      <property name="CardNumber" value="999061"/>
+      <property name="Position" value="61"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+    </card>
+    <card name="Bloodcycle Canyon" id="651759cd-af11-4a06-a2d8-e5b30a999062" size="EncounterCard">
+      <property name="CardNumber" value="999062"/>
+      <property name="Position" value="62"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+    </card>
+    <card name="Giants of Jotunheim" id="651759cd-af11-4a06-a2d8-e5b30a999063" size="EncounterCard">
+      <property name="CardNumber" value="999063"/>
+      <property name="Position" value="63"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+    </card>
+    <card name="Giants of Jotunheim" id="651759cd-af11-4a06-a2d8-e5b30a999064" size="EncounterCard">
+      <property name="CardNumber" value="999064"/>
+      <property name="Position" value="64"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+    </card>
+    <card name="Storm of Giants" id="651759cd-af11-4a06-a2d8-e5b30a999065" size="SchemeCard">
+      <property name="CardNumber" value="999065"/>
+      <property name="Position" value="65"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="hinder 2[per_player]."/>
+    </card>
+    <card name="Berserker Thor" id="651759cd-af11-4a06-a2d8-e5b30a999066" size="SchemeCard">
+      <property name="CardNumber" value="999066"/>
+      <property name="Position" value="66"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_laufey_by_Jammydude44"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="hinder 2[per_player]."/>
+    </card>
+    <card id="651759cd-af11-4a06-a2d8-e5b30a900004" name="uncharted_territory (By Jammydude44)">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="fm_uncharted_territory_by_Jammydude44"/>
+    </card>
+    <card name="What was That ?" id="651759cd-af11-4a06-a2d8-e5b30a999067" size="EncounterCard">
+      <property name="CardNumber" value="999067"/>
+      <property name="Position" value="67"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_uncharted_territory_by_Jammydude44"/>
+    </card>
+    <card name="What was That ?" id="651759cd-af11-4a06-a2d8-e5b30a999068" size="EncounterCard">
+      <property name="CardNumber" value="999068"/>
+      <property name="Position" value="68"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_uncharted_territory_by_Jammydude44"/>
+    </card>
+    <card name="Round in Circles" id="651759cd-af11-4a06-a2d8-e5b30a999069" size="EncounterCard">
+      <property name="CardNumber" value="999069"/>
+      <property name="Position" value="69"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_uncharted_territory_by_Jammydude44"/>
+    </card>
+    <card name="Round in Circles" id="651759cd-af11-4a06-a2d8-e5b30a999070" size="EncounterCard">
+      <property name="CardNumber" value="999070"/>
+      <property name="Position" value="70"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_uncharted_territory_by_Jammydude44"/>
+    </card>
+    <card name="Low on Supplies" id="651759cd-af11-4a06-a2d8-e5b30a999071" size="EncounterCard">
+      <property name="CardNumber" value="999071"/>
+      <property name="Position" value="71"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_uncharted_territory_by_Jammydude44"/>
+    </card>
+    <card name="Low on Supplies" id="651759cd-af11-4a06-a2d8-e5b30a999072" size="EncounterCard">
+      <property name="CardNumber" value="999072"/>
+      <property name="Position" value="72"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_uncharted_territory_by_Jammydude44"/>
+    </card>
+    <card name="Ambushed!" id="651759cd-af11-4a06-a2d8-e5b30a999073" size="SchemeCard">
+      <property name="CardNumber" value="999073"/>
+      <property name="Position" value="73"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_uncharted_territory_by_Jammydude44"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="hinder 1[per_player]."/>
+    </card>
+    <card id="651759cd-af11-4a06-a2d8-e5b30a900005" name="Malekith (By Jammydude44)">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="nbModular" value="1"/>
+      <property name="mandatoryModular" value="{'fm_realms_campaign_by_Jammydude44':['War of the Realms Campaign', 'Campaign', False]}"/>
+      <property name="recommendedModular" value="{'fm_svartalfheim_by_Jammydude44':['Svartalfheim', 'Encounter', False]}"/>
+    </card>
+    <card name="Insert" id="651759cd-af11-4a06-a2d8-e5b30a999074">
+      <property name="CardNumber" value="999074"/>
+      <property name="Position" value="74"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="insert"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+    </card>
+    <card name="Malekith A1" id="651759cd-af11-4a06-a2d8-e5b30a999075" size="VillainCard">
+      <property name="CardNumber" value="999075"/>
+      <property name="Position" value="75"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="HP" value="14"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Dark Elf. King."/>
+    </card>
+    <card name="Malekith A2" id="651759cd-af11-4a06-a2d8-e5b30a999076" size="VillainCard">
+      <property name="CardNumber" value="999076"/>
+      <property name="Position" value="76"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="HP" value="18"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Dark Elf. King."/>
+    </card>
+    <card name="Malekith B1" id="651759cd-af11-4a06-a2d8-e5b30a999077" size="VillainCard">
+      <property name="CardNumber" value="999077"/>
+      <property name="Position" value="77"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="16"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Dark Elf. King."/>
+    </card>
+    <card name="Malekith B2" id="651759cd-af11-4a06-a2d8-e5b30a999078" size="VillainCard">
+      <property name="CardNumber" value="999078"/>
+      <property name="Position" value="78"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="HP" value="22"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Dark Elf. King."/>
+    </card>
+    <card name="Invasion of Midgard" id="651759cd-af11-4a06-a2d8-e5b30a999079" size="SchemeCard">
+      <property name="CardNumber" value="999079a"/>
+      <property name="Position" value="79"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Stage" value="1"/>
+      <alternate name="Invasion of Midgard" size="SchemeCard" type="b">
+        <property name="CardNumber" value="999079b"/>
+        <property name="Position" value="79"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+        <property name="Stage" value="1"/>
+        <property name="BaseThreat" value="0"/>
+        <property name="BaseThreatFixed" value="True"/>
+      </alternate>
+    </card>
+    <card name="Battle of Stonehenge" id="651759cd-af11-4a06-a2d8-e5b30a999080" size="SchemeCard">
+      <property name="CardNumber" value="999080a"/>
+      <property name="Position" value="80"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Stage" value="2"/>
+      <alternate name="Battle of Stonehenge" size="SchemeCard" type="b">
+        <property name="CardNumber" value="999080b"/>
+        <property name="Position" value="80"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+        <property name="Stage" value="2"/>
+        <property name="BaseThreat" value="2"/>
+        <property name="BaseThreatFixed" value="True"/>
+      </alternate>
+    </card>
+    <card name="New Jotunheim" id="651759cd-af11-4a06-a2d8-e5b30a999081" size="SchemeCard">
+      <property name="CardNumber" value="999081"/>
+      <property name="Position" value="81"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Attribute" value="Conquered Territory."/>
+      <property name="Text" value="Victory 1."/>
+    </card>
+    <card name="The Dusk Lands" id="651759cd-af11-4a06-a2d8-e5b30a999082" size="SchemeCard">
+      <property name="CardNumber" value="999082"/>
+      <property name="Position" value="82"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Attribute" value="Conquered Territory."/>
+      <property name="Text" value="Victory 1."/>
+    </card>
+    <card name="New Heven" id="651759cd-af11-4a06-a2d8-e5b30a999083" size="SchemeCard">
+      <property name="CardNumber" value="999083"/>
+      <property name="Position" value="83"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Attribute" value="Conquered Territory."/>
+      <property name="Text" value="Victory 1."/>
+    </card>
+    <card name="New Muspelheim" id="651759cd-af11-4a06-a2d8-e5b30a999084" size="SchemeCard">
+      <property name="CardNumber" value="999084"/>
+      <property name="Position" value="84"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Attribute" value="Conquered Territory."/>
+      <property name="Text" value="Victory 1."/>
+    </card>
+    <card name="Kingdom of the Trolls" id="651759cd-af11-4a06-a2d8-e5b30a999085" size="SchemeCard">
+      <property name="CardNumber" value="999085"/>
+      <property name="Position" value="85"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Attribute" value="Conquered Territory."/>
+      <property name="Text" value="Victory 1."/>
+    </card>
+    <card name="Kingdom of Roxxon Inc" id="651759cd-af11-4a06-a2d8-e5b30a999086" size="SchemeCard">
+      <property name="CardNumber" value="999086"/>
+      <property name="Position" value="86"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Attribute" value="Conquered Territory."/>
+      <property name="Text" value="Victory 1."/>
+    </card>
+    <card name="New Svartalfheim" id="651759cd-af11-4a06-a2d8-e5b30a999087" size="SchemeCard">
+      <property name="CardNumber" value="999087"/>
+      <property name="Position" value="87"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Attribute" value="Conquered Territory."/>
+      <property name="Text" value="Victory 1."/>
+    </card>
+    <card name="Mystic Flight" id="651759cd-af11-4a06-a2d8-e5b30a999088" size="EncounterCard">
+      <property name="CardNumber" value="999088"/>
+      <property name="Position" value="88"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Attribute" value="Magic."/>
+      <property name="Text" value="Uses (2 energy counters)."/>
+    </card>
+    <card name="Protective Barrier" id="651759cd-af11-4a06-a2d8-e5b30a999089" size="EncounterCard">
+      <property name="CardNumber" value="999089"/>
+      <property name="Position" value="89"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Attribute" value="Magic."/>
+      <property name="Text" value="Uses (2 energy counters)."/>
+    </card>
+    <card name="Shapeshifting" id="651759cd-af11-4a06-a2d8-e5b30a999090" size="EncounterCard">
+      <property name="CardNumber" value="999090"/>
+      <property name="Position" value="90"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Attribute" value="Magic."/>
+      <property name="Text" value="Uses (2 energy counters)."/>
+    </card>
+    <card name="Energy Wave" id="651759cd-af11-4a06-a2d8-e5b30a999091" size="EncounterCard">
+      <property name="CardNumber" value="999091"/>
+      <property name="Position" value="91"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Attribute" value="Magic."/>
+      <property name="Text" value="Uses (2 energy counters)."/>
+    </card>
+    <card name="Mystic Endurance" id="651759cd-af11-4a06-a2d8-e5b30a999092" size="EncounterCard">
+      <property name="CardNumber" value="999092"/>
+      <property name="Position" value="92"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Attribute" value="Magic."/>
+      <property name="Text" value="Uses (2 energy counters)."/>
+    </card>
+    <card name="Ebony Blade" id="651759cd-af11-4a06-a2d8-e5b30a999093" size="EncounterCard">
+      <property name="CardNumber" value="999093"/>
+      <property name="Position" value="93"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Attribute" value="Weapon."/>
+    </card>
+    <card name="Conqueror of the Realms" id="651759cd-af11-4a06-a2d8-e5b30a999094" size="EncounterCard">
+      <property name="CardNumber" value="999094"/>
+      <property name="Position" value="94"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Attribute" value="Magic."/>
+      <property name="Text" value="Surge."/>
+    </card>
+    <card name="Conqueror of the Realms" id="651759cd-af11-4a06-a2d8-e5b30a999095" size="EncounterCard">
+      <property name="CardNumber" value="999095"/>
+      <property name="Position" value="95"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Attribute" value="Magic."/>
+      <property name="Text" value="Surge."/>
+    </card>
+    <card name="King of Svartalfheim" id="651759cd-af11-4a06-a2d8-e5b30a999096" size="EncounterCard">
+      <property name="CardNumber" value="999096"/>
+      <property name="Position" value="96"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text" value="Surge."/>
+    </card>
+    <card name="The Accursed" id="651759cd-af11-4a06-a2d8-e5b30a999097" size="EncounterCard">
+      <property name="CardNumber" value="999097"/>
+      <property name="Position" value="97"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+    </card>
+    <card name="The Accursed" id="651759cd-af11-4a06-a2d8-e5b30a999098" size="EncounterCard">
+      <property name="CardNumber" value="999098"/>
+      <property name="Position" value="98"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+    </card>
+    <card name="Black Bifrost" id="651759cd-af11-4a06-a2d8-e5b30a999099" size="EncounterCard">
+      <property name="CardNumber" value="999099"/>
+      <property name="Position" value="99"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="Attribute" value="Magic. Portal."/>
+      <property name="Text" value="Uses (1[per_player] teleport counters)."/>
+    </card>
+    <card name="Alligator Tank" id="651759cd-af11-4a06-a2d8-e5b30a999100" size="EncounterCard">
+      <property name="CardNumber" value="999100"/>
+      <property name="Position" value="100"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Beast. Vehicle."/>
+    </card>
+    <card name="War Dog" id="651759cd-af11-4a06-a2d8-e5b30a999101" size="EncounterCard">
+      <property name="CardNumber" value="999101"/>
+      <property name="Position" value="101"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Beast."/>
+      <property name="Text" value="Guard."/>
+    </card>
+    <card name="War Dog" id="651759cd-af11-4a06-a2d8-e5b30a999102" size="EncounterCard">
+      <property name="CardNumber" value="999102"/>
+      <property name="Position" value="102"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Beast."/>
+      <property name="Text" value="Guard."/>
+    </card>
+    <card name="War Dog" id="651759cd-af11-4a06-a2d8-e5b30a999103" size="EncounterCard">
+      <property name="CardNumber" value="999103"/>
+      <property name="Position" value="103"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Beast."/>
+      <property name="Text" value="Guard."/>
+    </card>
+    <card name="Aiding the Worthy" id="651759cd-af11-4a06-a2d8-e5b30a999104" size="SchemeCard">
+      <property name="CardNumber" value="999104"/>
+      <property name="Position" value="104"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_malekith_by_Jammydude44"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="Hinder 1[per_player]."/>
+    </card>
+    <card id="651759cd-af11-4a06-a2d8-e5b30a900006" name="svartalfheim (By Jammydude44)">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="fm_svartalfheim_by_Jammydude44"/>
+    </card>
+    <card name="Dark Elf Assassin" id="651759cd-af11-4a06-a2d8-e5b30a999105" size="EncounterCard">
+      <property name="CardNumber" value="999105"/>
+      <property name="Position" value="105"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_svartalfheim_by_Jammydude44"/>
+      <property name="HP" value="1"/>
+      <property name="Attribute" value="Dark Elf."/>
+      <property name="Text" value="Quickstrike."/>
+    </card>
+    <card name="Dark Elf Assassin" id="651759cd-af11-4a06-a2d8-e5b30a999106" size="EncounterCard">
+      <property name="CardNumber" value="999106"/>
+      <property name="Position" value="106"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_svartalfheim_by_Jammydude44"/>
+      <property name="HP" value="1"/>
+      <property name="Attribute" value="Dark Elf."/>
+      <property name="Text" value="Quickstrike."/>
+    </card>
+    <card name="Dark Elf Bomber" id="651759cd-af11-4a06-a2d8-e5b30a999107" size="EncounterCard">
+      <property name="CardNumber" value="999107"/>
+      <property name="Position" value="107"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_svartalfheim_by_Jammydude44"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Dark Elf."/>
+    </card>
+    <card name="Dark Elf Bomber" id="651759cd-af11-4a06-a2d8-e5b30a999108" size="EncounterCard">
+      <property name="CardNumber" value="999108"/>
+      <property name="Position" value="108"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="fm_svartalfheim_by_Jammydude44"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Dark Elf."/>
+    </card>
+    <card name="From the Shadows" id="651759cd-af11-4a06-a2d8-e5b30a999109" size="EncounterCard">
+      <property name="CardNumber" value="999109"/>
+      <property name="Position" value="109"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_svartalfheim_by_Jammydude44"/>
+    </card>
+    <card name="From the Shadows" id="651759cd-af11-4a06-a2d8-e5b30a999110" size="EncounterCard">
+      <property name="CardNumber" value="999110"/>
+      <property name="Position" value="110"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_svartalfheim_by_Jammydude44"/>
+    </card>
+    <card name="Armies of Svartalfheim" id="651759cd-af11-4a06-a2d8-e5b30a999111" size="SchemeCard">
+      <property name="CardNumber" value="999111"/>
+      <property name="Position" value="111"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_svartalfheim_by_Jammydude44"/>
+      <property name="BaseThreat" value="3"/>
+    </card>
+    <card id="651759cd-af11-4a06-a2d8-e5b30a900007" name="realms_campaign (By Jammydude44)">
+      <property name="Type" value="fm_hidden_setup"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="Insert 01" id="651759cd-af11-4a06-a2d8-e5b30a999112">
+      <property name="CardNumber" value="999112"/>
+      <property name="Position" value="112"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="insert"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="Insert 02" id="651759cd-af11-4a06-a2d8-e5b30a999113">
+      <property name="CardNumber" value="999113"/>
+      <property name="Position" value="113"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="insert"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="Insert 03" id="651759cd-af11-4a06-a2d8-e5b30a999114">
+      <property name="CardNumber" value="999114"/>
+      <property name="Position" value="114"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="insert"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="Insert 04" id="651759cd-af11-4a06-a2d8-e5b30a999115">
+      <property name="CardNumber" value="999115"/>
+      <property name="Position" value="115"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="insert"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="Insert 05" id="651759cd-af11-4a06-a2d8-e5b30a999116">
+      <property name="CardNumber" value="999116"/>
+      <property name="Position" value="116"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="insert"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="Insert 06" id="651759cd-af11-4a06-a2d8-e5b30a999117">
+      <property name="CardNumber" value="999117"/>
+      <property name="Position" value="117"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="insert"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="Insert 07" id="651759cd-af11-4a06-a2d8-e5b30a999118">
+      <property name="CardNumber" value="999118"/>
+      <property name="Position" value="118"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="insert"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="Insert 08" id="651759cd-af11-4a06-a2d8-e5b30a999119">
+      <property name="CardNumber" value="999119"/>
+      <property name="Position" value="119"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="insert"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="Insert 09" id="651759cd-af11-4a06-a2d8-e5b30a999120">
+      <property name="CardNumber" value="999120"/>
+      <property name="Position" value="120"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="insert"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="Insert 10" id="651759cd-af11-4a06-a2d8-e5b30a999121">
+      <property name="CardNumber" value="999121"/>
+      <property name="Position" value="121"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="insert"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="Agent Solomon" id="651759cd-af11-4a06-a2d8-e5b30a999122">
+      <property name="CardNumber" value="999122"/>
+      <property name="Position" value="122"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Shield. Spy."/>
+    </card>
+    <card name="Broxton Factories" id="651759cd-af11-4a06-a2d8-e5b30a999123" size="EncounterCard">
+      <property name="CardNumber" value="999123"/>
+      <property name="Position" value="123"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+      <property name="Attribute" value="Business."/>
+      <property name="Text" value="Setup. Permanent."/>
+    </card>
+    <card name="Valkyrior Steed" id="651759cd-af11-4a06-a2d8-e5b30a999124">
+      <property name="CardNumber" value="999124"/>
+      <property name="Position" value="124"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+      <property name="Attribute" value="Asgard."/>
+      <property name="Text" value="Setup. Permanent. Uses (2 flight counters)."/>
+    </card>
+    <card name="Valkyrior Steed" id="651759cd-af11-4a06-a2d8-e5b30a999125">
+      <property name="CardNumber" value="999125"/>
+      <property name="Position" value="125"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+      <property name="Attribute" value="Asgard."/>
+      <property name="Text" value="Setup. Permanent. Uses (2 flight counters)."/>
+    </card>
+    <card name="Valkyrior Steed" id="651759cd-af11-4a06-a2d8-e5b30a999126">
+      <property name="CardNumber" value="999126"/>
+      <property name="Position" value="126"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+      <property name="Attribute" value="Asgard."/>
+      <property name="Text" value="Setup. Permanent. Uses (2 flight counters)."/>
+    </card>
+    <card name="Valkyrior Steed" id="651759cd-af11-4a06-a2d8-e5b30a999127">
+      <property name="CardNumber" value="999127"/>
+      <property name="Position" value="127"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+      <property name="Attribute" value="Asgard."/>
+      <property name="Text" value="Setup. Permanent. Uses (2 flight counters)."/>
+    </card>
+    <card name="Mangog Rampage" id="651759cd-af11-4a06-a2d8-e5b30a999128" size="SchemeCard">
+      <property name="CardNumber" value="999128"/>
+      <property name="Position" value="128"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+      <property name="BaseThreat" value="1"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="Hinder 3[per_player]. Victory 1."/>
+    </card>
+    <card name="Air Support" id="651759cd-af11-4a06-a2d8-e5b30a999129" size="EncounterCard">
+      <property name="CardNumber" value="999129"/>
+      <property name="Position" value="129"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+      <property name="Text" value="Inevitable."/>
+    </card>
+    <card name="Air Support" id="651759cd-af11-4a06-a2d8-e5b30a999130" size="EncounterCard">
+      <property name="CardNumber" value="999130"/>
+      <property name="Position" value="130"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+      <property name="Text" value="Inevitable."/>
+    </card>
+    <card name="Malekith's Venom Blade" id="651759cd-af11-4a06-a2d8-e5b30a999131" size="EncounterCard">
+      <property name="CardNumber" value="999131"/>
+      <property name="Position" value="131"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+      <property name="Attribute" value="Symbiote. Weapon."/>
+    </card>
+    <card name="Butcher of Thors" id="651759cd-af11-4a06-a2d8-e5b30a999132" size="EncounterCard">
+      <property name="CardNumber" value="999132"/>
+      <property name="Position" value="132"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+      <property name="Text" value="Peril."/>
+    </card>
+    <card name="Power of the Symbiote" id="651759cd-af11-4a06-a2d8-e5b30a999133" size="SchemeCard">
+      <property name="CardNumber" value="999133"/>
+      <property name="Position" value="133"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+      <property name="BaseThreat" value="2"/>
+    </card>
+    <card name="Frostbite" id="651759cd-af11-4a06-a2d8-e5b30a999134" size="EncounterCard">
+      <property name="CardNumber" value="999134"/>
+      <property name="Position" value="134"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="Frostbite" id="651759cd-af11-4a06-a2d8-e5b30a999135" size="EncounterCard">
+      <property name="CardNumber" value="999135"/>
+      <property name="Position" value="135"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="Frostbite" id="651759cd-af11-4a06-a2d8-e5b30a999136" size="EncounterCard">
+      <property name="CardNumber" value="999136"/>
+      <property name="Position" value="136"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="Frostbite" id="651759cd-af11-4a06-a2d8-e5b30a999137" size="EncounterCard">
+      <property name="CardNumber" value="999137"/>
+      <property name="Position" value="137"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+    </card>
+    <card name="The Iron All-Father" id="651759cd-af11-4a06-a2d8-e5b30a999138">
+      <property name="CardNumber" value="999138"/>
+      <property name="Position" value="138"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Campaign"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="fm_realms_campaign_by_Jammydude44"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Asgard. King."/>
+    </card>
+ </cards>
+</set>

@@ -358,10 +358,8 @@ Toughness.</property>
       <property name="Type" value="side_scheme"/>
       <property name="Owner" value="vision_nemesis"/>
       <property name="Boost" value="3"/>
-      <property name="BaseThreat" value="0"/>
-      <property name="BaseThreatFixed" value="False"/>
-      <property name="EscalationThreatFixed" value="False"/>
-      <property name="Scheme_Acceleration" value="1"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
       <property name="Text">&lt;b&gt;When Revealed:&lt;/b&gt; Search the encounter deck, discard pile, and set-aside area for Ultron Drones and put it into play. Shuffle the encounter deck. Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.</property>
     </card>
     <card name="Ultron Drones" id="a73204ff-122a-4a2b-bb4b-cae3c7e8b7b0" size="EncounterCard">

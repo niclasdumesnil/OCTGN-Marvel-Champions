@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 #------------------------------------------------------------
 # 'Load Villain' event
 #------------------------------------------------------------
@@ -36,7 +38,6 @@ Reset the game in order to generate a new deck."""
     setGlobalVariable("villainSetup", villainName)
     nbModular = cardSelected[0].nbModular
     setGlobalVariable("nbModular", nbModular)
-    nbModular = cardSelected[0].nbModular
     if cardSelected[0].hasProperty("recommendedModular"):
         setGlobalVariable("recommendedModular", cardSelected[0].recommendedModular)
 
@@ -60,46 +61,79 @@ Reset the game in order to generate a new deck."""
     nbModular = int(getGlobalVariable("nbModular"))
     if not loadEncounter(encounterDeck(), nbModular): return
     campaignEncounter(villainSet)
-    villainSetup()
+    if fanmade:
+        villainSetup_fm()
+    else:
+        villainSetup()
+    getSetupCards()
     notify('{} loaded {}, Good Luck!'.format(me, villainName))
     checkSetup()
 
 
 def loadDifficulty():
     vName = getGlobalVariable("villainSetup")
-    choice = askChoice("What difficulty would you like to play at?", ["Standard", "Expert", "Standard II", "Expert II"])
+    stdChoice = 0
+    expChoice = 0
+    x = tableLocations['environment'][0] - 90
+    y = tableLocations['environment'][1]
 
     if vName == 'The Wrecking Crew':
+        choice = askChoice("What difficulty would you like to play at?", ["Standard", "Expert"])
         if choice == 0:
             deleteAllSharedCards()
             return
-        if choice == 2 or choice == 4:
+        if choice == 2:
             setGlobalVariable("difficulty", "1")
         return True
 
     else:
-        if choice == 0:
+        if vName == 'Defense Tower' or vName == 'Sinister Six' or vName == 'Four Horsemen':
+            x = 0
+            y = 0
+
+        stdList = ["Standard I", "Standard II", "Standard III"]
+        stdColor = ["#997516"] * len(stdList)
+        stdChoice = askChoice("Which Standard set would you like to use ?", stdList, stdColor)
+        if stdChoice == 0:
             deleteAllSharedCards()
             return
-        if choice == 1:
+        if stdChoice == 1:
             createCardsFromSet(encounterDeck(), "standard", "Standard", True)
-        if choice == 2:
-            createCardsFromSet(encounterDeck(), "standard", "Standard", True)
+        if stdChoice == 2:
+            createCardsFromSet(encounterDeck(), "standard_ii", "Standard II", True)
+        if stdChoice == 3:
+            createCardsFromSet(encounterDeck(), "standard_iii", "Standard III", True)
+
+        expList = ["Expert I", "Expert II"]
+        expColor = ["#d11141"] + ["#997516"] * len(expList)
+        expChoice = askChoice("Which Expert set would you like to use ?", ["None"] + expList, expColor)
+        if expChoice == 0:
+            deleteAllSharedCards()
+            return
+        if expChoice != 1:
+            setGlobalVariable("difficulty", "1")
+        if expChoice == 2:
             createCardsFromSet(encounterDeck(), "expert", "Expert", True)
-            setGlobalVariable("difficulty", "1")
-        if choice == 3:
-            createCardsFromSet(encounterDeck(), "standard_ii", "Standard II", True)
-            EnvCard = sorted(filter(lambda card: card.CardNumber == "24049a", encounterDeck())) # Formidable Foe environment
-            EnvCard[0].moveToTable(tableLocations['environment'][0] - 90, tableLocations['environment'][1]) # Do not override other environment cards from scenario (if any)
-        if choice == 4:
-            createCardsFromSet(encounterDeck(), "standard_ii", "Standard II", True)
+        if expChoice == 3:
             createCardsFromSet(encounterDeck(), "expert_ii", "Expert II", True)
-            EnvCard = sorted(filter(lambda card: card.CardNumber == "24049a", shared.encounter)) # Formidable Foe environment
-            EnvCard[0].moveToTable(tableLocations['environment'][0] - 90, tableLocations['environment'][1])
-            EnvCardOnTable = sorted(filter(lambda card: card.CardNumber == "24049a", table)) # Formidable Foe environment
-            EnvCardOnTable[0].alternate = 'b'
-            setGlobalVariable("difficulty", "1")
+
+        if stdChoice == 2:
+            EnvCard = sorted(filter(lambda card: card.CardNumber == "24049a", encounterDeck()))
+            EnvCard[0].moveToTable(x, y) # Do not override other environment cards from scenario (if any)
+            if expChoice != 1:
+                EnvCard[0].alternate = 'b'
+        if stdChoice == 3:
+            EnvCard = sorted(filter(lambda card: card.CardNumber == "45075a", encounterDeck()))
+            EnvCard[0].moveToTable(x, y) # Do not override other environment cards from scenario (if any) 
+
         return True
+
+def getSetupCards():
+    shift = 0
+    for c in encounterAndDiscardDeck():
+        if lookForSetup(c):
+            c.moveToTable(0 + shift, tableLocations['villain'][1] + 100)
+            shift += 20
 
 def deleteAllSharedCards():
     for pl in shared.piles:
@@ -111,7 +145,6 @@ def villainSetup(group=table, x = 0, y = 0):
     vName = getGlobalVariable("villainSetup")
 
     # Move cards from Villain Deck to Encounter and Scheme Decks
-
     villainCards = sorted(filter(lambda card: card.Type == "villain", villainDeck()), key=lambda c: c.CardNumber)
     mainSchemeCards = sorted(filter(lambda card: card.Type == "main_scheme", mainSchemeDeck()), key=lambda c: c.CardNumber)
     villainEnvCards = sorted(filter(lambda card: card.Type == "environment", encounterDeck()))
@@ -271,6 +304,26 @@ def villainSetup(group=table, x = 0, y = 0):
         revealCardOnSetup("Hope Summers", "40130", 0, 0, isAttachment=False, inSideDeck=True)
         revealCardOnSetup("Stryfe's Grasp", "40168a", tableLocations['sideScheme'][0], tableLocations['sideScheme'][1])
 
+    elif vName == "Four Horsemen":
+        # If we loaded the encounter deck - add the first villain and main scheme cards to the table
+        loop = 4
+        while loop > 0:
+            villainCard = villainDeck().random()
+            villainCard.moveToTable(villainX(4, loop-1), tableLocations['villain'][1])
+            if gameDifficulty == "1":
+                villainCard.alternate = "b"
+            loop -= 1
+
+        # If we loaded the encounter deck - add the first main scheme card to the table
+        sorted(mainSchemeCards)[0].moveToTable(tableLocations['mainSchemeCentered'][0]-100,tableLocations['villain'][1]+100)
+
+    elif vName == "Apocalypse":
+        # If we loaded the encounter deck - add the first villain and main scheme cards to the table
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        if gameDifficulty == "0":
+            villainCards[0].alternate = "b"        
+
     else:
         # If we loaded the encounter deck - add the first villain and main scheme cards to the table
         mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
@@ -279,6 +332,114 @@ def villainSetup(group=table, x = 0, y = 0):
     update()
     shuffle(encounterDeck())
     SpecificVillainSetup(vName)
+
+def villainSetup_fm(group=table, x = 0, y = 0):
+    # Global Variables
+    gameDifficulty = getGlobalVariable("difficulty")
+    vName = getGlobalVariable("villainSetup")
+
+    # Move cards from Villain Deck to Encounter and Scheme Decks
+    villainCards = sorted(filter(lambda card: card.Type == "villain", villainDeck()), key=lambda c: c.CardNumber)
+    mainSchemeCards = sorted(filter(lambda card: card.Type == "main_scheme", mainSchemeDeck()), key=lambda c: c.CardNumber)
+    villainEnvCards = sorted(filter(lambda card: card.Type == "environment", encounterDeck()))
+    villainAttCards = sorted(filter(lambda card: card.Type == "attachment", encounterDeck()))
+
+    if vName == 'Celestial Messiah (By CptScorp)':
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        deadlyVineCards = filter(lambda card: card.Name == "Deadly Vines", sideDeck())
+        for i in range(0, len(getPlayers())):
+            deadlyVineCards[i].moveToTable(playerX(i), 0)
+
+    elif vName == 'Fin Fang Foom (By Nugget)':
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[2].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        villainCards[0].moveToTable(villainX(1, 0)+11, tableLocations['villain'][1]+23)
+        villainCards[1].moveToTable(villainX(1, 0)+17, tableLocations['villain'][1]+53)
+        villainCards[3].moveToTable(villainX(1, 0)+14, tableLocations['villain'][1]+73)
+
+    elif vName == "Graviton (By XB)":
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        envCard = filter(lambda card: card.Name == "Dark Matter", encounterDeck())
+        envCard[0].moveToTable(tableLocations['environment'][0], tableLocations['environment'][1])
+        ssCard = filter(lambda card: card.Name == "Seismic Uprising", encounterDeck())
+        ssCard[0].moveToTable(tableLocations['mainScheme'][0] + 100, tableLocations['mainScheme'][1])
+
+    elif vName == "Dragon's Madripoor (By Merlin)":
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        minionCards = filter(lambda card: card.Name == "Hand Soldier", encounterDeck())
+        for i in range(0, len(getPlayers())):
+            minionCards[i].moveToTable(playerX(i), 0)
+ 
+    elif vName == "Killmonger (By JustATuna)":
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        envCards = filter(lambda card: card.Attribute == "Objective.", encounterDeck())
+        for i in range(0, len(envCards)):
+            envCards[i].moveToTable(-140 + 70 * i, -130)
+
+    elif vName == "Minotaur (By Jammydude44)":
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        envCard = filter(lambda card: card.Name == "Roxxon Energy", sideDeck())
+        envCard[0].moveToTable(tableLocations['environment'][0], tableLocations['environment'][1])
+        showGroup(sideDeck(), True)
+        update()
+        ssCard = sideDeck().top()
+        ssCard.moveToTable(tableLocations['mainScheme'][0] + 100, tableLocations['mainScheme'][1])
+
+    elif vName == "Laufey (By Jammydude44)":
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        thorCard = filter(lambda card: card.Name == "Thor", sideDeck())
+        thorCard[0].moveToTable(villainX(1, 0), tableLocations['villain'][1]+100)
+        envCard = filter(lambda card: card.Name == "King of the Frost Giants", sideDeck())
+        envCard[0].moveToTable(tableLocations['environment'][0], tableLocations['environment'][1])
+        minionCards = filter(lambda card: card.Name == "Frost Giant Archer", encounterDeck())
+        for i in range(0, len(getPlayers())):
+            minionCards[i].moveToTable(playerX(i), 0)
+        showGroup(sideDeck(), True)
+        showGroup(sideDeckDiscard(), False)
+
+    elif vName == "Malekith (By Jammydude44)":
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        ssCards = sorted(filter(lambda card: card.Type == "side_scheme", sideDeck()), key=lambda c: c.CardNumber)
+        for idx, c in enumerate(ssCards):
+            c.moveToTable(villainX(len(ssCards),idx)-15, tableLocations['villain'][1]+90)
+
+    elif vName == "Mandarin (By Designhacker)":
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        envCard = filter(lambda card: card.Name == "E.M.P. Disruption", sideDeck())
+        envCard[0].moveToTable(tableLocations['environment'][0], tableLocations['environment'][1])
+
+    elif vName == "Mister Negative (By Andy)":
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        ssCard = filter(lambda card: card.Name == "Demons Unleashed", encounterDeck())
+        ssCard[0].moveToTable(tableLocations['mainScheme'][0] + 100, tableLocations['mainScheme'][1])
+
+    elif vName == "Purple Man (By Designhacker)":
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        envCard = filter(lambda card: card.Name == "Villains For Hire", sideDeck())
+        envCard[0].moveToTable(tableLocations['environment'][0], tableLocations['environment'][1])
+
+    elif vName == "The Zodiac (By TopBanana)":
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        showGroup(sideDeck(), True)
+
+    else:
+        # If we loaded the encounter deck - add the first villain and main scheme cards to the table
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+
+    update()
+    shuffle(encounterDeck())
 
 
 #------------------------------------------------------------
@@ -301,6 +462,8 @@ def revealCardOnSetup(ssName, ssCardNumber, posX, posY, isAttachment=False, inSi
         notify("{} card not found in encounter deck nor encounter discard!".format(ssName))
 
 def SpecificVillainSetup(vName = ''):
+    # Global Variables
+    gameDifficulty = getGlobalVariable("difficulty")
 
     vCardOnTable = sorted(filter(lambda card: card.Type == "villain", table), reverse=True)
     msCardOnTable = sorted(filter(lambda card: card.Type == "main_scheme", table))
@@ -327,6 +490,9 @@ def SpecificVillainSetup(vName = ''):
                 ssX = ssCard1_OnTable[0].position[0] + 100
                 ssY = ssCard1_OnTable[0].position[1]
             revealCardOnSetup("'Immortal' Klaw", "01127", ssX, ssY)
+            if vCardOnTable[0].markers[HealthMarker] == 0:
+                setHPOnCharacter(vCardOnTable[0])
+            addMarker(vCardOnTable[0], 0, 0, qty = 10)
 
 
     if vName == 'Ultron':
@@ -533,7 +699,7 @@ def SpecificVillainSetup(vName = ''):
 
     if vName == 'Mansion Attack':
         if msCardOnTable[0].CardNumber == "32125a": # Stage 1 main scheme
-            c = revealCardOnSetup("Save The School", "32130", tableLocations['environment'][0], tableLocations['environment'][1])
+            revealCardOnSetup("Save The School", "32130", tableLocations['environment'][0], tableLocations['environment'][1])
 
 
     if vName == 'Magneto':
@@ -564,3 +730,37 @@ def SpecificVillainSetup(vName = ''):
     if vName == 'Mojo':
         if msCardOnTable[0].CardNumber == "39025a": # Stage 1 main scheme
             revealCardOnSetup("Wheel of Genres (Spinning)", "39026a", tableLocations['environment'][0], tableLocations['environment'][1])
+
+
+    if vName == 'Unus':
+        if msCardOnTable[0].CardNumber == "45062a": # Stage 1 main scheme
+            revealCardOnSetup("Gene Pool", "45071", ssX, ssY)
+
+
+    if vName == 'Four Horsemen':
+        if msCardOnTable[0].CardNumber == "45085a": # Stage 1 main scheme
+            loop = len(getPlayers())
+            while loop > 0:
+                ssCards = sorted(filter(lambda card: card.Type == "side_scheme" and card.Owner == "four_horsemen", encounterDeck()), key=lambda c: c.CardNumber)
+                randomScheme = rnd(0, len(ssCards)-1)
+                ssCards[randomScheme].moveToTable(tableLocations['mainSchemeCentered'][0]+80*loop, tableLocations['villain'][1]+100)
+                loop -= 1
+
+
+    if vName == 'Apocalypse':
+        if msCardOnTable[0].CardNumber == "45103a": # Stage 1 main scheme
+            revealCardOnSetup("Heart of the Empire", "45104a", ssX, ssY, inSideDeck=True)
+            # The first player reveals a random, set-aside [[Prelate]] minion
+            minionCards = filter(lambda card: card.Type == "minion", sideDeck())
+            randomMinion = rnd(0, len(minionCards)-1)
+            minionCards[randomMinion].moveToTable(playerX(0), 0)
+            minionCards[randomMinion].alternate = "b"
+
+
+    if vName == 'Dark Beast':
+        if msCardOnTable[0].CardNumber == "45121a" and gameDifficulty == "1": # Stage 1 main scheme
+            revealCardOnSetup("High-Tech Goggles", "45122", vilX-15, vilY+5, isAttachment=True)
+        for c in table:
+            if c.Type == 'environment' and lookForAttribute(c, "Setting."):
+                c.moveTo(encounterDiscardDeck())
+        shuffleSetIntoEncounter(sideDeck(), x = 0, y = 0, random = True)

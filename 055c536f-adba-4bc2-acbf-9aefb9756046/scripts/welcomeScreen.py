@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 #---------------------------------------------------------------------------
 # Welcome screen
 # Highly inspired from Card Fighters' Clash OCTGN implementation
@@ -121,7 +123,13 @@ def cardInfo(card, x = 0, y = 0):
     keyword = card.properties["Text"]
     if keyword:
 
-        if re.search("Guard", keyword):
+        if re.search("Alliance", keyword):
+            msg += """
+
+ALLIANCE
+When a player declares their intention to play an alliance card, any player(s) may help pay the costs for that card."""
+
+        if re.search("Guard", keyword, re.IGNORECASE):
             msg += """
 
 GUARD
@@ -133,19 +141,19 @@ While a minion with guard is engaged with a player, that player cannot attack th
 HINDER X
 When a player reveals a card with hinder X, that player places X threat on that card."""
 
-        if re.search("Incite", keyword):
+        if re.search("Incite", keyword, re.IGNORECASE):
             msg += """
 
 INCITE X
 When a player reveals a card with incite X, that player places X threat on the main scheme."""
 
-        if re.search("Overkill", keyword):
+        if re.search("Overkill", keyword, re.IGNORECASE):
             msg += """
 
 OVERKILL
 Excess damage from attacks with overkill are dealt to the identity or villain."""
 
-        if re.search("Patrol", keyword):
+        if re.search("Patrol", keyword, re.IGNORECASE):
             msg += """
 
 PATROL
@@ -163,31 +171,37 @@ While a player is resolving a card with peril, other players cannot help that pl
 PERMANENT
 Cards with permanent cannot leave play."""
 
-        if re.search("Piercing", keyword):
+        if re.search("Piercing", keyword, re.IGNORECASE):
             msg += """
 
 PIERCING
-Attacks with piercing discard tough status cards from the target before damage is dealt."""
+Attacks with piercing discard tough status cards from the attacked character before damage is dealt."""
 
-        if re.search("Quickstrike", keyword):
+        if re.search("Quickstrike", keyword, re.IGNORECASE):
             msg += """
 
 QUICKSTRIKE
 After this enemy engages a player, it immediately attacks that player if they are in hero form. """
 
-        if re.search("Ranged", keyword):
+        if re.search("Ranged", keyword, re.IGNORECASE):
             msg += """
 
 RANGED
 Attacks with ranged ignore retaliate."""
 
-        if re.search("Restricted", keyword):
+        if re.search("Requirement", keyword):
+            msg += """
+
+REQUIREMENT(RESOURCES)
+A card with the requirement keyword cannot be played unless each resource of the specified type is spent while paying for that card’s cost."""
+
+        if re.search("Restricted", keyword, re.IGNORECASE):
             msg += """
 
 RESTRICTED
 A player cannot control more than two restricted cards at a given time."""
 
-        if re.search("Retaliate", keyword):
+        if re.search("Retaliate", keyword, re.IGNORECASE):
             msg += """
 
 RETALIATE X
@@ -199,13 +213,19 @@ After a character with retaliate X is attacked, deal X damage to the attacker.""
 SETUP
 Cards with setup start the game in play."""
 
-        if re.search("Stalwart", keyword):
+        if re.search("Stalwart", keyword, re.IGNORECASE):
             msg += """
 
 STALWART
 Characters with Stalwart cannot be stunned or confused."""
 
-        if re.search("Surge", keyword):
+        if re.search("Steady", keyword, re.IGNORECASE):
+            msg += """
+
+STEADY
+A character with the steady keyword is not stunned or confused unless it has two stunned or confused status cards, respectively."""
+
+        if re.search("Surge", keyword, re.IGNORECASE):
             msg += """
 
 SURGE
@@ -217,7 +237,19 @@ After a player reveals a card with surge, that player reveals an additional enco
 TEAM-UP
 Cards with team-up cannot be played unless both characters listed by the keyword are in play."""
 
-        if re.search("Toughness", keyword):
+        if re.search("Teamwork", keyword, re.IGNORECASE):
+            msg += """
+
+TEAMWORK (Trait)
+After a minion with teamwork enters play and engages a player, if there is at least one other minion that shares the specified trait in play, each minion that shares the teamwork keyword with the same specified trait activates against the player it is engaged with."""
+
+        if re.search("Temporary", keyword):
+            msg += """
+
+TEMPORARY
+A card with temporary must be discarded from play at the end of the round."""
+
+        if re.search("Toughness", keyword, re.IGNORECASE):
             msg += """
 
 TOUGHNESS

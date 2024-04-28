@@ -361,6 +361,7 @@ def turnPassed(args):
 def moveCards(args):
     mute()
     autoCharges(args)
+    magikDeck(args)
 
 
 #------------------------------------------------------------
@@ -607,12 +608,14 @@ def changeForm(card, x = 0, y = 0):
     elif "b" in card.alternates:
         if card.alternate == "":
             card.alternate = "b"
-            notify("{} changes form to {}.".format(me, card))
         else:
             card.alternate = ""
-            notify("{} changes form to {}.".format(me, card))
-    me.setGlobalVariable("cardForm", card.Type)
-    me.counters["Default Card Draw"].value = num(card.HandSize)
+
+    if card.Type == "hero" or card.Type == "alter_ego":
+        me.setGlobalVariable("cardForm", card.Type)
+        me.counters["Default Card Draw"].value = num(card.HandSize)
+    else:
+        lookForToughness(card)
 
 def specific_hero_flip(card, x = 0, y = 0):
     mute()
@@ -656,6 +659,12 @@ def specific_hero_flip(card, x = 0, y = 0):
             switchCards(heroCard[0], upgradeCard[0], h = 1, t = 1, s = 1, c = 1, a = 1)
             me.setGlobalVariable("cardForm", "alter_ego")
             me.counters["Default Card Draw"].value = num(upgradeCard[0].HandSize)
+    if card.Owner == 'magik':
+        if card.Type == "hero":
+            me.Deck.top().isFaceUp = True
+        if card.Type == "alter_ego":
+            me.Deck.top().isFaceUp = False
+
 
 def villainBoost(card, x=0, y=0, who=me):
     mute()
@@ -910,16 +919,11 @@ def revealHide(card, x = 0, y = 0):
     if "b" in card.alternates:
         if card.CardNumber == "31001a" or card.CardNumber == "31001b" or card.CardNumber == "31002a" or card.CardNumber == "31002b":
             specific_hero_flip(card)
-        elif card.Type == "hero" or card.Type == "alter_ego":
+        else:
             changeForm(card)
             specific_hero_flip(card)
-        else:
-            if card.alternate == "":
-                card.alternate = "b"
-                if isScheme([card]):
-                    placeThreatOnScheme(card)
-            else:
-                card.alternate = ""
+            if isScheme([card]):
+                placeThreatOnScheme(card)
 
             if card.Type == "villain":
                 setHPOnCharacter(card)
@@ -1167,6 +1171,10 @@ def shuffle(group, x = 0, y = 0, silence = False):
         if card.isFaceUp:
             card.isFaceUp = False
     group.shuffle()
+    heroPlayed = me.getGlobalVariable("heroPlayed")
+    cardForm = me.getGlobalVariable("cardForm")
+    if heroPlayed == "magik" and cardForm == "hero" and group == me.piles["Deck"] and not group.top().isFaceUp:
+        group.top().isFaceUp = True  
     if silence == False:
         notify("{} shuffled their {}".format(me, group.name))
 
@@ -1208,7 +1216,7 @@ def shuffleDiscardIntoDeck(group, x = 0, y = 0):
         shuffle(encounterDeck())
         notify("{} shuffles the special discard pile into the special Deck.".format(me))
 
-def shuffleSetIntoEncounter(group, x = 0, y = 0):
+def shuffleSetIntoEncounter(group, x = 0, y = 0, random = False):
     mute()
     if len(group) == 0: return
 
@@ -1216,55 +1224,38 @@ def shuffleSetIntoEncounter(group, x = 0, y = 0):
     vName = getGlobalVariable("villainSetup")
     ownerList = []
 
-    if group == specialDeck():
-        for card in group:
-            ownerExistsInList = ownerList.count(card.Owner)
-            if ownerExistsInList == 0:
-                ownerList.append(card.Owner)
+    for card in group:
+        ownerExistsInList = ownerList.count(card.Owner)
+        if ownerExistsInList == 0:
+            ownerList.append(card.Owner)
+    if random:
+        ownerChoice = 1
+    else:
         ownerChoice = askChoice("Which encounter set would you like to shuffle into deck?", ["Random"] + ownerList)
-        if ownerChoice == 0: return
-        if ownerChoice == 1:
-            ownerRandom = rnd(0, len(ownerList)-1)
-            for card in group:
-                if card.Owner == ownerList[ownerRandom]:
-                    card.moveTo(encounterDeck())
-            notify("{} shuffles {} into the Encounter Deck.".format(me, ownerList[ownerRandom]))
-        else:
-            for card in group:
-                if card.Owner == ownerList[ownerChoice-2]:
-                    card.moveTo(encounterDeck())
-            notify("{} shuffles {} into the Encounter Deck.".format(me, ownerList[ownerChoice-2]))
-        shuffle(encounterDeck())
+
+    if ownerChoice == 0: return
+    if ownerChoice == 1:
+        ownerSelected = rnd(0, len(ownerList)-1)
+    else:
+        ownerSelected = ownerChoice-2
+
+    for card in group:
+        if card.Owner == ownerList[ownerSelected]:
+            if card.Type == "environment" and (vName == "Mojo" or vName == "Dark Beast"):
+                card.moveToTable(tableLocations['environment'][0]-70, tableLocations['environment'][1])
+            elif vName == "Mojo":
+                card.moveTo(sideDeckDiscard())
+            else:
+                card.moveTo(encounterDeck())
 
     if vName == "Mojo":
-        for card in sideDeck():
-            ownerExistsInList = ownerList.count(card.Owner)
-            if ownerExistsInList == 0:
-                ownerList.append(card.Owner)
-        ownerChoice = askChoice("Which encounter set would you like to shuffle into deck?", ["Random"] + ownerList)
-        if ownerChoice == 0: return
-        if ownerChoice == 1:
-            ownerToShuffle = ownerList[rnd(0, len(ownerList)-1)]
-        else:
-            ownerToShuffle = ownerList[ownerChoice-2]
-
-        for card in sideDeck():
-            if card.Owner == ownerToShuffle:
-                if card.Type == "environment":
-                    card.moveToTable(tableLocations['environment'][0]-70, tableLocations['environment'][1])
-                else:
-                    card.moveTo(sideDeckDiscard())
-        update()
         shuffle(sideDeckDiscard())
         for card in sideDeckDiscard():
             card.moveTo(encounterDeck())
-
-        if len(ownerList) == 1 + len(getPlayers()):
-            update()
-            shuffle(encounterDeck())
-            notify("{} shuffles {} into the Encounter Deck.".format(me, ownerToShuffle))
-        else:
-            notify("{} put {} cards on top of the Encounter Deck.".format(me, ownerToShuffle))
+        notify("{} put {} cards on top of the Encounter Deck.".format(me, ownerList[ownerSelected]))
+    else:
+        shuffle(encounterDeck())
+        notify("{} shuffles {} into the Encounter Deck.".format(me, ownerList[ownerSelected]))
 
 def viewGroup(group, x = 0, y = 0):
     group.lookAt(-1)
@@ -1322,6 +1313,10 @@ def nextSchemeStage(group=None, x=0, y=0):
     if group is None or group == table:
         group = mainSchemeDeck()
     if len(group) == 0: return
+
+    if vName not in ('Kang'):
+        choice = askChoice("Do you want to reveal the next sequential stage of the scheme deck ?", [], [], ["Yes", "No"])
+        if choice != -1: return
 
     if group.controller != me:
         remoteCall(group.controller, "nextSchemeStage", [group, x, y])
@@ -1393,7 +1388,11 @@ def nextVillainStage(group=None, x=0, y=0):
     # We need a new Villain card
     if group is None or group == table:
         group = villainDeck()
-    if len(group) == 0: return
+    if len(group) == 0 and vName != "Apocalypse": return
+
+    if vName not in ('The Wrecking Crew', 'Loki'):
+        choice = askChoice("Do you want to reveal the next sequential stage of the villain deck ?", [], [], ["Yes", "No"])
+        if choice != -1: return
 
     if group.controller != me:
         remoteCall(group.controller, "nextVillainStage", [group, x, y])
@@ -1554,6 +1553,47 @@ def nextVillainStage(group=None, x=0, y=0):
                 if gameDifficulty == "1":
                     vCards[randomVillain].alternate = "b"
 
+    elif vName == 'Apocalypse':
+        vCardOnTable = sorted(filter(lambda card: card.Type == "villain", table), key=lambda c: c.CardNumber)
+        if vCardOnTable[0].CardNumber == "45101a":
+            vCardOnTable[0].markers[HealthMarker] = 0
+            vCardOnTable[0].alternate = "b"
+            if vCardOnTable[0].markers[ToughMarker] == 0:
+                lookForToughness(vCardOnTable[0])
+            setHPOnCharacter(vCardOnTable[0])
+        elif vCardOnTable[0].CardNumber == "45101b":
+            x, y = vCardOnTable[0].position
+            if len(vCardOnTable[0].alternates) > 1:
+                currentVillain = num(vCardOnTable[0].CardNumber[:-1])
+            else:
+                currentVillain = num(vCardOnTable[0].CardNumber)
+            currentStun = vCardOnTable[0].markers[StunnedMarker]
+            currentTough = vCardOnTable[0].markers[ToughMarker]
+            currentConfused = vCardOnTable[0].markers[ConfusedMarker]
+            currentAcceleration = vCardOnTable[0].markers[AccelerationMarker]
+            currentAllPurpose = vCardOnTable[0].markers[AllPurposeMarker]
+            vCardOnTable[0].moveToBottom(removedFromGameDeck())
+
+            vCards = sorted(filter(lambda card: card.Type == "villain", villainDeck()), key=lambda c: c.CardNumber)
+            if len(vCards[0].alternates) > 1:
+                checkNumber = num(vCards[0].CardNumber[:-1])
+            else:
+                checkNumber = num(vCards[0].CardNumber)
+            if checkNumber == currentVillain + 1:
+                vCards[0].moveToTable(x, y)
+                vCards[0].markers[StunnedMarker] = currentStun
+                vCards[0].markers[ToughMarker] = currentTough
+                vCards[0].markers[ConfusedMarker] = currentConfused
+                vCards[0].markers[AccelerationMarker] = currentAcceleration
+                vCards[0].markers[AllPurposeMarker] = currentAllPurpose
+                notify("{} advances Villain to the next stage".format(me))
+        elif vCardOnTable[0].CardNumber == "45102a":
+            vCardOnTable[0].markers[HealthMarker] = 0
+            vCardOnTable[0].alternate = "b"
+            if vCardOnTable[0].markers[ToughMarker] == 0:
+                lookForToughness(vCardOnTable[0])
+            setHPOnCharacter(vCardOnTable[0])
+
     else:
         for c in table:
             if c.Type == 'villain':
@@ -1653,6 +1693,21 @@ def autoCharges(args):
                 placeThreatOnScheme(card)
                 setHPOnCharacter(card)
 
+def magikDeck(args):
+    mute()
+    card = args.cards[0] # card being moved
+    heroPlayed = me.getGlobalVariable("heroPlayed") 
+    cardForm = me.getGlobalVariable("cardForm") 
+    if heroPlayed == "magik" and cardForm == "hero" and card.controller == me: # if card being moved belongs to Magik player
+        if args.fromGroups[0] == card.controller.deck or args.toGroups[0] == card.controller.deck:
+            if not(len(card.controller.deck)):
+                return
+            if len(card.controller.deck) >= 2:
+                if card.controller.deck[1].isFaceUp: # checks if second top is face up and turns it down if so
+                    card.controller.deck[1].isFaceUp = False
+            if not card.controller.deck.top().isFaceUp: # Flips first card of the deck faceup
+                card.controller.deck.top().isFaceUp = True
+
 def noCountInHandSize(card):
     """
     Return boolean value to specify if the given card should be taken into account when computing hand size
@@ -1680,6 +1735,12 @@ def lookForAttribute(card, attrib):
     Look for attribute
     """
     return re.search('.*' + attrib + '.*', card.properties["Attribute"], re.IGNORECASE) if card.hasProperty("Attribute") else False
+
+def lookForSetup(card):
+    """
+    Look for Villainous keyword => for boost card purpose
+    """
+    return re.search('.*Setup.*', card.properties["Text"])
 
 def lookForToughness(card):
     """
