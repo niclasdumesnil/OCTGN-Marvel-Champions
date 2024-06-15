@@ -206,6 +206,7 @@
             <property name="Owner" value="magik" />
         </card>
         <card id="055c536f-adba-4bc2-acbf-100000000052" name="Iceman">
+            <property name="Type" value="hero_setup" />
             <property name="Owner" value="iceman" />
         </card>
         <card id="055c536f-adba-4bc2-acbf-100000000053" name="Jubilee">

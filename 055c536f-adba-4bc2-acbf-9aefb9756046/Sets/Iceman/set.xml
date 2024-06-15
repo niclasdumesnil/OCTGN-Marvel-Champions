@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Iceman" id="9612581e-ee76-46fb-89b7-71ae7aac08d7" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card name="Iceman" id="9612581e-ee76-46fb-89b7-71ae7a046001">
+      <property name="CardNumber" value="46001a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="iceman"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="11"/>
+      <property name="Attribute" value="Ice. X-Men."/>
+      <property name="Text">&lt;i&gt;"Freeze!"&lt;/i&gt; — &lt;b&gt;Interrupt&lt;/b&gt;: When Iceman makes a basic attack or defense against an enemy, attach a set-aside copy of Frostbite to that enemy.</property>
+      <property name="Quote">"Here comes the coolest hero on the team!"</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Bobby Drake" type="b">
+        <property name="CardNumber" value="46001b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="iceman"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="11"/>
+        <property name="Attribute" value="Mutant."/>
+        <property name="Text">Bobby Drake begins the game with 6 Frostbite upgrades set aside.
+&lt;i&gt;Cool Off&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you change to this form, shuffle 1 [[Ice]] card from your discard pile into your deck for each copy of Frostbite in play.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Frostbite" id="9612581e-ee76-46fb-89b7-71ae7a046002">
+      <property name="CardNumber" value="46002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="6"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="frostbite"/>
+      <property name="Attribute" value="Condition. Ice."/>
+      <property name="Text">Permanent.
+Attached enemy gets -1 SCH and -1 ATK.
+&lt;b&gt;Forced Response&lt;/b&gt;: After attached enemy activates or leaves play, set this card aside.</property>
+    </card>
+    <card name="Snow Clone" id="9612581e-ee76-46fb-89b7-71ae7a046003">
+      <property name="CardNumber" value="46003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="iceman"/>
+      <property name="Thwart" value="None"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Ice. X-Men."/>
+      <property name="Text">Cannot have upgrades attached.
+[star] Snow Clone takes -1 consequential damage ([cost]) after it attacks an enemy with Frostbite attached.</property>
+      <property name="Quote">"You could say he's got an icy demeanor." — Iceman</property>
+    </card>
+    <card name="Power Belt" id="9612581e-ee76-46fb-89b7-71ae7a046004">
+      <property name="CardNumber" value="46004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iceman"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Item. Tech."/>
+      <property name="Text">You get +3 hit points.
+&lt;b&gt;Hero Resource&lt;/b&gt;: Exhaust Power Belt → generate a [wild] resource for an [[Ice]] card.</property>
+      <property name="Quote">Beast made this high-tech belt to help Iceman better control his powers.</property>
+    </card>
+    <card name="Cryokinetic Perception" id="9612581e-ee76-46fb-89b7-71ae7a046005">
+      <property name="CardNumber" value="46005"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iceman"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you resolve your &lt;i&gt;"Freeze!"&lt;/i&gt; ability, exhaust this card → draw 1 card. If that card has an [[Ice]] trait, ready Iceman.</property>
+      <property name="Quote">"Anyone remember when I used to throw snowballs at Magneto?" —Iceman</property>
+    </card>
+    <card name="Ice Slide" id="9612581e-ee76-46fb-89b7-71ae7a046006">
+      <property name="CardNumber" value="46006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iceman"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Ice. Superpower."/>
+      <property name="Text">Iceman gets +1 THW, +1 ATK, and +1 DEF, and gains the [[Aerial]] trait.
+&lt;b&gt;Forced Response&lt;/b&gt;: After you change to alter-ego form, shuffle this card into your deck.</property>
+    </card>
+    <card name="Frozen Solid" id="9612581e-ee76-46fb-89b7-71ae7a046007">
+      <property name="CardNumber" value="46007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iceman"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition. Ice."/>
+      <property name="Text">Hero form only. Attach to an enemy. Max 1 per enemy.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached enemy would activate, discard Frozen Solid instead. Then, attach a set-aside copy of Frostbite to that enemy.</property>
+    </card>
+    <card name="Ice Wall" id="9612581e-ee76-46fb-89b7-71ae7a046008">
+      <property name="CardNumber" value="46008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="iceman"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Ice."/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When an identity would take any amount of damage from an enemy attack, place that damage here instead. Then, if there is at least 8 damage here, discard this card and attach a set-aside copy of Frostbite to the enemy that just attacked.</property>
+    </card>
+    <card name="Arctic Attack" id="9612581e-ee76-46fb-89b7-71ae7a046009">
+      <property name="CardNumber" value="46009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="iceman"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Ice. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Choose:
+• Deal 4 damage to an enemy and attach a set-aside copy of Frostbite to it.
+• Deal 6 damage to an enemy with Frostbite attached.</property>
+    </card>
+    <card name="Ice Blast" id="9612581e-ee76-46fb-89b7-71ae7a046010">
+      <property name="CardNumber" value="46010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="iceman"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Ice. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Choose a player. Attach a set-aside copy of Frostbite to the villain and each minion engaged with that player. Deal 3 damage to each enemy with a copy of Frostbite attached.</property>
+      <property name="Quote">"Time to put these guys on ice." —Iceman</property>
+    </card>
+    <card name="Chill Out!" id="9612581e-ee76-46fb-89b7-71ae7a046011">
+      <property name="CardNumber" value="46011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="iceman"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Ice. Superpower. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme. Attach a set-aside copy of Frostbite to an enemy.</property>
+      <property name="Quote">"Seriously, dude. I'm all out of ice puns." —Iceman</property>
+    </card>
+    <card name="Shark-Girl" id="9612581e-ee76-46fb-89b7-71ae7a046012">
+      <property name="CardNumber" value="46012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="0"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">[star] While Shark-Girl is attacking an enemy, she gets +1 ATK for each upgrade attached to that enemy.</property>
+      <property name="Quote">The only thing scarier than a ravenous teenager is one who can turn into a shark.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Glob" id="9612581e-ee76-46fb-89b7-71ae7a046013">
+      <property name="CardNumber" value="46013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">Play only if your identity has the [[X-Men]] trait.
+&lt;b&gt;Response&lt;/b&gt;: After Glob enters play, deal 2 damage to an enemy with an upgrade attached.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Suppressing Fire" id="9612581e-ee76-46fb-89b7-71ae7a046014">
+      <property name="CardNumber" value="46014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">Attach to a minion. Max 1 per minion.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you attack and defeat attached minion, heal 2 damage from your hero.</property>
+    </card>
+    <card name="Surprise Move" id="9612581e-ee76-46fb-89b7-71ae7a046015">
+      <property name="CardNumber" value="46015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you make a basic attack against an enemy with an upgrade attached, you get +2 ATK for this attack. If this attack defeats that enemy, ready your hero.</property>
+    </card>
+    <card name="Take That!" id="9612581e-ee76-46fb-89b7-71ae7a046016">
+      <property name="CardNumber" value="46016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 7 damage to an enemy with an upgrade attached.</property>
+      <property name="Quote">"And don't come back!" —Magik</property>
+    </card>
+    <card name="Looking for Trouble" id="9612581e-ee76-46fb-89b7-71ae7a046017">
+      <property name="CardNumber" value="46017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Discard cards from the top of the encounter deck until you discard a minion. Put that minion into play engaged with you → remove 3 threat from the main scheme.</property>
+    </card>
+    <card name="Keep Up the Pressure" id="9612581e-ee76-46fb-89b7-71ae7a046018" size="PlayerSchemeCard">
+      <property name="CardNumber" value="46018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Victory 0.
+&lt;b&gt;When Defeated&lt;/b&gt;: Each player may search their deck and discard pile for an [[Attack]] event and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt; Until the end of the phase, each [[Attack]] event deals 1 additional damage.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Shadowcat" id="9612581e-ee76-46fb-89b7-71ae7a046019">
+      <property name="CardNumber" value="46019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">Play only if your identity has the [[X-Men]] trait.
+&lt;b&gt;Response&lt;/b&gt;: After you play Shadowcat from your hand, choose a side scheme in play → that scheme loses each [acceleration], [amplify], [crisis], and [hazard] icon until the end of the round.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Beak" id="9612581e-ee76-46fb-89b7-71ae7a046020">
+      <property name="CardNumber" value="46020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After you play Beak from your hand, remove 1 threat from a scheme for each [[X-Men]] ally you control.</property>
+      <property name="Quote">"I'm not really strong and I don't shoot death-rays, but I am good at making friends."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Team-Building Exercise" id="9612581e-ee76-46fb-89b7-71ae7a046021">
+      <property name="CardNumber" value="46021"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Team-Building Exercise → play a card from your hand that shares a trait with your hero, reducing its resource cost by 1.</property>
+    </card>
+    <card name="Recuperation" id="9612581e-ee76-46fb-89b7-71ae7a046022">
+      <property name="CardNumber" value="46022"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Heal damage from your alter-ego equal to your REC.</property>
+    </card>
+    <card name="The Power in All of Us" id="9612581e-ee76-46fb-89b7-71ae7a046023">
+      <property name="CardNumber" value="46023"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="resource"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">Max 2 per deck.
+Double the number of resources this card generates when paying for a Basic (gray) card.</property>
+    </card>
+    <card name="Hot-Headed" id="9612581e-ee76-46fb-89b7-71ae7a046024" size="EncounterCard">
+      <property name="CardNumber" value="46024"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="iceman"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Bobby Drake player.&lt;/i&gt;&lt;/b&gt;
+&lt;b&gt;Forced Response&lt;/b&gt;: After you attach a Frostbite upgrade to an enemy, take 1 damage.
+&lt;b&gt;Alter-Ego Response&lt;/b&gt;: After you make a basic recovery, discard this card.</property>
+    </card>
+    <card name="Pyro" id="9612581e-ee76-46fb-89b7-71ae7a046025" size="EncounterCard">
+      <property name="CardNumber" value="46025"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="iceman_nemesis"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Brotherhood of Mutants."/>
+      <property name="Text">Quickstrike.
+[star] Pyro's attacks deal indirect damage.</property>
+      <property name="Quote">"You think those ice sculptures can stop me?!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Playing with Fire" id="9612581e-ee76-46fb-89b7-71ae7a046026" size="SchemeCard">
+      <property name="CardNumber" value="46026"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="iceman_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this scheme discards the top 3 cards of their deck and takes 1 indirect damage for each resource icon discarded this way.</property>
+    </card>
+    <card name="Pyro's Flamethrower" id="9612581e-ee76-46fb-89b7-71ae7a046027" size="EncounterCard">
+      <property name="CardNumber" value="46027"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="iceman_nemesis"/>
+      <property name="Attack" value="0"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Attach to Pyro. Otherwise, this card gains surge.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Pyro attacks you, discard the top card of your deck. Pyro gets +1 ATK for this attack for each resource icon on that card.</property>
+    </card>
+    <card name="Burn!" id="9612581e-ee76-46fb-89b7-71ae7a046028" size="EncounterCard">
+      <property name="CardNumber" value="46028"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="iceman_nemesis"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard the top 2 cards of your deck (3 cards instead if Pyro is in play). Take 1 indirect damage for each resource icon discarded this way.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Discard the top card of your deck. This card gets +1 boost icon ([boost]) for each resource icon on that card.</property>
+    </card>
+    <card name="Sauron" id="9612581e-ee76-46fb-89b7-71ae7a046029" size="EncounterCard">
+      <property name="CardNumber" value="46029"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="sauron"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Brotherhood of Mutants."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for the Life Drain attachment and reveal it.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Heal 3 damage from the activating enemy and give it a tough status card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Sauron Lives!" id="9612581e-ee76-46fb-89b7-71ae7a046030" size="SchemeCard">
+      <property name="CardNumber" value="46030"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="sauron"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this scheme searches the encounter deck and discard pile for Sauron and deals him to themself as a facedown encounter card.</property>
+      <property name="Quote">When Dr. Lykos absorbs mutant energy, he transforms into the terrifying Sauron!</property>
+    </card>
+    <card name="Life Drain" id="9612581e-ee76-46fb-89b7-71ae7a046031" size="EncounterCard">
+      <property name="CardNumber" value="46031"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="sauron"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Attach to the minion with the highest printed hit points. It activates against you. If no minion activated this way, this card gains surge.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached enemy attacks you, take 2 damage and give the attacking enemy a tough status card.</property>
+    </card>
+    <card name="The Eye of Sauron" id="9612581e-ee76-46fb-89b7-71ae7a046032" size="EncounterCard">
+      <property name="CardNumber" value="46032"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="sauron"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard the top 2 cards of your deck (top 3 cards instead if Sauron is in play). For each resource icon discarded this way, do the following:
+[energy] — Place 1 threat on the main scheme.
+[mental] — Discard 1 card from your hand.
+[physical] — Deal 1 damage to your identity.
+[wild] — Exhaust a character you control.</property>
+    </card>
+  </cards>
+</set>

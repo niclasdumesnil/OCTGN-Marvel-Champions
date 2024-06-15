@@ -353,6 +353,10 @@
             <property name="Type" value="encounter_setup" />
             <property name="Owner" value="clan_akkaba"/>
         </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000089" name="Sauron">
+            <property name="Type" value="encounter_setup" />
+            <property name="Owner" value="sauron"/>
+        </card>
         <card id="055c536f-adba-4bc2-acbf-300000009001" name="Nemesis: Vulture">
             <property name="Type" value="encounter_setup" />
             <property name="Owner" value="spider_man_nemesis" />
@@ -553,20 +557,21 @@
             <property name="Type" value="encounter_setup" />
             <property name="Owner" value="bishop_nemesis" />
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009049" name="Nemesis: Magik">
+        <card id="055c536f-adba-4bc2-acbf-300000009051" name="Nemesis: Belasco">
             <property name="Type" value="encounter_setup" />
             <property name="Owner" value="magik_nemesis" />
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009049" name="Nemesis: Iceman">
+        <card id="055c536f-adba-4bc2-acbf-300000009052" name="Nemesis: Pyro">
+            <property name="Type" value="encounter_setup" />
             <property name="Owner" value="iceman_nemesis" />
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009049" name="Nemesis: Jubilee">
+        <card id="055c536f-adba-4bc2-acbf-300000009053" name="Nemesis: Jubilee">
             <property name="Owner" value="jubilee_nemesis" />
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009049" name="Nemesis: Nightcrawler">
+        <card id="055c536f-adba-4bc2-acbf-300000009054" name="Nemesis: Nightcrawler">
             <property name="Owner" value="nightcrawler_nemesis" />
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009049" name="Nemesis: ">
+        <card id="055c536f-adba-4bc2-acbf-300000009055" name="Nemesis: ">
             <property name="Owner" value="_nemesis" />
         </card>
     </cards>

@@ -4,14 +4,14 @@ import os.path
 from os import path
 
 
-runFile = 'deadpool'
+runFile = 'iceman'
 xmlSet = None
 packName = None
-runFileList = ["D:/Téléchargements/Marvel Champions/Github_Database/marvelsdb-json-data/pack/" + runFile + ".json", "D:/Téléchargements/Marvel Champions/Github_Database/marvelsdb-json-data/pack/" + runFile + "_encounter.json"]
+runFileList = ["C:/Github/marvelsdb-json-data/pack/" + runFile + ".json", "C:/Github/marvelsdb-json-data/pack/" + runFile + "_encounter.json"]
 
 
 def getPack(set_code):
-  with open("D:/Téléchargements/Marvel Champions/Github_Database/marvelsdb-json-data/packs.json") as pack_json_file:
+  with open("C:/Github/marvelsdb-json-data/packs.json") as pack_json_file:
     packData = json.load(pack_json_file)
     for i in packData:
       if i['code'] == set_code:
@@ -364,5 +364,5 @@ modified_str = modified_str.replace('â†’', '→')
 modified_str = modified_str.replace('â€”', '—')
 mydata = modified_str.encode('utf-8')
 
-myfile = open("D:/Téléchargements/Marvel Champions/Github_Database/OCTGN-Marvel-Champions/055c536f-adba-4bc2-acbf-9aefb9756046/Sets/" + packName + "/set.xml", "wb")
+myfile = open("C:/Github/OCTGN-Marvel-Champions/055c536f-adba-4bc2-acbf-9aefb9756046/Sets/" + packName + "/set.xml", "wb")
 myfile.write(mydata)

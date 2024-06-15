@@ -223,6 +223,12 @@ def heroSetup(group=table, x = 0, y = 0):
             for c in filter(lambda card: card.CardNumber == "43002", me.Deck):
                 c.moveToTable(playerX(id)+70,tableLocations['hero'][1])
 
+        # Iceman
+        if heroPlayed == 'iceman':
+            createCardsFromSet(me.piles['Special'], "frostbite", "Frostbite", False)
+            showGroup(me.piles['Special'], True)
+            me.piles['Special'].visibility = "all"
+
 def countHeros(p):
     heros = 0
     for card in table:
