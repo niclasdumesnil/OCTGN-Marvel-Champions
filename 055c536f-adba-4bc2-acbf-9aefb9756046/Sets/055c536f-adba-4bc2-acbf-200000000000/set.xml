@@ -181,7 +181,7 @@
         </card>
         <card id="055c536f-adba-4bc2-acbf-200000000033" name="Magneto">
             <property name="Type" value="villain_setup" />
-            <property name="Owner" value="magneto"/>
+            <property name="Owner" value="magneto_villain"/>
             <property name="nbModular" value="1"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-200000000034" name="MaGog">

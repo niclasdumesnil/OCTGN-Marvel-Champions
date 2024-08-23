@@ -1,0 +1,562 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Jubilee" id="2bb9367c-944e-4475-b643-6a84c3214443" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card name="Jubilee" id="2bb9367c-944e-4475-b643-6a84c3047001">
+      <property name="CardNumber" value="47001a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;i&gt;"Like, totally!"&lt;/i&gt; — &lt;b&gt;Resource&lt;/b&gt;: Exhaust Jubilee → generate a [wild] resource.</property>
+      <property name="Quote">"You should know I get torqued when people ignore me!"</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Jubilation Lee" type="b">
+        <property name="CardNumber" value="47001b"/>
+        <property name="Position" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="jubilee"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="9"/>
+        <property name="Attribute" value="Mutant."/>
+        <property name="Text">&lt;i&gt;Mall Rat&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Search your deck for the Shopping Spree player side scheme and put it into play. (Limit once per phase.)</property>
+        <property name="Quote">"This place was sooo much cooler when I lived here!"</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Wolverine" id="2bb9367c-944e-4475-b643-6a84c3047002">
+      <property name="CardNumber" value="47002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">[star] Wolverine's attacks gain piercing.
+&lt;b&gt;Response&lt;/b&gt;: After you change to alter-ego form, heal 3 damage from Wolverine.</property>
+      <property name="Quote">"Pipe down, squirt. We ain't here on holiday!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Shopping Spree" id="2bb9367c-944e-4475-b643-6a84c3047003" size="PlayerSchemeCard">
+      <property name="CardNumber" value="47003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Threat cannot be removed from this scheme by heroes or allies.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust your identity → remove 1 threat from here. Any player may trigger this ability.
+&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this scheme searches their deck and discard pile for an [[Item]] card and puts it into play.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Jubilee's Coat" id="2bb9367c-944e-4475-b643-6a84c3047004">
+      <property name="CardNumber" value="47004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Jubilee gets +1 THW.
+&lt;b&gt;Hero Response&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: After you play a [[Thwart]] event, exhaust Jubilee's Coat and choose a scheme → remove 1 threat from that scheme for each different resource type used to pay for that event.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Jubilee's Sunglasses" id="2bb9367c-944e-4475-b643-6a84c3047005">
+      <property name="CardNumber" value="47005"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Jubilee gets +1 ATK.
+&lt;b&gt;Hero Response&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: After you play an [[Attack]] event, exhaust Jubilee's Sunglasses and choose an enemy → deal 1 damage to that enemy for each different resource type used to pay for that event.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Blinding Flash" id="2bb9367c-944e-4475-b643-6a84c3047006">
+      <property name="CardNumber" value="47006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Choose X enemies, where X is the number of different resource types &lt;i&gt;([energy], [mental], [physical], and [wild])&lt;/i&gt; used to pay for this event. Stun and confuse each chosen enemy.</property>
+    </card>
+    <card name="Firecracker" id="2bb9367c-944e-4475-b643-6a84c3047007">
+      <property name="CardNumber" value="47007a"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy. If you paid for this card using 2 different resource types, stun that enemy.</property>
+      <property name="Quote">"Where do they find all these henchmen? Must be a discount store somewhere." —Jubilee</property>
+    </card>
+    <card name="Firecracker" id="2bb9367c-944e-4475-b643-6a84c3047008">
+      <property name="CardNumber" value="47007b"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy. If you paid for this card using 2 different resource types, stun that enemy.</property>
+      <property name="Quote">"Where do they find all these henchmen? Must be a discount store somewhere." —Jubilee</property>
+    </card>
+    <card name="Firecracker" id="2bb9367c-944e-4475-b643-6a84c3047009">
+      <property name="CardNumber" value="47007c"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy. If you paid for this card using 2 different resource types, stun that enemy.</property>
+      <property name="Quote">"Where do they find all these henchmen? Must be a discount store somewhere." —Jubilee</property>
+    </card>
+    <card name="Flash of Light" id="2bb9367c-944e-4475-b643-6a84c3047010">
+      <property name="CardNumber" value="47008a"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme. If you paid for this card using 2 different resource types, confuse an enemy.</property>
+      <property name="Quote">"That's enough for me, folks. I'm out!" —Jubilee</property>
+    </card>
+    <card name="Flash of Light" id="2bb9367c-944e-4475-b643-6a84c3047011">
+      <property name="CardNumber" value="47008b"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme. If you paid for this card using 2 different resource types, confuse an enemy.</property>
+      <property name="Quote">"That's enough for me, folks. I'm out!" —Jubilee</property>
+    </card>
+    <card name="Flash of Light" id="2bb9367c-944e-4475-b643-6a84c3047012">
+      <property name="CardNumber" value="47008c"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme. If you paid for this card using 2 different resource types, confuse an enemy.</property>
+      <property name="Quote">"That's enough for me, folks. I'm out!" —Jubilee</property>
+    </card>
+    <card name="Grande Finale" id="2bb9367c-944e-4475-b643-6a84c3047013">
+      <property name="CardNumber" value="47009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 2 damage to an enemy. For each different resource type &lt;i&gt;([energy], [mental], [physical], and [wild])&lt;/i&gt; you used to pay for this card, choose an enemy and deal 2 damage to it.</property>
+    </card>
+    <card name="Plasmoid Energy" id="2bb9367c-944e-4475-b643-6a84c3047014">
+      <property name="CardNumber" value="47010a"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Quote">"Cover your eyes, team! It's about to get lit!" —Jubilee</property>
+    </card>
+    <card name="Plasmoid Energy" id="2bb9367c-944e-4475-b643-6a84c3047015">
+      <property name="CardNumber" value="47010b"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Quote">"Cover your eyes, team! It's about to get lit!" —Jubilee</property>
+    </card>
+    <card name="Plasmoid Energy" id="2bb9367c-944e-4475-b643-6a84c3047016">
+      <property name="CardNumber" value="47010c"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Quote">"Cover your eyes, team! It's about to get lit!" —Jubilee</property>
+    </card>
+    <card name="Chamber" id="2bb9367c-944e-4475-b643-6a84c3047017">
+      <property name="CardNumber" value="47011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Psionic. X-Men."/>
+      <property name="Text">[star] Chamber takes -1 consequential damage ([cost]) after he attacks a confused enemy.</property>
+      <property name="Quote">"Don't worry about me, luv — I've got this."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Husk" id="2bb9367c-944e-4475-b643-6a84c3047018">
+      <property name="CardNumber" value="47012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">[star] &lt;b&gt;Interrupt&lt;/b&gt;: When Husk uses a basic power, spend up to 3 resources → if you spent at least 1:
+[energy] — Husk gets +1 to that power for this use.
+[mental] — Heal 1 damage from Husk.
+[physical] — Ready Husk after this use.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Disguise" id="2bb9367c-944e-4475-b643-6a84c3047019">
+      <property name="CardNumber" value="47013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Play under any player's control. Max 1 per player.
+&lt;b&gt;Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Exhaust Disguise and your identity → remove 2 threat from a scheme.</property>
+      <property name="Quote">"The name's 'Patch.' Just 'Patch.'" —Wolverine</property>
+    </card>
+    <card name="Waylay" id="2bb9367c-944e-4475-b643-6a84c3047020">
+      <property name="CardNumber" value="47014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: After your hero thwarts, deal 4 damage to an enemy (7 damage instead if that thwart removed the last threat from a scheme).</property>
+      <property name="Quote">"You hurt self-friends! No you will pay!" —Warlock</property>
+    </card>
+    <card name="Three Steps Ahead" id="2bb9367c-944e-4475-b643-6a84c3047021">
+      <property name="CardNumber" value="47015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: For each different resource type &lt;i&gt;([energy], [mental], [physical], and [wild])&lt;/i&gt; you used to pay for this card, choose a scheme and remove 2 threat from it.</property>
+      <property name="Quote">"You should be proud, Rogue—me and Glob worked this out ahead of time!" —Anole</property>
+    </card>
+    <card name="Generation X" id="2bb9367c-944e-4475-b643-6a84c3047022" size="PlayerSchemeCard">
+      <property name="CardNumber" value="47016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Victory 0.
+Each [[X-Men]] character gets +1 THW while making a basic thwart against this scheme.
+&lt;b&gt;When Defeated&lt;/b&gt;: Each player may search their deck and discard pile for an identity-specific event and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Power of Justice" id="2bb9367c-944e-4475-b643-6a84c3047023">
+      <property name="CardNumber" value="47017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="resource"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">Max 2 per deck.
+Double the number of resources this card generates while paying for a Justice &lt;i&gt;(yellow)&lt;/i&gt; card.</property>
+    </card>
+    <card name="Synch" id="2bb9367c-944e-4475-b643-6a84c3047024">
+      <property name="CardNumber" value="47018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">Play only if your identity has the [[X-Men]] trait.
+&lt;b&gt;Interrupt&lt;/b&gt;: When you use a basic power, exhaust Synch → you get +1 to that power for this use.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Cell Phone" id="2bb9367c-944e-4475-b643-6a84c3047025">
+      <property name="CardNumber" value="47019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Uses (3 charge counters).
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Cell Phone, remove 1 charge counter from here, and choose a player → that player makes a basic attack or thwart with a character they control. That character gets +1 THW and +1 ATK for this use.</property>
+    </card>
+    <card name="Multitalented" id="2bb9367c-944e-4475-b643-6a84c3047027">
+      <property name="CardNumber" value="47021"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack/thwart)&lt;/i&gt;: If you paid for this event using at least 1:
+[physical] — Deal 2 damage to an enemy.
+[mental] — Remove 2 threat from a scheme.
+[energy] — Heal 2 damage from your identity.</property>
+    </card>
+    <card name="Unlikely Duo" id="2bb9367c-944e-4475-b643-6a84c3047028">
+      <property name="CardNumber" value="47022"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">Team-Up (Jubilee and Wolverine). Max 1 per deck.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Confuse an enemy. Deal 4 damage to a confused enemy.</property>
+    </card>
+    <card name="Grounded" id="2bb9367c-944e-4475-b643-6a84c3047029" size="EncounterCard">
+      <property name="CardNumber" value="47023"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="jubilee"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Jubilation Lee player.&lt;/i&gt;&lt;/b&gt;
+As an additional cost to change to hero form during your turn, you must spend 2 resources of the same type.
+&lt;b&gt;When Revealed&lt;/b&gt;: Change to alter-ego form.
+&lt;b&gt;Response&lt;/b&gt;: After you play a Jubilee event, remove this card from the game.</property>
+    </card>
+    <card name="Nanny" id="2bb9367c-944e-4475-b643-6a84c3047030" size="EncounterCard">
+      <property name="CardNumber" value="47024"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="jubilee_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Mutant."/>
+      <property name="Text">Toughness.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Nanny attacks you, if you control 1 or more allies, search the encounter deck, discard pile, and set-aside area for 1 copy of "Lost" Child and reveal it.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Naughty Children" id="2bb9367c-944e-4475-b643-6a84c3047031" size="SchemeCard">
+      <property name="CardNumber" value="47025"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="jubilee_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 threat here for each different resource type &lt;i&gt;([energy], [mental], [physical], and [wild])&lt;/i&gt; on cards in your hand.</property>
+      <property name="Quote">Nanny trods all over the line between "rescuing" and "kidnapping."</property>
+    </card>
+    <card name="Battle Suit" id="2bb9367c-944e-4475-b643-6a84c3047032" size="EncounterCard">
+      <property name="CardNumber" value="47026"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="jubilee_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Armor."/>
+      <property name="Text">Attach to the minion with the fewest remaining hit points. Otherwise, this card gains surge.
+Attached minion gets +3 hit points and gains the [[Aerial]] trait.</property>
+      <property name="Quote">Nanny's battle suit design belies its true capabilities.</property>
+    </card>
+    <card name="&quot;Lost&quot; Child" id="2bb9367c-944e-4475-b643-6a84c3047033" size="EncounterCard">
+      <property name="CardNumber" value="47027"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="jubilee_nemesis"/>
+      <property name="Scheme" value="-1"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Armor."/>
+      <property name="Text">Treat attached ally as a [[Regressed]] minion with a blank text box. Attached minion's SCH is equal to its printed THW and it does not take consequential damage.
+&lt;b&gt;When Revealed&lt;/b&gt;: Attach to the ally with the highest cost without "Lost" Child attached. Attached ally engages its controller. Otherwise, this card gains surge.</property>
+    </card>
+    <card name="Mutant Mayhem" id="2bb9367c-944e-4475-b643-6a84c3047034">
+      <property name="CardNumber" value="47028"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Text">Alliance.
+&lt;b&gt;Hero Action&lt;/b&gt;: Choose an [[X-Force]] ally and an [[X-Men]] ally and return them to their owners' hands → those players play those allies, ignoring their resource costs.</property>
+    </card>
+    <card name="Serve and Protect" id="2bb9367c-944e-4475-b643-6a84c3047035">
+      <property name="CardNumber" value="47029"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Text">Alliance.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When any amount of threat would be placed on the main scheme, exhaust an [[X-Force]] character and an [[X-Men]] character → prevent that threat and give each of those characters a tough status card.</property>
+    </card>
+    <card name="Arcade" id="2bb9367c-944e-4475-b643-6a84c3047036" size="EncounterCard">
+      <property name="CardNumber" value="47030"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="arcade"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Assassin."/>
+      <property name="Text">Arcade cannot take damage while a [[Trap!]] side scheme is in play.
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard cards from the top of the encounter deck until a [[Trap!]] side scheme is discarded and reveal it.</property>
+      <property name="Quote">"I'm so glad my mercenaries convinced you to come!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Welcome to Murderworld" id="2bb9367c-944e-4475-b643-6a84c3047037" size="SchemeCard">
+      <property name="CardNumber" value="47031"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="arcade"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Attribute" value="Trap!"/>
+      <property name="Text">Hinder 1[per_hero].
+&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this side scheme takes 2 damage.</property>
+      <property name="Quote">"These rides are killer!" —Arcade</property>
+    </card>
+    <card name="Arcade's Funhouse" id="2bb9367c-944e-4475-b643-6a84c3047038" size="SchemeCard">
+      <property name="CardNumber" value="47032"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="arcade"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Attribute" value="Trap!"/>
+      <property name="Text">Hinder 1[per_hero].
+&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this side scheme is stunned. If they were already stunned, they discard an ally or upgrade they control.</property>
+    </card>
+    <card name="Hall of Mirrors" id="2bb9367c-944e-4475-b643-6a84c3047039" size="SchemeCard">
+      <property name="CardNumber" value="47033"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="arcade"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Attribute" value="Trap!"/>
+      <property name="Text">Hinder 1[per_hero].
+&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this side scheme is confused. If they were already confused, place 2 threat on the main scheme.</property>
+    </card>
+    <card name="Elaborate Trap" id="2bb9367c-944e-4475-b643-6a84c3047040" size="EncounterCard">
+      <property name="CardNumber" value="47034"/>
+      <property name="Position" value="34"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="arcade"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Resolve the "&lt;b&gt;When Defeated&lt;/b&gt;" ability on each [[Trap!]] side scheme as if you defeated it. If no abilities were resolved this way, discard cards from the top of the encounter deck until a [[Trap!]] side scheme is discarded and reveal it.</property>
+      <property name="Quote">"Because overkill is underrated." —Arcade</property>
+    </card>
+  </cards>
+</set>

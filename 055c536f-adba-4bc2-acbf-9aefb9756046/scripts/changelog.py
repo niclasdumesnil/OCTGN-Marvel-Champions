@@ -351,7 +351,14 @@ changelog = {
         "Feature: Standard I, II, III and Expert I, II sets can be mixed. That changed the way those sets are selected.",
         "Fanmade: From now on, some fanmade villain scenario are included in octgn. You still need to apply image packs as always."
         ]),
-    '0000374': ("0.0.3.45", "18 May 2024", [
+    '0000374': ("0.0.3.74", "18 May 2024", [
         "Iceman Hero pack added"
+        ]),
+    '0000375': ("0.0.3.75", "27 July 2024", [
+        "Jubilee Hero pack added",
+		"Feature: new card action (right-click): Switch card with the top one of your deck."
+        ]),
+    '0000376': ("0.0.3.76", "27 July 2024", [
+        "Hotfix: jubilee cards was mixed-up in her set"
         ])
 }

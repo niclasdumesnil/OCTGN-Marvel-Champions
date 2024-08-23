@@ -210,13 +210,14 @@
             <property name="Owner" value="iceman" />
         </card>
         <card id="055c536f-adba-4bc2-acbf-100000000053" name="Jubilee">
+            <property name="Type" value="hero_setup" />
             <property name="Owner" value="jubilee" />
         </card>
         <card id="055c536f-adba-4bc2-acbf-100000000054" name="Nightcrawler">
             <property name="Owner" value="nightcrawler" />
         </card>
-        <card id="055c536f-adba-4bc2-acbf-100000000055" name="">
-            <property name="Owner" value="" />
+        <card id="055c536f-adba-4bc2-acbf-100000000055" name="Magneto">
+            <property name="Owner" value="magneto" />
         </card>
     </cards>
 </set>

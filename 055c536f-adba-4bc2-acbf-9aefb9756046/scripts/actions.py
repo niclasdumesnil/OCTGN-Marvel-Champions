@@ -1066,6 +1066,17 @@ def drawCard(group, checkHandSize = False):
                 drawCard(group, checkHandSize)
         checkDeckRemainingCards(group)
 
+
+def switchCard(card, x = 0, y = 0):
+    mute()
+    card_deck = me.deck[0]
+    if card.group == table:
+        x, y = card.position
+        card_deck.moveToTable(x, y, False)
+    elif card.group == me.hand:
+        card_deck.moveTo(me.hand)
+    card.moveTo(me.deck)
+
 def drawUnrevealed(group=None, x=0, y=0):
     mute()
     if len(group) == 0:

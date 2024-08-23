@@ -2,577 +2,582 @@
 <set name="Encounter_Setup" id="055c536f-adba-4bc2-acbf-300000000000" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
     <cards>
         <card id="055c536f-adba-4bc2-acbf-300000000001" name="Bomb Scare">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="bomb_scare"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000002" name="Masters of Evil">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="masters_of_evil"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000003" name="Under Attack">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="under_attack"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000004" name="Legions of Hydra">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="legions_of_hydra"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000005" name="The Doomsday Chair">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="the_doomsday_chair"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000006" name="Goblin Gimmicks">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="goblin_gimmicks"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000007" name="A Mess of Things">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="a_mess_of_things"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000008" name="Power Drain">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="power_drain"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000009" name="Running Interference">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="running_interference"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000010" name="Kree Fanatic">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="kree_fanatic"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000011" name="Hydra Assault">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="hydra_assault"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000012" name="Weapon Master">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="weap_master"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000013" name="Hydra Patrol">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="hydra_patrol"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000014" name="Experimental Weapons">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="exper_weapon"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000015" name="Temporal">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="temporal"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000016" name="Anachronauts">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="anachronauts"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000017" name="Master Of Time">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="mot"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000018" name="Band of Badoon">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="band_of_badoon"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000019" name="Galactic Artifacts">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="galactic_artifacts"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000020" name="Kree Militant">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="kree_militant"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000021" name="Menagerie Medley">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="menagerie_medley"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000022" name="Space Pirates">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="space_pirates"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000023" name="Ship Command">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="ship_command"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000024" name="Power Stone">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="power_stone"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000025" name="Badoon Headhunter">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="badoon_headhunter"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000026" name="The Black Order">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="black_order"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000027" name="Armies of Titan">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="armies_of_titan"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000028" name="Children of Thanos">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="children_of_thanos"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000029" name="Infinity Gauntlet">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="infinity_gauntlet"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000030" name="Legions of Hel">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="legions_of_hel"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000031" name="Frost Giants">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="frost_giants"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000032" name="Enchantress">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="enchantress"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000033" name="Streets of Mayhem">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="streets_of_mayhem"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000034" name="Brothers Grimm">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="brothers_grimm"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000035" name="Ransacked Armory">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="ransacked_armory"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000036" name="State of Emergency">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="state_of_emergency"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000037" name="Beasty Boys">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="beasty_boys"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000038" name="Mister Hyde">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="mister_hyde"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000039" name="Sinister Syndicate">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="sinister_syndicate"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000040" name="Crossfire's Crew">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="crossfire_crew"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000041" name="Wrecking Crew">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="wrecking_crew_modular"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000042" name="City In Chaos">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="city_in_chaos"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000043" name="Down to Earth">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="down_to_earth"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000044" name="Goblin Gear">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="goblin_gear"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000045" name="Guerrille Tactics">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="guerrilla_tactics"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000046" name="Osborn Tech">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="osborn_tech"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000047" name="Personal Nightmare">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="personal_nightmare"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000048" name="Sinister Assault">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="sinister_assault"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000049" name="Symbiotic Strength">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="symbiotic_strength"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000050" name="Whispers of Paranoia">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="whispers_of_paranoia"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000051" name="Armadillo">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="armadillo"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000052" name="Zzzax">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="zzzax"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000053" name="The Inheritors">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="inheritors"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000054" name="Iron Spider's Sinister Six">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="ironspider_sinister"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000055" name="Brotherhood">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="brotherhood"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000056" name="Mystique">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="mystique"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000057" name="Zero Tolerance">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="zero_tolerance"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000058" name="Sentinels">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="sentinels"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000059" name="Acolytes">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="acolytes"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000060" name="Future Past">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="future_past"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000061" name="Deathstrike">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="deathstrike"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000062" name="Shadow King">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="shadow_king"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000063" name="Crime">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="crime"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000064" name="Fantasy">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="fantasy"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000065" name="Horror">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="horror"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000066" name="Sci-Fi">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="sci-fi"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000067" name="Sitcom">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="sitcom"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000068" name="Western">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="western"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000069" name="Exodus">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="exodus"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000070" name="Reavers">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="reavers"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000071" name="Military Grade">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="military_grade"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000072" name="Mutant Slayers">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="mutant_slayers"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000073" name="Nasty Boys">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="nasty_boys"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000074" name="Black Tom Cassidy">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="black_tom_cassidy"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000075" name="Flight">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="flight"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000076" name="Super Strength">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="super_strength"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000077" name="Telepathy">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="telepathy"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000078" name="Extreme Measures">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="extreme_measures"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000079" name="Mutant Insurrection">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="mutant_insurrection"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000080" name="Infinites">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="infinites"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000081" name="Dystopian Nightmare">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="dystopian_nightmare"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000082" name="Hounds">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="hounds"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000083" name="Dark Riders">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="dark_riders"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000084" name="Savage Land">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="savage_land"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000085" name="Genosha">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="genosha"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000086" name="Blue Moon">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="blue_moon"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000087" name="Celestial Tech">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="celestial_tech"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000088" name="Clan Akkaba">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="clan_akkaba"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000000089" name="Sauron">
-            <property name="Type" value="encounter_setup" />
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="sauron"/>
         </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000090" name="Arcade">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="arcade"/>
+        </card>
         <card id="055c536f-adba-4bc2-acbf-300000009001" name="Nemesis: Vulture">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="spider_man_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="spider_man_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009002" name="Nemesis: Yon-Rogg">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="captain_marvel_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="captain_marvel_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009003" name="Nemesis: Whiplash">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="iron_man_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="iron_man_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009004" name="Nemesis: Killmonger">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="black_panther_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="black_panther_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009005" name="Nemesis: Titania">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="she_hulk_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="she_hulk_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009006" name="Nemesis: Baron Zero">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="captain_america_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="captain_america_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009007" name="Nemesis: Thomas Edison">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="ms_marvel_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="ms_marvel_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009008" name="Nemesis: Loki">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="thor_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="thor_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009009" name="Nemesis: Taskmaster">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="black_widow_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="black_widow_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009010" name="Nemesis: Baron Mordo">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="doctor_strange_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="doctor_strange_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009011" name="Nemesis: Abomination">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="hulk_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="hulk_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009012" name="Nemesis: Crossfire">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="hawkeye_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="hawkeye_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009013" name="Nemesis: The Viper">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="spider_woman_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="spider_woman_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009014" name="Nemesis: Yellowjacket">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="ant_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="ant_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009015" name="Nemesis: Beetle">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="wsp_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="wsp_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009016" name="Nemesis: Avalanche">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="qsv_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="qsv_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009017" name="Nemesis: Luminous">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="scw_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="scw_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009018" name="Nemesis: Furnax">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="groot_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="groot_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009019" name="Nemesis: Blackjack O'Hare">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="rocket_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="rocket_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009020" name="Nemesis: Mister Knife">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="stld_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="stld_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009021" name="Nemesis: Nebula">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="gam_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="gam_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009022" name="Nemesis: Yotat the Destroyer">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="drax_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="drax_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009023" name="Nemesis: Enraged Symbiote">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="vnm_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="vnm_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009024" name="Nemesis: Radioactive Man">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="spectrum_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="spectrum_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009025" name="Nemesis: The Magus">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="warlock_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="warlock_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009026" name="Nemesis: Gamora">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="nebu_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="nebu_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009027" name="Nemesis: Living Laser">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="warm_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="warm_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009028" name="Nemesis: Enchantress">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="valk_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="valk_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009029" name="Nemesis: Ultron">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="vision_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="vision_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009030" name="Nemesis: The Lizard">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="ghost_spider_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="ghost_spider_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009031" name="Nemesis: Prowler">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="spider_man_morales_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="spider_man_morales_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009032" name="Nemesis: Warbringer">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="nova_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="nova_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009033" name="Nemesis: Lucia Von Bardas">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="ironheart_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="ironheart_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009034" name="Nemesis: The Green Gobbler">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="spiderham_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="spiderham_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009035" name="Nemesis: M.O.R.B.I.U.S.">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="spdr_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="spdr_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009036" name="Nemesis: Juggernaut">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="colossus_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="colossus_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009037" name="Nemesis: White Queen">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="shadowcat_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="shadowcat_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009038" name="Nemesis: Mister Sinister">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="cyclops_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="cyclops_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009039" name="Nemesis: Dark Phoenix">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="phoenix_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="phoenix_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009040" name="Nemesis: Omega Red">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="wolverine_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="wolverine_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009041" name="Nemesis: Callisto">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="storm_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="storm_nemesis"/>
         </card>
             <card id="055c536f-adba-4bc2-acbf-300000009042" name="Nemesis: Belladonna">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="gambit_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="gambit_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009043" name="Nemesis: Mystique">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="rogue_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="rogue_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009044" name="Nemesis: Stryfe">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="cable_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="cable_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009045" name="Nemesis: Topaz">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="domino_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="domino_nemesis"/>
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009046" name="Nemesis: Psylocke">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="psylocke_nemesis" />
+        <card id="055c536f-adba-4bc2-acbf-300000009046" name="Nemesis: Chimera">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="psylocke_nemesis"/>
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009047" name="Nemesis: Angel">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="angel_nemesis" />
+        <card id="055c536f-adba-4bc2-acbf-300000009047" name="Nemesis: Harpon">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="angel_nemesis"/>
         </card>
-		<card id="055c536f-adba-4bc2-acbf-300000009048" name="Nemesis: X-23">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="x23_nemesis" />
+		<card id="055c536f-adba-4bc2-acbf-300000009048" name="Nemesis: Lady Deathstrike">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="x23_nemesis"/>
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009049" name="Nemesis: Deadpool">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="deadpool_nemesis" />
+        <card id="055c536f-adba-4bc2-acbf-300000009049" name="Nemesis: Butler">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="deadpool_nemesis"/>
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009050" name="Nemesis: Bishop">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="bishop_nemesis" />
+        <card id="055c536f-adba-4bc2-acbf-300000009050" name="Nemesis: Trevor Fitzroy">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="bishop_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009051" name="Nemesis: Belasco">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="magik_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="magik_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009052" name="Nemesis: Pyro">
-            <property name="Type" value="encounter_setup" />
-            <property name="Owner" value="iceman_nemesis" />
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="iceman_nemesis"/>
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009053" name="Nemesis: Jubilee">
-            <property name="Owner" value="jubilee_nemesis" />
+        <card id="055c536f-adba-4bc2-acbf-300000009053" name="Nemesis: Nanny">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="jubilee_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009054" name="Nemesis: Nightcrawler">
-            <property name="Owner" value="nightcrawler_nemesis" />
+            <property name="Owner" value="nightcrawler_nemesis"/>
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009055" name="Nemesis: ">
-            <property name="Owner" value="_nemesis" />
+        <card id="055c536f-adba-4bc2-acbf-300000009055" name="Nemesis: Magneto">
+            <property name="Owner" value="magneto_nemesis"/>
         </card>
     </cards>
 </set>

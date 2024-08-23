@@ -2170,7 +2170,7 @@ The first player controls Jubilee. She does not count against your ally limit.
       <property name="Quantity" value="1"/>
       <property name="DefaultSetupPile" value="Villain"/>
       <property name="Type" value="villain"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Stage" value="0"/>
       <property name="Standard" value="True"/>
       <property name="Expert" value="False"/>
@@ -2188,7 +2188,7 @@ The first player controls Jubilee. She does not count against your ally limit.
       <property name="Quantity" value="1"/>
       <property name="DefaultSetupPile" value="Villain"/>
       <property name="Type" value="villain"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Stage" value="0"/>
       <property name="Standard" value="True"/>
       <property name="Expert" value="True"/>
@@ -2206,7 +2206,7 @@ The first player controls Jubilee. She does not count against your ally limit.
       <property name="Quantity" value="1"/>
       <property name="DefaultSetupPile" value="Villain"/>
       <property name="Type" value="villain"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Stage" value="0"/>
       <property name="Standard" value="False"/>
       <property name="Expert" value="True"/>
@@ -2224,7 +2224,7 @@ The first player controls Jubilee. She does not count against your ally limit.
       <property name="Quantity" value="1"/>
       <property name="DefaultSetupPile" value="Scheme"/>
       <property name="Type" value="main_scheme"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Stage" value="0"/>
       <property name="BaseThreatFixed" value="False"/>
       <property name="EscalationThreatFixed" value="False"/>
@@ -2234,7 +2234,7 @@ The first player controls Jubilee. She does not count against your ally limit.
         <property name="Quantity" value="1"/>
         <property name="DefaultSetupPile" value="Scheme"/>
         <property name="Type" value="main_scheme"/>
-        <property name="Owner" value="magneto"/>
+        <property name="Owner" value="magneto_villain"/>
         <property name="Stage" value="0"/>
         <property name="BaseThreat" value="1"/>
         <property name="BaseThreatFixed" value="False"/>
@@ -2249,7 +2249,7 @@ The first player controls Jubilee. She does not count against your ally limit.
       <property name="Quantity" value="1"/>
       <property name="DefaultSetupPile" value="Scheme"/>
       <property name="Type" value="main_scheme"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Stage" value="0"/>
       <property name="BaseThreatFixed" value="False"/>
       <property name="EscalationThreatFixed" value="False"/>
@@ -2259,7 +2259,7 @@ The first player controls Jubilee. She does not count against your ally limit.
         <property name="Quantity" value="1"/>
         <property name="DefaultSetupPile" value="Scheme"/>
         <property name="Type" value="main_scheme"/>
-        <property name="Owner" value="magneto"/>
+        <property name="Owner" value="magneto_villain"/>
         <property name="Stage" value="0"/>
         <property name="BaseThreat" value="1"/>
         <property name="BaseThreatFixed" value="False"/>
@@ -2274,7 +2274,7 @@ The first player controls Jubilee. She does not count against your ally limit.
       <property name="Quantity" value="1"/>
       <property name="DefaultSetupPile" value="Scheme"/>
       <property name="Type" value="main_scheme"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Stage" value="0"/>
       <property name="BaseThreatFixed" value="False"/>
       <property name="EscalationThreatFixed" value="False"/>
@@ -2284,7 +2284,7 @@ The first player controls Jubilee. She does not count against your ally limit.
         <property name="Quantity" value="1"/>
         <property name="DefaultSetupPile" value="Scheme"/>
         <property name="Type" value="main_scheme"/>
-        <property name="Owner" value="magneto"/>
+        <property name="Owner" value="magneto_villain"/>
         <property name="Stage" value="0"/>
         <property name="BaseThreat" value="1"/>
         <property name="BaseThreatFixed" value="False"/>
@@ -2298,7 +2298,7 @@ The first player controls Jubilee. She does not count against your ally limit.
       <property name="Position" value="144"/>
       <property name="Quantity" value="1"/>
       <property name="Type" value="side_scheme"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="BaseThreat" value="3"/>
       <property name="BaseThreatFixed" value="False"/>
       <property name="EscalationThreatFixed" value="False"/>
@@ -2307,7 +2307,7 @@ The first player controls Jubilee. She does not count against your ally limit.
         <property name="Position" value="144"/>
         <property name="Quantity" value="1"/>
         <property name="Type" value="side_scheme"/>
-        <property name="Owner" value="magneto"/>
+        <property name="Owner" value="magneto_villain"/>
         <property name="BaseThreat" value="3"/>
         <property name="Text">Victory 0.</property>
         <property name="BaseThreatFixed" value="False"/>
@@ -2320,7 +2320,7 @@ The first player controls Jubilee. She does not count against your ally limit.
       <property name="Quantity" value="1"/>
       <property name="DefaultSetupPile" value="Side"/>
       <property name="Type" value="side_scheme"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="BaseThreat" value="3"/>
       <property name="BaseThreatFixed" value="False"/>
       <property name="EscalationThreatFixed" value="False"/>
@@ -2329,7 +2329,7 @@ The first player controls Jubilee. She does not count against your ally limit.
         <property name="Position" value="145"/>
         <property name="Quantity" value="1"/>
         <property name="Type" value="attachment"/>
-        <property name="Owner" value="magneto"/>
+        <property name="Owner" value="magneto_villain"/>
         <property name="Attribute" value="Condition."/>
         <property name="Text">Attach to Magneto.
 Permanent.
@@ -2341,7 +2341,7 @@ Magneto loses steady.</property>
       <property name="Position" value="146"/>
       <property name="Quantity" value="4"/>
       <property name="Type" value="minion"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Attack" value="2"/>
       <property name="Scheme" value="2"/>
       <property name="HP" value="5"/>
@@ -2353,7 +2353,7 @@ Magneto loses steady.</property>
       <property name="Position" value="147"/>
       <property name="Quantity" value="1"/>
       <property name="Type" value="attachment"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Boost" value="3"/>
       <property name="Attribute" value="Armor. Magnetic."/>
       <property name="Text">Attach to Magneto.
@@ -2365,7 +2365,7 @@ Magneto cannot be confused.</property>
       <property name="Position" value="148"/>
       <property name="Quantity" value="1"/>
       <property name="Type" value="attachment"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Boost" value="3"/>
       <property name="Attribute" value="Armor. Magnetic."/>
       <property name="Text">Attach to Magneto.
@@ -2377,7 +2377,7 @@ Magneto cannot be stunned.</property>
       <property name="Position" value="149"/>
       <property name="Quantity" value="1"/>
       <property name="Type" value="attachment"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Boost" value="2"/>
       <property name="Attribute" value="Magnetic."/>
       <property name="Text">Attach to Magneto.
@@ -2388,7 +2388,7 @@ Magneto gains retaliate 1.</property>
       <property name="Position" value="150"/>
       <property name="Quantity" value="2"/>
       <property name="Type" value="attachment"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Boost" value="2"/>
       <property name="Attribute" value="Magnetic."/>
     </card>
@@ -2397,7 +2397,7 @@ Magneto gains retaliate 1.</property>
       <property name="Position" value="151"/>
       <property name="Quantity" value="2"/>
       <property name="Type" value="treachery"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Boost" value="2"/>
     </card>
     <card name="Electric Shock" id="47d34c5d-5319-45a9-a2d6-1fb975032152" size="EncounterCard">
@@ -2405,7 +2405,7 @@ Magneto gains retaliate 1.</property>
       <property name="Position" value="152"/>
       <property name="Quantity" value="2"/>
       <property name="Type" value="treachery"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Boost" value="2"/>
       <property name="Attribute" value="Magnetic."/>
     </card>
@@ -2414,7 +2414,7 @@ Magneto gains retaliate 1.</property>
       <property name="Position" value="153"/>
       <property name="Quantity" value="2"/>
       <property name="Type" value="treachery"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Attribute" value="Magnetic."/>
     </card>
     <card name="Metal Shards" id="47d34c5d-5319-45a9-a2d6-1fb975032154" size="EncounterCard">
@@ -2422,7 +2422,7 @@ Magneto gains retaliate 1.</property>
       <property name="Position" value="154"/>
       <property name="Quantity" value="2"/>
       <property name="Type" value="treachery"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Attribute" value="Magnetic."/>
     </card>
     <card name="Magnetic Missile" id="47d34c5d-5319-45a9-a2d6-1fb975032155" size="EncounterCard">
@@ -2430,7 +2430,7 @@ Magneto gains retaliate 1.</property>
       <property name="Position" value="155"/>
       <property name="Quantity" value="2"/>
       <property name="Type" value="treachery"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Boost" value="1"/>
       <property name="Attribute" value="Magnetic."/>
       <property name="Text">Surge.</property>
@@ -2440,7 +2440,7 @@ Magneto gains retaliate 1.</property>
       <property name="Position" value="156"/>
       <property name="Quantity" value="1"/>
       <property name="Type" value="side_scheme"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Boost" value="4"/>
       <property name="BaseThreat" value="4"/>
       <property name="BaseThreatFixed" value="True"/>
@@ -2453,7 +2453,7 @@ Magneto gains retaliate 1.</property>
       <property name="Position" value="157"/>
       <property name="Quantity" value="1"/>
       <property name="Type" value="side_scheme"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="BaseThreat" value="2"/>
       <property name="BaseThreatFixed" value="True"/>
       <property name="EscalationThreatFixed" value="False"/>
@@ -2465,7 +2465,7 @@ Magneto gains retaliate 1.</property>
       <property name="Position" value="158"/>
       <property name="Quantity" value="1"/>
       <property name="Type" value="side_scheme"/>
-      <property name="Owner" value="magneto"/>
+      <property name="Owner" value="magneto_villain"/>
       <property name="Boost" value="3"/>
       <property name="BaseThreat" value="3"/>
       <property name="BaseThreatFixed" value="False"/>

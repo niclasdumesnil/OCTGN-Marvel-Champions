@@ -3,7 +3,7 @@
     name="Marvel Champions"
     id="055c536f-adba-4bc2-acbf-9aefb9756046"
     octgnVersion="3.4.389.0"
-    version="0.0.3.74"
+    version="0.0.3.76"
     scriptVersion="3.1.0.2"
     markersize="15"
     tags="OCTGN, Marvel, Champions"
@@ -162,6 +162,7 @@
         </groupactions>
         <groupaction menu="Toggle Debug" default="False" execute="toggleDebug" />
         <cardaction menu="Card Info" shortcut="ctrl+I" execute="cardInfo" />
+        <cardaction menu="Switch Card with top Deck Card" execute="switchCard" />
         <cardaction menu="Flip Card" shortcut="ctrl+F" execute="revealHide" />
         <cardaction menu="Ready/Exhaust Card" shortcut="F7" execute="readyExhaust" showIf="exhaustable" />
         <cardaction menu="Discard Card" shortcut="del" execute="discard" />
@@ -219,6 +220,7 @@
         <group name="Hand" visibility="all" ordered="False" icon="symbols/hand.png" viewState="expanded">
             <groupaction menu="Random Discard" execute="randomDiscard" />
             <groupaction menu="Mulligan Hand" execute="mulligan" />
+			<cardaction menu="Switch Card with top Deck Card" execute="switchCard" />
             <cardaction menu="Discard Card" shortcut="del" execute="discard" />
         </group>
         <group name="Deck" visibility="none" icon="symbols/deck.png">
