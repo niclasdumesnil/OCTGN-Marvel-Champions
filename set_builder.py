@@ -4,7 +4,7 @@ import os.path
 from os import path
 
 
-runFile = 'jubilee'
+runFile = 'ncrawler'
 xmlSet = None
 packName = None
 runFileList = ["C:/Github/marvelsdb-json-data/pack/" + runFile + ".json", "C:/Github/marvelsdb-json-data/pack/" + runFile + "_encounter.json"]

@@ -214,6 +214,7 @@
             <property name="Owner" value="jubilee" />
         </card>
         <card id="055c536f-adba-4bc2-acbf-100000000054" name="Nightcrawler">
+            <property name="Type" value="hero_setup" />
             <property name="Owner" value="nightcrawler" />
         </card>
         <card id="055c536f-adba-4bc2-acbf-100000000055" name="Magneto">

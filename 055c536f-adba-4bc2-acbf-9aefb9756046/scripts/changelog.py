@@ -360,5 +360,8 @@ changelog = {
         ]),
     '0000376': ("0.0.3.76", "27 July 2024", [
         "Hotfix: jubilee cards was mixed-up in her set"
+        ]),
+    '0000377': ("0.0.3.77", "04 October 2024", [
+        "Nightcrawler Hero pack added"
         ])
 }

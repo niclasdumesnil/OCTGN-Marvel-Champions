@@ -361,6 +361,10 @@
             <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="arcade"/>
         </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000091" name="Crazy Gang">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="crazy_gang"/>
+        </card>
         <card id="055c536f-adba-4bc2-acbf-300000009001" name="Nemesis: Vulture">
             <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="spider_man_nemesis"/>
@@ -573,7 +577,8 @@
             <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="jubilee_nemesis"/>
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009054" name="Nemesis: Nightcrawler">
+        <card id="055c536f-adba-4bc2-acbf-300000009054" name="Nemesis: Azazel">
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="nightcrawler_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009055" name="Nemesis: Magneto">
