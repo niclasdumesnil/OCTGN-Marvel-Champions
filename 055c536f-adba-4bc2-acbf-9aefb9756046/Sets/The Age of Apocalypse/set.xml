@@ -401,7 +401,7 @@ While the top card of your deck has a [mental] or [wild] resource icon, Magik ge
       <property name="Owner" value="magik"/>
       <property name="Cost" value="1"/>
       <property name="Resource_Physical" value="1"/>
-      <property name="Attribute" value="Armor."/>
+      <property name="Attribute" value="Weapon."/>
       <property name="Text">Restricted.
 Magik's basic attacks gain piercing.
 While the top card of your deck has a [physical] or [wild] resource icon, Magik gets +1 ATK.</property>

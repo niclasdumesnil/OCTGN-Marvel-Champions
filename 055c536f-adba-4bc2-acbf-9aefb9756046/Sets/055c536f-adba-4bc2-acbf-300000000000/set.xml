@@ -365,6 +365,10 @@
             <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="crazy_gang"/>
         </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000092" name="Hellfire">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="hellfire"/>
+        </card>
         <card id="055c536f-adba-4bc2-acbf-300000009001" name="Nemesis: Vulture">
             <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="spider_man_nemesis"/>
@@ -581,8 +585,27 @@
             <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="nightcrawler_nemesis"/>
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009055" name="Nemesis: Magneto">
+        <card id="055c536f-adba-4bc2-acbf-300000009055" name="Nemesis: Exodus">
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="magneto_nemesis"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000009056" name="Nemesis: ">
+            <property name="Owner" value="nick_fury_nemesis"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000009057" name="Nemesis: ">
+            <property name="Owner" value="maria_hill_nemesis"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000009058" name="Nemesis: ">
+            <property name="Owner" value="shuri_nemesis"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000009059" name="Nemesis: ">
+            <property name="Owner" value="silk_nemesis"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000009060" name="Nemesis: ">
+            <property name="Owner" value="falcon_nemesis"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000009061" name="Nemesis: ">
+            <property name="Owner" value="winter_soldier_nemesis"/>
         </card>
     </cards>
 </set>

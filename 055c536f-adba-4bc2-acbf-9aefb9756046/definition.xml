@@ -3,7 +3,7 @@
     name="Marvel Champions"
     id="055c536f-adba-4bc2-acbf-9aefb9756046"
     octgnVersion="3.4.389.0"
-    version="0.0.3.77"
+    version="0.0.3.78"
     scriptVersion="3.1.0.2"
     markersize="15"
     tags="OCTGN, Marvel, Champions"
@@ -172,10 +172,10 @@
 		<cardaction menu="Add to Victory Display" default="False" shortcut="ctrl+V" execute="moveToVictory" />
         <cardaction menu="Get Position" execute="getPosition" />
         <cardactions menu="Markers">
-            <cardaction menu="Add marker" execute="addMarker" shortcut="Up" />
-            <cardaction menu="Add 3 markers" execute="add3Marker" />
-            <cardaction menu="Remove marker" execute="removeMarker" shortcut="Down" />
-            <cardaction menu="Clear markers" execute="clearMarker" />
+			<cardaction menu="Add marker (Choice)" shortcut="F1" execute="addAnyMarker" />
+            <cardaction menu="Add marker (Automatic)" shortcut="Up" execute="addMarker" />
+            <cardaction menu="Remove marker (Automatic)" shortcut="Down" execute="removeMarker" />
+            <cardaction menu="Clear markers" shortcut="shift+F1" execute="clearMarker" />
             <cardaction menu="Add 1 Damage" shortcut="F3" execute="addDamage" />
             <cardaction menu="Remove 1 Damage" shortcut="shift+F3" execute="removeDamage" />
             <cardaction menu="Clear all Damage" execute="clearDamage" />

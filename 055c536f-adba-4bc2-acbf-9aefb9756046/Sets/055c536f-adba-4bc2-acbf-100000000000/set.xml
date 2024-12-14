@@ -218,7 +218,26 @@
             <property name="Owner" value="nightcrawler" />
         </card>
         <card id="055c536f-adba-4bc2-acbf-100000000055" name="Magneto">
+            <property name="Type" value="hero_setup" />
             <property name="Owner" value="magneto" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-100000000056" name="Nick Fury">
+            <property name="Owner" value="nick_fury" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-100000000057" name="Maria Hill">
+            <property name="Owner" value="maria_hill" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-100000000058" name="Black Panther: Shuri">
+            <property name="Owner" value="shuri" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-100000000059" name="Silk">
+            <property name="Owner" value="silk" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-100000000060" name="Falcon">
+            <property name="Owner" value="falcon" />
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-100000000061" name="Winter Soldier">
+            <property name="Owner" value="winter_soldier" />
         </card>
     </cards>
 </set>

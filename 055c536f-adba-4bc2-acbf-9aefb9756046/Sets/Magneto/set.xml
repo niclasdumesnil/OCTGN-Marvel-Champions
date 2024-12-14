@@ -1,0 +1,602 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Magneto" id="0035c164-5de7-4b2e-bb80-d49e4b2e67d0" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card name="Magneto" id="0035c164-5de7-4b2e-bb80-d49e4b049001">
+      <property name="CardNumber" value="49001a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="magneto"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;i&gt;Magnetic Pull&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Discard cards from the top of your deck until a [[Magnetic]] card is discarded → add that card to your hand. (Limit once per round.)</property>
+      <property name="Quote">"I do not need to defend my decisions."</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Erik Lehnsherr" type="b">
+        <property name="CardNumber" value="49001b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="magneto"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Mutant."/>
+        <property name="Text">&lt;i&gt;Survivor&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you change to this form, shuffle the top 3 cards of your discard pile into your deck.</property>
+        <property name="Quote">"All that I've endured, and everything I've done, it was all to preserve mutantkind."</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Asteroid M" id="0035c164-5de7-4b2e-bb80-d49e4b049002">
+      <property name="CardNumber" value="49002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="magneto"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Location. Magnetic."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Asteroid M → shuffle the topmost [[Magnetic]] card in your discard pile into your deck and heal 1 damage from your identity.</property>
+      <property name="Quote">"It took considerable effort to rebuild my home. Let's not destroy it again." —Magneto</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Magneto's Helmet" id="0035c164-5de7-4b2e-bb80-d49e4b049003">
+      <property name="CardNumber" value="49003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="magneto"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Armor. Magnetic."/>
+      <property name="Text">Magneto gains steady.
+&lt;b&gt;Resource&lt;/b&gt;: Exhaust Magneto's Helmet → generate a [wild] resource for a [[Magnetic]] card.</property>
+      <property name="Quote">Magneto's helmet protects him from telepathic attacks.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Magneto's Armor" id="0035c164-5de7-4b2e-bb80-d49e4b049004">
+      <property name="CardNumber" value="49004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="magneto"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Armor. Magnetic."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After you resolve your &lt;i&gt;"Magnetic Pull"&lt;/i&gt; ability, if you discarded at least 1 of the following resource icons:
+[mental] — Magneto gets +1 THW this round.
+[physical] — Magneto gets +1 ATK this round.
+[energy] — Magneto gets +1 DEF this round.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Magneto's Cape" id="0035c164-5de7-4b2e-bb80-d49e4b049005">
+      <property name="CardNumber" value="49005"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="magneto"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Armor. Magnetic."/>
+      <property name="Text">Magneto gains the [[Aerial]] trait.
+&lt;b&gt;Response&lt;/b&gt;: After you resolve your &lt;i&gt;"Magnetic Pull"&lt;/i&gt; ability, exhaust Magneto's Cape → ready Magneto.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Magnetic Bubble" id="0035c164-5de7-4b2e-bb80-d49e4b049006">
+      <property name="CardNumber" value="49006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="magneto"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Magnetic. Superpower."/>
+      <property name="Text">Magneto gains retaliate 1.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When you would take any amount of damage, place it here. Then, if there is at least 6 damage here, discard Magnetic Bubble.</property>
+    </card>
+    <card name="Wrapped in Metal" id="0035c164-5de7-4b2e-bb80-d49e4b049007">
+      <property name="CardNumber" value="49007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="magneto"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Magnetic."/>
+      <property name="Text">Hero form only. Attach to a non-[[ELITE]] minion.
+Attached minion cannot activate. Treat its printed text box as if it were blank.</property>
+      <property name="Quote">"Your power is no match for the Master of Magnetism!"—Magneto</property>
+    </card>
+    <card name="Electromagnetic Blast" id="0035c164-5de7-4b2e-bb80-d49e4b049008">
+      <property name="CardNumber" value="49008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="magneto"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Magnetic. Superpower. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme. If this removes the last threat from that scheme, you may discard an attachment with the text &lt;b&gt;"Hero Action"&lt;/b&gt; or &lt;b&gt;"Hero Response."&lt;/b&gt;</property>
+    </card>
+    <card name="Metal Shards" id="0035c164-5de7-4b2e-bb80-d49e4b049009">
+      <property name="CardNumber" value="49009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="magneto"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Magnetic. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 7 damage to an enemy. If this attack defeats that enemy, gain a tough status card.</property>
+      <property name="Quote">"The way to defend mutants is to defeat our enemies." —Magneto</property>
+    </card>
+    <card name="Magnetic Missile" id="0035c164-5de7-4b2e-bb80-d49e4b049010">
+      <property name="CardNumber" value="49010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="magneto"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Magnetic. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Discard a minion with Wrapped in Metal attached → deal 5 damage to an enemy and stun it.</property>
+      <property name="Quote">"I have heard your threats, and here is my reply."—Magneto</property>
+    </card>
+    <card name="Master of Magnetism" id="0035c164-5de7-4b2e-bb80-d49e4b049011">
+      <property name="CardNumber" value="49011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="magneto"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Magnetic."/>
+      <property name="Quote">Magneto's power renders conventional firearms useless against him.</property>
+    </card>
+    <card name="M" id="0035c164-5de7-4b2e-bb80-d49e4b049012">
+      <property name="CardNumber" value="49012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Psionic. X-Men."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After M enters play, defeat a minion with fewer remaining hit points than M.</property>
+      <property name="Quote">"I don't mind being a bull in a china shop."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Kid Omega" id="0035c164-5de7-4b2e-bb80-d49e4b049013">
+      <property name="CardNumber" value="49013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Psionic. X-Men."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Kid Omega enters play, choose:
+• Spend a [energy] resource → deal 1 damage to each enemy.
+• Spend a [mental] resource → remove 1 threat from each scheme.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Phoenix" id="0035c164-5de7-4b2e-bb80-d49e4b049014">
+      <property name="CardNumber" value="49014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Psionic. X-Men."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Phoenix enters play, choose an [[X-Men]] ally → ready that ally and heal 1 damage from it.</property>
+      <property name="Quote">"Joining the X-Men means joining a family. It means you're never truly alone."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Cyclops" id="0035c164-5de7-4b2e-bb80-d49e4b049015">
+      <property name="CardNumber" value="49015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Cyclops enters play, choose an enemy. Until the end of the phase, increase the amount of damage that enemy takes from each attack by 1.</property>
+      <property name="Quote">"To me, my X-Men!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Won't Stay Down" id="0035c164-5de7-4b2e-bb80-d49e4b049016">
+      <property name="CardNumber" value="49016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Play only if your identity has the [[X-Force]] or [[X-Men]] trait. Max 1 per player.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Discard this card → return an [[X-Force]] or [[X-Men]] ally from your discard pile to your hand.</property>
+    </card>
+    <card name="Squared Off" id="0035c164-5de7-4b2e-bb80-d49e4b049017">
+      <property name="CardNumber" value="49017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Discard cards from the encounter deck until you discard a minion. Put that minion into play engaged with you → play an ally from your hand, reducing its cost by 3.</property>
+      <property name="Quote">"Let's do this." —M</property>
+    </card>
+    <card name="Noble Sacrifice" id="0035c164-5de7-4b2e-bb80-d49e4b049018">
+      <property name="CardNumber" value="49018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Discard an ally you control → heal damage from your hero equal to that ally's printed hit points and give your hero a tough status card.</property>
+      <property name="Quote">"Don't wait for me. Go!" —X-23</property>
+    </card>
+    <card name="&quot;You Got This!&quot;" id="0035c164-5de7-4b2e-bb80-d49e4b049019">
+      <property name="CardNumber" value="49019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you exhaust your hero to make a basic thwart or attack, discard an ally you control → add that ally's matching power to your hero's power for this use. Ready your hero.</property>
+    </card>
+    <card name="New Recruits" id="0035c164-5de7-4b2e-bb80-d49e4b049020" size="PlayerSchemeCard">
+      <property name="CardNumber" value="49020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Victory 0.
+Play only if your identity has the [[X-Men]] trait.
+&lt;b&gt;When Defeated&lt;/b&gt;: Each player chooses 1 set-aside [[New]] ally and adds it to their hand.</property>
+      <property name="Quote">The dream of every student at Xavier's school is to join the X-Men.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="White Queen" id="0035c164-5de7-4b2e-bb80-d49e4b049021">
+      <property name="CardNumber" value="49021"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Psionic. X-Men."/>
+      <property name="Text">Play only if your identity has the [[X-Force]] or [[X-Men]] trait.
+&lt;b&gt;Response&lt;/b&gt;: After White Queen enters play, discard a status card from a character.</property>
+      <property name="Quote">"Oh darling, I hardly need psionic powers to manipulate you."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Face the Past" id="0035c164-5de7-4b2e-bb80-d49e4b049022">
+      <property name="CardNumber" value="49022"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Text">Max 1 per deck.
+&lt;b&gt;Hero Action&lt;/b&gt;: Search the encounter deck, discard pile, and set-aside area for your nemesis minion and reveal it → ready your hero and draw 3 cards. You cannot attack the villain this phase. Remove this card from the game.</property>
+    </card>
+    <card name="Deft Focus" id="0035c164-5de7-4b2e-bb80-d49e4b049023">
+      <property name="CardNumber" value="49023"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">Max 1 per player.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Deft Focus → reduce the resource cost of the next [[superpower]] card you play this turn by 1.</property>
+    </card>
+    <card name="Surge" id="0035c164-5de7-4b2e-bb80-d49e4b049033">
+      <property name="CardNumber" value="49033"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="New. X-Men."/>
+      <property name="Text">Linked (New Recruits).
+If you have the [[Mutant]] or [[X-Men]] trait, Surge gets +1 ATK and does not count against your ally limit.</property>
+      <property name="Quote">"Touch my friends and you get 10,000 volts!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Anole" id="0035c164-5de7-4b2e-bb80-d49e4b049034">
+      <property name="CardNumber" value="49034"/>
+      <property name="Position" value="34"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="New. X-Men."/>
+      <property name="Text">Linked (New Recruits).
+If you have the [[Mutant]] or [[X-Men]] trait, Anole gets +1 THW and does not count against your ally limit.</property>
+      <property name="Quote">"It's hard to be a kid when you look like a monster."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Bling!" id="0035c164-5de7-4b2e-bb80-d49e4b049035">
+      <property name="CardNumber" value="49035"/>
+      <property name="Position" value="35"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="New. X-Men."/>
+      <property name="Text">Linked (New Recruits).
+If you have the [[Mutant]] or [[X-Men]] trait, Bling! gains toughness and does not count against your ally limit.</property>
+      <property name="Quote">"This school sucks!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Indra" id="0035c164-5de7-4b2e-bb80-d49e4b049036">
+      <property name="CardNumber" value="49036"/>
+      <property name="Position" value="36"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="New. X-Men."/>
+      <property name="Text">Linked (New Recruits).
+If you have the [[Mutant]] or [[X-Men]] trait, Indra gets +2 hit points and does not count against your ally limit.</property>
+      <property name="Quote">"I have seen atrocities done to mutants. No more!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Children of the Atom" id="0035c164-5de7-4b2e-bb80-d49e4b049037">
+      <property name="CardNumber" value="49037"/>
+      <property name="Position" value="37"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Text">Play under any player's control. Max 1 per player.
+Each [[X-Factor]], [[X-Force]], and [[X-Men]] character you control gains the [[X-Factor]], [[X-Force]], and [[X-Men]] traits.</property>
+    </card>
+    <card name="Old Grievances" id="0035c164-5de7-4b2e-bb80-d49e4b049027" size="EncounterCard">
+      <property name="CardNumber" value="49027"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="1"/>
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="magneto"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Erik Lehnsherr player.&lt;/i&gt;&lt;/b&gt;
+&lt;b&gt;Forced Response&lt;/b&gt;: After you use your &lt;i&gt;"Magnetic Pull"&lt;/i&gt; ability, take 1 damage for each card discarded by it.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Erik Lehnsherr → discard Old Grievances.</property>
+    </card>
+    <card name="Exodus" id="0035c164-5de7-4b2e-bb80-d49e4b049028" size="EncounterCard">
+      <property name="CardNumber" value="49028"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="magneto_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Acolyte. Elite. Psionic."/>
+      <property name="Text">Steady. Toughness. Villainous.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Exodus attacks you, discard cards from the top of your deck equal to his total ATK.
+&lt;i&gt;(Magneto's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Martyr for Mutants" id="0035c164-5de7-4b2e-bb80-d49e4b049029" size="SchemeCard">
+      <property name="CardNumber" value="49029"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="magneto_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: The defeating player discards the top 9 cards of their deck.</property>
+      <property name="Quote">Magneto's former Acolytes felt betrayed by their leader's change of heart about mutant and human coexistence.</property>
+    </card>
+    <card name="Fabian Cortez" id="0035c164-5de7-4b2e-bb80-d49e4b049030" size="EncounterCard">
+      <property name="CardNumber" value="49030"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="magneto_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Acolyte."/>
+      <property name="Text">Guard.
+&lt;b&gt;When Defeated&lt;/b&gt;: The defeating player discards the top 4 cards of their deck.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Discard the top 4 cards of your deck.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Frenzy" id="0035c164-5de7-4b2e-bb80-d49e4b049031" size="EncounterCard">
+      <property name="CardNumber" value="49031"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="magneto_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Acolyte."/>
+      <property name="Text">Quickstrike.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Frenzy attacks you, discard the top 2 cards of your deck.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Discard the top 4 cards of your deck.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Angry Acolyte" id="0035c164-5de7-4b2e-bb80-d49e4b049032" size="EncounterCard">
+      <property name="CardNumber" value="49032"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="magneto_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Each [[Acolyte]] minion engaged with a player activates against that player. If no minion activates this way, discard cards from the top of the encounter deck until an [[Acolyte]] minion is discarded. Reveal that minion.</property>
+    </card>
+    <card name="Sebastian Shaw" id="0035c164-5de7-4b2e-bb80-d49e4b049038" size="EncounterCard">
+      <property name="CardNumber" value="49038"/>
+      <property name="Position" value="38"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="hellfire"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Hellfire."/>
+      <property name="Text">Toughness. Villainous.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Sebastian Shaw is attacked, give him a facedown boost card. He cannot be attacked again this phase.</property>
+      <property name="Quote">"Never raise a hand to your betters, serf!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Selene" id="0035c164-5de7-4b2e-bb80-d49e4b049039" size="EncounterCard">
+      <property name="CardNumber" value="49039"/>
+      <property name="Position" value="39"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="hellfire"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Hellfire."/>
+      <property name="Text">Quickstrike. Villainous.
+Allies cannot attack Selene
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Discard an ally you control.</property>
+      <property name="Quote">"Foolish child! Countless thousands have gone to the fire in my name."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Hellfire Pawn" id="0035c164-5de7-4b2e-bb80-d49e4b049040" size="EncounterCard">
+      <property name="CardNumber" value="49040"/>
+      <property name="Position" value="40"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="hellfire"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Hellfire."/>
+      <property name="Text">Guard. Patrol. Surge.
+&lt;i&gt;(While a minion with the patrol keyword is engaged with you, you cannot thwart the main scheme.)&lt;/i&gt;
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Put Hellfire Pawn into play engaged with you.</property>
+    </card>
+    <card name="The Inner Circle" id="0035c164-5de7-4b2e-bb80-d49e4b049041" size="SchemeCard">
+      <property name="CardNumber" value="49041"/>
+      <property name="Position" value="41"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="hellfire"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 2 additional threat here for each [[Hellfire]] card in play.</property>
+      <property name="Quote">The inner circle of the Hellfire Club uses its wealth and power to plot the course of mutant affairs in secret.</property>
+    </card>
+    <card name="Power and Decadence" id="0035c164-5de7-4b2e-bb80-d49e4b049042" size="EncounterCard">
+      <property name="CardNumber" value="49042"/>
+      <property name="Position" value="42"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="hellfire"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Give the villain a tough status card. Give this card to that villain as a facedown boost card.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: After this activation, the activating enemy activates against you again. Do not give it a boost card for that activation.</property>
+    </card>
+  </cards>
+</set>

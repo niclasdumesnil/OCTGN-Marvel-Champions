@@ -363,5 +363,10 @@ changelog = {
         ]),
     '0000377': ("0.0.3.77", "04 October 2024", [
         "Nightcrawler Hero pack added"
+        ]),
+    '0000378': ("0.0.3.78", "30 November 2024", [
+        "Magneto Hero pack added",
+        "Fix: Shuffle discard pile into deck didn't work with Side and Special deck.",
+        "Feature: new card action (right-click): Add any marker from all available ones"
         ])
 }

@@ -727,6 +727,13 @@ def addDamage(card, x = 0, y = 0):
     card.markers[DamageMarker] += 1
     notify("{} adds 1 Damage on {}.".format(me, card))
 
+def addAnyMarker(card, x = 0, y = 0, qty = 1):
+    mute()
+    card.controller = me
+    marker, quantity = askMarker()
+    if quantity == 0: return
+    card.markers[marker] += quantity
+
 def addMarker(card, x = 0, y = 0, qty = 1):
     mute()
     card.controller = me
@@ -1216,6 +1223,22 @@ def shuffleDiscardIntoDeck(group, x = 0, y = 0):
             card.moveTo(encounterDeck())
         shuffle(encounterDeck())
         notify("{} shuffles the encounter discard pile into the encounter Deck.".format(me))
+    if group == sideDeckDiscard():
+        if len(sideDeck()) > 0:
+            if askChoice("There are still {} card(s) in Side Deck. Are you sure you want to shuffle discard pile into this Deck ?".format(len(sideDeck())), ["Yes", "No"]) != 1:
+                return
+        for card in group:
+            card.moveTo(sideDeck())
+        shuffle(sideDeck())
+        notify("{} shuffles the Side discard pile into the Side Deck.".format(me))
+    if group == specialDeckDiscard():
+        if len(specialDeck()) > 0:
+            if askChoice("There are still {} card(s) in Special Deck. Are you sure you want to shuffle discard pile into this Deck ?".format(len(specialDeck())), ["Yes", "No"]) != 1:
+                return
+        for card in group:
+            card.moveTo(specialDeck())
+        shuffle(specialDeck())
+        notify("{} shuffles the Special discard pile into the Special Deck.".format(me))
     if group == me.piles["Special Discard"]:
         for card in group:
             card.moveTo(me.piles["Special"])
