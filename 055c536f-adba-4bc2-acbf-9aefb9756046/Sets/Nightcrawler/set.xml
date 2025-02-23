@@ -408,7 +408,7 @@ Azazel cannot have upgrades attached.
       <property name="Owner" value="crazy_gang"/>
       <property name="Boost" value="2"/>
       <property name="BaseThreat" value="2"/>
-      <property name="BaseThreatFixed" value="True"/>
+      <property name="BaseThreatFixed" value="False"/>
       <property name="EscalationThreatFixed" value="False"/>
       <property name="Scheme_Acceleration" value="1"/>
       <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After a non-[[Elite]] minion schemes against a player, deal that minion to that player as a facedown encounter card. Then, if there is more than 1 player in the game, pass that facedown encounter card to the next player.</property>

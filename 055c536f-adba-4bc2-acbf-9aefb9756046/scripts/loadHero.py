@@ -355,9 +355,9 @@ def createAPICards(url, fanmade = False):
         whisper("Error retrieving online deck data, please try again.")
         return
     try:
-        deckname = JavaScriptSerializer().DeserializeObject(data)["name"]
+        deckname = JavaScriptSerializer().DeserializeObject(data)["hero_name"]
         deck = JavaScriptSerializer().DeserializeObject(data)["slots"]
-        hero_id = JavaScriptSerializer().DeserializeObject(data)["investigator_code"]
+        hero_id = JavaScriptSerializer().DeserializeObject(data)["hero_code"]
         if not fanmade:
             heroCards = queryCard({"Type":"hero", "CardNumber":hero_id}, True)
             heroCard = me.piles["Setup"].create(heroCards[0], 1)

@@ -273,19 +273,19 @@ Max 1 per deck.
 &lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(attack/defense)&lt;/i&gt;: When an enemy attacks, prevent all damage from that attack and deal 4 damage to the attacking enemy.</property>
     </card>
     <card name="Energy" id="47d34c5d-5319-45a9-a2d6-1fb975032022">
-      <property name="CardNumber" value="32022"/>
+      <property name="CardNumber" value="32052"/>
       <property name="Type" value="resource"/>
       <property name="Resource_Energy" value="2"/>
       <property name="Text">Max 1 per deck.</property>
     </card>
     <card name="Genius" id="47d34c5d-5319-45a9-a2d6-1fb975032023">
-      <property name="CardNumber" value="32023"/>
+      <property name="CardNumber" value="32053"/>
       <property name="Type" value="resource"/>
       <property name="Resource_Mental" value="2"/>
       <property name="Text">Max 1 per deck.</property>
     </card>
     <card name="Strength" id="47d34c5d-5319-45a9-a2d6-1fb975032024">
-      <property name="CardNumber" value="32024"/>
+      <property name="CardNumber" value="32054"/>
       <property name="Type" value="resource"/>
       <property name="Resource_Physical" value="2"/>
       <property name="Text">Max 1 per deck.</property>

@@ -368,5 +368,9 @@ changelog = {
         "Magneto Hero pack added",
         "Fix: Shuffle discard pile into deck didn't work with Side and Special deck.",
         "Feature: new card action (right-click): Add any marker from all available ones"
+        ]),
+    '0000379': ("0.0.3.79", "23 February 2025", [
+        "Hotfix: Fix for the loading method from marvelcdb.com following an API change.",
+        "Fix: alternative resource images from Mutant Genesis wasn't loading from marvelcdb."
         ])
 }
