@@ -1388,6 +1388,7 @@ def nextSchemeStage(group=None, x=0, y=0):
                 currentScheme = num(c.CardNumber[:-1])
                 currentAcceleration = c.markers[AccelerationMarker]
                 c.moveToBottom(removedFromGameDeck())
+                break
 
         for card in mainSchemeDeck():
             if num(card.CardNumber[:-1]) == currentScheme + 1:
@@ -1395,6 +1396,7 @@ def nextSchemeStage(group=None, x=0, y=0):
                 card.anchor = False
                 card.markers[AccelerationMarker] = currentAcceleration
                 notify("{} advances scheme to '{}'".format(me, card))
+                break
 
     if vName == 'Morlock Siege':
         if card.CardNumber == "40078a": # Stage 2 main scheme
@@ -1411,6 +1413,23 @@ def nextSchemeStage(group=None, x=0, y=0):
                     morlockCard[1].moveToTable(playerX(i)+35, 0)
                 else:
                     morlockCard[i].moveToTable(playerX(i), 0)
+
+    if vName == 'Baron Zemo':
+        vCardOnTable = sorted(filter(lambda card: card.Type == "villain", table), reverse=True)
+        vilX, vilY = vCardOnTable[0].position
+        if card.CardNumber == "50168a": # Stage 2 main scheme
+            shift = 0
+            for c in shared.piles['Temporary']:
+                c.moveToTable(vilX-70+shift, vilY+100)
+                c.isFaceUp = False
+                shift += 70
+
+        if card.CardNumber == "50169a": # Stage 3 main scheme
+            revealCardOnSetup("Baron Zemo's Sword", "50170", vilX-15, vilY+5, isAttachment=True)
+            vCardOnTable[0].alternate = "b"
+            clearMarker(vCardOnTable[0])
+            setHPOnCharacter(vCardOnTable[0])
+
 
 def nextVillainStage(group=None, x=0, y=0):
     mute()

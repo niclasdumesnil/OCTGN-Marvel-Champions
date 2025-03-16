@@ -1980,7 +1980,7 @@ Move the glider counter to the main scheme with the most threat. Place 1 threat 
     <card name="Symbiotic Monstrosity" id="4dc840fa-521c-409d-b57c-d0b63bd3b22c" size="EncounterCard">
       <property name="CardNumber" value="27122"/>
       <property name="Position" value="122"/>
-      <property name="Quantity" value="2"/>
+      <property name="Quantity" value="1"/>
       <property name="Type" value="minion"/>
       <property name="Owner" value="venom_goblin"/>
       <property name="Attack" value="2"/>

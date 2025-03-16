@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Difficulty_Setup" id="055c536f-adba-4bc2-acbf-400000000000" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+    <cards>
+        <card id="055c536f-adba-4bc2-acbf-400000000001" name="Standard I">
+            <property name="Type" value="difficulty_setup"/>
+            <property name="Owner" value="standard"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-400000000002" name="Standard II">
+            <property name="Type" value="difficulty_setup"/>
+            <property name="Owner" value="standard_ii"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-400000000003" name="Standard III">
+            <property name="Type" value="difficulty_setup"/>
+            <property name="Owner" value="standard_iii"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-400000000101" name="Expert I">
+            <property name="Type" value="difficulty_setup"/>
+            <property name="Owner" value="expert"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-400000000102" name="Expert II">
+            <property name="Type" value="difficulty_setup"/>
+            <property name="Owner" value="expert_ii"/>
+        </card>
+    </cards>
+</set>

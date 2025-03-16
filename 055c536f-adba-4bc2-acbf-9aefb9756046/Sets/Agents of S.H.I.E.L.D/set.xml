@@ -1,0 +1,3035 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Agents of S.H.I.E.L.D." id="bddee479-23cf-4576-b33c-c95ee9f3cc96" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card name="Maria Hill" id="bddee479-23cf-4576-b33c-c95ee9050001">
+      <property name="CardNumber" value="50001a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="maria_hill"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="S.H.I.E.L.D. Spy."/>
+      <property name="Text">Each ally you control gains the [[S.H.I.E.L.D.]] trait.
+&lt;i&gt;Reassignment&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Move 1 all-purpose counter from a [[S.H.I.E.L.D.]] support to another [[S.H.I.E.L.D.]] support. (Limit once per round.)</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Maria Hill" type="b">
+        <property name="CardNumber" value="50001b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="maria_hill"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="9"/>
+        <property name="Attribute" value="S.H.I.E.L.D. Spy."/>
+        <property name="Text">You may include the maximum number of copies of 3 [[S.H.I.E.L.D.]] supports in your deck from aspects other than your chosen aspect.
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Maria Hill → search your deck for a [[S.H.I.E.L.D.]] support and add it to your hand.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Nick Fury" id="bddee479-23cf-4576-b33c-c95ee9050002">
+      <property name="CardNumber" value="50002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="maria_hill"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="S.H.I.E.L.D."/>
+      <property name="Text">[star] &lt;b&gt;Response&lt;/b&gt;: After Nick Fury uses a basic power, place 1 all-purpose counter on a [[S.H.I.E.L.D.]] support.</property>
+      <property name="Quote">"I put my best agent on the case." —Maria Hill</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="All-Points Bulletin" id="bddee479-23cf-4576-b33c-c95ee9050003">
+      <property name="CardNumber" value="50003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="maria_hill"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: For each [[S.H.I.E.L.D.]] support you control, choose:
+• Remove 1 threat from a scheme.
+• Deal 1 damage to an enemy.</property>
+    </card>
+    <card name="On the Double" id="bddee479-23cf-4576-b33c-c95ee9050004">
+      <property name="CardNumber" value="50004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="maria_hill"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Ready any number of [[S.H.I.E.L.D.]] supports with a combined printed cost of 6 or less.</property>
+      <property name="Quote">"I want the suspect in custody yesterday!" —Maria Hill</property>
+    </card>
+    <card name="Reinforcements" id="bddee479-23cf-4576-b33c-c95ee9050005">
+      <property name="CardNumber" value="50005"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="maria_hill"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Choose any number of [[S.H.I.E.L.D.]] supports with a combined printed cost of 6 or less. Place 1 all-purpose counter on each of those supports.</property>
+      <property name="Quote">"We got orders straight from the Director. Move it!" —Dum Dum Dugan</property>
+    </card>
+    <card name="The Hard Call" id="bddee479-23cf-4576-b33c-c95ee9050006">
+      <property name="CardNumber" value="50006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="maria_hill"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Discard a [[S.H.I.E.L.D.]] support you control → deal X damage to each enemy, where X is the printed cost of the discarded support.</property>
+      <property name="Quote">"Sometimes it just comes down to numbers. More people die if I don't act than if I do." —Maria Hill</property>
+    </card>
+    <card name="Special Funding" id="bddee479-23cf-4576-b33c-c95ee9050007">
+      <property name="CardNumber" value="50007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="maria_hill"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After you spend this card to pay for a [[S.H.I.E.L.D.]] support, place 1 all-purpose counter on that support after it enters play.</property>
+    </card>
+    <card name="Support Staff" id="bddee479-23cf-4576-b33c-c95ee9050008">
+      <property name="CardNumber" value="50008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="maria_hill"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Persona. S.H.I.E.L.D."/>
+      <property name="Text">Uses (3 staff counters).
+&lt;b&gt;Resource&lt;/b&gt;: Exhaust Support Staff and remove 1 staff counter from it → generate a [wild] resource for a player whose identity has the [[S.H.I.E.L.D.]] trait.</property>
+    </card>
+    <card name="The Iliad" id="bddee479-23cf-4576-b33c-c95ee9050009">
+      <property name="CardNumber" value="50009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="maria_hill"/>
+      <property name="Cost" value="6"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="S.H.I.E.L.D. Vehicle."/>
+      <property name="Text">Uses (3 mission counters).
+&lt;b&gt;Action&lt;/b&gt;: Exhaust The Iliad and remove 1 mission counter from it → choose:
+• Deal 5 damage to an enemy.
+• Remove 4 threat from a scheme.
+• Heal 3 damage from an identity.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Life Model Decoy" id="bddee479-23cf-4576-b33c-c95ee9050010">
+      <property name="CardNumber" value="50010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="maria_hill"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Preparation. Tech."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When an enemy attacks you, discard Life Model Decoy → prevent all damage from that attack.</property>
+      <property name="Quote">"When you've got job hazards like I do, it pays to take precautions." —Maria Hill</property>
+    </card>
+    <card name="S.H.I.E.L.D. Director" id="bddee479-23cf-4576-b33c-c95ee9050011">
+      <property name="CardNumber" value="50011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="maria_hill"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust S.H.I.E.L.D. Director → place 1 all-purpose counter on a [[S.H.I.E.L.D.]] support.</property>
+      <property name="Quote">"You don't have to agree with my orders. You just have to carry them out." —Maria Hill</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Victoria Hand" id="bddee479-23cf-4576-b33c-c95ee9050012">
+      <property name="CardNumber" value="50012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="S.H.I.E.L.D."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Victoria Hand enters play, ready a [[S.H.I.E.L.D.]] support.</property>
+      <property name="Quote">"I better get hazard pay for this!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Slingshot" id="bddee479-23cf-4576-b33c-c95ee9050013">
+      <property name="CardNumber" value="50013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="S.H.I.E.L.D. Spy."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Spend a [energy] resource → put Slingshot into play from your hand under any player's control. At the end of the phase, if Slingshot is still in play, return her to your hand.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Organizational Support" id="bddee479-23cf-4576-b33c-c95ee9050014">
+      <property name="CardNumber" value="50014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="resource"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When you spend this card, exhaust up to 3 allies and/or supports you control that share a [[Trait]] with your identity → generate the printed resources on each card exhausted this way.</property>
+    </card>
+    <card name="Agents of S.H.I.E.L.D." id="bddee479-23cf-4576-b33c-c95ee9050015">
+      <property name="CardNumber" value="50015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Team."/>
+      <property name="Text">Play under any player's control. Max 1 [[Team]] card per player.
+If each of your characters has the [[S.H.I.E.L.D.]] trait, this card gains: "&lt;b&gt;Interrupt&lt;/b&gt;: When you reveal an encounter card, exhaust this card → cancel the effects of that card and discard it. Then, reveal another card from the encounter deck."</property>
+    </card>
+    <card name="Command Team" id="bddee479-23cf-4576-b33c-c95ee9050016">
+      <property name="CardNumber" value="50016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="S.H.I.E.L.D."/>
+      <property name="Text">Uses (3 command counters).
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Command Team and remove 1 command counter from it → ready an ally.</property>
+      <property name="Quote"></property>
+    </card>
+    <card name="The Circe" id="bddee479-23cf-4576-b33c-c95ee9050017">
+      <property name="CardNumber" value="50017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="6"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="S.H.I.E.L.D. Vehicle."/>
+      <property name="Text">Uses (2 deploy counters).
+&lt;b&gt;Action&lt;/b&gt;: Exhaust The Circe, remove 1 deploy counter from it, and choose a player → that player puts an ally into play from their hand.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Bellerophon" id="bddee479-23cf-4576-b33c-c95ee9050018">
+      <property name="CardNumber" value="50018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="6"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="S.H.I.E.L.D. Vehicle."/>
+      <property name="Text">Uses (3 missile counters).
+&lt;b&gt;Action&lt;/b&gt;: Exhaust The Bellerophon, remove 1 missile counter from it, and choose a player → deal 3 damage to the villain and each minion engaged with that player, discarding all tough status cards from those enemies first.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Douglass" id="bddee479-23cf-4576-b33c-c95ee9050019">
+      <property name="CardNumber" value="50019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="6"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="S.H.I.E.L.D. Vehicle."/>
+      <property name="Text">Uses (3 operation counters).
+&lt;b&gt;Action&lt;/b&gt;: Exhaust The Douglass and remove 1 operational counter from it → remove 2 threat from each scheme, ignoring any crisis icons ([crisis]) in play.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Pericles" id="bddee479-23cf-4576-b33c-c95ee9050020">
+      <property name="CardNumber" value="50020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="6"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="S.H.I.E.L.D. Vehicle."/>
+      <property name="Text">Uses (2 supply counters).
+&lt;b&gt;Action&lt;/b&gt;: Exhaust The Pericles and remove 1 supply counter from it → give a hero or villain a status card of your choice. Give an ally or minion a status card of your choice.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Dum Dum Dugan" id="bddee479-23cf-4576-b33c-c95ee9050021">
+      <property name="CardNumber" value="50021"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="3"/>
+      <property name="ThwartCost" value="3"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="5"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="S.H.I.E.L.D."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When you use one of Dum Dum Dugan's basic powers, exhaust up to 3 [[S.H.I.E.L.D.]] cards you control. For each card exhausted this way, Dum Dum Dugan gets +1 to that power for this use.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Grant Ward" id="bddee479-23cf-4576-b33c-c95ee9050022">
+      <property name="CardNumber" value="50022"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="S.H.I.E.L.D. Spy."/>
+      <property name="Text">Grant Ward cannot defend.
+&lt;b&gt;Forced Response&lt;/b&gt;: After you reveal a treachery, you may spend a [mental] resource. If you do not, take damage equal to Grant Ward's ATK and remove Grant Ward from the game.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Melinda May" id="bddee479-23cf-4576-b33c-c95ee9050023">
+      <property name="CardNumber" value="50023"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="S.H.I.E.L.D. Spy."/>
+      <property name="Text">[star] &lt;b&gt;Response&lt;/b&gt;: After Melinda May uses a basic power, look at the top card of the encounter deck. You may discard that card.</property>
+      <property name="Quote">"Don't call me the Cavalry."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Super Spies" id="bddee479-23cf-4576-b33c-c95ee9050024">
+      <property name="CardNumber" value="50024"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">Team-Up (Maria Hill and Nick Fury). Max 1 per deck.
+&lt;b&gt;Hero Action&lt;/b&gt;: Place a total of 3 all-purpose counters and/or threat tokens on [[S.H.I.E.L.D.]] supports and/or suit form upgrades.</property>
+    </card>
+    <card name="Energy" id="bddee479-23cf-4576-b33c-c95ee9050025">
+      <property name="CardNumber" value="50025"/>
+      <property name="Type" value="resource"/>
+      <property name="Resource_Energy" value="2"/>
+      <property name="Text">Max 1 per deck.</property>
+    </card>
+    <card name="Genius" id="bddee479-23cf-4576-b33c-c95ee9050026">
+      <property name="CardNumber" value="50026"/>
+      <property name="Type" value="resource"/>
+      <property name="Resource_Mental" value="2"/>
+      <property name="Text">Max 1 per deck.</property>
+    </card>
+    <card name="Strength" id="bddee479-23cf-4576-b33c-c95ee9050027">
+      <property name="CardNumber" value="50027"/>
+      <property name="Type" value="resource"/>
+      <property name="Resource_Physical" value="2"/>
+      <property name="Text">Max 1 per deck.</property>
+    </card>
+    <card name="Front Organization" id="bddee479-23cf-4576-b33c-c95ee9050028">
+      <property name="CardNumber" value="50028"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">Play under any player's control. Max 1 per player.
+&lt;b&gt;Interrupt&lt;/b&gt;: When an encounter card effect would discard a card you control, discard Front Organization instead of discarding that card.</property>
+    </card>
+    <card name="Nick Fury" id="bddee479-23cf-4576-b33c-c95ee9050034">
+      <property name="CardNumber" value="50034a"/>
+      <property name="Position" value="34"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="nick_fury"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="S.H.I.E.L.D. Soldier. Spy."/>
+      <property name="Text">[star] &lt;i&gt;Gather Intel&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After Nick Fury makes a basic thwart, place 1 threat on your suit form upgrade.
+&lt;i&gt;Break Cover&lt;/i&gt; — &lt;b&gt;Forced Interrupt&lt;/b&gt;: When you attack, change to Assault suit form.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Nick Fury" type="b">
+        <property name="CardNumber" value="50034b"/>
+        <property name="Position" value="34"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="nick_fury"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="S.H.I.E.L.D. Soldier. Spy."/>
+        <property name="Text">&lt;i&gt;Suit Up&lt;/i&gt; — &lt;b&gt;Setup&lt;/b&gt;: Put your suit form upgrade into play, Assault side faceup.
+&lt;i&gt;Infiltrate&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Change to Stealth suit form.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Assault" id="bddee479-23cf-4576-b33c-c95ee9050035">
+      <property name="CardNumber" value="50035a"/>
+      <property name="Position" value="35"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="nick_fury"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Item. Tech."/>
+      <property name="Text">Suit form. Permanent.
+&lt;b&gt;Interrupt&lt;/b&gt;: When you attack, remove up to 3 threat from here → this attack deals 1 additional damage for each threat removed this way.</property>
+      <alternate name="Stealth" type="b">
+        <property name="CardNumber" value="50035b"/>
+        <property name="Position" value="35"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="upgrade"/>
+        <property name="Owner" value="nick_fury"/>
+        <property name="Resource_Mental" value="1"/>
+        <property name="Attribute" value="Item. Tech."/>
+        <property name="Text">Suit form. Permanent.
+&lt;b&gt;Forced Interrupt (Hero)&lt;/b&gt;: When an enemy would attack you, it schemes instead. Place 1 threat from that activation here instead of on the main scheme if there is 5 or less threat on this card.</property>
+      </alternate>
+    </card>
+    <card name="Maria Hill" id="bddee479-23cf-4576-b33c-c95ee9050036">
+      <property name="CardNumber" value="50036"/>
+      <property name="Position" value="36"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="nick_fury"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="S.H.I.E.L.D."/>
+      <property name="Text">[star] &lt;b&gt;Interrupt&lt;/b&gt;: When Maria Hill thwarts, place the removed threat on your suit form upgrade.</property>
+      <property name="Quote">"Now that's how you make an exit!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Concentrated Fire" id="bddee479-23cf-4576-b33c-c95ee9050037">
+      <property name="CardNumber" value="50037"/>
+      <property name="Position" value="37"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="nick_fury"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy. This attack gains ranged. If this attack defeats an enemy, choose:
+• Place threat on your suit form upgrade equal to that enemy's printed SCH.
+• Change to Stealth suit form.</property>
+    </card>
+    <card name="Covert Surveillance" id="bddee479-23cf-4576-b33c-c95ee9050038">
+      <property name="CardNumber" value="50038"/>
+      <property name="Position" value="38"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="nick_fury"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 2 threat from a scheme. If you are in Stealth suit form, you may place that threat on your suit form upgrade. Otherwise, you may change to Stealth suit form.</property>
+    </card>
+    <card name="Spray Fire" id="bddee479-23cf-4576-b33c-c95ee9050039">
+      <property name="CardNumber" value="50039"/>
+      <property name="Position" value="39"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="nick_fury"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Choose a player. Deal 3 damage to the villain and each minion engaged with that player. This attack gains ranged.</property>
+      <property name="Quote">"Eat lasers!" —Nick Fury</property>
+    </card>
+    <card name="Fury's Flying Car" id="bddee479-23cf-4576-b33c-c95ee9050040">
+      <property name="CardNumber" value="50040"/>
+      <property name="Position" value="40"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="nick_fury"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Aerial. Tech. Vehicle."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Fury's Flying Car and remove 1 threat from your suit form upgrade → ready Nick Fury. He gains the [[Aerial]] trait until the end of the round.</property>
+      <property name="Quote">"This job has its perks." —Nick Fury</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Safe House #221" id="bddee479-23cf-4576-b33c-c95ee9050041">
+      <property name="CardNumber" value="50041"/>
+      <property name="Position" value="41"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="nick_fury"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location. S.H.I.E.L.D."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Safe House #221 → choose:
+• Heal 2 damage from Nick Fury.
+• Place 1 threat on your suit form upgrade.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="EM Shield" id="bddee479-23cf-4576-b33c-c95ee9050042">
+      <property name="CardNumber" value="50042"/>
+      <property name="Position" value="42"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="nick_fury"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Preparation. Tech."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt; &lt;i&gt;(defense)&lt;/i&gt;: When you would take any amount of damage from an attack, discard EM Shield → prevent all of that damage.</property>
+    </card>
+    <card name="Eyepatch Camera" id="bddee479-23cf-4576-b33c-c95ee9050043">
+      <property name="CardNumber" value="50043"/>
+      <property name="Position" value="43"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="nick_fury"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Preparation. Tech."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When any amount of threat would be placed on the main scheme, discard Eyepatch Camera → place up to 3 of that threat on your suit form upgrade instead.</property>
+    </card>
+    <card name="Fury's Watch" id="bddee479-23cf-4576-b33c-c95ee9050044">
+      <property name="CardNumber" value="50044"/>
+      <property name="Position" value="44"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="nick_fury"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Item. Tech."/>
+      <property name="Text">&lt;b&gt;Resource&lt;/b&gt;: Exhaust Fury's Watch and remove up to 2 threat from your suit form upgrade → generate a [mental] resource for each threat you removed this way.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Intelligence Analysis" id="bddee479-23cf-4576-b33c-c95ee9050045">
+      <property name="CardNumber" value="50045"/>
+      <property name="Position" value="45"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="nick_fury"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Preparation. Skill."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When you reveal a treachery, discard Intelligence Analysis and remove 1 threat from your suit form upgrade → cancel the effects of that treachery and discard it.</property>
+    </card>
+    <card name="Secret Agent" id="bddee479-23cf-4576-b33c-c95ee9050046">
+      <property name="CardNumber" value="50046"/>
+      <property name="Position" value="46"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="nick_fury"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you resolve the ability of a [[Preparation]] card you control, move 1 threat from a scheme to your suit form upgrade.</property>
+      <property name="Quote">"I'm a man who leads a life of danger." —Nick Fury</property>
+    </card>
+    <card name="Informant" id="bddee479-23cf-4576-b33c-c95ee9050050">
+      <property name="CardNumber" value="50050"/>
+      <property name="Position" value="50"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Preparation."/>
+      <property name="Text">Max 1 per player.
+&lt;b&gt;Interrupt&lt;/b&gt;: When a minion schemes, discard Informant → this activation removes threat instead of placing it.</property>
+      <property name="Quote">"What's that information worth to you, Coulson?" —Taskmaster</property>
+    </card>
+    <card name="Intelligence" id="bddee479-23cf-4576-b33c-c95ee9050051">
+      <property name="CardNumber" value="50051"/>
+      <property name="Position" value="51"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Preparation."/>
+      <property name="Text">Max 1 per player.
+&lt;b&gt;Response&lt;/b&gt;: After a player is dealt an encounter card, discard Intelligence → look at each encounter card dealt to each player and the top card of the encounter deck. You may swap any number of those cards.</property>
+    </card>
+    <card name="Prism Dust" id="bddee479-23cf-4576-b33c-c95ee9050052">
+      <property name="CardNumber" value="50052"/>
+      <property name="Position" value="52"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Preparation. Tech."/>
+      <property name="Text">Max 1 per player.
+&lt;b&gt;Hero Response&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: After a minion enters play, discard Prism Dust → confuse that minion and deal 2 damage to it.</property>
+    </card>
+    <card name="Nick Fury, Sr." id="bddee479-23cf-4576-b33c-c95ee9050054">
+      <property name="CardNumber" value="50054"/>
+      <property name="Position" value="54"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="S.H.I.E.L.D. Soldier."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After Nick Fury, Sr. enters play, choose one: Remove 3 threat from a scheme, draw 2 cards, or give a [[S.H.I.E.L.D.]] character a tough status card. At the end of the round, if Nick Fury, Sr. is still in play, discard him.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Jemma Simmons" id="bddee479-23cf-4576-b33c-c95ee9050055">
+      <property name="CardNumber" value="50055"/>
+      <property name="Position" value="55"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Persona. S.H.I.E.L.D."/>
+      <property name="Text">Reduce the cost to play Jemma Simmons by 2 if your identity has the [[S.H.I.E.L.D.]] trait.
+&lt;b&gt;Resource&lt;/b&gt;: Exhaust Jemma Simmons → generate a [mental] resource for a [[Tech]] card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Leo Fitz" id="bddee479-23cf-4576-b33c-c95ee9050056">
+      <property name="CardNumber" value="50056"/>
+      <property name="Position" value="56"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Persona. S.H.I.E.L.D."/>
+      <property name="Text">Reduce the cost to play Leo Fitz by 2 if your identity has the [[S.H.I.E.L.D.]] trait.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Leo Fitz → search you deck for a [[Tech]] card and add it to your hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Practiced Plan" id="bddee479-23cf-4576-b33c-c95ee9050058">
+      <property name="CardNumber" value="50058"/>
+      <property name="Position" value="58"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Preparation."/>
+      <property name="Text">Max 1 per player.
+&lt;b&gt;Response&lt;/b&gt;: After you discard a [[Preparation]] card you control, discard Practiced Plan → return that card to your hand from your discard pile.</property>
+    </card>
+    <card name="Press Conference" id="bddee479-23cf-4576-b33c-c95ee9050029" size="EncounterCard">
+      <property name="CardNumber" value="50029"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="maria_hill"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Maria Hill player.&lt;/i&gt;&lt;/b&gt;
+&lt;b&gt;Forced Response&lt;/b&gt;: After the player phase ends, remove 1 all-purpose counter from each support you control.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust your identity → discard this card.</property>
+    </card>
+    <card name="Controller" id="bddee479-23cf-4576-b33c-c95ee9050030" size="EncounterCard">
+      <property name="CardNumber" value="50030"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="maria_hill_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Elite. Psionic."/>
+      <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Controller activates against you, remove 1 all-purpose counter from a support. If Controlled Innocents is in play, put the top card of your deck into play facedown, engaged with you as a [[Controlled]] minion.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Army of the Controlled" id="bddee479-23cf-4576-b33c-c95ee9050031" size="SchemeCard">
+      <property name="CardNumber" value="50031"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="maria_hill_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Find the Controlled Innocents environment and put it into play.
+&lt;b&gt;When Defeated&lt;/b&gt;: Discard each [[Controlled]] minion. Place 1 all-purpose counter on a support for each minion discarded this way.</property>
+    </card>
+    <card name="Controlled Innocents" id="bddee479-23cf-4576-b33c-c95ee9050032" size="EncounterCard">
+      <property name="CardNumber" value="50032"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="maria_hill_nemesis"/>
+      <property name="Text">Each facedown [[Controlled]] minion engaged with a player has a base SCH of 1, a base ATK of 1, and a base hit points of 1.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a [[Controlled]] minion is defeated, place that card in its owner's discard pile and place 1 threat on the main scheme.</property>
+    </card>
+    <card name="Diabolical Discs" id="bddee479-23cf-4576-b33c-c95ee9050033" size="EncounterCard">
+      <property name="CardNumber" value="50033"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="maria_hill_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Surge.
+&lt;b&gt;When Revealed&lt;/b&gt;: Remove 1 all-purpose counter from a support. If Controlled Innocents is in play, put the top card of your deck into play facedown, engaged with you as a [[Controlled]] minion.</property>
+    </card>
+    <card name="Discovered" id="bddee479-23cf-4576-b33c-c95ee9050059" size="EncounterCard">
+      <property name="CardNumber" value="50059"/>
+      <property name="Position" value="59"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="nick_fury"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Nick Fury player.&lt;/i&gt;&lt;/b&gt;
+&lt;b&gt;When Revealed&lt;/b&gt;: Change to Assault suit form. If there is no threat on your suit form upgrade, this card gains surge. Otherwise, choose to either take 1 damage for each threat on your suit form upgrade, or remove each threat from your suit form upgrade. In either case, discard this card.</property>
+    </card>
+    <card name="Orion" id="bddee479-23cf-4576-b33c-c95ee9050060" size="EncounterCard">
+      <property name="CardNumber" value="50060"/>
+      <property name="Position" value="60"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="nick_fury_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Leviathan."/>
+      <property name="Text">Toughness.
+Orion can have any number of tough status cards.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Orion takes any amount of damage, give him a tough status card.
+&lt;i&gt;(Nick Fury's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Acquire Infinity Formula" id="bddee479-23cf-4576-b33c-c95ee9050061" size="SchemeCard">
+      <property name="CardNumber" value="50061"/>
+      <property name="Position" value="61"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="nick_fury_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After Nick Fury takes any amount of damage, give Orion a tough status card. If Orion is not in play, find him and put him into play engaged with the Nick Fury player.</property>
+    </card>
+    <card name="Leviathan Soldier" id="bddee479-23cf-4576-b33c-c95ee9050062" size="EncounterCard">
+      <property name="CardNumber" value="50062"/>
+      <property name="Position" value="62"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="nick_fury_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Leviathan."/>
+      <property name="Text">Toughness.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Leviathan Soldier schemes, deal 1 damage to the engaged player's identity.</property>
+      <property name="Quote">Formerly a secret branch of the KGB, Leviathan has gone independent with their aim of world domination.</property>
+    </card>
+    <card name="Cold Storage" id="bddee479-23cf-4576-b33c-c95ee9050063" size="EncounterCard">
+      <property name="CardNumber" value="50063"/>
+      <property name="Position" value="63"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="nick_fury_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for a [[Leviathan]] minion and put it into play engaged with you. &lt;i&gt;(Shuffle.)&lt;/i&gt; Otherwise, take 2 damage.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Take 1 damage.</property>
+    </card>
+    <card name="Black Widow" id="bddee479-23cf-4576-b33c-c95ee9050064" size="VillainCard">
+      <property name="CardNumber" value="50064"/>
+      <property name="Position" value="64"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="13"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Spy."/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When a character you control attacks Black Widow, remove 1 threat from the main scheme &lt;i&gt;(ignoring any crisis icons in play)&lt;/i&gt; → discard the top card of the encounter deck and resolve each "&lt;b&gt;Preparation&lt;/b&gt;" ability on that card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Black Widow" id="bddee479-23cf-4576-b33c-c95ee9050065" size="VillainCard">
+      <property name="CardNumber" value="50065"/>
+      <property name="Position" value="65"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="16"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Spy."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 2[per_hero] threat on the main scheme.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When a character you control attacks Black Widow, remove 1 threat from the main scheme → discard the top card of the encounter deck and resolve each "&lt;b&gt;Preparation&lt;/b&gt;" ability on that card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Black Widow" id="bddee479-23cf-4576-b33c-c95ee9050066" size="VillainCard">
+      <property name="CardNumber" value="50066"/>
+      <property name="Position" value="66"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="3"/>
+      <property name="HP" value="13"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Spy."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 3[per_hero] threat on the main scheme.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When a character you control attacks Black Widow, remove 1 threat from the main scheme → discard the top card of the encounter deck and resolve each "&lt;b&gt;Preparation&lt;/b&gt;" ability on that card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Widow's Web" id="bddee479-23cf-4576-b33c-c95ee9050067" size="SchemeCard">
+      <property name="CardNumber" value="50067a"/>
+      <property name="Position" value="67"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Stage" value="1"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Black Widow (I) and Black Widow (II). &lt;i&gt;(Black Widow (II) and Black Widow (III) instead for expert mode.)&lt;/i&gt; Black Widow and Standard encounter sets. Two modular encounter sets &lt;i&gt;(A.I.M. Abduction and A.I.M. Science)&lt;/i&gt;.
+&lt;b&gt;Setup&lt;/b&gt;: Each player searches the encounter deck for a minion and puts it into play engaged with them. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+      <alternate name="The Widow's Web" type="b" size="SchemeCard">
+        <property name="CardNumber" value="50067b"/>
+        <property name="Position" value="67"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="black_widow_villain"/>
+        <property name="Stage" value="1"/>
+        <property name="BaseThreat" value="2"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="Threat" value="10"/>
+        <property name="EscalationThreat" value="-1"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Text">X is Black Widow's stage number.
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Quote">You track the missing S.H.I.E.L.D. specialist to a decommissioned stretch of subway tunnel and discover her kidnappers' base of operations.</property>
+      </alternate>
+    </card>
+    <card name="Black Widow's Gauntlet" id="bddee479-23cf-4576-b33c-c95ee9050068" size="EncounterCard">
+      <property name="CardNumber" value="50068"/>
+      <property name="Position" value="68"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Attack" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">Attack to Black Widow.
+Black Widow gains retaliate 1.
+&lt;b&gt;Hero Response&lt;/b&gt;: After a character you control attacks Black Widow, if no "&lt;b&gt;Preparation&lt;/b&gt;" ability was resolved, discard this card &lt;i&gt;(after resolving the retaliate keyword)&lt;/i&gt;.
+&lt;hr /&gt;
+&lt;b&gt;Preparation&lt;/b&gt;: Attach this card to Black Widow.</property>
+    </card>
+    <card name="Grappling Hook" id="bddee479-23cf-4576-b33c-c95ee9050069" size="EncounterCard">
+      <property name="CardNumber" value="50069"/>
+      <property name="Position" value="69"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Attack to Black Widow.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When a player plays an event card, cancel its effects and discard it. Then, discard this card.
+&lt;hr /&gt;
+&lt;b&gt;Preparation&lt;/b&gt;: Discard 1 event card from your hand.</property>
+    </card>
+    <card name="Night Vision Goggles" id="bddee479-23cf-4576-b33c-c95ee9050070" size="EncounterCard">
+      <property name="CardNumber" value="50070"/>
+      <property name="Position" value="70"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Attack to Black Widow.
+Each encounter card without a printed "&lt;b&gt;Preparation&lt;/b&gt;" ability gains "&lt;b&gt;Preparation&lt;/b&gt;: Prevent all damage from this attack. Then, discard Night Vision Goggles."
+&lt;hr /&gt;
+&lt;b&gt;Preparation&lt;/b&gt;: Attach this card to Black Widow.</property>
+    </card>
+    <card name="Stun Net" id="bddee479-23cf-4576-b33c-c95ee9050071" size="EncounterCard">
+      <property name="CardNumber" value="50071"/>
+      <property name="Position" value="71"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Attach to your identity.
+Attached character cannot attack.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust a character you control → discard this card. Any player may trigger this ability.
+&lt;hr /&gt;
+&lt;b&gt;Preparation&lt;/b&gt;: After this attack, attach this card to the attacking character.</property>
+    </card>
+    <card name="A.I.M. Commando" id="bddee479-23cf-4576-b33c-c95ee9050072" size="EncounterCard">
+      <property name="CardNumber" value="50072"/>
+      <property name="Position" value="72"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="A.I.M."/>
+      <property name="Text">Quickstrike.
+&lt;hr /&gt;
+&lt;b&gt;Preparation&lt;/b&gt;: After this attack, put this minion into play engaged with you.</property>
+    </card>
+    <card name="A.I.M. Grunt" id="bddee479-23cf-4576-b33c-c95ee9050073" size="EncounterCard">
+      <property name="CardNumber" value="50073"/>
+      <property name="Position" value="73"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="A.I.M."/>
+      <property name="Text">Guard.
+&lt;hr /&gt;
+&lt;b&gt;Preparation&lt;/b&gt;: Put this minion into play engaged with you. Then, resolve this attack against A.I.M. Grunt instead.</property>
+    </card>
+    <card name="Automated Defenses" id="bddee479-23cf-4576-b33c-c95ee9050074" size="SchemeCard">
+      <property name="CardNumber" value="50074"/>
+      <property name="Position" value="74"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Hinder 1[per_hero].
+Each encounter card without a printed "&lt;b&gt;Preparation&lt;/b&gt;" ability gains "&lt;b&gt;Preparation&lt;/b&gt;: Deal 1 damage to the attacking character."</property>
+    </card>
+    <card name="Destroy Evidence" id="bddee479-23cf-4576-b33c-c95ee9050075" size="SchemeCard">
+      <property name="CardNumber" value="50075"/>
+      <property name="Position" value="75"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Text">Hinder 2[per_hero].
+Each other encounter card gains incite 1. &lt;i&gt;(When revealed, place 1 threat on the main scheme.)&lt;/i&gt;</property>
+    </card>
+    <card name="Attacrobatics" id="bddee479-23cf-4576-b33c-c95ee9050076" size="EncounterCard">
+      <property name="CardNumber" value="50076"/>
+      <property name="Position" value="76"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If you are in alter-ego form, change to hero form. Black Widow attacks you. Give her an additional boost card for this attack.
+&lt;hr /&gt;
+&lt;b&gt;Preparation&lt;/b&gt;: Prevent all damage from this attack. In expert mode, deal that much damage to the attacking character.</property>
+    </card>
+    <card name="Covert Ops" id="bddee479-23cf-4576-b33c-c95ee9050077" size="EncounterCard">
+      <property name="CardNumber" value="50077"/>
+      <property name="Position" value="77"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: You are confused. Black Widow schemes.
+&lt;hr /&gt;
+&lt;b&gt;Preparation&lt;/b&gt;: Place 1 threat on each scheme.</property>
+    </card>
+    <card name="Dance of Death" id="bddee479-23cf-4576-b33c-c95ee9050078" size="EncounterCard">
+      <property name="CardNumber" value="50078"/>
+      <property name="Position" value="78"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Deal 1 damage to a character you control. Deal 2 damage to a second character you control. Deal 3 damage to a third character you control.
+&lt;hr /&gt;
+&lt;b&gt;Preparation&lt;/b&gt;: Deal 1 damage to each character you control.</property>
+    </card>
+    <card name="Widow's Bite" id="bddee479-23cf-4576-b33c-c95ee9050079" size="EncounterCard">
+      <property name="CardNumber" value="50079"/>
+      <property name="Position" value="79"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="black_widow_villain"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: You are stunned. Take 1 damage (2 damage instead if you were already stunned).
+&lt;hr /&gt;
+&lt;b&gt;Preparation&lt;/b&gt;: After this attack, stun the attacking character.</property>
+    </card>
+    <card name="A.I.M. Abductor" id="bddee479-23cf-4576-b33c-c95ee9050080" size="EncounterCard">
+      <property name="CardNumber" value="50080"/>
+      <property name="Position" value="80"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="a.i.m._abduction"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="A.I.M."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Tuck the ally you control with the most remaining hit points under Abduct Superhumans. Otherwise, place 2 threat on Abduct Superhumans. If Abduct Superhumans is not in play, find it and put it into play.</property>
+    </card>
+    <card name="Abduct Superhumans" id="bddee479-23cf-4576-b33c-c95ee9050081" size="SchemeCard">
+      <property name="CardNumber" value="50081"/>
+      <property name="Position" value="81"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="a.i.m._abduction"/>
+      <property name="Boost" value="1"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Surge.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When an ally leaves play, tuck it under here and place threat here equal to its cost. Then, place 1 acceleration token here.
+&lt;b&gt;When Defeated&lt;/b&gt;: Put each ally tucked here into play under its owner's control.</property>
+    </card>
+    <card name="Nabbed!" id="bddee479-23cf-4576-b33c-c95ee9050082" size="EncounterCard">
+      <property name="CardNumber" value="50082"/>
+      <property name="Position" value="82"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="a.i.m._abduction"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If Abduct Superhumans is not in play, find it and put it into play. Discard cards from the top of your deck until an ally is discarded and tuck it under Abduct Superhumans. Place threat equal to that ally's cost and 1 acceleration token on Abduct Superhumans.</property>
+    </card>
+    <card name="A.I.M. Scientist" id="bddee479-23cf-4576-b33c-c95ee9050083" size="EncounterCard">
+      <property name="CardNumber" value="50083"/>
+      <property name="Position" value="83"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="a.i.m._science"/>
+      <property name="Attack" value="0"/>
+      <property name="Scheme" value="0"/>
+      <property name="HP" value="2"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Attribute" value="A.I.M."/>
+      <property name="Text">Surge. Vulnerable. &lt;i&gt;(Discard this character if it is stunned or confused.)&lt;/i&gt;
+While the engaged player is engaged with another minion, A.I.M. Scientist cannot be attacked.</property>
+    </card>
+    <card name="A.I.M. Soldier" id="bddee479-23cf-4576-b33c-c95ee9050084" size="EncounterCard">
+      <property name="CardNumber" value="50084"/>
+      <property name="Position" value="84"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="a.i.m._science"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="A.I.M."/>
+      <property name="Text">Patrol.
+&lt;b&gt;When Revealed&lt;/b&gt;: Find A.I.M. Scientist and put it into play engaged with you. &lt;i&gt;(If it is already in play, it engages you.)&lt;/i&gt; If A.I.M. Scientist did not enter play this way, place 1 threat on the main scheme.</property>
+    </card>
+    <card name="Mad Science" id="bddee479-23cf-4576-b33c-c95ee9050085" size="SchemeCard">
+      <property name="CardNumber" value="50085"/>
+      <property name="Position" value="85"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="a.i.m._science"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">Hinder 2[per_hero].
+Each [[A.I.M.]] minion gains 1 acceleration icon ([acceleration]).</property>
+      <property name="Quote">Derogatorily referred to as "beekeepers," members of Advanced Idea Mechanics are brilliant but ruthless, seeking world domination through technological power.</property>
+    </card>
+    <card name="Batroc" id="bddee479-23cf-4576-b33c-c95ee9050086" size="VillainCard">
+      <property name="CardNumber" value="50086a"/>
+      <property name="Position" value="86"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="batroc"/>
+      <property name="Stage" value="0"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="8"/>
+      <property name="Attribute" value="Batroc's Brigade. Mercenary."/>
+      <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Batroc attacks, place 1 threat on Alert Level.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Batroc would be defeated, reset his hit points to 8 instead. Then, remove 6 threat from the main scheme.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Batroc" type="b" size="VillainCard">
+        <property name="CardNumber" value="50086b"/>
+        <property name="Position" value="86"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Villain"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="batroc"/>
+        <property name="Stage" value="0"/>
+        <property name="Attack" value="2"/>
+        <property name="Scheme" value="2"/>
+        <property name="HP" value="12"/>
+        <property name="Attribute" value="Batroc's Brigade. Mercenary."/>
+        <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Batroc attacks, place 1 threat on Alert Level.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Batroc would be defeated, reset his hit points to 12 instead. Then, remove 6 threat from the main scheme.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Infiltrate A.I.M. Island Embassy" id="bddee479-23cf-4576-b33c-c95ee9050087" size="SchemeCard">
+      <property name="CardNumber" value="50087a"/>
+      <property name="Position" value="87"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="batroc"/>
+      <property name="Stage" value="1"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Batroc (A). &lt;i&gt;(Batroc (B) instead for expert mode.)&lt;/i&gt; Batroc and Standard encounter sets. Two modular encounter sets &lt;i&gt;(A.I.M. Science and Batrocs's Brigade)&lt;/i&gt;.
+&lt;b&gt;Setup&lt;/b&gt;: Set each Rescued Captive ally aside. Put the Alert Level environment into play, [[Low]] side faceup. In expert mode, place 2[per_hero] threat on Alert Level.</property>
+      <alternate name="Infiltrate A.I.M. Island Embassy" type="b" size="SchemeCard">
+        <property name="CardNumber" value="50087b"/>
+        <property name="Position" value="87"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="batroc"/>
+        <property name="Stage" value="1"/>
+        <property name="BaseThreat" value="6"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="Threat" value="12"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the last threat is removed from this scheme, advance to stage 2A &lt;i&gt;(the players win by advancing)&lt;/i&gt;.
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Quote">You sneak into the A.I.M. island embassy in search of the abducted S.H.I.E.L.D. specialist Sarah Garza. There you come face to face with the mercenary known as Batroc the Leaper.</property>
+      </alternate>
+    </card>
+    <card name="Locate Missing Person" id="bddee479-23cf-4576-b33c-c95ee9050088" size="SchemeCard">
+      <property name="CardNumber" value="50088a"/>
+      <property name="Position" value="88"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="batroc"/>
+      <property name="Stage" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Quote">Now that you've penetrated the embassy, you need to locate Garza. You discover several holding cells in the embassy's basement. Hopefully one of them holds the kidnapped tech.</property>
+      <alternate name="Locate Missing Person" type="b" size="SchemeCard">
+        <property name="CardNumber" value="50088b"/>
+        <property name="Position" value="88"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="batroc"/>
+        <property name="Stage" value="2"/>
+        <property name="BaseThreat" value="3"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="Threat" value="10"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the last threat is removed from this scheme, put 1 set-aside Rescued Captive ally into play exhausted under any player's control. The players may advance to stage 3A. If they do not advance, place 3[per_hero] threat here. &lt;i&gt;(The players win by advancing, but will need at least 1 Rescued Captive to survive.)&lt;/i&gt;
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+      </alternate>
+    </card>
+    <card name="Extract Captives" id="bddee479-23cf-4576-b33c-c95ee9050089" size="SchemeCard">
+      <property name="CardNumber" value="50089a"/>
+      <property name="Position" value="89"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="batroc"/>
+      <property name="Stage" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If the Alert Level is on its [[High]] side, deal each player 1 facedown encounter card. Otherwise, remove all threat from Alert Level and flip it to its [[High]] side. In either case, in expert mode, place 2[per_hero] threat on Alert Level.</property>
+      <property name="Quote">You didn't find Garza, but you did find several other civilian prisoners. You must get them out safely.</property>
+      <alternate name="Extract Captives" type="b" size="SchemeCard">
+        <property name="CardNumber" value="50089b"/>
+        <property name="Position" value="89"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="batroc"/>
+        <property name="Stage" value="3"/>
+        <property name="BaseThreat" value="12"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="Threat" value="18"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Text">In expert mode, each minion gains quickstrike.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When an enemy attacks, it attacks a Rescued Captive instead.
+&lt;b&gt;If there is no threat here, the players win the game.&lt;/b&gt;
+&lt;b&gt;If this stage is completed or there are no Rescued Captive allies in play, the players lose the game.&lt;/b&gt;</property>
+      </alternate>
+    </card>
+    <card name="Alert Level" id="bddee479-23cf-4576-b33c-c95ee9050090" size="EncounterCard">
+      <property name="CardNumber" value="50090a"/>
+      <property name="Position" value="90"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="batroc"/>
+      <property name="Attribute" value="Low."/>
+      <property name="Text">If there is at least 4[per_hero] threat here, remove all threat from here and flip this card.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a character is defeated except by consequential damage, place 1 threat here.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend 1 resource of any type → remove 1 threat from here.</property>
+      <alternate name="Alert Level" type="b" size="EncounterCard">
+        <property name="CardNumber" value="50090b"/>
+        <property name="Position" value="90"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="environment"/>
+        <property name="Owner" value="batroc"/>
+        <property name="Attribute" value="High."/>
+        <property name="Text">Batroc gets +1 SCH and +1 ATK.
+&lt;b&gt;If there is at least 4[per_hero] threat here, the players lose the game.&lt;/b&gt;
+&lt;b&gt;Forced Response&lt;/b&gt;: After a character is defeated except by consequential damage, place 1 threat here.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend 1 resource of any type → remove 1 threat from here.</property>
+      </alternate>
+    </card>
+    <card name="Rescued Captive" id="bddee479-23cf-4576-b33c-c95ee9050091">
+      <property name="CardNumber" value="50091"/>
+      <property name="Position" value="91"/>
+      <property name="Quantity" value="4"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="batroc"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Civilian."/>
+      <property name="Text">Victory -1.
+Does not count against your ally limit. Card abilities cannot remove this ally from play.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Rescued Captive → remove 1[per_hero] threat from the main scheme.</property>
+    </card>
+    <card name="Heightened Reflexes" id="bddee479-23cf-4576-b33c-c95ee9050092" size="EncounterCard">
+      <property name="CardNumber" value="50092"/>
+      <property name="Position" value="92"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="batroc"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attach to Batroc.
+Uses (4 leap counters).
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Batroc would take any amount of damage, prevent 2 of that damage and remove 1 leap counter from here.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Attach this card to Batroc.</property>
+    </card>
+    <card name="Embassy Guard" id="bddee479-23cf-4576-b33c-c95ee9050093" size="EncounterCard">
+      <property name="CardNumber" value="50093"/>
+      <property name="Position" value="93"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="batroc"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="A.I.M."/>
+      <property name="Text">Guard. Vulnerable. &lt;i&gt;(Discard this character if it is stunned or confused.)&lt;/i&gt;
+If Alert Level is on its [[High]] side, this card gains surge.
+&lt;b&gt;When Defeated&lt;/b&gt;: Place 1 threat on Alert Level.</property>
+    </card>
+    <card name="Embassy Patrol" id="bddee479-23cf-4576-b33c-c95ee9050094" size="EncounterCard">
+      <property name="CardNumber" value="50094"/>
+      <property name="Position" value="94"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="batroc"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="A.I.M."/>
+      <property name="Text">Patrol. Vulnerable. &lt;i&gt;(Discard this character if it is stunned or confused.)&lt;/i&gt;
+If Alert Level is on its [[High]] side, this card gains incite 1.
+&lt;b&gt;When Defeated&lt;/b&gt;: Place 1 threat on Alert Level.</property>
+    </card>
+    <card name="Commandeer Security Office" id="bddee479-23cf-4576-b33c-c95ee9050095" size="SchemeCard">
+      <property name="CardNumber" value="50095"/>
+      <property name="Position" value="95"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="batroc"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If Alert Level is on its [[High]] side, place 1 acceleration token here.
+&lt;b&gt;When Defeated&lt;/b&gt;: Remove 1[per_hero] threat from Alert Level.</property>
+    </card>
+    <card name="Leaping Kick" id="bddee479-23cf-4576-b33c-c95ee9050096" size="EncounterCard">
+      <property name="CardNumber" value="50096"/>
+      <property name="Position" value="96"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="batroc"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed (Alter-Ego)&lt;/b&gt;: Batroc schemes.
+&lt;b&gt;When Revealed (Hero)&lt;/b&gt;: Batroc attacks the ally with the most remaining hit points. This attack gains overkill. If there were no allies in play, Batroc attacks you.</property>
+    </card>
+    <card name="Security Cameras" id="bddee479-23cf-4576-b33c-c95ee9050097" size="EncounterCard">
+      <property name="CardNumber" value="50097"/>
+      <property name="Position" value="97"/>
+      <property name="Quantity" value="4"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="batroc"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed (Alter-Ego)&lt;/b&gt;: Remove 1 threat from Alert Level. This card gains surge.
+&lt;b&gt;When Revealed (Hero)&lt;/b&gt;: For each character you control, choose to either exhaust that character or place 1 threat on Alert Level (2 threat instead if Alert Level is on its [[High]] side).</property>
+    </card>
+    <card name="Machete" id="bddee479-23cf-4576-b33c-c95ee9050098" size="EncounterCard">
+      <property name="CardNumber" value="50098"/>
+      <property name="Position" value="98"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="batrocs_brigade"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Batroc's Brigade. Mercenary."/>
+      <property name="Text">Surge. Vulnerable.
+[star] Machete's attacks gain piercing.
+&lt;b&gt;When Defeated&lt;/b&gt;: Shuffle Machete into the encounter deck.</property>
+      <property name="Quote">With each Machete's demise, the title passes to another member of the Lopez family.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Rapido" id="bddee479-23cf-4576-b33c-c95ee9050099" size="EncounterCard">
+      <property name="CardNumber" value="50099"/>
+      <property name="Position" value="99"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="batrocs_brigade"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Batroc's Brigade. Mercenary."/>
+      <property name="Text">[star] Rapido's attacks gain ranged and deal indirect damage.
+&lt;b&gt;When Revealed&lt;/b&gt;: Deal 1 damage to each character you control.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Deal 1 damage to each character you control.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Zaran" id="bddee479-23cf-4576-b33c-c95ee9050100" size="EncounterCard">
+      <property name="CardNumber" value="50100"/>
+      <property name="Position" value="100"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="batrocs_brigade"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Batroc's Brigade. Mercenary."/>
+      <property name="Text">[star] Zaran gets +X ATK, where X is the printed resource cost of the card tucked under him.
+&lt;b&gt;When Revealed&lt;/b&gt;: Tuck a [[Weapon]] upgrade you control under Zaran. Otherwise, tuck the top card of your deck under Zaran.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Batroc's Brigade" id="bddee479-23cf-4576-b33c-c95ee9050101" size="SchemeCard">
+      <property name="CardNumber" value="50101"/>
+      <property name="Position" value="101"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="batrocs_brigade"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="6"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Each minion gains toughness.
+&lt;b&gt;When Revealed&lt;/b&gt;: Give each enemy a tough status card.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you reveal a non-[[Elite]] minion, spend 3 resources of any type → cancel the effects of that minion and discard it.</property>
+      <property name="Quote">"Money won't buy loyalty, but it helps" —Batroc</property>
+    </card>
+    <card name="Soldiers of Fortune" id="bddee479-23cf-4576-b33c-c95ee9050102" size="EncounterCard">
+      <property name="CardNumber" value="50102"/>
+      <property name="Position" value="102"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="batrocs_brigade"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Choose:
+• Spend 3 resources of any type.
+• Find a [[Mercenary]] minion and reveal it. If no minion entered play this way, this card gains surge.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Choose: Either spend 1 resource of any type, or this card gains [boost][boost][boost].</property>
+    </card>
+    <card name="M.O.D.O.K." id="bddee479-23cf-4576-b33c-c95ee9050103" size="VillainCard">
+      <property name="CardNumber" value="50103a"/>
+      <property name="Position" value="103"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Stage" value="0"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Aerial. Cyborg. Psionic."/>
+      <property name="Text">Retaliate 1.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When M.O.D.O.K. would be defeated, if a Holding Cell is in play, remove 2 lock counters from it and reset M.O.D.O.K.'s hit points to 10 instead. Otherwise, &lt;b&gt;the players win the game&lt;/b&gt;.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="M.O.D.O.K." type="b" size="VillainCard">
+        <property name="CardNumber" value="50103b"/>
+        <property name="Position" value="103"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Villain"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="m.o.d.o.k."/>
+        <property name="Stage" value="0"/>
+        <property name="Attack" value="1"/>
+        <property name="Scheme" value="3"/>
+        <property name="HP" value="14"/>
+        <property name="Attribute" value="Aerial. Cyborg. Psionic."/>
+        <property name="Text">Retaliate 2. Steady.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When M.O.D.O.K. would be defeated, if a Holding Cell is in play, remove 2 lock counters from it and reset M.O.D.O.K.'s hit points to 14 instead. Otherwise, &lt;b&gt;the players win the game&lt;/b&gt;.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Upgrading Adaptoids" id="bddee479-23cf-4576-b33c-c95ee9050104" size="SchemeCard">
+      <property name="CardNumber" value="50104a"/>
+      <property name="Position" value="104"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Stage" value="1"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: M.O.D.O.K. (A). &lt;i&gt;(M.O.D.O.K. (B) instead for expert mode.)&lt;/i&gt; M.O.D.O.K. and Standard encounter sets. One modular encounter set &lt;i&gt;(Scientist Supreme)&lt;/i&gt;.
+&lt;b&gt;Setup&lt;/b&gt;: Create the Holding Cell deck &lt;i&gt;(see rulebook p. 13)&lt;/i&gt;. Put 1 random [[Adaptoid]] environment into play (2 environments instead in expert mode) and set the others aside. Each player searches the encounter deck for a copy of Adaptoid and reveals it.</property>
+      <alternate name="Upgrading Adaptoids" type="b" size="SchemeCard">
+        <property name="CardNumber" value="50104b"/>
+        <property name="Position" value="104"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="m.o.d.o.k."/>
+        <property name="Stage" value="1"/>
+        <property name="BaseThreat" value="1"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="Threat" value="7"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When this stage would be completed, put 1 random set-aside [[Adaptoid]] environment into play instead. Then, &lt;b&gt;if there are no set-aside [[Adaptoid]] environments, the players lose the game&lt;/b&gt;. Otherwise, remove all threat from here and shuffle each Adaptoid minion from the encounter discard pile into the encounter deck.</property>
+      </alternate>
+    </card>
+    <card name="Holding Cell" id="bddee479-23cf-4576-b33c-c95ee9050105" size="EncounterCard">
+      <property name="CardNumber" value="50105a"/>
+      <property name="Position" value="105"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Text">Enters play with 2[per_hero] lock counters on it.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the last lock counter is removed from here, flip this card and put Flying Inhuman into play under any player's control.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [energy] [energy] resources or 3 resources of any type → remove 1 lock counter from here.</property>
+      <alternate name="Flying Inhuman" type="b">
+        <property name="CardNumber" value="50105b"/>
+        <property name="Position" value="105"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="ally"/>
+        <property name="Owner" value="m.o.d.o.k."/>
+        <property name="Thwart" value="2"/>
+        <property name="ThwartCost" value="1"/>
+        <property name="Attack" value="1"/>
+        <property name="AttackCost" value="1"/>
+        <property name="Resource_Energy" value="1"/>
+        <property name="HP" value="5"/>
+        <property name="Attribute" value="Aerial. Inhuman. Rescued."/>
+        <property name="Text">Does not count against your ally limit.
+[star] &lt;b&gt;Response&lt;/b&gt;: After this ally thwarts, remove 1 threat from another scheme.
+&lt;b&gt;Forced Response&lt;/b&gt;: After this card leaves play, flip it and place it on the bottom of the Holding Cell deck.</property>
+      </alternate>
+    </card>
+    <card name="Holding Cell" id="bddee479-23cf-4576-b33c-c95ee9050106" size="EncounterCard">
+      <property name="CardNumber" value="50106a"/>
+      <property name="Position" value="106"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Text">Enters play with 2[per_hero] lock counters on it.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the last lock counter is removed from here, flip this card and put Psionic Inhuman into play under any player's control.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [mental] [mental] resources or 3 resources of any type → remove 1 lock counter from here.</property>
+      <alternate name="Psionic Inhuman" type="b">
+        <property name="CardNumber" value="50106b"/>
+        <property name="Position" value="106"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="ally"/>
+        <property name="Owner" value="m.o.d.o.k."/>
+        <property name="Thwart" value="1"/>
+        <property name="ThwartCost" value="1"/>
+        <property name="Attack" value="1"/>
+        <property name="AttackCost" value="1"/>
+        <property name="Resource_Mental" value="1"/>
+        <property name="HP" value="5"/>
+        <property name="Attribute" value="Inhuman. Psionic. Rescued."/>
+        <property name="Text">Does not count against your ally limit.
+[star] &lt;b&gt;Response&lt;/b&gt;: After this ally thwarts, remove 1 lock counter from a Holding Cell.
+&lt;b&gt;Forced Response&lt;/b&gt;: After this card leaves play, flip it and place it on the bottom of the Holding Cell deck.</property>
+      </alternate>
+    </card>
+    <card name="Holding Cell" id="bddee479-23cf-4576-b33c-c95ee9050107" size="EncounterCard">
+      <property name="CardNumber" value="50107a"/>
+      <property name="Position" value="107"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Text">Enters play with 2[per_hero] lock counters on it.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the last lock counter is removed from here, flip this card and put Sarah Garza into play under any player's control.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend a [wild] resource or 3 resources of any type → remove 1 lock counter from here.</property>
+      <alternate name="Sarah Garza" type="b">
+        <property name="CardNumber" value="50107b"/>
+        <property name="Position" value="107"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="ally"/>
+        <property name="Owner" value="m.o.d.o.k."/>
+        <property name="Thwart" value="2"/>
+        <property name="ThwartCost" value="1"/>
+        <property name="Attack" value="2"/>
+        <property name="AttackCost" value="1"/>
+        <property name="Resource_Wild" value="1"/>
+        <property name="HP" value="5"/>
+        <property name="Attribute" value="Inhuman. Rescued. S.H.I.E.L.D."/>
+        <property name="Text">Does not count against your ally limit.
+[star] Sarah Garza's attacks gain overkill and ranged.
+&lt;b&gt;Forced Response&lt;/b&gt;: After this card leaves play, flip it and place it on the bottom of the Holding Cell deck.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Holding Cell" id="bddee479-23cf-4576-b33c-c95ee9050108" size="EncounterCard">
+      <property name="CardNumber" value="50108a"/>
+      <property name="Position" value="108"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Text">Enters play with 2[per_hero] lock counters on it.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the last lock counter is removed from here, flip this card and put Strong Inhuman into play under any player's control.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [physical] [physical] resources or 3 resources of any type → remove 1 lock counter from here.</property>
+      <alternate name="Strong Inhuman" type="b">
+        <property name="CardNumber" value="50108b"/>
+        <property name="Position" value="108"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="ally"/>
+        <property name="Owner" value="m.o.d.o.k."/>
+        <property name="Thwart" value="1"/>
+        <property name="ThwartCost" value="1"/>
+        <property name="Attack" value="3"/>
+        <property name="AttackCost" value="1"/>
+        <property name="Resource_Physical" value="1"/>
+        <property name="HP" value="7"/>
+        <property name="Attribute" value="Inhuman. Rescued."/>
+        <property name="Text">Toughness.
+Does not count against your ally limit.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: After this card leaves play, flip it and place it on the bottom of the Holding Cell deck.</property>
+      </alternate>
+    </card>
+    <card name="Flying Upgrade" id="bddee479-23cf-4576-b33c-c95ee9050109" size="EncounterCard">
+      <property name="CardNumber" value="50109"/>
+      <property name="Position" value="109"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Attribute" value="Adaptoid."/>
+      <property name="Text">Each Adaptoid gets +1 SCH, gains incite 1, and gains the [[Aerial]] trait.</property>
+      <property name="Quote">"They fly now?"
+"They fly now."
+—Maria Hill and Nick Fury</property>
+    </card>
+    <card name="Psionic Upgrade" id="bddee479-23cf-4576-b33c-c95ee9050110" size="EncounterCard">
+      <property name="CardNumber" value="50110"/>
+      <property name="Position" value="110"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Attribute" value="Adaptoid."/>
+      <property name="Text">Each Adaptoid gains villainous and the [[Psionic]] trait.</property>
+      <property name="Quote">"Remember your psionic defense training!" —Maria Hill</property>
+    </card>
+    <card name="Sarah Garza Upgrade" id="bddee479-23cf-4576-b33c-c95ee9050111" size="EncounterCard">
+      <property name="CardNumber" value="50111"/>
+      <property name="Position" value="111"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Attribute" value="Adaptoid."/>
+      <property name="Text">Each Adaptoid gains the [[Elite]] trait.
+Each Adaptoid gets +1 ATK and its attacks gain overkill and ranged.</property>
+      <property name="Quote">"Well, that's just great. These things can control my powers better than I can!" —Sarah Garza</property>
+    </card>
+    <card name="Strong Upgrade" id="bddee479-23cf-4576-b33c-c95ee9050112" size="EncounterCard">
+      <property name="CardNumber" value="50112"/>
+      <property name="Position" value="112"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Attribute" value="Adaptoid."/>
+      <property name="Text">Each Adaptoid gets +1 ATK, gains toughness, and gains the [[Brute]] trait.</property>
+      <property name="Quote">"I don't think we'd like her when she's angry!" —Quake</property>
+    </card>
+    <card name="Adaptoid" id="bddee479-23cf-4576-b33c-c95ee9050113" size="EncounterCard">
+      <property name="CardNumber" value="50113"/>
+      <property name="Position" value="113"/>
+      <property name="Quantity" value="4"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Adaptoid."/>
+      <property name="Text">[star] &lt;i&gt;(Check [[Adaptoid]] environments for modifiers to these values.)&lt;/i&gt;
+&lt;b&gt;When Defeated&lt;/b&gt;: Remove 1 all-purpose counter from an environment.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: After this activation, shuffle Adaptoid into the encounter deck.</property>
+    </card>
+    <card name="Automated Mobile Unit" id="bddee479-23cf-4576-b33c-c95ee9050114" size="EncounterCard">
+      <property name="CardNumber" value="50114"/>
+      <property name="Position" value="114"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Attack" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Attach to M.O.D.O.K.
+M.O.D.O.K. gets +5 hit points.
+&lt;b&gt;Forced Response&lt;/b&gt;: After M.O.D.O.K.'s hit points are reset, discard this card.</property>
+      <property name="Quote">"I will crush you like a bug!" —M.O.D.O.K.</property>
+    </card>
+    <card name="Focusing Crystal" id="bddee479-23cf-4576-b33c-c95ee9050115" size="EncounterCard">
+      <property name="CardNumber" value="50115"/>
+      <property name="Position" value="115"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">Attach to M.O.D.O.K.
+&lt;b&gt;Forced Response&lt;/b&gt;: After M.O.D.O.K.'s hit points are reset, discard this card.</property>
+      <property name="Quote">M.O.D.O.K. channels his psionic powers through the crystal on his giant forehead.</property>
+    </card>
+    <card name="Nanobots" id="bddee479-23cf-4576-b33c-c95ee9050116" size="EncounterCard">
+      <property name="CardNumber" value="50116"/>
+      <property name="Position" value="116"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Tech."/>
+      <property name="Text">Attach to M.O.D.O.K.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After M.O.D.O.K. activates, heal 1 damage from him.
+&lt;b&gt;Forced Response&lt;/b&gt;: After M.O.D.O.K.'s hit points are reset, discard this card.</property>
+      <property name="Quote">Microscopic machines keep the Doomsday Chair in working order.</property>
+    </card>
+    <card name="Psionic Force Field" id="bddee479-23cf-4576-b33c-c95ee9050117" size="EncounterCard">
+      <property name="CardNumber" value="50117"/>
+      <property name="Position" value="117"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Text">Attach to M.O.D.O.K.
+Attached enemy gains stalwart.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached enemy would take any amount of damage, place it here instead. Then, if there is at least 5 damage here, discard this card.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Attach this card to the activating enemy.</property>
+    </card>
+    <card name="Psionic Machetes" id="bddee479-23cf-4576-b33c-c95ee9050118" size="EncounterCard">
+      <property name="CardNumber" value="50118"/>
+      <property name="Position" value="118"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Attack" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Attach to M.O.D.O.K.
+[star] M.O.D.O.K.'s attacks gain piercing.
+&lt;b&gt;Forced Response&lt;/b&gt;: After M.O.D.O.K.'s hit points are reset, discard this card.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: If this activation is an attack, it gains piercing.</property>
+    </card>
+    <card name="Reverse Engineering" id="bddee479-23cf-4576-b33c-c95ee9050119" size="EncounterCard">
+      <property name="CardNumber" value="50119"/>
+      <property name="Position" value="119"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Attack" value="-1"/>
+      <property name="Scheme" value="-1"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Attach to M.O.D.O.K.
+[star] X is equal to the printed cost of the card tucked here.
+&lt;b&gt;When Revealed&lt;/b&gt;: Tuck an upgrade you control under here. Otherwise, tuck the top card of your deck under here.
+&lt;b&gt;Forced Response&lt;/b&gt;: After M.O.D.O.K.'s hit points are reset, discard this card.</property>
+    </card>
+    <card name="A.I.M. Jailer" id="bddee479-23cf-4576-b33c-c95ee9050120" size="EncounterCard">
+      <property name="CardNumber" value="50120"/>
+      <property name="Position" value="120"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="A.I.M."/>
+      <property name="Text">Guard.
+&lt;b&gt;When Revealed&lt;/b&gt;: A.I.M. Jailer attacks the [[Rescued]] ally with the fewest remaining hit points. Otherwise, place 1 lock counter on a Holding Cell.</property>
+    </card>
+    <card name="Hostage Situation" id="bddee479-23cf-4576-b33c-c95ee9050121" size="SchemeCard">
+      <property name="CardNumber" value="50121"/>
+      <property name="Position" value="121"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">M.O.D.O.K. cannot take damage.
+&lt;b&gt;When Revealed&lt;/b&gt;: Attach 1 [[Rescued]] ally faceup here. Attached ally is under no player's control. &lt;i&gt;(Attached ally is still in play.)&lt;/i&gt;
+&lt;b&gt;When Defeated&lt;/b&gt;: The defeating player takes control of attached ally.</property>
+    </card>
+    <card name="Psionic Enhancement" id="bddee479-23cf-4576-b33c-c95ee9050122" size="SchemeCard">
+      <property name="CardNumber" value="50122"/>
+      <property name="Position" value="122"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Boost" value="1"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Hinder 1[per_hero].
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Give the activating enemy an additional boost card.</property>
+    </card>
+    <card name="&quot;It's Alive!&quot;" id="bddee479-23cf-4576-b33c-c95ee9050123" size="EncounterCard">
+      <property name="CardNumber" value="50123"/>
+      <property name="Position" value="123"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Boost" value="3"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Each player searches the encounter deck and discard pile for an [[Adaptoid]] minion and reveals it. &lt;i&gt;(Shuffle.)&lt;/i&gt; Deal each player who did not engage a minion this way a facedown encounter card.</property>
+    </card>
+    <card name="Psionic Blast" id="bddee479-23cf-4576-b33c-c95ee9050124" size="EncounterCard">
+      <property name="CardNumber" value="50124"/>
+      <property name="Position" value="124"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="m.o.d.o.k."/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed (Alter-Ego)&lt;/b&gt;: You are confused. M.O.D.O.K. schemes.
+&lt;b&gt;When Revealed (Hero)&lt;/b&gt;: Take X indirect damage, where X is M.O.D.O.K.'s SCH. Confuse each character that takes damage this way.</property>
+    </card>
+    <card name="Scientist Supreme" id="bddee479-23cf-4576-b33c-c95ee9050125" size="EncounterCard">
+      <property name="CardNumber" value="50125"/>
+      <property name="Position" value="125"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="scientist_supreme"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="A.I.M. Genius."/>
+      <property name="Text">Victory -1. Villainous. Vulnerable. &lt;i&gt;(Discard this character if it is stunned or confused.)&lt;/i&gt;
+[star] Scientist Supreme's attacks gain piercing and ranged.</property>
+      <property name="Quote">Equipped with a high-tech suit, the Scientist Supreme wields great power, both physical and political.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Monica Rappaccini" id="bddee479-23cf-4576-b33c-c95ee9050126" size="EncounterCard">
+      <property name="CardNumber" value="50126"/>
+      <property name="Position" value="126"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="scientist_supreme"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="3"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="A.I.M. Genius."/>
+      <property name="Text">Victory -1. Villainous. Vulnerable. &lt;i&gt;(Discard this character if it is stunned or confused.)&lt;/i&gt;
+While Scientist Supreme is in the victory display, Monica Rappaccini gains villainous.</property>
+      <property name="Quote">As second-in-command of A.I.M., Monica has her sights set on the title of Scientist Supreme.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Diplomatic Immunity" id="bddee479-23cf-4576-b33c-c95ee9050127" size="SchemeCard">
+      <property name="CardNumber" value="50127"/>
+      <property name="Position" value="127"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="scientist_supreme"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 acceleration token here for each [[A.I.M.]] minion in the victory display.</property>
+      <property name="Quote">Attacking the leader of a sovereign nation is politically fraught. You will have to handle the Scientist Supreme delicately.</property>
+    </card>
+    <card name="Diplomatic Sanctions" id="bddee479-23cf-4576-b33c-c95ee9050128" size="EncounterCard">
+      <property name="CardNumber" value="50128"/>
+      <property name="Position" value="128"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="scientist_supreme"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Surge.
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard 1 card from your hand for each [[A.I.M.]] minion in the victory display.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: This card gains [boost] for each [[A.I.M.]] minion in the victory display.</property>
+    </card>
+    <card name="Citizen V" id="bddee479-23cf-4576-b33c-c95ee9050129" size="VillainCard">
+      <property name="CardNumber" value="50129a"/>
+      <property name="Position" value="129"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="thunderbolts"/>
+      <property name="Stage" value="0"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="12"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Thunderbolt."/>
+      <property name="Text">Citizen V cannot be defeated unless there are at least 1[per_hero] [[Thunderbolt]] minions in the victory display.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Citizen V would activate against you during step two of the villain phase, if you are engaged with a [[Thunderbolt]] minion, Citizen V does not activate and heals 4 damage instead.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Citizen V" type="b" size="VillainCard">
+        <property name="CardNumber" value="50129b"/>
+        <property name="Position" value="129"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Villain"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="thunderbolts"/>
+        <property name="Stage" value="0"/>
+        <property name="Attack" value="2"/>
+        <property name="Scheme" value="3"/>
+        <property name="HP" value="16"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Thunderbolt."/>
+        <property name="Text">Citizen V cannot be defeated unless there are at least 1[per_hero] [[Thunderbolt]] minions in the victory display.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Citizen V would activate against you during step two of the villain phase, if you are engaged with a [[Thunderbolt]] minion, Citizen V does not activate and heals 6 damage instead.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Apprehending Rogue Agents" id="bddee479-23cf-4576-b33c-c95ee9050130" size="SchemeCard">
+      <property name="CardNumber" value="50130a"/>
+      <property name="Position" value="130"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="thunderbolts"/>
+      <property name="Stage" value="1"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Citizen V (A). &lt;i&gt;(Citizen V (B) instead for expert mode.)&lt;/i&gt; Thunderbolts and Standard encounter sets.
+&lt;b&gt;Setup&lt;/b&gt;: Choose 1 modular set, plus 1[per_hero] additional modular sets, each with an [[Elite]], [[Thunderbolt]] minion. Set each of those minions aside and shuffle the rest of their encounter sets into the encounter deck. Reveal the Justice, Like Lightning environment.</property>
+      <alternate name="Apprehending Rogue Agents" type="b" size="SchemeCard">
+        <property name="CardNumber" value="50130b"/>
+        <property name="Position" value="130"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="thunderbolts"/>
+        <property name="Stage" value="1"/>
+        <property name="BaseThreat" value="1"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="Threat" value="11"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Text">Each [[Thunderbolt]] minion gains guard.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a player attacks a [[Thunderbolt]] minion, that minion engages that player.
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Quote">"We can do this the easy way, or the fun way." —Citizen V</property>
+      </alternate>
+    </card>
+    <card name="Justice, Like Lightning" id="bddee479-23cf-4576-b33c-c95ee9050131" size="EncounterCard">
+      <property name="CardNumber" value="50131a"/>
+      <property name="Position" value="131"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="thunderbolts"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Each player reveals a random set-aside [[Thunderbolt]] minion. Reveal and attach the remaining set-aside [[Thunderbolt]] minion faceup here. In expert mode, give each of these minions a tough status card. Flip this card.</property>
+      <property name="Quote">"Justice, like lightning, ever should appear;
+To few men ruin, but to all men fear." —Thomas Randolph</property>
+      <alternate name="Thunderbolt Backup" type="b" size="EncounterCard">
+        <property name="CardNumber" value="50131b"/>
+        <property name="Position" value="131"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="environment"/>
+        <property name="Owner" value="thunderbolts"/>
+        <property name="Text">&lt;i&gt;(The minion attached here is in play and can be targeted by attacks and abilities.)&lt;/i&gt;
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the round ends, attach the [[Thunderbolt]] minion with the most damage here, swapping it with the minion already attached here, if any. Heal 1[per_hero] damage from attached minion. In expert mode, heal 1[per_hero] additional damage from that minion and give it a tough status card.</property>
+      </alternate>
+    </card>
+    <card name="Citizen V's Sword" id="bddee479-23cf-4576-b33c-c95ee9050132" size="EncounterCard">
+      <property name="CardNumber" value="50132"/>
+      <property name="Position" value="132"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="thunderbolts"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Attach to Citizen V. He activates against you.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you attack and damage Citizen V, spend [physical] [physical] resources → discard this card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Jolt" id="bddee479-23cf-4576-b33c-c95ee9050133" size="EncounterCard">
+      <property name="CardNumber" value="50133"/>
+      <property name="Position" value="133"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="thunderbolts"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Thunderbolt."/>
+      <property name="Text">Villainous.
+&lt;b&gt;When Defeated&lt;/b&gt;: Place 3 threat on the main scheme.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust your hero → place 1 parley counter on Jolt. If there are 3 or more parley counters here, remove Jolt from the game. &lt;i&gt;(She is not defeated.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Innocent Bystanders" id="bddee479-23cf-4576-b33c-c95ee9050134" size="EncounterCard">
+      <property name="CardNumber" value="50134"/>
+      <property name="Position" value="134"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="thunderbolts"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Uses (4 bystander counters).
+&lt;b&gt;Forced Response&lt;/b&gt;: After you attack an enemy or an enemy attacks you, either spend 1 resource of any type or place 1 threat on the main scheme (2 threat instead in expert mode). Remove 1 bystander counter from here.</property>
+    </card>
+    <card name="The Coming Storm" id="bddee479-23cf-4576-b33c-c95ee9050135" size="SchemeCard">
+      <property name="CardNumber" value="50135"/>
+      <property name="Position" value="135"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="thunderbolts"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Each player engages each minion engaged with the player clockwise from them.</property>
+      <property name="Quote">"Thunderbolts, let's bring these vigilantes to justice!" —Songbird</property>
+    </card>
+    <card name="Rumbling Thunder" id="bddee479-23cf-4576-b33c-c95ee9050136" size="SchemeCard">
+      <property name="CardNumber" value="50136"/>
+      <property name="Position" value="136"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="thunderbolts"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Each player engages each minion engaged with the player clockwise from them.</property>
+    </card>
+    <card name="Down but Not Out" id="bddee479-23cf-4576-b33c-c95ee9050137" size="EncounterCard">
+      <property name="CardNumber" value="50137"/>
+      <property name="Position" value="137"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="thunderbolts"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Choose a random [[Thunderbolt]] minion from the victory display and reveal it. Place damage on that minion until it has 5 hit points remaining. Then, remove this card from the game. If no minion entered play this way, this card gains surge.</property>
+    </card>
+    <card name="Tap In" id="bddee479-23cf-4576-b33c-c95ee9050138" size="EncounterCard">
+      <property name="CardNumber" value="50138"/>
+      <property name="Position" value="138"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="thunderbolts"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Engage the [[Thunderbolt]] minion with the least damage that is not engaged with you. That minion activates against you. If no minion activated this way, Citizen V activates against you.</property>
+      <property name="Quote">"Don't worry, Batroc. I got this." —Moonstone</property>
+    </card>
+    <card name="Moonstone" id="bddee479-23cf-4576-b33c-c95ee9050139" size="EncounterCard">
+      <property name="CardNumber" value="50139"/>
+      <property name="Position" value="139"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="gravitational_pull"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="4"/>
+      <property name="HP" value="16"/>
+      <property name="Attribute" value="Aerial. Elite. Thunderbolt."/>
+      <property name="Text">Villainous. Victory 1.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Moonstone activates, give her a tough status card.</property>
+      <property name="Quote">"Catch!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Rule the Skies" id="bddee479-23cf-4576-b33c-c95ee9050140" size="SchemeCard">
+      <property name="CardNumber" value="50140"/>
+      <property name="Position" value="140"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="gravitational_pull"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Text">Each [[Aerial]] character gets +1 ATK.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: If the activating enemy has the [[Aerial]] trait, give it an additional boost card.</property>
+    </card>
+    <card name="Gravitational Pull" id="bddee479-23cf-4576-b33c-c95ee9050141" size="EncounterCard">
+      <property name="CardNumber" value="50141"/>
+      <property name="Position" value="141"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="gravitational_pull"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Find Moonstone and reveal her. &lt;i&gt;(If she is already in play, she engages you.)&lt;/i&gt; Moonstone activates against you. If no enemy activated this way, this card gains surge.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Exhaust a character you control.</property>
+    </card>
+    <card name="Psychological Manipulation" id="bddee479-23cf-4576-b33c-c95ee9050142" size="EncounterCard">
+      <property name="CardNumber" value="50142"/>
+      <property name="Position" value="142"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="gravitational_pull"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed (Alter-Ego)&lt;/b&gt;: Discard an ally or support you control. Otherwise, this card gains surge.
+&lt;b&gt;When Revealed (Hero)&lt;/b&gt;: Deal X damage to the friendly character with the fewest remaining hit points, where X is equal to your hero's ATK.</property>
+    </card>
+    <card name="Songbird" id="bddee479-23cf-4576-b33c-c95ee9050143" size="EncounterCard">
+      <property name="CardNumber" value="50143"/>
+      <property name="Position" value="143"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="hard_sound"/>
+      <property name="Attack" value="0"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="4"/>
+      <property name="HP" value="16"/>
+      <property name="Attribute" value="Aerial. Elite. Thunderbolt."/>
+      <property name="Text">Villainous. Victory 1.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Songbird activates, give her 1 additional boost card for this activation.</property>
+      <property name="Quote">"Time to face the music!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Solid Sound Constructs" id="bddee479-23cf-4576-b33c-c95ee9050144" size="EncounterCard">
+      <property name="CardNumber" value="50144"/>
+      <property name="Position" value="144"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="hard_sound"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Attach to Songbird. Otherwise, attach to the villain.
+Attached enemy loses stalwart.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached enemy would gain a confused or stunned status card, discard this card instead.</property>
+    </card>
+    <card name="Hard Sound Bindings" id="bddee479-23cf-4576-b33c-c95ee9050145" size="EncounterCard">
+      <property name="CardNumber" value="50145"/>
+      <property name="Position" value="145"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="hard_sound"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Attach to your identity.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When you would attack, discard Hard Sound Bindings instead. Then, you are stunned.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: You are stunned. If you were already stunned, give the activating enemy an additional boost card.</property>
+    </card>
+    <card name="Sonic Bubble" id="bddee479-23cf-4576-b33c-c95ee9050146" size="SchemeCard">
+      <property name="CardNumber" value="50146"/>
+      <property name="Position" value="146"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="hard_sound"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When any amount of damage would be dealt to an enemy, remove an equal amount of threat from here instead.</property>
+      <property name="Quote">"Can't touch this!" —Songbird</property>
+    </card>
+    <card name="Hard Sound" id="bddee479-23cf-4576-b33c-c95ee9050147" size="EncounterCard">
+      <property name="CardNumber" value="50147"/>
+      <property name="Position" value="147"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="hard_sound"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Find Songbird and reveal her. &lt;i&gt;(If she is already in play, she engages you.)&lt;/i&gt; Songbird activates against you. If no enemy activated this way, this card gains surge.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Give the activating enemy an additional boost card.</property>
+    </card>
+    <card name="Black Widow" id="bddee479-23cf-4576-b33c-c95ee9050148" size="EncounterCard">
+      <property name="CardNumber" value="50148"/>
+      <property name="Position" value="148"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="pale_little_spider"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="4"/>
+      <property name="HP" value="14"/>
+      <property name="Attribute" value="Elite. Thunderbolt."/>
+      <property name="Text">Retaliate 1. Villainous. Victory 1.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Black Widow schemes against you, search the encounter deck and discard pile for a copy of Handspring and attach it to her. &lt;i&gt;(Shuffle.)&lt;/i&gt; Otherwise, you are confused.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Handspring" id="bddee479-23cf-4576-b33c-c95ee9050149" size="EncounterCard">
+      <property name="CardNumber" value="50149"/>
+      <property name="Position" value="149"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="pale_little_spider"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Preparation."/>
+      <property name="Text">Attach to Black Widow. Otherwise, attach to the villain.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached enemy would take damage from an attack, deal that damage to the attacking character instead. Discard this card.</property>
+      <property name="Quote">"This has been fun." —Black Widow</property>
+    </card>
+    <card name="Pride of the Red Room" id="bddee479-23cf-4576-b33c-c95ee9050150" size="SchemeCard">
+      <property name="CardNumber" value="50150"/>
+      <property name="Position" value="150"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="pale_little_spider"/>
+      <property name="Boost" value="1"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 additional threat here for each [[Preparation]] card in play.</property>
+      <property name="Quote">After dominating her cohort in the Red Room, Yelena Belova set out to prove herself the greatest Black Widow.</property>
+    </card>
+    <card name="Pale Little Spider" id="bddee479-23cf-4576-b33c-c95ee9050151" size="EncounterCard">
+      <property name="CardNumber" value="50151"/>
+      <property name="Position" value="151"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="pale_little_spider"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Find Black Widow and reveal her. &lt;i&gt;(If she is already in play, she engages you.)&lt;/i&gt; Black Widow activates against you. If no enemy activated this way, this card gains surge.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: You are confused. If you were already confused, place 1 threat on the main scheme.</property>
+    </card>
+    <card name="Radioactive Man" id="bddee479-23cf-4576-b33c-c95ee9050152" size="EncounterCard">
+      <property name="CardNumber" value="50152"/>
+      <property name="Position" value="152"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="power_of_the_atom"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="4"/>
+      <property name="HP" value="18"/>
+      <property name="Attribute" value="Elite. Thunderbolt."/>
+      <property name="Text">Villainous. Victory 1.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Radioactive Man activates against you, deal 1 damage to each character you control.</property>
+      <property name="Quote">"Up and at them!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Radiation Exposure" id="bddee479-23cf-4576-b33c-c95ee9050153" size="EncounterCard">
+      <property name="CardNumber" value="50153"/>
+      <property name="Position" value="153"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="power_of_the_atom"/>
+      <property name="Attack" value="-1"/>
+      <property name="Scheme" value="-1"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attach to your identity.
+[star] If attached identity has the [[Gamma]] trait, this attachment gives +1 ATK instead.
+&lt;b&gt;Forced Response&lt;/b&gt;: After you recover, discard 1 card from your hand → discard this card.</property>
+    </card>
+    <card name="Runaway Nuclear Reaction" id="bddee479-23cf-4576-b33c-c95ee9050154" size="SchemeCard">
+      <property name="CardNumber" value="50154"/>
+      <property name="Position" value="154"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="power_of_the_atom"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After Radioactive Man is dealt any amount of damage, place an equal amount of threat here. Then, if there is 10 or more threat here, deal 10 damage to each character and discard Runaway Nuclear Reaction.</property>
+    </card>
+    <card name="Power of the Atom" id="bddee479-23cf-4576-b33c-c95ee9050155" size="EncounterCard">
+      <property name="CardNumber" value="50155"/>
+      <property name="Position" value="155"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="power_of_the_atom"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Find Radioactive Man and reveal him. &lt;i&gt;(If he is already in play, he engages you.)&lt;/i&gt; Radioactive Man activates against you. If no enemy activated this way, this card gains surge.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Take 2 indirect damage.</property>
+    </card>
+    <card name="MACH-IV" id="bddee479-23cf-4576-b33c-c95ee9050156" size="EncounterCard">
+      <property name="CardNumber" value="50156"/>
+      <property name="Position" value="156"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="supersonic"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="4"/>
+      <property name="HP" value="16"/>
+      <property name="Attribute" value="Aerial. Elite. Thunderbolt."/>
+      <property name="Text">Villainous. Victory 1.
+[star] Each character without the [[Aerial]] trait cannot make basic defenses against MACH-IV's attacks.</property>
+      <property name="Quote">"I've got all the weaponry of a fighter jet—and then some."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Blasters" id="bddee479-23cf-4576-b33c-c95ee9050157" size="EncounterCard">
+      <property name="CardNumber" value="50157"/>
+      <property name="Position" value="157"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="supersonic"/>
+      <property name="Attack" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">Attach to MACH-IV. Otherwise, attach to the enemy with the highest ATK.
+[star] Attached enemy's attacks gain overkill and ranged.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you attack and damage attached enemy, spend [energy] [energy] resources → discard this card.</property>
+    </card>
+    <card name="Heat-Seeking Missiles" id="bddee479-23cf-4576-b33c-c95ee9050158" size="EncounterCard">
+      <property name="CardNumber" value="50158"/>
+      <property name="Position" value="158"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="supersonic"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">Attach to MACH-IV. Otherwise, attach to the villain.
+Uses (4 missile counters).
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After attached enemy attacks you, remove 1 missile counter from here and take 2 indirect damage.</property>
+    </card>
+    <card name="Aerial Dogfight" id="bddee479-23cf-4576-b33c-c95ee9050159" size="SchemeCard">
+      <property name="CardNumber" value="50159"/>
+      <property name="Position" value="159"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="supersonic"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Text">Hinder 2[per_hero].
+Reduce the damage each [[Aerial]] character takes from each attack by 2 unless the attacker or attack has the [[Aerial]] trait, or the attack has ranged.</property>
+    </card>
+    <card name="Supersonic" id="bddee479-23cf-4576-b33c-c95ee9050160" size="EncounterCard">
+      <property name="CardNumber" value="50160"/>
+      <property name="Position" value="160"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="supersonic"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Find MACH-IV and reveal him. &lt;i&gt;(If he is already in play, he engages you.)&lt;/i&gt; MACH-IV activates against you. If no enemy activated this way, this card gains surge.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: If this activation is an attack, it gains overkill and ranged.</property>
+    </card>
+    <card name="Batroc" id="bddee479-23cf-4576-b33c-c95ee9050161" size="EncounterCard">
+      <property name="CardNumber" value="50161"/>
+      <property name="Position" value="161"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="the_leaper"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="4"/>
+      <property name="HP" value="16"/>
+      <property name="Attribute" value="Elite. Thunderbolt."/>
+      <property name="Text">Villainous. Victory 1.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Batroc engages you, discard 1 card from your hand.</property>
+      <property name="Quote">"On se revoit. En garde!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Coup de Foudre" id="bddee479-23cf-4576-b33c-c95ee9050162" size="SchemeCard">
+      <property name="CardNumber" value="50162"/>
+      <property name="Position" value="162"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="the_leaper"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When a minion engages a player, that player discards the top X cards of their deck, where X is the number of boost icons ([boost]) on that minion. Place 1 threat here for each printed [energy] resource discarded this way.</property>
+    </card>
+    <card name="Batroc the Leaper" id="bddee479-23cf-4576-b33c-c95ee9050163" size="EncounterCard">
+      <property name="CardNumber" value="50163"/>
+      <property name="Position" value="163"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="the_leaper"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Find Batroc and reveal him. &lt;i&gt;(If he is already in play, he engages you.)&lt;/i&gt; Batroc activates against you. If no enemy activated this way, this card gains surge.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Discard 1 card from your hand.</property>
+    </card>
+    <card name="Parcours du Combattant" id="bddee479-23cf-4576-b33c-c95ee9050164" size="EncounterCard">
+      <property name="CardNumber" value="50164"/>
+      <property name="Position" value="164"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="the_leaper"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Surge.
+&lt;b&gt;When Revealed&lt;/b&gt;: Each player engages each minion engaged with the player clockwise from them.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: After this attack resolves, engage a minion in play that is not engaged with you.</property>
+    </card>
+    <card name="Baron Zemo" id="bddee479-23cf-4576-b33c-c95ee9050165" size="VillainCard">
+      <property name="CardNumber" value="50165a"/>
+      <property name="Position" value="165"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="baron_zemo"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="3"/>
+      <property name="HP" value="12"/>
+      <property name="Attribute" value="Thunderbolt."/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Baron Zemo would be defeated, reset his hit points to 12 instead. Remove 3 secret counters from among [[Board Member]] environments.</property>
+      <property name="Quote">"Arrest them by order of the Executive Board!"</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Baron Zemo" type="b" size="VillainCard">
+        <property name="CardNumber" value="50165b"/>
+        <property name="Position" value="165"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Villain"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="baron_zemo"/>
+        <property name="Stage" value="1"/>
+        <property name="Attack" value="2"/>
+        <property name="Scheme" value="3"/>
+        <property name="HP" value="18"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Thunderbolt. Unmasked."/>
+        <property name="Text">[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Baron Zemo activates against you, either place 1 secret counter on a [[Board Member]] card or give Baron Zemo an additional boost card for this activation.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Baron Zemo" id="bddee479-23cf-4576-b33c-c95ee9050166" size="VillainCard">
+      <property name="CardNumber" value="50166a"/>
+      <property name="Position" value="166"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="baron_zemo"/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="4"/>
+      <property name="HP" value="16"/>
+      <property name="Attribute" value="Thunderbolt."/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Baron Zemo would be defeated, reset his hit points to 16 instead. Remove 3 secret counters from among [[Board Member]] environments.</property>
+      <property name="Quote">"Arrest them by order of the Executive Board!"</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Baron Zemo" type="b" size="VillainCard">
+        <property name="CardNumber" value="50166b"/>
+        <property name="Position" value="166"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Villain"/>
+        <property name="Type" value="villain"/>
+        <property name="Owner" value="baron_zemo"/>
+        <property name="Stage" value="2"/>
+        <property name="Attack" value="2"/>
+        <property name="Scheme" value="4"/>
+        <property name="HP" value="22"/>
+        <property name="HP_Per_Hero" value="True"/>
+        <property name="Attribute" value="Thunderbolt. Unmasked."/>
+        <property name="Text">Steady.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Baron Zemo activates against you, either place 2 secret counters on a [[Board Member]] card or give Baron Zemo an additional boost card for this activation.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Zemo's Manipulations" id="bddee479-23cf-4576-b33c-c95ee9050167" size="SchemeCard">
+      <property name="CardNumber" value="50167a"/>
+      <property name="Position" value="167"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="baron_zemo"/>
+      <property name="Stage" value="1"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Baron Zemo (A1). &lt;i&gt;(Baron Zemo (B1) instead for expert mode.)&lt;/i&gt; Baron Zemo, S.H.I.E.L.D. Executive Board, Executive Board Evidence, and Standard encounter sets. Two modular encounter sets &lt;i&gt;(Scientist Supreme and S.H.I.E.L.D.)&lt;/i&gt;.
+&lt;b&gt;Setup&lt;/b&gt;: Prepare the evidence &lt;i&gt;(see rulebook p. 18)&lt;/i&gt;. Put each [[Board Member]] environment into play. If not playing campaign mode, place 2 secret counters on each [[Board Member]] environment.</property>
+      <alternate name="Zemo's Manipulations" type="b" size="SchemeCard">
+        <property name="CardNumber" value="50167b"/>
+        <property name="Position" value="167"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="baron_zemo"/>
+        <property name="Stage" value="1"/>
+        <property name="BaseThreat" value="2"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="Threat" value="12"/>
+        <property name="EscalationThreat" value="2"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After the player phase ends, the first player may place 2 secret counters on a [[Board Member]] environment that has no secret counters on it to gain 2 cards from the S.H.I.E.L.D. envelope (1 card instead in campaign mode). The players may advance to stage 2A to make their accusation.
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+      </alternate>
+    </card>
+    <card name="The Accusation" id="bddee479-23cf-4576-b33c-c95ee9050168" size="SchemeCard">
+      <property name="CardNumber" value="50168a"/>
+      <property name="Position" value="168"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="baron_zemo"/>
+      <property name="Stage" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Make an accusation by guessing a means, a motive, and an opportunity, along with the board member associated with that combination in the campaign log. This board member is the accused. &lt;i&gt;(See "The Accusation" on p. 19 of the rulebook.)&lt;/i&gt;</property>
+      <property name="Quote">You've gathered all the evidence you can. All that remains is to make your accusation.</property>
+      <alternate name="The Accusation" type="b" size="SchemeCard">
+        <property name="CardNumber" value="50168b"/>
+        <property name="Position" value="168"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="baron_zemo"/>
+        <property name="Stage" value="2"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Do the following:
+1. Use the cards in the A.I.M. envelope to identify the mole.
+2. For each guess you got wrong, place 1 secret counter on each [[Board Member]] card.
+3. If you accused the wrong board member, place 3 secret counters on the accused.
+4. Advance to stage 3A.</property>
+      </alternate>
+    </card>
+    <card name="Fighting Zemo" id="bddee479-23cf-4576-b33c-c95ee9050169" size="SchemeCard">
+      <property name="CardNumber" value="50169a"/>
+      <property name="Position" value="169"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="baron_zemo"/>
+      <property name="Stage" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Flip Baron Zemo to his [[Unmasked]] side and reset his hit points to his printed hit point value. Find Baron Zemo's Sword and attach it to him.</property>
+      <property name="Quote">You unmask Zemo's deception and expose his associate's identity.</property>
+      <alternate name="Fighting Zemo" type="b" size="SchemeCard">
+        <property name="CardNumber" value="50169b"/>
+        <property name="Position" value="169"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="baron_zemo"/>
+        <property name="Stage" value="3"/>
+        <property name="BaseThreat" value="0"/>
+        <property name="BaseThreatFixed" value="True"/>
+        <property name="Threat" value="12"/>
+        <property name="EscalationThreat" value="2"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Flip the mole to its attachment side and attach it to Baron Zemo. Place 1[per_hero] threat here for each secret counter on each [[Board Member]] attachment.
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Quote">Bring Baron Zemo and his accomplice to justice!</property>
+      </alternate>
+    </card>
+    <card name="Baron Zemo's Sword" id="bddee479-23cf-4576-b33c-c95ee9050170" size="EncounterCard">
+      <property name="CardNumber" value="50170"/>
+      <property name="Position" value="170"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="baron_zemo"/>
+      <property name="Attack" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Attach to Baron Zemo.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Baron Zemo attacks and defeats a character, place 1 secret counter on the [[Board Member]] environment with the fewest secret counters.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [physical] [physical] [physical] or [energy] [energy] [energy] resources → remove 1 secret counter from a [[Board Member]] environment and discard this card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Reluctant Foe" id="bddee479-23cf-4576-b33c-c95ee9050171" size="EncounterCard">
+      <property name="CardNumber" value="50171"/>
+      <property name="Position" value="171"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="baron_zemo"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">Treat attached hero as an [[Elite]] minion with SCH equal to its printed THW. Replace its printed text box with: "Villainous. &lt;b&gt;When Defeated&lt;/b&gt;: Remove this hero and Reluctant Foe from the game."
+&lt;b&gt;When Revealed&lt;/b&gt;: Search your collection for a hero whose title does not match a character in play and put it into play engaged with you. Attach this card to it.</property>
+    </card>
+    <card name="S.H.I.E.L.D. Agent" id="bddee479-23cf-4576-b33c-c95ee9050172" size="EncounterCard">
+      <property name="CardNumber" value="50172"/>
+      <property name="Position" value="172"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="baron_zemo"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="S.H.I.E.L.D."/>
+      <property name="Text">Quickstrike. Vulnerable.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When S.H.I.E.L.D. Agent activates or is defeated, add 1 secret counter to the [[Board Member]] environment with the fewest secret counters.</property>
+    </card>
+    <card name="Divided Loyalties" id="bddee479-23cf-4576-b33c-c95ee9050173" size="SchemeCard">
+      <property name="CardNumber" value="50173"/>
+      <property name="Position" value="173"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="baron_zemo"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Hinder 1[per_hero].
+As an additional cost for a player to attack, thwart, or defend with an ally, that player must spend 1 resource of any type.
+&lt;b&gt;When Defeated&lt;/b&gt;: Remove 1[per_hero] secret counters from among [[Board Member]] environments.</property>
+    </card>
+    <card name="Undermine Support" id="bddee479-23cf-4576-b33c-c95ee9050174" size="SchemeCard">
+      <property name="CardNumber" value="50174"/>
+      <property name="Position" value="174"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="baron_zemo"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Hinder 1[per_hero].
+As an additional cost for a player to ready a support, that player must spend 1 resource of any type.
+&lt;b&gt;When Defeated&lt;/b&gt;: Remove 1[per_hero] secret counters from among [[Board Member]] environments.</property>
+      <property name="Quote">"S.H.I.E.L.D. takes orders from me now!" —Baron Zemo</property>
+    </card>
+    <card name="Battle of Wits" id="bddee479-23cf-4576-b33c-c95ee9050175" size="EncounterCard">
+      <property name="CardNumber" value="50175"/>
+      <property name="Position" value="175"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="baron_zemo"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Baron Zemo schemes. If this activation would place any threat on the main scheme, you may spend X [mental] resources to prevent X of that threat and remove X secret counters from among [[Board Member]] environments.</property>
+    </card>
+    <card name="Might Makes Right" id="bddee479-23cf-4576-b33c-c95ee9050176" size="EncounterCard">
+      <property name="CardNumber" value="50176"/>
+      <property name="Position" value="176"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="baron_zemo"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed (Alter-Ego)&lt;/b&gt;: Place 2 secret counters on the [[Board Member]] environment with the fewest secret counters.
+&lt;b&gt;When Revealed (Hero)&lt;/b&gt;: Baron Zemo attacks you. If no character takes damage from this attack, remove 3 secret counters from among [[Board Member]] environments.</property>
+    </card>
+    <card name="The Ends Justify the Means" id="bddee479-23cf-4576-b33c-c95ee9050177" size="EncounterCard">
+      <property name="CardNumber" value="50177"/>
+      <property name="Position" value="177"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="baron_zemo"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Choose:
+• Baron Zemo defeats the minion with the fewest remaining hit points. Baron Zemo schemes.
+• Discard an ally or support you control → remove secret counters from among [[Board Member]] environments equal to the discarded card's printed resource cost.</property>
+    </card>
+    <card name="S.H.I.E.L.D. Trooper" id="bddee479-23cf-4576-b33c-c95ee9050178" size="EncounterCard">
+      <property name="CardNumber" value="50178"/>
+      <property name="Position" value="178"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="s.h.i.e.l.d."/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="S.H.I.E.L.D."/>
+      <property name="Text">Patrol. Vulnerable.
+&lt;b&gt;When Defeated&lt;/b&gt;: The engaged player discards 1 [[S.H.I.E.L.D.]] ally or support they control. Otherwise, place 2 threat on the main scheme.</property>
+      <property name="Quote">"Just come peacefully and no one gets hurt."</property>
+    </card>
+    <card name="Arrest Warrant" id="bddee479-23cf-4576-b33c-c95ee9050179" size="EncounterCard">
+      <property name="CardNumber" value="50179"/>
+      <property name="Position" value="179"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="s.h.i.e.l.d."/>
+      <property name="Boost" value="2"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Attribute" value="S.H.I.E.L.D."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust your identity or 1 [[S.H.I.E.L.D.]] card you control → search the encounter deck and discard pile for a [[S.H.I.E.L.D.]] minion and reveal it. &lt;i&gt;(Shuffle.)&lt;/i&gt; Discard this card.</property>
+    </card>
+    <card name="Disavowed" id="bddee479-23cf-4576-b33c-c95ee9050180" size="SchemeCard">
+      <property name="CardNumber" value="50180"/>
+      <property name="Position" value="180"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="s.h.i.e.l.d."/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Attribute" value="S.H.I.E.L.D."/>
+      <property name="Text">Increase the resource cost to play each [[S.H.I.E.L.D.]] card by 1.
+&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 threat here for each [[S.H.I.E.L.D.]] card in play.</property>
+      <property name="Quote">The S.H.I.E.L.D. Executive Board has disavowed all knowledge of your activities and cut off your resources.</property>
+    </card>
+    <card name="Chief Medical Officer" id="bddee479-23cf-4576-b33c-c95ee9050181" size="EncounterCard">
+      <property name="CardNumber" value="50181a"/>
+      <property name="Position" value="181"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="s.h.i.e.l.d._executive_board"/>
+      <property name="Attribute" value="Board Member."/>
+      <property name="Text">Setup.
+If there are 4 or more secret counters here (3 or more instead in expert mode), flip this card.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [energy] [energy] resources → remove 1 secret counter from here. Then, heal 1 damage from a friendly character.</property>
+      <alternate name="Medical Officer's Aid" type="b" size="EncounterCard">
+        <property name="CardNumber" value="50181b"/>
+        <property name="Position" value="181"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="attachment"/>
+        <property name="Owner" value="s.h.i.e.l.d._executive_board"/>
+        <property name="Attack" value="1"/>
+        <property name="Attribute" value="Board Member."/>
+        <property name="Text">Attach to the villain. Permanent.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a secret counter is placed here, either heal 2 damage from the villain or deal 1 damage to the friendly character with the fewest remaining hit points.
+&lt;b&gt;If there are 3 [[Board Member]] attachments in play, the players lose the game.&lt;/b&gt;</property>
+      </alternate>
+    </card>
+    <card name="Chief Surveillance Officer" id="bddee479-23cf-4576-b33c-c95ee9050182" size="EncounterCard">
+      <property name="CardNumber" value="50182a"/>
+      <property name="Position" value="182"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="s.h.i.e.l.d._executive_board"/>
+      <property name="Attribute" value="Board Member."/>
+      <property name="Text">Setup.
+If there are 4 or more secret counters here (3 or more instead in expert mode), flip this card.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [mental] [mental] resources → remove 1 secret counter from here. Then, remove 2 threat from a scheme.</property>
+      <alternate name="Surveillance Officer's Aid" type="b" size="EncounterCard">
+        <property name="CardNumber" value="50182b"/>
+        <property name="Position" value="182"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="attachment"/>
+        <property name="Owner" value="s.h.i.e.l.d._executive_board"/>
+        <property name="Scheme" value="1"/>
+        <property name="Attribute" value="Board Member."/>
+        <property name="Text">Attach to the villain. Permanent.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a secret counter is placed here, place 2 threat on the main scheme.
+&lt;b&gt;If there are 3 [[Board Member]] attachments in play, the players lose the game.&lt;/b&gt;</property>
+      </alternate>
+    </card>
+    <card name="Chief Tactical Officer" id="bddee479-23cf-4576-b33c-c95ee9050183" size="EncounterCard">
+      <property name="CardNumber" value="50183a"/>
+      <property name="Position" value="183"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="s.h.i.e.l.d._executive_board"/>
+      <property name="Attribute" value="Board Member."/>
+      <property name="Text">Setup.
+If there are 4 or more secret counters here (3 or more instead in expert mode), flip this card.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [physical] [physical] resources → remove 1 secret counter from here. Then, deal 2 damage to an enemy.</property>
+      <alternate name="Tactical Officer's Aid" type="b" size="EncounterCard">
+        <property name="CardNumber" value="50183b"/>
+        <property name="Position" value="183"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="attachment"/>
+        <property name="Owner" value="s.h.i.e.l.d._executive_board"/>
+        <property name="Attack" value="1"/>
+        <property name="Attribute" value="Board Member."/>
+        <property name="Text">Attach to the villain. Permanent.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a secret counter is placed here, deal 2 damage to a friendly character.
+&lt;b&gt;If there are 3 [[Board Member]] attachments in play, the players lose the game.&lt;/b&gt;</property>
+      </alternate>
+    </card>
+    <card name="A.I.M. Interference ([energy])" id="bddee479-23cf-4576-b33c-c95ee9050184" size="EncounterCard">
+      <property name="CardNumber" value="50184a"/>
+      <property name="Position" value="184"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="s.h.i.e.l.d._executive_board"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Incite 1.
+&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 secret counter on each [[Board Member]] card. You may spend X [energy] resources to prevent X of these counters from being placed.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Resolve this card's "&lt;b&gt;When Revealed&lt;/b&gt;" ability.</property>
+    </card>
+    <card name="A.I.M. Interference ([mental])" id="bddee479-23cf-4576-b33c-c95ee9050185" size="EncounterCard">
+      <property name="CardNumber" value="50184b"/>
+      <property name="Position" value="184"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="s.h.i.e.l.d._executive_board"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Incite 1.
+&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 secret counter on each [[Board Member]] card. You may spend X [mental] resources to prevent X of these counters from being placed.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Resolve this card's "&lt;b&gt;When Revealed&lt;/b&gt;" ability.</property>
+    </card>
+    <card name="A.I.M. Interference ([physical])" id="bddee479-23cf-4576-b33c-c95ee9050186" size="EncounterCard">
+      <property name="CardNumber" value="50184c"/>
+      <property name="Position" value="184"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="s.h.i.e.l.d._executive_board"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Incite 1.
+&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 secret counter on each [[Board Member]] card. You may spend X [physical] resources to prevent X of these counters from being placed.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Resolve this card's "&lt;b&gt;When Revealed&lt;/b&gt;" ability.</property>
+    </card>
+    <card name="Medical Records" id="bddee479-23cf-4576-b33c-c95ee9050187" size="EvidenceMeans">
+      <property name="CardNumber" value="50185"/>
+      <property name="Position" value="185"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="evidence_means"/>
+      <property name="Owner" value="executive_board_evidence"/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Protection ally and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for a Protection ally and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+    </card>
+    <card name="Wiretap" id="bddee479-23cf-4576-b33c-c95ee9050188" size="EvidenceMeans">
+      <property name="CardNumber" value="50186"/>
+      <property name="Position" value="186"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="evidence_means"/>
+      <property name="Owner" value="executive_board_evidence"/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Justice ally and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for a Justice ally and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+    </card>
+    <card name="Security Scanner" id="bddee479-23cf-4576-b33c-c95ee9050189" size="EvidenceMeans">
+      <property name="CardNumber" value="50187"/>
+      <property name="Position" value="187"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="evidence_means"/>
+      <property name="Owner" value="executive_board_evidence"/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Aggression ally and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for an Aggression ally and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+    </card>
+    <card name="Money" id="bddee479-23cf-4576-b33c-c95ee9050190" size="EvidenceMotive">
+      <property name="CardNumber" value="50188"/>
+      <property name="Position" value="188"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="evidence_motive"/>
+      <property name="Owner" value="executive_board_evidence"/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Protection upgrade and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for a Protection upgrade and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+    </card>
+    <card name="Blackmail" id="bddee479-23cf-4576-b33c-c95ee9050191" size="EvidenceMotive">
+      <property name="CardNumber" value="50189"/>
+      <property name="Position" value="189"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="evidence_motive"/>
+      <property name="Owner" value="executive_board_evidence"/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Justice upgrade and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for a Justice upgrade and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+    </card>
+    <card name="Ideology" id="bddee479-23cf-4576-b33c-c95ee9050192" size="EvidenceMotive">
+      <property name="CardNumber" value="50190"/>
+      <property name="Position" value="190"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="evidence_motive"/>
+      <property name="Owner" value="executive_board_evidence"/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Aggression upgrade and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for an Aggression upgrade and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+    </card>
+    <card name="Security Clearance" id="bddee479-23cf-4576-b33c-c95ee9050193" size="EvidenceOpportunity">
+      <property name="CardNumber" value="50191"/>
+      <property name="Position" value="191"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="evidence_opportunity"/>
+      <property name="Owner" value="executive_board_evidence"/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Protection support and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for a Protection support and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+    </card>
+    <card name="Travel" id="bddee479-23cf-4576-b33c-c95ee9050194" size="EvidenceOpportunity">
+      <property name="CardNumber" value="50192"/>
+      <property name="Position" value="192"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="evidence_opportunity"/>
+      <property name="Owner" value="executive_board_evidence"/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Justice support and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for a Justice support and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+    </card>
+    <card name="Authority" id="bddee479-23cf-4576-b33c-c95ee9050195" size="EvidenceOpportunity">
+      <property name="CardNumber" value="50193"/>
+      <property name="Position" value="193"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Side"/>
+      <property name="Type" value="evidence_opportunity"/>
+      <property name="Owner" value="executive_board_evidence"/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Aggresion support and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for an Aggresion support and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+    </card>
+  </cards>
+</set>

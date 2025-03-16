@@ -1,0 +1,1743 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="(FM) Determination (By Designhacker)" id="65becd33-a610-4313-9d2f-27670ebe7b5b" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card name="Cable " id="65becd33-a610-4313-9d2f-27670e044101">
+      <property name="CardNumber" value="44101"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="X-Force. X-Men."/>
+      <property name="Text">Reckless (&lt;i&gt;When this character enters play, place 1 threat on each scheme.&lt;/i&gt;) 
+[star] &lt;b&gt;Interrupt&lt;/b&gt;: When Cable attacks, discard any number of cards from your hand  for each card discarded this way, Cable gets +1 ATK for this attack.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Moon Knight" id="65becd33-a610-4313-9d2f-27670e044102">
+      <property name="CardNumber" value="44102"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Avenger. Hero For Hire."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After Moon Knight enters play, discard a card from your hand. If that cardâ€™s printed resource includes:
+ [energy] - Draw a card. 
+[mental] - Confuse an enemy. 
+[physical] - Stun an enemy. 
+[wild] - Choose 2 of the above.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Venom" id="65becd33-a610-4313-9d2f-27670e044103">
+      <property name="CardNumber" value="44103"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="0"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Symbiote."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After Venom enters play, place 2 threat on the main scheme.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Wolverine" id="65becd33-a610-4313-9d2f-27670e044104">
+      <property name="CardNumber" value="44104"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="5"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Avenger. X-Men."/>
+      <property name="Text">[star]&lt;b&gt;Forced Response&lt;/b&gt;: After Wolverine thwarts, heal 2 damage from him.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Blast Radius" id="65becd33-a610-4313-9d2f-27670e044105">
+      <property name="CardNumber" value="44105"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): Deal up to 5 damage to your hero and choose up to 3 enemies  → deal X damage to each chosen enemy, where X is the amount of damage your hero took this way.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Human Shield" id="65becd33-a610-4313-9d2f-27670e044106">
+      <property name="CardNumber" value="44106"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Defense"/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; (&lt;i&gt;defense&lt;/i&gt;): When a friendly character would take any amount of damage from an attack, prevent up to 3 of that damage. Then, if you took damage from that attack, ready your hero.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="The Power of Determination" id="65becd33-a610-4313-9d2f-27670e044107">
+      <property name="CardNumber" value="44107"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="resource"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">Max 2 per deck. 
+Double the number of resources this card generates while paying for a Determination  card.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Merc Squad" id="65becd33-a610-4313-9d2f-27670e044108">
+      <property name="CardNumber" value="44108"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Mercs For Money"/>
+      <property name="Text">Uses (3 tactic counters). 
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Merc Squad and remove 1 tactic counter from it → deal 1 damage to an enemy and remove 1 threat from the main scheme.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Savior Complex" id="65becd33-a610-4313-9d2f-27670e044109">
+      <property name="CardNumber" value="44109"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="condition."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When an ally you control would take consequential damage, exhaust Savior Complex → deal that damage to your hero instead</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Heroic Combat Vest" id="65becd33-a610-4313-9d2f-27670e044110">
+      <property name="CardNumber" value="44110"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Armor"/>
+      <property name="Text">Play under any playerâ€™s control. 
+Max 1 per player. 
+&lt;b&gt;Hero Action&lt;/b&gt;: Take 1 damage → your hero gets +1 THW or +1 ATK or +1 DEF until the end of the round. (Limit once per round.)</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="I Can Do This All Day" id="65becd33-a610-4313-9d2f-27670e044111">
+      <property name="CardNumber" value="44111"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition"/>
+      <property name="Text">Max 1 per player. 
+&lt;b&gt;Interrupt&lt;/b&gt;: When your hero would be defeated, place 1[per_hero] threat on the main scheme and set your hit point dial to 1 instead. Then, remove this card from the game.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Gone in a Flash" id="65becd33-a610-4313-9d2f-27670e044112">
+      <property name="CardNumber" value="44112"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic"/>
+      <property name="Text">Play only if your heroâ€™s remaining hit points are less than half your heroâ€™s starting hit points. 
+&lt;b&gt;Hero Action&lt;/b&gt;: Confuse an enemy. Then, change your form.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Recon" id="65becd33-a610-4313-9d2f-27670e044113">
+      <property name="CardNumber" value="44113"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Spend a resource of any type or exhaust a friendly character you control → look at up to 3 facedown encounter cards. If a minion is looked at this way, put it into play engaged with you, and draw 2 cards. (Limit once per round.)</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Counterstrike" id="65becd33-a610-4313-9d2f-27670e044114">
+      <property name="CardNumber" value="44114"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Preparation"/>
+      <property name="Text">Max 1 per player. 
+&lt;b&gt;Hero Response&lt;/b&gt;: After an attack with overkill defeats an ally you control and damages you, discard Counterstrike → deal X damage to an enemy, where X is the total ATK of that ally and your hero.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Preparation #2" id="65becd33-a610-4313-9d2f-27670e044115">
+      <property name="CardNumber" value="44115"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Preparation"/>
+      <property name="Text">Max 1 per player. 
+&lt;b&gt;Hero Action&lt;/b&gt;: Deal 2 damage to your hero and discard Preparation #2 → ready your hero and deal 1 damage to each minion engaged with you.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Deadpool" id="65becd33-a610-4313-9d2f-27670e044116">
+      <property name="CardNumber" value="44116"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Avenger. Hero For Hire."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After Deadpool enters play, deal yourself 1 encounter card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Masochism" id="65becd33-a610-4313-9d2f-27670e044117">
+      <property name="CardNumber" value="44117"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic"/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you take more than 3 damage, draw X cards where X is the amount of damage you took past 3.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Feel the Pain" id="65becd33-a610-4313-9d2f-27670e044118">
+      <property name="CardNumber" value="44118"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition"/>
+      <property name="Text">While your heroâ€™s remaining hit points are less than half your heroâ€™s maximum hit points, your hero gains retaliate 1.
+&lt;i&gt;“Feel the pain, killer! Feel it burn! Feel what you have inflicted on others!”—Daniel Ketch&lt;/i&gt;</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Galvanize" id="65becd33-a610-4313-9d2f-27670e044119">
+      <property name="CardNumber" value="44119"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Tactic"/>
+      <property name="Text">Play only if your heroâ€™s maximum hit points are 12 or greater. 
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Galvanize and take 3 damage → ready your hero or draw 1 card.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Soldier On" id="65becd33-a610-4313-9d2f-27670e044120">
+      <property name="CardNumber" value="44120"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition"/>
+      <property name="Text">Max 1 per player. 
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Soldier On and take 2 damage → if you have less than half of your maximum hit points remaining, you get +2 hand size until the end of the phase.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Spontaneity" id="65becd33-a610-4313-9d2f-27670e044121">
+      <property name="CardNumber" value="44121"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Skill"/>
+      <property name="Text">Play under any playerâ€™s control. 
+Max 1 per player. 
+&lt;b&gt;Resource&lt;/b&gt;: Exhaust Spontaneity and take 1 damage → generate a [wild] resource for a Determination event. (purple)</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Cloak" id="65becd33-a610-4313-9d2f-27670e044122">
+      <property name="CardNumber" value="44122"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="3"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Avenger. X-Men."/>
+      <property name="Text">You may play cards attached to Cloak as if they were in your hand. 
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Cloak â€“&gt; choose an ally or upgrade from your hand and attach it to him facedown.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Dagger" id="65becd33-a610-4313-9d2f-27670e044123">
+      <property name="CardNumber" value="44123"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Avenger. X-Men."/>
+      <property name="Text">Fragile. (&lt;i&gt;Attacks against this character gain overkill.&lt;/i&gt;) While Dagger is attached to the Cloak ally, reduce the cost to play her by 2.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Elektra" id="65becd33-a610-4313-9d2f-27670e044124">
+      <property name="CardNumber" value="44124"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="S.H.I.E.L.D. Hero For Hire"/>
+      <property name="Text">Fragile. (&lt;i&gt;Attacks against this character gain overkill.&lt;/i&gt;) 
+Elektraâ€™s attacks gain piercing and ranged.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Shang-Chi" id="65becd33-a610-4313-9d2f-27670e044125">
+      <property name="CardNumber" value="44125"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Avenger"/>
+      <property name="Text">Fragile. (&lt;i&gt;Attacks against this character gain overkill.&lt;/i&gt;)
+&lt;b&gt;Response&lt;/b&gt;: After Shang-Chi removes the last threat from a scheme or defeats a minion, ready him.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Punisher" id="65becd33-a610-4313-9d2f-27670e044126">
+      <property name="CardNumber" value="44126"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Avenger. Hero For Hire."/>
+      <property name="Text">Fragile. (&lt;i&gt;Attacks against this character gain overkill.&lt;/i&gt;) 
+The Punisherâ€™s attacks gain piercing and ranged.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Cheap Shot" id="65becd33-a610-4313-9d2f-27670e044127">
+      <property name="CardNumber" value="44127"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (&lt;I&gt;attack&lt;/i&gt;): Deal 2 damage to an enemy (4 damage instead if that enemy is stunned or confused). This attack gains piercing.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Pay It Forward" id="65becd33-a610-4313-9d2f-27670e044128">
+      <property name="CardNumber" value="44128"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack/thwart&lt;/i&gt;): Take up to 3 damage →  deal X damage to enemies divided as you choose, then remove X threat from schemes in play divided as you choose, where X is the amount of damage you took this way.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Thorn in Their Side" id="65becd33-a610-4313-9d2f-27670e044129">
+      <property name="CardNumber" value="44129"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Thwart"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;thwart&lt;/i&gt;): Remove 2 threat from a scheme. Then, you may take up to 5 damage and remove 1 threat from a scheme for each point of damage you took this way divided among schemes as you choose.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Adrenaline Shot" id="65becd33-a610-4313-9d2f-27670e044130">
+      <property name="CardNumber" value="44130"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Item"/>
+      <property name="Text">Uses (3 adrenaline counters).
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Adrenaline Shot and remove 1 adrenaline counter from here →  choose an ally. That allyâ€™s next attack deals 2 additional damage and they take 1 additional consequential damage.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Act on Impulse" id="65becd33-a610-4313-9d2f-27670e044131">
+      <property name="CardNumber" value="44131"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic"/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you change to hero form, give a character a status card.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Last Laugh" id="65becd33-a610-4313-9d2f-27670e044132">
+      <property name="CardNumber" value="44132"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Attack"/>
+      <property name="Text">Play only if your heroâ€™s remaining hit points are less than half your heroâ€™s starting hit points.
+&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): Take 1 damage and deal 6 damage to the villain. Then, change your form.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Sustenance" id="65becd33-a610-4313-9d2f-27670e044133">
+      <property name="CardNumber" value="44133"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Tactic"/>
+      <property name="Text">Play only if your identity has the trait avenger.
+&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): Heal 1 damage from your identity. Heal X additional damage from your identity where X is equal to the villainâ€™s stage number.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Improvised â€˜Porting" id="65becd33-a610-4313-9d2f-27670e044134">
+      <property name="CardNumber" value="44134"/>
+      <property name="Position" value="34"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Give the villain 1 facedown boost card →  change your form, then ready your identity.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Gladiator" id="65becd33-a610-4313-9d2f-27670e044135">
+      <property name="CardNumber" value="44135"/>
+      <property name="Position" value="35"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="3"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Aerial. Guardian."/>
+      <property name="Text">While your remaining hit points are equal to or less than 5, reduce all consequential damage Gladiator takes by 2.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Quasar" id="65becd33-a610-4313-9d2f-27670e044136">
+      <property name="CardNumber" value="44136"/>
+      <property name="Position" value="36"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Aerial. Guardian"/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Quasar enters play, deal 2 damage to each enemy engaged with you.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Star-Lord " id="65becd33-a610-4313-9d2f-27670e044137">
+      <property name="CardNumber" value="44137"/>
+      <property name="Position" value="37"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Guardian. X-Men."/>
+      <property name="Text">[star] &lt;b&gt;Response&lt;/b&gt;: After Star-Lord thwarts, deal 1 damage to an enemy.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Detonate" id="65becd33-a610-4313-9d2f-27670e044138">
+      <property name="CardNumber" value="44138"/>
+      <property name="Position" value="38"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): Discard an upgrade you control with counters on it, then deal X damage to the villain and each minion engaged with you, where X is the number of counters discarded this way.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="In and Out" id="65becd33-a610-4313-9d2f-27670e044139">
+      <property name="CardNumber" value="44139"/>
+      <property name="Position" value="39"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;thwart&lt;/i&gt;): Remove 2 threat from a scheme. If this is the first card you have played this round, you may take 1 damage to return this card to your hand.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Suckerpunch" id="65becd33-a610-4313-9d2f-27670e044140">
+      <property name="CardNumber" value="44140"/>
+      <property name="Position" value="40"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): Deal 2 damage to an enemy. If this is the first card you have played this round, you may take 1 damage to return this card to your hand.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Illegal Munitions" id="65becd33-a610-4313-9d2f-27670e044141">
+      <property name="CardNumber" value="44141"/>
+      <property name="Position" value="41"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">Restricted. This card cannot be in play while you control an ally.
+Your basic attacks gain overkill. Response: After you attack a minion and deal 2 or more excess damage with overkill, stun the villain.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Stun Gun" id="65becd33-a610-4313-9d2f-27670e044142">
+      <property name="CardNumber" value="44142"/>
+      <property name="Position" value="42"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Weapon"/>
+      <property name="Text">Restricted. Uses (3 charge counters).
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Stun Gun and remove 1 charge counter from it → deal 1 damage to a minion andstun them.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="The Thing " id="65becd33-a610-4313-9d2f-27670e044143">
+      <property name="CardNumber" value="44143"/>
+      <property name="Position" value="43"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Fantastic Four. Guardian."/>
+      <property name="Text">Toughness.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When your hero would take any amount of damage, deal that damage to The Thing instead.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Field Dressing" id="65becd33-a610-4313-9d2f-27670e044144">
+      <property name="CardNumber" value="44144"/>
+      <property name="Position" value="44"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Tactic"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Deal yourself 1 facedown encounter card, then heal 6 damage from your identity.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Flight" id="65becd33-a610-4313-9d2f-27670e044145">
+      <property name="CardNumber" value="44145"/>
+      <property name="Position" value="45"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Aerial. Tactic."/>
+      <property name="Text">Play only if your identity has the aerial trait.
+&lt;b&gt;Hero Action&lt;/b&gt;: Place 2 threat on the main scheme → stun and confuse the villain.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="In Harmâ€™s Way" id="65becd33-a610-4313-9d2f-27670e044146">
+      <property name="CardNumber" value="44146"/>
+      <property name="Position" value="46"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Defense"/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; (&lt;i&gt;defense&lt;/i&gt;): When a friendly character would take any amount of damage, deal yourself a facedown encounter card → prevent up to 5 of that damage.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Overstay Your Welcome" id="65becd33-a610-4313-9d2f-27670e044147">
+      <property name="CardNumber" value="44147"/>
+      <property name="Position" value="47"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;thwart&lt;/i&gt;): Deal yourself 1 facedown encounter card, then choose:
+â€¢ Remove 5 threat from a scheme.
+â€¢ Remove 2 threat from each schemein play.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Pay The Piper" id="65becd33-a610-4313-9d2f-27670e044148">
+      <property name="CardNumber" value="44148"/>
+      <property name="Position" value="48"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Give one or more facedown encounter cards in your player area to the villain as facedown boost cards. Then, the villain attacks you. This attack gains overkill and piercing.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Push Your Luck" id="65becd33-a610-4313-9d2f-27670e044149">
+      <property name="CardNumber" value="44149"/>
+      <property name="Position" value="49"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Defense. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; (&lt;i&gt;attack/defense/thwart&lt;/i&gt;): When an enemy activates against you, deal yourself a facedown encounter card → cancel that activation. If an attack was canceled this way, deal 3 damage to that enemy. If a scheme was canceled this way, remove 2 threat from the main scheme.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Glutton for Punishment" id="65becd33-a610-4313-9d2f-27670e044150">
+      <property name="CardNumber" value="44150"/>
+      <property name="Position" value="50"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">Play only if your heroâ€™s remaining hit points are less than half your heroâ€™s starting hit points.
+&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): Take 2 damage. Then, deal 8 damage to the villain.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Last Resort" id="65becd33-a610-4313-9d2f-27670e044151">
+      <property name="CardNumber" value="44151"/>
+      <property name="Position" value="51"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Preparation"/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When a guardian character you control would take any amount of damage, place 2 threat on the main scheme and discard Last Resort → prevent 6 of that damage.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Blade" id="65becd33-a610-4313-9d2f-27670e044152">
+      <property name="CardNumber" value="44152"/>
+      <property name="Position" value="52"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Avenger. Vampire"/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Blade defeats a minion without dealing excess damage, heal 2 damage from him.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Ghost Rider" id="65becd33-a610-4313-9d2f-27670e044153">
+      <property name="CardNumber" value="44153"/>
+      <property name="Position" value="53"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Avenger. Hero For Hire."/>
+      <property name="Text">[star] &lt;b&gt;Hero Interrupt&lt;/b&gt;: When Ghost Rider attacks, deal up to 3 damage to your hero. Ghost Rider gets +1 ATK for this attack for each damage your hero took this way.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Morbius" id="65becd33-a610-4313-9d2f-27670e044154">
+      <property name="CardNumber" value="44154"/>
+      <property name="Position" value="54"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="S.H.I.E.L.D. Vampire."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After Morbius enters play, deal 2 damage to your identity.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Dark Magic" id="65becd33-a610-4313-9d2f-27670e044155">
+      <property name="CardNumber" value="44155"/>
+      <property name="Position" value="55"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Spell"/>
+      <property name="Text">Play only if your identity has the mystic trait. Max 1 per deck.
+&lt;b&gt;Hero Action&lt;/b&gt; (attack): Shuffle your deck. Choose an enemy and remove up to 3 cards from the top of your deck from the game → drain 2 from that enemy for each card removed this way.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Oblivion" id="65becd33-a610-4313-9d2f-27670e044156">
+      <property name="CardNumber" value="44156"/>
+      <property name="Position" value="56"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Cosmic Entity"/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Shuffle this card into the encounter deck (without looking). 
+&lt;b&gt;When Revealed&lt;/b&gt;: The player who played this card chooses to either discard a card from their hand or deal 5 damage to each ally they control, the villain, and each minion engaged with them. Remove this card from the game.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Twice the Determination" id="65becd33-a610-4313-9d2f-27670e044157">
+      <property name="CardNumber" value="44157"/>
+      <property name="Position" value="57"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="resource"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value=""/>
+      <property name="Text">Max 1 per deck.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you spend this card, return it to your hand. (Limit once per round.)</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Heroes for Hire" id="65becd33-a610-4313-9d2f-27670e044158">
+      <property name="CardNumber" value="44158"/>
+      <property name="Position" value="58"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Team"/>
+      <property name="Text">Play under any playerâ€™s control. Max 1 team card per player.
+&lt;b&gt;Response&lt;/b&gt;: If each of your allies has the trait hero for hire, this card gains: Response: After an ally you control defeats an enemy, draw 1 card.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Weapon X Training" id="65becd33-a610-4313-9d2f-27670e044159">
+      <property name="CardNumber" value="44159"/>
+      <property name="Position" value="59"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Skill"/>
+      <property name="Text">Max 1 per player. 
+Allies you control with 1 hit point remaining get +2 ATK and take 2 additional consequential damage.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Explosives Training" id="65becd33-a610-4313-9d2f-27670e044160">
+      <property name="CardNumber" value="44160"/>
+      <property name="Position" value="60"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Skill"/>
+      <property name="Text">Play only if your identity has the guardian trait. Max 1 per player. 
+&lt;b&gt;Response&lt;/b&gt;: After you discard an upgrade you control, exhaust Explosives Training → deal 2 damage to an enemy.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Outer Space Ambush" id="65becd33-a610-4313-9d2f-27670e044161">
+      <property name="CardNumber" value="44161"/>
+      <property name="Position" value="61"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Tactic."/>
+      <property name="Text">Alliance. 
+&lt;b&gt;Hero Action&lt;/b&gt; (attack): Exhaust an Avenger character and a Guardian character and deal 1 damage to each of them → deal a total of 6 damage divided among enemies as you choose. If neither of these friendly characters were defeated this way, ready them.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="That All You Got?" id="65becd33-a610-4313-9d2f-27670e044162">
+      <property name="CardNumber" value="44162"/>
+      <property name="Position" value="62"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value=""/>
+      <property name="Text">Max 1 per round. 
+&lt;b&gt;Hero Action&lt;/b&gt;: Search the encounter deck for an attachment. Reveal that attachment → draw 3 cards. (Shuffle the encounter deck.)</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Human Torch" id="65becd33-a610-4313-9d2f-27670e044163">
+      <property name="CardNumber" value="44163"/>
+      <property name="Position" value="63"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Android. Hero For Hire."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After your turn begins, deal 1 damage to the villain, each minion engaged with you, your hero, and each other ally you control.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Resistance Training" id="65becd33-a610-4313-9d2f-27670e044164">
+      <property name="CardNumber" value="44164"/>
+      <property name="Position" value="64"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition"/>
+      <property name="Text">Max 2 per deck. Uses (2 training counters).
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust this card and remove 1 training counter from it → choose a Determination event (purple) in your discard pile and shuffle it into your deck.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Colleen Wing" id="65becd33-a610-4313-9d2f-27670e044165">
+      <property name="CardNumber" value="44165"/>
+      <property name="Position" value="65"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Hero For Hire"/>
+      <property name="Text">Fragile. (&lt;i&gt;Attacks against this character gain overkill.&lt;/i&gt;) 
+Colleen Wing gets +1 THW while Misty Knight is in play, and gets +1 ATK while attacking enemies with the Bounty upgrade attached.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Misty Knight" id="65becd33-a610-4313-9d2f-27670e044166">
+      <property name="CardNumber" value="44166"/>
+      <property name="Position" value="66"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Hero For Hire"/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust Misty Knight and deal 1 damage to her → choose one: 
+- Search your deck and discard pile for a copy of the Bounty upgrade and add it to your hand.
+ - Reduce the resource cost of the next Bounty Upgrade you play this turn by 1.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Bounty" id="65becd33-a610-4313-9d2f-27670e044167">
+      <property name="CardNumber" value="44167"/>
+      <property name="Position" value="67"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition"/>
+      <property name="Text">Attach to a minion with the Brute, Criminal, or Mercenary trait, or to a unique enemy. Max 1 per enemy.
+&lt;b&gt;Response&lt;/b&gt;: After attached enemy is attacked and defeated, the owner of this card draws 2 cards. If the attacker has the  trait, heal 1 damage from them.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Duo-Gun" id="65becd33-a610-4313-9d2f-27670e044168">
+      <property name="CardNumber" value="44168"/>
+      <property name="Position" value="68"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">Attach to an ally. Max 1 per ally. Uses (1 ammo counter and 1 charge counter.) 
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Duo-Gun and choose one:
+- Remove 1 ammo counter from it → attached allyâ€™s next attack gains piercing. 
+ - Remove 1 charge counter from it → attached allyâ€™s next attack gains overkill.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Incentivized" id="65becd33-a610-4313-9d2f-27670e044169">
+      <property name="CardNumber" value="44169"/>
+      <property name="Position" value="69"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition"/>
+      <property name="Text">Attach to an ally. Max 1 per ally.
+&lt;b&gt;Interrupt&lt;/b&gt;: When attached ally attacks an enemy, it gets +X ATK for that attack, where X is the number of cards attached to that enemy.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Munitions Cache" id="65becd33-a610-4313-9d2f-27670e044170">
+      <property name="CardNumber" value="44170"/>
+      <property name="Position" value="70"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value=""/>
+      <property name="Text">Enters play with 2 ammo counters and 2 charge counters. 
+Max 1 per player.
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Munitions Cache → move 1 ammo counter or 1 charge counter from this card to another upgrade you control.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Go Wild" id="65becd33-a610-4313-9d2f-27670e044171">
+      <property name="CardNumber" value="44171"/>
+      <property name="Position" value="71"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Attack"/>
+      <property name="Text">Requirement ([wild] [physical]). 
+Max 2 per deck.
+&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): Take 2 damage → draw 3 cards and deal X damage to an enemy, where X is the combined printed resource cost of those cards.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Red Dagger" id="65becd33-a610-4313-9d2f-27670e044172">
+      <property name="CardNumber" value="44172"/>
+      <property name="Position" value="72"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Champion"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; : Place 1 acceleration token on Red Dagger. (Limit once per phase.) 
+&lt;b&gt;Interrupt&lt;/b&gt;: When Red Dagger attacks, resolve this attack X times, where X is the number of acceleration tokens in play.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Starling " id="65becd33-a610-4313-9d2f-27670e044173">
+      <property name="CardNumber" value="44173"/>
+      <property name="Position" value="73"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Aerial. Champion."/>
+      <property name="Text">Fragile  (&lt;i&gt;Attacks against this character gain overkill.&lt;/i&gt;).
+&lt;b&gt;Hero Response&lt;/b&gt;: After Starling takes 5 or more damage from an attack, your hero gains +1 ATK until the end of the game.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="In The Wings" id="65becd33-a610-4313-9d2f-27670e044174">
+      <property name="CardNumber" value="44174"/>
+      <property name="Position" value="74"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Aerial. Preparation."/>
+      <property name="Text">Max 2 per deck.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When the villain attacks, if your identity has the AERIAL trait, give the villain 1 additional boost card for that activation and discard this card → put the topmost ally in your discard pile into play. Declare it the defender for that attack. Then, confuse the villain.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Multiverse Shenanigans" id="65becd33-a610-4313-9d2f-27670e044175">
+      <property name="CardNumber" value="44175"/>
+      <property name="Position" value="75"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="2"/>
+      <property name="Text">Setup. 
+Max 1 per deck. 
+&lt;b&gt;Forced Interrupt&lt;/b&gt; : When the game begins, choose any 3 different non-determination cards from your collection and set them aside. 
+&lt;b&gt;Action&lt;/b&gt;: Exhaust this card and deal yourself a facedown encounter card → search the set-aside area for 1 of these chosen cards and add it to your hand.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Gorilla-Man" id="65becd33-a610-4313-9d2f-27670e044176">
+      <property name="CardNumber" value="44176"/>
+      <property name="Position" value="76"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Hero For Hire"/>
+      <property name="Text">Gorilla-Man ignores Max 1 per ally. text on upgrades.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Hit-Monkey" id="65becd33-a610-4313-9d2f-27670e044177">
+      <property name="CardNumber" value="44177"/>
+      <property name="Position" value="77"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="3"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Hero For Hire. S.H.I.E.L.D."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When Hit-Monkey would take any amount of consequential damage, look at the top card of the encounter deck → prevent 1 of that damage for each boost and star icon looked at this way.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Cumbersome Enhancements" id="65becd33-a610-4313-9d2f-27670e044178">
+      <property name="CardNumber" value="44178"/>
+      <property name="Position" value="78"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech"/>
+      <property name="Text">Play only if your hero has a printed hand size of 4 or fewer. 
+Max 1 per deck.
+Your hero gets +2 hand size.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the villain phase begins, choose to discard this card or place 1 acceleration token here.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Borrowed Gear" id="65becd33-a610-4313-9d2f-27670e044179">
+      <property name="CardNumber" value="44179"/>
+      <property name="Position" value="79"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value=""/>
+      <property name="Text">Attach to an ally. Max 1 per deck. 
+Attached ally gets +1 hit point for each upgrade attached to them (to a maximum of +4 hit points). 
+&lt;b&gt;Forced Response&lt;/b&gt;: After Borrowed Gear enters play, attach an ally from your discard pile facedown here → attached ally gains that facedown allyâ€™s TRAITS.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Masacre" id="65becd33-a610-4313-9d2f-27670e044180">
+      <property name="CardNumber" value="44180"/>
+      <property name="Position" value="80"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Hero For Hire"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Deal 1 damage to Masacre → place 1 tactic counter on each Merc Squad you control. (Limit once per round.)
+&lt;b&gt;Hero Response&lt;/b&gt;: After Masacare enters play, search your deck and discard pile for a copy of the Merc Squad support and put it into play.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Sword Training" id="65becd33-a610-4313-9d2f-27670e044181">
+      <property name="CardNumber" value="44181"/>
+      <property name="Position" value="81"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Training"/>
+      <property name="Text">Attach to an X-MEN ally. 
+Max 1 TRAINING upgrade per ally.
+&lt;b&gt;Response&lt;/b&gt;: After attached ally makes an attack that removes a tough status card from an enemy, stun that enemy.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Tough Call" id="65becd33-a610-4313-9d2f-27670e044182">
+      <property name="CardNumber" value="44182"/>
+      <property name="Position" value="82"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Take 2 damage → give a character a tough status card. If a tough status card was given to an enemy this way, heal 4 damage from your hero.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Excessive Force" id="65becd33-a610-4313-9d2f-27670e044183">
+      <property name="CardNumber" value="44183"/>
+      <property name="Position" value="83"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): Deal X damage to an enemy. This attack gains piercing. If that enemy is defeated by this attack, draw X cards. Then, if this attack removed a tough status card, draw 2 additional cards.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Off the Cuff" id="65becd33-a610-4313-9d2f-27670e044184">
+      <property name="CardNumber" value="44184"/>
+      <property name="Position" value="84"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic"/>
+      <property name="Text">Requirement ([wild]). 
+&lt;b&gt;Hero Action&lt;/b&gt;: Search your deck, hand, and discard pile for a copy of the Spontaneity upgrade and put it into play. If it is already in play, deal 1 damage to a character. Then, place a status card on that character.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="ForgetMeNot" id="65becd33-a610-4313-9d2f-27670e044185">
+      <property name="CardNumber" value="44185"/>
+      <property name="Position" value="85"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Force. X-men."/>
+      <property name="Text">ForgetMeNot does not count against your ally limit. 
+&lt;b&gt;Response&lt;/b&gt;: After you take damage from a Determination  card, deal 1 damage to ForgetMeNot  → heal 2 damage from your identity.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Aggressively Disarmed" id="65becd33-a610-4313-9d2f-27670e044186">
+      <property name="CardNumber" value="44186"/>
+      <property name="Position" value="86"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition"/>
+      <property name="Text">Play under any playerâ€™s control. 
+Max 1 per player. 
+While your heroâ€™s remaining hit points are less than half your heroâ€™s starting hit points, your hero gets -1 hand size and +2 ATK.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Get â€˜Em, Boom-Boom!" id="65becd33-a610-4313-9d2f-27670e044187">
+      <property name="CardNumber" value="44187"/>
+      <property name="Position" value="87"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower. Tactic."/>
+      <property name="Text">Fleeting. (&lt;i&gt;This card must be discarded from play at the end of the phase.&lt;/i&gt;)
+&lt;b&gt;Hero Response&lt;/b&gt;: After you take damage, attach to an enemy. 
+&lt;b&gt;Interrupt&lt;/b&gt;: When this card would be discarded from attached enemy, deal 1 damage to each enemy in play.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="False Security" id="65becd33-a610-4313-9d2f-27670e044188">
+      <property name="CardNumber" value="44188"/>
+      <property name="Position" value="88"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Psionic. Tactic."/>
+      <property name="Text">Attach to a minion and give that minion a tough status card.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a tough status card is discarded from attached minion, discard False Security → ready a friendly character.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Concatenate" id="65becd33-a610-4313-9d2f-27670e044189">
+      <property name="CardNumber" value="44189"/>
+      <property name="Position" value="89"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Attack. Psionic."/>
+      <property name="Text">Attach to an enemy.
+&lt;b&gt;Hero Interrupt&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): When you attack attached enemy, discard each TACTIC upgrade attached to them → deal 2 damage to that enemy for each upgrade discarded this way. This attack gains overkill.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Psychic Crowd Control" id="65becd33-a610-4313-9d2f-27670e044190">
+      <property name="CardNumber" value="44190"/>
+      <property name="Position" value="90"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Psionic"/>
+      <property name="Text">Play only if your identity has the PSIONIC trait. 
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust your identity → choose to either confuse each minion engaged with you or deal 2 damage to each confused enemy.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Determined Energy" id="65becd33-a610-4313-9d2f-27670e044191">
+      <property name="CardNumber" value="44191"/>
+      <property name="Position" value="91"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="resource"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value=""/>
+      <property name="Text">Max 2 per deck.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you spend this card to play a TACTIC card, give an ally and minion each a tough status card.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="X-23" id="65becd33-a610-4313-9d2f-27670e044192">
+      <property name="CardNumber" value="44192"/>
+      <property name="Position" value="92"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="X-Force. X-men."/>
+      <property name="Text">Reckless. (&lt;i&gt;After this character enters play, place 1 threat on each scheme.&lt;/i&gt;)
+[star]  &lt;b&gt;Forced Response&lt;/b&gt;: After X-23 thwarts, heal 2 damage from her.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Lightning Rod" id="65becd33-a610-4313-9d2f-27670e044193">
+      <property name="CardNumber" value="44193"/>
+      <property name="Position" value="93"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic"/>
+      <property name="Text">Attach to a minion. Max 1 per minion. 
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When a card from the standard encounter set is revealed, discard Lightning Rod → deal 6 damage to attached minion. Excess damage from this ability is dealt to the character with the most cards attached to them.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Diversion Skill" id="65becd33-a610-4313-9d2f-27670e044194">
+      <property name="CardNumber" value="44194"/>
+      <property name="Position" value="94"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Skill"/>
+      <property name="Text">Uses (3 diversion counters). Max 1 per player. 
+&lt;b&gt;Interrupt&lt;/b&gt;: When you take damage from an attack, take 1 additional damage and remove 1 diversion counter from here → draw 1 card.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Last Legs" id="65becd33-a610-4313-9d2f-27670e044195">
+      <property name="CardNumber" value="44195"/>
+      <property name="Position" value="95"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Thwart."/>
+      <property name="Text">Play only if your identity has the X-MEN trait.
+&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack/thwart&lt;/i&gt;): Discard each X-MEN ally you control → remove X threat from among schemes in play and deal X damage among enemies in play, where X is equal to the number of remaining hit points from allies discarded this way.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Purple Peril" id="65becd33-a610-4313-9d2f-27670e044196" size="PlayerSchemeCard">
+      <property name="CardNumber" value="44196"/>
+      <property name="Position" value="96"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Attribute" value=""/>
+      <property name="Text">Victory 0. 
+Only the owner of this card can remove threat from here.
+&lt;b&gt;Hero Response&lt;/b&gt;: After this card is placed in the victory display, discard X cards from the top of your deck, and add each Determination card discarded this way to your hand (to a maximum of 5), where X is the number of cards in the victory display.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Timeslide" id="65becd33-a610-4313-9d2f-27670e044197">
+      <property name="CardNumber" value="44197"/>
+      <property name="Position" value="97"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic. Tech."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After a card you control is defeated, choose one:
+-Play a Determination card from the victorydisplay with a printed cost of X for free,where X is less than the number of friendlycards you have placed in the victory display.
+-Place it in the victory display and draw 1 card.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Bedlam" id="65becd33-a610-4313-9d2f-27670e044198">
+      <property name="CardNumber" value="44198"/>
+      <property name="Position" value="98"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Force"/>
+      <property name="Text">Victory 0.
+&lt;b&gt;Hero Resource&lt;/b&gt;: Defeat Bedlam → generate [energy] [mental] [physical] resources.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Marrow" id="65becd33-a610-4313-9d2f-27670e044199">
+      <property name="CardNumber" value="44199"/>
+      <property name="Position" value="99"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Force. X-Men."/>
+      <property name="Text">Reckless. (&lt;i&gt;After this character enters play, place 1 threat on each scheme.&gt;/i&gt;)
+[STAR] &lt;b&gt;Interrupt&lt;/b&gt;: When Marrow attacks, discard the top card of your deck. If an [energy] or [physical] resource was discarded this way, this attack gains piercing and ranged.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Archangel" id="65becd33-a610-4313-9d2f-27670e044200">
+      <property name="CardNumber" value="44200"/>
+      <property name="Position" value="100"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="0"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Aerial. X-Force."/>
+      <property name="Text">Alias. (&lt;i&gt;If you control a card with a matching subtitle, discard it and play this card for free.&lt;/i&gt;) 
+Piercing. Reckless  (&lt;i&gt;After this character enters play, place 1 threat on each scheme.&lt;/i&gt;).
+&lt;b&gt;Response&lt;/b&gt;: After an AERIAL character uses a basic power, exhaust Archangel and deal 1 damage to him → ready that character.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Darkhawk" id="65becd33-a610-4313-9d2f-27670e044201">
+      <property name="CardNumber" value="44201"/>
+      <property name="Position" value="101"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Aerial. Android."/>
+      <property name="Text">[star] Enters play with a configuration counter on his ATK. Darkhawk gets +2 to the power with a counter on it.
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Darkhawk → move the configuration counter onto his other basic power.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="A Dangerous Game" id="65becd33-a610-4313-9d2f-27670e044202" size="PlayerSchemeCard">
+      <property name="CardNumber" value="44202"/>
+      <property name="Position" value="102"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="BaseThreat" value="1"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Attribute" value=""/>
+      <property name="Text">You cannot move more than 4 threat to this card per turn.
+&lt;b&gt;Hero Action&lt;/b&gt;: Take up to 4 damage → move that amount of threat from another scheme to here.
+&lt;b&gt;Forced Response&lt;/b&gt;: After threat is placed here, if there is at least 16[per_hero] threat here, deal 16[per_hero]damage to the villain and remove this card from the game.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="In the Line of Fire" id="65becd33-a610-4313-9d2f-27670e044203">
+      <property name="CardNumber" value="44203"/>
+      <property name="Position" value="103"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Aerial. Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): Deal a total of 5 damage divided among characters as you choose. then, each player draws 1 card for each AERIAL character under their control damaged this way.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Divert Attention" id="65becd33-a610-4313-9d2f-27670e044204">
+      <property name="CardNumber" value="44204"/>
+      <property name="Position" value="104"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">Play only if there is a side scheme in the victory display.
+&lt;b&gt;Hero Action&lt;/b&gt;: Move up to 6 threat from a scheme onto other schemes in play divided as evenly as possible.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Venompool" id="65becd33-a610-4313-9d2f-27670e044205">
+      <property name="CardNumber" value="44205"/>
+      <property name="Position" value="105"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Symbiote. X-Force."/>
+      <property name="Text">Alias (&lt;i&gt;If you control a card with a matching subtitle, discard it and play this card for free.&lt;/i&gt;). Venompool gets +1 ATK for each facedown encounter card in front of you (to a maximum of +3 ATK).
+&lt;b&gt;Forced Response&lt;/b&gt;: After Venompool enters play, choose to either place 2 threat on the main scheme or deal yourself a facedown encounter card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Captain Universe" id="65becd33-a610-4313-9d2f-27670e044206">
+      <property name="CardNumber" value="44206"/>
+      <property name="Position" value="106"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Aerial. Cosmic."/>
+      <property name="Text">Alias (&lt;i&gt;If you control a card with a matching subtitle, discard it and play this card for free.&lt;/i&gt;).
+&lt;b&gt;Interrupt&lt;/b&gt;: When Captain Universe would take any amount of consequential damage, reduce that amount by X, where X is the number of facedown encounter cards in front of you.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Zenpool" id="65becd33-a610-4313-9d2f-27670e044207">
+      <property name="CardNumber" value="44207"/>
+      <property name="Position" value="107"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value=""/>
+      <property name="Text">Alias (&lt;i&gt;If you control a card with a matching subtitle, discard it and play this card for free.&lt;/i&gt;).
+&lt;b&gt;Interrupt&lt;/b&gt;:When Zenpool enters play, spend any number of resources. Discard 1 facedown encounter card in front of you for each resource spent this way.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Defy the Future" id="65becd33-a610-4313-9d2f-27670e044208">
+      <property name="CardNumber" value="44208"/>
+      <property name="Position" value="108"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic. Temporal."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Look at the top card of the encounter deck and each facedown encounter card in front of you. You may discard any number of cards looked at this way. Deal yourself 1 facedown encounter card for each card discarded this way.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Phase Shift" id="65becd33-a610-4313-9d2f-27670e044209">
+      <property name="CardNumber" value="44209"/>
+      <property name="Position" value="109"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Mystic. Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Choose a friendly character in any game area (including the mission area) , playerâ€™s deck, or hand → until that character is flipped or enters a discard pile, treat them as if they have an additional printed [wild] resource and a blank text box. (&lt;i&gt;except for TRAITS&lt;/i&gt;)</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Temporal Bubble" id="65becd33-a610-4313-9d2f-27670e044210">
+      <property name="CardNumber" value="44210"/>
+      <property name="Position" value="110"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic. Temporal."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Choose to either discard X cards from your hand and take X damage or deal yourself X facedown encounter cards → ready X cards you control.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Morph" id="65becd33-a610-4313-9d2f-27670e044211">
+      <property name="CardNumber" value="44211"/>
+      <property name="Position" value="111"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="0"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Psionic. X-Men."/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Morphâ€™s text box would be treated as blank, Morph gets +2 THW and +2 ATK until he leaves play.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Spiral" id="65becd33-a610-4313-9d2f-27670e044212">
+      <property name="CardNumber" value="44212"/>
+      <property name="Position" value="112"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Mystic. X-Force."/>
+      <property name="Text">After Spiral enters play, deal yourself 2 facedown encounter cards.&lt;b&gt;Forced Response&lt;/b&gt;: [star] Spiral gets +1 ATK for each facedown card in front of you. She cannot have greater than 6 ATK.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Tabula Rasa" id="65becd33-a610-4313-9d2f-27670e044213">
+      <property name="CardNumber" value="44213"/>
+      <property name="Position" value="113"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic"/>
+      <property name="Text">Attach to a friendly character with a blank text box. (&lt;i&gt;except for TRAITS&lt;/i&gt;)
+&lt;b&gt;Hero Resource&lt;/b&gt;: Exhaust attached character → generate their printed resources for an event.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Blink" id="65becd33-a610-4313-9d2f-27670e044214">
+      <property name="CardNumber" value="44214"/>
+      <property name="Position" value="114"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="PSIONIC. X-MEN."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust Blink and deal 1 damage each to her and your identity  → choose to either ready a LOCATION card or change your form.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Whatever it takes" id="65becd33-a610-4313-9d2f-27670e044215">
+      <property name="CardNumber" value="44215"/>
+      <property name="Position" value="115"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Thwart."/>
+      <property name="Text">Alliance.
+&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack/thwart&lt;/i&gt;): Deal up to 3 damage to an X-MEN character and up to 3 damage to an X-FORCE character → remove X threat from among schemes in play and deal X damage among enemies in play, where X is the total amount of damage taken this way.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Agent Koenig" id="65becd33-a610-4313-9d2f-27670e044216">
+      <property name="CardNumber" value="44216"/>
+      <property name="Position" value="116"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="S.H.I.E.L.D."/>
+      <property name="Text">Fragile. (&lt;i&gt;Attacks against this character gain overkill.&lt;/i&gt;) 
+[star] Agent Koenig enters play with 1 LMD counter on him. While there are 1 or more counters on him, he gets +1 ATK
+&lt;b&gt;interrupt&lt;/b&gt;: when Agent Koenig would be defeated, remove 1 LMD counter from him  → remove all damage from his instead.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Behemoth" id="65becd33-a610-4313-9d2f-27670e044217">
+      <property name="CardNumber" value="44217"/>
+      <property name="Position" value="117"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="6"/>
+      <property name="Attribute" value="S.H.I.E.L.D. vehicle."/>
+      <property name="Text">uses (2 deploy counters). 
+&lt;bAction&lt;/b&gt;: Exhaust The Behemoth, remove 1 deploy counter from it and, discard an ally you control → search your collection or deck for a S.H.I.E.LD ally and put it into play.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Peak" id="65becd33-a610-4313-9d2f-27670e044218">
+      <property name="CardNumber" value="44218"/>
+      <property name="Position" value="118"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="S.W.O.R.D."/>
+      <property name="Text">&lt;b&gt;response&lt;/b&gt;: After you remove an all-purpose counter from a card you control, place it here (to a maimum of 6 counters here).
+&lt;b&gt;Action&lt;/b&gt;: Discard The Peak and 1 card from your hand → deal  damage to the villain and remove 1 thereat from a scheme for each counter discarded this way.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Tech Support" id="65becd33-a610-4313-9d2f-27670e044219">
+      <property name="CardNumber" value="44219"/>
+      <property name="Position" value="119"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="3"/>
+      <property name="Attribute" value="S.H.I.E.L.D. tech."/>
+      <property name="Text">Ues (2 stimulant cunters).
+&lt;b&gt;response&lt;/b&gt;: After you remove an all-purpose coounter from a card you control, exhaust Tech Support and remove a stimulant conter from it → ready a S.H.I.E.L.D. character and a PERSONA support.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Jury Rigged Tech" id="65becd33-a610-4313-9d2f-27670e044220">
+      <property name="CardNumber" value="44220"/>
+      <property name="Position" value="120"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="preparation. Tech."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When a boost card is turned faceup, discard Jury Rigged Tech and the top card of your deck → if that cardâ€™s printed cost is greater than X, where X is the number of icons ([star] and [boost]) on the boost card, place a total of X all-purpose counters on cards you control. Then, discard the boost card.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Radioactive Burst" id="65becd33-a610-4313-9d2f-27670e044221">
+      <property name="CardNumber" value="44221"/>
+      <property name="Position" value="121"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Gamma. Preparation. Technique."/>
+      <property name="Text">You get -1 hit point.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you change form, discard Radioactive Burst → resolve this cardâ€™s &lt;B&gt;Special&lt;/b&gt; ability.
+&lt;b&gt;Special&lt;/b&gt;: Deal damage to an enemy equal to your ATK. If 3 or more damage was dealt this way, stun that enemy.</property>
+      <property name="Unique" value="False"/>
+    </card>
+  </cards>
+</set>

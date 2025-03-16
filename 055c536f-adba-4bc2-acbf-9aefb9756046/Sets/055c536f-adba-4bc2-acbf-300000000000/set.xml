@@ -369,6 +369,50 @@
             <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="hellfire"/>
         </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000093" name="A.I.M. Abduction">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="a.i.m._abduction"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000094" name="A.I.M. Science">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="a.i.m._science"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000095" name="Batroc's Brigade">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="batrocs_brigade"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000096" name="Scientist Supreme">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="scientist_supreme"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000097" name="Gravitational Pull">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="gravitational_pull"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000098" name="Hard Sound">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="hard_sound"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000099" name="Pale Little Spider">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="pale_little_spider"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000100" name="Power of the Atom">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="power_of_the_atom"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000101" name="Supersonic">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="supersonic"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000102" name="The Leaper">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="the_leaper"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000103" name="S.H.I.E.L.D.">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="s.h.i.e.l.d."/>
+        </card>
         <card id="055c536f-adba-4bc2-acbf-300000009001" name="Nemesis: Vulture">
             <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="spider_man_nemesis"/>
@@ -589,11 +633,13 @@
             <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="magneto_nemesis"/>
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009056" name="Nemesis: ">
-            <property name="Owner" value="nick_fury_nemesis"/>
-        </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009057" name="Nemesis: ">
+        <card id="055c536f-adba-4bc2-acbf-300000009056" name="Nemesis: Controller">
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="maria_hill_nemesis"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000009057" name="Nemesis: Orion">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="nick_fury_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009058" name="Nemesis: ">
             <property name="Owner" value="shuri_nemesis"/>

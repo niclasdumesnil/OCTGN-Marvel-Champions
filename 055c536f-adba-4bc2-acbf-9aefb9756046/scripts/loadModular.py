@@ -160,6 +160,25 @@ def recommendedEncounter(group, villainName = ''):
     if villainName == 'En Sabah Nur':
         createCardsFromSet(group, "celestial_tech", "Celestial Tech", True)
         createCardsFromSet(group, "clan_akkaba", "Clan Akkaba", True)
+    if villainName == 'Black Widow':
+        createCardsFromSet(group, "a.i.m._abduction", "A.I.M. Abduction", True)
+        createCardsFromSet(group, "a.i.m._science", "A.I.M. Science", True)
+    if villainName == 'Batroc':
+        createCardsFromSet(group, "a.i.m._science", "A.I.M. Science", True)
+        createCardsFromSet(group, "batrocs_brigade", "Batrocs's Brigade", True)
+    if villainName == 'M.O.D.O.K.':
+        createCardsFromSet(group, "scientist_supreme", "Scientist Supreme", True)
+    if villainName == 'Thunderbolts':
+        thunderboltSelectedModular = dialogBox_Setup(specialDeck(), "encounter_setup", ["Gravitational Pull", "Hard Sound", "Pale Little Spider", "Power of the Atom", "Supersonic", "The Leaper"], "Modular encounter selection", "Select 1 + 1/hero modulars encounters:", min = 2, max = 1 + len(players), isFanmade = False)
+        if thunderboltSelectedModular is None:
+            deleteAllSharedCards()
+            return
+        for card in thunderboltSelectedModular:
+            createCardsFromSet(group, card.Owner, card.name, True)
+        deleteCards(specialDeck())
+    if villainName == 'Baron Zemo':
+        createCardsFromSet(group, "scientist_supreme", "Scientist Supreme", True)
+        createCardsFromSet(group, "s.h.i.e.l.d.", "S.H.I.E.L.D.", True)
     elif len(recommendedModular) > 0:
         recommendedModular = eval(recommendedModular)
         for k, i in recommendedModular.items():

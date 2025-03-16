@@ -65,6 +65,7 @@ Reset the game in order to generate a new deck."""
         if not "view/" in url:
             whisper("Error: Invalid URL.")
             return
+
         aspectCardsList = createAPICards(url, False)
         if not fanmade:
             cardSelected = me.piles["Setup"].top()
@@ -229,6 +230,15 @@ def heroSetup(group=table, x = 0, y = 0):
             showGroup(me.piles['Special'], True)
             me.piles['Special'].visibility = "all"
 
+        #------------------------------------------------------------
+        # moveToTable Hero setup cards
+        #------------------------------------------------------------
+        shift = 0
+        for c in me.Deck:
+            if lookForSetup(c):
+                c.moveToTable(playerX(id)+70+shift,tableLocations['hero'][1])
+                shift += 70
+
 def countHeros(p):
     heros = 0
     for card in table:
@@ -345,12 +355,18 @@ def createAPICards(url, fanmade = False):
     """
     notify("Looking {} for deck.".format(url))
     all_cards = []
+
+    protocol = url.split("://")[0]
+    if "marvelcdb.com/" in str(url):
+        webadress = "marvelcdb.com"
+    else:
+        webadress = url.split("://")[1].split("/")[0]
+
+    deckid = url.split("view/")[1].split("/")[0]
     if "decklist/" in str(url):
-        deckid = url.split("view/")[1].split("/")[0]
-        data, code = webRead("https://marvelcdb.com/api/public/decklist/{}".format(deckid))
+        data, code = webRead("{}://{}/api/public/decklist/{}".format(protocol, webadress, deckid))
     elif "deck/" in str(url):
-        deckid = url.split("view/")[1].split("/")[0]
-        data, code = webRead("https://marvelcdb.com/api/public/deck/{}".format(deckid))
+        data, code = webRead("{}://{}/api/public/deck/{}".format(protocol, webadress, deckid))
     if code != 200:
         whisper("Error retrieving online deck data, please try again.")
         return
@@ -362,6 +378,8 @@ def createAPICards(url, fanmade = False):
             heroCards = queryCard({"Type":"hero", "CardNumber":hero_id}, True)
             heroCard = me.piles["Setup"].create(heroCards[0], 1)
             setupCardModel = queryCard({"Type":"hero_setup", "Owner":heroCard.Owner}, True)
+            if len(setupCardModel) == 0:
+                setupCardModel = queryCard({"Type":"fm_hero_setup", "Owner":heroCard.Owner}, True)
             setupCard = me.Setup.create(setupCardModel[0], 1)
             heroCard.delete()
         chars_to_remove = ['[',']']

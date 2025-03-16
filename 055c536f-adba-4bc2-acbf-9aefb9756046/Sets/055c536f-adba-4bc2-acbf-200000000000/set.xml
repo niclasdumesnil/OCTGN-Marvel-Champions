@@ -257,5 +257,31 @@
             <property name="Owner" value="en_sabah_nur"/>
             <property name="nbModular" value="2"/>
         </card>
+        <card id="055c536f-adba-4bc2-acbf-200000000047" name="Black Widow">
+            <property name="Type" value="villain_setup" />
+            <property name="Owner" value="black_widow_villain"/>
+            <property name="nbModular" value="2"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-200000000048" name="Batroc">
+            <property name="Type" value="villain_setup" />
+            <property name="Owner" value="batroc"/>
+            <property name="nbModular" value="2"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-200000000049" name="M.O.D.O.K.">
+            <property name="Type" value="villain_setup" />
+            <property name="Owner" value="m.o.d.o.k."/>
+            <property name="nbModular" value="1"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-200000000050" name="Thunderbolts">
+            <property name="Type" value="villain_setup" />
+            <property name="Owner" value="thunderbolts"/>
+            <property name="nbModular" value="2"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-200000000051" name="Baron Zemo">
+            <property name="Type" value="villain_setup" />
+            <property name="Owner" value="baron_zemo"/>
+            <property name="nbModular" value="2"/>
+            <property name="mandatoryModular" value="{'s.h.i.e.l.d._executive_board':['S.H.I.E.L.D. Executive Board', 'Encounter', False], 'executive_board_evidence':['Executive Board Evidence', 'Side', False]}"/>
+        </card>
     </cards>
 </set>

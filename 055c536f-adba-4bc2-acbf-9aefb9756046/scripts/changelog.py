@@ -372,5 +372,10 @@ changelog = {
     '0000379': ("0.0.3.79", "23 February 2025", [
         "Hotfix: Fix for the loading method from marvelcdb.com following an API change.",
         "Fix: alternative resource images from Mutant Genesis wasn't loading from marvelcdb."
+        ]),
+    '0000380': ("0.0.3.80", "16 March 2025", [
+        "Agents of Shield expansion added",
+        "Feature: Standard I, II, III and Expert I, II sets can be mixed. That changed the way those sets are selected.",
+        "Fanmade: Determination faction set added."
         ])
 }
