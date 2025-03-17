@@ -230,6 +230,11 @@ def heroSetup(group=table, x = 0, y = 0):
             showGroup(me.piles['Special'], True)
             me.piles['Special'].visibility = "all"
 
+        # Nick Fury
+        if heroPlayed == 'nick_fury':
+            for c in filter(lambda card: card.CardNumber == "50035a", me.Deck):
+                c.moveToTable(playerX(id)+70,tableLocations['hero'][1])
+
         #------------------------------------------------------------
         # moveToTable Hero setup cards
         #------------------------------------------------------------
