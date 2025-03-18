@@ -1412,6 +1412,7 @@ Discard 1 card at random from your hand.</property>
       <property name="CardNumber" value="21100a"/>
       <property name="Position" value="100"/>
       <property name="Quantity" value="1"/>
+      <property name="DefaultMarkerType" value="Damage"/>
       <property name="Type" value="environment"/>
       <property name="Owner" value="tower_defense"/>
       <property name="Attribute" value="Stronghold."/>

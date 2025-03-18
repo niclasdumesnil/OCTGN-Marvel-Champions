@@ -377,5 +377,10 @@ changelog = {
         "Agents of Shield expansion added",
         "Feature: Standard I, II, III and Expert I, II sets can be mixed. That changed the way those sets are selected.",
         "Fanmade: Determination faction set added."
+        ]),
+    '0000382': ("0.0.3.82", "21 March 2025", [
+        "Feature: Added a new way to use correct markers on some cards instead of All Purpose markers by default",
+        "Fix: HP value of Black Widow III villain was incorrect",
+        "Fix: Counters on the Holding Cell cards did not take the number of players into account."
         ])
 }

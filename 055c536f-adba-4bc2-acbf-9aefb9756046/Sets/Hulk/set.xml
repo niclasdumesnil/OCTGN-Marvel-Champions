@@ -248,6 +248,7 @@ Max 1 per player.
       <property name="CardNumber" value="10029"/>
       <property name="Position" value="29"/>
       <property name="Quantity" value="3"/>
+      <property name="DefaultMarkerType" value="Threat"/>
       <property name="Type" value="support"/>
       <property name="Cost" value="3"/>
       <property name="Resource_Physical" value="1"/>

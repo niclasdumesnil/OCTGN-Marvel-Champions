@@ -737,10 +737,16 @@ def addAnyMarker(card, x = 0, y = 0, qty = 1):
 def addMarker(card, x = 0, y = 0, qty = 1):
     mute()
     card.controller = me
-    if card.CardNumber in markerSpecificList:
-        marker, quantity = askMarker()
-        if quantity == 0: return
-        card.markers[marker] += quantity
+    if card.hasProperty("DefaultMarkerType"):
+        if card.DefaultMarkerType == "Any":
+            marker, quantity = askMarker()
+            if quantity == 0: return
+            card.markers[marker] += quantity
+        else:
+            markerName = card.DefaultMarkerType + "Marker"
+            markerKey = globals()[markerName]
+            card.markers[markerKey] += qty
+            notify("{} adds {} {} on {}.".format(me, qty, card.DefaultMarkerType, card))
     elif isScheme([card]):
         card.markers[ThreatMarker] += qty
         notify("{} adds {} Threat on {}.".format(me, qty, card))
@@ -757,7 +763,17 @@ def addMarker(card, x = 0, y = 0, qty = 1):
 def removeMarker(card, x = 0, y = 0, qty = 1):
     mute()
     card.controller = me
-    if isScheme([card]):
+    if card.hasProperty("DefaultMarkerType"):
+        if card.DefaultMarkerType == "Any":
+            marker, quantity = askMarker()
+            if quantity == 0: return
+            card.markers[marker] -= quantity
+        else:
+            markerName = card.DefaultMarkerType + "Marker"
+            markerKey = globals()[markerName]
+            card.markers[markerKey] -= qty
+            notify("{} removes {} {} on {}.".format(me, qty, card.DefaultMarkerType, card))
+    elif isScheme([card]):
         card.markers[ThreatMarker] -= qty
         notify("{} removes {} Threat on {}.".format(me, qty, card))
     elif card.Type in ["hero", "alter_ego", "villain"]:

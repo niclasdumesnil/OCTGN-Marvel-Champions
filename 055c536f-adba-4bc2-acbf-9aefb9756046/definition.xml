@@ -3,7 +3,7 @@
     name="Marvel Champions"
     id="055c536f-adba-4bc2-acbf-9aefb9756046"
     octgnVersion="3.4.389.0"
-    version="0.0.3.81"
+    version="0.0.3.82"
     scriptVersion="3.1.0.2"
     markersize="15"
     tags="OCTGN, Marvel, Champions"
@@ -88,6 +88,7 @@
         <property name="Position" type="String" />
         <property name="Quantity" type="Integer" />
         <property name="DuplicateOf" type="String" />
+        <property name="DefaultMarkerType" type="String" />
         <property name="DefaultSetupPile" type="String" />
         <property name="DefaultDiscardPile" type="String" />
         <property name="nbModular" type="String" />

@@ -258,3 +258,7 @@ def campaignEncounter(villainSet = '', x = 0, y = 0):
         createCardsFromSet(campaignDeck(), "aoa_campaign", "Age of Apocalypse Campaign", True)
         createCardsFromSet(campaignDeck(), "aoa_mission", "Age of Apocalypse Mission", True)
         createCardsFromSet(campaignDeck(), "overseer", "Overseer-Prelates", True)
+
+    if villainSet == "black_widow_villain" or villainSet == "batroc" or villainSet == "m.o.d.o.k." or villainSet == "thunderbolts":
+        createCardsFromSet(campaignDeck(), "s.h.i.e.l.d._executive_board", "S.H.I.E.L.D. Executive Board", True)
+        createCardsFromSet(campaignDeck(), "executive_board_evidence", "Executive Board Evidence", True)

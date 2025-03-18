@@ -551,6 +551,7 @@ Any player may trigger this ability.</property>
       <property name="CardNumber" value="44053"/>
       <property name="Position" value="53"/>
       <property name="Quantity" value="1"/>
+      <property name="DefaultMarkerType" value="Any"/>
       <property name="Faction" value="pool"/>
       <property name="Type" value="upgrade"/>
       <property name="Cost" value="0"/>
@@ -600,6 +601,7 @@ Your hero gets +1 ATK for each [crisis], [acceleration], [amplify], and [hazard]
       <property name="CardNumber" value="44057"/>
       <property name="Position" value="57"/>
       <property name="Quantity" value="1"/>
+      <property name="DefaultMarkerType" value="Any"/>
       <property name="Faction" value="pool"/>
       <property name="Type" value="upgrade"/>
       <property name="Cost" value="0"/>

@@ -1353,6 +1353,7 @@ Your hero gets +1 DEF.</property>
       <property name="CardNumber" value="01098"/>
       <property name="Position" value="98"/>
       <property name="Quantity" value="1"/>
+      <property name="DefaultMarkerType" value="Damage"/>
       <property name="Type" value="attachment"/>
       <property name="Owner" value="rhino"/>
       <property name="Attribute" value="Armor."/>

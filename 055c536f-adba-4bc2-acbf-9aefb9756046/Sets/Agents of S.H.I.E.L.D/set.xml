@@ -419,6 +419,7 @@ If each of your characters has the [[S.H.I.E.L.D.]] trait, this card gains: "&lt
       <property name="CardNumber" value="50035a"/>
       <property name="Position" value="35"/>
       <property name="Quantity" value="1"/>
+      <property name="DefaultMarkerType" value="Threat"/>
       <property name="Faction" value="hero"/>
       <property name="Type" value="upgrade"/>
       <property name="Owner" value="nick_fury"/>
@@ -430,6 +431,7 @@ If each of your characters has the [[S.H.I.E.L.D.]] trait, this card gains: "&lt
         <property name="CardNumber" value="50035b"/>
         <property name="Position" value="35"/>
         <property name="Quantity" value="1"/>
+        <property name="DefaultMarkerType" value="Threat"/>
         <property name="Faction" value="hero"/>
         <property name="Type" value="upgrade"/>
         <property name="Owner" value="nick_fury"/>
@@ -867,7 +869,7 @@ Orion can have any number of tough status cards.
       <property name="Expert" value="True"/>
       <property name="Attack" value="2"/>
       <property name="Scheme" value="3"/>
-      <property name="HP" value="13"/>
+      <property name="HP" value="20"/>
       <property name="HP_Per_Hero" value="True"/>
       <property name="Attribute" value="Spy."/>
       <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 3[per_hero] threat on the main scheme.
@@ -1570,7 +1572,7 @@ If Alert Level is on its [[High]] side, this card gains incite 1.
       <property name="Type" value="environment"/>
       <property name="DefaultSetupPile" value="Side"/>
       <property name="Owner" value="m.o.d.o.k."/>
-      <property name="Text">Enters play with 2[per_hero] lock counters on it.
+      <property name="Text">Enters play with 2 [per_hero] lock counters on it.
 &lt;b&gt;Forced Interrupt&lt;/b&gt;: When the last lock counter is removed from here, flip this card and put Flying Inhuman into play under any player's control.
 &lt;b&gt;Hero Action&lt;/b&gt;: Spend [energy] [energy] resources or 3 resources of any type → remove 1 lock counter from here.</property>
       <alternate name="Flying Inhuman" type="b">
@@ -1600,7 +1602,7 @@ If Alert Level is on its [[High]] side, this card gains incite 1.
       <property name="DefaultSetupPile" value="Side"/>
       <property name="Type" value="environment"/>
       <property name="Owner" value="m.o.d.o.k."/>
-      <property name="Text">Enters play with 2[per_hero] lock counters on it.
+      <property name="Text">Enters play with 2 [per_hero] lock counters on it.
 &lt;b&gt;Forced Interrupt&lt;/b&gt;: When the last lock counter is removed from here, flip this card and put Psionic Inhuman into play under any player's control.
 &lt;b&gt;Hero Action&lt;/b&gt;: Spend [mental] [mental] resources or 3 resources of any type → remove 1 lock counter from here.</property>
       <alternate name="Psionic Inhuman" type="b">
@@ -1630,7 +1632,7 @@ If Alert Level is on its [[High]] side, this card gains incite 1.
       <property name="DefaultSetupPile" value="Side"/>
       <property name="Type" value="environment"/>
       <property name="Owner" value="m.o.d.o.k."/>
-      <property name="Text">Enters play with 2[per_hero] lock counters on it.
+      <property name="Text">Enters play with 2 [per_hero] lock counters on it.
 &lt;b&gt;Forced Interrupt&lt;/b&gt;: When the last lock counter is removed from here, flip this card and put Sarah Garza into play under any player's control.
 &lt;b&gt;Hero Action&lt;/b&gt;: Spend a [wild] resource or 3 resources of any type → remove 1 lock counter from here.</property>
       <alternate name="Sarah Garza" type="b">
@@ -1661,7 +1663,7 @@ If Alert Level is on its [[High]] side, this card gains incite 1.
       <property name="DefaultSetupPile" value="Side"/>
       <property name="Type" value="environment"/>
       <property name="Owner" value="m.o.d.o.k."/>
-      <property name="Text">Enters play with 2[per_hero] lock counters on it.
+      <property name="Text">Enters play with 2 [per_hero] lock counters on it.
 &lt;b&gt;Forced Interrupt&lt;/b&gt;: When the last lock counter is removed from here, flip this card and put Strong Inhuman into play under any player's control.
 &lt;b&gt;Hero Action&lt;/b&gt;: Spend [physical] [physical] resources or 3 resources of any type → remove 1 lock counter from here.</property>
       <alternate name="Strong Inhuman" type="b">
@@ -2946,7 +2948,6 @@ If there are 4 or more secret counters here (3 or more instead in expert mode), 
       <property name="Position" value="185"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
-      <property name="DefaultSetupPile" value="Side"/>
       <property name="Type" value="evidence_means"/>
       <property name="Owner" value="executive_board_evidence"/>
       <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Protection ally and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for a Protection ally and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
@@ -2956,7 +2957,6 @@ If there are 4 or more secret counters here (3 or more instead in expert mode), 
       <property name="Position" value="186"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
-      <property name="DefaultSetupPile" value="Side"/>
       <property name="Type" value="evidence_means"/>
       <property name="Owner" value="executive_board_evidence"/>
       <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Justice ally and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for a Justice ally and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
@@ -2966,7 +2966,6 @@ If there are 4 or more secret counters here (3 or more instead in expert mode), 
       <property name="Position" value="187"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
-      <property name="DefaultSetupPile" value="Side"/>
       <property name="Type" value="evidence_means"/>
       <property name="Owner" value="executive_board_evidence"/>
       <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Aggression ally and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for an Aggression ally and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
@@ -2976,7 +2975,6 @@ If there are 4 or more secret counters here (3 or more instead in expert mode), 
       <property name="Position" value="188"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
-      <property name="DefaultSetupPile" value="Side"/>
       <property name="Type" value="evidence_motive"/>
       <property name="Owner" value="executive_board_evidence"/>
       <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Protection upgrade and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for a Protection upgrade and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
@@ -2986,7 +2984,6 @@ If there are 4 or more secret counters here (3 or more instead in expert mode), 
       <property name="Position" value="189"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
-      <property name="DefaultSetupPile" value="Side"/>
       <property name="Type" value="evidence_motive"/>
       <property name="Owner" value="executive_board_evidence"/>
       <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Justice upgrade and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for a Justice upgrade and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
@@ -2996,7 +2993,6 @@ If there are 4 or more secret counters here (3 or more instead in expert mode), 
       <property name="Position" value="190"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
-      <property name="DefaultSetupPile" value="Side"/>
       <property name="Type" value="evidence_motive"/>
       <property name="Owner" value="executive_board_evidence"/>
       <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Aggression upgrade and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for an Aggression upgrade and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
@@ -3006,7 +3002,6 @@ If there are 4 or more secret counters here (3 or more instead in expert mode), 
       <property name="Position" value="191"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
-      <property name="DefaultSetupPile" value="Side"/>
       <property name="Type" value="evidence_opportunity"/>
       <property name="Owner" value="executive_board_evidence"/>
       <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Protection support and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for a Protection support and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
@@ -3016,7 +3011,6 @@ If there are 4 or more secret counters here (3 or more instead in expert mode), 
       <property name="Position" value="192"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
-      <property name="DefaultSetupPile" value="Side"/>
       <property name="Type" value="evidence_opportunity"/>
       <property name="Owner" value="executive_board_evidence"/>
       <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Justice support and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for a Justice support and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
@@ -3026,7 +3020,6 @@ If there are 4 or more secret counters here (3 or more instead in expert mode), 
       <property name="Position" value="193"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
-      <property name="DefaultSetupPile" value="Side"/>
       <property name="Type" value="evidence_opportunity"/>
       <property name="Owner" value="executive_board_evidence"/>
       <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Each player may add 1 secret counter to a [[Board Member]] environment to search their collection for a different Aggresion support and shuffle it into their deck. Each player may add 1 threat to the main scheme to search their deck for an Aggresion support and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
