@@ -413,6 +413,20 @@
             <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="s.h.i.e.l.d."/>
         </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000104" name="Extreme Risk">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="extreme_risk"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000105" name="Growing Strong">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="growing_strong"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000106" name="Techno">
+            <property name="Owner" value="techno"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000107" name="">
+            <property name="Owner" value=""/>
+        </card>
         <card id="055c536f-adba-4bc2-acbf-300000009001" name="Nemesis: Vulture">
             <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="spider_man_nemesis"/>
@@ -641,10 +655,12 @@
             <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="nick_fury_nemesis"/>
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009058" name="Nemesis: ">
-            <property name="Owner" value="shuri_nemesis"/>
+        <card id="055c536f-adba-4bc2-acbf-300000009058" name="Nemesis: Klaw">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="black_panther_shuri_nemesis"/>
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009059" name="Nemesis: ">
+        <card id="055c536f-adba-4bc2-acbf-300000009059" name="Nemesis: Morlun">
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="silk_nemesis"/>
         </card>
         <card id="055c536f-adba-4bc2-acbf-300000009060" name="Nemesis: ">

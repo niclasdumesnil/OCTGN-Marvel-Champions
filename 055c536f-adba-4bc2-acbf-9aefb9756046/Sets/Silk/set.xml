@@ -1,0 +1,473 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Silk" id="25cf07ae-e8ab-4443-8040-672bd25d635a" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card name="Silk" id="25cf07ae-e8ab-4443-8040-672bd2052001">
+      <property name="CardNumber" value="52001a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="silk"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="3"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Web-Warrior."/>
+      <property name="Text">If there are more than 4 tucked cards here, discard all but 4 of those cards.
+&lt;i&gt;Silk Sense&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you defeat a minion or side scheme, or resolve a treachery card, tuck that card under here from the encounter discard pile.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Cindy Moon" type="b">
+        <property name="CardNumber" value="52001b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="silk"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Genius."/>
+        <property name="Text">If there are more than 4 tucked cards here, discard all but 4 of those cards.
+&lt;b&gt;Action&lt;/b&gt;: Discard a card tucked here → draw 2 cards. (Limit once per round.)</property>
+        <property name="Quote">"Something about this story doesn't add up."</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Smooth as Silk" id="25cf07ae-e8ab-4443-8040-672bd2052002">
+      <property name="CardNumber" value="52002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="silk"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Choose an enemy or scheme in play → discard cards from the top of the encounter deck until a card from the same encounter set as the chosen card is discarded. Tuck that discarded card under Silk.</property>
+    </card>
+    <card name="Swinging Silk Kick" id="25cf07ae-e8ab-4443-8040-672bd2052003">
+      <property name="CardNumber" value="52003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="silk"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Aerial. Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 7 damage to an enemy. You may discard a card tucked under Silk from the same encounter set as that enemy. If you do, this attack deals 2 additional damage and gains overkill.</property>
+    </card>
+    <card name="Wallcrawl" id="25cf07ae-e8ab-4443-8040-672bd2052004">
+      <property name="CardNumber" value="52004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="silk"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 2 threat from a scheme. Choose a scheme. You may discard a card tucked under Silk from the same encounter set as the chosen scheme to remove 3 threat from the chosen scheme.</property>
+    </card>
+    <card name="Get the Scoop" id="25cf07ae-e8ab-4443-8040-672bd2052005" size="PlayerSchemeCard">
+      <property name="CardNumber" value="52005"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Owner" value="silk"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust your identity → remove 2 threat from here. Any player may trigger this ability.
+&lt;b&gt;When Defeated&lt;/b&gt;: The Cindy Moon player looks at the top 2 cards of the encounter deck and tucks 1 of those cards under their identity.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Albert Moon" id="25cf07ae-e8ab-4443-8040-672bd2052006">
+      <property name="CardNumber" value="52006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="silk"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Persona."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Albert Moon → choose:
+• Tuck the top card of the encounter deck under Cindy Moon.
+• Heal 1 damage from Cindy Moon for each card tucked under her.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="J. Jonah Jameson" id="25cf07ae-e8ab-4443-8040-672bd2052007">
+      <property name="CardNumber" value="52007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="silk"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Persona."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust this card → search your deck and discard pile for Get the Scoop and put it into play.
+&lt;b&gt;Action&lt;/b&gt;: Exhaust this card → remove 2 threat from a side scheme.</property>
+      <property name="Quote">"I like you, Analog."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Eidetic Memory" id="25cf07ae-e8ab-4443-8040-672bd2052008">
+      <property name="CardNumber" value="52008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="silk"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When you reveal a card from the same encounter set as a card tucked under your identity, exhaust Eidetic Memory → swap those cards. Reveal the card that had been tucked under Silk instead.</property>
+    </card>
+    <card name="Organic Webbing" id="25cf07ae-e8ab-4443-8040-672bd2052009">
+      <property name="CardNumber" value="52009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="silk"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Silk gets +1 THW.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Organic Webbing and discard a card tucked under Silk → ready Silk. She gains the [[Aerial]] trait until the end of the round.</property>
+    </card>
+    <card name="Outwit" id="25cf07ae-e8ab-4443-8040-672bd2052010">
+      <property name="CardNumber" value="52010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="silk"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When Silk makes a basic thwart, exhaust Outwit → for this thwart she gets +1 THW for each card tucked under her from the same encounter set as the thwarted scheme.</property>
+    </card>
+    <card name="Spider Claws" id="25cf07ae-e8ab-4443-8040-672bd2052011">
+      <property name="CardNumber" value="52011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="silk"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When Silk makes a basic attack, exhaust Spider Claws → for this attack she gets +1 ATK for each card tucked under her from the same encounter set as the attacked enemy. This attack gains piercing.</property>
+    </card>
+    <card name="Spider Reflexes" id="25cf07ae-e8ab-4443-8040-672bd2052012">
+      <property name="CardNumber" value="52012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="silk"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When Silk defends, exhaust Spider Reflexes → for this attack she gets +1 DEF for each card tucked under her from the same encounter set as the attacking enemy. After this attack, tuck the top card of the encounter discard pile under Silk.</property>
+    </card>
+    <card name="Scarlet Spider" id="25cf07ae-e8ab-4443-8040-672bd2052013">
+      <property name="CardNumber" value="52013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Web-Warrior."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When another [[Web-Warrior]] character would take any amount of damage, Scarlet Spider takes that damage instead.</property>
+      <property name="Quote">"Roses are red, spiders are two,
+One comes in scarlet, the other in blue!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Spider-Byte" id="25cf07ae-e8ab-4443-8040-672bd2052014">
+      <property name="CardNumber" value="52014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Web-Warrior."/>
+      <property name="Text">Reduce the cost to play Spider-Byte by 1 for each [[Tech]] card you control.</property>
+      <property name="Quote">"I'm just your friendly virtual reality webslinger!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Not Today!" id="25cf07ae-e8ab-4443-8040-672bd2052015">
+      <property name="CardNumber" value="52015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Defense."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(defense)&lt;/i&gt;: When your hero defends against an attack, it gets +2 DEF for that attack. If you take no damage from that attack, remove 2 threat from a scheme.</property>
+    </card>
+    <card name="&quot;Stop Hitting Yourself&quot;" id="25cf07ae-e8ab-4443-8040-672bd2052016">
+      <property name="CardNumber" value="52016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: After you defend against an enemy attack and take no damage, deal damage to that enemy equal to your DEF for that attack.</property>
+    </card>
+    <card name="Dr. Sinclair" id="25cf07ae-e8ab-4443-8040-672bd2052017">
+      <property name="CardNumber" value="52017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Persona. Therapist."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Dr. Sinclair and spend a [mental] resource → heal damage from your alter-ego equal to your REC. You may discard 1 status card from your identity. Any player may trigger this ability.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Energy Shield" id="25cf07ae-e8ab-4443-8040-672bd2052018">
+      <property name="CardNumber" value="52018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Item. Tech."/>
+      <property name="Text">Attach to a character. Max 1 per character.
+&lt;b&gt;Interrupt&lt;/b&gt;: When attached character would take any amount of damage, spend X [energy] resources → prevent X of that damage.</property>
+    </card>
+    <card name="Ready for a Fight" id="25cf07ae-e8ab-4443-8040-672bd2052019">
+      <property name="CardNumber" value="52019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Preparation."/>
+      <property name="Text">Requirement ([physical]). Max 1 per player.
+&lt;b&gt;Interrupt&lt;/b&gt;: When an enemy would scheme, discard Ready for a Fight → change to hero form. That enemy attacks you instead.</property>
+    </card>
+    <card name="Stun Gun" id="25cf07ae-e8ab-4443-8040-672bd2052020">
+      <property name="CardNumber" value="52020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">Restricted. Uses (2 charge counters).
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Stun Gun and remove 1 or 2 charge counters from it → if you removed:
+• 1 charge counter, stun a minion.
+• 2 charge counters, stun the villain.</property>
+    </card>
+    <card name="Madame Web" id="25cf07ae-e8ab-4443-8040-672bd2052021">
+      <property name="CardNumber" value="52021"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Web-Warrior."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Madame Web enters play, look at the top X cards of the encounter deck, where X is the number of [[Web-Warrior]] cards you control. You may discard 1 card looked at this way and put the rest back in any order.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Investigative Journalism" id="25cf07ae-e8ab-4443-8040-672bd2052024">
+      <property name="CardNumber" value="52024"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">Team-Up (Cindy Moon and Peter Parker). Max 1 per deck.
+&lt;b&gt;Alter-Ego Interrupt&lt;/b&gt;: When an enemy would scheme, cancel that activation and confuse that enemy.</property>
+    </card>
+    <card name="Spider-Man 2099" id="25cf07ae-e8ab-4443-8040-672bd2052032">
+      <property name="CardNumber" value="52032"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Aerial. Web-Warrior."/>
+      <property name="Text">[star] &lt;b&gt;Response&lt;/b&gt;: After Spider-Man 2099 uses a basic power, return a [[Web-Warrior]] ally in play to its owner's hand.</property>
+      <property name="Quote">"That's me: the Spider-Man of tomorrow, here to save today!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Spider-Woman" id="25cf07ae-e8ab-4443-8040-672bd2052033">
+      <property name="CardNumber" value="52033"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="S.H.I.E.L.D. Web-Warrior."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After a [[Web-Warrior]] ally &lt;i&gt;(including this one)&lt;/i&gt; enters play, deal 1 damage to an enemy.</property>
+      <property name="Quote">"Everyone should see what's about to happen next!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Quick Quip" id="25cf07ae-e8ab-4443-8040-672bd2052034">
+      <property name="CardNumber" value="52034"/>
+      <property name="Position" value="34"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">Requirement ([mental]).
+&lt;b&gt;Hero Action&lt;/b&gt;: Deal 1 damage to a [[Web-Warrior]] character you control → place a total of 2 confused status cards on up to 2 enemies.</property>
+      <property name="Quote">"We got more tentacles than a sushi bar!" —Spider-Man</property>
+    </card>
+    <card name="Silk Sense Overload" id="25cf07ae-e8ab-4443-8040-672bd2052028" size="EncounterCard">
+      <property name="CardNumber" value="52028"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="silk"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Cindy Moon player.&lt;/i&gt;&lt;/b&gt;</property>
+    </card>
+    <card name="Morlun" id="25cf07ae-e8ab-4443-8040-672bd2052029" size="EncounterCard">
+      <property name="CardNumber" value="52029"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="silk_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Elite. Inheritor."/>
+      <property name="Text">[star] Morlun gets +1 SCH and +1 ATK for each encounter card tucked under each identity.
+&lt;b&gt;When Defeated&lt;/b&gt;: Discard each copy of Hunting the Spider-Bride tucked under each identity.&lt;/b&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Great Hunt" id="25cf07ae-e8ab-4443-8040-672bd2052030" size="SchemeCard">
+      <property name="CardNumber" value="52030"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="silk_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 additional threat here for each card tucked under each identity.</property>
+      <property name="Quote">"There you are. The spinner at the center of the web. It's time. The Great Hunt begins." —Morlun</property>
+    </card>
+    <card name="Hunting the Spider-Bride" id="25cf07ae-e8ab-4443-8040-672bd2052031" size="EncounterCard">
+      <property name="CardNumber" value="52031"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="silk_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Surge.
+&lt;b&gt;When Revealed&lt;/b&gt;: If you have 4 cards tucked under your identity, discard 1 of those cards at random. Tuck this card under your identity.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a player card effect discards this card from under an identity, that identity takes 2 damage.</property>
+    </card>
+    <card name="Atlas" id="25cf07ae-e8ab-4443-8040-672bd2052035" size="EncounterCard">
+      <property name="CardNumber" value="52035"/>
+      <property name="Position" value="35"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="growing_strong"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="4"/>
+      <property name="HP" value="18"/>
+      <property name="Attribute" value="Elite. Thunderbolt."/>
+      <property name="Text">Villainous. Victory 1.
+[star] Atlas gets +2 hit points for each growth counter on him.
+&lt;b&gt;Forced Response&lt;/b&gt;: After the villain phase ends, place 1 growth counter on Atlas.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Grow Invulnerable" id="25cf07ae-e8ab-4443-8040-672bd2052036" size="SchemeCard">
+      <property name="CardNumber" value="52036"/>
+      <property name="Position" value="36"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="growing_strong"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 additional threat here for each growth counter on Atlas.
+&lt;b&gt;If Atlas has 10 or more growth counters on him, the players lose the game.&lt;/b&gt;</property>
+    </card>
+    <card name="Growing Strong" id="25cf07ae-e8ab-4443-8040-672bd2052037" size="EncounterCard">
+      <property name="CardNumber" value="52037"/>
+      <property name="Position" value="37"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="growing_strong"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Find Atlas and reveal him. &lt;i&gt;(If he is already in play, he engages you.)&lt;/i&gt; Atlas activates against you. If no enemy activated this way, this card gains surge.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Give the activating enemy a tough status card.</property>
+    </card>
+    <card name="Titanic Proportions" id="25cf07ae-e8ab-4443-8040-672bd2052038" size="EncounterCard">
+      <property name="CardNumber" value="52038"/>
+      <property name="Position" value="38"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="growing_strong"/>
+      <property name="Boost" value="1"/>
+    </card>
+  </cards>
+</set>

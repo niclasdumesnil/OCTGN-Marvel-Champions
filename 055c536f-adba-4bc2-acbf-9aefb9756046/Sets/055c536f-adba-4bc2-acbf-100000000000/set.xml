@@ -230,9 +230,11 @@
             <property name="Owner" value="nick_fury" />
         </card>
         <card id="055c536f-adba-4bc2-acbf-100000000058" name="Black Panther: Shuri">
-            <property name="Owner" value="shuri" />
+            <property name="Type" value="hero_setup" />
+            <property name="Owner" value="black_panther_shuri" />
         </card>
         <card id="055c536f-adba-4bc2-acbf-100000000059" name="Silk">
+            <property name="Type" value="hero_setup" />
             <property name="Owner" value="silk" />
         </card>
         <card id="055c536f-adba-4bc2-acbf-100000000060" name="Falcon">

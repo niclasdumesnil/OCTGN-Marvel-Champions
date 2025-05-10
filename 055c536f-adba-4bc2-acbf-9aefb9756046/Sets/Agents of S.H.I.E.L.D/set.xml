@@ -1296,6 +1296,7 @@ Each [[A.I.M.]] minion gains 1 acceleration icon ([acceleration]).</property>
       <property name="CardNumber" value="50090a"/>
       <property name="Position" value="90"/>
       <property name="Quantity" value="1"/>
+      <property name="DefaultMarkerType" value="Threat"/>
       <property name="Faction" value="encounter"/>
       <property name="Type" value="environment"/>
       <property name="Owner" value="batroc"/>
@@ -1307,6 +1308,7 @@ Each [[A.I.M.]] minion gains 1 acceleration icon ([acceleration]).</property>
         <property name="CardNumber" value="50090b"/>
         <property name="Position" value="90"/>
         <property name="Quantity" value="1"/>
+        <property name="DefaultMarkerType" value="Threat"/>
         <property name="Faction" value="encounter"/>
         <property name="Type" value="environment"/>
         <property name="Owner" value="batroc"/>
@@ -1796,6 +1798,7 @@ M.O.D.O.K. gets +5 hit points.
       <property name="CardNumber" value="50117"/>
       <property name="Position" value="117"/>
       <property name="Quantity" value="1"/>
+      <property name="DefaultMarkerType" value="Damage"/>
       <property name="Faction" value="encounter"/>
       <property name="Type" value="attachment"/>
       <property name="Owner" value="m.o.d.o.k."/>
