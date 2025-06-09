@@ -20,11 +20,10 @@ if os.path.exists(sets_base_dir):
         for name in dirs:
             os.rmdir(os.path.join(root, name))
 
-
 # Créer les sous-répertoires pour chaque pack_octgn_id
 pack_ids = set(card["pack_octgn_id"] for card in data)
 for pack_id in pack_ids:
-    pack_dir = os.path.join(sets_base_dir, pack_id, "Cards")  # Ajoute le sous-répertoire "cards"
+    pack_dir = os.path.join(sets_base_dir, pack_id, "Cards")
     os.makedirs(pack_dir, exist_ok=True)
 
 # Copier et renommer les images
@@ -37,15 +36,9 @@ for card in data:
     if not octgn_id or octgn_id == "0":
         continue
 
-    # Chercher l'image source (jpg ou png), en ajoutant un "." avant la lettre finale de card_id si besoin
-    match = re.match(r"^(.*?)([a-zA-Z])$", card_id)
-    if match:
-        card_id_filename = f"{match.group(1)}.{match.group(2)}"
-    else:
-        card_id_filename = card_id
-
-    src_jpg = os.path.join(images_src_dir, f"{card_id_filename}.jpg")
-    src_png = os.path.join(images_src_dir, f"{card_id_filename}.png")
+    # Chercher l'image source (jpg ou png) : le nom d'origine est card_id (ex: 14001a.jpg)
+    src_jpg = os.path.join(images_src_dir, f"{card_id}.jpg")
+    src_png = os.path.join(images_src_dir, f"{card_id}.png")
     if os.path.exists(src_jpg):
         src_img = src_jpg
         ext = ".jpg"
@@ -55,8 +48,12 @@ for card in data:
     else:
         continue
 
-    # Le nom cible est toujours octgn_id + extension
-    new_name = f"{octgn_id}{ext}"
+    # Le nom cible : si card_id se termine par une lettre, ajouter ".<lettre>" avant l'extension
+    match = re.match(r"^(.*?)([a-zA-Z])$", card_id)
+    if match:
+        new_name = f"{octgn_id}.{match.group(2)}{ext}"
+    else:
+        new_name = f"{octgn_id}{ext}"
 
     dest_dir = os.path.join(sets_base_dir, pack_id, "Cards")
     dest_img = os.path.join(dest_dir, new_name)
