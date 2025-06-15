@@ -3,12 +3,20 @@ import os
 
 output_file = "database_images.json"
 packs_file = r"C:\github\marvelsdb_fanmade_data\packs.json"
+packs_fanmade_file = r"C:\github\marvelsdb_fanmade_data\packs_fanmade.json"
 input_dir = r"C:\github\marvelsdb_fanmade_data\pack"
 
-# Charge les données des packs pour faire la correspondance
+# Charge les données des packs officiels
 with open(packs_file, encoding="utf-8") as pf:
     packs_data = json.load(pf)
-    packs_dict = {pack["code"]: pack for pack in packs_data}
+
+# Charge les données des packs fanmade
+with open(packs_fanmade_file, encoding="utf-8") as pfm:
+    packs_fanmade_data = json.load(pfm)
+
+# Fusionne les deux listes de packs
+all_packs_data = packs_data + packs_fanmade_data
+packs_dict = {pack["code"]: pack for pack in all_packs_data}
 
 cards = []
 for filename in os.listdir(input_dir):

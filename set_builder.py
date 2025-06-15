@@ -4,7 +4,7 @@ import os
 from os import path
 import argparse
 
-runFile = 'mystique_by_merlin'
+runFile = 'yondu_by_hax'
 print(f'fm_{runFile}')  # Doit afficher fm_mystique_by_merlin
 xmlSet = None
 packName = None
@@ -73,7 +73,7 @@ def createXmlCards(fromFile):
             extra_card.set('name',runFile)
             prop_type2 = ET.SubElement(extra_card, 'property')
             prop_type2.set('name', 'Type')
-            prop_type2.set('value', 'fm_fm_encounter_setup')
+            prop_type2.set('value', 'fm_encounter_setup')
             prop_owner2 = ET.SubElement(extra_card, 'property')
             prop_owner2.set('name', 'Owner')
             prop_owner2.set('value', runFile + "_nemesis")
@@ -370,6 +370,11 @@ def fillXmlSet(xmlSet, fromFile):
                     buildXmlProps(i, xmlCard)
                 elif i['type_code'] == 'obligation' or i['type_code'] == 'environment' or i['type_code'] == 'attachment' or i['type_code'] == 'minion' or i['type_code'] == 'treachery':
                     xmlCard.set('size', 'EncounterCard')
+                    # Ajout pour obligation : DefaultSetupPile = Nemesis
+                    if i['type_code'] == 'obligation':
+                        defaultSetup = ET.SubElement(xmlCard, 'property')
+                        defaultSetup.set('name', 'DefaultSetupPile')
+                        defaultSetup.set('value', 'Nemesis')
                     buildXmlProps(i, xmlCard)
                 else:
                     buildXmlProps(i, xmlCard)

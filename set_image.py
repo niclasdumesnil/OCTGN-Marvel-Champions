@@ -7,6 +7,7 @@ import re
 json_path = "database_images.json"
 images_src_dir = "mcdb_images"
 sets_base_dir = r"octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets"
+output_file = "output.json"
 
 # Charger les données JSON
 with open(json_path, "r", encoding="utf-8") as f:
@@ -25,6 +26,8 @@ pack_ids = set(card["pack_octgn_id"] for card in data)
 for pack_id in pack_ids:
     pack_dir = os.path.join(sets_base_dir, pack_id, "Cards")
     os.makedirs(pack_dir, exist_ok=True)
+
+cards = []  # Liste pour stocker les cartes traitées
 
 # Copier et renommer les images
 for card in data:
@@ -49,8 +52,11 @@ for card in data:
         continue
 
     # Le nom cible : si card_id se termine par une lettre, ajouter ".<lettre>" avant l'extension
-    match = re.match(r"^(.*?)([a-zA-Z])$", card_id)
-    if match:
+    # Exception : si card_id finit par "a", retirer le "a" et ne pas ajouter de point
+    if card_id.endswith("a"):
+        new_name = f"{octgn_id}{ext}"
+    elif re.match(r"^(.*?)([a-zA-Z])$", card_id):
+        match = re.match(r"^(.*?)([a-zA-Z])$", card_id)
         new_name = f"{octgn_id}.{match.group(2)}{ext}"
     else:
         new_name = f"{octgn_id}{ext}"
@@ -60,6 +66,13 @@ for card in data:
 
     shutil.copy2(src_img, dest_img)
     print(f"Copié {src_img} -> {dest_img}")
+
+    cards.append(card)  # Ajouter la carte à la liste des cartes traitées
+
+print("Nombre de cartes copiées :", len(cards))
+
+with open(output_file, "w", encoding="utf-8") as outfile:
+    json.dump(cards, outfile, ensure_ascii=False, indent=2)
 
 print("Import Terminé.")
 

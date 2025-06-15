@@ -1,0 +1,154 @@
+[
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201301a",
+    "name": "Yondu",
+    "type": "hero",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013001",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201301b",
+    "name": "Yondu Udonta",
+    "type": "alter_ego",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013001",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201302",
+    "name": "Cheap Shot",
+    "type": "event",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013002",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201303",
+    "name": "Fight Dirty",
+    "type": "event",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013003",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201304",
+    "name": "Whistle While You Work",
+    "type": "event",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013004",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201305",
+    "name": "Tough Motherlover",
+    "type": "event",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013005",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201306",
+    "name": "Twirlin' and Whirlin'",
+    "type": "event",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013006",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201307",
+    "name": "Jackpot!",
+    "type": "resource",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013007",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201308",
+    "name": "Ravager Redshirts",
+    "type": "support",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013008",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201309",
+    "name": "Invest",
+    "type": "upgrade",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013009",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201310",
+    "name": "Ravage",
+    "type": "upgrade",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013010",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201311",
+    "name": "Tahlei",
+    "type": "upgrade",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013011",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201312",
+    "name": "Yaka Arrow",
+    "type": "upgrade",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013012",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201313",
+    "name": "Banished",
+    "type": "obligation",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013013",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201314",
+    "name": "Price on Your Head",
+    "type": "side_scheme",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013014",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201315",
+    "name": "Sav'rkk",
+    "type": "minion",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013015",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201316",
+    "name": "Sword-Gun-Arm",
+    "type": "attachment",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013016",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201317",
+    "name": "Hard to Kill",
+    "type": "treachery",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013017",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  },
+  {
+    "pack_code": "yondu_by_hax",
+    "card_id": "201318",
+    "name": "Savage Destruction",
+    "type": "treachery",
+    "octgn_id": "8ed5030f-bb57-4682-aad0-fc5f53013018",
+    "pack_octgn_id": "8ed5030f-bb57-4682-aad0-fc5f5368cc77"
+  }
+]
