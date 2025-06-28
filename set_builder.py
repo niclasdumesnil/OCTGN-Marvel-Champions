@@ -4,7 +4,7 @@ import os
 from os import path
 import argparse
 
-runFile = 'yondu_by_hax'
+runFile = 'mk_by_hax'
 print(f'fm_{runFile}')  # Doit afficher fm_mystique_by_merlin
 xmlSet = None
 packName = None
@@ -53,10 +53,13 @@ def createXmlCards(fromFile):
 
         # Ajout de la carte FanMade en premier si FANMADE est True
         if FANMADE:
-            # Carte FanMade principale
             base_id = packInfo['octgn_id']
             fanmade_id = base_id[:-6] + "000000"
-            bonus_id = base_id[:-6] + "990000"  # <-- id pour la deuxième carte spéciale
+            bonus_id = base_id[:-6] + "990000"
+            # Correction robuste : Owner = set_code (comme toutes les autres cartes)
+            owner_hero = data[0].get('set_code', data[0].get('pack_code', runFile))
+            owner_nemesis = owner_hero + "_nemesis"
+
             fan_card = ET.SubElement(xmlCards, 'card')
             fan_card.set('id', fanmade_id)
             fan_card.set('name', runFile)
@@ -65,18 +68,18 @@ def createXmlCards(fromFile):
             prop_type.set('value', 'fm_hero_setup')
             prop_owner = ET.SubElement(fan_card, 'property')
             prop_owner.set('name', 'Owner')
-            prop_owner.set('value', runFile)
+            prop_owner.set('value', owner_hero)
 
             # Ajout d'une deuxième carte spéciale FanMade avec id se terminant par 990000
             extra_card = ET.SubElement(xmlCards, 'card')
-            extra_card.set('id', bonus_id)  # id = base_id[:-6] + "990000"
-            extra_card.set('name',runFile)
+            extra_card.set('id', bonus_id)
+            extra_card.set('name', runFile)
             prop_type2 = ET.SubElement(extra_card, 'property')
             prop_type2.set('name', 'Type')
             prop_type2.set('value', 'fm_encounter_setup')
             prop_owner2 = ET.SubElement(extra_card, 'property')
             prop_owner2.set('name', 'Owner')
-            prop_owner2.set('value', runFile + "_nemesis")
+            prop_owner2.set('value', owner_nemesis)
 
         return xmlSet
 
@@ -388,7 +391,7 @@ def fillXmlSet(xmlSet, fromFile):
                     if not has_owner:
                         cardOwner = ET.SubElement(xmlCard, 'property')
                         cardOwner.set('name', 'Owner')
-                        cardOwner.set('value', runFile)
+                        cardOwner.set('value', i.get('set_code', packName))
                 if 'back_link' in i.keys():
                     alternateCard = findAlt(data, i['back_link'])
                     cardAlternate = ET.SubElement(xmlCard, 'alternate')
