@@ -1,0 +1,512 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Hunting Season" id="a1825670-a77e-4e37-89e8-9e629bc7892e" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+  <card id="6a1825670-a77e-4e37-89e8-9e629b900001" name="Vermin">
+<property name="Type" value="fm_villain_setup"/>
+<property name="Owner" value="vermin_by_nugget"/>
+<property name="nbModular" value="1"/>
+<property name="recommendedModular" value="{'feral_instincts_by_nugget':['Feral Instincts', 'Encounter', False]}"/>
+</card>
+    
+    <card name="Vermin" id="a1825670-a77e-4e37-89e8-9e629b001001" size="VillainCard">
+      <property name="CardNumber" value="500101"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="0"/>
+      <property name="HP" value="12"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Mutate. Rat."/>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Vermin" id="a1825670-a77e-4e37-89e8-9e629b001002" size="VillainCard">
+      <property name="CardNumber" value="500102"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="14"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Mutate. Rat."/>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Vermin" id="a1825670-a77e-4e37-89e8-9e629b001003" size="VillainCard">
+      <property name="CardNumber" value="500103"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="20"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Mutate. Rat."/>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Rats and More Rats" id="a1825670-a77e-4e37-89e8-9e629b001004" size="SchemeCard">
+      <property name="CardNumber" value="500104a"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+      <property name="Stage" value="1"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Vermin (I) and Vermin (II). &lt;i&gt;Vermin (II) and Vermin (III) in expert mode instead.)&lt;/i&gt; Vermin and Standard Encounter sets. One modular encounter set (recommended: Feral Instincts).
+&lt;b&gt;Setup&lt;/b&gt;: Put the Even More Rats Environment into play . Put a Regular Rats minion into play engaged with each player. Shuffle the encounter deck. Advance to stage 1B.</property>
+      <alternate name="Rats and More Rats" type="b" size="SchemeCard">
+        <property name="CardNumber" value="500104b"/>
+        <property name="Position" value="4"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="vermin_by_nugget"/>
+        <property name="Stage" value="1"/>
+        <property name="BaseThreat" value="1"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="Threat" value="6"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="EscalationThreatFixed" value="False"/>
+      </alternate>
+    </card>
+    <card name="Rats, Rats and More Rats" id="a1825670-a77e-4e37-89e8-9e629b001005" size="SchemeCard">
+      <property name="CardNumber" value="500105a"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+      <property name="Stage" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <alternate name="Rats, Rats and More Rats" type="b" size="SchemeCard">
+        <property name="CardNumber" value="500105b"/>
+        <property name="Position" value="5"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="vermin_by_nugget"/>
+        <property name="Stage" value="2"/>
+        <property name="BaseThreat" value="1"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="Threat" value="8"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="EscalationThreatFixed" value="False"/>
+      </alternate>
+    </card>
+    <card name="Even More Rats" id="a1825670-a77e-4e37-89e8-9e629b001006" size="EncounterCard">
+      <property name="CardNumber" value="500106"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+    </card>
+    <card name="Regular Rats" id="a1825670-a77e-4e37-89e8-9e629b001007" size="EncounterCard">
+      <property name="CardNumber" value="500107"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="4"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="0"/>
+      <property name="Attribute" value="Rat."/>
+    </card>
+    <card name="Feral Rats" id="a1825670-a77e-4e37-89e8-9e629b001008" size="EncounterCard">
+      <property name="CardNumber" value="500108"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="4"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="0"/>
+      <property name="Attribute" value="Rat."/>
+    </card>
+    <card name="Vermin Clone" id="a1825670-a77e-4e37-89e8-9e629b001009" size="EncounterCard">
+      <property name="CardNumber" value="500109"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Mutate. Rat."/>
+    </card>
+    <card name="Swarmed by Rats" id="a1825670-a77e-4e37-89e8-9e629b001010" size="EncounterCard">
+      <property name="CardNumber" value="500110"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+    </card>
+    <card name="Vermin Cloning" id="a1825670-a77e-4e37-89e8-9e629b001011" size="SchemeCard">
+      <property name="CardNumber" value="500111"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+    </card>
+    <card name="Bringer of Plague" id="a1825670-a77e-4e37-89e8-9e629b001012" size="SchemeCard">
+      <property name="CardNumber" value="500112"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+    </card>
+    <card name="A Mischief of Rats" id="a1825670-a77e-4e37-89e8-9e629b001013" size="EncounterCard">
+      <property name="CardNumber" value="500113"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+      <property name="Boost" value="1"/>
+    </card>
+    <card name="Rabid Assault" id="a1825670-a77e-4e37-89e8-9e629b001014" size="EncounterCard">
+      <property name="CardNumber" value="500114"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+      <property name="Boost" value="1"/>
+    </card>
+    <card name="A thousand Bites" id="a1825670-a77e-4e37-89e8-9e629b001015" size="EncounterCard">
+      <property name="CardNumber" value="500115"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="4"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="vermin_by_nugget"/>
+      <property name="Boost" value="1"/>
+    </card>
+    <card name="Feral Instincts" id="a1825670-a77e-4e37-89e8-9e629b001016" size="EncounterCard">
+      <property name="CardNumber" value="500116"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="feral_instincts_by_nugget"/>
+      <property name="Boost" value="1"/>
+    </card>
+    <card name="Primal Strength" id="a1825670-a77e-4e37-89e8-9e629b001017" size="EncounterCard">
+      <property name="CardNumber" value="500117"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="feral_instincts_by_nugget"/>
+      <property name="Boost" value="2"/>
+    </card>
+    <card name="Unleashed Beast" id="a1825670-a77e-4e37-89e8-9e629b001018" size="EncounterCard">
+      <property name="CardNumber" value="500118"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="feral_instincts_by_nugget"/>
+      <property name="Boost" value="1"/>
+    </card>
+    <card name="Cornered Animal" id="a1825670-a77e-4e37-89e8-9e629b001019" size="EncounterCard">
+      <property name="CardNumber" value="500119"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="feral_instincts_by_nugget"/>
+      <property name="Boost" value="1"/>
+    </card>
+    <card name="Scorpion" id="a1825670-a77e-4e37-89e8-9e629b001020" size="VillainCard">
+      <property name="CardNumber" value="500120"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="15"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Scorpion" id="a1825670-a77e-4e37-89e8-9e629b001021" size="VillainCard">
+      <property name="CardNumber" value="500121"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="16"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Scorpion" id="a1825670-a77e-4e37-89e8-9e629b001022" size="VillainCard">
+      <property name="CardNumber" value="500122"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="villain"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="18"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="J. Jonah Jameson" id="a1825670-a77e-4e37-89e8-9e629b001025">
+      <property name="CardNumber" value="500125"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Attribute" value="Persona"/>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Scorpion's Tail" id="a1825670-a77e-4e37-89e8-9e629b001026" size="EncounterCard">
+      <property name="CardNumber" value="500126"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+    </card>
+    <card name="Tail Armor" id="a1825670-a77e-4e37-89e8-9e629b001027" size="EncounterCard">
+      <property name="CardNumber" value="500127"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Attribute" value="Armor. Tail. Tech."/>
+    </card>
+    <card name="Honed Stinger" id="a1825670-a77e-4e37-89e8-9e629b001028" size="EncounterCard">
+      <property name="CardNumber" value="500128"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Tail. Tech."/>
+    </card>
+    <card name="Tail Laser" id="a1825670-a77e-4e37-89e8-9e629b001029" size="EncounterCard">
+      <property name="CardNumber" value="500129"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Tail. Tech."/>
+    </card>
+    <card name="Coiled Up" id="a1825670-a77e-4e37-89e8-9e629b001030" size="EncounterCard">
+      <property name="CardNumber" value="500130"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+    </card>
+    <card name="Human Fly" id="a1825670-a77e-4e37-89e8-9e629b001031" size="EncounterCard">
+      <property name="CardNumber" value="500131"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="0"/>
+      <property name="Attribute" value="Aerial. Mutate."/>
+    </card>
+    <card name="Grizzly" id="a1825670-a77e-4e37-89e8-9e629b001032" size="EncounterCard">
+      <property name="CardNumber" value="500132"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Attribute" value="Criminal. Mutate."/>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Hippo" id="a1825670-a77e-4e37-89e8-9e629b001033" size="EncounterCard">
+      <property name="CardNumber" value="500133"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Criminal. Mutate."/>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Luring Out Prey" id="a1825670-a77e-4e37-89e8-9e629b001034" size="SchemeCard">
+      <property name="CardNumber" value="500134"/>
+      <property name="Position" value="34"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Boost" value="1"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+    </card>
+    <card name="A Mess of Thing" id="a1825670-a77e-4e37-89e8-9e629b001035" size="SchemeCard">
+      <property name="CardNumber" value="500135"/>
+      <property name="Position" value="35"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+    </card>
+    <card name="Tail Enhancements" id="a1825670-a77e-4e37-89e8-9e629b001036" size="EncounterCard">
+      <property name="CardNumber" value="500136"/>
+      <property name="Position" value="36"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+    </card>
+    <card name="Stinger Stab" id="a1825670-a77e-4e37-89e8-9e629b001037" size="EncounterCard">
+      <property name="CardNumber" value="500137"/>
+      <property name="Position" value="37"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Boost" value="1"/>
+    </card>
+    <card name="Restraining Pincers" id="a1825670-a77e-4e37-89e8-9e629b001038" size="EncounterCard">
+      <property name="CardNumber" value="500138"/>
+      <property name="Position" value="38"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+    </card>
+    <card name="Thirst for Revenge" id="a1825670-a77e-4e37-89e8-9e629b001023" size="SchemeCard">
+      <property name="CardNumber" value="510123a"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Stage" value="1"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Scorpion (I) and Scorpion (II). &lt;i&gt;Scorpion (II) and Scorpion (III) in expert mode instead.)&lt;/i&gt; Scorpion and Standard Encounter sets. One modular encounter set (recommended: Feral Instincts).
+&lt;b&gt;Setup&lt;/b&gt;: Put the J. Jonah Jameson suport into play . Put the Scorpion's Tail into play and attach it to Scorpion. Shuffle the encounter deck. Advance to stage 1B.</property>
+      <alternate name="Thirst for Revenge" type="b" size="SchemeCard">
+        <property name="CardNumber" value="510123b"/>
+        <property name="Position" value="23"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="scorpion_by_nugget"/>
+        <property name="Stage" value="1"/>
+        <property name="BaseThreat" value="1"/>
+        <property name="BaseThreatFixed" value="False"/>
+        <property name="Threat" value="6"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Quote">Scorpion wants revenge on J. Jonah Jameson for turning him into the beast that he is today.</property>
+      </alternate>
+    </card>
+    <card name="Vengeful Poursuit" id="a1825670-a77e-4e37-89e8-9e629b001024" size="SchemeCard">
+      <property name="CardNumber" value="510124a"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="scorpion_by_nugget"/>
+      <property name="Stage" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <alternate name="Vengeful Poursuit" type="b" size="SchemeCard">
+        <property name="CardNumber" value="510124b"/>
+        <property name="Position" value="24"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="scorpion_by_nugget"/>
+        <property name="Stage" value="2"/>
+        <property name="BaseThreat" value="0"/>
+        <property name="BaseThreatFixed" value="True"/>
+        <property name="Threat" value="3"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="EscalationThreatFixed" value="False"/>
+      </alternate>
+    </card>
+  </cards>
+</set>
