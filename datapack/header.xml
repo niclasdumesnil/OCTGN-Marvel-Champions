@@ -1,0 +1,51 @@
+<cards>
+    <card id="a1825670-a77e-4e37-89e8-9e629b900001" name="Vermin">
+        <property name="Type" value="fm_villain_setup"/>
+        <property name="Owner" value="vermin_by_nugget"/>
+        <property name="nbModular" value="1"/>
+        <property name="recommendedModular" value="{'feral_instincts_by_nugget':['Feral Instincts', 'Encounter', False]}"/>
+        <property name="mandatoryModular" value="{'the_lodge-campaign_by_nugget':['The Lodge', 'Campaign', False], 'hunter_mode_by_nugget':['Hunter Mode', 'Campaign', False], 'hunt_campaign_by_nugget':['Hunting Season Campaign', 'Campaign', False], 'hunt_campaign_expert_by_nugget':['Hunting Season Campaign Expert', 'Campaign', False] }"/>
+    </card>
+    <card id="a1825670-a77e-4e37-89e8-9e629b900002" name="Scorpion">
+        <property name="Type" value="fm_villain_setup"/>
+        <property name="Owner" value="scorpion_by_nugget"/>
+        <property name="nbModular" value="1"/>
+        <property name="recommendedModular" value="{'feral_instincts_by_nugget':['Feral Instincts', 'Encounter', False]}"/>
+        <property name="mandatoryModular" value="{'the_lodge-campaign_by_nugget':['The Lodge', 'Campaign', False], 'hunter_mode_by_nugget':['Hunter Mode', 'Campaign', False], 'hunt_campaign_by_nugget':['Hunting Season Campaign', 'Campaign', False], 'hunt_campaign_expert_by_nugget':['Hunting Season Campaign Expert', 'Campaign', False] }"/>
+    </card>
+    <card id="a1825670-a77e-4e37-89e8-9e629b900003" name="Lizard">
+        <property name="Type" value="fm_villain_setup"/>
+        <property name="Owner" value="lizard_by_nugget"/>
+        <property name="nbModular" value="1"/>
+        <property name="recommendedModular" value="{'lizard_thralls_by_nugget':['Lizard Thralls', 'Encounter', False]}"/>
+        <property name="mandatoryModular" value="{'the_lodge-campaign_by_nugget':['The Lodge', 'Campaign', False], 'hunter_mode_by_nugget':['Hunter Mode', 'Campaign', False], 'hunt_campaign_by_nugget':['Hunting Season Campaign', 'Campaign', False], 'hunt_campaign_expert_by_nugget':['Hunting Season Campaign Expert', 'Campaign', False] }"/>
+    </card>
+    <card id="a1825670-a77e-4e37-89e8-9e629b900004" name="Vulture">
+        <property name="Type" value="fm_villain_setup"/>
+        <property name="Owner" value="vulture_by_nugget"/>
+        <property name="nbModular" value="1"/>
+        <property name="recommendedModular" value="{'red_vulture_by_nugget':['Red Vulture', 'Encounter', False]}"/>
+        <property name="mandatoryModular" value="{'the_lodge-campaign_by_nugget':['The Lodge', 'Campaign', False], 'hunter_mode_by_nugget':['Hunter Mode', 'Campaign', False], 'hunt_campaign_by_nugget':['Hunting Season Campaign', 'Campaign', False], 'hunt_campaign_expert_by_nugget':['Hunting Season Campaign Expert', 'Campaign', False] }"/>
+    </card>
+    <card id="a1825670-a77e-4e37-89e8-9e629b900005" name="Kraven">
+        <property name="Type" value="fm_villain_setup"/>
+        <property name="Owner" value="kraven_by_nugget"/>
+        <property name="nbModular" value="1"/>
+        <property name="recommendedModular" value="{'savage_six_by_nugget':['Savage Six', 'Encounter', False]}"/>
+        <property name="mandatoryModular" value="{'kraven_trap_by_nugget':['Kraven Trap', 'special', True], 'the_lodge-campaign_by_nugget':['The Lodge', 'Campaign', False], 'hunter_mode_by_nugget':['Hunter Mode', 'Campaign', False], 'hunt_campaign_by_nugget':['Hunting Season Campaign', 'Campaign', False], 'hunt_campaign_expert_by_nugget':['Hunting Season Campaign Expert', 'Campaign', False] }"/>
+    </card>
+    <card id="a1825670-a77e-4e37-89e8-9e629b900007" name="Lizard Thralls">
+        <property name="Type" value="encounter_setup"/>
+        <property name="Owner" value="lizard_thralls_by_nugget"/>
+    </card>
+     <card id="a1825670-a77e-4e37-89e8-9e629b900008" name="Red Vulture">
+        <property name="Type" value="encounter_setup"/>
+        <property name="Owner" value="red_vulture_by_nugge"/>
+    </card>
+     <card id="a1825670-a77e-4e37-89e8-9e629b900009" name="Savage Six">
+        <property name="Type" value="encounter_setup"/>
+        <property name="Owner" value="savage_six_by_nugget"/>
+    </card>
+</cards>
+
+

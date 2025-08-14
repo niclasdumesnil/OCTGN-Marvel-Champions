@@ -5456,6 +5456,126 @@
     "pack_octgn_id": "e09a8f87-88ee-4702-ada2-3ea1e5717e63"
   },
   {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55001a",
+    "name": "Tigra",
+    "type": "hero",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55001b",
+    "name": "Gree Nelson",
+    "type": "alter_ego",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55002",
+    "name": "?",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55003",
+    "name": "Precinct HQ",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55004",
+    "name": "Cat's Head Amulet",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55005",
+    "name": "Sharp Claws",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55006",
+    "name": "Cat-Like Reflexes",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55007",
+    "name": "Hunted",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55008",
+    "name": "Tooth and Claw",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55009",
+    "name": "?",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55010",
+    "name": "Two-Gun Kid",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55012",
+    "name": "Air Cover",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55013",
+    "name": "Aggressive Conditioning",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55016",
+    "name": "Coup de Grâce",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55017",
+    "name": "Savage Strike",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
     "pack_code": "core",
     "card_id": "01001a",
     "name": "Spider-Man",
@@ -13977,6 +14097,254 @@
   },
   {
     "pack_code": "hunting_season_by_nugget",
+    "card_id": "500215",
+    "name": "Rabid Rodents",
+    "type": "environment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001115",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500216",
+    "name": "Sting of the Scorpion",
+    "type": "environment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001116",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500217",
+    "name": "Cold Blooded",
+    "type": "environment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001117",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500218",
+    "name": "Aerial Excellence",
+    "type": "environment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001118",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500219",
+    "name": "Master Trapper",
+    "type": "environment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001119",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500220",
+    "name": "Rocket Raccon",
+    "type": "ally",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001120",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500221",
+    "name": "Old Man Logan",
+    "type": "ally",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001121",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500222",
+    "name": "Black Cat",
+    "type": "ally",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001122",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500223",
+    "name": "Ka-Zar",
+    "type": "ally",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001123",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500224",
+    "name": "Gibbon",
+    "type": "ally",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001124",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500225",
+    "name": "Evade",
+    "type": "event",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001125",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500226",
+    "name": "Taunt",
+    "type": "event",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001126",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500227",
+    "name": "Stead Fast",
+    "type": "event",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001127",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500228",
+    "name": "Finish Them Off",
+    "type": "event",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001128",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500229",
+    "name": "fresh Tracks",
+    "type": "event",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001129",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500230",
+    "name": "Savage Land",
+    "type": "support",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001130",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500231",
+    "name": "Hunting Rifle",
+    "type": "upgrade",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001131",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500232",
+    "name": "Hatchet",
+    "type": "upgrade",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001132",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500233",
+    "name": "Hunterbot",
+    "type": "upgrade",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001133",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500234",
+    "name": "Trap",
+    "type": "upgrade",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001134",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500235",
+    "name": "In Hiding",
+    "type": "upgrade",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001135",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500236",
+    "name": "Vermin",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001136",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500237",
+    "name": "Lizard",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001137",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500238",
+    "name": "Vermin",
+    "type": "ally",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001138",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500239",
+    "name": "Scorpion",
+    "type": "ally",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001139",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500240",
+    "name": "Lizard",
+    "type": "ally",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001140",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500241",
+    "name": "Vulture",
+    "type": "ally",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001141",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500242",
+    "name": "Son of Kraven",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001142",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500243",
+    "name": "Capture",
+    "type": "obligation",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001143",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500244",
+    "name": "Hunted!",
+    "type": "obligation",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001144",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500245",
+    "name": "Poisoned!",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001145",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
     "card_id": "500101",
     "name": "Vermin",
     "type": "villain",
@@ -14169,6 +14537,38 @@
   },
   {
     "pack_code": "hunting_season_by_nugget",
+    "card_id": "500123a",
+    "name": "Thirst for Revenge",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001023",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500123b",
+    "name": "Thirst for Revenge",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001023",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500124a",
+    "name": "Vengeful Poursuit",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001024",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500124b",
+    "name": "Vengeful Poursuit",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001024",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
     "card_id": "500125",
     "name": "J. Jonah Jameson",
     "type": "support",
@@ -14281,34 +14681,682 @@
   },
   {
     "pack_code": "hunting_season_by_nugget",
-    "card_id": "510123a",
-    "name": "Thirst for Revenge",
-    "type": "main_scheme",
-    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001023",
+    "card_id": "500139a",
+    "name": "The Lizard",
+    "type": "villain",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001039",
     "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
   },
   {
     "pack_code": "hunting_season_by_nugget",
-    "card_id": "510123b",
-    "name": "Thirst for Revenge",
-    "type": "main_scheme",
-    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001023",
+    "card_id": "500139b",
+    "name": "Curtis Connor",
+    "type": "villain",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001039",
     "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
   },
   {
     "pack_code": "hunting_season_by_nugget",
-    "card_id": "510124a",
-    "name": "Vengeful Poursuit",
-    "type": "main_scheme",
-    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001024",
+    "card_id": "500140a",
+    "name": "The Lizard",
+    "type": "villain",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001040",
     "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
   },
   {
     "pack_code": "hunting_season_by_nugget",
-    "card_id": "510124b",
-    "name": "Vengeful Poursuit",
+    "card_id": "500140b",
+    "name": "Curtis Connor",
+    "type": "villain",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001040",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500141a",
+    "name": "The Lizard",
+    "type": "villain",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001041",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500141b",
+    "name": "Curtis Connor",
+    "type": "villain",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001041",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500142a",
+    "name": "Using the Mammal Brain",
     "type": "main_scheme",
-    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001024",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001042",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500142b",
+    "name": "Using the Mammal Brain",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001042",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500143a",
+    "name": "Reptile Brain Taking Over",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001043",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500143b",
+    "name": "Reptile Brain Taking Over",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001043",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500144a",
+    "name": "No Humanity Left",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001044",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500144b",
+    "name": "No Humanity Left",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001044",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500145",
+    "name": "Reptilian Rage",
+    "type": "environment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001045",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500146",
+    "name": "Enhanced Lizard Senses",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001046",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500147",
+    "name": "Komodo Claws",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001047",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500148",
+    "name": "Lizard Tail",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001048",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500149",
+    "name": "Alligator Jaws",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001049",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500150",
+    "name": "Ancient Reptilan Brain",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001050",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500151",
+    "name": "Boa Constricted",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001051",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500152",
+    "name": "Iguana Whip",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001052",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500153",
+    "name": "Triggered Transformation",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001053",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500154",
+    "name": "Shed Skin",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001054",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500155",
+    "name": "Iguana",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001055",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500156",
+    "name": "The Chameleon",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001056",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500157",
+    "name": "Reptile Research",
+    "type": "side_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001057",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500158",
+    "name": "Wake Your Inner Lizard",
+    "type": "side_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001058",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500159",
+    "name": "Lizard Thrall",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001059",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500160",
+    "name": "Lizard Thrall",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001060",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500161",
+    "name": "Lizard Thrall",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001061",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500162",
+    "name": "Lizard Thrall",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001062",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500163",
+    "name": "Vulture",
+    "type": "villain",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001063",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500164",
+    "name": "Vulture",
+    "type": "villain",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001064",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500165",
+    "name": "Vulture",
+    "type": "villain",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001065",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500166a",
+    "name": "Aerial Mayhem",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001066",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500166b",
+    "name": "Aerial Mayhem",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001066",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500167",
+    "name": "S.H.I.E.L.D. Wingsuits",
+    "type": "environment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001067",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500168",
+    "name": "Armadillo",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001068",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500169",
+    "name": "White Rabbit",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001069",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500170",
+    "name": "Gibbon",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001070",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500171",
+    "name": "Wing Harness",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001071",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500172",
+    "name": "Metal Talons",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001072",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500173",
+    "name": "Projectil Feathers",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001073",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500174",
+    "name": "Forcefully Elevated",
+    "type": "obligation",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001074",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500175",
+    "name": "Aerial Kidnapping",
+    "type": "side_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001075",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500176",
+    "name": "A Feast for Vultures",
+    "type": "side_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001076",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500177",
+    "name": "Knocked Out of the Sky",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001077",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500178",
+    "name": "Sweeping Swoop",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001078",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500179",
+    "name": "Ravenous Onslaught",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001079",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500180",
+    "name": "Vulture",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001080",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500181",
+    "name": "The Red Vulture",
+    "type": "side_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001081",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500182",
+    "name": "Acid Expulsion",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001082",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500183",
+    "name": "Voracious Ambush",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001083",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500184",
+    "name": "Kraven the Hunter",
+    "type": "villain",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001084",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500185",
+    "name": "Kraven the Hunter",
+    "type": "villain",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001085",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500186",
+    "name": "Kraven the Hunter",
+    "type": "villain",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001086",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500187a",
+    "name": "Acquiring Targets",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001087",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500187b",
+    "name": "Acquiring Targets",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001087",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500188a",
+    "name": "The Great Hunt",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001088",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500188b",
+    "name": "The Great Hunt",
+    "type": "main_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001088",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500189",
+    "name": "Last Son of Kraven",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001089",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500190",
+    "name": "Chameleon",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001090",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500191",
+    "name": "Poisoned Dagger",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001091",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500192",
+    "name": "Kraven's Spear",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001092",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500193",
+    "name": "Hunting Rifle",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001093",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500194",
+    "name": "Tooth Necklace",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001094",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500195",
+    "name": "The Calypso Serum",
+    "type": "side_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001095",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500196",
+    "name": "Toxic Gas",
+    "type": "side_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001096",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500197",
+    "name": "Predatory Ambush",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001097",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500198",
+    "name": "The Hunt Begins",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001098",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500199",
+    "name": "Big Game Hunter",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001099",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500200",
+    "name": "Stalking Prey",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001100",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500201",
+    "name": "Ferocious Lion",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001101",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500202",
+    "name": "Fierce Cheetah",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001102",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500203",
+    "name": "Bear Trap",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001103",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500204",
+    "name": "Capture Net",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001104",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500205",
+    "name": "Quicksand",
+    "type": "attachment",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001105",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500206",
+    "name": "Tranquilizer Darts",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001106",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500207",
+    "name": "Swinging Boulder",
+    "type": "treachery",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001107",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500208",
+    "name": "The Savage Six",
+    "type": "side_scheme",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001108",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500209",
+    "name": "Vulture",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001109",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500210",
+    "name": "Rhino",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001110",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500211",
+    "name": "Scorpion",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001111",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500212",
+    "name": "Tarantula",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001112",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500213",
+    "name": "King Cobra",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001113",
+    "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
+  },
+  {
+    "pack_code": "hunting_season_by_nugget",
+    "card_id": "500214",
+    "name": "Stegron",
+    "type": "minion",
+    "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001114",
     "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
   },
   {
@@ -16342,6 +17390,190 @@
     "type": "treachery",
     "octgn_id": "0035c164-5de7-4b2e-bb80-d49e4b049042",
     "pack_octgn_id": "0035c164-5de7-4b2e-bb80-d49e4b2e67d0"
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201701a",
+    "name": "Manifold",
+    "type": "hero",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201701b",
+    "name": "Eden Fesi",
+    "type": "alter_ego",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201702a",
+    "name": "Battlefield",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201702b",
+    "name": "Battlefield",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201703a",
+    "name": "Kata Tjuta",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201703b",
+    "name": "Kata Tjuta",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201704a",
+    "name": "Krakoa",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201704b",
+    "name": "Krakoa",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201705a",
+    "name": "The Peak VII",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201705b",
+    "name": "The Peak VII",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201706",
+    "name": "Clandestine Intel",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201707",
+    "name": "Folding Space",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201708",
+    "name": "Quick Portal",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201709",
+    "name": "Sunfire Portal",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201710",
+    "name": "Positional Awareness",
+    "type": "resource",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201711",
+    "name": "Gateway",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201712",
+    "name": "Bending Light",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201713",
+    "name": "Manifold's Staff",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201714",
+    "name": "Teleportation Exhaustion",
+    "type": "obligation",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201715",
+    "name": "Conquest at Any Cost",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201716",
+    "name": "Emperor N'Jadaka",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201717",
+    "name": "Symbiotic Fury",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "manifold_by_bluehg",
+    "card_id": "201718",
+    "name": "Soulbond Symbiote",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "mantis_by_bluehg",
@@ -28534,6 +29766,182 @@
     "type": "side_scheme",
     "octgn_id": "34093d78-7c88-4714-88af-146727dfaebf",
     "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201601a",
+    "name": "Snowbird",
+    "type": "hero",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201601b",
+    "name": "Narya",
+    "type": "alter_ego",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201602",
+    "name": "Shaman",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201603",
+    "name": "Artic Assault",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201604",
+    "name": "Boreal Boost",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201605",
+    "name": "Fluid Formation",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201606",
+    "name": "Heavy Hide",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201607",
+    "name": "Great White North",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201608",
+    "name": "Bear",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201609",
+    "name": "Dinosaur",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201610",
+    "name": "Human",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201611",
+    "name": "Owl",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201612",
+    "name": "Seal",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201613",
+    "name": "Wendigo",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201614a",
+    "name": "Don't Get Stuck!",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201614b",
+    "name": "Stuck!",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201615",
+    "name": "Hang on to Humanity",
+    "type": "obligation",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201616",
+    "name": "Master of the World",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201617",
+    "name": "Drone Master",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201618",
+    "name": "Alpha Drone",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201619",
+    "name": "Gravity Displacement",
+    "type": "environment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "snowbird_by_hax",
+    "card_id": "201620",
+    "name": "Increasing Drones",
+    "type": "environment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "spdr",
