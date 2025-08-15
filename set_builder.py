@@ -403,15 +403,22 @@ def fillXmlSet(xmlSet, fromFile):
                     buildXmlProps(i, xmlCard)
                 # Ajout du Owner fanmade si HERO_FANMADE est True
                 if HERO_FANMADE:
-                    # Vérifie si un Owner existe déjà
-                    has_owner = any(
-                        prop.get('name') == 'Owner'
-                        for prop in xmlCard.findall('property')
-                    )
-                    if not has_owner:
-                        cardOwner = ET.SubElement(xmlCard, 'property')
-                        cardOwner.set('name', 'Owner')
-                        cardOwner.set('value', i.get('set_code', packName))
+                    # Exception : ne pas ajouter de Owner pour les cartes basiques et affinités (pas de set_code)
+                    # Les cartes concernées ont 'faction_code' == 'basic', 'aggression', 'justice', 'protection', 'leadership'
+                    faction = i.get('faction_code', '').lower()
+                    if faction not in ['basic', 'aggression', 'justice', 'protection', 'leadership']:
+                        # Vérifie si un Owner existe déjà
+                        has_owner = any(
+                            prop.get('name') == 'Owner'
+                            for prop in xmlCard.findall('property')
+                        )
+                        if not has_owner:
+                            owner_value = i.get('set_code', packName)
+                            if owner_value is None:
+                                owner_value = ""
+                            cardOwner = ET.SubElement(xmlCard, 'property')
+                            cardOwner.set('name', 'Owner')
+                            cardOwner.set('value', str(owner_value))
                 if 'back_link' in i.keys():
                     alternateCard = findAlt(data, i['back_link'])
                     cardAlternate = ET.SubElement(xmlCard, 'alternate')
