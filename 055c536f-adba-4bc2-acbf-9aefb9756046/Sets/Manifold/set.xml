@@ -24,7 +24,7 @@
       <property name="Attribute" value="S.W.O.R.D."/>
       <property name="Text">&lt;i&gt;The Universe Speaks&lt;/i&gt; - &lt;b&gt;Response&lt;/b&gt;: After you change to this form, flip the Battlefield support to Its &lt;b&gt;&lt;i&gt;TRAVELED &lt;/i&gt;&lt;/b&gt;side.
 &lt;b&gt;Forced Response&lt;/b&gt;: At the end of the round, flip each &lt;b&gt;&lt;i&gt;TRAVELED&lt;/i&gt;&lt;/b&gt; support to its &lt;b&gt;&lt;i&gt;UNTRAVELED&lt;/i&gt;&lt;/b&gt; side.</property>
-      <property name="Unique" value="true"/>
+      <property name="Unique" value="True"/>
       <alternate name="Eden Fesi" type="b">
         <property name="CardNumber" value="201701b"/>
         <property name="Position" value="1"/>
@@ -152,7 +152,7 @@ Manifold gets +1 hand size.
       <property name="Faction" value="hero"/>
       <property name="Type" value="event"/>
       <property name="Owner" value="manifold_by_bluehg"/>
-      <property name="Cost" value="&quot;0&quot;"/>
+      <property name="Cost" value="0"/>
       <property name="Resource_Energy" value="1"/>
       <property name="Attribute" value="Superpower."/>
       <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Change your form. Draw 1 card.</property>
@@ -205,9 +205,9 @@ Manifold gets +1 hand size.
       <property name="Resource_Wild" value="1"/>
       <property name="Attribute" value="Persona."/>
       <property name="Text">You get +2 hit points.
-&lt;b&gt;&lt;i&gt;Alter-Ego Action&lt;/i&gt;&lt;/b&gt;: Exhaust Gateway -&gt; flip to your hero form.</property>
+&lt;b&gt;&lt;i&gt;Alter-Ego Action&lt;/i&gt;&lt;/b&gt;: Exhaust Gateway → flip to your hero form.</property>
       <property name="Quote">&lt;i&gt;“He's your elder. You remeber what he said. You wanna go somewhere, you gotta know where you started from” - Baz&lt;/i&gt;</property>
-      <property name="Unique" value="true"/>
+      <property name="Unique" value="True"/>
     </card>
     <card name="Bending Light" id="0a6276d1-079f-4b56-83f6-da46aa017012">
       <property name="CardNumber" value="201712"/>
@@ -216,9 +216,10 @@ Manifold gets +1 hand size.
       <property name="Faction" value="hero"/>
       <property name="Type" value="upgrade"/>
       <property name="Owner" value="manifold_by_bluehg"/>
+      <property name="Cost" value="0"/>
       <property name="Resource_Physical" value="1"/>
       <property name="Attribute" value="Condition. Superpower."/>
-      <property name="Text">Max 1 [per_player].
+      <property name="Text">Max 1[per_hero].
 Manifold gets +2 THW and cannot attack.
 &lt;b&gt;Forced Interrupt&lt;/b&gt;: When an enemy would initate an attack against you, it schemes instead.
 &lt;b&gt;Forced Interrupt&lt;/b&gt;: When the round ends, discard Bending Light</property>
@@ -234,9 +235,9 @@ Manifold gets +2 THW and cannot attack.
       <property name="Resource_Physical" value="1"/>
       <property name="Attribute" value="Item. Weapon."/>
       <property name="Text">Manifold gets +1 ATK.
-&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Manifold's Staff -&gt; ready Manifold.</property>
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Manifold's Staff → ready Manifold.</property>
       <property name="Quote">&lt;i&gt;“What? Where am I going? Ah, you know. Where I always go. Everywhere” - Manifold&lt;/i&gt;</property>
-      <property name="Unique" value="true"/>
+      <property name="Unique" value="True"/>
     </card>
     <card name="Teleportation Exhaustion" id="0a6276d1-079f-4b56-83f6-da46aa017014" size="EncounterCard">
       <property name="DefaultSetupPile" value="Nemesis"/>
@@ -249,7 +250,7 @@ Manifold gets +2 THW and cannot attack.
       <property name="Boost" value="2"/>
       <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Eden Fesi player.
 &lt;/i&gt;&lt;/b&gt;You cannot flip any Manifold supports to their &lt;b&gt;&lt;i&gt;TRAVELED &lt;/i&gt;&lt;/b&gt;side.
-&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Spend 3 resources of any type -&gt; remove Teleportation Exhaustion from the game.</property>
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Spend 3 resources of any type → remove Teleportation Exhaustion from the game.</property>
       <property name="Quote">&lt;i&gt;"...We just some laws. Cosmic ones." - Wiz-Kid&lt;/i&gt;</property>
     </card>
     <card name="Conquest at Any Cost" id="0a6276d1-079f-4b56-83f6-da46aa017015" size="SchemeCard">
@@ -296,8 +297,8 @@ Manifold gets +2 THW and cannot attack.
       <property name="Attribute" value="Condition. Symbiote."/>
       <property name="Text">Attach to Emperor N'Jadaka. If you cannot, attach to the villain.
 Attached enemy gains retaliate 1.
-&lt;b&gt;* Forced Response&lt;/b&gt;: After attached enemy attacks you, heal 1 damage from them.
-&lt;b&gt;Hero Action&lt;/b&gt;: Spend [mental] [physical] resources -&gt; discard this card.</property>
+&lt;b&gt;[star] Forced Response&lt;/b&gt;: After attached enemy attacks you, heal 1 damage from them.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [mental] [physical] resources → discard this card.</property>
     </card>
     <card name="Soulbond Symbiote" id="0a6276d1-079f-4b56-83f6-da46aa017018" size="EncounterCard">
       <property name="CardNumber" value="201718"/>
