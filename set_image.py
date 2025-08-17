@@ -9,6 +9,10 @@ images_src_dir = "mcdb_images"
 sets_base_dir = r"octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets"
 output_file = "output.json"
 
+# Affiche le nombre d'images dans le répertoire source
+src_images = [f for f in os.listdir(images_src_dir) if f.lower().endswith(('.jpg', '.png'))]
+print(f"Nombre d'images dans le répertoire source '{images_src_dir}': {len(src_images)}")
+
 # Charger les données JSON
 with open(json_path, "r", encoding="utf-8") as f:
     data = json.load(f)
