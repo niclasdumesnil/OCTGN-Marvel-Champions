@@ -28,7 +28,8 @@ if os.path.exists(sets_base_dir):
 # Créer les sous-répertoires pour chaque pack_octgn_id
 pack_ids = set(card["pack_octgn_id"] for card in data)
 for pack_id in pack_ids:
-    pack_dir = os.path.join(sets_base_dir, pack_id, "Cards")
+    print(f"[TRACE DOSSIER] pack_id={pack_id} (type={type(pack_id)})")
+    pack_dir = os.path.join(sets_base_dir, str(pack_id), "Cards")
     os.makedirs(pack_dir, exist_ok=True)
 
 cards = []  # Liste pour stocker les cartes traitées
@@ -37,10 +38,17 @@ cards = []  # Liste pour stocker les cartes traitées
 for card in data:
     card_id = card["card_id"]
     octgn_id = card["octgn_id"]
-    pack_id = card["pack_octgn_id"]
+    pack_id = card.get("pack_octgn_id")
+
+    print(f"[TRACE] card_id={card_id}, octgn_id={octgn_id}, pack_octgn_id={pack_id}")
 
     # Ignore les cartes dont l'octgn_id est vide ou égal à "0"
     if not octgn_id or octgn_id == "0":
+        continue
+
+    # Trace si pack_octgn_id est vide ou absent
+    if not pack_id:
+        print(f"[AVERTISSEMENT] Image ignorée : card_id={card_id} (octgn_id={octgn_id}) n'a pas de pack_octgn_id.")
         continue
 
     # Chercher l'image source (jpg ou png) : le nom d'origine est card_id (ex: 14001a.jpg)

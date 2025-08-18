@@ -232,6 +232,310 @@
     "pack_octgn_id": "d8b7361a-9c4e-5d26-afe4-adb3e10c7159"
   },
   {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201601a",
+    "name": "Snowbird",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016001",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201601b",
+    "name": "Narya",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016001",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201602",
+    "name": "Shaman",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016002",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201603",
+    "name": "Artic Assault",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016003",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201604",
+    "name": "Boreal Boost",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016004",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201605",
+    "name": "Fluid Formation",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016005",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201606",
+    "name": "Heavy Hide",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016006",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201607",
+    "name": "Great White North",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016007",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201608a",
+    "name": "Bear",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016008",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201608b",
+    "name": "Bear",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016008",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201609a",
+    "name": "Dinosaur",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016009",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201609b",
+    "name": "Dinosaur",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016009",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201610a",
+    "name": "Human",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016010",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201610b",
+    "name": "Human",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016010",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201611a",
+    "name": "Owl",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016011",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201611b",
+    "name": "Owl",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016011",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201612a",
+    "name": "Seal",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016012",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201612b",
+    "name": "Seal",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016012",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201613a",
+    "name": "Wendigo",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016013",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201613b",
+    "name": "Wendigo",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016013",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201614a",
+    "name": "Don't Get Stuck!",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016014",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201614b",
+    "name": "Stuck!",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016014",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201621",
+    "name": "Vindicator",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016021",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201622",
+    "name": "Aurora",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016022",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201623",
+    "name": "Captain Marvel",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016023",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201624",
+    "name": "Guardian",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016024",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201625",
+    "name": "Marrina",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016025",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201626",
+    "name": "Nothstar",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016026",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201627",
+    "name": "Puck",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016027",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201628",
+    "name": "Sasquatch",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016028",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201629",
+    "name": "Shaman",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016029",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201630",
+    "name": "Snowbird",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016030",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201615",
+    "name": "Hang on to Humanity",
+    "type": "obligation",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016015",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201616",
+    "name": "Master of the World",
+    "type": "minion",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016016",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201617",
+    "name": "Drone Master",
+    "type": "side_scheme",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016017",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201618",
+    "name": "Alpha Drone",
+    "type": "minion",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016018",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201619",
+    "name": "Gravity Displacement",
+    "type": "environment",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016019",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201620",
+    "name": "Increasing Drones",
+    "type": "environment",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016020",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
     "pack_code": "angel",
     "card_id": "42001a",
     "name": "Angel",
@@ -5474,8 +5778,8 @@
   {
     "pack_code": "civil_war_spoiler",
     "card_id": "55002",
-    "name": "?",
-    "type": "ally",
+    "name": "Dummy",
+    "type": "support",
     "octgn_id": "",
     "pack_octgn_id": ""
   },
@@ -5530,7 +5834,7 @@
   {
     "pack_code": "civil_war_spoiler",
     "card_id": "55009",
-    "name": "?",
+    "name": "Dummy",
     "type": "event",
     "octgn_id": "",
     "pack_octgn_id": ""
@@ -5546,15 +5850,15 @@
   {
     "pack_code": "civil_war_spoiler",
     "card_id": "55012",
-    "name": "Air Cover",
-    "type": "support",
+    "name": "Dummy",
+    "type": "event",
     "octgn_id": "",
     "pack_octgn_id": ""
   },
   {
     "pack_code": "civil_war_spoiler",
     "card_id": "55013",
-    "name": "Aggressive Conditioning",
+    "name": "Aggressive Conditioning ",
     "type": "upgrade",
     "octgn_id": "",
     "pack_octgn_id": ""
@@ -5571,6 +5875,118 @@
     "pack_code": "civil_war_spoiler",
     "card_id": "55017",
     "name": "Savage Strike",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55029a",
+    "name": "Hulking",
+    "type": "hero",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55029b",
+    "name": "Teddy Altman",
+    "type": "alter_ego",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55030",
+    "name": "Wiccan",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55032",
+    "name": "Winged Shape",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55033",
+    "name": "Hulk Shape",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55034",
+    "name": "Armored Shape",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55035",
+    "name": "Imitation Shape",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55039",
+    "name": "Impersonation",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55040",
+    "name": "Shapeshifter",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55041",
+    "name": "Patriot",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55043",
+    "name": "Hidden Base",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55045",
+    "name": "Excelxior",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55047",
+    "name": "\"I Can Do This All Day\"",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "55037",
+    "name": "Shapeshift Strike",
     "type": "event",
     "octgn_id": "",
     "pack_octgn_id": ""
@@ -16830,6 +17246,198 @@
     "type": "treachery",
     "octgn_id": "2bb9367c-944e-4475-b643-6a84c3047040",
     "pack_octgn_id": "2bb9367c-944e-4475-b643-6a84c3214443"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500333",
+    "name": "Carnage",
+    "type": "villain",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003033",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500334",
+    "name": "Carnage",
+    "type": "villain",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003034",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500335",
+    "name": "Carnage",
+    "type": "villain",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003035",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500336a",
+    "name": "Rejoin the Hive",
+    "type": "main_scheme",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003036",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500336b",
+    "name": "Rejoin the Hive",
+    "type": "main_scheme",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003036",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500337",
+    "name": "Ghost rider's Codex",
+    "type": "attachment",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003037",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500338",
+    "name": "Grendel's Codex",
+    "type": "attachment",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003038",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500339",
+    "name": "Scorn's Codex",
+    "type": "attachment",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003039",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500340",
+    "name": "Venom's Codex",
+    "type": "attachment",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003040",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500341",
+    "name": "Ravencroft Institute",
+    "type": "environment",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003041",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500342",
+    "name": "Carnage Spawn",
+    "type": "minion",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003042",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500343",
+    "name": "Doppelganger",
+    "type": "minion",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003043",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500344",
+    "name": "Absolute Carnage",
+    "type": "side_scheme",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003044",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500345",
+    "name": "Collect the Codex",
+    "type": "treachery",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003045",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500346",
+    "name": "Death's Grasp",
+    "type": "treachery",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003046",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500347",
+    "name": "Dark Acolyte",
+    "type": "minion",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003047",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500348",
+    "name": "Demagoblin",
+    "type": "minion",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003048",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500349",
+    "name": "Man-Wolf",
+    "type": "minion",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003049",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500350",
+    "name": "Cult of Carnage",
+    "type": "side_scheme",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003050",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500351",
+    "name": "God is Coming",
+    "type": "treachery",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003051",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500352",
+    "name": "Improvised Weapons",
+    "type": "attachment",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003052",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500353",
+    "name": "Violent Edge",
+    "type": "attachment",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003053",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500354",
+    "name": "Revel in Red",
+    "type": "treachery",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003054",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500355",
+    "name": "Superiority Complex",
+    "type": "treachery",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003055",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
   },
   {
     "pack_code": "krakoa_era_by_merlin",
@@ -29806,230 +30414,6 @@
     "type": "side_scheme",
     "octgn_id": "34093d78-7c88-4714-88af-146727dfaebf",
     "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201601a",
-    "name": "Snowbird",
-    "type": "hero",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016001",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201601b",
-    "name": "Narya",
-    "type": "alter_ego",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016001",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201602",
-    "name": "Shaman",
-    "type": "ally",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016002",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201603",
-    "name": "Artic Assault",
-    "type": "event",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016003",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201604",
-    "name": "Boreal Boost",
-    "type": "event",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016004",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201605",
-    "name": "Fluid Formation",
-    "type": "event",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016005",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201606",
-    "name": "Heavy Hide",
-    "type": "event",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016006",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201607",
-    "name": "Great White North",
-    "type": "support",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016007",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201608a",
-    "name": "Bear",
-    "type": "upgrade",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016008",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201608b",
-    "name": "Bear",
-    "type": "upgrade",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016008",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201609a",
-    "name": "Dinosaur",
-    "type": "upgrade",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016009",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201609b",
-    "name": "Dinosaur",
-    "type": "upgrade",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016009",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201610a",
-    "name": "Human",
-    "type": "upgrade",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016010",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201610b",
-    "name": "Human",
-    "type": "upgrade",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016010",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201611a",
-    "name": "Owl",
-    "type": "upgrade",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016011",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201611b",
-    "name": "Owl",
-    "type": "upgrade",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016011",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201612a",
-    "name": "Seal",
-    "type": "upgrade",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016012",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201612b",
-    "name": "Seal",
-    "type": "upgrade",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016012",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201613a",
-    "name": "Wendigo",
-    "type": "upgrade",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016013",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201613b",
-    "name": "Wendigo",
-    "type": "upgrade",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016013",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201614a",
-    "name": "Don't Get Stuck!",
-    "type": "support",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016014",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201614b",
-    "name": "Stuck!",
-    "type": "support",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016014",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201615",
-    "name": "Hang on to Humanity",
-    "type": "obligation",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016015",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201616",
-    "name": "Master of the World",
-    "type": "minion",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016016",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201617",
-    "name": "Drone Master",
-    "type": "side_scheme",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016017",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201618",
-    "name": "Alpha Drone",
-    "type": "minion",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016018",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201619",
-    "name": "Gravity Displacement",
-    "type": "environment",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016019",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
-  },
-  {
-    "pack_code": "snowbird_by_hax",
-    "card_id": "201620",
-    "name": "Increasing Drones",
-    "type": "environment",
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016020",
-    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   },
   {
     "pack_code": "spdr",

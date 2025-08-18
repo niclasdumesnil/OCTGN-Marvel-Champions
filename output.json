@@ -1,226 +1,194 @@
 [
   {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201701a",
-    "name": "Manifold",
-    "type": "hero",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017001",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500333",
+    "name": "Carnage",
+    "type": "villain",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003033",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
   },
   {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201701b",
-    "name": "Eden Fesi",
-    "type": "alter_ego",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017001",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500334",
+    "name": "Carnage",
+    "type": "villain",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003034",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
   },
   {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201702a",
-    "name": "Battlefield",
-    "type": "support",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017002",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500335",
+    "name": "Carnage",
+    "type": "villain",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003035",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
   },
   {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201702b",
-    "name": "Battlefield",
-    "type": "support",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017002",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500336a",
+    "name": "Rejoin the Hive",
+    "type": "main_scheme",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003036",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
   },
   {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201703a",
-    "name": "Kata Tjuta",
-    "type": "support",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017003",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500336b",
+    "name": "Rejoin the Hive",
+    "type": "main_scheme",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003036",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
   },
   {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201703b",
-    "name": "Kata Tjuta",
-    "type": "support",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017003",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201704a",
-    "name": "Krakoa",
-    "type": "support",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017004",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201704b",
-    "name": "Krakoa",
-    "type": "support",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017004",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201705a",
-    "name": "The Peak VII",
-    "type": "support",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017005",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201705b",
-    "name": "The Peak VII",
-    "type": "support",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017005",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201706",
-    "name": "Clandestine Intel",
-    "type": "event",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017006",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201707",
-    "name": "Folding Space",
-    "type": "event",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017007",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201708",
-    "name": "Quick Portal",
-    "type": "event",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017008",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201709",
-    "name": "Sunfire Portal",
-    "type": "event",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017009",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201710",
-    "name": "Positional Awareness",
-    "type": "resource",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017010",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201711",
-    "name": "Gateway",
-    "type": "support",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017011",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201712",
-    "name": "Bending Light",
-    "type": "upgrade",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017012",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201713",
-    "name": "Manifold's Staff",
-    "type": "upgrade",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017013",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201719",
-    "name": "Abigail Brand",
-    "type": "ally",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017019",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201720",
-    "name": "Mysterium",
-    "type": "resource",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017020",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201721",
-    "name": "Lila Cheney",
-    "type": "ally",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017021",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201722",
-    "name": "Risque",
-    "type": "ally",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017022",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201723",
-    "name": "The Launchpad",
-    "type": "support",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017023",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201714",
-    "name": "Teleportation Exhaustion",
-    "type": "obligation",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017014",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201715",
-    "name": "Conquest at Any Cost",
-    "type": "side_scheme",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017015",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201716",
-    "name": "Emperor N'Jadaka",
-    "type": "minion",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017016",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
-  },
-  {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201717",
-    "name": "Symbiotic Fury",
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500337",
+    "name": "Ghost rider's Codex",
     "type": "attachment",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017017",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003037",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
   },
   {
-    "pack_code": "manifold_by_bluehg",
-    "card_id": "201718",
-    "name": "Soulbond Symbiote",
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500338",
+    "name": "Grendel's Codex",
+    "type": "attachment",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003038",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500339",
+    "name": "Scorn's Codex",
+    "type": "attachment",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003039",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500340",
+    "name": "Venom's Codex",
+    "type": "attachment",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003040",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500341",
+    "name": "Ravencroft Institute",
+    "type": "environment",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003041",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500342",
+    "name": "Carnage Spawn",
+    "type": "minion",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003042",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500343",
+    "name": "Doppelganger",
+    "type": "minion",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003043",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500344",
+    "name": "Absolute Carnage",
+    "type": "side_scheme",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003044",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500345",
+    "name": "Collect the Codex",
     "type": "treachery",
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017018",
-    "pack_octgn_id": "0a6276d1-079f-4b56-83f6-da46aa177d8d"
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003045",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500346",
+    "name": "Death's Grasp",
+    "type": "treachery",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003046",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500347",
+    "name": "Dark Acolyte",
+    "type": "minion",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003047",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500348",
+    "name": "Demagoblin",
+    "type": "minion",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003048",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500349",
+    "name": "Man-Wolf",
+    "type": "minion",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003049",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500350",
+    "name": "Cult of Carnage",
+    "type": "side_scheme",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003050",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500351",
+    "name": "God is Coming",
+    "type": "treachery",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003051",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500352",
+    "name": "Improvised Weapons",
+    "type": "attachment",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003052",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500353",
+    "name": "Violent Edge",
+    "type": "attachment",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003053",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500354",
+    "name": "Revel in Red",
+    "type": "treachery",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003054",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
+  },
+  {
+    "pack_code": "king_in_black_by_ekaugust",
+    "card_id": "500355",
+    "name": "Superiority Complex",
+    "type": "treachery",
+    "octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095003055",
+    "pack_octgn_id": "f8fe0d39-7068-4fbd-9901-6ba095105f07"
   }
 ]

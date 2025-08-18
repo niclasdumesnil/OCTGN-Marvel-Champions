@@ -1,0 +1,12 @@
+<cards>
+   <card id="68071830-cf71-4497-a47d-19c19f000000" name="Snowbird by hax">
+    <property name="Type" value="fm_hero_setup"/>
+    <property name="Owner" value="snowbird_by_hax"/>
+    </card>
+    <card id="68071830-cf71-4497-a47d-19c19f990000" name="Snowbird by hax">
+    <property name="Type" value="fm_encounter_setup"/>
+    <property name="Owner" value="snowbird_by_hax_nemesis"/>
+    </card>
+</cards>
+
+
