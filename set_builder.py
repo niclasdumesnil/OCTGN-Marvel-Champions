@@ -4,6 +4,12 @@ from os import path
 import argparse
 from lxml import etree as ET
 
+# --- EXCEPTIONS POUR LA MISE EN PLACE ---
+SETUP_EXCEPTIONS = [
+    "500337", "500338", "500339", "500340"
+]
+# Les cartes dont le code est dans SETUP_EXCEPTIONS auront une property DefaultSetupPile="Special"
+
 # Ajout de l'argument --packcode pour spécifier le code du pack à traiter
 parser = argparse.ArgumentParser()
 parser.add_argument('--packcode', type=str, required=True, help='Code du pack à traiter (ex: manifold_by_bluehg)')
@@ -113,6 +119,12 @@ def buildXmlProps(propDict, xmlElement):
     cardNumber = ET.SubElement(xmlElement, 'property')
     cardNumber.set('name', 'CardNumber')
     cardNumber.set('value', propDict['code'])
+
+    # Ajout de la propriété DefaultSetupPile="Special" pour les exceptions setup
+    if propDict['code'] in SETUP_EXCEPTIONS:
+        setup_prop = ET.SubElement(xmlElement, 'property')
+        setup_prop.set('name', 'DefaultSetupPile')
+        setup_prop.set('value', 'Special')
 
     if 'position' in propDict.keys():
         cardPosition = ET.SubElement(xmlElement, 'property')
