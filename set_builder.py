@@ -8,6 +8,10 @@ from lxml import etree as ET
 SETUP_EXCEPTIONS = [
     "500337", "500338", "500339", "500340"
 ]
+# Nouvelles exceptions pour Activation Order
+ACTIVATION_ORDER_START = 500770
+ACTIVATION_ORDER_END = 500781
+
 # Les cartes dont le code est dans SETUP_EXCEPTIONS auront une property DefaultSetupPile="Special"
 
 # Ajout de l'argument --packcode pour spécifier le code du pack à traiter
@@ -125,6 +129,14 @@ def buildXmlProps(propDict, xmlElement):
         setup_prop = ET.SubElement(xmlElement, 'property')
         setup_prop.set('name', 'DefaultSetupPile')
         setup_prop.set('value', 'Special')
+
+    # Mettre uniquement health à 0 pour les cartes 500770 à 500781 (plus d'activation order)
+    try:
+        code_int = int(propDict['code'])
+        if ACTIVATION_ORDER_START <= code_int <= ACTIVATION_ORDER_END:
+            propDict['health'] = 0
+    except Exception:
+        pass
 
     if 'position' in propDict.keys():
         cardPosition = ET.SubElement(xmlElement, 'property')

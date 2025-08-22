@@ -1,12 +1,10 @@
 <cards>
-    <card id="f8fe0d39-7068-4fbd-9901-6ba095900001" name="Carnage">
+    <card id="af7d7f42-b69a-4c2a-9f9d-f327cd000001" name="Skrull Empire">
         <property name="Type" value="fm_villain_setup"/>
-        <property name="Owner" value="carnage_by_ekaugust"/>
+        <property name="Owner" value="skrull_menace_by_kajislav"/>
         <property name="nbModular" value="1"/>
         <property name="recommendedModular" value="{'cult_of_carnage_by_ekaugust':['Cult of Carnage', 'Encounter', False]}"/>
-        <property name="mandatoryModular" value="{'symbiotic_cruelty_by_ekaugust':['Symbiotic Cruelty', 'Encounter', False]}"/>
-    </card>
-   
+     </card>
 </cards>
 
 
