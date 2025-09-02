@@ -1,330 +1,154 @@
 [
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500770",
-    "name": "Emperor Dorrek I",
-    "type": "villain",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007070",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202101a",
+    "name": "Thor",
+    "type": "hero",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021001",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500771",
-    "name": "Emperor Dorrek I",
-    "type": "villain",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007071",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202101b",
+    "name": "Jane Foster",
+    "type": "alter_ego",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021001",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500772",
-    "name": "Emperor Dorrek I",
-    "type": "villain",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007072",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202102",
+    "name": "Roz Solomon",
+    "type": "ally",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021002",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500773",
-    "name": "Emperor Dorrek VII",
-    "type": "villain",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007073",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202103",
+    "name": "Hammer Swing",
+    "type": "event",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021003",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500774",
-    "name": "Emperor Dorrek VII",
-    "type": "villain",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007074",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202104",
+    "name": "Lightning Strike",
+    "type": "event",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021004",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500775",
-    "name": "Emperor Dorrek VII",
-    "type": "villain",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007075",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202105",
+    "name": "Stand Fast",
+    "type": "event",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021005",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500776",
-    "name": "Empress R'Klll",
-    "type": "villain",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007076",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202106",
+    "name": "Congress of Worlds",
+    "type": "support",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021006",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500777",
-    "name": "Empress R'Klll",
-    "type": "villain",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007077",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202107",
+    "name": "Medical Clinic",
+    "type": "support",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021007",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500778",
-    "name": "Empress R'Klll",
-    "type": "villain",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007078",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202108",
+    "name": "Scrying Pool",
+    "type": "support",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021008",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500779",
-    "name": "Empress S'Byll",
-    "type": "villain",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007079",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202109",
+    "name": "Goddess of Thunder",
+    "type": "upgrade",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021009",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500780",
-    "name": "Empress S'Byll",
-    "type": "villain",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007080",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202110",
+    "name": "Mighty",
+    "type": "upgrade",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021010",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500781",
-    "name": "Empress S'Byll",
-    "type": "villain",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007081",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202111",
+    "name": "Mjolnir",
+    "type": "upgrade",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021011",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500782a",
-    "name": "Rise of the Skrull Empire",
-    "type": "main_scheme",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007082",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202112",
+    "name": "Unyielding",
+    "type": "upgrade",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021012",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500782b",
-    "name": "Rise of the Skrull Empire",
-    "type": "main_scheme",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007082",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202113",
+    "name": "Chemotherapy",
+    "type": "obligation",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021013",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500783a",
-    "name": "Andromeda Galaxy Colonization",
-    "type": "main_scheme",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007083",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202114",
+    "name": "War of the Realms",
+    "type": "side_scheme",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021014",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500783b",
-    "name": "Andromeda Galaxy Colonization",
-    "type": "main_scheme",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007083",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500784a",
-    "name": "Further Empire Expansion",
-    "type": "main_scheme",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007084",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500784b",
-    "name": "Further Empire Expansion",
-    "type": "main_scheme",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007084",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500785a",
-    "name": "Entire Universe Domination",
-    "type": "main_scheme",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007085",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500785b",
-    "name": "Entire Universe Domination",
-    "type": "main_scheme",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007085",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500786",
-    "name": "Skrull Empire I",
-    "type": "environment",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007086",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500787",
-    "name": "Skrull Empire II",
-    "type": "environment",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007087",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500788",
-    "name": "Skrull Empire III",
-    "type": "environment",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007088",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500789",
-    "name": "Aks'lo",
-    "type": "environment",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007089",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500790",
-    "name": "Hy'lt Minor",
-    "type": "environment",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007090",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500791",
-    "name": "Satriani",
-    "type": "environment",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007091",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500792",
-    "name": "Skrell",
-    "type": "environment",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007092",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500793",
-    "name": "Skrullos",
-    "type": "environment",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007093",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500794",
-    "name": "Tarnax II",
-    "type": "environment",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007094",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500795",
-    "name": "Tarnax IV",
-    "type": "environment",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007095",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500796",
-    "name": "Tarnax VII",
-    "type": "environment",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007096",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500797",
-    "name": "Zaragz'na",
-    "type": "environment",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007097",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500798",
-    "name": "Impostor",
-    "type": "attachment",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007098",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500799",
-    "name": "Intelligentsia",
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202115",
+    "name": "Malekith",
     "type": "minion",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007099",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021015",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500800",
-    "name": "Emperor's Throne",
-    "type": "side_scheme",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007100",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202116",
+    "name": "War Witches",
+    "type": "minion",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021016",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500801",
-    "name": "Seeking a Suitable World",
-    "type": "side_scheme",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007101",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500802",
-    "name": "A New Skrull Is Born",
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202117",
+    "name": "Execute",
     "type": "treachery",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007102",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021017",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500803",
-    "name": "Giving Orders",
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202118",
+    "name": "Hostile Takeover",
     "type": "treachery",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007103",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500804",
-    "name": "Long Live the Empire",
-    "type": "treachery",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007104",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500805",
-    "name": "Overthrow",
-    "type": "treachery",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007105",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
-  },
-  {
-    "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500806",
-    "name": "Wrath of the Empire",
-    "type": "treachery",
-    "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007106",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021018",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   }
 ]

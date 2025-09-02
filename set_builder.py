@@ -475,7 +475,7 @@ if packName is None:
     packName = getPackName(curFile)
 
 # Création du dossier de sortie si besoin
-output_dir = f"C:/Github/OCTGN-Marvel-Champions/055c536f-adba-4bc2-acbf-9aefb9756046/Sets/{packName}"
+output_dir = f"C:/Github/OCTGN-Marvel-Champions/055c536f-adba-4bc2-acbf-9aefb9756046/Sets/{PACK_CODE}"
 os.makedirs(output_dir, exist_ok=True)
 
 # Création du fichier XML

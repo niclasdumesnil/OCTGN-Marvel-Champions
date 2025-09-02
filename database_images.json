@@ -5761,7 +5761,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55001a",
+    "card_id": "56001a",
     "name": "Tigra",
     "type": "hero",
     "octgn_id": "",
@@ -5769,7 +5769,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55001b",
+    "card_id": "56001b",
     "name": "Gree Nelson",
     "type": "alter_ego",
     "octgn_id": "",
@@ -5777,15 +5777,15 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55002",
-    "name": "Dummy",
-    "type": "support",
+    "card_id": "56002",
+    "name": "Moon Knight",
+    "type": "ally",
     "octgn_id": "",
     "pack_octgn_id": ""
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55003",
+    "card_id": "56003",
     "name": "Precinct HQ",
     "type": "support",
     "octgn_id": "",
@@ -5793,7 +5793,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55004",
+    "card_id": "56004",
     "name": "Cat's Head Amulet",
     "type": "upgrade",
     "octgn_id": "",
@@ -5801,7 +5801,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55005",
+    "card_id": "56005",
     "name": "Sharp Claws",
     "type": "upgrade",
     "octgn_id": "",
@@ -5809,7 +5809,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55006",
+    "card_id": "56006",
     "name": "Cat-Like Reflexes",
     "type": "upgrade",
     "octgn_id": "",
@@ -5817,7 +5817,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55007",
+    "card_id": "56007",
     "name": "Hunted",
     "type": "upgrade",
     "octgn_id": "",
@@ -5825,7 +5825,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55008",
+    "card_id": "56008",
     "name": "Tooth and Claw",
     "type": "event",
     "octgn_id": "",
@@ -5833,15 +5833,15 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55009",
-    "name": "Dummy",
+    "card_id": "56009",
+    "name": "Feline Senses",
     "type": "event",
     "octgn_id": "",
     "pack_octgn_id": ""
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55010",
+    "card_id": "56010",
     "name": "Two-Gun Kid",
     "type": "ally",
     "octgn_id": "",
@@ -5849,15 +5849,23 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55012",
-    "name": "Dummy",
+    "card_id": "56012",
+    "name": "Air Cover",
     "type": "event",
     "octgn_id": "",
     "pack_octgn_id": ""
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55013",
+    "card_id": "56019",
+    "name": "Yellow Jacket",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "civil_war_spoiler",
+    "card_id": "56013",
     "name": "Aggressive Conditioning ",
     "type": "upgrade",
     "octgn_id": "",
@@ -5865,7 +5873,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55016",
+    "card_id": "56016",
     "name": "Coup de Grâce",
     "type": "event",
     "octgn_id": "",
@@ -5873,7 +5881,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55017",
+    "card_id": "56017",
     "name": "Savage Strike",
     "type": "event",
     "octgn_id": "",
@@ -5881,7 +5889,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55029a",
+    "card_id": "56029a",
     "name": "Hulking",
     "type": "hero",
     "octgn_id": "",
@@ -5889,7 +5897,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55029b",
+    "card_id": "56029b",
     "name": "Teddy Altman",
     "type": "alter_ego",
     "octgn_id": "",
@@ -5897,7 +5905,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55030",
+    "card_id": "56030",
     "name": "Wiccan",
     "type": "ally",
     "octgn_id": "",
@@ -5905,7 +5913,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55032",
+    "card_id": "56032",
     "name": "Winged Shape",
     "type": "upgrade",
     "octgn_id": "",
@@ -5913,7 +5921,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55033",
+    "card_id": "56033",
     "name": "Hulk Shape",
     "type": "upgrade",
     "octgn_id": "",
@@ -5921,7 +5929,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55034",
+    "card_id": "56034",
     "name": "Armored Shape",
     "type": "upgrade",
     "octgn_id": "",
@@ -5929,7 +5937,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55035",
+    "card_id": "56035",
     "name": "Imitation Shape",
     "type": "upgrade",
     "octgn_id": "",
@@ -5937,7 +5945,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55039",
+    "card_id": "56039",
     "name": "Impersonation",
     "type": "event",
     "octgn_id": "",
@@ -5945,7 +5953,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55040",
+    "card_id": "56040",
     "name": "Shapeshifter",
     "type": "event",
     "octgn_id": "",
@@ -5953,7 +5961,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55041",
+    "card_id": "56041",
     "name": "Patriot",
     "type": "ally",
     "octgn_id": "",
@@ -5961,7 +5969,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55043",
+    "card_id": "56043",
     "name": "Hidden Base",
     "type": "support",
     "octgn_id": "",
@@ -5969,7 +5977,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55045",
+    "card_id": "56045",
     "name": "Excelxior",
     "type": "upgrade",
     "octgn_id": "",
@@ -5977,7 +5985,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55047",
+    "card_id": "56047",
     "name": "\"I Can Do This All Day\"",
     "type": "event",
     "octgn_id": "",
@@ -5985,7 +5993,7 @@
   },
   {
     "pack_code": "civil_war_spoiler",
-    "card_id": "55037",
+    "card_id": "56037",
     "name": "Shapeshift Strike",
     "type": "event",
     "octgn_id": "",
@@ -13656,6 +13664,158 @@
     "pack_octgn_id": "fe0387fe-86cb-5d1b-a634-a303f0c017c5"
   },
   {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200601b",
+    "name": "Heimdall",
+    "type": "alter_ego",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000001",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200601a",
+    "name": "Heimdall",
+    "type": "hero",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000001",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200602",
+    "name": "Banishing Blow",
+    "type": "event",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000002",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200605",
+    "name": "Cosmic Strike",
+    "type": "event",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000005",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200606",
+    "name": "\"Get Me Out!\"",
+    "type": "event",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000006",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200608",
+    "name": "Heimdall's Observatory",
+    "type": "support",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000008",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200609",
+    "name": "All-Hearing",
+    "type": "upgrade",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000009",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200610",
+    "name": "All-Seeing",
+    "type": "upgrade",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000010",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200611",
+    "name": "Gjallarhorn",
+    "type": "upgrade",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000011",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200612",
+    "name": "Guardian of the Rainbow Bridge",
+    "type": "upgrade",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000012",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200613",
+    "name": "Hofund",
+    "type": "upgrade",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000013",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200614",
+    "name": "Shared Vision",
+    "type": "upgrade",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000014",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200617a",
+    "name": "The Bifrost",
+    "type": "support",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000017",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200617b",
+    "name": "The Bifrost",
+    "type": "support",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000017",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200618",
+    "name": "Overloaded Senses",
+    "type": "obligation",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000018",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200619",
+    "name": "Judgement of All Gods",
+    "type": "side_scheme",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000019",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200620",
+    "name": "Mangog",
+    "type": "minion",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000020",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200621",
+    "name": "Kingdom In Ruin",
+    "type": "treachery",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000021",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
+    "pack_code": "heimdall_by_jackhkp",
+    "card_id": "200623",
+    "name": "Unquenchable Rage",
+    "type": "treachery",
+    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000023",
+    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+  },
+  {
     "pack_code": "hlk",
     "card_id": "10001a",
     "name": "Hulk",
@@ -14530,7 +14690,7 @@
   {
     "pack_code": "hunting_season_by_nugget",
     "card_id": "500217",
-    "name": "Cold Blooded",
+    "name": "Cold-Blooded",
     "type": "environment",
     "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001117",
     "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
@@ -14738,7 +14898,7 @@
   {
     "pack_code": "hunting_season_by_nugget",
     "card_id": "500243",
-    "name": "Capture",
+    "name": "Captured!",
     "type": "obligation",
     "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001143",
     "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
@@ -15482,7 +15642,7 @@
   {
     "pack_code": "hunting_season_by_nugget",
     "card_id": "500180",
-    "name": "Vulture",
+    "name": "Vulture (James Natale)",
     "type": "minion",
     "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001080",
     "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
@@ -15514,7 +15674,7 @@
   {
     "pack_code": "hunting_season_by_nugget",
     "card_id": "500184",
-    "name": "Kraven the Hunter",
+    "name": "Kraven The Hunter",
     "type": "villain",
     "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001084",
     "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
@@ -15522,7 +15682,7 @@
   {
     "pack_code": "hunting_season_by_nugget",
     "card_id": "500185",
-    "name": "Kraven the Hunter",
+    "name": "Kraven The Hunter",
     "type": "villain",
     "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001085",
     "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
@@ -15530,7 +15690,7 @@
   {
     "pack_code": "hunting_season_by_nugget",
     "card_id": "500186",
-    "name": "Kraven the Hunter",
+    "name": "Kraven The Hunter",
     "type": "villain",
     "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001086",
     "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
@@ -18494,6 +18654,158 @@
     "type": "attachment",
     "octgn_id": "d2407046-eb8c-5483-99d6-c7f3b2000021",
     "pack_octgn_id": "d2407046-eb8c-5483-99d6-c7f3b237af34"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202101a",
+    "name": "Thor",
+    "type": "hero",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021001",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202101b",
+    "name": "Jane Foster",
+    "type": "alter_ego",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021001",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202102",
+    "name": "Roz Solomon",
+    "type": "ally",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021002",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202103",
+    "name": "Hammer Swing",
+    "type": "event",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021003",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202104",
+    "name": "Lightning Strike",
+    "type": "event",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021004",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202105",
+    "name": "Stand Fast",
+    "type": "event",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021005",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202106",
+    "name": "Congress of Worlds",
+    "type": "support",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021006",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202107",
+    "name": "Medical Clinic",
+    "type": "support",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021007",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202108",
+    "name": "Scrying Pool",
+    "type": "support",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021008",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202109",
+    "name": "Goddess of Thunder",
+    "type": "upgrade",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021009",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202110",
+    "name": "Mighty",
+    "type": "upgrade",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021010",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202111",
+    "name": "Mjolnir",
+    "type": "upgrade",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021011",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202112",
+    "name": "Unyielding",
+    "type": "upgrade",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021012",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202113",
+    "name": "Chemotherapy",
+    "type": "obligation",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021013",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202114",
+    "name": "War of the Realms",
+    "type": "side_scheme",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021014",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202115",
+    "name": "Malekith",
+    "type": "minion",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021015",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202116",
+    "name": "War Witches",
+    "type": "minion",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021016",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202117",
+    "name": "Execute",
+    "type": "treachery",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021017",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+  },
+  {
+    "pack_code": "mighty_thor_by_rainy",
+    "card_id": "202118",
+    "name": "Hostile Takeover",
+    "type": "treachery",
+    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021018",
+    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
     "pack_code": "mk_by_hax",
@@ -31342,6 +31654,150 @@
     "type": "attachment",
     "octgn_id": "188a98aa-e714-56cf-92f0-8ccdf5000022",
     "pack_octgn_id": "188a98aa-e714-56cf-92f0-8ccdf523996d"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210201a",
+    "name": "Spider-Man Noir",
+    "type": "hero",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000001",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210201b",
+    "name": "Peter B. Parker",
+    "type": "alter_ego",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000001",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210202",
+    "name": "Journaliste",
+    "type": "upgrade",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000002",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210203",
+    "name": "Toile Organique",
+    "type": "upgrade",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000003",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210204",
+    "name": "Revolver de Ben Parker",
+    "type": "upgrade",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000004",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210205",
+    "name": "Home Sweet Home",
+    "type": "support",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000005",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210206",
+    "name": "Agir dans l’Ombre",
+    "type": "event",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000006",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210207",
+    "name": "Intervention Musclée",
+    "type": "event",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000008",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210208",
+    "name": "Observation",
+    "type": "event",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000010",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210209",
+    "name": "Surveillance de la Ville",
+    "type": "upgrade",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000013",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210210",
+    "name": "Article sur les Rackets",
+    "type": "player_side_scheme",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000015",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210211",
+    "name": "Article sur la Prostitution",
+    "type": "player_side_scheme",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000016",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210212",
+    "name": "Article sur la Drogue",
+    "type": "player_side_scheme",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000017",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210213",
+    "name": "Face à l’Horreur",
+    "type": "obligation",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000018",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210214",
+    "name": "Electro Choque",
+    "type": "side_scheme",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000019",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210215",
+    "name": "Electro Noir",
+    "type": "minion",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000020",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210216",
+    "name": "Initier l’Etincelle",
+    "type": "treachery",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000021",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
+  },
+  {
+    "pack_code": "spider-man_noir_by_merlin",
+    "card_id": "210217",
+    "name": "A sa Merci",
+    "type": "treachery",
+    "octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87000023",
+    "pack_octgn_id": "7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1"
   },
   {
     "pack_code": "spiderham",
