@@ -1,154 +1,146 @@
 [
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202101a",
-    "name": "Thor",
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202201a",
+    "name": "Stature",
     "type": "hero",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021001",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022001",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   },
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202101b",
-    "name": "Jane Foster",
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202201b",
+    "name": "Cassie Lang",
     "type": "alter_ego",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021001",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022001",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   },
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202102",
-    "name": "Roz Solomon",
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202201c",
+    "name": "Stature (Tiny)",
+    "type": "hero",
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022001",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
+  },
+  {
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202201d",
+    "name": "Stature (Giant)",
+    "type": "hero",
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022001",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
+  },
+  {
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202202",
+    "name": "Iron Lad",
     "type": "ally",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021002",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022002",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   },
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202103",
-    "name": "Hammer Swing",
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202203",
+    "name": "Double Decker",
     "type": "event",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021003",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022003",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   },
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202104",
-    "name": "Lightning Strike",
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202204",
+    "name": "Rapid Stomp",
     "type": "event",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021004",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022004",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   },
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202105",
-    "name": "Stand Fast",
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202205",
+    "name": "Let Loose",
     "type": "event",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021005",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022005",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   },
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202106",
-    "name": "Congress of Worlds",
-    "type": "support",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021006",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202206",
+    "name": "Sliding Scale",
+    "type": "event",
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022006",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   },
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202107",
-    "name": "Medical Clinic",
-    "type": "support",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021007",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202207",
+    "name": "Pym Particles",
+    "type": "resource",
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022007",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   },
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202108",
-    "name": "Scrying Pool",
-    "type": "support",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021008",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
-  },
-  {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202109",
-    "name": "Goddess of Thunder",
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202208",
+    "name": "\"Young Avenger\"",
     "type": "upgrade",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021009",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022008",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   },
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202110",
-    "name": "Mighty",
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202209",
+    "name": "Family Resemblance",
     "type": "upgrade",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021010",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022009",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   },
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202111",
-    "name": "Mjolnir",
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202210",
+    "name": "Re-Resize",
     "type": "upgrade",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021011",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022010",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   },
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202112",
-    "name": "Unyielding",
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202211",
+    "name": "Size Tactics",
     "type": "upgrade",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021012",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022011",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   },
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202113",
-    "name": "Chemotherapy",
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202212",
+    "name": "Nothing Lasts Forever",
     "type": "obligation",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021013",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022012",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   },
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202114",
-    "name": "War of the Realms",
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202213",
+    "name": "Growing Man",
+    "type": "minion",
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022013",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
+  },
+  {
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202214",
+    "name": "Something is Off",
     "type": "side_scheme",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021014",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022014",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   },
   {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202115",
-    "name": "Malekith",
+    "pack_code": "stature_by_captain_corp_&_hax",
+    "card_id": "202215",
+    "name": "Growing Man (Clone)",
     "type": "minion",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021015",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
-  },
-  {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202116",
-    "name": "War Witches",
-    "type": "minion",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021016",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
-  },
-  {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202117",
-    "name": "Execute",
-    "type": "treachery",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021017",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
-  },
-  {
-    "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202118",
-    "name": "Hostile Takeover",
-    "type": "treachery",
-    "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021018",
-    "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
+    "octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa022015",
+    "pack_octgn_id": "2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c"
   }
 ]

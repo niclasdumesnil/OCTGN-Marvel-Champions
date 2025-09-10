@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Stature" id="2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="2c10b8ef-af46-4fdf-9a74-0ac2fa000000" name="stature_by_captain_corp_&amp;_hax">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+    </card>
+    <card id="2c10b8ef-af46-4fdf-9a74-0ac2fa990000" name="stature_by_captain_corp_&amp;_hax">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax_nemesis"/>
+    </card>
+    <card name="Stature" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022001">
+      <property name="CardNumber" value="202201a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="1"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Young Avenger."/>
+      <property name="Text">&lt;i&gt;Regulate&lt;/i&gt; - &lt;b&gt;Action&lt;/b&gt;: Discard a card from your hand → draw 2 cards. (limit once per  round).</property>
+      <property name="Quote">"I 've benn kidnapped so many times, my mom finally let me take sefl-defense classes."</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Cassie Lang" type="b">
+        <property name="CardNumber" value="202201b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Civilian."/>
+        <property name="Unique" value="True"/>
+      </alternate>
+      <alternate name="Stature (Tiny)" type="c">
+        <property name="CardNumber" value="202201c"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="hero"/>
+        <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+        <property name="HandSize" value="5"/>
+        <property name="Thwart" value="2"/>
+        <property name="Attack" value="1"/>
+        <property name="Defense" value="2"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Tiny. Young Avenger."/>
+        <property name="Unique" value="True"/>
+      </alternate>
+      <alternate name="Stature (Giant)" type="d">
+        <property name="CardNumber" value="202201d"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="hero"/>
+        <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+        <property name="HandSize" value="4"/>
+        <property name="Thwart" value="1"/>
+        <property name="Attack" value="2"/>
+        <property name="Defense" value="3"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Giant. Young Avenger."/>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Iron Lad" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022002">
+      <property name="CardNumber" value="202202"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Aerial. Young Avenger."/>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Double Decker" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022003">
+      <property name="CardNumber" value="202203"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Giant."/>
+    </card>
+    <card name="Rapid Stomp" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022004">
+      <property name="CardNumber" value="202204"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Giant."/>
+    </card>
+    <card name="Let Loose" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022005">
+      <property name="CardNumber" value="202205"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+      <property name="Cost" value="-1"/>
+      <property name="Attribute" value="Thwart. Tiny."/>
+    </card>
+    <card name="Sliding Scale" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022006">
+      <property name="CardNumber" value="202206"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic. Tiny."/>
+    </card>
+    <card name="Pym Particles" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022007">
+      <property name="CardNumber" value="202207"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+      <property name="Resource_Wild" value="1"/>
+    </card>
+    <card name="&quot;Young Avenger&quot;" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022008">
+      <property name="CardNumber" value="202208"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Title. Young Avenger."/>
+    </card>
+    <card name="Family Resemblance" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022009">
+      <property name="CardNumber" value="202209"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+    </card>
+    <card name="Re-Resize" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022010">
+      <property name="CardNumber" value="202210"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+    </card>
+    <card name="Size Tactics" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022011">
+      <property name="CardNumber" value="202211"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+    </card>
+    <card name="Nothing Lasts Forever" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="202212"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax_nemesis"/>
+      <property name="Boost" value="1"/>
+    </card>
+    <card name="Growing Man" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022013" size="EncounterCard">
+      <property name="CardNumber" value="202213"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax_nemesis"/>
+      <property name="Attack" value="None"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="5"/>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Something is Off" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022014" size="SchemeCard">
+      <property name="CardNumber" value="202214"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax_nemesis"/>
+      <property name="BaseThreat" value="-1"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+    </card>
+    <card name="Growing Man (Clone)" id="2c10b8ef-af46-4fdf-9a74-0ac2fa022015" size="EncounterCard">
+      <property name="CardNumber" value="202215"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="stature_by_captain_corp_&amp;_hax_nemesis"/>
+      <property name="Attack" value="None"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="-1"/>
+    </card>
+  </cards>
+</set>

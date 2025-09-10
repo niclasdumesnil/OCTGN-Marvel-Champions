@@ -444,6 +444,7 @@ def fillXmlSet(xmlSet, fromFile):
                             cardOwner.set('name', 'Owner')
                             cardOwner.set('value', str(owner_value))
                 if 'back_link' in i.keys():
+                    # Ajoute la carte b
                     alternateCard = findAlt(data, i['back_link'])
                     cardAlternate = ET.SubElement(xmlCard, 'alternate')
                     cardAlternate.set('name', alternateCard['name'])
@@ -454,9 +455,26 @@ def fillXmlSet(xmlSet, fromFile):
                         cardAlternate.set('size', 'PlayerSchemeCard')
                     elif alternateCard['type_code'] == 'villain':
                         cardAlternate.set('size', 'VillainCard')
-                    elif alternateCard['type_code'] == 'obligation' or alternateCard['type_code'] == 'environment' or alternateCard['type_code'] == 'attachment' or alternateCard['type_code'] == 'minion' or alternateCard['type_code'] == 'treachery':
+                    elif alternateCard['type_code'] in ['obligation', 'environment', 'attachment', 'minion', 'treachery']:
                         cardAlternate.set('size', 'EncounterCard')
                     buildXmlProps(alternateCard, cardAlternate)
+
+                    # Ajoute toutes les cartes c, d, e, f, ... comme alternate
+                    code_root = i['code'][:-1]  # Ex: 12345a -> 12345
+                    for alt_card in data:
+                        if alt_card['code'].startswith(code_root) and alt_card['code'][-1] in 'cdefghijklmnopqrstuvwxyz' and 'duplicate_of' not in alt_card:
+                            cardAlternateX = ET.SubElement(xmlCard, 'alternate')
+                            cardAlternateX.set('name', alt_card['name'])
+                            cardAlternateX.set('type', alt_card['code'][-1])
+                            if alt_card['type_code'] == 'main_scheme' or alt_card['type_code'] == 'side_scheme':
+                                cardAlternateX.set('size', 'SchemeCard')
+                            elif alt_card['type_code'] == 'player_side_scheme':
+                                cardAlternateX.set('size', 'PlayerSchemeCard')
+                            elif alt_card['type_code'] == 'villain':
+                                cardAlternateX.set('size', 'VillainCard')
+                            elif alt_card['type_code'] in ['obligation', 'environment', 'attachment', 'minion', 'treachery']:
+                                cardAlternateX.set('size', 'EncounterCard')
+                            buildXmlProps(alt_card, cardAlternateX)
                 # Ajout pour discardpilesetup : DefaultDiscardPile = Special Discard si l'owner correspond à l'argument
                 if DISCARDPILE_SETUP:
                     # Cherche la propriété Owner dans la carte
