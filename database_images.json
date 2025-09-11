@@ -29160,6 +29160,206 @@
     "pack_octgn_id": "25cf07ae-e8ab-4443-8040-672bd25d635a"
   },
   {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261901a",
+    "name": "Singularity",
+    "type": "hero",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619001",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261901b",
+    "name": "Singularity",
+    "type": "alter_ego",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619001",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261902",
+    "name": "Memories from Arcadia",
+    "type": "upgrade",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619002",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261903",
+    "name": "Sister Grimm",
+    "type": "ally",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619003",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261904",
+    "name": "Smile",
+    "type": "upgrade",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619004",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261905",
+    "name": "Fight",
+    "type": "upgrade",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619005",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261906",
+    "name": "Give",
+    "type": "upgrade",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619006",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261907",
+    "name": "Feel",
+    "type": "upgrade",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619007",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261908",
+    "name": "Arcadia",
+    "type": "support",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619008",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261909",
+    "name": "Blink Away",
+    "type": "event",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619009",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261910",
+    "name": "Portal Production",
+    "type": "event",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619010",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261911",
+    "name": "Sweep Away",
+    "type": "event",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619011",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261912",
+    "name": "Quantum Detonation",
+    "type": "event",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619012",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261913",
+    "name": "Cosmic Expansion",
+    "type": "event",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619013",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261914",
+    "name": "Self Actualisation",
+    "type": "event",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619014",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261915",
+    "name": "Dazzler Thor",
+    "type": "ally",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619015",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261916",
+    "name": "Medusa",
+    "type": "ally",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619016",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261917",
+    "name": "A-Force Assemble!",
+    "type": "event",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619017",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261918",
+    "name": "Impossible A-Force",
+    "type": "support",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619018",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261919",
+    "name": "Anything Anywhere",
+    "type": "event",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619019",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261920",
+    "name": "Communication Issues",
+    "type": "obligation",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619020",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261921",
+    "name": "Anitmatter",
+    "type": "minion",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619021",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261922",
+    "name": "Violent Rebirth",
+    "type": "side_scheme",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619022",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261923",
+    "name": "Destructive Analysis",
+    "type": "treachery",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619023",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "singularity_by_phenexian",
+    "card_id": "261924",
+    "name": "Antimatter Blast",
+    "type": "treachery",
+    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619024",
+    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
     "pack_code": "skrull_menace_by_kajislav",
     "card_id": "500770",
     "name": "Emperor Dorrek I",
