@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="White Queen" id="34f176e1-8cfa-4477-ac33-7934b0f71a4b" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="34f176e1-8cfa-4477-ac33-7934b0000000" name="white_queen_by_proust">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="white_queen_by_proust"/>
+    </card>
+    <card id="34f176e1-8cfa-4477-ac33-7934b0990000" name="white_queen_by_proust">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="white_queen_by_proust_nemesis"/>
+    </card>
+    <card name="La Reine Blanche" id="34f176e1-8cfa-4477-ac33-7934b0006001">
+      <property name="CardNumber" value="800601a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="white_queen_by_proust"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="3"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="1"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="Psionique. X-men."/>
+      <property name="Text">&lt;i&gt;Lance Psychique - &lt;/i&gt;&lt;b&gt;Action de héros &lt;/b&gt;: échangez une carte d'état d'un personnage avec une carte d'état différente d'un autre personnage. (limite d'une fois par phase).
+&lt;b&gt;Interruption forcée &lt;/b&gt;: quand vous jouez une carte ayant le trait &lt;b&gt;&lt;i&gt;DIAMANT&lt;/i&gt;&lt;/b&gt;, La Reine Blanche gagne +2 en DEF et -2 en CTR jusqu'à la fin du round.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Emma Frost" type="b">
+        <property name="CardNumber" value="800601b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="white_queen_by_proust"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="9"/>
+        <property name="Attribute" value="Mutant. Psionique."/>
+        <property name="Text">&lt;b&gt;Réponse &lt;/b&gt;: après être passé sous cette forme, mélangez dans votre deck X cartes du set de la Reine Blanche depuis votre pile de défausse, X étant égal au nombre de carte de statut en jeu (Jusqu'à un maximum de 3).</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Iron Man" id="34f176e1-8cfa-4477-ac33-7934b0006002">
+      <property name="CardNumber" value="800602"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="white_queen_by_proust"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Aérien. Avenger."/>
+      <property name="Text">Ténacité.
+&lt;b&gt;Réponse :&lt;/b&gt; après que Iron Man est entré en jeu, désorientez Iron Man → sonnez un ennemi.</property>
+      <property name="Quote">&lt;i&gt;"Donnez-moi un scotch, je meurs de faim" - Tony Stark&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Esmé" id="34f176e1-8cfa-4477-ac33-7934b0006003">
+      <property name="CardNumber" value="800603"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="white_queen_by_proust"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Individu. Psionique."/>
+      <property name="Text">Tant que cette carte est en jeu, les personnages Robuste sont Solide à la place.
+Vous pouvez activer lance psychique une fois suppl&amp;#233;mentaire par phase.
+&lt;b&gt;Action &lt;/b&gt;: après avoir résolu Lance Psychique, inclinez Esmé → redressez votre héros.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Le Palais Blanc" id="34f176e1-8cfa-4477-ac33-7934b0006004">
+      <property name="CardNumber" value="800604"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="white_queen_by_proust"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Diamant. Lieu."/>
+      <property name="Text">&lt;b&gt;Ressource&lt;/b&gt; : inclinez cette carte et infligez 1 dégât à un personage que vous contrôlez → générez une ressources [mental] (générez [mental]  [mental] à la place, si par l'effet de cette carte vous avez défaussé une carte d'état tenace).</property>
+    </card>
+    <card name="Sous Emprise " id="34f176e1-8cfa-4477-ac33-7934b0006005">
+      <property name="CardNumber" value="800605"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="white_queen_by_proust"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Psionique. Condition."/>
+      <property name="Text">Diminuez de 1 le cout de cette carte pour chaque carte d'état attaché à la cible.
+Sous forme de héros uniquement. Attachez cette carte à un ennemi. 1 max par ennemi.
+&lt;b&gt;Interruption forcée :&lt;/b&gt; Quand l'ennemi attaché est censé attaquer, défaussez Sous Emprise et choisissez un personnage → les dégâts de cette attaque sont infligés au personnage choisi au lieu de vous être infligé.</property>
+    </card>
+    <card name="Force Phénix" id="34f176e1-8cfa-4477-ac33-7934b0006006">
+      <property name="CardNumber" value="800606"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="white_queen_by_proust"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Phénix."/>
+      <property name="Text">Votre identité gagne solide.
+La Reine Blanche gagne +1 ATQ (Plus +2 ATQ à la place, tant qu'elle attaque un ennemi avec une carte d'état).</property>
+      <property name="Quote">&lt;i&gt;"A genoux, paysan!" - La Reine Blanche&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="La Belle et la Pègre" id="34f176e1-8cfa-4477-ac33-7934b0006007">
+      <property name="CardNumber" value="800607"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="white_queen_by_proust"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Diamant. Tactique."/>
+      <property name="Text">&lt;b&gt;Action &lt;/b&gt;:&lt;b&gt; &lt;/b&gt;donnez au méchant et à chaque sbire engagé avec vous une carte d'état tenace. Piochez une carte pour chaque carte d'état tenace ainsi donnée.</property>
+      <property name="Quote">&lt;i&gt;"Des super-pouvoirs, un esprit brillant et le meilleur corps que l'argent puisse offrir..." - Emma Frost&lt;/i&gt;</property>
+    </card>
+    <card name="Egide Mentale" id="34f176e1-8cfa-4477-ac33-7934b0006008">
+      <property name="CardNumber" value="800608"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="white_queen_by_proust"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Contre. Psionique."/>
+      <property name="Text">&lt;b&gt;Action de héros &lt;/b&gt;(c&lt;i&gt;ontre&lt;/i&gt;) : sonnez un personnage ami → retirez X menaces d'une manigance, X étant égal au contre de base du personnage choisi. Vous pouvez incliner le personnage choisi → ignorez les icones de crise et patrouille pour cet évènement.</property>
+      <property name="Quote">&lt;i&gt;"Diamonds are a girl's best friend" &lt;/i&gt;</property>
+    </card>
+    <card name="Coup Cristallin" id="34f176e1-8cfa-4477-ac33-7934b0006009">
+      <property name="CardNumber" value="800609"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="white_queen_by_proust"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attaque. Diamant."/>
+      <property name="Text">&lt;b&gt;Action de héros &lt;/b&gt;(a&lt;i&gt;ttaque&lt;/i&gt;) : désorientez un personnage ami → infligez X dégâts à un ennemi, X étant égal à l'attaque de base du personnage choisi. Vous pouvez incliner le personnage choisi → cette attaque gagne Déferlement et inflige 4 dégats supplémentaires. </property>
+    </card>
+    <card name="Dure comme le Diamant" id="34f176e1-8cfa-4477-ac33-7934b0006010">
+      <property name="CardNumber" value="800610"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="white_queen_by_proust"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Défense. Diamant."/>
+      <property name="Text">&lt;b&gt;Interruption de héros &lt;/b&gt;(&lt;i&gt;défense&lt;/i&gt;) : quand une carte de boost d'un ennemi vous attaquant est censée être retournée face visible, défaussez là à la place. Si vous ne subissez pas de dégât de cette attaque redressez votre héros.</property>
+      <property name="Quote">&lt;i&gt;"Trois contre un, ça semble inégal"- Emma Frost&lt;/i&gt;</property>
+    </card>
+    <card name="Mariage Blanc" id="34f176e1-8cfa-4477-ac33-7934b0006011">
+      <property name="CardNumber" value="800611"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">En Equipe (Emma Frost et Tony Stark). 1 max par deck.
+&lt;b&gt;Interruption d'alter ego : &lt;/b&gt;quand un ennemi est censé manigancer, cette activation retire de la menace au lieu d'en placer. Désorientez un ennemi.</property>
+    </card>
+    <card name="Une Affaire de Famille" id="34f176e1-8cfa-4477-ac33-7934b0006012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="800612"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="white_queen_by_proust"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Donnez cette carte au joueur d'Emma Frost.
+Cherchez Esmé dans votre deck, main, pile de défausse ou zone de jeu et mettez-la de côté. Attachez-lui cette obligation. Tous les personnages deviennent robuste.
+&lt;b&gt;Action d'alter ego&lt;/b&gt;: dépensez 3 ressources de n'importe quel type et retirez cette obligation de la partie → mettez Esmé en jeu sous le contrôle de son propriétaire</property>
+    </card>
+    <card name="Feilong" id="34f176e1-8cfa-4477-ac33-7934b0006013" size="EncounterCard">
+      <property name="CardNumber" value="800613"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="white_queen_by_proust_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Orchis."/>
+      <property name="Text">Robuste. Vilenie.
+&lt;b&gt;Réponse forcée&lt;/b&gt;: après que Feilong est entré en jeu, défaussez tout allié Iron Man en jeu.
+(&lt;i&gt;Sbire Némésis de la Reine Blanche&lt;/i&gt;.)</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="O.P.A. Hostile" id="34f176e1-8cfa-4477-ac33-7934b0006014" size="SchemeCard">
+      <property name="CardNumber" value="800614"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="white_queen_by_proust_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Aucune menace ne peut être retiré de cette manigance tant que Feilong est en jeu.
+Toutes les attaques enemies gagnent perçant</property>
+    </card>
+    <card name="Sentinelle Stark" id="34f176e1-8cfa-4477-ac33-7934b0006015" size="EncounterCard">
+      <property name="CardNumber" value="800615"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="white_queen_by_proust_nemesis"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="3"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Sentinelle. Orchis."/>
+      <property name="Text">Ténacité. Vulnérable.
+[star] &lt;b&gt;Boost &lt;/b&gt;: attribuez-vous cette carte de boost en tant que carte Rencontre face cachée.</property>
+    </card>
+  </cards>
+</set>

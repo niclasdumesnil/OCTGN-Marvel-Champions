@@ -142,7 +142,7 @@ You may include &lt;b&gt;&lt;i&gt;A-FORCE&lt;/i&gt;&lt;/b&gt; allies from any as
       <property name="Resource_Mental" value="1"/>
       <property name="Attribute" value="Memory."/>
       <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust Arcadia → ready a &lt;b&gt;&lt;i&gt;MEMORY&lt;/i&gt;&lt;/b&gt;&lt;i&gt; &lt;/i&gt;upgrade.</property>
-      <property name="Quote">"...In the heart of that girl,there is an island."</property>
+      <property name="Quote">"...In the heart of that girl, there is an island."</property>
       <property name="Unique" value="True"/>
     </card>
     <card name="Blink Away" id="670dd6af-ef0f-4494-b1ec-4a405b619009">
@@ -209,7 +209,7 @@ You may include &lt;b&gt;&lt;i&gt;A-FORCE&lt;/i&gt;&lt;/b&gt; allies from any as
       <property name="Cost" value="4"/>
       <property name="Resource_Energy" value="1"/>
       <property name="Attribute" value="Superpower."/>
-      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Put all allies under Singularity into play uner your control. &lt;i&gt;(These cards don't count as having been played from hand.)&lt;/i&gt;</property>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Put all allies under Singularity into play under your control. &lt;i&gt;(These cards don't count as having been played from hand.)&lt;/i&gt;</property>
       <property name="Quote">"Oh, you're going to be seeing more than &lt;b&gt;stars&lt;/b&gt;." —Captain Marvel</property>
     </card>
     <card name="Self Actualisation" id="670dd6af-ef0f-4494-b1ec-4a405b619014">
@@ -315,7 +315,7 @@ Each ally you play cost 1 additional resource.
 &lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Singularity and an ally you control → remove Communication Issues from the game.</property>
       <property name="Quote">"What do I tell them? Everything? Nothing?" —Singularity</property>
     </card>
-    <card name="Anitmatter" id="670dd6af-ef0f-4494-b1ec-4a405b619021" size="EncounterCard">
+    <card name="Antimatter" id="670dd6af-ef0f-4494-b1ec-4a405b619021" size="EncounterCard">
       <property name="CardNumber" value="261921"/>
       <property name="Position" value="21"/>
       <property name="Quantity" value="1"/>

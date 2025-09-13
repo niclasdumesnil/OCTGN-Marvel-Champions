@@ -1,202 +1,130 @@
 [
   {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261901a",
-    "name": "Singularity",
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800601a",
+    "name": "La Reine Blanche",
     "type": "hero",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619001",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006001",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
   },
   {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261901b",
-    "name": "Singularity",
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800601b",
+    "name": "Emma Frost",
     "type": "alter_ego",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619001",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006001",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
   },
   {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261902",
-    "name": "Memories from Arcadia",
-    "type": "upgrade",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619002",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261903",
-    "name": "Sister Grimm",
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800602",
+    "name": "Iron Man",
     "type": "ally",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619003",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006002",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
   },
   {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261904",
-    "name": "Smile",
-    "type": "upgrade",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619004",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261905",
-    "name": "Fight",
-    "type": "upgrade",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619005",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261906",
-    "name": "Give",
-    "type": "upgrade",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619006",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261907",
-    "name": "Feel",
-    "type": "upgrade",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619007",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261908",
-    "name": "Arcadia",
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800603",
+    "name": "Esmé",
     "type": "support",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619008",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006003",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
   },
   {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261909",
-    "name": "Blink Away",
-    "type": "event",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619009",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261910",
-    "name": "Portal Production",
-    "type": "event",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619010",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261911",
-    "name": "Sweep Away",
-    "type": "event",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619011",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261912",
-    "name": "Quantum Detonation",
-    "type": "event",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619012",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261913",
-    "name": "Cosmic Expansion",
-    "type": "event",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619013",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261914",
-    "name": "Self Actualisation",
-    "type": "event",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619014",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261915",
-    "name": "Dazzler Thor",
-    "type": "ally",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619015",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261916",
-    "name": "Medusa",
-    "type": "ally",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619016",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261917",
-    "name": "A-Force Assemble!",
-    "type": "event",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619017",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261918",
-    "name": "Impossible A-Force",
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800604",
+    "name": "Le Palais Blanc",
     "type": "support",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619018",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006004",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
   },
   {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261919",
-    "name": "Anything Anywhere",
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800605",
+    "name": "Sous Emprise ",
+    "type": "upgrade",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006005",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800606",
+    "name": "Force Phénix",
+    "type": "upgrade",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006006",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800607",
+    "name": "La Belle et la Pègre",
     "type": "event",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619019",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006007",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
   },
   {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261920",
-    "name": "Communication Issues",
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800608",
+    "name": "Egide Mentale",
+    "type": "event",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006008",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800609",
+    "name": "Coup Cristallin",
+    "type": "event",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006009",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800610",
+    "name": "Dure comme le Diamant",
+    "type": "event",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006010",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800611",
+    "name": "Mariage Blanc",
+    "type": "event",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006011",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800612",
+    "name": "Une Affaire de Famille",
     "type": "obligation",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619020",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006012",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
   },
   {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261921",
-    "name": "Anitmatter",
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800613",
+    "name": "Feilong",
     "type": "minion",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619021",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006013",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
   },
   {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261922",
-    "name": "Violent Rebirth",
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800614",
+    "name": "O.P.A. Hostile",
     "type": "side_scheme",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619022",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006014",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
   },
   {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261923",
-    "name": "Destructive Analysis",
-    "type": "treachery",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619023",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
-  },
-  {
-    "pack_code": "singularity_by_phenexian",
-    "card_id": "261924",
-    "name": "Antimatter Blast",
-    "type": "treachery",
-    "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619024",
-    "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800615",
+    "name": "Sentinelle Stark",
+    "type": "minion",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006015",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
   }
 ]

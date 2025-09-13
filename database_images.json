@@ -29330,7 +29330,7 @@
   {
     "pack_code": "singularity_by_phenexian",
     "card_id": "261921",
-    "name": "Anitmatter",
+    "name": "Antimatter",
     "type": "minion",
     "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619021",
     "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
@@ -37438,6 +37438,134 @@
     "type": "treachery",
     "octgn_id": "a609960e-607c-5889-921f-5e725e000021",
     "pack_octgn_id": "a609960e-607c-5889-921f-5e725e65ce5b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800601a",
+    "name": "La Reine Blanche",
+    "type": "hero",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006001",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800601b",
+    "name": "Emma Frost",
+    "type": "alter_ego",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006001",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800602",
+    "name": "Iron Man",
+    "type": "ally",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006002",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800603",
+    "name": "Esmé",
+    "type": "support",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006003",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800604",
+    "name": "Le Palais Blanc",
+    "type": "support",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006004",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800605",
+    "name": "Sous Emprise ",
+    "type": "upgrade",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006005",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800606",
+    "name": "Force Phénix",
+    "type": "upgrade",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006006",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800607",
+    "name": "La Belle et la Pègre",
+    "type": "event",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006007",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800608",
+    "name": "Egide Mentale",
+    "type": "event",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006008",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800609",
+    "name": "Coup Cristallin",
+    "type": "event",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006009",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800610",
+    "name": "Dure comme le Diamant",
+    "type": "event",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006010",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800611",
+    "name": "Mariage Blanc",
+    "type": "event",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006011",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800612",
+    "name": "Une Affaire de Famille",
+    "type": "obligation",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006012",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800613",
+    "name": "Feilong",
+    "type": "minion",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006013",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800614",
+    "name": "O.P.A. Hostile",
+    "type": "side_scheme",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006014",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+  },
+  {
+    "pack_code": "white_queen_by_proust",
+    "card_id": "800615",
+    "name": "Sentinelle Stark",
+    "type": "minion",
+    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006015",
+    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
   },
   {
     "pack_code": "winter",
