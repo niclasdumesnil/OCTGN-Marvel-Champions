@@ -45,6 +45,3 @@ print("Nombre de cartes :", len(cards))  # TRACE
 with open(output_file, "w", encoding="utf-8") as outfile:
     json.dump(cards, outfile, ensure_ascii=False, indent=2)
 
-print("Liste des packs dans packs_dict :")
-for code, pack in packs_dict.items():
-    print(f"Pack code: {code} | Nom: {pack.get('name', '')} | OCTGN ID: {pack.get('octgn_id', '')}")
