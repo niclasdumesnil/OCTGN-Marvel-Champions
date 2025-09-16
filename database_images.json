@@ -768,6 +768,134 @@
     "pack_octgn_id": "cbfcb70f-a855-4068-b02f-81680487e73c"
   },
   {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202401b",
+    "name": "Aldrif Odinsdottir",
+    "type": "alter_ego",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000001",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202401a",
+    "name": "Angela",
+    "type": "hero",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000001",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202402",
+    "name": "Sera",
+    "type": "ally",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000002",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202403",
+    "name": "Heven’s Fury",
+    "type": "event",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000003",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202404",
+    "name": "Murderous Glare",
+    "type": "event",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000006",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202405",
+    "name": "Single Out",
+    "type": "event",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000009",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202406",
+    "name": "Angelic Ribbons",
+    "type": "upgrade",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000012",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202407",
+    "name": "Asgard’s Assassin",
+    "type": "upgrade",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000013",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202408",
+    "name": "Siri’s Dress",
+    "type": "upgrade",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000015",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202409",
+    "name": "Xiphos",
+    "type": "upgrade",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000016",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202410",
+    "name": "Banished from Asgard",
+    "type": "obligation",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000017",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202411",
+    "name": "Hel’s Retribution",
+    "type": "side_scheme",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000018",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202412",
+    "name": "Hela",
+    "type": "minion",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000019",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202413",
+    "name": "Hel-Wolf",
+    "type": "minion",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000020",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202414",
+    "name": "Disir",
+    "type": "minion",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000021",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
+    "pack_code": "angela_by_odysseus",
+    "card_id": "202415",
+    "name": "Back from Hel",
+    "type": "treachery",
+    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000022",
+    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+  },
+  {
     "pack_code": "angel",
     "card_id": "42024",
     "name": "Apocalyptic Influence",
@@ -13689,7 +13817,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200605",
+    "card_id": "200603",
     "name": "Cosmic Strike",
     "type": "event",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000005",
@@ -13697,7 +13825,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200606",
+    "card_id": "200604",
     "name": "\"Get Me Out!\"",
     "type": "event",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000006",
@@ -13705,7 +13833,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200608",
+    "card_id": "200605",
     "name": "Heimdall's Observatory",
     "type": "support",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000008",
@@ -13713,7 +13841,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200609",
+    "card_id": "200606",
     "name": "All-Hearing",
     "type": "upgrade",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000009",
@@ -13721,7 +13849,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200610",
+    "card_id": "200607",
     "name": "All-Seeing",
     "type": "upgrade",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000010",
@@ -13729,7 +13857,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200611",
+    "card_id": "200608",
     "name": "Gjallarhorn",
     "type": "upgrade",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000011",
@@ -13737,7 +13865,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200612",
+    "card_id": "200609",
     "name": "Guardian of the Rainbow Bridge",
     "type": "upgrade",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000012",
@@ -13745,7 +13873,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200613",
+    "card_id": "200610",
     "name": "Hofund",
     "type": "upgrade",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000013",
@@ -13753,7 +13881,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200614",
+    "card_id": "200611",
     "name": "Shared Vision",
     "type": "upgrade",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000014",
@@ -13761,7 +13889,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200617a",
+    "card_id": "200612a",
     "name": "The Bifrost",
     "type": "support",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000017",
@@ -13769,7 +13897,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200617b",
+    "card_id": "200612b",
     "name": "The Bifrost",
     "type": "support",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000017",
@@ -13777,7 +13905,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200618",
+    "card_id": "200613",
     "name": "Overloaded Senses",
     "type": "obligation",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000018",
@@ -13785,7 +13913,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200619",
+    "card_id": "200614",
     "name": "Judgement of All Gods",
     "type": "side_scheme",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000019",
@@ -13793,7 +13921,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200620",
+    "card_id": "200615",
     "name": "Mangog",
     "type": "minion",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000020",
@@ -13801,7 +13929,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200621",
+    "card_id": "200616",
     "name": "Kingdom In Ruin",
     "type": "treachery",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000021",
@@ -13809,7 +13937,7 @@
   },
   {
     "pack_code": "heimdall_by_jackhkp",
-    "card_id": "200623",
+    "card_id": "200617",
     "name": "Unquenchable Rage",
     "type": "treachery",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000023",
@@ -37440,132 +37568,132 @@
     "pack_octgn_id": "a609960e-607c-5889-921f-5e725e65ce5b"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800601a",
     "name": "La Reine Blanche",
     "type": "hero",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006001",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006001",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800601b",
     "name": "Emma Frost",
     "type": "alter_ego",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006001",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006001",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800602",
     "name": "Iron Man",
     "type": "ally",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006002",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006002",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800603",
     "name": "Esmé",
     "type": "support",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006003",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006003",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800604",
-    "name": "Le Palais Blanc",
+    "name": "Les Maraudeurs",
     "type": "support",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006004",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006004",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800605",
     "name": "Sous Emprise ",
     "type": "upgrade",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006005",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006005",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800606",
     "name": "Force Phénix",
     "type": "upgrade",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006006",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006006",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800607",
     "name": "La Belle et la Pègre",
     "type": "event",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006007",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006007",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800608",
     "name": "Egide Mentale",
     "type": "event",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006008",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006008",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800609",
-    "name": "Coup Cristallin",
+    "name": "Déferlement Psionique",
     "type": "event",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006009",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006009",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800610",
     "name": "Dure comme le Diamant",
     "type": "event",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006010",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006010",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800611",
     "name": "Mariage Blanc",
     "type": "event",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006011",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006011",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800612",
     "name": "Une Affaire de Famille",
     "type": "obligation",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006012",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006012",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800613",
     "name": "Feilong",
     "type": "minion",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006013",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006013",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800614",
     "name": "O.P.A. Hostile",
     "type": "side_scheme",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006014",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006014",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
-    "pack_code": "white_queen_by_proust",
+    "pack_code": "white_queen_by_proust_&_merlin",
     "card_id": "800615",
     "name": "Sentinelle Stark",
     "type": "minion",
-    "octgn_id": "34f176e1-8cfa-4477-ac33-7934b0006015",
-    "pack_octgn_id": "34f176e1-8cfa-4477-ac33-7934b0f71a4b"
+    "octgn_id": "db923053-d92c-4454-b573-ecb998006015",
+    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
   },
   {
     "pack_code": "winter",
