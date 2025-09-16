@@ -772,128 +772,128 @@
     "card_id": "202401b",
     "name": "Aldrif Odinsdottir",
     "type": "alter_ego",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000001",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024001",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202401a",
     "name": "Angela",
     "type": "hero",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000001",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024001",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202402",
     "name": "Sera",
     "type": "ally",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000002",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024002",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202403",
-    "name": "Heven’s Fury",
+    "name": "Heven's Fury",
     "type": "event",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000003",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024003",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202404",
     "name": "Murderous Glare",
     "type": "event",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000006",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024004",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202405",
     "name": "Single Out",
     "type": "event",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000009",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024005",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202406",
     "name": "Angelic Ribbons",
     "type": "upgrade",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000012",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024006",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202407",
-    "name": "Asgard’s Assassin",
+    "name": "Asgard's Assassin",
     "type": "upgrade",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000013",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024007",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202408",
-    "name": "Siri’s Dress",
+    "name": "Siri's Dress",
     "type": "upgrade",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000015",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024008",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202409",
     "name": "Xiphos",
     "type": "upgrade",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000016",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024009",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202410",
     "name": "Banished from Asgard",
     "type": "obligation",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000017",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024010",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202411",
-    "name": "Hel’s Retribution",
+    "name": "Hel's Retribution",
     "type": "side_scheme",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000018",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024011",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202412",
     "name": "Hela",
     "type": "minion",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000019",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024012",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202413",
     "name": "Hel-Wolf",
     "type": "minion",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000020",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024013",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202414",
     "name": "Disir",
     "type": "minion",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000021",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024014",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angela_by_odysseus",
     "card_id": "202415",
     "name": "Back from Hel",
     "type": "treachery",
-    "octgn_id": "0646fb38-9307-51c3-9445-834c5c000022",
-    "pack_octgn_id": "0646fb38-9307-51c3-9445-834c5c309e98"
+    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024015",
+    "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
     "pack_code": "angel",
@@ -13797,7 +13797,7 @@
     "name": "Heimdall",
     "type": "alter_ego",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000001",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13805,7 +13805,7 @@
     "name": "Heimdall",
     "type": "hero",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000001",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13813,7 +13813,7 @@
     "name": "Banishing Blow",
     "type": "event",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000002",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13821,7 +13821,7 @@
     "name": "Cosmic Strike",
     "type": "event",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000005",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13829,7 +13829,7 @@
     "name": "\"Get Me Out!\"",
     "type": "event",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000006",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13837,7 +13837,7 @@
     "name": "Heimdall's Observatory",
     "type": "support",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000008",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13845,7 +13845,7 @@
     "name": "All-Hearing",
     "type": "upgrade",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000009",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13853,7 +13853,7 @@
     "name": "All-Seeing",
     "type": "upgrade",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000010",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13861,7 +13861,7 @@
     "name": "Gjallarhorn",
     "type": "upgrade",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000011",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13869,7 +13869,7 @@
     "name": "Guardian of the Rainbow Bridge",
     "type": "upgrade",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000012",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13877,7 +13877,7 @@
     "name": "Hofund",
     "type": "upgrade",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000013",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13885,7 +13885,7 @@
     "name": "Shared Vision",
     "type": "upgrade",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000014",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13893,7 +13893,7 @@
     "name": "The Bifrost",
     "type": "support",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000017",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13901,7 +13901,7 @@
     "name": "The Bifrost",
     "type": "support",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000017",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13909,7 +13909,7 @@
     "name": "Overloaded Senses",
     "type": "obligation",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000018",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13917,7 +13917,7 @@
     "name": "Judgement of All Gods",
     "type": "side_scheme",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000019",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13925,7 +13925,7 @@
     "name": "Mangog",
     "type": "minion",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000020",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13933,7 +13933,7 @@
     "name": "Kingdom In Ruin",
     "type": "treachery",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000021",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "heimdall_by_jackhkp",
@@ -13941,7 +13941,7 @@
     "name": "Unquenchable Rage",
     "type": "treachery",
     "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000023",
-    "pack_octgn_id": "6b6bd256-b2ec-568b-adeb-537a4168bcde"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "hlk",

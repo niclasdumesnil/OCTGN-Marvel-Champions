@@ -40,7 +40,7 @@ for card in data:
     octgn_id = card["octgn_id"]
     pack_id = card.get("pack_octgn_id")
 
-    print(f"[TRACE] card_id={card_id}, octgn_id={octgn_id}, pack_octgn_id={pack_id}")
+    #print(f"[TRACE] card_id={card_id}, octgn_id={octgn_id}, pack_octgn_id={pack_id}")
 
     # Ignore les cartes dont l'octgn_id est vide ou égal à "0"
     if not octgn_id or octgn_id == "0":
