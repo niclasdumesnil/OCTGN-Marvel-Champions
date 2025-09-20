@@ -772,7 +772,7 @@
     "card_id": "202401b",
     "name": "Aldrif Odinsdottir",
     "type": "alter_ego",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024001",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -780,7 +780,7 @@
     "card_id": "202401a",
     "name": "Angela",
     "type": "hero",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024001",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -788,7 +788,7 @@
     "card_id": "202402",
     "name": "Sera",
     "type": "ally",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024002",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -796,7 +796,7 @@
     "card_id": "202403",
     "name": "Heven's Fury",
     "type": "event",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024003",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -804,7 +804,7 @@
     "card_id": "202404",
     "name": "Murderous Glare",
     "type": "event",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024004",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -812,7 +812,7 @@
     "card_id": "202405",
     "name": "Single Out",
     "type": "event",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024005",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -820,7 +820,7 @@
     "card_id": "202406",
     "name": "Angelic Ribbons",
     "type": "upgrade",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024006",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -828,7 +828,7 @@
     "card_id": "202407",
     "name": "Asgard's Assassin",
     "type": "upgrade",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024007",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -836,7 +836,7 @@
     "card_id": "202408",
     "name": "Siri's Dress",
     "type": "upgrade",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024008",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -844,7 +844,7 @@
     "card_id": "202409",
     "name": "Xiphos",
     "type": "upgrade",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024009",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -852,7 +852,7 @@
     "card_id": "202410",
     "name": "Banished from Asgard",
     "type": "obligation",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024010",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -860,7 +860,7 @@
     "card_id": "202411",
     "name": "Hel's Retribution",
     "type": "side_scheme",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024011",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -868,7 +868,7 @@
     "card_id": "202412",
     "name": "Hela",
     "type": "minion",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024012",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -876,7 +876,7 @@
     "card_id": "202413",
     "name": "Hel-Wolf",
     "type": "minion",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024013",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -884,7 +884,7 @@
     "card_id": "202414",
     "name": "Disir",
     "type": "minion",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024014",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -892,7 +892,7 @@
     "card_id": "202415",
     "name": "Back from Hel",
     "type": "treachery",
-    "octgn_id": "7146ec51-0500-47b8-9c64-cba3ab024015",
+    "octgn_id": "",
     "pack_octgn_id": "7146ec51-0500-47b8-9c64-cba3ab051845"
   },
   {
@@ -13796,152 +13796,152 @@
     "card_id": "200601b",
     "name": "Heimdall",
     "type": "alter_ego",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000001",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006001",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200601a",
     "name": "Heimdall",
     "type": "hero",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000001",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006001",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200602",
     "name": "Banishing Blow",
     "type": "event",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000002",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006002",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200603",
     "name": "Cosmic Strike",
     "type": "event",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000005",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006003",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200604",
     "name": "\"Get Me Out!\"",
     "type": "event",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000006",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006004",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200605",
     "name": "Heimdall's Observatory",
     "type": "support",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000008",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006005",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200606",
     "name": "All-Hearing",
     "type": "upgrade",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000009",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006006",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200607",
     "name": "All-Seeing",
     "type": "upgrade",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000010",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006007",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200608",
     "name": "Gjallarhorn",
     "type": "upgrade",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000011",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006008",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200609",
     "name": "Guardian of the Rainbow Bridge",
     "type": "upgrade",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000012",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006009",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200610",
     "name": "Hofund",
     "type": "upgrade",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000013",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006010",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200611",
     "name": "Shared Vision",
     "type": "upgrade",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000014",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006011",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200612a",
     "name": "The Bifrost",
     "type": "support",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000017",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006012",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200612b",
     "name": "The Bifrost",
     "type": "support",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000017",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006012",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200613",
     "name": "Overloaded Senses",
     "type": "obligation",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000018",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006013",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200614",
     "name": "Judgement of All Gods",
     "type": "side_scheme",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000019",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006014",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200615",
     "name": "Mangog",
     "type": "minion",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000020",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006015",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200616",
     "name": "Kingdom In Ruin",
     "type": "treachery",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000021",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006016",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200617",
     "name": "Unquenchable Rage",
     "type": "treachery",
-    "octgn_id": "6b6bd256-b2ec-568b-adeb-537a41000023",
-    "pack_octgn_id": ""
+    "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006017",
+    "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
     "pack_code": "hlk",
