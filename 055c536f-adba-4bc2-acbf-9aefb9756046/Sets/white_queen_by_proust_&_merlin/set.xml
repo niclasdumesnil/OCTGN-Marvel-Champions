@@ -72,7 +72,7 @@
       <property name="Attribute" value="Individu. Psionique."/>
       <property name="Text">Tant que cette carte est en jeu, les personnages Robuste sont Solide à la place.
 Vous pouvez activer "&lt;i&gt;lance Psy&lt;/i&gt;" une fois suppl&amp;#233;mentaire par phase.
-&lt;b&gt;Action &lt;/b&gt;: après avoir résolu Lance Psy, inclinez Esmé → redressez votre héros.</property>
+&lt;b&gt;Réponse &lt;/b&gt;: après avoir résolu Lance Psy, inclinez Esmé → redressez votre héros.</property>
       <property name="Unique" value="True"/>
     </card>
     <card name="Les Maraudeurs" id="db923053-d92c-4454-b573-ecb998006004">
@@ -82,10 +82,10 @@ Vous pouvez activer "&lt;i&gt;lance Psy&lt;/i&gt;" une fois suppl&amp;#233;menta
       <property name="Faction" value="hero"/>
       <property name="Type" value="support"/>
       <property name="Owner" value="white_queen_by_proust_&amp;_merlin"/>
-      <property name="Cost" value="3"/>
+      <property name="Cost" value="2"/>
       <property name="Resource_Energy" value="1"/>
       <property name="Attribute" value="X-Men."/>
-      <property name="Text">&lt;b&gt;Action de Héros &lt;/b&gt;:&lt;b&gt; &lt;/b&gt;inclinez &lt;i&gt;les Maraudeurs &lt;/i&gt;→ pour chaque carte d'état en jeu choisissez:&lt;b&gt;
+      <property name="Text">&lt;b&gt;Action de Héros &lt;/b&gt;:&lt;b&gt; &lt;/b&gt;inclinez &lt;i&gt;les Maraudeurs &lt;/i&gt;→ pour chaque carte d'état en jeu sur un perosnnage ami choisissez:&lt;b&gt;
 . &lt;/b&gt;Retirez une menace d'une manigance
 &lt;b&gt;. &lt;/b&gt;Infligez un dégât à un ennemi
 &lt;b&gt;. &lt;/b&gt;Retirez cette carte d'état</property>
@@ -155,7 +155,7 @@ La Reine Blanche gagne +1 ATQ (Plus +2 ATQ à la place, tant qu'elle attaque un 
       <property name="Cost" value="1"/>
       <property name="Resource_Physical" value="1"/>
       <property name="Attribute" value="Attaque. Psionique."/>
-      <property name="Text">&lt;b&gt;Action de héros &lt;/b&gt;(a&lt;i&gt;ttaque&lt;/i&gt;) : désorientez un personnage ami → infligez X dégâts à un ennemi, X étant égal à l'attaque de base du personnage choisi. Vous pouvez incliner le personnage choisi → cette attaque gagne Déferlement et inflige 4 dégats supplémentaires. </property>
+      <property name="Text">&lt;b&gt;Action de héros &lt;/b&gt;(a&lt;i&gt;ttaque&lt;/i&gt;) : désorientez un personnage ami → infligez X dégâts à un ennemi, X étant égal à l'attaque de base du personnage choisi. Vous pouvez incliner le personnage choisi → cette attaque gagne Déferlement et inflige 3 dégats supplémentaires. </property>
     </card>
     <card name="Dure comme le Diamant" id="db923053-d92c-4454-b573-ecb998006010">
       <property name="CardNumber" value="800610"/>
@@ -164,7 +164,7 @@ La Reine Blanche gagne +1 ATQ (Plus +2 ATQ à la place, tant qu'elle attaque un 
       <property name="Faction" value="hero"/>
       <property name="Type" value="event"/>
       <property name="Owner" value="white_queen_by_proust_&amp;_merlin"/>
-      <property name="Cost" value="0"/>
+      <property name="Cost" value="1"/>
       <property name="Resource_Energy" value="1"/>
       <property name="Attribute" value="Défense. Diamant."/>
       <property name="Text">&lt;b&gt;Interruption de héros &lt;/b&gt;(&lt;i&gt;défense&lt;/i&gt;) : quand une carte de boost est retournée face visible lors d'une attaque, annulez toutes les icônes imprimées [boost] et [star] sur cette carte. Ensuite infligez 1 dégât à l'ennemi attaquant pour chacune de ces icônes annulée par cet effet.</property>
@@ -203,8 +203,8 @@ Cherchez Esmé dans votre deck, main, pile de défausse ou zone de jeu et mettez
       <property name="Owner" value="white_queen_by_proust_&amp;_merlin_nemesis"/>
       <property name="Attack" value="1"/>
       <property name="Scheme" value="1"/>
-      <property name="HP" value="6"/>
-      <property name="Attribute" value="Orchis."/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Orchis. Elite."/>
       <property name="Text">Robuste. Vilenie.
 &lt;b&gt;Réponse forcée&lt;/b&gt;: après que Feilong est entré en jeu, défaussez tout allié Iron Man en jeu.
 (&lt;i&gt;Sbire Némésis de la Reine Blanche&lt;/i&gt;.)</property>
