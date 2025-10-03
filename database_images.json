@@ -16852,144 +16852,144 @@
     "card_id": "202001b",
     "name": "Tony Stark",
     "type": "alter_ego",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000001",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000001",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202001a",
     "name": "Iron Man",
     "type": "hero",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000001",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000001",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202002",
     "name": "Rescue",
     "type": "ally",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000002",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000002",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202003",
     "name": "F.R.I.D.A.Y.",
     "type": "support",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000003",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000003",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202004",
-    "name": "Villa de Tony Stark",
+    "name": "Tony Stark's villa",
     "type": "support",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000004",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000004",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202005",
-    "name": "Armure Mark LXX",
+    "name": "Mark LXX Armor",
     "type": "upgrade",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000005",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000005",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202006",
-    "name": "Rayon Répulsif",
+    "name": "Repulsor Blast",
     "type": "event",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000006",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000006",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202009",
-    "name": "Barrage de Micro Missiles",
+    "name": "Micro-Missile Barrage",
     "type": "event",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000009",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000009",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202011",
-    "name": "Génération de Bouclier",
+    "name": "Shield Generation",
     "type": "event",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000011",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000011",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202013",
-    "name": " Réacteur Arc",
+    "name": "Arc Reactor",
     "type": "upgrade",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000013",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000013",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202014",
-    "name": "Réinitialisation des Systèmes",
+    "name": "System Reset",
     "type": "event",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000014",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000014",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202015",
-    "name": "Manipulation des Nanites",
+    "name": "Nanite Manipulation",
     "type": "upgrade",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000015",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000015",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202017",
-    "name": "Armure Endommagée",
+    "name": "Damaged armor",
     "type": "obligation",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000017",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000017",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202018",
-    "name": "Dynamo Pourpre",
+    "name": "Crimson Dynamo",
     "type": "minion",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000018",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000018",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202019",
-    "name": "Guerre des Armures",
+    "name": "Armor Wars",
     "type": "side_scheme",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000019",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000019",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202020",
     "name": "Darkstar",
     "type": "minion",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000020",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000020",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202021",
     "name": "Vanguard",
     "type": "minion",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000021",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000021",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_by_raytten",
     "card_id": "202022",
-    "name": "Décharge",
+    "name": "Shock",
     "type": "treachery",
-    "octgn_id": "da44c66c-7d4c-5891-aa96-f94905000022",
-    "pack_octgn_id": "da44c66c-7d4c-5891-aa96-f94905c42c0f"
+    "octgn_id": "81d41f69-1640-51c5-ace6-3177e5000022",
+    "pack_octgn_id": "81d41f69-1640-51c5-ace6-3177e599f78e"
   },
   {
     "pack_code": "iron_man_noir_by_merlin",
@@ -23838,6 +23838,126 @@
     "type": "treachery",
     "octgn_id": "15bee02e-f628-5492-9f96-3be16d000024",
     "pack_octgn_id": "15bee02e-f628-5492-9f96-3be16dd0aa3a"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202501b",
+    "name": "Namor McKenzie",
+    "type": "alter_ego",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202501a",
+    "name": "Namor",
+    "type": "hero",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202502",
+    "name": "Atlantean Skin",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202503",
+    "name": "Furious Strike",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202504",
+    "name": "Imperius Rex!",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202505",
+    "name": "Royal Authority",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202506",
+    "name": "Wrath of the Sea",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202507",
+    "name": "Atlantis",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202508",
+    "name": "Ankle Wings",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202509",
+    "name": "Neptune's Trident",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202510",
+    "name": "Atlantis in Peril",
+    "type": "obligation",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202511",
+    "name": "Atlantis Attacks",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202512",
+    "name": "Attuma",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202513",
+    "name": "Atlantean Traitor",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202514",
+    "name": "Incited Conflict",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
     "pack_code": "ncrawler",
@@ -32440,7 +32560,7 @@
     "pack_octgn_id": "5f189d1d-2352-41cc-b285-a4c687da51de"
   },
   {
-    "pack_code": "stan_lee_by_ekaugust",
+    "pack_code": "stan_lee_by_mc4db",
     "card_id": "999901a",
     "name": "Stan Lee",
     "type": "hero",
@@ -32448,7 +32568,7 @@
     "pack_octgn_id": ""
   },
   {
-    "pack_code": "stan_lee_by_ekaugust",
+    "pack_code": "stan_lee_by_mc4db",
     "card_id": "999901b",
     "name": "Stan Lee",
     "type": "alter_ego",
@@ -32456,7 +32576,7 @@
     "pack_octgn_id": ""
   },
   {
-    "pack_code": "stan_lee_by_ekaugust",
+    "pack_code": "stan_lee_by_mc4db",
     "card_id": "999902",
     "name": "Creating a new card",
     "type": "event",

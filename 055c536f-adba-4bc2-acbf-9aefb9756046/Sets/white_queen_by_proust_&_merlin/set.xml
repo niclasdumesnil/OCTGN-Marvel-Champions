@@ -23,7 +23,7 @@
       <property name="HP" value="9"/>
       <property name="Attribute" value="Psionique. X-men."/>
       <property name="Text">&lt;i&gt;Lance Psy&lt;/i&gt; - &lt;b&gt;Action de héros &lt;/b&gt;: échangez 2 cartes d'état différentes entre 2 personnages (limite d'une fois par phase).
-&lt;b&gt;Réponse forcée &lt;/b&gt;: après avoir joué une carte &lt;b&gt;DIAMANT&lt;/b&gt;, donnez une carte tenace à votre identité. Après avoir joué une carte &lt;b&gt;PSIONIQUE&lt;/b&gt; défaussez toute carte tenace de votre identité.</property>
+&lt;b&gt;Réponse forcée &lt;/b&gt;: après avoir joué une carte &lt;b&gt;&lt;i&gt;DIAMANT&lt;/i&gt;&lt;/b&gt;, donnez une carte tenace à votre identité. Après avoir joué une carte &lt;b&gt;&lt;i&gt;PSIONIQUE&lt;/i&gt;&lt;/b&gt;&lt;i&gt; &lt;/i&gt;défaussez toute carte tenace de votre identité.</property>
       <property name="Unique" value="True"/>
       <alternate name="Emma Frost" type="b">
         <property name="CardNumber" value="800601b"/>
@@ -83,7 +83,7 @@ Vous pouvez activer "&lt;i&gt;lance Psy&lt;/i&gt;" une fois suppl&amp;#233;menta
       <property name="Type" value="support"/>
       <property name="Owner" value="white_queen_by_proust_&amp;_merlin"/>
       <property name="Cost" value="2"/>
-      <property name="Resource_Energy" value="1"/>
+      <property name="Resource_Wild" value="1"/>
       <property name="Attribute" value="X-Men."/>
       <property name="Text">&lt;b&gt;Action de Héros &lt;/b&gt;:&lt;b&gt; &lt;/b&gt;inclinez &lt;i&gt;les Maraudeurs &lt;/i&gt;→ pour chaque carte d'état en jeu sur un perosnnage ami choisissez:&lt;b&gt;
 . &lt;/b&gt;Retirez une menace d'une manigance

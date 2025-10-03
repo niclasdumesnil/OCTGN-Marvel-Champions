@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Namor" id="8a2b541d-69d6-5c7a-b1b2-5827487cdc56" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="8a2b541d-69d6-5c7a-b1b2-582748000000" name="namor_by_odysseus">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="namor_by_odysseus"/>
+    </card>
+    <card id="8a2b541d-69d6-5c7a-b1b2-582748990000" name="namor_by_odysseus">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="namor_by_odysseus_nemesis"/>
+    </card>
+  </cards>
+</set>
