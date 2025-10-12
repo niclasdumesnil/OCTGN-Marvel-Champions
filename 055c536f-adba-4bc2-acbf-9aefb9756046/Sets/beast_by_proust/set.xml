@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Beast" id="e9c1eef1-7d5d-483e-b57a-5822d2f3d266" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="e9c1eef1-7d5d-483e-b57a-5822d2000000" name="beast_by_proust">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="beast_by_proust"/>
+    </card>
+    <card id="e9c1eef1-7d5d-483e-b57a-5822d2990000" name="beast_by_proust">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="beast_by_proust_nemesis"/>
+    </card>
+    <card name="Le Fauve" id="e9c1eef1-7d5d-483e-b57a-5822d2007001">
+      <property name="CardNumber" value="800701a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="beast_by_proust"/>
+      <property name="HandSize" value="4"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="14"/>
+      <property name="Attribute" value="Avenger. X-men."/>
+      <property name="Text">&lt;i&gt;Réexploitation géniale&lt;/i&gt; - &lt;b&gt;Action&lt;/b&gt; : intercalez sous le &lt;i&gt;"Laboratoire du Fauve"&lt;/i&gt; une amélioration &lt;b&gt;&lt;i&gt;TECH&lt;/i&gt;&lt;/b&gt; que vous contrôlez →redressez votre héros et choisissez CTR, ATQ ou DEF. Jusqu'à la fin du round, votre héros gagne +X au pouvoir choisi, X étant égal au coût imprimé de cette amélioration. (Limite une fois par phase).</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Hank McCoy" type="b">
+        <property name="CardNumber" value="800701b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="beast_by_proust"/>
+        <property name="HandSize" value="5"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="14"/>
+        <property name="Attribute" value="Génie. Mutant."/>
+        <property name="Text">&lt;b&gt;Mise en place&lt;/b&gt; : Cherchez le &lt;i&gt;"Laboratoire du Fauve"&lt;/i&gt; et mettez-le en jeu sous votre contrôle.
+&lt;i&gt;Ressourcé&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: cherchez dans votre deck ou votre pile de défausse une carte ressource et ajoutez la à votre main. (Limite une fois par phase).</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Laboratoire du Fauve" id="e9c1eef1-7d5d-483e-b57a-5822d2007002">
+      <property name="CardNumber" value="800702"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="beast_by_proust"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Lieu. X-men."/>
+      <property name="Text">Mise en Place. Permanent.
+Les améliorations intercalées sous cette carte peuvent être jouées comme si elles étaient dans votre main.
+S'il y a plus de 3 cartes intercalées sous cette carte, défaussez-en pour n'en laisser que 3.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Ultime Mutation" id="e9c1eef1-7d5d-483e-b57a-5822d2007003">
+      <property name="CardNumber" value="800703"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="beast_by_proust"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Le Fauve gagne +1 DEF, +4 points de vie et ses attaques de base gagnent Perçant.</property>
+      <property name="Quote">&lt;i&gt;"Peut-être que le monde ne vaut plus la peine d'être sauvé." — Le Fauve&lt;/i&gt;</property>
+    </card>
+    <card name="Gants de Pouvoir Piratés" id="e9c1eef1-7d5d-483e-b57a-5822d2007004">
+      <property name="CardNumber" value="800704"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="beast_by_proust"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Objet. Tech."/>
+      <property name="Text">Diminuez de 1 le coût de cette carte si vous contrôlez une amélioration avec le trait &lt;b&gt;&lt;i&gt;TECH&lt;/i&gt;&lt;/b&gt;.
+&lt;b&gt;Interruption de héros&lt;/b&gt; : quand le Fauve utilise un pouvoir de base choisissez :
+. infligez 1 dégât à un ennemi
+. retirez 1 menace d'une manigance</property>
+      <property name="Quote">&lt;i&gt;"Ca ne marche plus Hank !" - Simon Williams&lt;/i&gt;</property>
+    </card>
+    <card name="Spider-Traceurs de Peter" id="e9c1eef1-7d5d-483e-b57a-5822d2007005">
+      <property name="CardNumber" value="800705"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="beast_by_proust"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech."/>
+      <property name="Text">Cette carte entre en jeu avec 4 jetons traceur sur elle. Diminuez de 1 le coût de cette carte si vous contrôlez une amélioration avec le trait &lt;b&gt;&lt;i&gt;TECH&lt;/i&gt;&lt;/b&gt;.
+&lt;b&gt;Ressource&lt;/b&gt; : retirez 1 jeton traceur de cette carte → générez 1 ressource [mental] pour une carte &lt;b&gt;&lt;i&gt;TECH&lt;/i&gt;&lt;/b&gt;. (Limite d'une fois par carte).</property>
+    </card>
+    <card name="Ceinture de Bobby" id="e9c1eef1-7d5d-483e-b57a-5822d2007006">
+      <property name="CardNumber" value="800706"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="beast_by_proust"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Objet. Tech."/>
+      <property name="Text">Diminuez de 1 le coût de cette carte si vous contrôlez une amélioration avec le trait &lt;b&gt;&lt;i&gt;TECH&lt;/i&gt;&lt;/b&gt;.
+Diminuez de 1 les dégats subis par le Fauve.</property>
+      <property name="Quote">"Tu es un roc, Hank. Tu l'as toujours été." — Bobby Drake</property>
+    </card>
+    <card name="Réacteur Arc de Tony" id="e9c1eef1-7d5d-483e-b57a-5822d2007007">
+      <property name="CardNumber" value="800707"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="beast_by_proust"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Objet. Tech."/>
+      <property name="Text">Diminuez de 1 le coût de cette carte si vous contrôlez une amélioration avec le trait &lt;b&gt;&lt;i&gt;TECH&lt;/i&gt;&lt;/b&gt;.
+Votre taille de main augmente de +1 tant que vous êtes sous forme de héros.</property>
+    </card>
+    <card name="Cérébro de Xavier" id="e9c1eef1-7d5d-483e-b57a-5822d2007008">
+      <property name="CardNumber" value="800708"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="beast_by_proust"/>
+      <property name="Cost" value="5"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Objet. Tech."/>
+      <property name="Text">Cette carte entre en jeu avec 2 jetons Psy sur elle. Diminuez de 1 le coût de cette carte si vous contrôlez une amélioration avec le trait TECH.
+&lt;b&gt;Action de héros&lt;/b&gt; : retirez 1 jeton Psy du Cérébro de Xavier et inclinez-le → infligez 3 dégâts à chacun des ennemis en jeu.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Renfort Technique" id="e9c1eef1-7d5d-483e-b57a-5822d2007009">
+      <property name="CardNumber" value="800709"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="beast_by_proust"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactique."/>
+      <property name="Text">&lt;b&gt;Action de héros&lt;/b&gt;: inclinez le &lt;i&gt;"Laboratoire du Fauve"&lt;/i&gt; puis choisissez:
+. défaussez une carte intercalée sous le&lt;i&gt; "Laboratoire du Fauve"&lt;/i&gt; puis redressez votre héros.
+. cherchez dans votre deck ou pile défausse une amélioration avec le trait &lt;b&gt;&lt;i&gt;TECH&lt;/i&gt;&lt;/b&gt; puis intercalez-la sous le &lt;i&gt;"Laboratoire du Fauve"&lt;/i&gt;.</property>
+    </card>
+    <card name="Charge Bestiale" id="e9c1eef1-7d5d-483e-b57a-5822d2007010">
+      <property name="CardNumber" value="800710"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="beast_by_proust"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attaque."/>
+      <property name="Text">&lt;b&gt;Action de héros&lt;/b&gt;: infligez 6 dégâts à un ennemi. Vous avez le droit d'incliner le &lt;i&gt;"Laboratoire du Fauve"&lt;/i&gt; et de défausser 1 carte intercalée dessous. Si vous le faites cette attaque gagne déferlement et inflige X dégâts supplémentaires X étant égal au coût imprimé de la carte ainsi défaussée.</property>
+    </card>
+    <card name="Génie Civil" id="e9c1eef1-7d5d-483e-b57a-5822d2007011">
+      <property name="CardNumber" value="800711"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="beast_by_proust"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Contre."/>
+      <property name="Text">&lt;b&gt;Action de héros&lt;/b&gt;: retirez 3 menaces d'une manigance. Vous pouvez incliner le "&lt;i&gt;Laboratoire du Fauve"&lt;/i&gt; et défaussez une carte intercalée dessous pour passer sous forme d'alter égo.</property>
+      <property name="Quote">&lt;i&gt;"Plutôt que de l'argent ou des objets, donne-moi la vérité." — Le Fauve&lt;/i&gt;</property>
+    </card>
+    <card name="Génie de la Tech" id="e9c1eef1-7d5d-483e-b57a-5822d2007012">
+      <property name="CardNumber" value="800712"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="beast_by_proust"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">&lt;b&gt;Réponse de Héros&lt;/b&gt; : après avoir dépensé cette carte, cherchez dans votre deck ou pile de défausse une amélioration &lt;b&gt;&lt;i&gt;TECH&lt;/i&gt;&lt;/b&gt; et intercalez la sous le &lt;i&gt;"Laboratoire du Fauve"&lt;/i&gt;.</property>
+      <property name="Quote">&lt;i&gt;"Avenger une fois, etc..." — Le Fauve&lt;/i&gt;</property>
+    </card>
+    <card name="Surexploité" id="e9c1eef1-7d5d-483e-b57a-5822d2007013" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="800713"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="beast_by_proust_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">&lt;b&gt;Donnez cette carte au joueur de Hank McCoy&lt;/b&gt;
+Défaussez toutes les cartes intercalées sous le &lt;i&gt;"Laboratoire du Fauve",&lt;/i&gt; défaussez ensuite Surexploité. Si aucune amélioration &lt;b&gt;&lt;i&gt;TECH&lt;/i&gt;&lt;/b&gt;&lt;b&gt; &lt;/b&gt;n'est déffaussées par cet effet, attribuez-vous 1 carte Rencontre face cachée, mélangez ensuite Surexploité dans le deck Rencontre.</property>
+    </card>
+    <card name="Problèmes Techniques" id="e9c1eef1-7d5d-483e-b57a-5822d2007014" size="SchemeCard">
+      <property name="CardNumber" value="800714"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="beast_by_proust_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;Une fois révélée&lt;/b&gt;: placez 1 menace sur cette carte pour chaque amélioration en jeu.
+[amplify]</property>
+      <property name="Quote">&lt;i&gt;"Ainsi la conscience fait de nous tous des lâches" - W. Shakespeare &amp; le Fauve Noir&lt;/i&gt;</property>
+    </card>
+    <card name="Le Fauve Noir" id="e9c1eef1-7d5d-483e-b57a-5822d2007015" size="EncounterCard">
+      <property name="CardNumber" value="800715"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="beast_by_proust_nemesis"/>
+      <property name="Attack" value="0"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="4"/>
+      <property name="Attribute" value="Elite. Mutant."/>
+      <property name="Text">[star] Le Fauve Noir gagne +X ATQ, X étant le coût en ressources imprimé de la carte intercalée sous lui.
+&lt;b&gt;Une fois révélée&lt;/b&gt; : intercalez sous le Fauve Noir l'amélioration &lt;b&gt;&lt;i&gt;TECH&lt;/i&gt;&lt;/b&gt; que vous controlez ayant le coût le plus élevé. Sinon, intercalez sous le Fauve Noir la carte du dessus de votre deck.
+(Sbire Némésis du Fauve.)</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Génie Maléfique" id="e9c1eef1-7d5d-483e-b57a-5822d2007016" size="EncounterCard">
+      <property name="CardNumber" value="800716"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="beast_by_proust_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;Une fois révélée &lt;/b&gt;: défaussez une amélioration &lt;b&gt;&lt;i&gt;TECH&lt;/i&gt;&lt;/b&gt;&lt;i&gt; &lt;/i&gt;que vous contrôlez et infligez à votre identité X dégâts indirects, X étant égal au coût imprimé de cette amélioration. Si aucune amélioration n'est défaussée par cette effet, cette carte gagne Renfort.</property>
+    </card>
+    <card name="Lunettes High-Tech " id="e9c1eef1-7d5d-483e-b57a-5822d2007017" size="EncounterCard">
+      <property name="CardNumber" value="800717"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="beast_by_proust_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">Attachez cette carte au Fauve Noir, si vous ne pouvez pas attachez-la au Méchant.
+&lt;b&gt;Action de héros : &lt;/b&gt;défaussez une amélioration que vous contrôlez → défaussez cet attachement.</property>
+    </card>
+  </cards>
+</set>

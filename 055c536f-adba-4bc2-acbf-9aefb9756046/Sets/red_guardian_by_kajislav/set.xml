@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Red Guardian" id="7bdcef20-83cc-47aa-a505-c601f5b57c6b" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="7bdcef20-83cc-47aa-a505-c601f5000000" name="red_guardian_by_kajislav">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="red_guardian_by_kajislav"/>
+    </card>
+    <card id="7bdcef20-83cc-47aa-a505-c601f5990000" name="red_guardian_by_kajislav">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="red_guardian_by_kajislav_nemesis"/>
+    </card>
+    <card name="Red Guardian" id="7bdcef20-83cc-47aa-a505-c601f5026001">
+      <property name="CardNumber" value="202601a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="red_guardian_by_kajislav"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="11"/>
+      <property name="Attribute" value="Soldier. Thunderbolt."/>
+      <property name="Text">&lt;i&gt;Shield Launch &lt;/i&gt;— &lt;b&gt;Action &lt;/b&gt;&lt;i&gt;(attack/thwart)&lt;/i&gt;: Attach Red Guardian's Shield from your hand to an enemy or a scheme → deal 2 damage to that enemy or remove 2 threat from that scheme.&lt;i&gt;
+"I had no expectations. Only dreams."&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Alexei Shostakov" type="b">
+        <property name="CardNumber" value="202601b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="red_guardian_by_kajislav"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="11"/>
+        <property name="Attribute" value="Soldier."/>
+        <property name="Text">&lt;i&gt;Rescue the Shield&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Spend 1 resource of any type → search your deck and discard pile for Red Guardian's Shield and add it to your hand. (Limit once per round).
+&lt;i&gt;"There's no place like home."&lt;/i&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="White Widow" id="7bdcef20-83cc-47aa-a505-c601f5026003">
+      <property name="CardNumber" value="202603"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="red_guardian_by_kajislav"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Spy. Thunderbolt."/>
+      <property name="Text">[star] &lt;b&gt;Response&lt;/b&gt;: After White Widow attacks an enemy with Red Guardian's Shield attached, confuse an enemy.
+&lt;i&gt;"I tried to assassinate you. Assassinations only happen to important people. It's a compliment."&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Black Widow" id="7bdcef20-83cc-47aa-a505-c601f5026002">
+      <property name="CardNumber" value="202602"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="red_guardian_by_kajislav"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Spy. Thunderbolt."/>
+      <property name="Text">[star] &lt;b&gt;Response&lt;/b&gt;: After Black Widow attacks an enemy with Red Guardian's Shield attached, stun an enemy.
+&lt;i&gt;"I don't need a weapon. I am a weapon."&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Shield Block" id="7bdcef20-83cc-47aa-a505-c601f5026004">
+      <property name="CardNumber" value="202604"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="red_guardian_by_kajislav"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Defense."/>
+      <property name="Text">Play only if Red Guardian's Shield is in your hand.
+&lt;b&gt;Interrupt&lt;/b&gt;&lt;i&gt; (defense)&lt;/i&gt;: When you would take any amount of damage, prevent all of that damage.[[
+]]&lt;i&gt;"I've come too far to give up now." —Red Guardian&lt;/i&gt;</property>
+    </card>
+    <card name="Shielded Drop" id="7bdcef20-83cc-47aa-a505-c601f5026006">
+      <property name="CardNumber" value="202606"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="red_guardian_by_kajislav"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Aerial. Thwart."/>
+      <property name="Text">Play only if Red Guardian's Shield is in your hand.
+&lt;b&gt;Hero Action&lt;/b&gt;&lt;i&gt; (thwart)&lt;/i&gt;: Remove 5 threat from a scheme.[[
+]]&lt;i&gt;"If there is backup here, it is all of you! This operation is mine." —Red Guardian&lt;/i&gt;</property>
+    </card>
+    <card name="Shield Ricochet" id="7bdcef20-83cc-47aa-a505-c601f5026008">
+      <property name="CardNumber" value="202608"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="red_guardian_by_kajislav"/>
+      <property name="Cost" value="-1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">Play only if Red Guardian's Shield is attached to an enemy or a scheme.
+&lt;b&gt;Hero Action&lt;/b&gt;: Move Red Guardian's Shield to an enemy or a scheme X times → deal 3 damage to each enemy and remove 3 threat from each scheme Red Guardian's Shield was moved to.[[
+]]&lt;i&gt;“Aren't you all regretting that you neglected to practice speed reloading?” —Albert&lt;/i&gt;</property>
+    </card>
+    <card name="Shield Strike" id="7bdcef20-83cc-47aa-a505-c601f5026011">
+      <property name="CardNumber" value="202611"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="red_guardian_by_kajislav"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">Play only if Red Guardian's Shield is in your hand.
+&lt;b&gt;Hero Action&lt;/b&gt;&lt;i&gt; (attack)&lt;/i&gt;: Deal 5 damage to an enemy. This attack gains piercing.[[
+]]&lt;i&gt;"Don't kill anything until you know who is hunting who. And why." —Red Guardian&lt;/i&gt;</property>
+    </card>
+    <card name="Red Guardian's Shield" id="7bdcef20-83cc-47aa-a505-c601f5026013">
+      <property name="CardNumber" value="202613"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="red_guardian_by_kajislav"/>
+      <property name="Cost" value="None"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Temporary.
+While this card is in your hand, you can control 1 fewer restricted card.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When your turn ends, return this card from play to your hand.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Shield Arts" id="7bdcef20-83cc-47aa-a505-c601f5026014">
+      <property name="CardNumber" value="202614"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="red_guardian_by_kajislav"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When Red Guardian uses a basic power against an enemy or a scheme with Red Guardian's Shield attached, exhaust Shield Arts → choose to either return Red Guardian's Shield to your hand or ready Red Guardian.</property>
+    </card>
+    <card name="Shield Harness" id="7bdcef20-83cc-47aa-a505-c601f5026015">
+      <property name="CardNumber" value="202615"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="red_guardian_by_kajislav"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Red Guardian's Shield does not count toward your hand size.
+&lt;b&gt;Hero Response&lt;/b&gt;: After Red Guardian's Shield is discarded from play, exhaust Shield Harness → return Red Guardian's Shield to your hand.&lt;i&gt;&lt;/i&gt;</property>
+    </card>
+    <card name="Soviet Super-Soldier" id="7bdcef20-83cc-47aa-a505-c601f5026016">
+      <property name="CardNumber" value="202616"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="red_guardian_by_kajislav"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text">Red Guardian gains steady.&lt;b&gt;
+Resource&lt;/b&gt;: Exhaust Soviet Super- Soldier → generate a [wild] resource.&lt;i&gt;
+"Today, I save a village, but soon... I save a dream!" —Red Guardian&lt;/i&gt;</property>
+    </card>
+    <card name="Caged Bird" id="7bdcef20-83cc-47aa-a505-c601f5026017" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="202617"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="red_guardian_by_kajislav"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Find Red Guardian's Shield and tuck it under here.&lt;b&gt;
+Alter-Ego Action&lt;/b&gt;: Exhaust Alexei Shostakov → remove this card from the game.</property>
+    </card>
+    <card name="Captain America" id="7bdcef20-83cc-47aa-a505-c601f5026018" size="EncounterCard">
+      <property name="CardNumber" value="202618"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="red_guardian_by_kajislav_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Elite. Soldier."/>
+      <property name="Text">Quickstrike.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Captain America attacks and damages you, discard 1 random card from your hand.
+&lt;i&gt;(Red Guardians's nemesis minion.)
+"Step outside quietly...or there is going to be trouble!"&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Envied Idol" id="7bdcef20-83cc-47aa-a505-c601f5026019" size="SchemeCard">
+      <property name="CardNumber" value="202619"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="red_guardian_by_kajislav_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;"If I am to accomplish my purpose… by destroying Captain America… I must surpass him in every way!" —Red Guardian&lt;/i&gt;
+The Red Guardian player cannot change to alter-ego form.&lt;b&gt;
+When Revealed&lt;/b&gt;: The Red Guardian player changes to hero form. [hazard]</property>
+    </card>
+    <card name="&quot;I Can't Do It All Day&quot;" id="7bdcef20-83cc-47aa-a505-c601f5026020" size="EncounterCard">
+      <property name="CardNumber" value="202620"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="red_guardian_by_kajislav_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Choose to either exhaust your identity or discard 1 random card from your hand.
+&lt;i&gt;"What kind of super serum did you get?" —Red Guardian&lt;/i&gt;
+&lt;i&gt;&lt;/i&gt;</property>
+    </card>
+    <card name="&quot;I Don't Want You&quot;" id="7bdcef20-83cc-47aa-a505-c601f5026021" size="EncounterCard">
+      <property name="CardNumber" value="202621"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="red_guardian_by_kajislav_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Choose to either spend a [physical] resource or discard 1 random card from your hand.
+&lt;i&gt;"Red Guardian was loyal to a fault." —Red Guardian&lt;/i&gt;</property>
+    </card>
+    <card name="Symbol of Failure" id="7bdcef20-83cc-47aa-a505-c601f5026022" size="EncounterCard">
+      <property name="CardNumber" value="202622"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="red_guardian_by_kajislav_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Choose to either discard a card you control or a discard 1 random card from your hand.
+&lt;i&gt;"Who would suspect this symbol…their falsehood…of failure?" —Red Guardian&lt;/i&gt;</property>
+    </card>
+  </cards>
+</set>

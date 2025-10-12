@@ -1,130 +1,146 @@
 [
   {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800601a",
-    "name": "La Reine Blanche",
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202601a",
+    "name": "Red Guardian",
     "type": "hero",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006001",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026001",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
   },
   {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800601b",
-    "name": "Emma Frost",
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202601b",
+    "name": "Alexei Shostakov",
     "type": "alter_ego",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006001",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026001",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
   },
   {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800602",
-    "name": "Iron Man",
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202603",
+    "name": "White Widow",
     "type": "ally",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006002",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026003",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
   },
   {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800603",
-    "name": "Esmé",
-    "type": "support",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006003",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202602",
+    "name": "Black Widow",
+    "type": "ally",
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026002",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
   },
   {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800604",
-    "name": "Les Maraudeurs",
-    "type": "support",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006004",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202604",
+    "name": "Shield Block",
+    "type": "event",
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026004",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
   },
   {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800605",
-    "name": "Sous Emprise ",
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202606",
+    "name": "Shielded Drop",
+    "type": "event",
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026006",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+  },
+  {
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202608",
+    "name": "Shield Ricochet",
+    "type": "event",
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026008",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+  },
+  {
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202611",
+    "name": "Shield Strike",
+    "type": "event",
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026011",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+  },
+  {
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202613",
+    "name": "Red Guardian's Shield",
     "type": "upgrade",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006005",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026013",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
   },
   {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800606",
-    "name": "Force Phénix",
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202614",
+    "name": "Shield Arts",
     "type": "upgrade",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006006",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026014",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
   },
   {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800607",
-    "name": "La Belle et la Pègre",
-    "type": "event",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006007",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202615",
+    "name": "Shield Harness",
+    "type": "upgrade",
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026015",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
   },
   {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800608",
-    "name": "Egide Mentale",
-    "type": "event",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006008",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202616",
+    "name": "Soviet Super-Soldier",
+    "type": "upgrade",
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026016",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
   },
   {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800609",
-    "name": "Déferlement Psionique",
-    "type": "event",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006009",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
-  },
-  {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800610",
-    "name": "Dure comme le Diamant",
-    "type": "event",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006010",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
-  },
-  {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800611",
-    "name": "Mariage Blanc",
-    "type": "event",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006011",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
-  },
-  {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800612",
-    "name": "Une Affaire de Famille",
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202617",
+    "name": "Caged Bird",
     "type": "obligation",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006012",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026017",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
   },
   {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800613",
-    "name": "Feilong",
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202618",
+    "name": "Captain America",
     "type": "minion",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006013",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026018",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
   },
   {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800614",
-    "name": "O.P.A. Hostile",
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202619",
+    "name": "Envied Idol",
     "type": "side_scheme",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006014",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026019",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
   },
   {
-    "pack_code": "white_queen_by_proust_&_merlin",
-    "card_id": "800615",
-    "name": "Sentinelle Stark",
-    "type": "minion",
-    "octgn_id": "db923053-d92c-4454-b573-ecb998006015",
-    "pack_octgn_id": "db923053-d92c-4454-b573-ecb998d60fba"
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202620",
+    "name": "\"I Can't Do It All Day\"",
+    "type": "treachery",
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026020",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+  },
+  {
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202621",
+    "name": "\"I Don't Want You\"",
+    "type": "treachery",
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026021",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+  },
+  {
+    "pack_code": "red_guardian_by_kajislav",
+    "card_id": "202622",
+    "name": "Symbol of Failure",
+    "type": "treachery",
+    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026022",
+    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
   }
 ]
