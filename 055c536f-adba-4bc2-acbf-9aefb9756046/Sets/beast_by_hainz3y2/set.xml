@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Beast" id="6577554c-f04a-47cd-bff5-3debd97b0712" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="6577554c-f04a-47cd-bff5-3debd9000000" name="beast_by_hainz3y2">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="beast_by_hainz3y2"/>
+    </card>
+    <card id="6577554c-f04a-47cd-bff5-3debd9990000" name="beast_by_hainz3y2">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="beast_by_hainz3y2_nemesis"/>
+    </card>
+    <card name="Beast" id="6577554c-f04a-47cd-bff5-3debd9029001">
+      <property name="CardNumber" value="202901a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="beast_by_hainz3y2"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="12"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;i&gt;Multitasker&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you draw an event or resource, put that card into your reserve → draw 1 card. (Limit once per round.)
+&lt;i&gt;“Oh, my stars and garters! What have we here?”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Hank McCoy" type="b">
+        <property name="CardNumber" value="202901b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="beast_by_hainz3y2"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="12"/>
+        <property name="Attribute" value="Genius. Mutant. Scientist."/>
+        <property name="Text">&lt;i&gt;R&amp;D&lt;/i&gt; — You may include up to 6 upgrades from aspects other than your chosen aspect. Your minimum deck size is 45 cards.
+&lt;b&gt;Action&lt;/b&gt;: Put a card from your hand into your reserve. (Limit once per round.)
+&lt;i&gt;“Flavour text.”&lt;/i&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Beast" id="6577554c-f04a-47cd-bff5-3debd9029002">
+      <property name="CardNumber" value="202902"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="beast_by_hainz3y2"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust this card → heal 1 damage from your identity and 1 damage from Beast.
+&lt;i&gt;“I'll set-up the device while you--”“--Run those calculations. Lets--” —Beast (Earth 616)“--Tag team a scientific solution.” &lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Addition by Subtraction" id="6577554c-f04a-47cd-bff5-3debd9029003">
+      <property name="CardNumber" value="202903"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="beast_by_hainz3y2"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Skill."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Deal 3 damage to an enemy. If this attack defeats an enemy, repeat this attack.
+&lt;i&gt;“The noblest answer unto such, is kindly silence when they brawl.” —Alfred Lord Tennyson&lt;/i&gt;</property>
+    </card>
+    <card name="Lateral Thinking" id="6577554c-f04a-47cd-bff5-3debd9029004">
+      <property name="CardNumber" value="202904"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="beast_by_hainz3y2"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme. If you played this card from your hand, put this card into your reserve.
+&lt;i&gt;“Perhaps a new perspective will present a possible resolution for this perplexing problem.” —Beast&lt;/i&gt;</property>
+    </card>
+    <card name="Logical Solution" id="6577554c-f04a-47cd-bff5-3debd9029005">
+      <property name="CardNumber" value="202905"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="beast_by_hainz3y2"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Choose an attachment with the text “&lt;b&gt;Alter-Ego Action&lt;/b&gt;” or “&lt;b&gt;Hero Action&lt;/b&gt;”. Discard that attachment.
+&lt;i&gt;“Oftentimes, concocting a feasible countermeasure to the opponent's paraphernalia is a trying and complex process. However, in this instance brute force will suffice.” —Beast&lt;/i&gt;</property>
+    </card>
+    <card name="Spring into Action" id="6577554c-f04a-47cd-bff5-3debd9029006">
+      <property name="CardNumber" value="202906"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="beast_by_hainz3y2"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Ready your hero.
+&lt;i&gt;“We few, we happy few, we band of brothers; For he who sheds his blood with me this day shall be my brother; be he ne'er so vile, this day shall gentle his condition; And men in England now abed, will count their manhoods cheap, they were not here with us to fight on Crispin's day!” —William Shakespeare, Henry V &lt;/i&gt;</property>
+    </card>
+    <card name="Beast's Lab" id="6577554c-f04a-47cd-bff5-3debd9029007">
+      <property name="CardNumber" value="202907"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="beast_by_hainz3y2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Beast's Lab → choose a player. That player searches their deck and discard pile for an upgrade and plays it &lt;i&gt;(paying its resource cost)&lt;/i&gt;.
+&lt;i&gt;“This is absolutely fascinating on every conceivable level.” —Beast&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Keen Mind" id="6577554c-f04a-47cd-bff5-3debd9029008">
+      <property name="CardNumber" value="202908"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="beast_by_hainz3y2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Increase your reserve limit by 1.
+&lt;b&gt;Resource&lt;/b&gt;: Exhaust Keen Mind → generate a [mental] resource (generate a [wild] resource instead if paying for a card in your reserve).
+&lt;i&gt;”As Archimedes said when he discovered the principle of displacement; Eureka!” —Beast&lt;/i&gt;</property>
+    </card>
+    <card name="Prehensile Feet" id="6577554c-f04a-47cd-bff5-3debd9029009">
+      <property name="CardNumber" value="202909"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="beast_by_hainz3y2"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition. Superpower."/>
+      <property name="Text">You can control 1 additional upgrade that has the restricted keyword.
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Prehensile Feet → put a card from your reserve into your hand.
+&lt;i&gt;“My prodigious pedal extremities have things in hand... or foot, to be more accurate.” —Beast&lt;/i&gt;</property>
+    </card>
+    <card name="Scientific Solution" id="6577554c-f04a-47cd-bff5-3debd9029010">
+      <property name="CardNumber" value="202910"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="beast_by_hainz3y2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After you draw an event or resource, put that card into your reserve → draw 1 card. (Limit once per round.)
+&lt;i&gt;“To answer the age-old question of whether one would rather serve in righteous heaven or rule in pragmatic hell, I'm forced to say, Dr. McCoy, you might just be the devil.” —Beast&lt;/i&gt;</property>
+    </card>
+    <card name="Secondary Mutations" id="6577554c-f04a-47cd-bff5-3debd9029011">
+      <property name="CardNumber" value="202911"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="beast_by_hainz3y2"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Condition. Superpower."/>
+      <property name="Text">You get +4 hit points.
+Hank McCoy gets +1 REC.
+Beast gets +1 ATK, and +1 DEF.
+&lt;i&gt;“According to your records you genetically tampered with our own mutation years ago...” —Beast (Earth-TRN240)&lt;/i&gt;</property>
+    </card>
+    <card name="Mutation Degeneration" id="6577554c-f04a-47cd-bff5-3debd9029012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="202912"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="beast_by_hainz3y2"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">You may flip to alter-ego form. Choose:
+Exhaust any 2 of your alter-ego, your hero-specific ally, or Beast's Lab → remove Mutation Degeneration from the game.
+Exhaust your identity and take 2 damage. Discard this obligation.</property>
+    </card>
+    <card name="Dark Beast" id="6577554c-f04a-47cd-bff5-3debd9029013" size="EncounterCard">
+      <property name="CardNumber" value="202913"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="beast_by_hainz3y2_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Cyborg. Elite."/>
+      <property name="Text">Quickstrike.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Dark Beast attacks and damages a character, place 2 threat on the Dark Experimentation side scheme. If the Dark Experimentation side scheme is not in play, heal 2 damage from Dark Beast and the villain instead.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Dark Experimentation" id="6577554c-f04a-47cd-bff5-3debd9029014" size="SchemeCard">
+      <property name="CardNumber" value="202914"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="beast_by_hainz3y2_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;Dark Beast is using chemistry and robotics to concoct vile and dangerous experiments.
+&lt;/i&gt;Enters play with 1 test counter.
+&lt;b&gt;Forced Response&lt;/b&gt;: After resolving step 1 of the villain phase, if there are no test counters here, place 1 test counter here. Otherwise, seek an attachment from the encounter deck and reveal it. Then, remove 1 test counter from here and shuffle each other card discarded this way 		into the encounter deck.</property>
+    </card>
+    <card name="Cybernetic Enhancements" id="6577554c-f04a-47cd-bff5-3debd9029015" size="EncounterCard">
+      <property name="CardNumber" value="202915"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="beast_by_hainz3y2_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Armor. Tech. Weapon."/>
+      <property name="Text">Attach to a unique &lt;i&gt;(&lt;/i&gt;[unique]&lt;i&gt;)&lt;/i&gt; minion. If you cannot, search the encounter deck and discard pile for Dark Beast. Put him into play engaged with you with this card attached to him.
+&lt;b&gt;Forced Response&lt;/b&gt;: After this card is attached to a minion, give attached minion a tough status card.
+	Attached minion gets +2 hit	points.</property>
+    </card>
+    <card name="Horrifying Test Subject" id="6577554c-f04a-47cd-bff5-3debd9029016" size="EncounterCard">
+      <property name="CardNumber" value="202916"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="beast_by_hainz3y2_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Tech."/>
+      <property name="Text">Attach to a non-unique minion. If you cannot, this card gains surge.
+Attached minion gains armored 1 and the [[cyborg]] trait.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached enemy would be defated, if no excess damage was dealt to it heal damage from this minion	until it has 1 hit point	remaining.</property>
+    </card>
+    <card name="Power Dampening Serum" id="6577554c-f04a-47cd-bff5-3debd9029017" size="EncounterCard">
+      <property name="CardNumber" value="202917"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="beast_by_hainz3y2_nemesis"/>
+      <property name="Attribute" value="Chemical."/>
+      <property name="Text">Attach to your identity.
+Treat the text boxes of your hero and any [[superpower]] upgrades you control as if they were blank &lt;i&gt;(except for &lt;/i&gt;[[traits]]&lt;i&gt;)&lt;/i&gt;.
+You cannnot play [[superpower ]]cards.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Spend a [mental] resource and exhaust your identity → discard this card.</property>
+    </card>
+  </cards>
+</set>

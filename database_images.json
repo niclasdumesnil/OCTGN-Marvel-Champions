@@ -4880,6 +4880,150 @@
     "pack_octgn_id": "3de3869c-3b99-58d1-b7bc-198e3f414e84"
   },
   {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202901a",
+    "name": "Beast",
+    "type": "hero",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029001",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202901b",
+    "name": "Hank McCoy",
+    "type": "alter_ego",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029001",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202902",
+    "name": "Beast",
+    "type": "ally",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029002",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202903",
+    "name": "Addition by Subtraction",
+    "type": "event",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029003",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202904",
+    "name": "Lateral Thinking",
+    "type": "event",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029004",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202905",
+    "name": "Logical Solution",
+    "type": "event",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029005",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202906",
+    "name": "Spring into Action",
+    "type": "event",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029006",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202907",
+    "name": "Beast's Lab",
+    "type": "support",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029007",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202908",
+    "name": "Keen Mind",
+    "type": "upgrade",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029008",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202909",
+    "name": "Prehensile Feet",
+    "type": "upgrade",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029009",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202910",
+    "name": "Scientific Solution",
+    "type": "upgrade",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029010",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202911",
+    "name": "Secondary Mutations",
+    "type": "upgrade",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029011",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202912",
+    "name": "Mutation Degeneration",
+    "type": "obligation",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029012",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202913",
+    "name": "Dark Beast",
+    "type": "minion",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029013",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202914",
+    "name": "Dark Experimentation",
+    "type": "side_scheme",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029014",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202915",
+    "name": "Cybernetic Enhancements",
+    "type": "attachment",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029015",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202916",
+    "name": "Horrifying Test Subject",
+    "type": "attachment",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029016",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202917",
+    "name": "Power Dampening Serum",
+    "type": "attachment",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029017",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
     "pack_code": "beast_by_proust",
     "card_id": "800701a",
     "name": "Le Fauve",

@@ -1,258 +1,146 @@
 [
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202701b",
-    "name": "Beta Ray Bill",
-    "type": "alter_ego",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027001",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202701a",
-    "name": "Beta Ray Bill",
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202901a",
+    "name": "Beast",
     "type": "hero",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027001",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029001",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202702",
-    "name": "Thor",
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202901b",
+    "name": "Hank McCoy",
+    "type": "alter_ego",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029001",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202902",
+    "name": "Beast",
     "type": "ally",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027002",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029002",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202703",
-    "name": "Beta Ray Blitz",
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202903",
+    "name": "Addition by Subtraction",
     "type": "event",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027003",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029003",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202704",
-    "name": "Cybernetic Strike",
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202904",
+    "name": "Lateral Thinking",
     "type": "event",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027004",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029004",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202705",
-    "name": "Annihilator Assault",
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202905",
+    "name": "Logical Solution",
     "type": "event",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027005",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029005",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202706",
-    "name": "Prep the Cannons",
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202906",
+    "name": "Spring into Action",
     "type": "event",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027006",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029006",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202707",
-    "name": "Fire Gauss Cannons!",
-    "type": "event",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027007",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202708",
-    "name": "Skuttlebutt",
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202907",
+    "name": "Beast's Lab",
     "type": "support",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027008",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029007",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202709",
-    "name": "Warship Workshop",
-    "type": "support",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027009",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202710",
-    "name": "Stormbreaker",
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202908",
+    "name": "Keen Mind",
     "type": "upgrade",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027010",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029008",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202711",
-    "name": "Twilight Sword",
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202909",
+    "name": "Prehensile Feet",
     "type": "upgrade",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027011",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029009",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202712",
-    "name": "Valiant Rescue",
-    "type": "player_side_scheme",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027012",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202713",
-    "name": "Lady Sif",
-    "type": "ally",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027013",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202714",
-    "name": "Fandral",
-    "type": "ally",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027014",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202715",
-    "name": "Hogun",
-    "type": "ally",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027015",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202716",
-    "name": "Volstagg",
-    "type": "ally",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027016",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202717",
-    "name": "The Executioner",
-    "type": "ally",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027017",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202718",
-    "name": "Potion of Healing",
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202910",
+    "name": "Scientific Solution",
     "type": "upgrade",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027018",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029010",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202719",
-    "name": "To Arms!",
-    "type": "event",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027019",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202720",
-    "name": "Hammerstorm",
-    "type": "event",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027020",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202721",
-    "name": "Love and Thunder",
-    "type": "event",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027021",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202722",
-    "name": "Shields at 200%",
-    "type": "event",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027022",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202723",
-    "name": "Voltaic Union",
-    "type": "event",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027023",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202724",
-    "name": "Asgardians of the Galaxy",
-    "type": "support",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027024",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202725",
-    "name": "Honorary Asgardian",
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202911",
+    "name": "Secondary Mutations",
     "type": "upgrade",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027025",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029011",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202726",
-    "name": "Unattractive Appearance",
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202912",
+    "name": "Mutation Degeneration",
     "type": "obligation",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027026",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029012",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202727",
-    "name": "Here, There Be Dragon",
-    "type": "side_scheme",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027027",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
-  },
-  {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202728",
-    "name": "Fin Fang Foom",
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202913",
+    "name": "Dark Beast",
     "type": "minion",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027028",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029013",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202729",
-    "name": "Against All Odds",
-    "type": "treachery",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027029",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202914",
+    "name": "Dark Experimentation",
+    "type": "side_scheme",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029014",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202730",
-    "name": "Strange Tales",
-    "type": "treachery",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027030",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202915",
+    "name": "Cybernetic Enhancements",
+    "type": "attachment",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029015",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   },
   {
-    "pack_code": "beta_ray_bill_by_ripper3",
-    "card_id": "202731",
-    "name": "Human Snack",
-    "type": "treachery",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027031",
-    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202916",
+    "name": "Horrifying Test Subject",
+    "type": "attachment",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029016",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+  },
+  {
+    "pack_code": "beast_by_hainz3y2",
+    "card_id": "202917",
+    "name": "Power Dampening Serum",
+    "type": "attachment",
+    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029017",
+    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
   }
 ]
