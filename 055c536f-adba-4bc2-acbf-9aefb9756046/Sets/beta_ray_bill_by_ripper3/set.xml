@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Beta Ray Bill" id="f1524875-8b14-4a9a-9249-85a09874dd9d" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="f1524875-8b14-4a9a-9249-85a098000000" name="beta_ray_bill_by_ripper3">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3"/>
+    </card>
+    <card id="f1524875-8b14-4a9a-9249-85a098990000" name="beta_ray_bill_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3_nemesis"/>
+    </card>
+    <card name="Beta Ray Bill" id="f1524875-8b14-4a9a-9249-85a098027001">
+      <property name="CardNumber" value="202701a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3"/>
+      <property name="HandSize" value="4"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="14"/>
+      <property name="Attribute" value="Asgard. Cyborg."/>
+      <property name="Text">&lt;i&gt;"For glory!"&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you play an [[attack]] event, ready Beta Ray Bill. (Limit once per phase.)
+&lt;i&gt;“Harm a friend and comrade of mine, and suffer the consequences! So swears Beta Ray Bill!”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Beta Ray Bill" type="b">
+        <property name="CardNumber" value="202701b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="beta_ray_bill_by_ripper3"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="14"/>
+        <property name="Attribute" value="Cyborg."/>
+        <property name="Text">&lt;i&gt;Scuttlebutt! To Me!&lt;/i&gt; — &lt;b&gt;Setup&lt;/b&gt;: Search your deck and discard pile for the Scuttlebutt support and add it to your hand.
+&lt;i&gt;“I may not be a native son of the realm eternal, but the power in my hammer comes from Odin himself.”
+&lt;/i&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Thor" id="f1524875-8b14-4a9a-9249-85a098027002">
+      <property name="CardNumber" value="202702"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Asgard."/>
+      <property name="Text">&lt;b&gt;Response:&lt;/b&gt; After you play Thor from your hand, ready a friendly [[asgard ]]card.
+&lt;i&gt;“Our hammers shall strike without mercy!”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Beta Ray Blitz" id="f1524875-8b14-4a9a-9249-85a098027003">
+      <property name="CardNumber" value="202703"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 3 damage to an enemy.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme.</property>
+    </card>
+    <card name="Cybernetic Strike" id="f1524875-8b14-4a9a-9249-85a098027004">
+      <property name="CardNumber" value="202704"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Defense."/>
+      <property name="Text">&lt;b&gt;Hero Response &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: After Beta Ray Bill makes a basic attack, deal 4 damage to an enemy.
+&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(attack/defense)&lt;/i&gt;: When Beta Ray Bill defends against an attack, deal 4 damage to an enemy.</property>
+    </card>
+    <card name="Annihilator Assault" id="f1524875-8b14-4a9a-9249-85a098027005">
+      <property name="CardNumber" value="202705"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Aerial. Attack. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack/thwart)&lt;/i&gt;: Deal 4 damage to an enemy. Remove 4 threat from a scheme. If you have the [[aerial ]]trait this attack gains piercing and this thwart ignores patrol.</property>
+    </card>
+    <card name="Prep the Cannons" id="f1524875-8b14-4a9a-9249-85a098027006">
+      <property name="CardNumber" value="202706"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Ready Scuttlebutt. Shuffle Fire Gauss Cannons! from your discard pile into your deck. Draw 2 cards.
+&lt;i&gt;"I am here Beta Ray. Gauss cannons engaged." -Scuttlebutt&lt;/i&gt;</property>
+    </card>
+    <card name="Fire Gauss Cannons!" id="f1524875-8b14-4a9a-9249-85a098027007">
+      <property name="CardNumber" value="202707"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Aerial. Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Exhaust Scuttlebutt → deal 4 damage to each enemy in play.
+&lt;i&gt;"Commencing Assault." -Scuttlebutt&lt;/i&gt;</property>
+    </card>
+    <card name="Scuttlebutt" id="f1524875-8b14-4a9a-9249-85a098027008">
+      <property name="CardNumber" value="202708"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Persona. Vehicle."/>
+      <property name="Text">Beta Ray Bill gets +1 THW.
+&lt;b&gt;Hero Resource:&lt;/b&gt; Exhaust Scuttlebutt → generate a [wild] resource for an [[attack ]]event.
+&lt;i&gt;“I am in the technology that will help you on your new journey... I will be with you through it all. No matter what.” -Scuttlebutt&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Warship Workshop" id="f1524875-8b14-4a9a-9249-85a098027009">
+      <property name="CardNumber" value="202709"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action:&lt;/b&gt; Exhaust Warship Workshop → return the topmost [[attack]] or [[weapon]] card in your discard pile to your hand.
+&lt;i&gt;“STORMBREAKER! Forged by the greatest of Dwarven smiths and blessed by Odin, I call on all your powers!”&lt;/i&gt;</property>
+    </card>
+    <card name="Stormbreaker" id="f1524875-8b14-4a9a-9249-85a098027010">
+      <property name="CardNumber" value="202710"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Asgard. Weapon."/>
+      <property name="Text">Restricted. You may play Stormbreaker from your discard pile during your turn &lt;i&gt;(paying its resource cost)&lt;/i&gt;.
+While in hero form, Beta Ray Bill gets +1 ATK and gains the [[aerial]] trait.
+&lt;i&gt;“A king's weapon. Meant to be the greatest in Asgard. In theory, it could even summon the Bifrost...”&lt;/i&gt; — &lt;i&gt;Eitri&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Twilight Sword" id="f1524875-8b14-4a9a-9249-85a098027011">
+      <property name="CardNumber" value="202711"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Asgard. Weapon."/>
+      <property name="Text">Restricted.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you play an [[attack ]]event, exhaust Twilight Sword and spend a [physical] resource → increase the amount of damage that event deals by 3.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Unattractive Appearance" id="f1524875-8b14-4a9a-9249-85a098027012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="202712"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">You may flip to alter-ego form. Choose:
+Exhaust your alter-ego → remove Unattractive Appearance from the game.
+Choose and discard 1 [[attack ]]event from your hand. Discard this obligation.</property>
+    </card>
+    <card name="Here, There Be Dragon" id="f1524875-8b14-4a9a-9249-85a098027013" size="SchemeCard">
+      <property name="CardNumber" value="202713"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;"No place on Earth will give you safety, mortal, when FIN FANG FOOM strikes!"
+&lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: Each player must place threat here equal to the total number of [[attack ]]events in their hand.
+ [crisis]</property>
+    </card>
+    <card name="Fin Fang Foom" id="f1524875-8b14-4a9a-9249-85a098027014" size="EncounterCard">
+      <property name="CardNumber" value="202714"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3_nemesis"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="Dragon. Elite."/>
+      <property name="Text">Double the amount of damage this minion takes from [[attack ]]events.
+&lt;i&gt;(Beta Ray Bill's nemesis minion.)
+“I come from a shape-changing cosmic race known as the Makluan... some call Space Dragons!”
+&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Against All Odds" id="f1524875-8b14-4a9a-9249-85a098027015" size="EncounterCard">
+      <property name="CardNumber" value="202715"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 threat on the main scheme for each villain and [[elite]] minion in play. If there are no [[elite]] minions in play, this card gains surge.</property>
+    </card>
+    <card name="Strange Tales" id="f1524875-8b14-4a9a-9249-85a098027016" size="EncounterCard">
+      <property name="CardNumber" value="202716"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Choose a side scheme in the encounter deck discard pile and reveal it. If no side scheme was revealed this way, this card gains surge.</property>
+    </card>
+    <card name="Human Snack" id="f1524875-8b14-4a9a-9249-85a098027017" size="EncounterCard">
+      <property name="CardNumber" value="202717"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="beta_ray_bill_by_ripper3_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Surge.&lt;b&gt;
+When Revealed&lt;/b&gt;: Heal all damage from Fin Fang Foom.
+&lt;i&gt;"Human beings are mostly water. Their tissues and luids retain flavors and and other residues from their food. Their bones have a brittle quality. Their skin is warm and pliant"
+&lt;/i&gt;</property>
+    </card>
+  </cards>
+</set>

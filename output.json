@@ -1,146 +1,146 @@
 [
   {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202601a",
-    "name": "Red Guardian",
-    "type": "hero",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026001",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
-  },
-  {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202601b",
-    "name": "Alexei Shostakov",
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202701b",
+    "name": "Beta Ray Bill",
     "type": "alter_ego",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026001",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027001",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202603",
-    "name": "White Widow",
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202701a",
+    "name": "Beta Ray Bill",
+    "type": "hero",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027001",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202702",
+    "name": "Thor",
     "type": "ally",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026003",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027002",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202602",
-    "name": "Black Widow",
-    "type": "ally",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026002",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
-  },
-  {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202604",
-    "name": "Shield Block",
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202703",
+    "name": "Beta Ray Blitz",
     "type": "event",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026004",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027003",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202606",
-    "name": "Shielded Drop",
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202704",
+    "name": "Cybernetic Strike",
     "type": "event",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026006",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027004",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202608",
-    "name": "Shield Ricochet",
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202705",
+    "name": "Annihilator Assault",
     "type": "event",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026008",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027005",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202611",
-    "name": "Shield Strike",
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202706",
+    "name": "Prep the Cannons",
     "type": "event",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026011",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027006",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202613",
-    "name": "Red Guardian's Shield",
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202707",
+    "name": "Fire Gauss Cannons!",
+    "type": "event",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027007",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202708",
+    "name": "Scuttlebutt",
+    "type": "support",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027008",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202709",
+    "name": "Warship Workshop",
+    "type": "support",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027009",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202710",
+    "name": "Stormbreaker",
     "type": "upgrade",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026013",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027010",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202614",
-    "name": "Shield Arts",
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202711",
+    "name": "Twilight Sword",
     "type": "upgrade",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026014",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027011",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202615",
-    "name": "Shield Harness",
-    "type": "upgrade",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026015",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
-  },
-  {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202616",
-    "name": "Soviet Super-Soldier",
-    "type": "upgrade",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026016",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
-  },
-  {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202617",
-    "name": "Caged Bird",
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202712",
+    "name": "Unattractive Appearance",
     "type": "obligation",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026017",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027012",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202618",
-    "name": "Captain America",
-    "type": "minion",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026018",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
-  },
-  {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202619",
-    "name": "Envied Idol",
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202713",
+    "name": "Here, There Be Dragon",
     "type": "side_scheme",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026019",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027013",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202620",
-    "name": "\"I Can't Do It All Day\"",
-    "type": "treachery",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026020",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202714",
+    "name": "Fin Fang Foom",
+    "type": "minion",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027014",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202621",
-    "name": "\"I Don't Want You\"",
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202715",
+    "name": "Against All Odds",
     "type": "treachery",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026021",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027015",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
-    "pack_code": "red_guardian_by_kajislav",
-    "card_id": "202622",
-    "name": "Symbol of Failure",
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202716",
+    "name": "Strange Tales",
     "type": "treachery",
-    "octgn_id": "7bdcef20-83cc-47aa-a505-c601f5026022",
-    "pack_octgn_id": "7bdcef20-83cc-47aa-a505-c601f5b57c6b"
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027016",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202717",
+    "name": "Human Snack",
+    "type": "treachery",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027017",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   }
 ]
