@@ -36,7 +36,7 @@
         <property name="Recovery" value="4"/>
         <property name="HP" value="14"/>
         <property name="Attribute" value="Cyborg."/>
-        <property name="Text">&lt;i&gt;Scuttlebutt! To Me!&lt;/i&gt; — &lt;b&gt;Setup&lt;/b&gt;: Search your deck and discard pile for the Scuttlebutt support and add it to your hand.
+        <property name="Text">&lt;i&gt;Skuttlebutt! To Me!&lt;/i&gt; — &lt;b&gt;Setup&lt;/b&gt;: Search your deck and discard pile for the Skuttlebutt support and add it to your hand.
 &lt;i&gt;“I may not be a native son of the realm eternal, but the power in my hammer comes from Odin himself.”
 &lt;/i&gt;</property>
         <property name="Unique" value="True"/>
@@ -108,8 +108,8 @@
       <property name="Owner" value="beta_ray_bill_by_ripper3"/>
       <property name="Cost" value="0"/>
       <property name="Resource_Mental" value="1"/>
-      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Ready Scuttlebutt. Shuffle Fire Gauss Cannons! from your discard pile into your deck. Draw 2 cards.
-&lt;i&gt;"I am here Beta Ray. Gauss cannons engaged." -Scuttlebutt&lt;/i&gt;</property>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Choose up to 3 [[attack ]]events in your discard pile and shuffle them into your deck. You may exhaust Skuttlebutt → draw 2 cards.
+&lt;i&gt;"I am here Beta Ray. Gauss cannons engaged." -Skuttlebutt&lt;/i&gt;</property>
     </card>
     <card name="Fire Gauss Cannons!" id="f1524875-8b14-4a9a-9249-85a098027007">
       <property name="CardNumber" value="202707"/>
@@ -121,10 +121,10 @@
       <property name="Cost" value="3"/>
       <property name="Resource_Energy" value="1"/>
       <property name="Attribute" value="Aerial. Attack."/>
-      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Exhaust Scuttlebutt → deal 4 damage to each enemy in play.
-&lt;i&gt;"Commencing Assault." -Scuttlebutt&lt;/i&gt;</property>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Exhaust Skuttlebutt → deal 4 damage to each enemy in play.
+&lt;i&gt;"Commencing Assault." -Skuttlebutt&lt;/i&gt;</property>
     </card>
-    <card name="Scuttlebutt" id="f1524875-8b14-4a9a-9249-85a098027008">
+    <card name="Skuttlebutt" id="f1524875-8b14-4a9a-9249-85a098027008">
       <property name="CardNumber" value="202708"/>
       <property name="Position" value="8"/>
       <property name="Quantity" value="1"/>
@@ -135,8 +135,8 @@
       <property name="Resource_Mental" value="1"/>
       <property name="Attribute" value="Persona. Vehicle."/>
       <property name="Text">Beta Ray Bill gets +1 THW.
-&lt;b&gt;Hero Resource:&lt;/b&gt; Exhaust Scuttlebutt → generate a [wild] resource for an [[attack ]]event.
-&lt;i&gt;“I am in the technology that will help you on your new journey... I will be with you through it all. No matter what.” -Scuttlebutt&lt;/i&gt;</property>
+&lt;b&gt;Hero Resource:&lt;/b&gt; Exhaust Skuttlebutt → generate a [wild] resource for an [[attack ]]event.
+&lt;i&gt;“I am in the technology that will help you on your new journey... I will be with you through it all. No matter what.” -Skuttlebutt&lt;/i&gt;</property>
       <property name="Unique" value="True"/>
     </card>
     <card name="Warship Workshop" id="f1524875-8b14-4a9a-9249-85a098027009">
@@ -181,10 +181,220 @@ While in hero form, Beta Ray Bill gets +1 ATK and gains the [[aerial]] trait.
 &lt;b&gt;Hero Interrupt&lt;/b&gt;: When you play an [[attack ]]event, exhaust Twilight Sword and spend a [physical] resource → increase the amount of damage that event deals by 3.</property>
       <property name="Unique" value="True"/>
     </card>
-    <card name="Unattractive Appearance" id="f1524875-8b14-4a9a-9249-85a098027012" size="EncounterCard">
-      <property name="DefaultSetupPile" value="Nemesis"/>
+    <card name="Valiant Rescue" id="f1524875-8b14-4a9a-9249-85a098027012" size="PlayerSchemeCard">
       <property name="CardNumber" value="202712"/>
       <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Play only if your identity has the [[asgard]] trait.
+Assault. Victory 0.
+&lt;b&gt;When Defeated&lt;/b&gt;: Each player chooses 1 set-aside [[captive]] ally and puts it into play under their control.
+&lt;i&gt;“Fear not, my friends, for the God of Thunder is here!” -Thor&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Lady Sif" id="f1524875-8b14-4a9a-9249-85a098027013">
+      <property name="CardNumber" value="202713"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Asgard. Captive."/>
+      <property name="Text">Linked (Valiant Rescue).&lt;b&gt;
+Action&lt;/b&gt;: Spend a [physical] resource → ready Lady Sif.
+&lt;i&gt;"Was ever a maiden faced with a problem such as this?"&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Fandral" id="f1524875-8b14-4a9a-9249-85a098027014">
+      <property name="CardNumber" value="202714"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="3"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Asgard. Captive."/>
+      <property name="Text">Linked (Valiant Rescue).
+[star] When Fandral uses his basic THW, ignore any crisis icons ([crisis]) in play.
+&lt;i&gt;"Though I hold life most dear, I will answer Loki for what he has done."&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Hogun" id="f1524875-8b14-4a9a-9249-85a098027015">
+      <property name="CardNumber" value="202715"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Asgard. Captive."/>
+      <property name="Text">Linked (Valiant Rescue).
+[star] Hogun's attacks gain piercing.
+&lt;i&gt;"Loki has gone too far this time. He must be ended."&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Volstagg" id="f1524875-8b14-4a9a-9249-85a098027016">
+      <property name="CardNumber" value="202716"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Asgard. Captive."/>
+      <property name="Text">Linked (Valiant Rescue).
+Retaliate 1. Toughness.
+&lt;i&gt;"The mighty Volstagg will right these wrongs!"&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Executioner" id="f1524875-8b14-4a9a-9249-85a098027017">
+      <property name="CardNumber" value="202717"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="0"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Asgard."/>
+      <property name="Text">&lt;b&gt;Response:&lt;/b&gt; After The Executioner enters play, search your collection, deck, hand, or discard pile for 1 copy of Sidearm and attach it here.
+&lt;i&gt;“Valhalla is boring!”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Potion of Healing" id="f1524875-8b14-4a9a-9249-85a098027018">
+      <property name="CardNumber" value="202718"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Play under any player's control. Max 1 per player.&lt;b&gt;
+Action&lt;/b&gt;: Discard Potion of Healing → heal 3 damage from your identity.</property>
+    </card>
+    <card name="To Arms!" id="f1524875-8b14-4a9a-9249-85a098027019">
+      <property name="CardNumber" value="202719"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Text">Play only if your identity has the [[asgard]] trait.&lt;b&gt;
+Alter-Ego Action&lt;/b&gt;: Search any player's deck and discard pile for a [[weapon]] upgrade and pay its printed cost → play that card under any player's control.</property>
+    </card>
+    <card name="Hammerstorm" id="f1524875-8b14-4a9a-9249-85a098027020">
+      <property name="CardNumber" value="202720"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">Team-Up (Thor and Beta Ray Bill). Max 1 per deck.&lt;b&gt;
+Hero Action&lt;/b&gt; (attack): Exhaust a [[weapon]] upgrade you control → Deal 6 damage to an enemy. Stun that enemy.</property>
+    </card>
+    <card name="Love and Thunder" id="f1524875-8b14-4a9a-9249-85a098027021">
+      <property name="CardNumber" value="202721"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Text">Team-Up (She-Hulk and Thor). Alliance. Max 1 per deck.
+&lt;b&gt;Hero Action: &lt;/b&gt;Exhaust Thor or Mjolnir → ready She-Hulk.</property>
+    </card>
+    <card name="Shields at 200%" id="f1524875-8b14-4a9a-9249-85a098027022">
+      <property name="CardNumber" value="202722"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">Requirement ([energy][energy]).
+Team-Up (Iron Man and Thor). Max 1 per deck.&lt;b&gt;
+Hero Action: &lt;/b&gt;Search your collection for a copy of Energy and add it to your hand.</property>
+    </card>
+    <card name="Voltaic Union" id="f1524875-8b14-4a9a-9249-85a098027023">
+      <property name="CardNumber" value="202723"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="-1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">Team-Up (Captain America and Thor). Max 1 per deck.
+Alliance.
+&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;&lt;b&gt;: &lt;/b&gt;Deal 4 damage to X enemies.</property>
+    </card>
+    <card name="Asgardians of the Galaxy" id="f1524875-8b14-4a9a-9249-85a098027024">
+      <property name="CardNumber" value="202724"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Team."/>
+      <property name="Text">Play only if your identity has the [[asgard]] trait. Max 1 [[team]] card per player.&lt;b&gt;
+&lt;/b&gt;Each of your [[asgard]] characters gains the [[guardian]] trait.
+If each of your characters has the [[guardian]] trait, each ally you control gets +1 THW.</property>
+    </card>
+    <card name="Honorary Asgardian" id="f1524875-8b14-4a9a-9249-85a098027025">
+      <property name="CardNumber" value="202725"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text">Play only if your identity has the [[asgard]] trait.
+Attach to a friendly character. Max 1 per character.
+Attached characters gets +1 hit point and gains the [[asgard]] trait.&lt;b&gt;
+&lt;/b&gt;&lt;i&gt;&lt;/i&gt;</property>
+    </card>
+    <card name="Unattractive Appearance" id="f1524875-8b14-4a9a-9249-85a098027026" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="202726"/>
+      <property name="Position" value="26"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
       <property name="Type" value="obligation"/>
@@ -194,9 +404,9 @@ While in hero form, Beta Ray Bill gets +1 ATK and gains the [[aerial]] trait.
 Exhaust your alter-ego → remove Unattractive Appearance from the game.
 Choose and discard 1 [[attack ]]event from your hand. Discard this obligation.</property>
     </card>
-    <card name="Here, There Be Dragon" id="f1524875-8b14-4a9a-9249-85a098027013" size="SchemeCard">
-      <property name="CardNumber" value="202713"/>
-      <property name="Position" value="13"/>
+    <card name="Here, There Be Dragon" id="f1524875-8b14-4a9a-9249-85a098027027" size="SchemeCard">
+      <property name="CardNumber" value="202727"/>
+      <property name="Position" value="27"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
       <property name="Type" value="side_scheme"/>
@@ -209,9 +419,9 @@ Choose and discard 1 [[attack ]]event from your hand. Discard this obligation.</
 &lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: Each player must place threat here equal to the total number of [[attack ]]events in their hand.
  [crisis]</property>
     </card>
-    <card name="Fin Fang Foom" id="f1524875-8b14-4a9a-9249-85a098027014" size="EncounterCard">
-      <property name="CardNumber" value="202714"/>
-      <property name="Position" value="14"/>
+    <card name="Fin Fang Foom" id="f1524875-8b14-4a9a-9249-85a098027028" size="EncounterCard">
+      <property name="CardNumber" value="202728"/>
+      <property name="Position" value="28"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
       <property name="Type" value="minion"/>
@@ -227,9 +437,9 @@ Choose and discard 1 [[attack ]]event from your hand. Discard this obligation.</
 &lt;/i&gt;</property>
       <property name="Unique" value="True"/>
     </card>
-    <card name="Against All Odds" id="f1524875-8b14-4a9a-9249-85a098027015" size="EncounterCard">
-      <property name="CardNumber" value="202715"/>
-      <property name="Position" value="15"/>
+    <card name="Against All Odds" id="f1524875-8b14-4a9a-9249-85a098027029" size="EncounterCard">
+      <property name="CardNumber" value="202729"/>
+      <property name="Position" value="29"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
       <property name="Type" value="treachery"/>
@@ -237,9 +447,9 @@ Choose and discard 1 [[attack ]]event from your hand. Discard this obligation.</
       <property name="Boost" value="2"/>
       <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 threat on the main scheme for each villain and [[elite]] minion in play. If there are no [[elite]] minions in play, this card gains surge.</property>
     </card>
-    <card name="Strange Tales" id="f1524875-8b14-4a9a-9249-85a098027016" size="EncounterCard">
-      <property name="CardNumber" value="202716"/>
-      <property name="Position" value="16"/>
+    <card name="Strange Tales" id="f1524875-8b14-4a9a-9249-85a098027030" size="EncounterCard">
+      <property name="CardNumber" value="202730"/>
+      <property name="Position" value="30"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
       <property name="Type" value="treachery"/>
@@ -247,9 +457,9 @@ Choose and discard 1 [[attack ]]event from your hand. Discard this obligation.</
       <property name="Boost" value="1"/>
       <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Choose a side scheme in the encounter deck discard pile and reveal it. If no side scheme was revealed this way, this card gains surge.</property>
     </card>
-    <card name="Human Snack" id="f1524875-8b14-4a9a-9249-85a098027017" size="EncounterCard">
-      <property name="CardNumber" value="202717"/>
-      <property name="Position" value="17"/>
+    <card name="Human Snack" id="f1524875-8b14-4a9a-9249-85a098027031" size="EncounterCard">
+      <property name="CardNumber" value="202731"/>
+      <property name="Position" value="31"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
       <property name="Type" value="treachery"/>

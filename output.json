@@ -66,7 +66,7 @@
   {
     "pack_code": "beta_ray_bill_by_ripper3",
     "card_id": "202708",
-    "name": "Scuttlebutt",
+    "name": "Skuttlebutt",
     "type": "support",
     "octgn_id": "f1524875-8b14-4a9a-9249-85a098027008",
     "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
@@ -98,49 +98,161 @@
   {
     "pack_code": "beta_ray_bill_by_ripper3",
     "card_id": "202712",
-    "name": "Unattractive Appearance",
-    "type": "obligation",
+    "name": "Valiant Rescue",
+    "type": "player_side_scheme",
     "octgn_id": "f1524875-8b14-4a9a-9249-85a098027012",
     "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
     "pack_code": "beta_ray_bill_by_ripper3",
     "card_id": "202713",
-    "name": "Here, There Be Dragon",
-    "type": "side_scheme",
+    "name": "Lady Sif",
+    "type": "ally",
     "octgn_id": "f1524875-8b14-4a9a-9249-85a098027013",
     "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
     "pack_code": "beta_ray_bill_by_ripper3",
     "card_id": "202714",
-    "name": "Fin Fang Foom",
-    "type": "minion",
+    "name": "Fandral",
+    "type": "ally",
     "octgn_id": "f1524875-8b14-4a9a-9249-85a098027014",
     "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
     "pack_code": "beta_ray_bill_by_ripper3",
     "card_id": "202715",
-    "name": "Against All Odds",
-    "type": "treachery",
+    "name": "Hogun",
+    "type": "ally",
     "octgn_id": "f1524875-8b14-4a9a-9249-85a098027015",
     "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
     "pack_code": "beta_ray_bill_by_ripper3",
     "card_id": "202716",
-    "name": "Strange Tales",
-    "type": "treachery",
+    "name": "Volstagg",
+    "type": "ally",
     "octgn_id": "f1524875-8b14-4a9a-9249-85a098027016",
     "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   },
   {
     "pack_code": "beta_ray_bill_by_ripper3",
     "card_id": "202717",
+    "name": "The Executioner",
+    "type": "ally",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027017",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202718",
+    "name": "Potion of Healing",
+    "type": "upgrade",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027018",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202719",
+    "name": "To Arms!",
+    "type": "event",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027019",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202720",
+    "name": "Hammerstorm",
+    "type": "event",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027020",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202721",
+    "name": "Love and Thunder",
+    "type": "event",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027021",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202722",
+    "name": "Shields at 200%",
+    "type": "event",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027022",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202723",
+    "name": "Voltaic Union",
+    "type": "event",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027023",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202724",
+    "name": "Asgardians of the Galaxy",
+    "type": "support",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027024",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202725",
+    "name": "Honorary Asgardian",
+    "type": "upgrade",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027025",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202726",
+    "name": "Unattractive Appearance",
+    "type": "obligation",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027026",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202727",
+    "name": "Here, There Be Dragon",
+    "type": "side_scheme",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027027",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202728",
+    "name": "Fin Fang Foom",
+    "type": "minion",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027028",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202729",
+    "name": "Against All Odds",
+    "type": "treachery",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027029",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202730",
+    "name": "Strange Tales",
+    "type": "treachery",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027030",
+    "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
+  },
+  {
+    "pack_code": "beta_ray_bill_by_ripper3",
+    "card_id": "202731",
     "name": "Human Snack",
     "type": "treachery",
-    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027017",
+    "octgn_id": "f1524875-8b14-4a9a-9249-85a098027031",
     "pack_octgn_id": "f1524875-8b14-4a9a-9249-85a09874dd9d"
   }
 ]
