@@ -1,5 +1,213 @@
 [
   {
+    "pack_code": "2024_weekly",
+    "card_id": "999001",
+    "name": "The Ground is Lava",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999002",
+    "name": "Two for One",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999003",
+    "name": "Magnets and Metal",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999004",
+    "name": "Teamwork Makes the Dream Work",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999005",
+    "name": "Form Flippers",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999006",
+    "name": "Flower Power",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999007",
+    "name": "Breakin’ and Takin’: Ultimate Edition",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999008",
+    "name": "Absorbing the Elements",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999009",
+    "name": "Gene Pool Party",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999010",
+    "name": "Need for Speed",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999011",
+    "name": "Whose Show is it Anyway?",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999012",
+    "name": "Wrath of the Mad Titan",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999013",
+    "name": "Complete the Collection",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999014",
+    "name": "Symbiote Smackdown",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999015",
+    "name": "Fickle Crowds",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999016",
+    "name": "Everyday Heroes",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999017",
+    "name": "Mystic Mayhem",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999018",
+    "name": "Lock and Load",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999019",
+    "name": "Lone Wolf",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999020",
+    "name": "Field Study",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999021",
+    "name": "Battle of the Bots",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999022",
+    "name": "Not Easy Being Green",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999023",
+    "name": "The Wreckoning",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999024",
+    "name": "Absolutely Zero Tolerance",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2024_weekly",
+    "card_id": "999025",
+    "name": "Boss Rush",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2025_weekly",
+    "card_id": "999101",
+    "name": "Irresistible Charm",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
     "pack_code": "agent_of_shield_by_merlin",
     "card_id": "253001b",
     "name": "Agent du S.H.I.E.L.D.",
@@ -21064,6 +21272,22 @@
     "pack_octgn_id": "fb5e24e2-4df6-4512-9638-fd350335fb3b"
   },
   {
+    "pack_code": "modular_sets",
+    "card_id": "999501a",
+    "name": "Rhino",
+    "type": "modular_sets",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "modular_sets",
+    "card_id": "999501b",
+    "name": "Rhino",
+    "type": "modular_sets",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
     "pack_code": "mojo",
     "card_id": "39001a",
     "name": "MaGog",
@@ -25812,7 +26036,7 @@
     "card_id": "202501b",
     "name": "Namor McKenzie",
     "type": "alter_ego",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025001",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -25820,7 +26044,7 @@
     "card_id": "202501a",
     "name": "Namor",
     "type": "hero",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025001",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -25828,7 +26052,7 @@
     "card_id": "202502",
     "name": "Atlantean Skin",
     "type": "event",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025002",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -25836,7 +26060,7 @@
     "card_id": "202503",
     "name": "Furious Strike",
     "type": "event",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025003",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -25844,7 +26068,7 @@
     "card_id": "202504",
     "name": "Imperius Rex!",
     "type": "event",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025004",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -25852,7 +26076,7 @@
     "card_id": "202505",
     "name": "Royal Authority",
     "type": "event",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025005",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -25860,7 +26084,7 @@
     "card_id": "202506",
     "name": "Wrath of the Sea",
     "type": "event",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025006",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -25868,7 +26092,7 @@
     "card_id": "202507",
     "name": "Atlantis",
     "type": "support",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025007",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -25876,7 +26100,7 @@
     "card_id": "202508",
     "name": "Ankle Wings",
     "type": "upgrade",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025008",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -25884,7 +26108,7 @@
     "card_id": "202509",
     "name": "Neptune's Trident",
     "type": "upgrade",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025009",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -25892,7 +26116,7 @@
     "card_id": "202510",
     "name": "Atlantis in Peril",
     "type": "obligation",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025010",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -25900,7 +26124,7 @@
     "card_id": "202511",
     "name": "Atlantis Attacks",
     "type": "side_scheme",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025011",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -25908,7 +26132,7 @@
     "card_id": "202512",
     "name": "Attuma",
     "type": "minion",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025012",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -25916,7 +26140,7 @@
     "card_id": "202513",
     "name": "Atlantean Traitor",
     "type": "minion",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025013",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -25924,7 +26148,7 @@
     "card_id": "202514",
     "name": "Incited Conflict",
     "type": "treachery",
-    "octgn_id": "",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025014",
     "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
@@ -32209,6 +32433,214 @@
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500963",
+    "name": "Crusader",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500964",
+    "name": "Jazinda",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500965",
+    "name": "Paibok",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500966",
+    "name": "Skymax",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500967",
+    "name": "Super-Skrull",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500968",
+    "name": "War Skrull",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500969",
+    "name": "Xavin",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500970",
+    "name": "Buddy Training Program",
+    "type": "player_side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500971",
+    "name": "Cloning Program",
+    "type": "player_side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500972",
+    "name": "Fickle Alliance",
+    "type": "player_side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500973",
+    "name": "Newbie Training",
+    "type": "player_side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500974",
+    "name": "Searching for Powers",
+    "type": "player_side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500975",
+    "name": "Skrull Military Training",
+    "type": "player_side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500976",
+    "name": "Stealing For Good",
+    "type": "player_side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500977",
+    "name": "Antalya",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500978",
+    "name": "Cadre K",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500979",
+    "name": "Point of View",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500980",
+    "name": "Princess Anelle",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500981",
+    "name": "Skrull Battleship",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500982",
+    "name": "Skrull Kill Krew",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500983",
+    "name": "3-D Man's Goggles",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500984",
+    "name": "Inhibitor Mask",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500985",
+    "name": "Ultimate Nullifier",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500986",
+    "name": "Reverting Device",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500987",
+    "name": "Skrull Shapeshifter",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500988",
+    "name": "Sy-Torak Gem",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
     "card_id": "500731",
     "name": "Interracial Hatred",
     "type": "obligation",
@@ -32621,6 +33053,1438 @@
     "name": "Wrath of the Empire",
     "type": "treachery",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007106",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500807",
+    "name": "Skrull Scientist",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500808",
+    "name": "Skrull Spy",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500809",
+    "name": "Skrull Telepath",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500810",
+    "name": "Skrull Warrior",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500811",
+    "name": "Plotting Revenge",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500812",
+    "name": "Outnumbered",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500813",
+    "name": "Skrull Commander",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500814",
+    "name": "Skrull Soldier",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500815",
+    "name": "Hijacked",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500816",
+    "name": "Skrull Assault",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500817",
+    "name": "Super-Skrull",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500818",
+    "name": "Super-Skrull",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500819",
+    "name": "Super-Skrull",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500820a",
+    "name": "Searching for the Heir",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500820b",
+    "name": "Searching for the Heir",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500821a",
+    "name": "Heir to the Throne",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500821b",
+    "name": "Heir to the Throne",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500822",
+    "name": "Flexibility",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500823",
+    "name": "Invisibility",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500824",
+    "name": "Pyrokinesis",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500825",
+    "name": "Rock Mimicry",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500826",
+    "name": "Invisible Forcefield",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500827",
+    "name": "Lord Kl'rt",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500828",
+    "name": "Mt'nox",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500829",
+    "name": "Praxagora",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500830",
+    "name": "R'kin",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500831",
+    "name": "Galactic Council Membership",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500832",
+    "name": "Skrull Warlords",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500833",
+    "name": "Hypnotic Gaze",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500834",
+    "name": "Power Multiplying",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500835",
+    "name": "Villain's Versatility",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500836",
+    "name": "Bel-Dann",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500837",
+    "name": "Raksor",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500838",
+    "name": "Earth Involvement",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500839",
+    "name": "Imperial Kree Army",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500840",
+    "name": "Skrull Imperial Fleet",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500841",
+    "name": "Paibok",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500842",
+    "name": "Paibok",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500843",
+    "name": "Paibok",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500844a",
+    "name": "Power Skrull Engineering",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500844b",
+    "name": "Power Skrull Engineering",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500845a",
+    "name": "Mastering Superpowers",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500845b",
+    "name": "Mastering Superpowers",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500846",
+    "name": "Captain Paibok",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500847",
+    "name": "Distracted",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500848",
+    "name": "Electricity Projection",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500849",
+    "name": "Hypnotized",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500850",
+    "name": "Ice Control",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500851",
+    "name": "Metallic Skin",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500852",
+    "name": "Shapeshifting",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500853",
+    "name": "Trapped in Ice",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500854",
+    "name": "Devos the Devastator",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500855",
+    "name": "General Kalamari",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500856",
+    "name": "Galactic Ambassador",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500857",
+    "name": "Settling Scores",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500858",
+    "name": "Council Manipulation",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500859",
+    "name": "Getting Ruthless",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500860",
+    "name": "Power Demonstration",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500861",
+    "name": "O.M.N.I.T.R.O.N.I.C.U.S.",
+    "type": "environment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500862",
+    "name": "Angar the Screamer",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500863",
+    "name": "Asti the All-Seeing",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500864",
+    "name": "Skar",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500865",
+    "name": "The Maker",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500866",
+    "name": "Vermin",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500867",
+    "name": "White Tiger",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500868",
+    "name": "The Revenge Time",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500869",
+    "name": "Forming the Revengers",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500870a",
+    "name": "Kly'bn",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500870b",
+    "name": "Sl'gur't",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500871a",
+    "name": "Kly'bn",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500871b",
+    "name": "Sl'gur't",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500872a",
+    "name": "Kly'bn",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500872b",
+    "name": "Sl'gur't",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500873a",
+    "name": "Protect the Pantheon",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500873b",
+    "name": "Protect the Pantheon",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500874a",
+    "name": "Slaying the False Gods",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500874b",
+    "name": "Slaying the False Gods",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500875a",
+    "name": "Skrull Pantheon",
+    "type": "environment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500875b",
+    "name": "Skrull Pantheon",
+    "type": "environment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500876",
+    "name": "Blessed by Kly'bn",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500877",
+    "name": "Blessed by Sl'gur't",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500878",
+    "name": "Nogor",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500879",
+    "name": "Shapeless Wastes",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500880",
+    "name": "Strengthen the Faith",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500881",
+    "name": "Prayer to Kly'bn",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500882",
+    "name": "Prayer to Sl'gur't",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500883",
+    "name": "Talisman of the Skrulls",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500884",
+    "name": "Dard'van Fanatic",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500885",
+    "name": "Dard'van Priest",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500886",
+    "name": "Dard'van Sect",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500887",
+    "name": "Collective Prayers",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500888",
+    "name": "Sectarian Practices",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500889a",
+    "name": "Spider-Woman(Veranke)",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500889b",
+    "name": "Queen Veranke",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500890a",
+    "name": "Spider-Woman(Veranke)",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500890b",
+    "name": "Queen Veranke",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500891a",
+    "name": "Spider-Woman(Veranke)",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500891b",
+    "name": "Queen Veranke",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500892a",
+    "name": "The Infiltration Has Begun",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500892b",
+    "name": "The Infiltration Has Begun",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500893a",
+    "name": "The Skrull Invasion",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500893b",
+    "name": "The Skrull Invasion",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500894",
+    "name": "\"Who Do You Trust?\"",
+    "type": "environment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500895",
+    "name": "Impostor",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500896",
+    "name": "Super-Skrull Enhancement",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500897",
+    "name": "Super-Skrull Enhancement",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500898",
+    "name": "Super-Skrull Enhancement",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500899",
+    "name": "Chaos on the Battlefield",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500900",
+    "name": "Fulfill the Prophecy",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500901",
+    "name": "Mistrust and Paranoia",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500902",
+    "name": "Arrival of Impostors",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500903",
+    "name": "Camouflage",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500904",
+    "name": "Glory to the Skrull Empire",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500905",
+    "name": "Infiltration Ritual",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500906",
+    "name": "Invasion Fleet",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500907",
+    "name": "Revelation",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500908a",
+    "name": "Captain America(Pitt'o Nili)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500908b",
+    "name": "Pitt'o Nili",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500909a",
+    "name": "Captain Marvel(Khn'nr)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500909b",
+    "name": "Khn'nr",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500910a",
+    "name": "Captain Marvel(M'lanz)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500910b",
+    "name": "M'lanz",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500911a",
+    "name": "Carnage(Zr'x)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500911b",
+    "name": "Zr'x",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500912a",
+    "name": "Daredevil(Trl'k)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500912b",
+    "name": "Trl'k",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500913a",
+    "name": "Deathlok(Fry'lu)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500913b",
+    "name": "Fry'lu",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500914a",
+    "name": "Dum Dum Dugan(Sn'Tlo)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500914b",
+    "name": "Sn'Tlo",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500915a",
+    "name": "Elektra(Siri)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500915b",
+    "name": "Siri",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500916a",
+    "name": "Giant-Man(D'lutz)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500916b",
+    "name": "D'lutz",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500917a",
+    "name": "Invisible Woman(De'Lila)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500917b",
+    "name": "De'Lila",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500918a",
+    "name": "Iron Fist(Grrix)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500918b",
+    "name": "Grrix",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500919a",
+    "name": "Iron Man(Ssrov)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500919b",
+    "name": "Ssrov",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500920a",
+    "name": "Moon Knight(Hs'fld)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500920b",
+    "name": "Hs'fld",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500921a",
+    "name": "Nick Fury(H'kurrek)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500921b",
+    "name": "H'kurrek",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500922a",
+    "name": "Phoenix(Korya)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500922b",
+    "name": "Korya",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500923a",
+    "name": "Spider-Man(Ch'Gra)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500923b",
+    "name": "Ch'Gra",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500924a",
+    "name": "Thor(Hagar)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500924b",
+    "name": "Hagar",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500925a",
+    "name": "Venom(Dharr)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500925b",
+    "name": "Dharr",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500926a",
+    "name": "Wolverine(V'lrym)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500926b",
+    "name": "V'lrym",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500927a",
+    "name": "Yellowjacket(Criti Noll)",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500927b",
+    "name": "Criti Noll",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500931",
+    "name": "Crusader",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500932",
+    "name": "Enemy Adaptation",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500933",
+    "name": "Freedom Ring",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500934",
+    "name": "Spy Training",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500935",
+    "name": "Rivals to the End",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500936",
+    "name": "Jazinda",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500937",
+    "name": "Skrull Energy Gun",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500938",
+    "name": "Sy-Torak Gem",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500939",
+    "name": "Stealing for the Empire",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500940",
+    "name": "Skrull of Royal Blood",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500941",
+    "name": "Skymax",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500942",
+    "name": "Changing Appearance",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500943",
+    "name": "Surprising Alliance",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500944",
+    "name": "Shape Alteration",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500945",
+    "name": "War Skrull",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500946",
+    "name": "Impostor",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500947",
+    "name": "Skrull Commander",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500948",
+    "name": "Skrull Geneticist",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500949",
+    "name": "Cloning Program",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500950",
+    "name": "Xavin",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500951",
+    "name": "Invisible Forcefield",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500952",
+    "name": "Super-Skrull Training Program",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500953",
+    "name": "Going Nova",
+    "type": "treachery",
+    "octgn_id": "",
     "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
   },
   {

@@ -1,146 +1,122 @@
 [
   {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202901a",
-    "name": "Beast",
-    "type": "hero",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029001",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
-  },
-  {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202901b",
-    "name": "Hank McCoy",
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202501b",
+    "name": "Namor McKenzie",
     "type": "alter_ego",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029001",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025001",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202902",
-    "name": "Beast",
-    "type": "ally",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029002",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202501a",
+    "name": "Namor",
+    "type": "hero",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025001",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202903",
-    "name": "Addition by Subtraction",
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202502",
+    "name": "Atlantean Skin",
     "type": "event",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029003",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025002",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202904",
-    "name": "Lateral Thinking",
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202503",
+    "name": "Furious Strike",
     "type": "event",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029004",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025003",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202905",
-    "name": "Logical Solution",
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202504",
+    "name": "Imperius Rex!",
     "type": "event",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029005",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025004",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202906",
-    "name": "Spring into Action",
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202505",
+    "name": "Royal Authority",
     "type": "event",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029006",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025005",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202907",
-    "name": "Beast's Lab",
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202506",
+    "name": "Wrath of the Sea",
+    "type": "event",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025006",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+  },
+  {
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202507",
+    "name": "Atlantis",
     "type": "support",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029007",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025007",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202908",
-    "name": "Keen Mind",
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202508",
+    "name": "Ankle Wings",
     "type": "upgrade",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029008",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025008",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202909",
-    "name": "Prehensile Feet",
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202509",
+    "name": "Neptune's Trident",
     "type": "upgrade",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029009",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025009",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202910",
-    "name": "Scientific Solution",
-    "type": "upgrade",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029010",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
-  },
-  {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202911",
-    "name": "Secondary Mutations",
-    "type": "upgrade",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029011",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
-  },
-  {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202912",
-    "name": "Mutation Degeneration",
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202510",
+    "name": "Atlantis in Peril",
     "type": "obligation",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029012",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025010",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202913",
-    "name": "Dark Beast",
-    "type": "minion",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029013",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
-  },
-  {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202914",
-    "name": "Dark Experimentation",
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202511",
+    "name": "Atlantis Attacks",
     "type": "side_scheme",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029014",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025011",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202915",
-    "name": "Cybernetic Enhancements",
-    "type": "attachment",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029015",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202512",
+    "name": "Attuma",
+    "type": "minion",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025012",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202916",
-    "name": "Horrifying Test Subject",
-    "type": "attachment",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029016",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202513",
+    "name": "Atlantean Traitor",
+    "type": "minion",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025013",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   },
   {
-    "pack_code": "beast_by_hainz3y2",
-    "card_id": "202917",
-    "name": "Power Dampening Serum",
-    "type": "attachment",
-    "octgn_id": "6577554c-f04a-47cd-bff5-3debd9029017",
-    "pack_octgn_id": "6577554c-f04a-47cd-bff5-3debd97b0712"
+    "pack_code": "namor_by_odysseus",
+    "card_id": "202514",
+    "name": "Incited Conflict",
+    "type": "treachery",
+    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025014",
+    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
   }
 ]

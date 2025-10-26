@@ -9,5 +9,234 @@
       <property name="Type" value="fm_encounter_setup"/>
       <property name="Owner" value="namor_by_odysseus_nemesis"/>
     </card>
+    <card name="Namor" id="8a2b541d-69d6-5c7a-b1b2-582748025001">
+      <property name="CardNumber" value="202501a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="namor_by_odysseus"/>
+      <property name="HandSize" value="4"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="14"/>
+      <property name="Attribute" value="Atlantis. Defender."/>
+      <property name="Text">&lt;b&gt;Deep:&lt;/b&gt; Namor gets +1 THW, +1 ATK and
++1 DEF.
+&lt;i&gt;Arrogance&lt;/i&gt; — &lt;b&gt;Forced Interrupt:&lt;/b&gt; When Namor is targeted by another friendly
+character's &lt;b&gt;Action&lt;/b&gt;, discard 1 card
+from your hand.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Namor McKenzie" type="b">
+        <property name="CardNumber" value="202501b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="namor_by_odysseus"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="14"/>
+        <property name="Attribute" value="Atlantis. King."/>
+        <property name="Text">&lt;b&gt;Deep:&lt;/b&gt; Namor McKenzie gets +2 REC.
+&lt;i&gt;
+Symbol of Royalty&lt;/i&gt; — &lt;b&gt;Setup:&lt;/b&gt; Search your deck and discard pile for Neptune's Trident and add it to your hand. &lt;i&gt;(Shuffle.)&lt;/i&gt;</property>
+        <property name="Quote">&lt;i&gt;“I will create a better world.”&lt;/i&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Atlantean Skin" id="8a2b541d-69d6-5c7a-b1b2-582748025002">
+      <property name="CardNumber" value="202502"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="namor_by_odysseus"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Deep:&lt;/b&gt; Draw 1 card.
+&lt;b&gt;
+Hero Action:&lt;/b&gt; Give your hero a tough status card.</property>
+      <property name="Quote">&lt;i&gt;“No one may come near the person of the Sub-Mariner.”
+ -Namor McKenzie&lt;/i&gt;</property>
+    </card>
+    <card name="Furious Strike" id="8a2b541d-69d6-5c7a-b1b2-582748025003">
+      <property name="CardNumber" value="202503"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="namor_by_odysseus"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Deep:&lt;/b&gt; Ready Namor.
+&lt;b&gt;
+Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Deal 7 damage to an enemy.</property>
+      <property name="Quote">&lt;i&gt;“Compromise...? Never!” -Namor McKenzie&lt;/i&gt;</property>
+    </card>
+    <card name="Imperius Rex!" id="8a2b541d-69d6-5c7a-b1b2-582748025004">
+      <property name="CardNumber" value="202504"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="4"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="namor_by_odysseus"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt:&lt;/b&gt; When you use a basic power, get +1 to that power for this use. Then, look at the top 2 cards of your deck. Add one to your hand and discard the other.</property>
+      <property name="Quote">&lt;i&gt;“IMPERIUS REX!!!” -Namor McKenzie&lt;/i&gt;</property>
+    </card>
+    <card name="Royal Authority" id="8a2b541d-69d6-5c7a-b1b2-582748025005">
+      <property name="CardNumber" value="202505"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="namor_by_odysseus"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Deep:&lt;/b&gt; Remove 2 threat from a scheme.
+&lt;b&gt;
+Hero Action &lt;/b&gt;&lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme.</property>
+      <property name="Quote">&lt;i&gt;“You are trespassing on sacred ground. I will see you gone. One way or another.” -Namor McKenzie&lt;/i&gt;</property>
+    </card>
+    <card name="Wrath of the Sea" id="8a2b541d-69d6-5c7a-b1b2-582748025006">
+      <property name="CardNumber" value="202506"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="namor_by_odysseus"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action:&lt;/b&gt; Deal 10 damage to an enemy. (&lt;b&gt;Deep:&lt;/b&gt; You may divide damage dealt by this card among enemies as you choose.)</property>
+      <property name="Quote">&lt;i&gt;“We will retake what is ours!” -Namor McKenzie&lt;/i&gt;</property>
+    </card>
+    <card name="Atlantis" id="8a2b541d-69d6-5c7a-b1b2-582748025007">
+      <property name="CardNumber" value="202507"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="namor_by_odysseus"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Atlantis. Location."/>
+      <property name="Text">Your hero gets +1 hand size (&lt;b&gt;Deep:&lt;/b&gt; +2 hand size instead).
+&lt;b&gt;
+Alter-Ego Action:&lt;/b&gt; Exhaust Atlantis
+→ choose to either discard the top 4 cards from your deck or shuffle the bottom-most 4 cards from your discard pile into your deck.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Ankle Wings" id="8a2b541d-69d6-5c7a-b1b2-582748025008">
+      <property name="CardNumber" value="202508"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="namor_by_odysseus"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">If you control another copy of Ankle Wings, your hero gains the [[aerial]] trait.
+&lt;b&gt;
+Hero Resource:&lt;/b&gt; Exhaust Ankle Wings → generate a [energy] resource.
+(&lt;b&gt;Deep:&lt;/b&gt; generate a [wild] resource
+instead.)</property>
+      <property name="Quote">&lt;i&gt;“Namor goes where he pleases.”
+&lt;/i&gt;</property>
+    </card>
+    <card name="Neptune's Trident" id="8a2b541d-69d6-5c7a-b1b2-582748025009">
+      <property name="CardNumber" value="202509"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="namor_by_odysseus"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Atlantis. Weapon."/>
+      <property name="Text">Restricted.
+Your hero gains retaliate 1.
+&lt;b&gt;
+Hero Response:&lt;/b&gt; After you pay for an event using a [energy] resource, discard the top card of your deck. If it is a Namor card, add it to your hand.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Atlantis in Peril" id="8a2b541d-69d6-5c7a-b1b2-582748025010" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="202510"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="namor_by_odysseus"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">You may flip to alter-ego form. Choose:
+Exhaust Namor McKenzie → remove Atlantis in Peril from the game.
+Shuffle your discard pile into your deck. Deal an encounter card to you. Discard this obligation.</property>
+    </card>
+    <card name="Atlantis Attacks" id="8a2b541d-69d6-5c7a-b1b2-582748025011" size="SchemeCard">
+      <property name="CardNumber" value="202511"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="namor_by_odysseus_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed:&lt;/b&gt; If the Namor McKenzie player has 15 or less remaining cards in their deck, place 3 additional threat here.</property>
+    </card>
+    <card name="Attuma" id="8a2b541d-69d6-5c7a-b1b2-582748025012" size="EncounterCard">
+      <property name="CardNumber" value="202512"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="namor_by_odysseus_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Atlantis. Elite."/>
+      <property name="Text">&lt;b&gt;When Revealed:&lt;/b&gt; Discard the top 5 cards of your deck
+[star]&lt;b&gt;Forced Response:&lt;/b&gt; After Attuma attacks you, discard cards from the top of your deck equal to damage dealt.
+[star]&lt;b&gt;Boost:&lt;/b&gt; Discard cards from the top of your deck equal to cards in your hand.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Atlantean Traitor" id="8a2b541d-69d6-5c7a-b1b2-582748025013" size="EncounterCard">
+      <property name="CardNumber" value="202513"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="namor_by_odysseus_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Atlantis."/>
+      <property name="Text">&lt;b&gt;When Revealed:&lt;/b&gt; Discard the top 3 cards of your deck.
+[star]&lt;b&gt;Boost:&lt;/b&gt; Discard the top 3 cards of your deck.
+&lt;i&gt;“Do you know who I am?!?” -Namor&lt;/i&gt;</property>
+    </card>
+    <card name="Incited Conflict" id="8a2b541d-69d6-5c7a-b1b2-582748025014" size="EncounterCard">
+      <property name="CardNumber" value="202514"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="namor_by_odysseus_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed:&lt;/b&gt; Discard an ally you control. If no ally was discarded this way, this card gains surge.
+[star]&lt;b&gt;Boost:&lt;/b&gt; Discard the top 3 cards of your deck.</property>
+    </card>
   </cards>
 </set>
