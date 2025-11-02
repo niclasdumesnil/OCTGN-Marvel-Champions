@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Throg" id="2ede8afd-13d6-42ae-b6a4-df1336220174" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="2ede8afd-13d6-42ae-b6a4-df1336000000" name="throg_by_rainy">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="throg_by_rainy"/>
+    </card>
+    <card id="2ede8afd-13d6-42ae-b6a4-df1336990000" name="throg_by_rainy">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="throg_by_rainy_nemesis"/>
+    </card>
+    <card name="Throg" id="2ede8afd-13d6-42ae-b6a4-df1336031001">
+      <property name="CardNumber" value="203101a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="throg_by_rainy"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="12"/>
+      <property name="Attribute" value="Asgard. Guardian."/>
+      <property name="Text">[star]&lt;i&gt; Froglike Stamina&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After Throg uses a basic power, return Frogjolnir to your hand → ready Throg. (Limit once per phase.)
+&lt;i&gt;“There is justice to be done, so let us hop to it!”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Puddlegulp" type="b">
+        <property name="CardNumber" value="203101b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="throg_by_rainy"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="12"/>
+        <property name="Attribute" value="Asgard. Creature."/>
+        <property name="Text">&lt;i&gt;Worthy&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Find Frogjolnir and add it to your hand. (Limit once per round.)
+&lt;i&gt;“For too long, we have been underestimated and seen as trifling and insignificant, my friends. Cute beasts playing pretend champions. But we are true heroes.”&lt;/i&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Airborne Amphibian" id="2ede8afd-13d6-42ae-b6a4-df1336031002">
+      <property name="CardNumber" value="203102"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="throg_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Aerial. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Ready Throg and Frogjolnir. You may choose a minion engaged with another player and engage it to draw 1 card.
+&lt;i&gt;"Back, vile fiend! Throg the Thunder Frog defends these lands!" —Throg&lt;/i&gt;</property>
+    </card>
+    <card name="Great Courage" id="2ede8afd-13d6-42ae-b6a4-df1336031003">
+      <property name="CardNumber" value="203103"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="throg_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(thwart)&lt;/i&gt;: Remove 2 threat from a scheme. Engage any number of minions in play. For each minion engaged with you (to a maximum of 3), remove 2 threat from a scheme.
+&lt;i&gt;"Though my size is small, my courage is not!" —Throg&lt;/i&gt;</property>
+    </card>
+    <card name="Hammer Throw" id="2ede8afd-13d6-42ae-b6a4-df1336031004">
+      <property name="CardNumber" value="203104"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="throg_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Exhaust Frogjolnir and return it to your hand → deal 6 damage to an enemy. This attack gains overkill.
+&lt;i&gt;"I have no more words for thee, villain. So now we let Frogjolnir do the talking." —Throg&lt;/i&gt;</property>
+    </card>
+    <card name="Lightning Leap" id="2ede8afd-13d6-42ae-b6a4-df1336031005">
+      <property name="CardNumber" value="203105"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="throg_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you make a basic attack against a minion engaged with a player, resolve that attack against the villain and each minion engaged with that player instead, ignoring the guard keyword.
+&lt;i&gt;"Have at thee! And at thee! And thee!" —Throg&lt;/i&gt;</property>
+    </card>
+    <card name="Thunderous Charge" id="2ede8afd-13d6-42ae-b6a4-df1336031006">
+      <property name="CardNumber" value="203106"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="throg_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you make a basic thwart against a scheme, resolve that thwart against each scheme in play instead, ignoring the crisis icon (&lt;i&gt;in the order of your choice, including any bonuses to your THW for that thwart&lt;/i&gt;).
+&lt;i&gt;"Fear not my friends, I will save you!" —Throg&lt;/i&gt;</property>
+    </card>
+    <card name="Foreverglade" id="2ede8afd-13d6-42ae-b6a4-df1336031007">
+      <property name="CardNumber" value="203107"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="throg_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Response&lt;/b&gt;: After you make a basic recovery, exhaust Foreverglade → ready Puddlegulp and draw 1 card.
+&lt;i&gt;A kingdom in the marshland of Midgard where the razor-sharp songs of the cicadas melt against the bellowing of the toads and sing of glory.&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Frog of Thunder" id="2ede8afd-13d6-42ae-b6a4-df1336031008">
+      <property name="CardNumber" value="203108"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="throg_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Asgard. Title."/>
+      <property name="Text">&lt;b&gt;Hero Resource&lt;/b&gt;: Exhaust Frog of Thunder → generate a [energy] resource. If you paid for a Throg card this way, deal 1 damage to an enemy.
+&lt;i&gt;“I am the Frog of Thunder. The very skies must tremble when croaks the Mighty Throg!” —Throg&lt;/i&gt;</property>
+    </card>
+    <card name="Frogjolnir" id="2ede8afd-13d6-42ae-b6a4-df1336031009">
+      <property name="CardNumber" value="203109"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="throg_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Asgard. Weapon."/>
+      <property name="Text">Restricted.
+Throg gains the [[aerial]] trait.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When Throg uses a basic power, exhaust Frogjolnir → Throg gets +1 to that power for this use.
+&lt;i&gt;“EMBIGGEN!” —Ms. Marvel&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Throg's Armor" id="2ede8afd-13d6-42ae-b6a4-df1336031010">
+      <property name="CardNumber" value="203110"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="throg_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Armor. Asgard."/>
+      <property name="Text">You get +2 hit points.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you engage a minion, give Throg a tough status card. If you cannot, draw 1 card. (Limit once per phase.)
+&lt;i&gt;“Have at thee, scoundrel!” —Throg&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Trouble in Central Park" id="2ede8afd-13d6-42ae-b6a4-df1336031011" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="203111"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="throg_by_rainy"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Uses (3 foe counters). Victory 0.
+&lt;b&gt;Forced Action&lt;/b&gt;: Seek a minion from the encounter deck and put it into play engaged with you → remove 1 foe counter from here. That enemy attacks you. (Limit once per round.)
+&lt;i&gt;"I have neglected my people. They have suffered." —Throg&lt;/i&gt;</property>
+    </card>
+    <card name="Adorable Distraction" id="2ede8afd-13d6-42ae-b6a4-df1336031012" size="SchemeCard">
+      <property name="CardNumber" value="203112"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="throg_by_rainy_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="1"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;Alligator Loki is distracting everybody with his cuteness. Somebody, pet him so we can get back to saving the day!
+&lt;/i&gt;Hinder 1[per_hero].
+Alligator Loki cannot be attacked.
+&lt;i&gt;(Throg's nemesis side scheme.)&lt;/i&gt;
+[crisis] &lt;i&gt;&lt;/i&gt;</property>
+    </card>
+    <card name="Alligator Loki" id="2ede8afd-13d6-42ae-b6a4-df1336031013" size="EncounterCard">
+      <property name="CardNumber" value="203113"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="throg_by_rainy_nemesis"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Asgard. Creature."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After Alligator Loki enters play, find Chomped and attach it to your identity.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Alligator Loki schemes and places threat, place that much threat on each side scheme.
+[star] Alligator Loki's attacks gain piercing.
+&lt;i&gt;&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Causing a Commotion" id="2ede8afd-13d6-42ae-b6a4-df1336031014" size="SchemeCard">
+      <property name="CardNumber" value="203114"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="throg_by_rainy_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="1"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;Alligator Loki is making a scene and causing havoc! Somebody catch him before he makes an even bigger mess!
+&lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: Each player discards the top 3 cards of their deck and places 1 threat here for each different card type they discarded this way.
+[hazard]</property>
+    </card>
+    <card name="&quot;Lost&quot; Property" id="2ede8afd-13d6-42ae-b6a4-df1336031015" size="SchemeCard">
+      <property name="CardNumber" value="203115"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="throg_by_rainy_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;That scamp took our stuff! Catch him and get it back, no matter how cute he looks with it!
+&lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: Each player tucks an identity-specific upgrade they control under this card. It cannot be found while under here.
+&lt;b&gt;When Defeated&lt;/b&gt;: Add each card under here to its owner's hand.
+&lt;i&gt;&lt;/i&gt;</property>
+    </card>
+    <card name="Chomped" id="2ede8afd-13d6-42ae-b6a4-df1336031016" size="EncounterCard">
+      <property name="CardNumber" value="203116"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="throg_by_rainy_nemesis"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attach to your identity.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the round ends, take 1 damage.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When you would use a basic power, discard Chomped and take 1 damage instead.
+[star]&lt;b&gt; Boost&lt;/b&gt;: Reveal this card.</property>
+    </card>
+  </cards>
+</set>

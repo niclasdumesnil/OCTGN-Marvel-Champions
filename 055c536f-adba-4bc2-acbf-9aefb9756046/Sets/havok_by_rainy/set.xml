@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Havok" id="6c7d476a-f54a-4e3c-b3ac-118c038671c7" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="6c7d476a-f54a-4e3c-b3ac-118c03000000" name="havok_by_rainy">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="havok_by_rainy"/>
+    </card>
+    <card id="6c7d476a-f54a-4e3c-b3ac-118c03990000" name="havok_by_rainy">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="havok_by_rainy_nemesis"/>
+    </card>
+  </cards>
+</set>

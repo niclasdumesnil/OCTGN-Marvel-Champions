@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Hercules" id="5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="5f69f8a1-6e2a-4995-b4fb-de4864000000" name="hercules_by_rainy">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+    </card>
+    <card id="5f69f8a1-6e2a-4995-b4fb-de4864990000" name="hercules_by_rainy">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="hercules_by_rainy_nemesis"/>
+    </card>
+    <card name="Hercules" id="5f69f8a1-6e2a-4995-b4fb-de4864032001">
+      <property name="CardNumber" value="203201a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+      <property name="HandSize" value="3"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="16"/>
+      <property name="Attribute" value="Avenger. Olympus."/>
+      <property name="Text">&lt;i&gt;Godlike Stamina&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Deal 2 damage to Hercules or give him a stunned status card → draw up to your printed hand size. (Limit once per round.)
+&lt;i&gt;“Less talking and more fighting. For Olympus!”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Hercules Panhellenios" type="b">
+        <property name="CardNumber" value="203201b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="hercules_by_rainy"/>
+        <property name="HandSize" value="4"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="16"/>
+        <property name="Attribute" value="Deity. Olympus."/>
+        <property name="Text">&lt;i&gt;Wealth of Experience&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Search your deck for a card with the uses keyword and add it to your hand. (Limit once per round.)
+&lt;i&gt;"Ne'er hath the Prince of Power bothered with coin of the realm! It seemed such a trifle!”&lt;/i&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Feat of Strength" id="5f69f8a1-6e2a-4995-b4fb-de4864032002">
+      <property name="CardNumber" value="203202"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower. Thwart."/>
+      <property name="Text">Requirement ([physical]). &lt;i&gt;(While paying for this card, spend the listed resources.)&lt;/i&gt;&lt;b&gt;
+Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme. Reduce the cost of the next card you play this round by 1.
+&lt;i&gt;“There's something I have to do. A labor to complete.”&lt;/i&gt;</property>
+    </card>
+    <card name="Have at Thee!" id="5f69f8a1-6e2a-4995-b4fb-de4864032003">
+      <property name="CardNumber" value="203203"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Until the end of the round, Hercules gains retaliate 1 and each time an enemy attacks, you may declare Hercules the defender without exhausting him &lt;i&gt;(using your DEF)&lt;/i&gt;.
+&lt;i&gt;“Thou wouldst dare strike the Lion of Olympus?!”&lt;/i&gt;</property>
+    </card>
+    <card name="Mighty Blow" id="5f69f8a1-6e2a-4995-b4fb-de4864032004">
+      <property name="CardNumber" value="203204"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy. If you paid for this card using only [physical] resources, stun or confuse that enemy.
+&lt;i&gt;“What do you want from me? I punch stuff. It falls down! That's the only 'strategy' I've ever needed!”&lt;/i&gt;</property>
+    </card>
+    <card name="Divine Intervention" id="5f69f8a1-6e2a-4995-b4fb-de4864032005">
+      <property name="CardNumber" value="203205"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Boon. Olympus."/>
+      <property name="Text">Uses (1 divinity counter).
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you reveal an encounter card, remove 1 divinity counter from here → cancel all of that card's effects and discard it.
+&lt;i&gt;"Gods of Olympus, hear my prayer!" —Hercules&lt;/i&gt;</property>
+    </card>
+    <card name="Olympus" id="5f69f8a1-6e2a-4995-b4fb-de4864032006">
+      <property name="CardNumber" value="203206"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Location. Olympus."/>
+      <property name="Text">Hercules Panhellenios gets +2 REC.
+Cards that you control with the uses keyword enter play with 1 additional counter on them.
+&lt;i&gt;“Olympus, land of beauty and hope unlimited, of art, music and poetry unsurpassed!” —Hercules&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Godlike Endurance" id="5f69f8a1-6e2a-4995-b4fb-de4864032007">
+      <property name="CardNumber" value="203207"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Uses (3 endurance counters).&lt;b&gt;
+Interrupt&lt;/b&gt;: When you use a basic power, exhaust Godlike Endurance and remove 1 endurance counter from it → ready your identity.
+&lt;i&gt;“The Lion of Olympus never tires!” —Hercules&lt;/i&gt;</property>
+    </card>
+    <card name="Godlike Strength" id="5f69f8a1-6e2a-4995-b4fb-de4864032008">
+      <property name="CardNumber" value="203208"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Uses (3 strength counters). &lt;b&gt;
+Resource&lt;/b&gt;: Exhaust Godlike Strength and remove 1 strength counter from it → generate [physical][physical] resources.
+&lt;i&gt;“None can match the strength of Hercules!” —Hercules&lt;/i&gt;</property>
+    </card>
+    <card name="Godlike Fury" id="5f69f8a1-6e2a-4995-b4fb-de4864032009">
+      <property name="CardNumber" value="203209"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Hercules gains retaliate 1.&lt;b&gt;
+Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Discard 1 card from your hand and exhaust Godlike Fury → deal 2 damage to an enemy.
+&lt;i&gt;“Ha! You have earned the full wrath of a god!” —Hercules&lt;/i&gt;</property>
+    </card>
+    <card name="Hercules' Helm" id="5f69f8a1-6e2a-4995-b4fb-de4864032010">
+      <property name="CardNumber" value="203210"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Armor. Oylmpus."/>
+      <property name="Text">Hercules gets +1 THW.&lt;b&gt;
+Hero Action&lt;/b&gt;: Exhaust Hercules' Helm → draw 1 card, then choose one card in your hand and place it on top of your deck.
+&lt;i&gt;“'I see you. Not with sorcery, with thermal imaging.”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Hercules' Mace" id="5f69f8a1-6e2a-4995-b4fb-de4864032011">
+      <property name="CardNumber" value="203211"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Olympus. Weapon."/>
+      <property name="Text">Restricted. Hercules gets +1 ATK.&lt;b&gt;
+Hero Response&lt;/b&gt;: After you give an enemy a status card, deal 2 damage to that enemy.
+&lt;i&gt;“I bring you the gift...of battle!"&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Immortal" id="5f69f8a1-6e2a-4995-b4fb-de4864032012">
+      <property name="CardNumber" value="203212"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Condition. Superpower."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After you take damage, heal 1 damage from your identity. (Limit once per phase.)
+&lt;b&gt;Interrupt&lt;/b&gt;: When you would take damage that would defeat you, discard Immortal instead.
+&lt;i&gt;“...is there some part of 'immortal' you don't get?"&lt;/i&gt;</property>
+    </card>
+    <card name="Shield of Perseus" id="5f69f8a1-6e2a-4995-b4fb-de4864032013">
+      <property name="CardNumber" value="203213"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Armor. Artifact."/>
+      <property name="Text">Uses (1 gaze counter).
+Restricted. Hercules gets +1 DEF.&lt;b&gt;
+Hero Action&lt;/b&gt;: Remove 1 gaze counter from here → stun each enemy in play. Give the villain a tough status card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Excessive Revelry" id="5f69f8a1-6e2a-4995-b4fb-de4864032014" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="203214"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="hercules_by_rainy"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">You may flip to alter-ego form. Choose:
+Exhaust Hercules Panhellenios → remove Excessive Revelry from the game.
+Discard 1 card at random from your hand. Discard this obligation.
+ [star] &lt;b&gt;Boost&lt;/b&gt;: You are confused.</property>
+    </card>
+    <card name="Clash of the Titans" id="5f69f8a1-6e2a-4995-b4fb-de4864032015" size="SchemeCard">
+      <property name="CardNumber" value="203215"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="hercules_by_rainy_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;Seeking vengeance and glory, Ares brings war against Hercules and all those who stand with him. Have at thee!
+&lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: Give each enemy a facedown boost card.
+[amplify]</property>
+    </card>
+    <card name="Ares" id="5f69f8a1-6e2a-4995-b4fb-de4864032016" size="EncounterCard">
+      <property name="CardNumber" value="203216"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="hercules_by_rainy_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Olympus. Soldier."/>
+      <property name="Text">Steady. Toughness.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a character attacks Ares, Ares attacks that character.
+&lt;i&gt;"Men call me Ares... and tremble when they do. I am the God of War!"&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Attrition" id="5f69f8a1-6e2a-4995-b4fb-de4864032017" size="EncounterCard">
+      <property name="CardNumber" value="203217"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="hercules_by_rainy_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Remove 1 counter from each player card with the uses keyword. Deal 1 damage to each friendly character.
+ [star] &lt;b&gt;Boost&lt;/b&gt;: Remove 1 counter from a card you control with the uses keyword.</property>
+    </card>
+    <card name="Let There Be War" id="5f69f8a1-6e2a-4995-b4fb-de4864032018" size="EncounterCard">
+      <property name="CardNumber" value="203218"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="hercules_by_rainy_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Each minion attacks the player it is engaged with. Each player not engaged with a minion searches the encounter deck and discard pile for a minion and puts it into play engaged with them. &lt;i&gt;(Shuffle.)&lt;/i&gt;
+ [star] &lt;b&gt;Boost&lt;/b&gt;: This attack gains overkill.</property>
+    </card>
+  </cards>
+</set>

@@ -1,122 +1,162 @@
 [
   {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202501b",
-    "name": "Namor McKenzie",
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203301b",
+    "name": "Eddie Brock",
     "type": "alter_ego",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025001",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033001",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   },
   {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202501a",
-    "name": "Namor",
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203301a",
+    "name": "Venom",
     "type": "hero",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025001",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033001",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   },
   {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202502",
-    "name": "Atlantean Skin",
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203302",
+    "name": "Spider-Man",
+    "type": "ally",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033002",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203303",
+    "name": "Webs of Venom",
     "type": "event",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025002",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033003",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   },
   {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202503",
-    "name": "Furious Strike",
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203304",
+    "name": "Unbreakable Bond",
     "type": "event",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025003",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033004",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   },
   {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202504",
-    "name": "Imperius Rex!",
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203305",
+    "name": "Horrify",
     "type": "event",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025004",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033005",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   },
   {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202505",
-    "name": "Royal Authority",
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203306",
+    "name": "“I Will Eat Your Brains!”",
     "type": "event",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025005",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033006",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   },
   {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202506",
-    "name": "Wrath of the Sea",
-    "type": "event",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025006",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
-  },
-  {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202507",
-    "name": "Atlantis",
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203307",
+    "name": "Eddie's Apartment",
     "type": "support",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025007",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033007",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   },
   {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202508",
-    "name": "Ankle Wings",
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203308",
+    "name": "Lethal Protector",
     "type": "upgrade",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025008",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033008",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   },
   {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202509",
-    "name": "Neptune's Trident",
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203309",
+    "name": "Tooth and Nail",
     "type": "upgrade",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025009",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033009",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   },
   {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202510",
-    "name": "Atlantis in Peril",
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203310",
+    "name": "Klyntar Tendrils",
+    "type": "upgrade",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033010",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203311a",
+    "name": "Symbiotic Bond",
+    "type": "upgrade",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033011",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203311b",
+    "name": "Symbiotic Bond",
+    "type": "upgrade",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033011",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203312",
+    "name": "Sonic Vulnerability",
     "type": "obligation",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025010",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033012",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   },
   {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202511",
-    "name": "Atlantis Attacks",
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203313",
+    "name": "Fire Vulnerability",
+    "type": "obligation",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033013",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203314",
+    "name": "Maximum Carnage",
     "type": "side_scheme",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025011",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033014",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   },
   {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202512",
-    "name": "Attuma",
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203315",
+    "name": "Carnage",
     "type": "minion",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025012",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033015",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   },
   {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202513",
-    "name": "Atlantean Traitor",
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203316",
+    "name": "Shriek",
     "type": "minion",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025013",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033016",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   },
   {
-    "pack_code": "namor_by_odysseus",
-    "card_id": "202514",
-    "name": "Incited Conflict",
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203317",
+    "name": "Sonic Boom",
     "type": "treachery",
-    "octgn_id": "8a2b541d-69d6-5c7a-b1b2-582748025014",
-    "pack_octgn_id": "8a2b541d-69d6-5c7a-b1b2-5827487cdc56"
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033017",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203318",
+    "name": "Paint the Town Red",
+    "type": "attachment",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033018",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   }
 ]

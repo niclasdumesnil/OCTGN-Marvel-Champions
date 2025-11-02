@@ -208,6 +208,14 @@
     "pack_octgn_id": ""
   },
   {
+    "pack_code": "2025_weekly",
+    "card_id": "999102",
+    "name": "Strength in Diversity",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
     "pack_code": "agent_of_shield_by_merlin",
     "card_id": "253001b",
     "name": "Agent du S.H.I.E.L.D.",
@@ -16176,6 +16184,142 @@
     "pack_octgn_id": "fe0387fe-86cb-5d1b-a634-a303f0c017c5"
   },
   {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203001b",
+    "name": "Alex Summers",
+    "type": "alter_ego",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030001",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203001a",
+    "name": "Havok",
+    "type": "hero",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030001",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203002",
+    "name": "Polaris",
+    "type": "ally",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030002",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203003",
+    "name": "Energy Absorption",
+    "type": "event",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030003",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203004",
+    "name": "Plasma Blast",
+    "type": "event",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030004",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203005",
+    "name": "Plasma Burst",
+    "type": "event",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030005",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203006",
+    "name": "Wreak Havoc",
+    "type": "event",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030006",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203007",
+    "name": "Cosmic Energy",
+    "type": "resource",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030007",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203008",
+    "name": "Containment Suit",
+    "type": "upgrade",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030008",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203009",
+    "name": "Controlled Blast",
+    "type": "upgrade",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030009",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203010",
+    "name": "Plasma Discharge",
+    "type": "upgrade",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030010",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203011",
+    "name": "Brothers 'Til the End",
+    "type": "event",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030011",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203012",
+    "name": "Energy Surge",
+    "type": "obligation",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030012",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203013",
+    "name": "Reign of Fire",
+    "type": "side_scheme",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030013",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203014",
+    "name": "Vulcan",
+    "type": "minion",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030014",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203015",
+    "name": "Deathbird",
+    "type": "minion",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030015",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
+    "pack_code": "havok_by_rainy",
+    "card_id": "203016",
+    "name": "Shi'ar Legion",
+    "type": "minion",
+    "octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c03030016",
+    "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
+  },
+  {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200601b",
     "name": "Heimdall",
@@ -16326,6 +16470,158 @@
     "type": "treachery",
     "octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b006017",
     "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203201b",
+    "name": "Hercules Panhellenios",
+    "type": "alter_ego",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032001",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203201a",
+    "name": "Hercules",
+    "type": "hero",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032001",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203202",
+    "name": "Feat of Strength",
+    "type": "event",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032002",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203203",
+    "name": "Have at Thee!",
+    "type": "event",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032003",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203204",
+    "name": "Mighty Blow",
+    "type": "event",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032004",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203205",
+    "name": "Divine Intervention",
+    "type": "support",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032005",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203206",
+    "name": "Olympus",
+    "type": "support",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032006",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203207",
+    "name": "Godlike Endurance",
+    "type": "upgrade",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032007",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203208",
+    "name": "Godlike Strength",
+    "type": "upgrade",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032008",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203209",
+    "name": "Godlike Fury",
+    "type": "upgrade",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032009",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203210",
+    "name": "Hercules' Helm",
+    "type": "upgrade",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032010",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203211",
+    "name": "Hercules' Mace",
+    "type": "upgrade",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032011",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203212",
+    "name": "Immortal",
+    "type": "upgrade",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032012",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203213",
+    "name": "Shield of Perseus",
+    "type": "upgrade",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032013",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203214",
+    "name": "Excessive Revelry",
+    "type": "obligation",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032014",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203215",
+    "name": "Clash of the Titans",
+    "type": "side_scheme",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032015",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203216",
+    "name": "Ares",
+    "type": "minion",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032016",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203217",
+    "name": "Attrition",
+    "type": "treachery",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032017",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules_by_rainy",
+    "card_id": "203218",
+    "name": "Let There Be War",
+    "type": "treachery",
+    "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032018",
+    "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
   },
   {
     "pack_code": "hlk",
@@ -20961,17 +21257,17 @@
   },
   {
     "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202101a",
-    "name": "Thor",
-    "type": "hero",
+    "card_id": "202101b",
+    "name": "Jane Foster",
+    "type": "alter_ego",
     "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021001",
     "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
     "pack_code": "mighty_thor_by_rainy",
-    "card_id": "202101b",
-    "name": "Jane Foster",
-    "type": "alter_ego",
+    "card_id": "202101a",
+    "name": "Thor",
+    "type": "hero",
     "octgn_id": "a9f65411-f86b-48a8-bcac-0564be021001",
     "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
@@ -31949,7 +32245,7 @@
     "name": "Hulkling",
     "type": "hero",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -31957,7 +32253,7 @@
     "name": "Teddy Altman",
     "type": "alter_ego",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -31965,7 +32261,7 @@
     "name": "Kree Origin",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -31973,7 +32269,7 @@
     "name": "Skrull Origin",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -31981,7 +32277,7 @@
     "name": "Wiccan",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -31989,7 +32285,7 @@
     "name": "Kree Durability",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -31997,7 +32293,7 @@
     "name": "Kree Ferocity",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32005,7 +32301,7 @@
     "name": "Shift and Strike",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32013,7 +32309,7 @@
     "name": "Skrull Infiltration",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32021,7 +32317,7 @@
     "name": "Skrull Regeneration",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32029,7 +32325,7 @@
     "name": "Alliance",
     "type": "support",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32037,7 +32333,7 @@
     "name": "Ancestors",
     "type": "support",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32045,7 +32341,7 @@
     "name": "Changeling",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32053,7 +32349,7 @@
     "name": "Emperor Dorrek-Vell",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32061,7 +32357,7 @@
     "name": "Excelsior",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32069,7 +32365,7 @@
     "name": "Nega Rings",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32077,7 +32373,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32085,7 +32381,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32093,7 +32389,7 @@
     "name": "Deflect the Blow",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32101,7 +32397,7 @@
     "name": "Drunk in Love",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32109,7 +32405,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32117,7 +32413,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32125,7 +32421,7 @@
     "name": "Glorious Flight",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32133,7 +32429,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32141,7 +32437,7 @@
     "name": "Lauri-Ell",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32149,7 +32445,7 @@
     "name": "Mur-G'nn",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32157,7 +32453,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32165,7 +32461,7 @@
     "name": "Pride",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32173,7 +32469,7 @@
     "name": "Provoked!",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32181,7 +32477,7 @@
     "name": "Strength in Otherness",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32189,7 +32485,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32197,7 +32493,7 @@
     "name": "Talos",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32205,7 +32501,7 @@
     "name": "Laura Green",
     "type": "alter_ego",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32213,7 +32509,7 @@
     "name": "Lyja",
     "type": "hero",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32221,7 +32517,7 @@
     "name": "Human Torch",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32229,7 +32525,7 @@
     "name": "Faking Death",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32237,7 +32533,7 @@
     "name": "Feign Loyalty",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32245,7 +32541,7 @@
     "name": "Hero Appearance",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32253,7 +32549,7 @@
     "name": "Posing as a Civilian",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32261,7 +32557,7 @@
     "name": "New York Bookstore",
     "type": "support",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32269,7 +32565,7 @@
     "name": "Lazerfist",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32277,7 +32573,7 @@
     "name": "Ministerial Tiara",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32285,7 +32581,7 @@
     "name": "Mole",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32293,7 +32589,7 @@
     "name": "Shapeshifter",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32301,7 +32597,7 @@
     "name": "Baxter Building",
     "type": "support",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32309,7 +32605,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32317,7 +32613,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32325,7 +32621,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32333,7 +32629,7 @@
     "name": "Fantasti-Car",
     "type": "support",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32341,7 +32637,7 @@
     "name": "Fantastic Four Member",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32349,7 +32645,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32357,7 +32653,7 @@
     "name": "Going Ballistic",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32365,7 +32661,7 @@
     "name": "Hit the Weak Spot",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32373,7 +32669,7 @@
     "name": "Invisible Woman",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32381,7 +32677,7 @@
     "name": "Laser Tag",
     "type": "event",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32389,7 +32685,7 @@
     "name": "Mister Fantastic",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32397,7 +32693,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32405,7 +32701,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32413,7 +32709,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32421,7 +32717,7 @@
     "name": "The Thing",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32429,7 +32725,7 @@
     "name": "",
     "type": "",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32437,7 +32733,7 @@
     "name": "Crusader",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32445,7 +32741,7 @@
     "name": "Jazinda",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32453,7 +32749,7 @@
     "name": "Paibok",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32461,7 +32757,7 @@
     "name": "Skymax",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32469,7 +32765,7 @@
     "name": "Super-Skrull",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32477,7 +32773,7 @@
     "name": "War Skrull",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32485,7 +32781,7 @@
     "name": "Xavin",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32493,7 +32789,7 @@
     "name": "Buddy Training Program",
     "type": "player_side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32501,7 +32797,7 @@
     "name": "Cloning Program",
     "type": "player_side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32509,7 +32805,7 @@
     "name": "Fickle Alliance",
     "type": "player_side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32517,7 +32813,7 @@
     "name": "Newbie Training",
     "type": "player_side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32525,7 +32821,7 @@
     "name": "Searching for Powers",
     "type": "player_side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32533,7 +32829,7 @@
     "name": "Skrull Military Training",
     "type": "player_side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32541,7 +32837,7 @@
     "name": "Stealing For Good",
     "type": "player_side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32549,7 +32845,7 @@
     "name": "Antalya",
     "type": "support",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32557,7 +32853,7 @@
     "name": "Cadre K",
     "type": "support",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32565,7 +32861,7 @@
     "name": "Point of View",
     "type": "support",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32573,7 +32869,7 @@
     "name": "Princess Anelle",
     "type": "support",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32581,7 +32877,7 @@
     "name": "Skrull Battleship",
     "type": "support",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32589,7 +32885,7 @@
     "name": "Skrull Kill Krew",
     "type": "support",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32597,7 +32893,7 @@
     "name": "3-D Man's Goggles",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32605,7 +32901,7 @@
     "name": "Inhibitor Mask",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32613,7 +32909,7 @@
     "name": "Ultimate Nullifier",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32621,7 +32917,7 @@
     "name": "Reverting Device",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32629,7 +32925,7 @@
     "name": "Skrull Shapeshifter",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32637,7 +32933,7 @@
     "name": "Sy-Torak Gem",
     "type": "upgrade",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32645,7 +32941,7 @@
     "name": "Interracial Hatred",
     "type": "obligation",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32653,7 +32949,7 @@
     "name": "Empress R'Klll",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32661,7 +32957,7 @@
     "name": "DNA Masking",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32669,7 +32965,7 @@
     "name": "Inhibited",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32677,7 +32973,7 @@
     "name": "Assailed by Their Own",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32685,7 +32981,7 @@
     "name": "Swapping Roles",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32693,7 +32989,7 @@
     "name": "Untrustworthiness",
     "type": "obligation",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32701,7 +32997,7 @@
     "name": "Paibok",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32709,7 +33005,7 @@
     "name": "Punish the Defector",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32717,7 +33013,7 @@
     "name": "\"It's a Stinkin' Skrull!\"",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32725,7 +33021,7 @@
     "name": "Truth Revealed",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32733,7 +33029,7 @@
     "name": "Emperor Dorrek I",
     "type": "villain",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007070",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32741,7 +33037,7 @@
     "name": "Emperor Dorrek I",
     "type": "villain",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007071",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32749,7 +33045,7 @@
     "name": "Emperor Dorrek I",
     "type": "villain",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007072",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32757,7 +33053,7 @@
     "name": "Emperor Dorrek VII",
     "type": "villain",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007073",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32765,7 +33061,7 @@
     "name": "Emperor Dorrek VII",
     "type": "villain",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007074",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32773,7 +33069,7 @@
     "name": "Emperor Dorrek VII",
     "type": "villain",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007075",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32781,7 +33077,7 @@
     "name": "Empress R'Klll",
     "type": "villain",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007076",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32789,7 +33085,7 @@
     "name": "Empress R'Klll",
     "type": "villain",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007077",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32797,7 +33093,7 @@
     "name": "Empress R'Klll",
     "type": "villain",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007078",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32805,7 +33101,7 @@
     "name": "Empress S'Byll",
     "type": "villain",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007079",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32813,7 +33109,7 @@
     "name": "Empress S'Byll",
     "type": "villain",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007080",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32821,7 +33117,7 @@
     "name": "Empress S'Byll",
     "type": "villain",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007081",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32829,7 +33125,7 @@
     "name": "Rise of the Skrull Empire",
     "type": "main_scheme",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007082",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32837,7 +33133,7 @@
     "name": "Rise of the Skrull Empire",
     "type": "main_scheme",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007082",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32845,7 +33141,7 @@
     "name": "Andromeda Galaxy Colonization",
     "type": "main_scheme",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007083",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32853,7 +33149,7 @@
     "name": "Andromeda Galaxy Colonization",
     "type": "main_scheme",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007083",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32861,7 +33157,7 @@
     "name": "Further Empire Expansion",
     "type": "main_scheme",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007084",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32869,7 +33165,7 @@
     "name": "Further Empire Expansion",
     "type": "main_scheme",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007084",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32877,7 +33173,7 @@
     "name": "Entire Universe Domination",
     "type": "main_scheme",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007085",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32885,7 +33181,7 @@
     "name": "Entire Universe Domination",
     "type": "main_scheme",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007085",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32893,7 +33189,7 @@
     "name": "Skrull Empire I",
     "type": "environment",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007086",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32901,7 +33197,7 @@
     "name": "Skrull Empire II",
     "type": "environment",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007087",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32909,7 +33205,7 @@
     "name": "Skrull Empire III",
     "type": "environment",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007088",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32917,7 +33213,7 @@
     "name": "Aks'lo",
     "type": "environment",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007089",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32925,7 +33221,7 @@
     "name": "Hy'lt Minor",
     "type": "environment",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007090",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32933,7 +33229,7 @@
     "name": "Satriani",
     "type": "environment",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007091",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32941,7 +33237,7 @@
     "name": "Skrell",
     "type": "environment",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007092",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32949,7 +33245,7 @@
     "name": "Skrullos",
     "type": "environment",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007093",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32957,7 +33253,7 @@
     "name": "Tarnax II",
     "type": "environment",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007094",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32965,7 +33261,7 @@
     "name": "Tarnax IV",
     "type": "environment",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007095",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32973,7 +33269,7 @@
     "name": "Tarnax VII",
     "type": "environment",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007096",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32981,7 +33277,7 @@
     "name": "Zaragz'na",
     "type": "environment",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007097",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32989,7 +33285,7 @@
     "name": "Impostor",
     "type": "attachment",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007098",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -32997,7 +33293,7 @@
     "name": "Intelligentsia",
     "type": "minion",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007099",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33005,7 +33301,7 @@
     "name": "Emperor's Throne",
     "type": "side_scheme",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007100",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33013,7 +33309,7 @@
     "name": "Seeking a Suitable World",
     "type": "side_scheme",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007101",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33021,7 +33317,7 @@
     "name": "A New Skrull Is Born",
     "type": "treachery",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007102",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33029,7 +33325,7 @@
     "name": "Giving Orders",
     "type": "treachery",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007103",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33037,7 +33333,7 @@
     "name": "Long Live the Empire",
     "type": "treachery",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007104",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33045,7 +33341,7 @@
     "name": "Overthrow",
     "type": "treachery",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007105",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33053,7 +33349,7 @@
     "name": "Wrath of the Empire",
     "type": "treachery",
     "octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cd007106",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33061,7 +33357,7 @@
     "name": "Skrull Scientist",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33069,7 +33365,7 @@
     "name": "Skrull Spy",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33077,7 +33373,7 @@
     "name": "Skrull Telepath",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33085,7 +33381,7 @@
     "name": "Skrull Warrior",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33093,7 +33389,7 @@
     "name": "Plotting Revenge",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33101,7 +33397,7 @@
     "name": "Outnumbered",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33109,7 +33405,7 @@
     "name": "Skrull Commander",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33117,7 +33413,7 @@
     "name": "Skrull Soldier",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33125,7 +33421,7 @@
     "name": "Hijacked",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33133,7 +33429,7 @@
     "name": "Skrull Assault",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33141,7 +33437,7 @@
     "name": "Super-Skrull",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33149,7 +33445,7 @@
     "name": "Super-Skrull",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33157,7 +33453,7 @@
     "name": "Super-Skrull",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33165,7 +33461,7 @@
     "name": "Searching for the Heir",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33173,7 +33469,7 @@
     "name": "Searching for the Heir",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33181,7 +33477,7 @@
     "name": "Heir to the Throne",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33189,7 +33485,7 @@
     "name": "Heir to the Throne",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33197,7 +33493,7 @@
     "name": "Flexibility",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33205,7 +33501,7 @@
     "name": "Invisibility",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33213,7 +33509,7 @@
     "name": "Pyrokinesis",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33221,7 +33517,7 @@
     "name": "Rock Mimicry",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33229,7 +33525,7 @@
     "name": "Invisible Forcefield",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33237,7 +33533,7 @@
     "name": "Lord Kl'rt",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33245,7 +33541,7 @@
     "name": "Mt'nox",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33253,7 +33549,7 @@
     "name": "Praxagora",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33261,7 +33557,7 @@
     "name": "R'kin",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33269,7 +33565,7 @@
     "name": "Galactic Council Membership",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33277,7 +33573,7 @@
     "name": "Skrull Warlords",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33285,7 +33581,7 @@
     "name": "Hypnotic Gaze",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33293,7 +33589,7 @@
     "name": "Power Multiplying",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33301,7 +33597,7 @@
     "name": "Villain's Versatility",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33309,7 +33605,7 @@
     "name": "Bel-Dann",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33317,7 +33613,7 @@
     "name": "Raksor",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33325,7 +33621,7 @@
     "name": "Earth Involvement",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33333,7 +33629,7 @@
     "name": "Imperial Kree Army",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33341,7 +33637,7 @@
     "name": "Skrull Imperial Fleet",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33349,7 +33645,7 @@
     "name": "Paibok",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33357,7 +33653,7 @@
     "name": "Paibok",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33365,7 +33661,7 @@
     "name": "Paibok",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33373,7 +33669,7 @@
     "name": "Power Skrull Engineering",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33381,7 +33677,7 @@
     "name": "Power Skrull Engineering",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33389,7 +33685,7 @@
     "name": "Mastering Superpowers",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33397,7 +33693,7 @@
     "name": "Mastering Superpowers",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33405,7 +33701,7 @@
     "name": "Captain Paibok",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33413,7 +33709,7 @@
     "name": "Distracted",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33421,7 +33717,7 @@
     "name": "Electricity Projection",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33429,7 +33725,7 @@
     "name": "Hypnotized",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33437,7 +33733,7 @@
     "name": "Ice Control",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33445,7 +33741,7 @@
     "name": "Metallic Skin",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33453,7 +33749,7 @@
     "name": "Shapeshifting",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33461,7 +33757,7 @@
     "name": "Trapped in Ice",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33469,7 +33765,7 @@
     "name": "Devos the Devastator",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33477,7 +33773,7 @@
     "name": "General Kalamari",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33485,7 +33781,7 @@
     "name": "Galactic Ambassador",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33493,7 +33789,7 @@
     "name": "Settling Scores",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33501,7 +33797,7 @@
     "name": "Council Manipulation",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33509,7 +33805,7 @@
     "name": "Getting Ruthless",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33517,7 +33813,7 @@
     "name": "Power Demonstration",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33525,7 +33821,7 @@
     "name": "O.M.N.I.T.R.O.N.I.C.U.S.",
     "type": "environment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33533,7 +33829,7 @@
     "name": "Angar the Screamer",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33541,7 +33837,7 @@
     "name": "Asti the All-Seeing",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33549,7 +33845,7 @@
     "name": "Skar",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33557,7 +33853,7 @@
     "name": "The Maker",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33565,7 +33861,7 @@
     "name": "Vermin",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33573,7 +33869,7 @@
     "name": "White Tiger",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33581,7 +33877,7 @@
     "name": "The Revenge Time",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33589,7 +33885,7 @@
     "name": "Forming the Revengers",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33597,7 +33893,7 @@
     "name": "Kly'bn",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33605,7 +33901,7 @@
     "name": "Sl'gur't",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33613,7 +33909,7 @@
     "name": "Kly'bn",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33621,7 +33917,7 @@
     "name": "Sl'gur't",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33629,7 +33925,7 @@
     "name": "Kly'bn",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33637,7 +33933,7 @@
     "name": "Sl'gur't",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33645,7 +33941,7 @@
     "name": "Protect the Pantheon",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33653,7 +33949,7 @@
     "name": "Protect the Pantheon",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33661,7 +33957,7 @@
     "name": "Slaying the False Gods",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33669,7 +33965,7 @@
     "name": "Slaying the False Gods",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33677,7 +33973,7 @@
     "name": "Skrull Pantheon",
     "type": "environment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33685,7 +33981,7 @@
     "name": "Skrull Pantheon",
     "type": "environment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33693,7 +33989,7 @@
     "name": "Blessed by Kly'bn",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33701,7 +33997,7 @@
     "name": "Blessed by Sl'gur't",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33709,7 +34005,7 @@
     "name": "Nogor",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33717,7 +34013,7 @@
     "name": "Shapeless Wastes",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33725,7 +34021,7 @@
     "name": "Strengthen the Faith",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33733,7 +34029,7 @@
     "name": "Prayer to Kly'bn",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33741,7 +34037,7 @@
     "name": "Prayer to Sl'gur't",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33749,7 +34045,7 @@
     "name": "Talisman of the Skrulls",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33757,7 +34053,7 @@
     "name": "Dard'van Fanatic",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33765,7 +34061,7 @@
     "name": "Dard'van Priest",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33773,7 +34069,7 @@
     "name": "Dard'van Sect",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33781,7 +34077,7 @@
     "name": "Collective Prayers",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33789,7 +34085,7 @@
     "name": "Sectarian Practices",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33797,7 +34093,7 @@
     "name": "Spider-Woman(Veranke)",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33805,7 +34101,7 @@
     "name": "Queen Veranke",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33813,7 +34109,7 @@
     "name": "Spider-Woman(Veranke)",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33821,7 +34117,7 @@
     "name": "Queen Veranke",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33829,7 +34125,7 @@
     "name": "Spider-Woman(Veranke)",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33837,7 +34133,7 @@
     "name": "Queen Veranke",
     "type": "villain",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33845,7 +34141,7 @@
     "name": "The Infiltration Has Begun",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33853,7 +34149,7 @@
     "name": "The Infiltration Has Begun",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33861,7 +34157,7 @@
     "name": "The Skrull Invasion",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33869,7 +34165,7 @@
     "name": "The Skrull Invasion",
     "type": "main_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33877,7 +34173,7 @@
     "name": "\"Who Do You Trust?\"",
     "type": "environment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33885,7 +34181,7 @@
     "name": "Impostor",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33893,7 +34189,7 @@
     "name": "Super-Skrull Enhancement",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33901,7 +34197,7 @@
     "name": "Super-Skrull Enhancement",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33909,7 +34205,7 @@
     "name": "Super-Skrull Enhancement",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33917,7 +34213,7 @@
     "name": "Chaos on the Battlefield",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33925,7 +34221,7 @@
     "name": "Fulfill the Prophecy",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33933,7 +34229,7 @@
     "name": "Mistrust and Paranoia",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33941,7 +34237,7 @@
     "name": "Arrival of Impostors",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33949,7 +34245,7 @@
     "name": "Camouflage",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33957,7 +34253,7 @@
     "name": "Glory to the Skrull Empire",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33965,7 +34261,7 @@
     "name": "Infiltration Ritual",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33973,7 +34269,7 @@
     "name": "Invasion Fleet",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33981,7 +34277,7 @@
     "name": "Revelation",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33989,7 +34285,7 @@
     "name": "Captain America(Pitt'o Nili)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -33997,7 +34293,7 @@
     "name": "Pitt'o Nili",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34005,7 +34301,7 @@
     "name": "Captain Marvel(Khn'nr)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34013,7 +34309,7 @@
     "name": "Khn'nr",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34021,7 +34317,7 @@
     "name": "Captain Marvel(M'lanz)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34029,7 +34325,7 @@
     "name": "M'lanz",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34037,7 +34333,7 @@
     "name": "Carnage(Zr'x)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34045,7 +34341,7 @@
     "name": "Zr'x",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34053,7 +34349,7 @@
     "name": "Daredevil(Trl'k)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34061,7 +34357,7 @@
     "name": "Trl'k",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34069,7 +34365,7 @@
     "name": "Deathlok(Fry'lu)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34077,7 +34373,7 @@
     "name": "Fry'lu",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34085,7 +34381,7 @@
     "name": "Dum Dum Dugan(Sn'Tlo)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34093,7 +34389,7 @@
     "name": "Sn'Tlo",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34101,7 +34397,7 @@
     "name": "Elektra(Siri)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34109,7 +34405,7 @@
     "name": "Siri",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34117,7 +34413,7 @@
     "name": "Giant-Man(D'lutz)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34125,7 +34421,7 @@
     "name": "D'lutz",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34133,7 +34429,7 @@
     "name": "Invisible Woman(De'Lila)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34141,7 +34437,7 @@
     "name": "De'Lila",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34149,7 +34445,7 @@
     "name": "Iron Fist(Grrix)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34157,7 +34453,7 @@
     "name": "Grrix",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34165,7 +34461,7 @@
     "name": "Iron Man(Ssrov)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34173,7 +34469,7 @@
     "name": "Ssrov",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34181,7 +34477,7 @@
     "name": "Moon Knight(Hs'fld)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34189,7 +34485,7 @@
     "name": "Hs'fld",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34197,7 +34493,7 @@
     "name": "Nick Fury(H'kurrek)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34205,7 +34501,7 @@
     "name": "H'kurrek",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34213,7 +34509,7 @@
     "name": "Phoenix(Korya)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34221,7 +34517,7 @@
     "name": "Korya",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34229,7 +34525,7 @@
     "name": "Spider-Man(Ch'Gra)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34237,7 +34533,7 @@
     "name": "Ch'Gra",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34245,7 +34541,7 @@
     "name": "Thor(Hagar)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34253,7 +34549,7 @@
     "name": "Hagar",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34261,7 +34557,7 @@
     "name": "Venom(Dharr)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34269,7 +34565,7 @@
     "name": "Dharr",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34277,7 +34573,7 @@
     "name": "Wolverine(V'lrym)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34285,7 +34581,7 @@
     "name": "V'lrym",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34293,7 +34589,7 @@
     "name": "Yellowjacket(Criti Noll)",
     "type": "ally",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34301,7 +34597,55 @@
     "name": "Criti Noll",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500928",
+    "name": "Shaper of Worlds",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500929",
+    "name": "Cosmic Cube Creation",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500930",
+    "name": "Cosmic Cube Fragment",
+    "type": "resource",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500997",
+    "name": "Cosmic Cube Fragment",
+    "type": "resource",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500998",
+    "name": "Cosmic Cube Fragment",
+    "type": "resource",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500999",
+    "name": "Cosmic Cube Fragment",
+    "type": "resource",
+    "octgn_id": "",
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34309,7 +34653,7 @@
     "name": "Crusader",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34317,7 +34661,7 @@
     "name": "Enemy Adaptation",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34325,7 +34669,7 @@
     "name": "Freedom Ring",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34333,7 +34677,7 @@
     "name": "Spy Training",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34341,7 +34685,7 @@
     "name": "Rivals to the End",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34349,7 +34693,7 @@
     "name": "Jazinda",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34357,7 +34701,7 @@
     "name": "Skrull Energy Gun",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34365,7 +34709,7 @@
     "name": "Sy-Torak Gem",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34373,7 +34717,7 @@
     "name": "Stealing for the Empire",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34381,7 +34725,7 @@
     "name": "Skrull of Royal Blood",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34389,7 +34733,7 @@
     "name": "Skymax",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34397,7 +34741,7 @@
     "name": "Changing Appearance",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34405,7 +34749,7 @@
     "name": "Surprising Alliance",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34413,7 +34757,7 @@
     "name": "Shape Alteration",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34421,7 +34765,7 @@
     "name": "War Skrull",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34429,7 +34773,7 @@
     "name": "Impostor",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34437,7 +34781,7 @@
     "name": "Skrull Commander",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34445,7 +34789,7 @@
     "name": "Skrull Geneticist",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34453,7 +34797,7 @@
     "name": "Cloning Program",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34461,7 +34805,7 @@
     "name": "Xavin",
     "type": "minion",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34469,7 +34813,7 @@
     "name": "Invisible Forcefield",
     "type": "attachment",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34477,7 +34821,7 @@
     "name": "Super-Skrull Training Program",
     "type": "side_scheme",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
@@ -34485,7 +34829,79 @@
     "name": "Going Nova",
     "type": "treachery",
     "octgn_id": "",
-    "pack_octgn_id": "af7d7f42-b69a-4c2a-9f9d-f327cdf8ee62"
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500954",
+    "name": "Tricky Assault",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500955",
+    "name": "Impostor",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500956",
+    "name": "Cursed by the Past",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500957",
+    "name": "Experiment Subject",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500958",
+    "name": "Forge Ahead",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500959",
+    "name": "Mobilization",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500960",
+    "name": "Stick to the Plan",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500961",
+    "name": "Replaced Archenemy",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "skrull_menace_by_kajislav",
+    "card_id": "500962",
+    "name": "Focused Attention",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
   },
   {
     "pack_code": "sm",
@@ -38432,6 +38848,142 @@
     "pack_octgn_id": "8d26c7dd-a46e-44de-b0a1-04ad31f68390"
   },
   {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203101b",
+    "name": "Puddlegulp",
+    "type": "alter_ego",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031001",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203101a",
+    "name": "Throg",
+    "type": "hero",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031001",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203102",
+    "name": "Airborne Amphibian",
+    "type": "event",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031002",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203103",
+    "name": "Great Courage",
+    "type": "event",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031003",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203104",
+    "name": "Hammer Throw",
+    "type": "event",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031004",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203105",
+    "name": "Lightning Leap",
+    "type": "event",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031005",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203106",
+    "name": "Thunderous Charge",
+    "type": "event",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031006",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203107",
+    "name": "Foreverglade",
+    "type": "support",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031007",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203108",
+    "name": "Frog of Thunder",
+    "type": "upgrade",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031008",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203109",
+    "name": "Frogjolnir",
+    "type": "upgrade",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031009",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203110",
+    "name": "Throg's Armor",
+    "type": "upgrade",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031010",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203111",
+    "name": "Trouble in Central Park",
+    "type": "obligation",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031011",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203112",
+    "name": "Adorable Distraction",
+    "type": "side_scheme",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031012",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203113",
+    "name": "Alligator Loki",
+    "type": "minion",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031013",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203114",
+    "name": "Causing a Commotion",
+    "type": "side_scheme",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031014",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203115",
+    "name": "\"Lost\" Property",
+    "type": "side_scheme",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031015",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
+    "pack_code": "throg_by_rainy",
+    "card_id": "203116",
+    "name": "Chomped",
+    "type": "attachment",
+    "octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336031016",
+    "pack_octgn_id": "2ede8afd-13d6-42ae-b6a4-df1336220174"
+  },
+  {
     "pack_code": "toafk",
     "card_id": "11001",
     "name": "Kang (The Conqueror)",
@@ -41766,6 +42318,166 @@
     "type": "attachment",
     "octgn_id": "8da4ccf1-c623-4430-a6a9-54106e82bfbc",
     "pack_octgn_id": "cd491a1d-b192-4cd5-8a50-6f9093f271ee"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203301b",
+    "name": "Eddie Brock",
+    "type": "alter_ego",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033001",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203301a",
+    "name": "Venom",
+    "type": "hero",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033001",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203302",
+    "name": "Spider-Man",
+    "type": "ally",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033002",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203303",
+    "name": "Webs of Venom",
+    "type": "event",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033003",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203304",
+    "name": "Unbreakable Bond",
+    "type": "event",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033004",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203305",
+    "name": "Horrify",
+    "type": "event",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033005",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203306",
+    "name": "“I Will Eat Your Brains!”",
+    "type": "event",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033006",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203307",
+    "name": "Eddie's Apartment",
+    "type": "support",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033007",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203308",
+    "name": "Lethal Protector",
+    "type": "upgrade",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033008",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203309",
+    "name": "Tooth and Nail",
+    "type": "upgrade",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033009",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203310",
+    "name": "Klyntar Tendrils",
+    "type": "upgrade",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033010",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203311a",
+    "name": "Symbiotic Bond",
+    "type": "upgrade",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033011",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203311b",
+    "name": "Symbiotic Bond",
+    "type": "upgrade",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033011",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203312",
+    "name": "Sonic Vulnerability",
+    "type": "obligation",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033012",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203313",
+    "name": "Fire Vulnerability",
+    "type": "obligation",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033013",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203314",
+    "name": "Maximum Carnage",
+    "type": "side_scheme",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033014",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203315",
+    "name": "Carnage",
+    "type": "minion",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033015",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203316",
+    "name": "Shriek",
+    "type": "minion",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033016",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203317",
+    "name": "Sonic Boom",
+    "type": "treachery",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033017",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
+    "card_id": "203318",
+    "name": "Paint the Town Red",
+    "type": "attachment",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033018",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
   },
   {
     "pack_code": "vision",

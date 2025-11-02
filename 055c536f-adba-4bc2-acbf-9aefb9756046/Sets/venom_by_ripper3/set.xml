@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Venom" id="6a999490-11a8-4533-9c1e-d53b00f48ec0" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="6a999490-11a8-4533-9c1e-d53b00000000" name="venom_by_ripper3">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="venom_by_ripper3"/>
+    </card>
+    <card id="6a999490-11a8-4533-9c1e-d53b00990000" name="venom_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="venom_by_ripper3_nemesis"/>
+    </card>
+    <card name="Venom" id="6a999490-11a8-4533-9c1e-d53b00033001">
+      <property name="CardNumber" value="203301a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="venom_by_ripper3"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="1"/>
+      <property name="HP" value="13"/>
+      <property name="Attribute" value="Symbiote."/>
+      <property name="Text">&lt;i&gt;We Are Venom &lt;/i&gt;—&lt;b&gt; Resource&lt;/b&gt;: Place 1 facedown boost card here → generate [wild][wild] resources. (Limit once per round.)
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When an enemy attacks you, move each facedown boost card from here to that enemy. (Limit once per round.)
+&lt;i&gt;"We...are...VENOM..."&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Eddie Brock" type="b">
+        <property name="CardNumber" value="203301b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="venom_by_ripper3"/>
+        <property name="HandSize" value="5"/>
+        <property name="Recovery" value="1"/>
+        <property name="HP" value="13"/>
+        <property name="Attribute" value="Civilian."/>
+        <property name="Text">&lt;i&gt;So Happy Together&lt;/i&gt;&lt;b&gt; &lt;/b&gt;— &lt;b&gt;Setup: &lt;/b&gt;Put Symbiotic Bond into play, [[bonded ]]side faceup. Draw 1 card.
+While Symbiotic Bond is [[bonded]], Eddie Brock gets +3 REC and +1 hand size.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Spider-Man" id="6a999490-11a8-4533-9c1e-d53b00033002">
+      <property name="CardNumber" value="203302"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="venom_by_ripper3"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Avenger. Web-Warrior."/>
+      <property name="Text">While Symbiotic Bond is attached to Spider-Man, reduce all consequential damage he takes by 1.
+&lt;b&gt;Interrupt&lt;/b&gt;: When Spider-Man leaves play, draw 2 cards.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Webs of Venom" id="6a999490-11a8-4533-9c1e-d53b00033003">
+      <property name="CardNumber" value="203303"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="venom_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Ready Venom or the ally with Symbiotic Bond attached → deal 5 damage to an enemy. If you have a facedown boost card, stun that enemy.
+&lt;i&gt;“You're big... but we've fought bigger.”&lt;/i&gt;</property>
+    </card>
+    <card name="Unbreakable Bond" id="6a999490-11a8-4533-9c1e-d53b00033004">
+      <property name="CardNumber" value="203304"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="venom_by_ripper3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Defense."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt &lt;/b&gt;&lt;i&gt;(defense)&lt;/i&gt;: When Venom defends, he gets +2 DEF for each boost card resolved during this attack (to a maximum of +6 DEF). Ignore each “&lt;b&gt;Boost” &lt;/b&gt;ability for those boost cards.
+&lt;i&gt;“Eddie... We are bonded forever. No one will break that bond.”&lt;/i&gt;</property>
+    </card>
+    <card name="Horrify" id="6a999490-11a8-4533-9c1e-d53b00033005">
+      <property name="CardNumber" value="203305"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="venom_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(thwart)&lt;/i&gt;: Place 2 confused status cards among enemies in play. Remove X threat from a scheme, where X is the number of confused enemies in play.
+&lt;i&gt;“Stand in our way and Venom will feast on your entrails!”&lt;/i&gt;</property>
+    </card>
+    <card name="“I Will Eat Your Brains!”" id="6a999490-11a8-4533-9c1e-d53b00033006">
+      <property name="CardNumber" value="203306"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="venom_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy (6 damage instead if you have a facedown boost card). If this attack defeats that enemy, heal 3 damage from Venom.
+&lt;i&gt;“How shall we kill him? Slowly? No! Painfully! No! Slowly AND Painfully!”&lt;/i&gt;</property>
+    </card>
+    <card name="Eddie's Apartment" id="6a999490-11a8-4533-9c1e-d53b00033007">
+      <property name="CardNumber" value="203307"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="venom_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Eddie's Apartment → shuffle 1 Venom card from your discard pile into your deck. If Symbiotic Bond is [[bonded]], draw 1 card. Otherwise, heal 2 damage from Eddie Brock.
+&lt;i&gt;“Slowly Learning. Slowly. While Eddie is asleep...” &lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Lethal Protector" id="6a999490-11a8-4533-9c1e-d53b00033008">
+      <property name="CardNumber" value="203308"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="venom_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text">Venom gets +1 DEF.
+&lt;b&gt;Interrupt:&lt;/b&gt; When a boost card is turned face up while an enemy is attacking Venom, exhaust Lethal Protector → deal 1 damage to that enemy for each icon on that card.</property>
+    </card>
+    <card name="Tooth and Nail" id="6a999490-11a8-4533-9c1e-d53b00033009">
+      <property name="CardNumber" value="203309"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="venom_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Venom gains steady.
+While you have a facedown boost card, Venom gets +1 ATK and his basic attacks gains piercing and overkill.</property>
+    </card>
+    <card name="Klyntar Tendrils" id="6a999490-11a8-4533-9c1e-d53b00033010">
+      <property name="CardNumber" value="203310"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="venom_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Klyntar Tendrils → if Symbiotic Bond is:
+• [[bonded]], remove 2 threat from a scheme.
+• Attached to an ally, ready that ally.&lt;i&gt;
+&lt;/i&gt;</property>
+    </card>
+    <card name="Symbiotic Bond" id="6a999490-11a8-4533-9c1e-d53b00033011">
+      <property name="CardNumber" value="203311a"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="venom_by_ripper3"/>
+      <property name="Cost" value="None"/>
+      <property name="Attribute" value="Bonded. Symbiote."/>
+      <property name="Text">Permanent. Venom gets +1 THW, +1 ATK and +1 DEF.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the villain initiates an attack against Venom, that attack gains overkill.
+&lt;b&gt;Action&lt;/b&gt;: Spend 2 resources of the same type → flip this card.</property>
+      <alternate name="Symbiotic Bond" type="b">
+        <property name="CardNumber" value="203311b"/>
+        <property name="Position" value="11"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="upgrade"/>
+        <property name="Owner" value="venom_by_ripper3"/>
+        <property name="Cost" value="None"/>
+        <property name="Attribute" value="Symbiote."/>
+        <property name="Text">Permanent.
+Attach to an ally.
+Attached ally gets +2 hit points, +1 THW, and +1 ATK.
+&lt;b&gt;Forced Response&lt;/b&gt;: When attached ally leaves play, flip this card.</property>
+      </alternate>
+    </card>
+    <card name="Sonic Vulnerability" id="6a999490-11a8-4533-9c1e-d53b00033012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="203312"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="venom_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Flip Symbiotic Bond to its [[bonded ]]side.
+Treat the printed text box of Symbiotic Bond as if it were blank.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Eddie Brock and take 1 damage → discard this obligation.</property>
+    </card>
+    <card name="Fire Vulnerability" id="6a999490-11a8-4533-9c1e-d53b00033013" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="203313"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="venom_by_ripper3"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">If Symbiotic Bond is [[bonded]], take 2 indirect damage. Discard this obligation.
+If Symbiotic Bond is attached to an ally, deal 3 damage to that ally. Discard this obligation.</property>
+    </card>
+    <card name="Maximum Carnage" id="6a999490-11a8-4533-9c1e-d53b00033014" size="SchemeCard">
+      <property name="CardNumber" value="203314"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="venom_by_ripper3_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;Carnage and his lover Shriek are committing a murder spree across Manhattan. Venom and Spider-Man reluctantly agree to work together to stop his rampage.
+&lt;/i&gt;Hinder 2[per_hero]. Assault.
+&lt;b&gt;When Defeated&lt;/b&gt;: Deal 1 damage to each hero.
+[crisis] &lt;i&gt;
+&lt;/i&gt;</property>
+    </card>
+    <card name="Carnage" id="6a999490-11a8-4533-9c1e-d53b00033015" size="EncounterCard">
+      <property name="CardNumber" value="203315"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="venom_by_ripper3_nemesis"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Criminal. Symbiote."/>
+      <property name="Text">Villainous.
+[star]&lt;b&gt; Forced Interrupt&lt;/b&gt;: When Carnage would scheme against you, he attacks an ally you control instead, if able.
+&lt;i&gt;(Venom's nemesis minion.)
+“I'M GOING TO PAINT THE TOWN RED!!!!”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Shriek" id="6a999490-11a8-4533-9c1e-d53b00033016" size="EncounterCard">
+      <property name="CardNumber" value="203316"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="venom_by_ripper3_nemesis"/>
+      <property name="Attack" value="0"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">Villainous. Patrol.
+[star] &lt;b&gt;Forced Interrupt:&lt;/b&gt; When Shriek attacks, if Carnage is in play, give her 1 additional boost card for this activation.
+&lt;i&gt;“My sonic scream didn't hurt you, did it? I get angry when someone's hurting my man...”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Sonic Boom" id="6a999490-11a8-4533-9c1e-d53b00033017" size="EncounterCard">
+      <property name="CardNumber" value="203317"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="venom_by_ripper3_nemesis"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Either spend [energy][mental][physical] resources or exhaust each character you control.
+[star] &lt;b&gt;Boost:&lt;/b&gt; If this activation deals damage to you, exhaust your hero.</property>
+    </card>
+    <card name="Paint the Town Red" id="6a999490-11a8-4533-9c1e-d53b00033018" size="EncounterCard">
+      <property name="CardNumber" value="203318"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="venom_by_ripper3_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Attach to Carnage. If you cannot, attach to a minion.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: After attached minion attacks you, deal 1 damage to each character you control.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Deal 1 damage to each character you control.</property>
+    </card>
+  </cards>
+</set>
