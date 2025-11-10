@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Sabretooth" id="b8975c82-2e76-4226-9b7e-56851cec5822" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="b8975c82-2e76-4226-9b7e-56851c000000" name="sabretooth_by_rycoran">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="sabretooth_by_rycoran"/>
+    </card>
+    <card id="b8975c82-2e76-4226-9b7e-56851c990000" name="sabretooth_by_rycoran">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="sabretooth_by_rycoran_nemesis"/>
+    </card>
+    <card name="Sabretooth" id="b8975c82-2e76-4226-9b7e-56851c037001">
+      <property name="CardNumber" value="203701a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="sabretooth_by_rycoran"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="11"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;i&gt;Hunter's Instinct&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Look at 	the top 3 cards of the encounter deck. Put them back in any order. (Limit once per round).
+&lt;i&gt;"I'm the best there is at what I do...just like Logan. Difference is, I do it with a smile."&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Victor Creed" type="b">
+        <property name="CardNumber" value="203701b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="sabretooth_by_rycoran"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="5"/>
+        <property name="HP" value="11"/>
+        <property name="Attribute" value="Mutant."/>
+        <property name="Text">&lt;i&gt;Apex Predator&lt;/i&gt; — &lt;b&gt;Setup&lt;/b&gt;: Find the Sabretooth's Claws upgrade and 			add it to your hand.
+&lt;b&gt;Action&lt;/b&gt;: Search your discard pile for 			a Sabretooth card and add it to 			your hand. (Limit once per round.)&lt;i&gt;&lt;/i&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Mystique" id="b8975c82-2e76-4226-9b7e-56851c037002">
+      <property name="CardNumber" value="203702"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="sabretooth_by_rycoran"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When Mystique leaves		 play, discard the top 2 cards of the encounter deck. Deal damage to an enemy equal to the number of icons &lt;i&gt;(&lt;/i&gt;[star] &lt;i&gt;and &lt;/i&gt;[boost]&lt;i&gt;)&lt;/i&gt; discarded this way.
+&lt;i&gt;"Hello, dear. Did someone call for a rescue?"&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Rip and Rend" id="b8975c82-2e76-4226-9b7e-56851c037003">
+      <property name="CardNumber" value="203703"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sabretooth_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;&lt;i&gt; (attack)&lt;/i&gt;: Deal 4 damage to an enemy and discard the top card of the encounter deck. For each icon &lt;i&gt;(&lt;/i&gt;[star] &lt;i&gt;and &lt;/i&gt;[boost]&lt;i&gt;)&lt;/i&gt; discarded this way, deal 1 additional damage to that enemy. This attack gains piercing.
+&lt;i&gt;“Ready to die?”&lt;/i&gt;</property>
+    </card>
+    <card name="Feral Tactics" id="b8975c82-2e76-4226-9b7e-56851c037004">
+      <property name="CardNumber" value="203704"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sabretooth_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;&lt;i&gt; (thwart)&lt;/i&gt;: Remove 4 threat from a scheme and discard the top card of the encounter deck. For each icon &lt;i&gt;(&lt;/i&gt;[star] &lt;i&gt;and &lt;/i&gt;[boost]&lt;i&gt;)&lt;/i&gt; discarded this way, remove 1 additional threat from that scheme.
+&lt;i&gt;“No cage, no plan, no chance. Not against me.”&lt;/i&gt;</property>
+    </card>
+    <card name="Savage Reflexes" id="b8975c82-2e76-4226-9b7e-56851c037005">
+      <property name="CardNumber" value="203705"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sabretooth_by_rycoran"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When a boost card is turned faceup, cancel that card's icons and &lt;i&gt;"&lt;/i&gt;&lt;b&gt;Boost&lt;/b&gt;&lt;i&gt;"&lt;/i&gt; ability. Choose to either deal X damage to an enemy or remove X threat from a scheme. X is the number of icons &lt;i&gt;(&lt;/i&gt;[star] &lt;i&gt;and &lt;/i&gt;[boost]&lt;i&gt;)&lt;/i&gt; in the canceled card's boost area.</property>
+    </card>
+    <card name="Ferocious Lunge" id="b8975c82-2e76-4226-9b7e-56851c037006">
+      <property name="CardNumber" value="203706"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sabretooth_by_rycoran"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Exhaust Sabretooth's Claws → deal 8 damage to an enemy. This attack gains overkill.
+&lt;i&gt;"Never met anyone who pushed me like the little guy. I want him dead, and I never want this fun to end. Wolverine. Can't live with him, can't live without him."&lt;/i&gt;</property>
+    </card>
+    <card name="Relentless" id="b8975c82-2e76-4226-9b7e-56851c037007">
+      <property name="CardNumber" value="203707"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sabretooth_by_rycoran"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Choose a player. Give that player 1 facedown encounter card → ready your identity and draw 1 card 		(2 cards instead if another player was chosen).
+&lt;i&gt;"So you're still alive. Good. I wanna kill you slow and painful."&lt;/i&gt;</property>
+    </card>
+    <card name="Feral Vitality" id="b8975c82-2e76-4226-9b7e-56851c037008">
+      <property name="CardNumber" value="203708"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="sabretooth_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust Feral Vitality and discard the top card of	 the encounter deck → heal damage from Sabretooth equal	 to the number of icons &lt;i&gt;(&lt;/i&gt;[star] &lt;i&gt;and &lt;/i&gt;[boost]&lt;i&gt;) &lt;/i&gt;discarded this way.</property>
+    </card>
+    <card name="Bloodthirsty" id="b8975c82-2e76-4226-9b7e-56851c037009">
+      <property name="CardNumber" value="203709"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="sabretooth_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">You get +2 hit points.&lt;b&gt;
+&lt;/b&gt;Sabretooth gains retaliate 1 and his basic attacks gain piercing.
+&lt;i&gt;"You bleed, I feast."&lt;/i&gt;</property>
+    </card>
+    <card name="Unstoppable" id="b8975c82-2e76-4226-9b7e-56851c037010">
+      <property name="CardNumber" value="203710"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="sabretooth_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superp0Wer."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When you would be defeated, instead discard the top 3 cards of the encounter deck. Set your hit point dial equal to the number of icons &lt;i&gt;(&lt;/i&gt;[star] &lt;i&gt;and &lt;/i&gt;[boost]&lt;i&gt;) &lt;/i&gt;discarded this way. Remove this card from the game.</property>
+    </card>
+    <card name="Razor Focus" id="b8975c82-2e76-4226-9b7e-56851c037011">
+      <property name="CardNumber" value="203711"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="sabretooth_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Sabretooth gains steady.&lt;b&gt;
+Resource&lt;/b&gt;: Exhaust Razor Focus → generate a [wild]&lt;i&gt; &lt;/i&gt;resource for an event.
+&lt;i&gt;"Try to touch my head...I'll touch your guts!"&lt;/i&gt;</property>
+    </card>
+    <card name="Sabretooth's Claws" id="b8975c82-2e76-4226-9b7e-56851c037012">
+      <property name="CardNumber" value="203712"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="sabretooth_by_rycoran"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Discard the top card of the encounter deck → take damage equal to the number of icons on that card. Reduce the cost of the next event you play 	this round by the damage taken. (Limit once per round.)</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Savage Masquerade" id="b8975c82-2e76-4226-9b7e-56851c037020">
+      <property name="CardNumber" value="203720"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Text">Team-Up (Sabretooth and Mystique).&lt;b&gt;
+Hero Action&lt;/b&gt;: Shuffle this card into the encounter deck.
+&lt;b&gt;When Revealed&lt;/b&gt;: Choose to either deal 4 damage to an enemy or remove 4 threat from a scheme.</property>
+    </card>
+    <card name="Primal Impulses" id="b8975c82-2e76-4226-9b7e-56851c037013" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="203713"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="sabretooth_by_rycoran"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">You may flip to alter-ego form. Choose:
+• Exhaust Victor Creed → remove Primal Impulses from the game.
+• Deal damage to another player equal to your ATK. If you cannot, place 3 threat on the main scheme instead. Discard this obligation.</property>
+    </card>
+    <card name="&quot;You've Taken Your Shot.&quot;" id="b8975c82-2e76-4226-9b7e-56851c037014" size="SchemeCard">
+      <property name="CardNumber" value="203714"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="sabretooth_by_rycoran_nemesis"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Victory 0.
+Assault. &lt;i&gt;(Basic thwarts against this scheme use ATK instead of THW.)&lt;/i&gt;&lt;b&gt;
+When Defeated&lt;/b&gt;: Attach the set-aside Now It's My Turn! upgrade to your identity.
+[hazard]</property>
+    </card>
+    <card name="Now It's My Turn!" id="b8975c82-2e76-4226-9b7e-56851c037015" size="EncounterCard">
+      <property name="CardNumber" value="203715"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="sabretooth_by_rycoran_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Linked (You've Taken Your Shot).
+Attach to your identity.
+You get -2 REC.
+&lt;b&gt;Forced Response&lt;/b&gt;: After your 	turn ends, take 1 damage.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [physical][energy] resources → discard this card.</property>
+    </card>
+    <card name="Wolverine" id="b8975c82-2e76-4226-9b7e-56851c037016" size="EncounterCard">
+      <property name="CardNumber" value="203716"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="sabretooth_by_rycoran_nemesis"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">Quickstrike.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the villain phase begins, heal 2 damage from Wolverine.
+&lt;i&gt;(Sabertooth's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Adamantium Blades" id="b8975c82-2e76-4226-9b7e-56851c037017" size="EncounterCard">
+      <property name="CardNumber" value="203717"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="sabretooth_by_rycoran_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Attach to the minion with						 the highest printed ATK. Otherwise, attach to the villain.
+[star] Attached enemy's attacks gain overkill and piercing.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [physical][energy] resources → discard this card.</property>
+    </card>
+    <card name="Blood Feud" id="b8975c82-2e76-4226-9b7e-56851c037018" size="EncounterCard">
+      <property name="CardNumber" value="203718"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="sabretooth_by_rycoran_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Shuffle this card		 into your deck. This card gains surge.
+&lt;b&gt;Forced Response&lt;/b&gt;: After this card 	enters your hand, take 3 indirect damage. If you are in alter-ego form, you may discard a random card from your hand to prevent this damage.</property>
+    </card>
+    <card name="Krakoan Justice" id="b8975c82-2e76-4226-9b7e-56851c037019" size="EncounterCard">
+      <property name="CardNumber" value="203719"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="sabretooth_by_rycoran_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attach to your identity.
+Attached identity cannot ready.
+&lt;b&gt;When Revealed&lt;/b&gt;: You are stunned. If you are already stunned, this card gains surge. 						
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [physical][mental] resources → discard this card.
+&lt;i&gt;"You are exiled." —Professor X&lt;/i&gt;</property>
+    </card>
+  </cards>
+</set>

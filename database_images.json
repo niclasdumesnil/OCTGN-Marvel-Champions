@@ -216,6 +216,14 @@
     "pack_octgn_id": ""
   },
   {
+    "pack_code": "2025_weekly",
+    "card_id": "999103",
+    "name": "The Futurist",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
     "pack_code": "agent_of_shield_by_merlin",
     "card_id": "253001b",
     "name": "Agent du S.H.I.E.L.D.",
@@ -446,6 +454,142 @@
     "type": "minion",
     "octgn_id": "d8b7361a-9c4e-5d26-afe4-adb3e1000034",
     "pack_octgn_id": "d8b7361a-9c4e-5d26-afe4-adb3e10c7159"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202801b",
+    "name": "Alligator Loki",
+    "type": "alter_ego",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028001",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202801a",
+    "name": "Alligator Loki",
+    "type": "hero",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028001",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202802",
+    "name": "Throg",
+    "type": "player_minion",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028002",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202803",
+    "name": "Chomp!",
+    "type": "event",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028003",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202804",
+    "name": "See You Later!",
+    "type": "event",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028004",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202805",
+    "name": "Alligator Antics",
+    "type": "event",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028005",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202806",
+    "name": "Loki",
+    "type": "support",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028006",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202807",
+    "name": "Butterfly Swamp",
+    "type": "support",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028007",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202808",
+    "name": "Gator Aid",
+    "type": "upgrade",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028008",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202809",
+    "name": "Unbreakable Grip",
+    "type": "upgrade",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028009",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202810",
+    "name": "Lurking",
+    "type": "upgrade",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028010",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202811",
+    "name": "Lurking",
+    "type": "upgrade",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028011",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202812",
+    "name": "Time Out",
+    "type": "obligation",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028012",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202813",
+    "name": "Throg and Loki",
+    "type": "side_scheme",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028013",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202814",
+    "name": "Throg",
+    "type": "minion",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028014",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202815",
+    "name": "Lightning Bolt",
+    "type": "treachery",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028015",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
+  },
+  {
+    "pack_code": "alligator_loki_by_ripper3",
+    "card_id": "202816",
+    "name": "Frogjolnir",
+    "type": "attachment",
+    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028016",
+    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
   },
   {
     "pack_code": "alpha_flight_by_hax",
@@ -6024,6 +6168,150 @@
     "pack_octgn_id": "381bd788-111a-5f4f-a3eb-bcb150fa67c5"
   },
   {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203801b",
+    "name": "Adam Brashear",
+    "type": "alter_ego",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038001",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203801a",
+    "name": "Blue Marvel",
+    "type": "hero",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038001",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203802",
+    "name": "Matter Manipulation",
+    "type": "upgrade",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038002",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203803",
+    "name": "Spectrum",
+    "type": "ally",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038003",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203804",
+    "name": "Anti-Matter Forcefield",
+    "type": "event",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038004",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203805",
+    "name": "Cosmic Awareness",
+    "type": "event",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038005",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203806",
+    "name": "Supersonic Flight",
+    "type": "event",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038006",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203807",
+    "name": "Kadesh Base",
+    "type": "support",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038007",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203808",
+    "name": "Uatu the Watcher",
+    "type": "support",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038008",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203809",
+    "name": "Anti-Matter Generation",
+    "type": "upgrade",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038009",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203810",
+    "name": "Blue Marvel's Suit",
+    "type": "upgrade",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038010",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203811",
+    "name": "Crisis Monitor",
+    "type": "upgrade",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038011",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203812",
+    "name": "Superhuman Speed",
+    "type": "upgrade",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038012",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203813",
+    "name": "Level Seven Threat",
+    "type": "obligation",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038013",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203814",
+    "name": "Unshackle Creation",
+    "type": "side_scheme",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038014",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203815",
+    "name": "Anti-Man",
+    "type": "minion",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038015",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203816",
+    "name": "Anti-Matter Explosion",
+    "type": "treachery",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038016",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203817",
+    "name": "Quantum Immortality",
+    "type": "treachery",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038017",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
     "pack_code": "bp",
     "card_id": "51001a",
     "name": "Black Panther",
@@ -8643,7 +8931,7 @@
     "pack_code": "cw",
     "card_id": "56045",
     "name": "Excelsior",
-    "type": "support",
+    "type": "upgrade",
     "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056045",
     "pack_octgn_id": "e4e959c3-c409-44ea-8bba-46addf9c4b4b"
   },
@@ -20560,6 +20848,142 @@
     "pack_octgn_id": ""
   },
   {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203601b",
+    "name": "Luke Cage",
+    "type": "alter_ego",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036001",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203601a",
+    "name": "Luke Cage",
+    "type": "hero",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036001",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203602",
+    "name": "Jessica Jones",
+    "type": "ally",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036002",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203603",
+    "name": "Beatdown",
+    "type": "event",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036003",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203604",
+    "name": "Community Outreach",
+    "type": "event",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036004",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203605",
+    "name": "In Harm's Way",
+    "type": "event",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036005",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203606",
+    "name": "Unbreakable",
+    "type": "event",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036006",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203607",
+    "name": "Luke's Apartment",
+    "type": "support",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036007",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203608",
+    "name": "Luke's Family",
+    "type": "support",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036008",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203609",
+    "name": "Bulletproof",
+    "type": "upgrade",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036009",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203610",
+    "name": "Luke's Bracers",
+    "type": "upgrade",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036010",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203611",
+    "name": "Super Strength",
+    "type": "upgrade",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036011",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203612",
+    "name": "Relationship Breakdown",
+    "type": "obligation",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036012",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203613",
+    "name": "A New Kingpin",
+    "type": "side_scheme",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036013",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203614",
+    "name": "Diamondback",
+    "type": "minion",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036014",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203615",
+    "name": "Jacked-Up",
+    "type": "attachment",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036015",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
+    "pack_code": "luke_cage_by_rainy",
+    "card_id": "203616",
+    "name": "Diamond",
+    "type": "attachment",
+    "octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba036016",
+    "pack_octgn_id": "2ff1dcda-c503-479c-9a9e-22f9ba24a941"
+  },
+  {
     "pack_code": "magneto",
     "card_id": "49001a",
     "name": "Magneto",
@@ -31128,6 +31552,310 @@
     "pack_octgn_id": "117aee27-3fe8-40ce-a654-ae4344fc53c2"
   },
   {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203701a",
+    "name": "Sabretooth",
+    "type": "hero",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037001",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203701b",
+    "name": "Victor Creed",
+    "type": "alter_ego",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037001",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203702",
+    "name": "Mystique",
+    "type": "ally",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037002",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203703",
+    "name": "Rip and Rend",
+    "type": "event",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037003",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203704",
+    "name": "Feral Tactics",
+    "type": "event",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037004",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203705",
+    "name": "Savage Reflexes",
+    "type": "event",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037005",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203706",
+    "name": "Ferocious Lunge",
+    "type": "event",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037006",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203707",
+    "name": "Relentless",
+    "type": "event",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037007",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203708",
+    "name": "Feral Vitality",
+    "type": "upgrade",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037008",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203709",
+    "name": "Bloodthirsty",
+    "type": "upgrade",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037009",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203710",
+    "name": "Unstoppable",
+    "type": "upgrade",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037010",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203711",
+    "name": "Razor Focus",
+    "type": "upgrade",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037011",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203712",
+    "name": "Sabretooth's Claws",
+    "type": "upgrade",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037012",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203720",
+    "name": "Savage Masquerade",
+    "type": "event",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037020",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203713",
+    "name": "Primal Impulses",
+    "type": "obligation",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037013",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203714",
+    "name": "\"You've Taken Your Shot.\"",
+    "type": "side_scheme",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037014",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203715",
+    "name": "Now It's My Turn!",
+    "type": "attachment",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037015",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203716",
+    "name": "Wolverine",
+    "type": "minion",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037016",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203717",
+    "name": "Adamantium Blades",
+    "type": "attachment",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037017",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203718",
+    "name": "Blood Feud",
+    "type": "treachery",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037018",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "sabretooth_by_rycoran",
+    "card_id": "203719",
+    "name": "Krakoan Justice",
+    "type": "attachment",
+    "octgn_id": "b8975c82-2e76-4226-9b7e-56851c037019",
+    "pack_octgn_id": "b8975c82-2e76-4226-9b7e-56851cec5822"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203501b",
+    "name": "Kaine",
+    "type": "alter_ego",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035001",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203501a",
+    "name": "Scarlet Spider",
+    "type": "hero",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035001",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203502",
+    "name": "Organic Webbing",
+    "type": "upgrade",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035002",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203503",
+    "name": "Venom",
+    "type": "ally",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035003",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203504",
+    "name": "Scarlet Web Kick",
+    "type": "event",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035004",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203505",
+    "name": "Tangled Web",
+    "type": "event",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035005",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203506",
+    "name": "Mark of Kaine",
+    "type": "event",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035006",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203507",
+    "name": "Front Flip",
+    "type": "event",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035007",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203508",
+    "name": "Stealth Suit",
+    "type": "upgrade",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035008",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203509",
+    "name": "Spider-Healing Factor",
+    "type": "upgrade",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035009",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203510",
+    "name": "Stingers",
+    "type": "upgrade",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035010",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203511",
+    "name": "Houston, Texas",
+    "type": "support",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035011",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203512",
+    "name": "The Carrion Virus",
+    "type": "obligation",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035012",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203513",
+    "name": "The Jackal's Obsession",
+    "type": "side_scheme",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035013",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203514",
+    "name": "Jackal",
+    "type": "minion",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035014",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203515",
+    "name": "Clone Saga",
+    "type": "environment",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035015",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
+    "pack_code": "scarlet_spider_by_ripper3",
+    "card_id": "203516",
+    "name": "Clone",
+    "type": "minion",
+    "octgn_id": "22b2ebb7-99cf-4402-930c-c08019035016",
+    "pack_octgn_id": "22b2ebb7-99cf-4402-930c-c080191f1036"
+  },
+  {
     "pack_code": "scw",
     "card_id": "15001a",
     "name": "Scarlet Witch",
@@ -38414,6 +39142,158 @@
     "type": "treachery",
     "octgn_id": "eb348cf3-57f3-52ef-acc9-fab07a000021",
     "pack_octgn_id": "eb348cf3-57f3-52ef-acc9-fab07a470154"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203401b",
+    "name": "Peter Parker",
+    "type": "alter_ego",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034001",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203401a",
+    "name": "Spider-Man",
+    "type": "hero",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034001",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203402",
+    "name": "Spider-Arms",
+    "type": "upgrade",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034002",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203403",
+    "name": "Spider-Patrol",
+    "type": "event",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034003",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203404",
+    "name": "Superior Kick",
+    "type": "event",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034004",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203405",
+    "name": "Genius in Command",
+    "type": "event",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034005",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203406",
+    "name": "Dissertation",
+    "type": "event",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034006",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203407",
+    "name": "Web-Swinger",
+    "type": "upgrade",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034007",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203408",
+    "name": "Superior Spider-Suit",
+    "type": "upgrade",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034008",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203409",
+    "name": "Spider-Bot",
+    "type": "upgrade",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034009",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203410",
+    "name": "Web-Shooter",
+    "type": "upgrade",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034010",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203411",
+    "name": "Spider-Island Lair",
+    "type": "support",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034011",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203412",
+    "name": "Superior Intellect",
+    "type": "resource",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034012",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203418",
+    "name": "Spiderling",
+    "type": "ally",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034018",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203413",
+    "name": "Peter Parker's Conciousness",
+    "type": "obligation",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034013",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203414",
+    "name": "Limitless Power",
+    "type": "side_scheme",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034014",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203415",
+    "name": "Supernova",
+    "type": "minion",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034015",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203417",
+    "name": "Explosion of Power",
+    "type": "treachery",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034017",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
+  },
+  {
+    "pack_code": "superior_spider-man_by_ripper3",
+    "card_id": "203416",
+    "name": "Dynamo Assault",
+    "type": "treachery",
+    "octgn_id": "9959d3ea-b7fa-4688-95f7-e75d37034016",
+    "pack_octgn_id": "9959d3ea-b7fa-4688-95f7-e75d379d67ed"
   },
   {
     "pack_code": "surge_by_xb",

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Scarlet Spider" id="22b2ebb7-99cf-4402-930c-c080191f1036" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="22b2ebb7-99cf-4402-930c-c08019000000" name="scarlet_spider_by_ripper3">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3"/>
+    </card>
+    <card id="22b2ebb7-99cf-4402-930c-c08019990000" name="scarlet_spider_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3_nemesis"/>
+    </card>
+  </cards>
+</set>

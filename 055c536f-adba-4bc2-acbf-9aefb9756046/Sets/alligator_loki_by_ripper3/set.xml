@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Alligator Loki" id="62f6ed57-a6a4-4598-bf0f-f9005d21bb50" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="62f6ed57-a6a4-4598-bf0f-f9005d000000" name="alligator_loki_by_ripper3">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="alligator_loki_by_ripper3"/>
+    </card>
+    <card id="62f6ed57-a6a4-4598-bf0f-f9005d990000" name="alligator_loki_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="alligator_loki_by_ripper3_nemesis"/>
+    </card>
+    <card name="Alligator Loki" id="62f6ed57-a6a4-4598-bf0f-f9005d028001">
+      <property name="CardNumber" value="202801a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="alligator_loki_by_ripper3"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="1"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="Asgard. Creature."/>
+      <property name="Text">Attached enemy gets -1 SCH and -1 ATK.
+&lt;i&gt;Lock Jaws&lt;/i&gt; — &lt;b&gt;Interrupt&lt;/b&gt;: When Alligator Loki makes a basic attack or defense against an enemy, attach Alligator Loki to that enemy.
+&lt;b&gt;Forced Response:&lt;/b&gt; After attached enemy activates, detach Alligator Loki.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Alligator Loki" type="b">
+        <property name="CardNumber" value="202801b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="alligator_loki_by_ripper3"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="2"/>
+        <property name="HP" value="9"/>
+        <property name="Attribute" value="Asgard. Creature."/>
+        <property name="Text">&lt;b&gt;Setup&lt;/b&gt;:&lt;i&gt; &lt;/i&gt;Find Throg and add him to your hand.&lt;i&gt;
+Nap Time&lt;/i&gt; — &lt;b&gt;Forced Response&lt;/b&gt;: After you switch to this form, detach Alligator Loki. You may make a basic recovery without exhausting.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Throg" id="62f6ed57-a6a4-4598-bf0f-f9005d028002">
+      <property name="CardNumber" value="202802"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="player_minion"/>
+      <property name="Owner" value="alligator_loki_by_ripper3"/>
+      <property name="Attack" value="0"/>
+      <property name="Scheme" value="0"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Asgard. Creature."/>
+      <property name="Text">Patrol.
+&lt;b&gt;Interrupt:&lt;/b&gt; When Alligator Loki attacks Throg, that attack gains overkill.
+&lt;b&gt;When Defeated&lt;/b&gt;: Remove 3 threat from a scheme. Shuffle Throg into the Alligator Loki player's deck.
+&lt;i&gt;“I am neither god, man, nor frog.”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Chomp!" id="62f6ed57-a6a4-4598-bf0f-f9005d028003">
+      <property name="CardNumber" value="202803"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="4"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="alligator_loki_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy (6 damage instead if Alligator Loki is attached to that enemy). If this attack defeats an enemy, ready Alligator Loki. Otherwise, you may attach Alligator Loki to that enemy.</property>
+    </card>
+    <card name="See You Later!" id="62f6ed57-a6a4-4598-bf0f-f9005d028004">
+      <property name="CardNumber" value="202804"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="alligator_loki_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme. Change to alter-ego form. You may shuffle Throg from your discard pile into your deck.</property>
+    </card>
+    <card name="Alligator Antics" id="62f6ed57-a6a4-4598-bf0f-f9005d028005">
+      <property name="CardNumber" value="202805"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="alligator_loki_by_ripper3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Ready your identity. Search any deck and discard pile for the Throg minion and put him into play. Search the set-aside area, encounter deck and discard pile area for an attachment that can be attached to a minion and attach it to Throg.
+• Find a minion and put it into play engaged with you → draw 2 cards.</property>
+    </card>
+    <card name="Loki" id="62f6ed57-a6a4-4598-bf0f-f9005d028006">
+      <property name="CardNumber" value="202806"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="alligator_loki_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Asgard. Persona."/>
+      <property name="Text">Alligator Loki gains the [[mystic ]]trait.
+While in hero form, Alligator Loki gets +1 THW.
+&lt;b&gt;Alter-Ego Resource:&lt;/b&gt; Exhaust Loki → generate a [wild] resource.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Butterfly Swamp" id="62f6ed57-a6a4-4598-bf0f-f9005d028007">
+      <property name="CardNumber" value="202807"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="alligator_loki_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">While in alter-ego form, Alligator Loki gets +1 REC.
+&lt;b&gt;Alter-Ego Action:&lt;/b&gt; Exhaust Butterfly Swamp → shuffle 1 [[preparation ]]card from your discard pile into your deck. Draw 1 card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Gator Aid" id="62f6ed57-a6a4-4598-bf0f-f9005d028008">
+      <property name="CardNumber" value="202808"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="alligator_loki_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When attached character uses a basic power, exhaust Gator Aid → that character gets +1 to that power for this use. After this use, you may attach this to another friendly character.</property>
+    </card>
+    <card name="Unbreakable Grip" id="62f6ed57-a6a4-4598-bf0f-f9005d028009">
+      <property name="CardNumber" value="202809"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="alligator_loki_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">While in hero form, Alligator Loki gets +1 ATK.
+&lt;b&gt;Hero Interrupt:&lt;/b&gt; When you would detach Alligator Loki from an enemy in play, exhaust Unbreakable Grip instead.</property>
+    </card>
+    <card name="Lurking" id="62f6ed57-a6a4-4598-bf0f-f9005d028010">
+      <property name="CardNumber" value="202810"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="alligator_loki_by_ripper3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Preparation."/>
+      <property name="Text">Max 1 per player.
+&lt;b&gt;Hero Response&lt;/b&gt;: After a minion enters play, discard Lurking → Alligator Loki makes a basic attack against that minion without exhausting. Alligator Loki gets +1 ATK for this attack.</property>
+    </card>
+    <card name="Lurking" id="62f6ed57-a6a4-4598-bf0f-f9005d028011">
+      <property name="CardNumber" value="202811"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="alligator_loki_by_ripper3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Preparation."/>
+      <property name="Text">Max 1 per player.
+&lt;b&gt;Hero Response&lt;/b&gt;: After a minion enters play, discard Lurking → Alligator Loki makes a basic attack against that minion without exhausting. Alligator Loki gets +1 ATK for this attack.</property>
+    </card>
+    <card name="Time Out" id="62f6ed57-a6a4-4598-bf0f-f9005d028012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="202812"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="alligator_loki_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Search the set-aside area for Frogjolnir and shuffle it into the encounter deck.
+You get -2 ATK while in hero form.
+&lt;b&gt;Alter-Ego Action:&lt;/b&gt; Exhaust your alter-ego → remove Time Out from the game.</property>
+    </card>
+    <card name="Throg and Loki" id="62f6ed57-a6a4-4598-bf0f-f9005d028013" size="SchemeCard">
+      <property name="CardNumber" value="202813"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="alligator_loki_by_ripper3_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;"SMAK! SHLORP! RAWR! KLONK! SPLOOSH!"&lt;/i&gt;
+Alligator Loki can attack only Throg.
+&lt;b&gt;When Revealed&lt;/b&gt;: If Throg is not in play, search the encounter deck and discard pile for him and reveal him.
+[hazard]</property>
+    </card>
+    <card name="Throg" id="62f6ed57-a6a4-4598-bf0f-f9005d028014" size="EncounterCard">
+      <property name="CardNumber" value="202814"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="alligator_loki_by_ripper3_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Asgard. Creature."/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When this minion would enter play, discard any other Throg from play. Place a random card from your hand facedown here.
+&lt;b&gt;When Defeated&lt;/b&gt;: Return each facedown card here to its owner's hand.
+&lt;i&gt;(Alligator Loki's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Lightning Bolt" id="62f6ed57-a6a4-4598-bf0f-f9005d028015" size="EncounterCard">
+      <property name="CardNumber" value="202815"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="alligator_loki_by_ripper3_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard 2 cards from the encounter deck. Take 1 indirect damage for each boost icon discarded this way.
+&lt;b&gt;___________________________________&lt;/b&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Discard 3 cards from the encounter deck.</property>
+    </card>
+    <card name="Frogjolnir" id="62f6ed57-a6a4-4598-bf0f-f9005d028016" size="EncounterCard">
+      <property name="CardNumber" value="202816"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="alligator_loki_by_ripper3_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">If Throg is not in play, find him and reveal him. Attach this card to Throg. Then, Throg activates against you.
+Throg gains the [[aerial ]]trait.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: AfterThrog attacks you, take 1 indirect damage.</property>
+      <property name="Unique" value="True"/>
+    </card>
+  </cards>
+</set>

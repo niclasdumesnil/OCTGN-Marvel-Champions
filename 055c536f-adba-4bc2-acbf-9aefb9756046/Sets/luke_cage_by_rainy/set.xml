@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Luke Cage" id="2ff1dcda-c503-479c-9a9e-22f9ba24a941" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="2ff1dcda-c503-479c-9a9e-22f9ba000000" name="luke_cage_by_rainy">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="luke_cage_by_rainy"/>
+    </card>
+    <card id="2ff1dcda-c503-479c-9a9e-22f9ba990000" name="luke_cage_by_rainy">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="luke_cage_by_rainy_nemesis"/>
+    </card>
+    <card name="Luke Cage" id="2ff1dcda-c503-479c-9a9e-22f9ba036001">
+      <property name="CardNumber" value="203601a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="luke_cage_by_rainy"/>
+      <property name="HandSize" value="4"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="3"/>
+      <property name="HP" value="12"/>
+      <property name="Attribute" value="Avenger. Defender. Hero For Hire."/>
+      <property name="Text">&lt;i&gt;Impenetrable Skin&lt;/i&gt; — Damage cannot be healed from Luke Cage.
+&lt;b&gt;Interrupt&lt;/b&gt;: When you would take any amount of damage, reduce that amount by 1.
+&lt;i&gt;“Sweet Christmas!”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Luke Cage" type="b">
+        <property name="CardNumber" value="203601b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="luke_cage_by_rainy"/>
+        <property name="HandSize" value="5"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="12"/>
+        <property name="Attribute" value="Civilian."/>
+        <property name="Text">&lt;i&gt;Impenetrable Skin&lt;/i&gt; — Damage cannot be healed from Luke Cage other than using his REC.
+&lt;b&gt;Setup&lt;/b&gt;: Give Luke Cage a tough status card.
+&lt;i&gt;“You look like you could use some help. I'm for hire.”&lt;/i&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Jessica Jones" id="2ff1dcda-c503-479c-9a9e-22f9ba036002">
+      <property name="CardNumber" value="203602"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="luke_cage_by_rainy"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Avenger. Defender."/>
+      <property name="Text">[star]&lt;b&gt; Interrupt&lt;/b&gt;: When Jessica Jones thwarts, discard the top card of the encounter deck. For each boost icon discarded this way, Jessica Jones gets +1 THW for this use. If no boost icons were discarded, Jessica Jones takes no consequential damage for this thwart.
+different types → deal 2 damage to an enemy and return Red Dagger to your hand.
+&lt;i&gt;“Karachi is my home. I patrol these neighborhoods.”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Beatdown" id="2ff1dcda-c503-479c-9a9e-22f9ba036003">
+      <property name="CardNumber" value="203603"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="luke_cage_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 5 damage to an enemy. This attack gains overkill. This attack deals 1 additional damage for each [physical] resource you used to pay or overpay for this card.
+&lt;i&gt;“When I knock you down, you're gonna &lt;/i&gt;stay&lt;i&gt; down!”&lt;/i&gt;</property>
+    </card>
+    <card name="Community Outreach" id="2ff1dcda-c503-479c-9a9e-22f9ba036004">
+      <property name="CardNumber" value="203604"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="luke_cage_by_rainy"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Remove 1 threat from a scheme. Draw 1 card (2 cards instead if you are in alter-ego form). Your hero gets +1 THW until the end of the round.
+&lt;i&gt;“I'm just a New Yorker like you. And if someone's in trouble, I do what New Yorkers do: I help.” —Luke Cage&lt;/i&gt;</property>
+    </card>
+    <card name="In Harm's Way" id="2ff1dcda-c503-479c-9a9e-22f9ba036005">
+      <property name="CardNumber" value="203605"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="luke_cage_by_rainy"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Defense. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(defense)&lt;/i&gt;: When an identity would take any amount of damage, prevent 2 of that damage and draw 1 card. If no damage was taken this way, remove 1 threat from a scheme.
+&lt;i&gt;“Get behind me!” —Luke Cage&lt;/i&gt;</property>
+    </card>
+    <card name="Unbreakable" id="2ff1dcda-c503-479c-9a9e-22f9ba036006">
+      <property name="CardNumber" value="203606"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="luke_cage_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Give Luke Cage a tough status card. If you paid for this card using a [physical] resource, you may shuffle this card into your deck.
+&lt;i&gt;“Did you do your "I-don't-break" speech? I love that one.” —Jessica Jones&lt;/i&gt;</property>
+    </card>
+    <card name="Luke's Apartment" id="2ff1dcda-c503-479c-9a9e-22f9ba036007">
+      <property name="CardNumber" value="203607"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="luke_cage_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">Luke Cage gets +1 REC (+2 REC instead if Jessica Jones or Luke's Family is in play).&lt;b&gt;
+Alter-Ego Response&lt;/b&gt;: After you use your REC, discard 1 card → give Luke Cage a tough status card.
+&lt;i&gt;“Dani and Jess? They're my whole world.” —Luke Cage&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Luke's Family" id="2ff1dcda-c503-479c-9a9e-22f9ba036008">
+      <property name="CardNumber" value="203608"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="luke_cage_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Persona."/>
+      <property name="Text">You get +1 hand size.
+&lt;i&gt;“Dani and Jess? They're my whole world.” —Luke Cage&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Bulletproof" id="2ff1dcda-c503-479c-9a9e-22f9ba036009">
+      <property name="CardNumber" value="203609"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="luke_cage_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition. Superpower."/>
+      <property name="Text">You get +3 hit points. Attacks against Luke Cage lose piercing.&lt;b&gt;
+Response&lt;/b&gt;: After you gain a tough status card, ready Luke Cage.
+&lt;i&gt;“I got skin like steel and muscles to match.” —Luke Cage&lt;/i&gt;</property>
+    </card>
+    <card name="Luke's Bracers" id="2ff1dcda-c503-479c-9a9e-22f9ba036010">
+      <property name="CardNumber" value="203610"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="luke_cage_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Luke Cage requires 2 stunned status cards to be stunned. While in hero form, Luke Cage gains retaliate 1.&lt;b&gt;
+&lt;/b&gt;&lt;i&gt;“I used to wear a big metal tiara. Why? Because look at me. I &lt;/i&gt;could&lt;i&gt;. And if not me, then who?” —Luke Cage&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Super Strength" id="2ff1dcda-c503-479c-9a9e-22f9ba036011">
+      <property name="CardNumber" value="203611"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="luke_cage_by_rainy"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition. Superpower."/>
+      <property name="Text">Your hero gets +1 ATK.&lt;b&gt;
+Resource&lt;/b&gt;: Exhaust Super Strength → generate a [physical] resource.
+&lt;i&gt;“They don't call Ol' Luke Cage "Power Man" for nothin'!” —Luke Cage&lt;/i&gt;</property>
+    </card>
+    <card name="Relationship Breakdown" id="2ff1dcda-c503-479c-9a9e-22f9ba036012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="203612"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="luke_cage_by_rainy"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">You may flip to alter-ego form.
+While this card is in play, flip your hero-specific ally and supports facedown.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Luke Cage → remove Relationship Breakdown from the game and flip face-up each card that was flipped facedown by this obligation.</property>
+    </card>
+    <card name="A New Kingpin" id="2ff1dcda-c503-479c-9a9e-22f9ba036013" size="SchemeCard">
+      <property name="CardNumber" value="203613"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="luke_cage_by_rainy_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;Diamondback is flooding the street with a new drug that gives superpowers, aiming to become the new Kingpin of Crime by hooking up other criminals.
+&lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: Give the villain 1 facedown boost card and a tough status card.
+[acceleration]</property>
+    </card>
+    <card name="Diamondback" id="2ff1dcda-c503-479c-9a9e-22f9ba036014" size="EncounterCard">
+      <property name="CardNumber" value="203614"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="luke_cage_by_rainy_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">Toughness.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Diamondback would activate, seek an attachment from the encounter deck and reveal it.
+&lt;i&gt;(Luke Cage's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Jacked-Up" id="2ff1dcda-c503-479c-9a9e-22f9ba036015" size="EncounterCard">
+      <property name="CardNumber" value="203615"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="luke_cage_by_rainy_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="Attribute" value="Condition. Superpower."/>
+      <property name="Text">Attach to Diamondback, otherwise attach to the minion with the most remaining hit points and give them a tough status card. If you cannot attach this card, this card gains surge.
+Attached character gets +2 hit points.</property>
+    </card>
+    <card name="Diamond" id="2ff1dcda-c503-479c-9a9e-22f9ba036016" size="EncounterCard">
+      <property name="CardNumber" value="203616"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="luke_cage_by_rainy_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Drug."/>
+      <property name="Text">Attach to the minion with the most remaining hit points without another copy of Diamond attached and give them a tough status card. If you cannot attach this card, this card gains surge.
+&lt;i&gt;Diamond produces a second-long surge of energy in its consumer, followed by an unstoppable rush that lasts for hours.&lt;/i&gt;</property>
+    </card>
+  </cards>
+</set>

@@ -1,162 +1,146 @@
 [
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203301b",
-    "name": "Eddie Brock",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203801b",
+    "name": "Adam Brashear",
     "type": "alter_ego",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033001",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038001",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203301a",
-    "name": "Venom",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203801a",
+    "name": "Blue Marvel",
     "type": "hero",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033001",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038001",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203302",
-    "name": "Spider-Man",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203802",
+    "name": "Matter Manipulation",
+    "type": "upgrade",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038002",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203803",
+    "name": "Spectrum",
     "type": "ally",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033002",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038003",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203303",
-    "name": "Webs of Venom",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203804",
+    "name": "Anti-Matter Forcefield",
     "type": "event",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033003",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038004",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203304",
-    "name": "Unbreakable Bond",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203805",
+    "name": "Cosmic Awareness",
     "type": "event",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033004",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038005",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203305",
-    "name": "Horrify",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203806",
+    "name": "Supersonic Flight",
     "type": "event",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033005",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038006",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203306",
-    "name": "“I Will Eat Your Brains!”",
-    "type": "event",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033006",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
-  },
-  {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203307",
-    "name": "Eddie's Apartment",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203807",
+    "name": "Kadesh Base",
     "type": "support",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033007",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038007",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203308",
-    "name": "Lethal Protector",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203808",
+    "name": "Uatu the Watcher",
+    "type": "support",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038008",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+  },
+  {
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203809",
+    "name": "Anti-Matter Generation",
     "type": "upgrade",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033008",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038009",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203309",
-    "name": "Tooth and Nail",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203810",
+    "name": "Blue Marvel's Suit",
     "type": "upgrade",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033009",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038010",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203310",
-    "name": "Klyntar Tendrils",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203811",
+    "name": "Crisis Monitor",
     "type": "upgrade",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033010",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038011",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203311a",
-    "name": "Symbiotic Bond",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203812",
+    "name": "Superhuman Speed",
     "type": "upgrade",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033011",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038012",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203311b",
-    "name": "Symbiotic Bond",
-    "type": "upgrade",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033011",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
-  },
-  {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203312",
-    "name": "Sonic Vulnerability",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203813",
+    "name": "Level Seven Threat",
     "type": "obligation",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033012",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038013",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203313",
-    "name": "Fire Vulnerability",
-    "type": "obligation",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033013",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
-  },
-  {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203314",
-    "name": "Maximum Carnage",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203814",
+    "name": "Unshackle Creation",
     "type": "side_scheme",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033014",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038014",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203315",
-    "name": "Carnage",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203815",
+    "name": "Anti-Man",
     "type": "minion",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033015",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038015",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203316",
-    "name": "Shriek",
-    "type": "minion",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033016",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
-  },
-  {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203317",
-    "name": "Sonic Boom",
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203816",
+    "name": "Anti-Matter Explosion",
     "type": "treachery",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033017",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038016",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   },
   {
-    "pack_code": "venom_by_ripper3",
-    "card_id": "203318",
-    "name": "Paint the Town Red",
-    "type": "attachment",
-    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033018",
-    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+    "pack_code": "blue_marvel_by_rainy",
+    "card_id": "203817",
+    "name": "Quantum Immortality",
+    "type": "treachery",
+    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038017",
+    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
   }
 ]

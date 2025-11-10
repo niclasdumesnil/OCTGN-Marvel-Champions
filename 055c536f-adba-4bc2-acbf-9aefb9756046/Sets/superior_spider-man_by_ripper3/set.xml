@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Superior Spider-Man" id="9959d3ea-b7fa-4688-95f7-e75d379d67ed" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="9959d3ea-b7fa-4688-95f7-e75d37000000" name="superior_spider-man_by_ripper3">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3"/>
+    </card>
+    <card id="9959d3ea-b7fa-4688-95f7-e75d37990000" name="superior_spider-man_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3_nemesis"/>
+    </card>
+    <card name="Spider-Man" id="9959d3ea-b7fa-4688-95f7-e75d37034001">
+      <property name="CardNumber" value="203401a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="3"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Avenger. Superior. Web-Warrior."/>
+      <property name="Text">Reduce your ally limit by 2.
+&lt;i&gt;The Die Is Cast &lt;/i&gt;—&lt;b&gt; Response&lt;/b&gt;: After an ally you control leaves play, draw 1 card. (Limit once per phase.)
+&lt;i&gt;“With my unparalleled genius and my boundless ambition, I'll be a better Spider-Man than you ever were!”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Peter Parker" type="b">
+        <property name="CardNumber" value="203401b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="superior_spider-man_by_ripper3"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Controlled. Genius."/>
+        <property name="Text">Reduce your ally limit by 2.
+&lt;b&gt;Setup:&lt;/b&gt; Set aside each Spiderling ally.
+&lt;i&gt;Technologist&lt;/i&gt;&lt;b&gt; &lt;/b&gt;— &lt;b&gt;Resource:&lt;/b&gt; Generate a [mental] resource for a [[tech ]]card. (Limit once per round.)
+&lt;i&gt;“I am very busy!”&lt;/i&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Spider-Arms" id="9959d3ea-b7fa-4688-95f7-e75d37034002">
+      <property name="CardNumber" value="203402"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superior. Tech."/>
+      <property name="Text">&lt;b&gt;Hero Action:&lt;/b&gt; Exhaust Spider-Arms → discard the top 4 cards from your deck. Add 1 card with a printed [mental] resource discarded this way to your hand.</property>
+    </card>
+    <card name="Spider-Patrol" id="9959d3ea-b7fa-4688-95f7-e75d37034003">
+      <property name="CardNumber" value="203403"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Put 2 set-aside Spiderling allies into play under your control.
+&lt;i&gt;“This is Spider-Patrol 3, at the corner or 23rd and Broadway. We're on the way.”&lt;/i&gt;</property>
+    </card>
+    <card name="Superior Kick" id="9959d3ea-b7fa-4688-95f7-e75d37034004">
+      <property name="CardNumber" value="203404"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Attack. Superior."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Deal 6 damage to an enemy. You may discard an ally you control to stun that enemy.
+&lt;i&gt;“I've been tracking this monster across twelve dimensions. His power levels are off the charts. We have to run.”&lt;/i&gt;</property>
+    </card>
+    <card name="Genius in Command" id="9959d3ea-b7fa-4688-95f7-e75d37034005">
+      <property name="CardNumber" value="203405"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Superior."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;&lt;i&gt; (attack)&lt;/i&gt;: Put 1 set-aside Spiderling ally into play under your control. For each ally you control, choose an enemy and deal 2 damage to it.
+&lt;i&gt;“Hear me, you cretins! I AM THE SUPERIOR SPIDER-MAN!”&lt;/i&gt;</property>
+    </card>
+    <card name="Dissertation" id="9959d3ea-b7fa-4688-95f7-e75d37034006">
+      <property name="CardNumber" value="203406"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Search your deck for a card with a printed [mental] resource or the [[superior ]]trait and add it to your hand.
+&lt;i&gt;“Parker Industries! A revolution in start-ups! An overthrow of the technology sector!”&lt;/i&gt;</property>
+    </card>
+    <card name="Web-Swinger" id="9959d3ea-b7fa-4688-95f7-e75d37034007">
+      <property name="CardNumber" value="203407"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Response:&lt;/b&gt; After an ally you control leaves play, choose:
+• Deal 1 damage to an enemy.
+• Exhaust Web-Swinger → ready Spider-Man.</property>
+    </card>
+    <card name="Superior Spider-Suit" id="9959d3ea-b7fa-4688-95f7-e75d37034008">
+      <property name="CardNumber" value="203408"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Armor. Superior. Tech."/>
+      <property name="Text">Spider-Man gets +1 ATK and +1 DEF.
+&lt;b&gt;Hero Response:&lt;/b&gt; After Spider-Man attacks an enemy, discard an ally you control → deal damage to that enemy equal to that ally's printed cost.</property>
+    </card>
+    <card name="Spider-Bot" id="9959d3ea-b7fa-4688-95f7-e75d37034009">
+      <property name="CardNumber" value="203409"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Preparation. Superior. Tech."/>
+      <property name="Text">&lt;b&gt;Interrupt:&lt;/b&gt; When the surge keyword on an encounter card would be resolved, discard Spider-Bot instead → draw 2 cards.
+&lt;i&gt;The Superior Spider-Bot can be found in the South-Eastern part of Downtown Brooklyn. &lt;/i&gt;</property>
+    </card>
+    <card name="Web-Shooter" id="9959d3ea-b7fa-4688-95f7-e75d37034010">
+      <property name="CardNumber" value="203410"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Item. Tech."/>
+      <property name="Text">Enters play with 4 web counters.
+&lt;b&gt;Hero Resource:&lt;/b&gt; Exhaust Web-Shooter and remove 1 web counter from it → generate a [wild] resource.
+&lt;b&gt;Alter-Ego Action:&lt;/b&gt; Spend [mental][mental] → place 2 web counters here.</property>
+    </card>
+    <card name="Spider-Island Lair" id="9959d3ea-b7fa-4688-95f7-e75d37034011">
+      <property name="CardNumber" value="203411"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location. Superior."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust Spider-Island Lair, shuffle 1 [[superior ]]card from your discard pile into your deck, and spend [mental][mental] resources→ remove 2 threat from each scheme, ignoring any crisis icons ([crisis]) in play.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Superior Intellect" id="9959d3ea-b7fa-4688-95f7-e75d37034012">
+      <property name="CardNumber" value="203412"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3"/>
+      <property name="Resource_Mental" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Superior."/>
+      <property name="Quote">&lt;i&gt;“This shall be my legacy. A brand new day...No, a brand new age. The Age of the &lt;/i&gt;Superior Spider-Man&lt;i&gt;... The greatest hero of them all. And nothing will stand in my way.”&lt;/i&gt;</property>
+    </card>
+    <card name="Spiderling" id="9959d3ea-b7fa-4688-95f7-e75d37034018">
+      <property name="CardNumber" value="203418"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="spiderlings_by_ripper3"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Mercenary."/>
+      <property name="Text">&lt;b&gt;Forced Interrupt:&lt;/b&gt; When this card leaves play, set it aside.
+Fragile. &lt;i&gt;(Attacks against this character gain overkill.)
+&lt;/i&gt;Legion&lt;i&gt;. (2 allies with the legion keyword count as 1 ally toward your ally limit.)
+“Hut hut hut hut hut...”&lt;/i&gt;</property>
+    </card>
+    <card name="Peter Parker's Conciousness" id="9959d3ea-b7fa-4688-95f7-e75d37034013" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="203413"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;Forced Response:&lt;/b&gt; After an ally you control leaves play, discard the top 8 cards of your deck.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Spend [mental][mental] resources and read this card's &lt;i&gt;flavor text&lt;/i&gt; → remove this card from the game.
+&lt;i&gt;“The die is cast!”&lt;/i&gt;</property>
+    </card>
+    <card name="Limitless Power" id="9959d3ea-b7fa-4688-95f7-e75d37034014" size="SchemeCard">
+      <property name="CardNumber" value="203414"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;Supernova has been imprisoned by the Superior Spider-Man for months. Now she's back with a vengeance and incredible power.&lt;/i&gt;
+Supernova gets +1 ATK and +1 THW.
+Supernova cannot be defeated. [acceleration] &lt;i&gt;
+&lt;/i&gt;</property>
+    </card>
+    <card name="Supernova" id="9959d3ea-b7fa-4688-95f7-e75d37034015" size="EncounterCard">
+      <property name="CardNumber" value="203415"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3_nemesis"/>
+      <property name="Attack" value="0"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">[star]&lt;b&gt; Forced Interrupt&lt;/b&gt;: When Supernova activates against you, deal 1 damage to each character you control and place 1 threat on each scheme.
+&lt;i&gt;(Superior Spider-Man's nemesis minion.)
+“Spider-Man will pay for what he did to me!”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Explosion of Power" id="9959d3ea-b7fa-4688-95f7-e75d37034016" size="EncounterCard">
+      <property name="CardNumber" value="203416"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Take 4 indirect damage. Discard cards from the top of your deck until you discard an [energy] resource. Add that card to your hand.
+[star] &lt;b&gt;Boost:&lt;/b&gt; Take 1 indirect damage.</property>
+    </card>
+    <card name="Dynamo Assault" id="9959d3ea-b7fa-4688-95f7-e75d37034017" size="EncounterCard">
+      <property name="CardNumber" value="203417"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="superior_spider-man_by_ripper3_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Surge.
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard 2 cards from the top of the encounter deck and each player deck.</property>
+    </card>
+  </cards>
+</set>
