@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Howard The Duck" id="57c51749-3457-48bc-a9fe-97d1e6a28983" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="57c51749-3457-48bc-a9fe-97d1e6000000" name="howard_the_duck_by_rycoran">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+    </card>
+    <card id="57c51749-3457-48bc-a9fe-97d1e6990000" name="howard_the_duck_by_rycoran">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran_nemesis"/>
+    </card>
+    <card name="Howard the Duck" id="57c51749-3457-48bc-a9fe-97d1e6039001">
+      <property name="CardNumber" value="203901a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="Defender. Guardian."/>
+      <property name="Text">&lt;i&gt;Private Eye&lt;/i&gt; — &lt;b&gt;Interrupt&lt;/b&gt;: When threat would be placed on a scheme, prevent 1 of that threat. (Limit once per round.)
+&lt;b&gt;Response&lt;/b&gt;: After a side scheme enters play, ready Howard the Duck. (Limit once per round.)</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Howard Duckson" type="b">
+        <property name="CardNumber" value="203901b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="howard_the_duck_by_rycoran"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="9"/>
+        <property name="Attribute" value="Duck. Genius."/>
+        <property name="Text">&lt;i&gt;Deducktive Reasoning&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Look 	at the top 3 cards of the encounter deck. Put 1 on the bottom of the deck and the others back in any order. 	(Limit once per round.)
+&lt;i&gt;"When life gives you lemons, make a sarcastic quip 		and throw them back!"&lt;/i&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Man-Thing" id="57c51749-3457-48bc-a9fe-97d1e6039002">
+      <property name="CardNumber" value="203902"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Defender. Psionic."/>
+      <property name="Text">Toughness.
+Reduce the cost to play Man-Thing by 1 for each Howard the Duck side scheme in the victory display.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Mallard Magic" id="57c51749-3457-48bc-a9fe-97d1e6039003">
+      <property name="CardNumber" value="203903"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Attack. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Choose:
+• Stun an enemy and deal 5 damage to it.
+• Confuse an enemy and remove 4 threat from a scheme.
+&lt;i&gt;“Oh boy, I hope I don't accidently summon Cthulhu
+again.”&lt;/i&gt;</property>
+    </card>
+    <card name="Quack Attack" id="57c51749-3457-48bc-a9fe-97d1e6039004">
+      <property name="CardNumber" value="203904"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(attack/defense)&lt;/i&gt;: When you would take any amount of damage, prevent 2 of that damage. Deal 1 damage to an enemy for each side scheme in the victory display. &lt;i&gt;&lt;/i&gt;</property>
+    </card>
+    <card name="Fowl Play" id="57c51749-3457-48bc-a9fe-97d1e6039005">
+      <property name="CardNumber" value="203905"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme. If you defeat a side scheme in this way, you may ready your hero or remove 1 threat from a scheme for each side scheme in the victory display. &lt;i&gt;&lt;/i&gt;</property>
+    </card>
+    <card name="Quack and Burn" id="57c51749-3457-48bc-a9fe-97d1e6039006">
+      <property name="CardNumber" value="203906"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack/thwart)&lt;/i&gt;: Find Man- Thing and add him to your hand. Deal damage to an enemy equal to Man-Thing's ATK and remove threat from a scheme equal to Howard the Duck's THW.</property>
+    </card>
+    <card name="Trapped" id="57c51749-3457-48bc-a9fe-97d1e6039007" size="PlayerSchemeCard">
+      <property name="CardNumber" value="203907"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Victory 0.
+While Trapped is in the victory display, Howard the Duck gets +1 ATK.
+&lt;b&gt;When Defeated&lt;/b&gt;: Each player may search their deck and discard pile for an ally and add it to their hand. The player who defeated this scheme, may put that ally into play.</property>
+    </card>
+    <card name="In a World" id="57c51749-3457-48bc-a9fe-97d1e6039008" size="PlayerSchemeCard">
+      <property name="CardNumber" value="203908"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Victory 0.
+While In a World is in the 	victory display, Howard the Duck gets +1 DEF.
+&lt;b&gt;When Defeated&lt;/b&gt;: Give each player a tough status card. 		The player who defeated this scheme, may heal 2 damage from their identity.</property>
+    </card>
+    <card name="He Never Made" id="57c51749-3457-48bc-a9fe-97d1e6039009" size="PlayerSchemeCard">
+      <property name="CardNumber" value="203909"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Victory 0.
+While He Never Made is in 		the victory display, Howard 	the Duck gets +1 THW.
+&lt;b&gt;When Defeated&lt;/b&gt;: Each player may shuffle up to 3 cards from their discard pile into their deck. The player who defeated this scheme, may add 1 of those cards, to their hand instead.</property>
+    </card>
+    <card name="Beverly Switzler" id="57c51749-3457-48bc-a9fe-97d1e6039010">
+      <property name="CardNumber" value="203910"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Persona."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Beverly Switzler → return the bottommost Howard the Duck card from your discard pile to your hand. Heal 1 damage from your identity.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Ducktective Agency" id="57c51749-3457-48bc-a9fe-97d1e6039011">
+      <property name="CardNumber" value="203911"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">&lt;b&gt;Resource&lt;/b&gt;: Exhaust Ducktective Agency → generate a [mental] resource for an event.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you remove the last threat from a scheme, ready Ducktective Agency.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Duckpool Suit" id="57c51749-3457-48bc-a9fe-97d1e6039012">
+      <property name="CardNumber" value="203912"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">You get +3 hit points.
+Howard the Duck gets +1 ATK.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you defeat 	a side scheme, exhaust Duckpool Suit → deal 1 damage to an enemy.</property>
+    </card>
+    <card name="Iron Suit" id="57c51749-3457-48bc-a9fe-97d1e6039013">
+      <property name="CardNumber" value="203913"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust Iron Suit → move 1 threat from a scheme to here.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Iron Suit 	and remove X threat from here → deal X damage to a minion or remove X threat from a scheme.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Nexus of all Realities" id="57c51749-3457-48bc-a9fe-97d1e6039014">
+      <property name="CardNumber" value="203914"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="Cost" value="None"/>
+      <property name="Text">Setup. Permanent.
+&lt;b&gt;Interrupt&lt;/b&gt;: When a character enters play, choose a play area that character is played to.
+&lt;b&gt;Interrupt&lt;/b&gt;: When an ally you control leaves play, search your deck for 		an event card, and add it to your hand.</property>
+    </card>
+    <card name="Waddle it Be?" id="57c51749-3457-48bc-a9fe-97d1e6039015" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="203915"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">You may flip to alter-ego form. Choose: • Exhaust Howard Duckson → remove Waddle it Be? from the game.
+• Remove and shuffle all Howard the Duck side schemes from the victory display into your deck. If no schemes were removed this way, this card gains surge. Discard this obligation.</property>
+    </card>
+    <card name="Duck and Cover!" id="57c51749-3457-48bc-a9fe-97d1e6039016" size="SchemeCard">
+      <property name="CardNumber" value="203916"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;Quack-tastrophe! Howard the Duck is in 	over his head once again. It's up to the heroes to save him from a group of interdimensional bounty hunters.
+&lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: Each player must discard cards with a printed [mental] from their hand. Place 1 additional threat here for each card discarded this way.
+[hazard]</property>
+    </card>
+    <card name="Collector" id="57c51749-3457-48bc-a9fe-97d1e6039017" size="EncounterCard">
+      <property name="CardNumber" value="203917"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="3"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Elder."/>
+      <property name="Text">Villainous. &lt;i&gt;(When this minion activates, give it a boost card.)
+&lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: Discard an ally or support you control. If you cannot, put the topmost scheme from the encounter deck into play.
+&lt;i&gt;(Howard the Duck's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Duck, Duck, Doom!" id="57c51749-3457-48bc-a9fe-97d1e6039018" size="SchemeCard">
+      <property name="CardNumber" value="203918"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;Doctor Bong has set up a trap to capture Howard the Duck.&lt;/i&gt;&lt;b&gt;
+When Revealed&lt;/b&gt;: Place an ally you control beneath this card. 	If you cannot, confuse your identity.
+&lt;b&gt;When Defeated&lt;/b&gt;: Return the 	ally beneath here to its owner's hand.</property>
+    </card>
+    <card name="A Fowl Plot" id="57c51749-3457-48bc-a9fe-97d1e6039019" size="SchemeCard">
+      <property name="CardNumber" value="203919"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;The Collector plans to add Howard the Duck to his collection of rare and unique items.
+&lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: Discard an upgrade you control. If no cards were discarded this way, place 1 threat on the main scheme and take 1 damage.
+&lt;i&gt;(Howard the Duck's nemesis side scheme.)&lt;/i&gt;
+ [acceleration]</property>
+    </card>
+    <card name="Duck Hunt" id="57c51749-3457-48bc-a9fe-97d1e6039020" size="EncounterCard">
+      <property name="CardNumber" value="203920"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="howard_the_duck_by_rycoran_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed (Alter-Ego)&lt;/b&gt;: The villain schemes. If there are side schemes in play, divide and place threat from this activation among them instead.
+&lt;b&gt;When Revealed (Hero)&lt;/b&gt;: Give the villain a tough status card. If you cannot, heal 3 damage from it instead.</property>
+    </card>
+  </cards>
+</set>

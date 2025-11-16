@@ -224,6 +224,14 @@
     "pack_octgn_id": ""
   },
   {
+    "pack_code": "2025_weekly",
+    "card_id": "999104",
+    "name": "He Can Do This All Day",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
     "pack_code": "agent_of_shield_by_merlin",
     "card_id": "253001b",
     "name": "Agent du S.H.I.E.L.D.",
@@ -3540,7 +3548,7 @@
     "card_id": "50025",
     "name": "",
     "type": "",
-    "octgn_id": "",
+    "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050025",
     "pack_octgn_id": "bddee479-23cf-4576-b33c-c95ee9f3cc96"
   },
   {
@@ -3548,7 +3556,7 @@
     "card_id": "50026",
     "name": "",
     "type": "",
-    "octgn_id": "",
+    "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050026",
     "pack_octgn_id": "bddee479-23cf-4576-b33c-c95ee9f3cc96"
   },
   {
@@ -3556,7 +3564,7 @@
     "card_id": "50027",
     "name": "",
     "type": "",
-    "octgn_id": "",
+    "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050027",
     "pack_octgn_id": "bddee479-23cf-4576-b33c-c95ee9f3cc96"
   },
   {
@@ -6524,7 +6532,7 @@
     "card_id": "51026",
     "name": "",
     "type": "",
-    "octgn_id": "",
+    "octgn_id": "4010e194-df1c-477e-852e-3a2adf051026",
     "pack_octgn_id": "4010e194-df1c-477e-852e-3a2adf07ea10"
   },
   {
@@ -8772,7 +8780,7 @@
     "card_id": "56020",
     "name": "",
     "type": "",
-    "octgn_id": "",
+    "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056020",
     "pack_octgn_id": "e4e959c3-c409-44ea-8bba-46addf9c4b4b"
   },
   {
@@ -8780,7 +8788,7 @@
     "card_id": "56021",
     "name": "",
     "type": "",
-    "octgn_id": "",
+    "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056021",
     "pack_octgn_id": "e4e959c3-c409-44ea-8bba-46addf9c4b4b"
   },
   {
@@ -8788,7 +8796,7 @@
     "card_id": "56022",
     "name": "",
     "type": "",
-    "octgn_id": "",
+    "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056022",
     "pack_octgn_id": "e4e959c3-c409-44ea-8bba-46addf9c4b4b"
   },
   {
@@ -12957,6 +12965,62 @@
     "name": "Target Painted",
     "type": "upgrade",
     "octgn_id": "65becd33-a610-4313-9d2f-27670e044124",
+    "pack_octgn_id": "65becd33-a610-4313-9d2f-27670e9a4c1e1"
+  },
+  {
+    "pack_code": "dtm",
+    "card_id": "44225",
+    "name": "Night Thrasher",
+    "type": "ally",
+    "octgn_id": "65becd33-a610-4313-9d2f-27670e044125",
+    "pack_octgn_id": "65becd33-a610-4313-9d2f-27670e9a4c1e1"
+  },
+  {
+    "pack_code": "dtm",
+    "card_id": "44226",
+    "name": "Rage",
+    "type": "ally",
+    "octgn_id": "65becd33-a610-4313-9d2f-27670e044126",
+    "pack_octgn_id": "65becd33-a610-4313-9d2f-27670e9a4c1e1"
+  },
+  {
+    "pack_code": "dtm",
+    "card_id": "44227",
+    "name": "Collective Breather",
+    "type": "event",
+    "octgn_id": "65becd33-a610-4313-9d2f-27670e044127",
+    "pack_octgn_id": "65becd33-a610-4313-9d2f-27670e9a4c1e1"
+  },
+  {
+    "pack_code": "dtm",
+    "card_id": "44228",
+    "name": "MRVL Network",
+    "type": "support",
+    "octgn_id": "65becd33-a610-4313-9d2f-27670e044128",
+    "pack_octgn_id": "65becd33-a610-4313-9d2f-27670e9a4c1e1"
+  },
+  {
+    "pack_code": "dtm",
+    "card_id": "44229",
+    "name": "Determined Conditioning",
+    "type": "upgrade",
+    "octgn_id": "65becd33-a610-4313-9d2f-27670e044129",
+    "pack_octgn_id": "65becd33-a610-4313-9d2f-27670e9a4c1e1"
+  },
+  {
+    "pack_code": "dtm",
+    "card_id": "44230",
+    "name": "Timed Detonation",
+    "type": "upgrade",
+    "octgn_id": "65becd33-a610-4313-9d2f-27670e044130",
+    "pack_octgn_id": "65becd33-a610-4313-9d2f-27670e9a4c1e1"
+  },
+  {
+    "pack_code": "dtm",
+    "card_id": "44231",
+    "name": "Speedball",
+    "type": "ally",
+    "octgn_id": "65becd33-a610-4313-9d2f-27670e044131",
     "pack_octgn_id": "65becd33-a610-4313-9d2f-27670e9a4c1e1"
   },
   {
@@ -17766,6 +17830,174 @@
     "type": "treachery",
     "octgn_id": "4c82e60e-b9af-497d-8983-0dc7e6e5aa2e",
     "pack_octgn_id": "e5d7526b-ccb9-4ade-8a41-2bc08bd22eca"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203901a",
+    "name": "Howard the Duck",
+    "type": "hero",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039001",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203901b",
+    "name": "Howard Duckson",
+    "type": "alter_ego",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039001",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203902",
+    "name": "Man-Thing",
+    "type": "ally",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039002",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203903",
+    "name": "Mallard Magic",
+    "type": "event",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039003",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203904",
+    "name": "Quack Attack",
+    "type": "event",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039004",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203905",
+    "name": "Fowl Play",
+    "type": "event",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039005",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203906",
+    "name": "Quack and Burn",
+    "type": "event",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039006",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203907",
+    "name": "Trapped",
+    "type": "player_side_scheme",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039007",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203908",
+    "name": "In a World",
+    "type": "player_side_scheme",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039008",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203909",
+    "name": "He Never Made",
+    "type": "player_side_scheme",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039009",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203910",
+    "name": "Beverly Switzler",
+    "type": "support",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039010",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203911",
+    "name": "Ducktective Agency",
+    "type": "support",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039011",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203912",
+    "name": "Duckpool Suit",
+    "type": "upgrade",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039012",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203913",
+    "name": "Iron Suit",
+    "type": "upgrade",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039013",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203914",
+    "name": "Nexus of all Realities",
+    "type": "upgrade",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039014",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203915",
+    "name": "Waddle it Be?",
+    "type": "obligation",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039015",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203916",
+    "name": "Duck and Cover!",
+    "type": "side_scheme",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039016",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203917",
+    "name": "Collector",
+    "type": "minion",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039017",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203918",
+    "name": "Duck, Duck, Doom!",
+    "type": "side_scheme",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039018",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203919",
+    "name": "A Fowl Plot",
+    "type": "side_scheme",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039019",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
+  },
+  {
+    "pack_code": "howard_the_duck_by_rycoran",
+    "card_id": "203920",
+    "name": "Duck Hunt",
+    "type": "treachery",
+    "octgn_id": "57c51749-3457-48bc-a9fe-97d1e6039020",
+    "pack_octgn_id": "57c51749-3457-48bc-a9fe-97d1e6a28983"
   },
   {
     "pack_code": "hunting_season_by_nugget",

@@ -1,146 +1,2250 @@
 [
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203801b",
-    "name": "Adam Brashear",
-    "type": "alter_ego",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038001",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "pack_code": "angel",
+    "card_id": "42015",
+    "name": "",
+    "type": "",
+    "octgn_id": "cbfcb70f-a855-4068-b02f-816804042015",
+    "pack_octgn_id": "cbfcb70f-a855-4068-b02f-81680487e73c"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203801a",
-    "name": "Blue Marvel",
+    "pack_code": "angel",
+    "card_id": "42016",
+    "name": "Taunt",
+    "type": "event",
+    "octgn_id": "cbfcb70f-a855-4068-b02f-816804042016",
+    "pack_octgn_id": "cbfcb70f-a855-4068-b02f-81680487e73c"
+  },
+  {
+    "pack_code": "angel",
+    "card_id": "42022",
+    "name": "The Power of Flight",
+    "type": "resource",
+    "octgn_id": "cbfcb70f-a855-4068-b02f-816804042022",
+    "pack_octgn_id": "cbfcb70f-a855-4068-b02f-81680487e73c"
+  },
+  {
+    "pack_code": "angel",
+    "card_id": "42023",
+    "name": "Soaring Acrobatics",
+    "type": "upgrade",
+    "octgn_id": "cbfcb70f-a855-4068-b02f-816804042023",
+    "pack_octgn_id": "cbfcb70f-a855-4068-b02f-81680487e73c"
+  },
+  {
+    "pack_code": "ant",
+    "card_id": "12024",
+    "name": "Team-Building Exercise",
+    "type": "support",
+    "octgn_id": "56dfad49-6b5f-42a3-b8e0-7017baa8a1e9",
+    "pack_octgn_id": "7e399030-8d69-490f-9fd4-dafa6b293a51"
+  },
+  {
+    "pack_code": "aoa",
+    "card_id": "45001a",
+    "name": "Bishop",
     "type": "hero",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038001",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3a045001",
+    "pack_octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3aa25a34"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203802",
-    "name": "Matter Manipulation",
+    "pack_code": "aoa",
+    "card_id": "45001b",
+    "name": "Lucas Bishop",
+    "type": "alter_ego",
+    "octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3a045001",
+    "pack_octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3aa25a34"
+  },
+  {
+    "pack_code": "aoa",
+    "card_id": "45030a",
+    "name": "Magik",
+    "type": "hero",
+    "octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3a045030",
+    "pack_octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3aa25a34"
+  },
+  {
+    "pack_code": "aoa",
+    "card_id": "45030b",
+    "name": "Illyana Rasputin",
+    "type": "alter_ego",
+    "octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3a045030",
+    "pack_octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3aa25a34"
+  },
+  {
+    "pack_code": "aoa",
+    "card_id": "45051",
+    "name": "Basic Spell",
+    "type": "event",
+    "octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3a045051",
+    "pack_octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3aa25a34"
+  },
+  {
+    "pack_code": "aos",
+    "card_id": "50001a",
+    "name": "Maria Hill",
+    "type": "hero",
+    "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050001",
+    "pack_octgn_id": "bddee479-23cf-4576-b33c-c95ee9f3cc96"
+  },
+  {
+    "pack_code": "aos",
+    "card_id": "50001b",
+    "name": "Maria Hill",
+    "type": "alter_ego",
+    "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050001",
+    "pack_octgn_id": "bddee479-23cf-4576-b33c-c95ee9f3cc96"
+  },
+  {
+    "pack_code": "aos",
+    "card_id": "50017",
+    "name": "The Circe",
+    "type": "support",
+    "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050017",
+    "pack_octgn_id": "bddee479-23cf-4576-b33c-c95ee9f3cc96"
+  },
+  {
+    "pack_code": "aos",
+    "card_id": "50018",
+    "name": "The Bellerophon",
+    "type": "support",
+    "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050018",
+    "pack_octgn_id": "bddee479-23cf-4576-b33c-c95ee9f3cc96"
+  },
+  {
+    "pack_code": "aos",
+    "card_id": "50019",
+    "name": "The Douglass",
+    "type": "support",
+    "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050019",
+    "pack_octgn_id": "bddee479-23cf-4576-b33c-c95ee9f3cc96"
+  },
+  {
+    "pack_code": "aos",
+    "card_id": "50020",
+    "name": "The Pericles",
+    "type": "support",
+    "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050020",
+    "pack_octgn_id": "bddee479-23cf-4576-b33c-c95ee9f3cc96"
+  },
+  {
+    "pack_code": "aos",
+    "card_id": "50026",
+    "name": "",
+    "type": "",
+    "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050026",
+    "pack_octgn_id": "bddee479-23cf-4576-b33c-c95ee9f3cc96"
+  },
+  {
+    "pack_code": "aos",
+    "card_id": "50058",
+    "name": "Practiced Plan",
     "type": "upgrade",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038002",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050058",
+    "pack_octgn_id": "bddee479-23cf-4576-b33c-c95ee9f3cc96"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203803",
-    "name": "Spectrum",
+    "pack_code": "bkw",
+    "card_id": "08001a",
+    "name": "Black Widow",
+    "type": "hero",
+    "octgn_id": "9fccccbb-73c6-4f54-8a07-5c25836452c7",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
+  },
+  {
+    "pack_code": "bkw",
+    "card_id": "08001b",
+    "name": "Natasha Romanoff",
+    "type": "alter_ego",
+    "octgn_id": "9fccccbb-73c6-4f54-8a07-5c25836452c7",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
+  },
+  {
+    "pack_code": "bkw",
+    "card_id": "08002",
+    "name": "Winter Soldier",
     "type": "ally",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038003",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "octgn_id": "6a2041f1-18d4-4dbd-819f-8aaf1e1ea1cb",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203804",
-    "name": "Anti-Matter Forcefield",
+    "pack_code": "bkw",
+    "card_id": "08003",
+    "name": "Covert Ops",
     "type": "event",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038004",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "octgn_id": "1f58d2a7-5b24-4d9b-95ca-8bdf77821831",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203805",
-    "name": "Cosmic Awareness",
+    "pack_code": "bkw",
+    "card_id": "08004",
+    "name": "Dance of Death",
     "type": "event",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038005",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "octgn_id": "4a71cfeb-0787-4e58-8628-c03f539e9e0f",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203806",
-    "name": "Supersonic Flight",
-    "type": "event",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038006",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
-  },
-  {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203807",
-    "name": "Kadesh Base",
+    "pack_code": "bkw",
+    "card_id": "08005",
+    "name": "Safe House #29",
     "type": "support",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038007",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "octgn_id": "5e5ba6f1-9905-4ac4-8373-fdea887c334b",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203808",
-    "name": "Uatu the Watcher",
+    "pack_code": "bkw",
+    "card_id": "08006",
+    "name": "Attacrobatics",
+    "type": "upgrade",
+    "octgn_id": "fe99e1a0-8c51-4625-9ea6-034bb006a205",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
+  },
+  {
+    "pack_code": "bkw",
+    "card_id": "08007",
+    "name": "Black Widow's Gauntlet",
+    "type": "upgrade",
+    "octgn_id": "2333289e-7095-4439-ac88-50acb3e772aa",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
+  },
+  {
+    "pack_code": "bkw",
+    "card_id": "08008",
+    "name": "Grappling Hook",
+    "type": "upgrade",
+    "octgn_id": "10a23cf9-436c-4255-a25f-3d9e90d326dc",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
+  },
+  {
+    "pack_code": "bkw",
+    "card_id": "08009",
+    "name": "Synth-Suit",
+    "type": "upgrade",
+    "octgn_id": "80abd601-51b8-495f-b87a-0068c17dda10",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
+  },
+  {
+    "pack_code": "bkw",
+    "card_id": "08010",
+    "name": "Widow's Bite",
+    "type": "upgrade",
+    "octgn_id": "59666723-7622-4ff7-b396-413434e60c14",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
+  },
+  {
+    "pack_code": "bkw",
+    "card_id": "08011",
+    "name": "Agent Coulson",
+    "type": "ally",
+    "octgn_id": "40f11faa-8d0a-4b9b-96a7-857c285e4215",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
+  },
+  {
+    "pack_code": "bkw",
+    "card_id": "08012",
+    "name": "Quake",
+    "type": "ally",
+    "octgn_id": "78e81bfc-9eae-47de-a92d-dc0f7501e419",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
+  },
+  {
+    "pack_code": "bkw",
+    "card_id": "08017",
+    "name": "Counterintelligence",
+    "type": "upgrade",
+    "octgn_id": "084e6172-d001-4cfa-97b8-395744902e71",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
+  },
+  {
+    "pack_code": "bkw",
+    "card_id": "08018",
+    "name": "Spycraft",
+    "type": "upgrade",
+    "octgn_id": "352b4ecd-ecf1-4c35-ae0b-3bb5bc0804ce",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
+  },
+  {
+    "pack_code": "bkw",
+    "card_id": "08023",
+    "name": "Quincarrier",
     "type": "support",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038008",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "octgn_id": "912615fe-a737-4bf2-aee5-3141e0ac6583",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203809",
-    "name": "Anti-Matter Generation",
+    "pack_code": "bkw",
+    "card_id": "08024",
+    "name": "Target Acquired",
     "type": "upgrade",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038009",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "octgn_id": "b6ebe30e-fd0b-43d2-bcee-8d21761360da",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203810",
-    "name": "Blue Marvel's Suit",
+    "pack_code": "bkw",
+    "card_id": "08031",
+    "name": "Rapid Response",
     "type": "upgrade",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038010",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "octgn_id": "dfce6714-53f3-4361-ac9c-007f45001f0a",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203811",
-    "name": "Crisis Monitor",
+    "pack_code": "bkw",
+    "card_id": "08033",
+    "name": "Espionage",
     "type": "upgrade",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038011",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "octgn_id": "c1974e81-e113-42a2-bee5-d01b9e4dce09",
+    "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203812",
-    "name": "Superhuman Speed",
+    "pack_code": "bp",
+    "card_id": "51022",
+    "name": "Aneka",
+    "type": "ally",
+    "octgn_id": "4010e194-df1c-477e-852e-3a2adf051022",
+    "pack_octgn_id": "4010e194-df1c-477e-852e-3a2adf07ea10"
+  },
+  {
+    "pack_code": "bp",
+    "card_id": "51023",
+    "name": "Ayo",
+    "type": "ally",
+    "octgn_id": "4010e194-df1c-477e-852e-3a2adf051023",
+    "pack_octgn_id": "4010e194-df1c-477e-852e-3a2adf07ea10"
+  },
+  {
+    "pack_code": "bp",
+    "card_id": "51024",
+    "name": "Okoye",
+    "type": "ally",
+    "octgn_id": "4010e194-df1c-477e-852e-3a2adf051024",
+    "pack_octgn_id": "4010e194-df1c-477e-852e-3a2adf07ea10"
+  },
+  {
+    "pack_code": "bp",
+    "card_id": "51025",
+    "name": "Heart of the Panther",
+    "type": "event",
+    "octgn_id": "4010e194-df1c-477e-852e-3a2adf051025",
+    "pack_octgn_id": "4010e194-df1c-477e-852e-3a2adf07ea10"
+  },
+  {
+    "pack_code": "bp",
+    "card_id": "51026",
+    "name": "",
+    "type": "",
+    "octgn_id": "4010e194-df1c-477e-852e-3a2adf051026",
+    "pack_octgn_id": "4010e194-df1c-477e-852e-3a2adf07ea10"
+  },
+  {
+    "pack_code": "bp",
+    "card_id": "51030",
+    "name": "Dora Milaje",
+    "type": "support",
+    "octgn_id": "4010e194-df1c-477e-852e-3a2adf051030",
+    "pack_octgn_id": "4010e194-df1c-477e-852e-3a2adf07ea10"
+  },
+  {
+    "pack_code": "cap",
+    "card_id": "03001a",
+    "name": "Captain America",
+    "type": "hero",
+    "octgn_id": "cc51a04c-6cfa-4cbd-b04f-12b4f2ef0de1",
+    "pack_octgn_id": "e09a8f87-88ee-4702-ada2-3ea1e5717e63"
+  },
+  {
+    "pack_code": "cap",
+    "card_id": "03001b",
+    "name": "Steve Rogers",
+    "type": "alter_ego",
+    "octgn_id": "cc51a04c-6cfa-4cbd-b04f-12b4f2ef0de1",
+    "pack_octgn_id": "e09a8f87-88ee-4702-ada2-3ea1e5717e63"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01001a",
+    "name": "Spider-Man",
+    "type": "hero",
+    "octgn_id": "18ae183c-de26-4369-8a41-424d58f01631",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01001b",
+    "name": "Peter Parker",
+    "type": "alter_ego",
+    "octgn_id": "18ae183c-de26-4369-8a41-424d58f01631",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01010a",
+    "name": "Captain Marvel",
+    "type": "hero",
+    "octgn_id": "78343f41-6bfd-456d-965a-d6456a01a581",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01010b",
+    "name": "Carol Danvers",
+    "type": "alter_ego",
+    "octgn_id": "78343f41-6bfd-456d-965a-d6456a01a581",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01019a",
+    "name": "She-Hulk",
+    "type": "hero",
+    "octgn_id": "d46d5e03-c8b7-4ff5-8633-3941c0561812",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01019b",
+    "name": "Jennifer Walters",
+    "type": "alter_ego",
+    "octgn_id": "d46d5e03-c8b7-4ff5-8633-3941c0561812",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01029a",
+    "name": "Iron Man",
+    "type": "hero",
+    "octgn_id": "9780ba79-44e4-4530-b865-5983a60372b0",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01029b",
+    "name": "Tony Stark",
+    "type": "alter_ego",
+    "octgn_id": "9780ba79-44e4-4530-b865-5983a60372b0",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01040a",
+    "name": "Black Panther",
+    "type": "hero",
+    "octgn_id": "ced52353-61f7-4ed1-8469-01d396904d61",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01040b",
+    "name": "T'Challa",
+    "type": "alter_ego",
+    "octgn_id": "ced52353-61f7-4ed1-8469-01d396904d61",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01050",
+    "name": "Hulk",
+    "type": "ally",
+    "octgn_id": "a690f1b8-7ffc-4330-b715-298e76851f71",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01055",
+    "name": "The Power of Aggression",
+    "type": "resource",
+    "octgn_id": "e81c8970-6e8f-4dff-ac6b-b2a913329e8e",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01056",
+    "name": "Tac Team",
+    "type": "support",
+    "octgn_id": "8c19e625-e6b4-4b77-ae79-2ef6e946511d",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01057",
+    "name": "Combat Training",
     "type": "upgrade",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038012",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "octgn_id": "55102c6c-0197-41af-999d-47df7f8ce521",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203813",
-    "name": "Level Seven Threat",
-    "type": "obligation",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038013",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "pack_code": "core",
+    "card_id": "01062",
+    "name": "The Power of Justice",
+    "type": "resource",
+    "octgn_id": "e026becd-b30b-42de-b699-dfc9041c3e87",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203814",
-    "name": "Unshackle Creation",
-    "type": "side_scheme",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038014",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "pack_code": "core",
+    "card_id": "01064",
+    "name": "Surveillance Team",
+    "type": "support",
+    "octgn_id": "32d2a72b-c11b-4269-99c8-83bf6ec3633a",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203815",
-    "name": "Anti-Man",
+    "pack_code": "core",
+    "card_id": "01065",
+    "name": "Heroic Intuition",
+    "type": "upgrade",
+    "octgn_id": "c7bb3cde-ddd6-415d-a999-29fc98c841d8",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01066",
+    "name": "Hawkeye",
+    "type": "ally",
+    "octgn_id": "132a6e25-8d70-416a-aede-2e9cc243de66",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01067",
+    "name": "Maria Hill",
+    "type": "ally",
+    "octgn_id": "ae2b89a1-2c67-4207-9281-21bdae5c176b",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01071",
+    "name": "Make the Call",
+    "type": "event",
+    "octgn_id": "23d1d2d0-88ea-410c-84a8-da63872db6b9",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01072",
+    "name": "The Power of Leadership",
+    "type": "resource",
+    "octgn_id": "ba5d2c1f-2fb8-4e92-9c77-c50222bc1a9c",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01079",
+    "name": "The Power of Protection",
+    "type": "resource",
+    "octgn_id": "a0390985-df47-494a-85fc-f92a83518e34",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01081",
+    "name": "Armored Vest",
+    "type": "upgrade",
+    "octgn_id": "2bd1068a-73f7-4c58-a212-55cde44e09b1",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01083",
+    "name": "Mockingbird",
+    "type": "ally",
+    "octgn_id": "07bcfd3b-b6a0-4d70-8f6e-b5f152adf98d",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01084",
+    "name": "Nick Fury",
+    "type": "ally",
+    "octgn_id": "81144a13-02ef-4873-b0b8-bb8544d62c10",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01088",
+    "name": "Energy",
+    "type": "resource",
+    "octgn_id": "dd796868-b224-4ec0-be8f-46507c86cbef",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01089",
+    "name": "Genius",
+    "type": "resource",
+    "octgn_id": "ec9d5930-031c-493c-920b-32d980409567",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01090",
+    "name": "Strength",
+    "type": "resource",
+    "octgn_id": "a3fcb7fc-5fbf-4566-b29f-4abdd841e2cc",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01091",
+    "name": "Avengers Mansion",
+    "type": "support",
+    "octgn_id": "f5ab3190-a2d1-4f1f-be25-de0085706eff",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01092",
+    "name": "Helicarrier",
+    "type": "support",
+    "octgn_id": "1350f98c-921d-4594-9189-c1f852526870",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
+  },
+  {
+    "pack_code": "core",
+    "card_id": "01167",
+    "name": "Vulture",
     "type": "minion",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038015",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "octgn_id": "5981e1e8-87ee-40cc-be89-4459648d6bcc",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203816",
-    "name": "Anti-Matter Explosion",
-    "type": "treachery",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038016",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "pack_code": "core",
+    "card_id": "01171",
+    "name": "Imminent Overload",
+    "type": "side_scheme",
+    "octgn_id": "61ad993f-1263-47d8-81f2-eb4ce6abf6a2",
+    "pack_octgn_id": "dea583bf-554b-43c8-a6ed-a44782094ad1"
   },
   {
-    "pack_code": "blue_marvel_by_rainy",
-    "card_id": "203817",
-    "name": "Quantum Immortality",
-    "type": "treachery",
-    "octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a6038017",
-    "pack_octgn_id": "e2cb5690-df32-4c1d-94f0-0d65a685b669"
+    "pack_code": "cw",
+    "card_id": "56013",
+    "name": "Aggressive Conditioning",
+    "type": "upgrade",
+    "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056013",
+    "pack_octgn_id": "e4e959c3-c409-44ea-8bba-46addf9c4b4b"
+  },
+  {
+    "pack_code": "cw",
+    "card_id": "56020",
+    "name": "",
+    "type": "",
+    "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056020",
+    "pack_octgn_id": "e4e959c3-c409-44ea-8bba-46addf9c4b4b"
+  },
+  {
+    "pack_code": "cw",
+    "card_id": "56021",
+    "name": "",
+    "type": "",
+    "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056021",
+    "pack_octgn_id": "e4e959c3-c409-44ea-8bba-46addf9c4b4b"
+  },
+  {
+    "pack_code": "cw",
+    "card_id": "56022",
+    "name": "",
+    "type": "",
+    "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056022",
+    "pack_octgn_id": "e4e959c3-c409-44ea-8bba-46addf9c4b4b"
+  },
+  {
+    "pack_code": "cw",
+    "card_id": "56041",
+    "name": "Patriot",
+    "type": "ally",
+    "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056041",
+    "pack_octgn_id": "e4e959c3-c409-44ea-8bba-46addf9c4b4b"
+  },
+  {
+    "pack_code": "cw",
+    "card_id": "56046",
+    "name": "Defensive Conditioning",
+    "type": "upgrade",
+    "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056046",
+    "pack_octgn_id": "e4e959c3-c409-44ea-8bba-46addf9c4b4b"
+  },
+  {
+    "pack_code": "cyclops",
+    "card_id": "33001a",
+    "name": "Cyclops",
+    "type": "hero",
+    "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033001",
+    "pack_octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c958773"
+  },
+  {
+    "pack_code": "cyclops",
+    "card_id": "33001b",
+    "name": "Scott Summers",
+    "type": "alter_ego",
+    "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033001",
+    "pack_octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c958773"
+  },
+  {
+    "pack_code": "cyclops",
+    "card_id": "33011",
+    "name": "Beast",
+    "type": "ally",
+    "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033011",
+    "pack_octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c958773"
+  },
+  {
+    "pack_code": "cyclops",
+    "card_id": "33034",
+    "name": "Pinned Down",
+    "type": "upgrade",
+    "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033034",
+    "pack_octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c958773"
+  },
+  {
+    "pack_code": "deadpool",
+    "card_id": "44001a",
+    "name": "Deadpool",
+    "type": "hero",
+    "octgn_id": "03bdcc46-22c1-4a7f-8ca7-e212d5044001",
+    "pack_octgn_id": "03bdcc46-22c1-4a7f-8ca7-e212d52c301a"
+  },
+  {
+    "pack_code": "deadpool",
+    "card_id": "44001b",
+    "name": "Wade Wilson",
+    "type": "alter_ego",
+    "octgn_id": "03bdcc46-22c1-4a7f-8ca7-e212d5044001",
+    "pack_octgn_id": "03bdcc46-22c1-4a7f-8ca7-e212d52c301a"
+  },
+  {
+    "pack_code": "drax",
+    "card_id": "19001a",
+    "name": "Drax",
+    "type": "hero",
+    "octgn_id": "d12250e0-b484-4902-aa87-8692f8132136",
+    "pack_octgn_id": "9709f455-364f-4f8e-8140-3ed8b439babb"
+  },
+  {
+    "pack_code": "drax",
+    "card_id": "19001b",
+    "name": "Drax",
+    "type": "alter_ego",
+    "octgn_id": "d12250e0-b484-4902-aa87-8692f8132136",
+    "pack_octgn_id": "9709f455-364f-4f8e-8140-3ed8b439babb"
+  },
+  {
+    "pack_code": "drax",
+    "card_id": "19020",
+    "name": "Gamora",
+    "type": "ally",
+    "octgn_id": "aa8dcd81-84b5-4993-b05d-1c432089639d",
+    "pack_octgn_id": "9709f455-364f-4f8e-8140-3ed8b439babb"
+  },
+  {
+    "pack_code": "drs",
+    "card_id": "09001a",
+    "name": "Doctor Strange",
+    "type": "hero",
+    "octgn_id": "81d1cf04-43ab-4817-8746-18995bc7ddca",
+    "pack_octgn_id": "08cf8438-8367-43e7-8443-46836f7974e4"
+  },
+  {
+    "pack_code": "drs",
+    "card_id": "09001b",
+    "name": "Stephen Strange",
+    "type": "alter_ego",
+    "octgn_id": "81d1cf04-43ab-4817-8746-18995bc7ddca",
+    "pack_octgn_id": "08cf8438-8367-43e7-8443-46836f7974e4"
+  },
+  {
+    "pack_code": "drs",
+    "card_id": "09019",
+    "name": "The Night Nurse",
+    "type": "support",
+    "octgn_id": "1518044d-a532-4cfa-aa11-c7f5427ece3e",
+    "pack_octgn_id": "08cf8438-8367-43e7-8443-46836f7974e4"
+  },
+  {
+    "pack_code": "drs",
+    "card_id": "09020",
+    "name": "Unflappable",
+    "type": "upgrade",
+    "octgn_id": "ba1c7989-37c8-46e7-9999-951ae18def3b",
+    "pack_octgn_id": "08cf8438-8367-43e7-8443-46836f7974e4"
+  },
+  {
+    "pack_code": "drs",
+    "card_id": "09026",
+    "name": "The Sorcerer Supreme",
+    "type": "upgrade",
+    "octgn_id": "b63402ba-906e-4119-a302-4a8dac229df0",
+    "pack_octgn_id": "08cf8438-8367-43e7-8443-46836f7974e4"
+  },
+  {
+    "pack_code": "drs",
+    "card_id": "09038",
+    "name": "Foiled!",
+    "type": "event",
+    "octgn_id": "bff7d04b-37c7-43c8-949a-5d1410b0b46d",
+    "pack_octgn_id": "08cf8438-8367-43e7-8443-46836f7974e4"
+  },
+  {
+    "pack_code": "gam",
+    "card_id": "18001a",
+    "name": "Gamora",
+    "type": "hero",
+    "octgn_id": "01a06058-c829-49f3-abf3-feccab737d0a",
+    "pack_octgn_id": "98ea4e68-1cb4-49ae-80a0-74f41a944c47"
+  },
+  {
+    "pack_code": "gam",
+    "card_id": "18001b",
+    "name": "Gamora",
+    "type": "alter_ego",
+    "octgn_id": "01a06058-c829-49f3-abf3-feccab737d0a",
+    "pack_octgn_id": "98ea4e68-1cb4-49ae-80a0-74f41a944c47"
+  },
+  {
+    "pack_code": "gambit",
+    "card_id": "37001a",
+    "name": "Gambit",
+    "type": "hero",
+    "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037001",
+    "pack_octgn_id": "f3ee0950-3220-468c-9735-3b1dcb9694b7"
+  },
+  {
+    "pack_code": "gambit",
+    "card_id": "37001b",
+    "name": "Remy LeBeau",
+    "type": "alter_ego",
+    "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037001",
+    "pack_octgn_id": "f3ee0950-3220-468c-9735-3b1dcb9694b7"
+  },
+  {
+    "pack_code": "gambit",
+    "card_id": "37015",
+    "name": "Breaking and Entering",
+    "type": "event",
+    "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037015",
+    "pack_octgn_id": "f3ee0950-3220-468c-9735-3b1dcb9694b7"
+  },
+  {
+    "pack_code": "gambit",
+    "card_id": "37030",
+    "name": "War Room",
+    "type": "support",
+    "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037030",
+    "pack_octgn_id": "f3ee0950-3220-468c-9735-3b1dcb9694b7"
+  },
+  {
+    "pack_code": "gmw",
+    "card_id": "16001a",
+    "name": "Groot",
+    "type": "hero",
+    "octgn_id": "67701e4e-cd05-4a55-82fe-651fd951d136",
+    "pack_octgn_id": "52b14ebe-d3fe-402d-93d4-eace2a1b7f8e"
+  },
+  {
+    "pack_code": "gmw",
+    "card_id": "16001b",
+    "name": "Groot",
+    "type": "alter_ego",
+    "octgn_id": "67701e4e-cd05-4a55-82fe-651fd951d136",
+    "pack_octgn_id": "52b14ebe-d3fe-402d-93d4-eace2a1b7f8e"
+  },
+  {
+    "pack_code": "gmw",
+    "card_id": "16017",
+    "name": "Hard to Ignore",
+    "type": "upgrade",
+    "octgn_id": "86a866bd-b987-40ea-836c-a5d89bfd65bd",
+    "pack_octgn_id": "52b14ebe-d3fe-402d-93d4-eace2a1b7f8e"
+  },
+  {
+    "pack_code": "gmw",
+    "card_id": "16024",
+    "name": "Deft Focus",
+    "type": "upgrade",
+    "octgn_id": "b2c4439d-cdaf-45f0-99d5-06f2ea3ede74",
+    "pack_octgn_id": "52b14ebe-d3fe-402d-93d4-eace2a1b7f8e"
+  },
+  {
+    "pack_code": "gmw",
+    "card_id": "16029a",
+    "name": "Rocket Raccoon",
+    "type": "hero",
+    "octgn_id": "fb6aef48-cc6f-41cb-9237-2326b72f83f2",
+    "pack_octgn_id": "52b14ebe-d3fe-402d-93d4-eace2a1b7f8e"
+  },
+  {
+    "pack_code": "gmw",
+    "card_id": "16029b",
+    "name": "Rocket Raccoon",
+    "type": "alter_ego",
+    "octgn_id": "fb6aef48-cc6f-41cb-9237-2326b72f83f2",
+    "pack_octgn_id": "52b14ebe-d3fe-402d-93d4-eace2a1b7f8e"
+  },
+  {
+    "pack_code": "hlk",
+    "card_id": "10001a",
+    "name": "Hulk",
+    "type": "hero",
+    "octgn_id": "284080a3-1621-4c08-a9ae-7bc131f70559",
+    "pack_octgn_id": "3a0370be-2e45-4783-9b7e-2d43b1fc0ed2"
+  },
+  {
+    "pack_code": "hlk",
+    "card_id": "10001b",
+    "name": "Bruce Banner",
+    "type": "alter_ego",
+    "octgn_id": "284080a3-1621-4c08-a9ae-7bc131f70559",
+    "pack_octgn_id": "3a0370be-2e45-4783-9b7e-2d43b1fc0ed2"
+  },
+  {
+    "pack_code": "hlk",
+    "card_id": "10012",
+    "name": "Sentry",
+    "type": "ally",
+    "octgn_id": "5b8e59a0-7db5-4662-80cf-ad47918ee39a",
+    "pack_octgn_id": "3a0370be-2e45-4783-9b7e-2d43b1fc0ed2"
+  },
+  {
+    "pack_code": "hlk",
+    "card_id": "10013",
+    "name": "She-Hulk",
+    "type": "ally",
+    "octgn_id": "5f8a5b37-579c-4d64-8934-bb7132f29698",
+    "pack_octgn_id": "3a0370be-2e45-4783-9b7e-2d43b1fc0ed2"
+  },
+  {
+    "pack_code": "hlk",
+    "card_id": "10018",
+    "name": "Martial Prowess",
+    "type": "upgrade",
+    "octgn_id": "32a9d59f-176b-4964-8970-e0d0ca7f8d10",
+    "pack_octgn_id": "3a0370be-2e45-4783-9b7e-2d43b1fc0ed2"
+  },
+  {
+    "pack_code": "hlk",
+    "card_id": "10029",
+    "name": "Beat Cop",
+    "type": "support",
+    "octgn_id": "dd1fcbeb-e838-423f-957d-de5ade950623",
+    "pack_octgn_id": "3a0370be-2e45-4783-9b7e-2d43b1fc0ed2"
+  },
+  {
+    "pack_code": "ironheart",
+    "card_id": "29001a",
+    "name": "Ironheart",
+    "type": "hero",
+    "octgn_id": "fbfbc0f3-bfa6-48f6-a2b7-9a99b8bc6bce",
+    "pack_octgn_id": "ec67f058-3ad2-45b0-accc-7d9b34aa9bd9"
+  },
+  {
+    "pack_code": "ironheart",
+    "card_id": "29001b",
+    "name": "Riri Williams",
+    "type": "alter_ego",
+    "octgn_id": "fbfbc0f3-bfa6-48f6-a2b7-9a99b8bc6bce",
+    "pack_octgn_id": "ec67f058-3ad2-45b0-accc-7d9b34aa9bd9"
+  },
+  {
+    "pack_code": "ironheart",
+    "card_id": "29002a",
+    "name": "Ironheart",
+    "type": "hero",
+    "octgn_id": "82e28243-edbd-439d-b5e6-5841ab87db96",
+    "pack_octgn_id": "ec67f058-3ad2-45b0-accc-7d9b34aa9bd9"
+  },
+  {
+    "pack_code": "ironheart",
+    "card_id": "29002b",
+    "name": "Riri Williams",
+    "type": "alter_ego",
+    "octgn_id": "82e28243-edbd-439d-b5e6-5841ab87db96",
+    "pack_octgn_id": "ec67f058-3ad2-45b0-accc-7d9b34aa9bd9"
+  },
+  {
+    "pack_code": "ironheart",
+    "card_id": "29003a",
+    "name": "Ironheart",
+    "type": "hero",
+    "octgn_id": "a24f1149-87bf-4eef-90f8-992b22b2039b",
+    "pack_octgn_id": "ec67f058-3ad2-45b0-accc-7d9b34aa9bd9"
+  },
+  {
+    "pack_code": "ironheart",
+    "card_id": "29003b",
+    "name": "Riri Williams",
+    "type": "alter_ego",
+    "octgn_id": "a24f1149-87bf-4eef-90f8-992b22b2039b",
+    "pack_octgn_id": "ec67f058-3ad2-45b0-accc-7d9b34aa9bd9"
+  },
+  {
+    "pack_code": "ironheart",
+    "card_id": "29023",
+    "name": "Snowguard",
+    "type": "ally",
+    "octgn_id": "c22f2b49-d7dd-440d-b1df-cfd1f058455a",
+    "pack_octgn_id": "ec67f058-3ad2-45b0-accc-7d9b34aa9bd9"
+  },
+  {
+    "pack_code": "ironheart",
+    "card_id": "29025",
+    "name": "\"Go for Champions!\"",
+    "type": "event",
+    "octgn_id": "9d1ed258-ee76-47e7-8f1d-b9dd590fd293",
+    "pack_octgn_id": "ec67f058-3ad2-45b0-accc-7d9b34aa9bd9"
+  },
+  {
+    "pack_code": "ironheart",
+    "card_id": "29027",
+    "name": "Ingenuity",
+    "type": "upgrade",
+    "octgn_id": "db7e7914-1cf7-4f25-b1fb-70cb41c11025",
+    "pack_octgn_id": "ec67f058-3ad2-45b0-accc-7d9b34aa9bd9"
+  },
+  {
+    "pack_code": "jubilee",
+    "card_id": "47013",
+    "name": "Disguise",
+    "type": "upgrade",
+    "octgn_id": "2bb9367c-944e-4475-b643-6a84c3047019",
+    "pack_octgn_id": "2bb9367c-944e-4475-b643-6a84c3214443"
+  },
+  {
+    "pack_code": "magneto",
+    "card_id": "49001a",
+    "name": "Magneto",
+    "type": "hero",
+    "octgn_id": "0035c164-5de7-4b2e-bb80-d49e4b049001",
+    "pack_octgn_id": "0035c164-5de7-4b2e-bb80-d49e4b2e67d0"
+  },
+  {
+    "pack_code": "magneto",
+    "card_id": "49001b",
+    "name": "Erik Lehnsherr",
+    "type": "alter_ego",
+    "octgn_id": "0035c164-5de7-4b2e-bb80-d49e4b049001",
+    "pack_octgn_id": "0035c164-5de7-4b2e-bb80-d49e4b2e67d0"
+  },
+  {
+    "pack_code": "magneto",
+    "card_id": "49022",
+    "name": "Face the Past",
+    "type": "event",
+    "octgn_id": "0035c164-5de7-4b2e-bb80-d49e4b049022",
+    "pack_octgn_id": "0035c164-5de7-4b2e-bb80-d49e4b2e67d0"
+  },
+  {
+    "pack_code": "magneto",
+    "card_id": "49037",
+    "name": "Children of the Atom",
+    "type": "support",
+    "octgn_id": "0035c164-5de7-4b2e-bb80-d49e4b049037",
+    "pack_octgn_id": "0035c164-5de7-4b2e-bb80-d49e4b2e67d0"
+  },
+  {
+    "pack_code": "msm",
+    "card_id": "05001a",
+    "name": "Ms. Marvel",
+    "type": "hero",
+    "octgn_id": "be1d47ec-ba38-40d4-94cd-e37cc045cd50",
+    "pack_octgn_id": "88687068-70fb-478f-9a86-282477727842"
+  },
+  {
+    "pack_code": "msm",
+    "card_id": "05001b",
+    "name": "Kamala Khan",
+    "type": "alter_ego",
+    "octgn_id": "be1d47ec-ba38-40d4-94cd-e37cc045cd50",
+    "pack_octgn_id": "88687068-70fb-478f-9a86-282477727842"
+  },
+  {
+    "pack_code": "msm",
+    "card_id": "05018",
+    "name": "Lockjaw",
+    "type": "ally",
+    "octgn_id": "1580e69f-5f17-49c5-b6fa-2943b534c414",
+    "pack_octgn_id": "88687068-70fb-478f-9a86-282477727842"
+  },
+  {
+    "pack_code": "msm",
+    "card_id": "05023",
+    "name": "Endurance",
+    "type": "upgrade",
+    "octgn_id": "ec3f4812-5cae-4336-a632-589c77028199",
+    "pack_octgn_id": "88687068-70fb-478f-9a86-282477727842"
+  },
+  {
+    "pack_code": "msm",
+    "card_id": "05033",
+    "name": "Down Time",
+    "type": "upgrade",
+    "octgn_id": "aa8c5319-9050-4406-ac8b-b9476032eb08",
+    "pack_octgn_id": "88687068-70fb-478f-9a86-282477727842"
+  },
+  {
+    "pack_code": "mts",
+    "card_id": "21019",
+    "name": "Blade",
+    "type": "ally",
+    "octgn_id": "c2a503da-c6b4-4783-8a75-b5647ca09374",
+    "pack_octgn_id": "4335882a-0e8e-4f98-a7a0-0a418fae8253"
+  },
+  {
+    "pack_code": "mts",
+    "card_id": "21046",
+    "name": "Audacity",
+    "type": "resource",
+    "octgn_id": "5eff1a95-a88f-4608-ab0a-70efe2ee1a0e",
+    "pack_octgn_id": "4335882a-0e8e-4f98-a7a0-0a418fae8253"
+  },
+  {
+    "pack_code": "mut_gen",
+    "card_id": "32001a",
+    "name": "Colossus",
+    "type": "hero",
+    "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032001",
+    "pack_octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975198ec7"
+  },
+  {
+    "pack_code": "mut_gen",
+    "card_id": "32001b",
+    "name": "Piotr Rasputin",
+    "type": "alter_ego",
+    "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032001",
+    "pack_octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975198ec7"
+  },
+  {
+    "pack_code": "mut_gen",
+    "card_id": "32011",
+    "name": "Nightcrawler",
+    "type": "ally",
+    "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032011",
+    "pack_octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975198ec7"
+  },
+  {
+    "pack_code": "mut_gen",
+    "card_id": "32019",
+    "name": "Professor X",
+    "type": "ally",
+    "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032019",
+    "pack_octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975198ec7"
+  },
+  {
+    "pack_code": "mut_gen",
+    "card_id": "32020",
+    "name": "The X-Jet",
+    "type": "support",
+    "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032020",
+    "pack_octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975198ec7"
+  },
+  {
+    "pack_code": "mut_gen",
+    "card_id": "32022",
+    "name": "",
+    "type": "",
+    "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032022",
+    "pack_octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975198ec7"
+  },
+  {
+    "pack_code": "mut_gen",
+    "card_id": "32023",
+    "name": "",
+    "type": "",
+    "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032023",
+    "pack_octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975198ec7"
+  },
+  {
+    "pack_code": "mut_gen",
+    "card_id": "32024",
+    "name": "",
+    "type": "",
+    "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032024",
+    "pack_octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975198ec7"
+  },
+  {
+    "pack_code": "mut_gen",
+    "card_id": "32030a",
+    "name": "Shadowcat",
+    "type": "hero",
+    "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032030",
+    "pack_octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975198ec7"
+  },
+  {
+    "pack_code": "mut_gen",
+    "card_id": "32030b",
+    "name": "Kitty Pryde",
+    "type": "alter_ego",
+    "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032030",
+    "pack_octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975198ec7"
+  },
+  {
+    "pack_code": "mut_gen",
+    "card_id": "32041",
+    "name": "Wolverine",
+    "type": "ally",
+    "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032041",
+    "pack_octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975198ec7"
+  },
+  {
+    "pack_code": "ncrawler",
+    "card_id": "48001a",
+    "name": "Nightcrawler",
+    "type": "hero",
+    "octgn_id": "65f91d01-99db-4c7e-814f-28ddf0048001",
+    "pack_octgn_id": "65f91d01-99db-4c7e-814f-28ddf0e91d6d"
+  },
+  {
+    "pack_code": "ncrawler",
+    "card_id": "48001b",
+    "name": "Kurt Wagner",
+    "type": "alter_ego",
+    "octgn_id": "65f91d01-99db-4c7e-814f-28ddf0048001",
+    "pack_octgn_id": "65f91d01-99db-4c7e-814f-28ddf0e91d6d"
+  },
+  {
+    "pack_code": "ncrawler",
+    "card_id": "48012",
+    "name": "Rogue",
+    "type": "ally",
+    "octgn_id": "65f91d01-99db-4c7e-814f-28ddf0048012",
+    "pack_octgn_id": "65f91d01-99db-4c7e-814f-28ddf0e91d6d"
+  },
+  {
+    "pack_code": "ncrawler",
+    "card_id": "48014",
+    "name": "Change of Fortune",
+    "type": "upgrade",
+    "octgn_id": "65f91d01-99db-4c7e-814f-28ddf0048014",
+    "pack_octgn_id": "65f91d01-99db-4c7e-814f-28ddf0e91d6d"
+  },
+  {
+    "pack_code": "ncrawler",
+    "card_id": "48016",
+    "name": "\"Come Get Me, Bub!\"",
+    "type": "event",
+    "octgn_id": "65f91d01-99db-4c7e-814f-28ddf0048016",
+    "pack_octgn_id": "65f91d01-99db-4c7e-814f-28ddf0e91d6d"
+  },
+  {
+    "pack_code": "next_evol",
+    "card_id": "40001a",
+    "name": "Cable",
+    "type": "hero",
+    "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040001",
+    "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
+  },
+  {
+    "pack_code": "next_evol",
+    "card_id": "40001b",
+    "name": "Nathan Summers",
+    "type": "alter_ego",
+    "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040001",
+    "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
+  },
+  {
+    "pack_code": "next_evol",
+    "card_id": "40018",
+    "name": "Call for Backup",
+    "type": "player_side_scheme",
+    "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040018",
+    "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
+  },
+  {
+    "pack_code": "next_evol",
+    "card_id": "40020",
+    "name": "Establish Perimeter",
+    "type": "player_side_scheme",
+    "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040020",
+    "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
+  },
+  {
+    "pack_code": "next_evol",
+    "card_id": "40023",
+    "name": "Mission Leader",
+    "type": "upgrade",
+    "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040023",
+    "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
+  },
+  {
+    "pack_code": "next_evol",
+    "card_id": "40027",
+    "name": "Build Support",
+    "type": "player_side_scheme",
+    "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040027",
+    "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
+  },
+  {
+    "pack_code": "next_evol",
+    "card_id": "40028",
+    "name": "The Power of the Mind",
+    "type": "resource",
+    "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040028",
+    "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
+  },
+  {
+    "pack_code": "next_evol",
+    "card_id": "40029",
+    "name": "Psimitar",
+    "type": "upgrade",
+    "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040029",
+    "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
+  },
+  {
+    "pack_code": "next_evol",
+    "card_id": "40037a",
+    "name": "Domino",
+    "type": "hero",
+    "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040037",
+    "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
+  },
+  {
+    "pack_code": "next_evol",
+    "card_id": "40037b",
+    "name": "Neena Thurman",
+    "type": "alter_ego",
+    "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040037",
+    "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
+  },
+  {
+    "pack_code": "next_evol",
+    "card_id": "40057",
+    "name": "White Fox",
+    "type": "ally",
+    "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040057",
+    "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
+  },
+  {
+    "pack_code": "next_evol",
+    "card_id": "40059",
+    "name": "Superpower Training",
+    "type": "player_side_scheme",
+    "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040059",
+    "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
+  },
+  {
+    "pack_code": "next_evol",
+    "card_id": "40060",
+    "name": "Digging Deep",
+    "type": "resource",
+    "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040060",
+    "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
+  },
+  {
+    "pack_code": "next_evol",
+    "card_id": "40204",
+    "name": "Hope Summers",
+    "type": "ally",
+    "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040204",
+    "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
+  },
+  {
+    "pack_code": "nova",
+    "card_id": "28018",
+    "name": "Moon Girl",
+    "type": "ally",
+    "octgn_id": "c7126feb-f097-4e98-b154-17693ba482f8",
+    "pack_octgn_id": "46209500-1ae1-452b-81d7-0a0447e7b505"
+  },
+  {
+    "pack_code": "phoenix",
+    "card_id": "34001a",
+    "name": "Phoenix",
+    "type": "hero",
+    "octgn_id": "9b407333-e221-495f-a145-e5a9b4034001",
+    "pack_octgn_id": "9b407333-e221-495f-a145-e5a9b405a0f3"
+  },
+  {
+    "pack_code": "phoenix",
+    "card_id": "34001b",
+    "name": "Jean Grey",
+    "type": "alter_ego",
+    "octgn_id": "9b407333-e221-495f-a145-e5a9b4034001",
+    "pack_octgn_id": "9b407333-e221-495f-a145-e5a9b405a0f3"
+  },
+  {
+    "pack_code": "phoenix",
+    "card_id": "34002a",
+    "name": "Phoenix Force",
+    "type": "upgrade",
+    "octgn_id": "9b407333-e221-495f-a145-e5a9b4034002",
+    "pack_octgn_id": "9b407333-e221-495f-a145-e5a9b405a0f3"
+  },
+  {
+    "pack_code": "phoenix",
+    "card_id": "34002b",
+    "name": "Phoenix Force",
+    "type": "upgrade",
+    "octgn_id": "9b407333-e221-495f-a145-e5a9b4034002",
+    "pack_octgn_id": "9b407333-e221-495f-a145-e5a9b405a0f3"
+  },
+  {
+    "pack_code": "phoenix",
+    "card_id": "34022",
+    "name": "Cerebro",
+    "type": "support",
+    "octgn_id": "9b407333-e221-495f-a145-e5a9b4034022",
+    "pack_octgn_id": "9b407333-e221-495f-a145-e5a9b405a0f3"
+  },
+  {
+    "pack_code": "phoenix",
+    "card_id": "34024",
+    "name": "",
+    "type": "",
+    "octgn_id": "9b407333-e221-495f-a145-e5a9b4034024",
+    "pack_octgn_id": "9b407333-e221-495f-a145-e5a9b405a0f3"
+  },
+  {
+    "pack_code": "phoenix",
+    "card_id": "34032",
+    "name": "Psychic Assault",
+    "type": "event",
+    "octgn_id": "9b407333-e221-495f-a145-e5a9b4034032",
+    "pack_octgn_id": "9b407333-e221-495f-a145-e5a9b405a0f3"
+  },
+  {
+    "pack_code": "phoenix",
+    "card_id": "34034",
+    "name": "Psychic Kicker",
+    "type": "event",
+    "octgn_id": "9b407333-e221-495f-a145-e5a9b4034034",
+    "pack_octgn_id": "9b407333-e221-495f-a145-e5a9b405a0f3"
+  },
+  {
+    "pack_code": "psylocke",
+    "card_id": "41001a",
+    "name": "Psylocke",
+    "type": "hero",
+    "octgn_id": "f7eaac08-b459-4b76-a5e4-a87bce041001",
+    "pack_octgn_id": "f7eaac08-b459-4b76-a5e4-a87bce22e990"
+  },
+  {
+    "pack_code": "psylocke",
+    "card_id": "41001b",
+    "name": "Betsy Braddock",
+    "type": "alter_ego",
+    "octgn_id": "f7eaac08-b459-4b76-a5e4-a87bce041001",
+    "pack_octgn_id": "f7eaac08-b459-4b76-a5e4-a87bce22e990"
+  },
+  {
+    "pack_code": "psylocke",
+    "card_id": "41002a",
+    "name": "Psi-Knife",
+    "type": "upgrade",
+    "octgn_id": "f7eaac08-b459-4b76-a5e4-a87bce041002",
+    "pack_octgn_id": "f7eaac08-b459-4b76-a5e4-a87bce22e990"
+  },
+  {
+    "pack_code": "psylocke",
+    "card_id": "41002b",
+    "name": "Psi-Katana",
+    "type": "upgrade",
+    "octgn_id": "f7eaac08-b459-4b76-a5e4-a87bce041002",
+    "pack_octgn_id": "f7eaac08-b459-4b76-a5e4-a87bce22e990"
+  },
+  {
+    "pack_code": "psylocke",
+    "card_id": "41030",
+    "name": "Psi-Bow Attack",
+    "type": "event",
+    "octgn_id": "f7eaac08-b459-4b76-a5e4-a87bce041030",
+    "pack_octgn_id": "f7eaac08-b459-4b76-a5e4-a87bce22e990"
+  },
+  {
+    "pack_code": "qsv",
+    "card_id": "14001a",
+    "name": "Quicksilver",
+    "type": "hero",
+    "octgn_id": "49fd630a-a3a2-4ca9-9f2e-e35740836630",
+    "pack_octgn_id": "9d9ef955-af76-4493-901a-65288d7649dd"
+  },
+  {
+    "pack_code": "qsv",
+    "card_id": "14001b",
+    "name": "Pietro Maximoff",
+    "type": "alter_ego",
+    "octgn_id": "49fd630a-a3a2-4ca9-9f2e-e35740836630",
+    "pack_octgn_id": "9d9ef955-af76-4493-901a-65288d7649dd"
+  },
+  {
+    "pack_code": "qsv",
+    "card_id": "14017",
+    "name": "Nerves of Steel",
+    "type": "upgrade",
+    "octgn_id": "47662965-ed43-4427-b52d-fb0927467309",
+    "pack_octgn_id": "9d9ef955-af76-4493-901a-65288d7649dd"
+  },
+  {
+    "pack_code": "qsv",
+    "card_id": "14030",
+    "name": "Sense of Justice",
+    "type": "upgrade",
+    "octgn_id": "4eb5d1fe-76c4-4109-a12e-9a1aeb21b440",
+    "pack_octgn_id": "9d9ef955-af76-4493-901a-65288d7649dd"
+  },
+  {
+    "pack_code": "rogue",
+    "card_id": "38001a",
+    "name": "Rogue",
+    "type": "hero",
+    "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038001",
+    "pack_octgn_id": "eb5252a6-d631-49b7-a562-b88b234c58d5"
+  },
+  {
+    "pack_code": "rogue",
+    "card_id": "38001b",
+    "name": "Anna Marie",
+    "type": "alter_ego",
+    "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038001",
+    "pack_octgn_id": "eb5252a6-d631-49b7-a562-b88b234c58d5"
+  },
+  {
+    "pack_code": "rogue",
+    "card_id": "38018",
+    "name": "Moira MacTaggert",
+    "type": "support",
+    "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038018",
+    "pack_octgn_id": "eb5252a6-d631-49b7-a562-b88b234c58d5"
+  },
+  {
+    "pack_code": "rogue",
+    "card_id": "38019",
+    "name": "X-Gene",
+    "type": "upgrade",
+    "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038019",
+    "pack_octgn_id": "eb5252a6-d631-49b7-a562-b88b234c58d5"
+  },
+  {
+    "pack_code": "scw",
+    "card_id": "15001a",
+    "name": "Scarlet Witch",
+    "type": "hero",
+    "octgn_id": "4cef9fbe-20b2-432f-af05-066cb82c450a",
+    "pack_octgn_id": "28899df2-c1e3-40db-be05-f45307341541"
+  },
+  {
+    "pack_code": "scw",
+    "card_id": "15001b",
+    "name": "Wanda Maximoff",
+    "type": "alter_ego",
+    "octgn_id": "4cef9fbe-20b2-432f-af05-066cb82c450a",
+    "pack_octgn_id": "28899df2-c1e3-40db-be05-f45307341541"
+  },
+  {
+    "pack_code": "scw",
+    "card_id": "15002",
+    "name": "Quicksilver",
+    "type": "ally",
+    "octgn_id": "35ca30d8-ff32-47d3-ae13-acd548ec2858",
+    "pack_octgn_id": "28899df2-c1e3-40db-be05-f45307341541"
+  },
+  {
+    "pack_code": "scw",
+    "card_id": "15003",
+    "name": "Chaos Magic",
+    "type": "event",
+    "octgn_id": "7065d650-584d-48ca-b5f6-e32b38987525",
+    "pack_octgn_id": "28899df2-c1e3-40db-be05-f45307341541"
+  },
+  {
+    "pack_code": "scw",
+    "card_id": "15004",
+    "name": "Hex Bolt",
+    "type": "event",
+    "octgn_id": "94b023e7-231c-46fd-90de-65b6ed5ba088",
+    "pack_octgn_id": "28899df2-c1e3-40db-be05-f45307341541"
+  },
+  {
+    "pack_code": "scw",
+    "card_id": "15005",
+    "name": "Molecular Decay",
+    "type": "event",
+    "octgn_id": "85852232-b0a6-452f-893d-bb913574de74",
+    "pack_octgn_id": "28899df2-c1e3-40db-be05-f45307341541"
+  },
+  {
+    "pack_code": "scw",
+    "card_id": "15006",
+    "name": "Warp Reality",
+    "type": "event",
+    "octgn_id": "f8be01b0-e952-46e8-8b89-dab89c339eeb",
+    "pack_octgn_id": "28899df2-c1e3-40db-be05-f45307341541"
+  },
+  {
+    "pack_code": "scw",
+    "card_id": "15007",
+    "name": "Agatha Harkness",
+    "type": "support",
+    "octgn_id": "c437ca24-2641-4be5-a357-3dfaeaaae02e",
+    "pack_octgn_id": "28899df2-c1e3-40db-be05-f45307341541"
+  },
+  {
+    "pack_code": "scw",
+    "card_id": "15008",
+    "name": "Magic Shield",
+    "type": "upgrade",
+    "octgn_id": "bc108a42-a9b7-4066-9174-a142050e8a42",
+    "pack_octgn_id": "28899df2-c1e3-40db-be05-f45307341541"
+  },
+  {
+    "pack_code": "scw",
+    "card_id": "15009",
+    "name": "Scarlet Witch's Crest",
+    "type": "upgrade",
+    "octgn_id": "80e91eb1-0ac3-4ad3-9021-99902fb3c701",
+    "pack_octgn_id": "28899df2-c1e3-40db-be05-f45307341541"
+  },
+  {
+    "pack_code": "scw",
+    "card_id": "15013",
+    "name": "Multitasking",
+    "type": "event",
+    "octgn_id": "97d4f4a2-dfa6-4bcf-b00f-1af6d419ad40",
+    "pack_octgn_id": "28899df2-c1e3-40db-be05-f45307341541"
+  },
+  {
+    "pack_code": "scw",
+    "card_id": "15019",
+    "name": "Spiritual Meditation",
+    "type": "event",
+    "octgn_id": "77246fe9-9595-4e24-b550-319ae233f93d",
+    "pack_octgn_id": "28899df2-c1e3-40db-be05-f45307341541"
+  },
+  {
+    "pack_code": "silk",
+    "card_id": "52013",
+    "name": "Scarlet Spider",
+    "type": "ally",
+    "octgn_id": "25cf07ae-e8ab-4443-8040-672bd2052013",
+    "pack_octgn_id": "25cf07ae-e8ab-4443-8040-672bd25d635a"
+  },
+  {
+    "pack_code": "silk",
+    "card_id": "52018",
+    "name": "Energy Shield",
+    "type": "upgrade",
+    "octgn_id": "25cf07ae-e8ab-4443-8040-672bd2052018",
+    "pack_octgn_id": "25cf07ae-e8ab-4443-8040-672bd25d635a"
+  },
+  {
+    "pack_code": "silk",
+    "card_id": "52019",
+    "name": "Ready for a Fight",
+    "type": "upgrade",
+    "octgn_id": "25cf07ae-e8ab-4443-8040-672bd2052019",
+    "pack_octgn_id": "25cf07ae-e8ab-4443-8040-672bd25d635a"
+  },
+  {
+    "pack_code": "silk",
+    "card_id": "52021",
+    "name": "Madame Web",
+    "type": "ally",
+    "octgn_id": "25cf07ae-e8ab-4443-8040-672bd2052021",
+    "pack_octgn_id": "25cf07ae-e8ab-4443-8040-672bd25d635a"
+  },
+  {
+    "pack_code": "silk",
+    "card_id": "52032",
+    "name": "Spider-Man 2099",
+    "type": "ally",
+    "octgn_id": "25cf07ae-e8ab-4443-8040-672bd2052032",
+    "pack_octgn_id": "25cf07ae-e8ab-4443-8040-672bd25d635a"
+  },
+  {
+    "pack_code": "silk",
+    "card_id": "52033",
+    "name": "Spider-Woman",
+    "type": "ally",
+    "octgn_id": "25cf07ae-e8ab-4443-8040-672bd2052033",
+    "pack_octgn_id": "25cf07ae-e8ab-4443-8040-672bd25d635a"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27001a",
+    "name": "Ghost-Spider",
+    "type": "hero",
+    "octgn_id": "38d5ddfb-5061-45eb-bd80-086f13997a58",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27001b",
+    "name": "Gwen Stacy",
+    "type": "alter_ego",
+    "octgn_id": "38d5ddfb-5061-45eb-bd80-086f13997a58",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27010",
+    "name": "Silk",
+    "type": "ally",
+    "octgn_id": "a8138037-224d-482a-af39-b064b6cf62f2",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27011",
+    "name": "Spider-Man",
+    "type": "ally",
+    "octgn_id": "9113604f-fc1f-424a-9f60-88b9a3bb205b",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27012",
+    "name": "Spider-UK",
+    "type": "ally",
+    "octgn_id": "3f7f92de-9201-49bc-b3e5-e9850bc98442",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27016",
+    "name": "What Doesn't Kill Me",
+    "type": "event",
+    "octgn_id": "54dcfbee-4c91-44bc-a73b-1bc271a89d40",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27017",
+    "name": "Spider-Man",
+    "type": "ally",
+    "octgn_id": "b97396f0-5f80-418f-b38c-fa2737e19713",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27018",
+    "name": "Across the Spider-Verse",
+    "type": "event",
+    "octgn_id": "dd8b54b7-fdd3-4a5e-a9af-dacfe6e38d8a",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27023",
+    "name": "Web of Life and Destiny",
+    "type": "support",
+    "octgn_id": "6642f87f-201c-4c91-bc3e-50a4a4ce0afe",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27030a",
+    "name": "Spider-Man",
+    "type": "hero",
+    "octgn_id": "b675bf6a-8cf5-422c-90dd-f3f64765a7f0",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27030b",
+    "name": "Miles Morales",
+    "type": "alter_ego",
+    "octgn_id": "b675bf6a-8cf5-422c-90dd-f3f64765a7f0",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27040",
+    "name": "Monica Chang",
+    "type": "ally",
+    "octgn_id": "2f6ab954-a891-4444-8d27-cebe050cc92d",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27044",
+    "name": "Field Agent",
+    "type": "support",
+    "octgn_id": "898831f2-83d0-470c-a6cb-cb77cea26c70",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27046",
+    "name": "Agent 13",
+    "type": "ally",
+    "octgn_id": "3ce28169-17c6-40e5-9ce5-d7252c32a807",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27047",
+    "name": "Dum Dum Dugan",
+    "type": "ally",
+    "octgn_id": "aa8abddf-4a56-4caa-9881-2acdcc6add5f",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27048",
+    "name": "Ghost-Spider",
+    "type": "ally",
+    "octgn_id": "f7f86509-9c5b-44de-ae5c-bb071285dd8a",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27049",
+    "name": "Spider-Man",
+    "type": "ally",
+    "octgn_id": "56ee5f79-c097-4fe0-83b1-f0ef76f7ad17",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27054",
+    "name": "Government Liaison",
+    "type": "support",
+    "octgn_id": "bc85bac2-a76b-4cbf-a9ef-866ab34cb28e",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "sm",
+    "card_id": "27055",
+    "name": "Sky-Destroyer",
+    "type": "support",
+    "octgn_id": "36770b85-5114-4c14-aa24-ff41116ed4a5",
+    "pack_octgn_id": "5db83ac0-b4a3-49d3-b135-e6143d144cf3"
+  },
+  {
+    "pack_code": "spdr",
+    "card_id": "31001a",
+    "name": "SP//dr Suit",
+    "type": "hero",
+    "octgn_id": "5b7da011-412e-452a-9edd-24618a031001",
+    "pack_octgn_id": "5b7da011-412e-452a-9edd-24618a8bae2c"
+  },
+  {
+    "pack_code": "spdr",
+    "card_id": "31001b",
+    "name": "SP//dr Suit",
+    "type": "support",
+    "octgn_id": "5b7da011-412e-452a-9edd-24618a031001",
+    "pack_octgn_id": "5b7da011-412e-452a-9edd-24618a8bae2c"
+  },
+  {
+    "pack_code": "spdr",
+    "card_id": "31002a",
+    "name": "Peni Parker",
+    "type": "alter_ego",
+    "octgn_id": "5b7da011-412e-452a-9edd-24618a031002",
+    "pack_octgn_id": "5b7da011-412e-452a-9edd-24618a8bae2c"
+  },
+  {
+    "pack_code": "spdr",
+    "card_id": "31002b",
+    "name": "SP//dr",
+    "type": "upgrade",
+    "octgn_id": "5b7da011-412e-452a-9edd-24618a031002",
+    "pack_octgn_id": "5b7da011-412e-452a-9edd-24618a8bae2c"
+  },
+  {
+    "pack_code": "spdr",
+    "card_id": "31022",
+    "name": "Spider-Man",
+    "type": "ally",
+    "octgn_id": "5b7da011-412e-452a-9edd-24618a031022",
+    "pack_octgn_id": "5b7da011-412e-452a-9edd-24618a8bae2c"
+  },
+  {
+    "pack_code": "spdr",
+    "card_id": "31023",
+    "name": "Limitless Stamina",
+    "type": "event",
+    "octgn_id": "5b7da011-412e-452a-9edd-24618a031023",
+    "pack_octgn_id": "5b7da011-412e-452a-9edd-24618a8bae2c"
+  },
+  {
+    "pack_code": "spiderham",
+    "card_id": "30001a",
+    "name": "Spider-Ham",
+    "type": "hero",
+    "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030001",
+    "pack_octgn_id": "5f189d1d-2352-41cc-b285-a4c687da51de"
+  },
+  {
+    "pack_code": "spiderham",
+    "card_id": "30001b",
+    "name": "Peter Porker",
+    "type": "alter_ego",
+    "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030001",
+    "pack_octgn_id": "5f189d1d-2352-41cc-b285-a4c687da51de"
+  },
+  {
+    "pack_code": "spiderham",
+    "card_id": "30020",
+    "name": "Scarlet Spider",
+    "type": "ally",
+    "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030020",
+    "pack_octgn_id": "5f189d1d-2352-41cc-b285-a4c687da51de"
+  },
+  {
+    "pack_code": "spiderham",
+    "card_id": "30021",
+    "name": "SP//dr",
+    "type": "ally",
+    "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030021",
+    "pack_octgn_id": "5f189d1d-2352-41cc-b285-a4c687da51de"
+  },
+  {
+    "pack_code": "stld",
+    "card_id": "17001a",
+    "name": "Star-Lord",
+    "type": "hero",
+    "octgn_id": "19271db2-323b-4d18-ac6a-f756a7039120",
+    "pack_octgn_id": "aa79499f-88a2-4fcc-92da-408c9e146488"
+  },
+  {
+    "pack_code": "stld",
+    "card_id": "17001b",
+    "name": "Peter Quill",
+    "type": "alter_ego",
+    "octgn_id": "19271db2-323b-4d18-ac6a-f756a7039120",
+    "pack_octgn_id": "aa79499f-88a2-4fcc-92da-408c9e146488"
+  },
+  {
+    "pack_code": "stld",
+    "card_id": "17020",
+    "name": "Cosmo",
+    "type": "ally",
+    "octgn_id": "79bc8bc5-cee6-45aa-b364-9f5675e2f038",
+    "pack_octgn_id": "aa79499f-88a2-4fcc-92da-408c9e146488"
+  },
+  {
+    "pack_code": "stld",
+    "card_id": "17022",
+    "name": "Knowhere",
+    "type": "support",
+    "octgn_id": "ec856ad7-0f1c-46f4-8367-52103f36f0b2",
+    "pack_octgn_id": "aa79499f-88a2-4fcc-92da-408c9e146488"
+  },
+  {
+    "pack_code": "stld",
+    "card_id": "17028",
+    "name": "Dive Bomb",
+    "type": "event",
+    "octgn_id": "1125fdb4-41ac-4207-b147-5ef9d28ec4c5",
+    "pack_octgn_id": "aa79499f-88a2-4fcc-92da-408c9e146488"
+  },
+  {
+    "pack_code": "stld",
+    "card_id": "17030",
+    "name": "Ever Vigilant",
+    "type": "event",
+    "octgn_id": "e6759561-c0ff-4ee7-aa6b-c12d70ce1cff",
+    "pack_octgn_id": "aa79499f-88a2-4fcc-92da-408c9e146488"
+  },
+  {
+    "pack_code": "storm",
+    "card_id": "36001a",
+    "name": "Storm",
+    "type": "hero",
+    "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036001",
+    "pack_octgn_id": "775cc394-70e0-4a37-bb3b-5a13b47c9e31"
+  },
+  {
+    "pack_code": "storm",
+    "card_id": "36001b",
+    "name": "Ororo Munroe",
+    "type": "alter_ego",
+    "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036001",
+    "pack_octgn_id": "775cc394-70e0-4a37-bb3b-5a13b47c9e31"
+  },
+  {
+    "pack_code": "storm",
+    "card_id": "36002",
+    "name": "Clear Skies",
+    "type": "support",
+    "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036002",
+    "pack_octgn_id": "775cc394-70e0-4a37-bb3b-5a13b47c9e31"
+  },
+  {
+    "pack_code": "storm",
+    "card_id": "36003",
+    "name": "Hurricane",
+    "type": "support",
+    "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036003",
+    "pack_octgn_id": "775cc394-70e0-4a37-bb3b-5a13b47c9e31"
+  },
+  {
+    "pack_code": "storm",
+    "card_id": "36004",
+    "name": "Thunderstorm",
+    "type": "support",
+    "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036004",
+    "pack_octgn_id": "775cc394-70e0-4a37-bb3b-5a13b47c9e31"
+  },
+  {
+    "pack_code": "storm",
+    "card_id": "36005",
+    "name": "Blizzard",
+    "type": "support",
+    "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036005",
+    "pack_octgn_id": "775cc394-70e0-4a37-bb3b-5a13b47c9e31"
+  },
+  {
+    "pack_code": "thor",
+    "card_id": "06001a",
+    "name": "Thor",
+    "type": "hero",
+    "octgn_id": "e4f1243a-c2de-4275-98d0-3e848f3c755c",
+    "pack_octgn_id": "8d26c7dd-a46e-44de-b0a1-04ad31f68390"
+  },
+  {
+    "pack_code": "thor",
+    "card_id": "06001b",
+    "name": "Odinson",
+    "type": "alter_ego",
+    "octgn_id": "e4f1243a-c2de-4275-98d0-3e848f3c755c",
+    "pack_octgn_id": "8d26c7dd-a46e-44de-b0a1-04ad31f68390"
+  },
+  {
+    "pack_code": "thor",
+    "card_id": "06031",
+    "name": "Under Surveillance",
+    "type": "upgrade",
+    "octgn_id": "683a484c-8249-464b-ad78-75bf74b4589d",
+    "pack_octgn_id": "8d26c7dd-a46e-44de-b0a1-04ad31f68390"
+  },
+  {
+    "pack_code": "trors",
+    "card_id": "04001a",
+    "name": "Hawkeye",
+    "type": "hero",
+    "octgn_id": "2f74b331-1b9f-4766-ac0f-476ef3870da5",
+    "pack_octgn_id": "3b2a4c53-6d51-4b16-8342-db9b9e1e6c8a"
+  },
+  {
+    "pack_code": "trors",
+    "card_id": "04001b",
+    "name": "Clint Barton",
+    "type": "alter_ego",
+    "octgn_id": "2f74b331-1b9f-4766-ac0f-476ef3870da5",
+    "pack_octgn_id": "3b2a4c53-6d51-4b16-8342-db9b9e1e6c8a"
+  },
+  {
+    "pack_code": "trors",
+    "card_id": "04031a",
+    "name": "Spider-Woman",
+    "type": "hero",
+    "octgn_id": "21221f88-db06-4c5b-8208-483e75fb2577",
+    "pack_octgn_id": "3b2a4c53-6d51-4b16-8342-db9b9e1e6c8a"
+  },
+  {
+    "pack_code": "trors",
+    "card_id": "04031b",
+    "name": "Jessica Drew",
+    "type": "alter_ego",
+    "octgn_id": "21221f88-db06-4c5b-8208-483e75fb2577",
+    "pack_octgn_id": "3b2a4c53-6d51-4b16-8342-db9b9e1e6c8a"
+  },
+  {
+    "pack_code": "trors",
+    "card_id": "04047",
+    "name": "Skilled Investigator",
+    "type": "upgrade",
+    "octgn_id": "2e61816d-d995-427e-8449-5a6daf7c41c4",
+    "pack_octgn_id": "3b2a4c53-6d51-4b16-8342-db9b9e1e6c8a"
+  },
+  {
+    "pack_code": "trors",
+    "card_id": "04049",
+    "name": "Clear the Area",
+    "type": "event",
+    "octgn_id": "38bd55fd-0e98-4cb5-9375-4ae5d83907d0",
+    "pack_octgn_id": "3b2a4c53-6d51-4b16-8342-db9b9e1e6c8a"
+  },
+  {
+    "pack_code": "valk",
+    "card_id": "25001a",
+    "name": "Valkyrie",
+    "type": "hero",
+    "octgn_id": "dad11c1e-86ec-49ac-9509-2df1c575239b",
+    "pack_octgn_id": "cd491a1d-b192-4cd5-8a50-6f9093f271ee"
+  },
+  {
+    "pack_code": "valk",
+    "card_id": "25001b",
+    "name": "Brunnhilde",
+    "type": "alter_ego",
+    "octgn_id": "dad11c1e-86ec-49ac-9509-2df1c575239b",
+    "pack_octgn_id": "cd491a1d-b192-4cd5-8a50-6f9093f271ee"
+  },
+  {
+    "pack_code": "vision",
+    "card_id": "26001a",
+    "name": "Vision",
+    "type": "hero",
+    "octgn_id": "4141ca7b-ffda-42ed-8432-c2772ca13495",
+    "pack_octgn_id": "69713448-33d2-470b-99bd-e119346cfc27"
+  },
+  {
+    "pack_code": "vision",
+    "card_id": "26001b",
+    "name": "Vision",
+    "type": "alter_ego",
+    "octgn_id": "4141ca7b-ffda-42ed-8432-c2772ca13495",
+    "pack_octgn_id": "69713448-33d2-470b-99bd-e119346cfc27"
+  },
+  {
+    "pack_code": "vnm",
+    "card_id": "20001a",
+    "name": "Venom",
+    "type": "hero",
+    "octgn_id": "2d31dfce-8cf5-41b2-8ada-8158a363d320",
+    "pack_octgn_id": "ac7a05f3-6dfd-4966-add6-4156a24ec16b"
+  },
+  {
+    "pack_code": "vnm",
+    "card_id": "20001b",
+    "name": "Flash Thompson",
+    "type": "alter_ego",
+    "octgn_id": "2d31dfce-8cf5-41b2-8ada-8158a363d320",
+    "pack_octgn_id": "ac7a05f3-6dfd-4966-add6-4156a24ec16b"
+  },
+  {
+    "pack_code": "vnm",
+    "card_id": "20026",
+    "name": "Fusillade",
+    "type": "event",
+    "octgn_id": "2a514e47-8013-4629-b26f-9ba2df7c17d8",
+    "pack_octgn_id": "ac7a05f3-6dfd-4966-add6-4156a24ec16b"
+  },
+  {
+    "pack_code": "warm",
+    "card_id": "23001a",
+    "name": "War Machine",
+    "type": "hero",
+    "octgn_id": "5ffd29cc-de0f-41f0-87a6-571042058191",
+    "pack_octgn_id": "fa335428-d9ec-4c0d-8309-bc17699c7814"
+  },
+  {
+    "pack_code": "warm",
+    "card_id": "23001b",
+    "name": "James Rhodes",
+    "type": "alter_ego",
+    "octgn_id": "5ffd29cc-de0f-41f0-87a6-571042058191",
+    "pack_octgn_id": "fa335428-d9ec-4c0d-8309-bc17699c7814"
+  },
+  {
+    "pack_code": "winter",
+    "card_id": "54001a",
+    "name": "Winter Soldier",
+    "type": "hero",
+    "octgn_id": "8e74fa84-01d6-42e0-8b7d-b02638054001",
+    "pack_octgn_id": "8e74fa84-01d6-42e0-8b7d-b02638e96f5c"
+  },
+  {
+    "pack_code": "winter",
+    "card_id": "54001b",
+    "name": "Bucky Barnes",
+    "type": "alter_ego",
+    "octgn_id": "8e74fa84-01d6-42e0-8b7d-b02638054001",
+    "pack_octgn_id": "8e74fa84-01d6-42e0-8b7d-b02638e96f5c"
+  },
+  {
+    "pack_code": "winter",
+    "card_id": "54016",
+    "name": "Spoiling for a Fight",
+    "type": "event",
+    "octgn_id": "8e74fa84-01d6-42e0-8b7d-b02638054016",
+    "pack_octgn_id": "8e74fa84-01d6-42e0-8b7d-b02638e96f5c"
+  },
+  {
+    "pack_code": "winter",
+    "card_id": "54032",
+    "name": "White Widow",
+    "type": "ally",
+    "octgn_id": "8e74fa84-01d6-42e0-8b7d-b02638054032",
+    "pack_octgn_id": "8e74fa84-01d6-42e0-8b7d-b02638e96f5c"
+  },
+  {
+    "pack_code": "wolv",
+    "card_id": "35001a",
+    "name": "Wolverine",
+    "type": "hero",
+    "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035001",
+    "pack_octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca895722"
+  },
+  {
+    "pack_code": "wolv",
+    "card_id": "35001b",
+    "name": "Logan",
+    "type": "alter_ego",
+    "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035001",
+    "pack_octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca895722"
+  },
+  {
+    "pack_code": "wolv",
+    "card_id": "35002",
+    "name": "Wolverine's Claws",
+    "type": "upgrade",
+    "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035002",
+    "pack_octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca895722"
+  },
+  {
+    "pack_code": "wolv",
+    "card_id": "35013",
+    "name": "Psylocke",
+    "type": "ally",
+    "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035013",
+    "pack_octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca895722"
+  },
+  {
+    "pack_code": "wolv",
+    "card_id": "35022",
+    "name": "Weapon X",
+    "type": "support",
+    "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035022",
+    "pack_octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca895722"
+  },
+  {
+    "pack_code": "wsp",
+    "card_id": "13011",
+    "name": "Thor",
+    "type": "ally",
+    "octgn_id": "f0a837c2-2bd5-45bd-8597-c2914b1f4101",
+    "pack_octgn_id": "61039cd6-e30d-4e50-9019-0960e40385f4"
+  },
+  {
+    "pack_code": "wsp",
+    "card_id": "13014",
+    "name": "Surprise Attack",
+    "type": "event",
+    "octgn_id": "2d68d089-17ae-4186-97d0-e946238844fd",
+    "pack_octgn_id": "61039cd6-e30d-4e50-9019-0960e40385f4"
+  },
+  {
+    "pack_code": "wsp",
+    "card_id": "13016",
+    "name": "Boot Camp",
+    "type": "support",
+    "octgn_id": "797125f6-ccc0-4f27-afaf-faefd0bb80c1",
+    "pack_octgn_id": "61039cd6-e30d-4e50-9019-0960e40385f4"
+  },
+  {
+    "pack_code": "wsp",
+    "card_id": "13018",
+    "name": "Ironheart",
+    "type": "ally",
+    "octgn_id": "80916caf-8e48-4618-b738-1cc933232d95",
+    "pack_octgn_id": "61039cd6-e30d-4e50-9019-0960e40385f4"
+  },
+  {
+    "pack_code": "wsp",
+    "card_id": "13024",
+    "name": "The Power in All of Us",
+    "type": "resource",
+    "octgn_id": "9e2948fa-8002-4795-8859-3fd6d8619de1",
+    "pack_octgn_id": "61039cd6-e30d-4e50-9019-0960e40385f4"
+  },
+  {
+    "pack_code": "x23",
+    "card_id": "43021",
+    "name": "Specialized Training",
+    "type": "player_side_scheme",
+    "octgn_id": "75156e6a-46eb-4164-9986-e46621043021",
+    "pack_octgn_id": "75156e6a-46eb-4164-9986-e466213e2c4d"
   }
 ]
