@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Silver Surfer" id="a23e01f9-a42f-416f-a779-f919be0544de" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="a23e01f9-a42f-416f-a779-f919be000000" name="silver_surfer_by_hax">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax"/>
+    </card>
+    <card id="a23e01f9-a42f-416f-a779-f919be990000" name="silver_surfer_by_hax">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax_nemesis"/>
+    </card>
+    <card name="Silver Surfer" id="a23e01f9-a42f-416f-a779-f919be043001">
+      <property name="CardNumber" value="204301a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="14"/>
+      <property name="Attribute" value="Aerial. Cosmic. Adventurer."/>
+      <property name="Text">&lt;i&gt;Compunction&lt;/i&gt; — &lt;b&gt;Forced Response&lt;/b&gt;: After Silver Surfer makes a basic attack, change your form.</property>
+      <property name="Quote">“You mistake restraint for weakness.”</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Norrin Radd" type="b">
+        <property name="CardNumber" value="204301b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="Silver_Surfer_by_Hax"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="14"/>
+        <property name="Attribute" value="Cosmic. Adventurer."/>
+        <property name="Text">&lt;i&gt;Toomie!&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Exhaust Norrin Radd → search your deck and discard pile for The Silver Surfboard upgrade and add it to your hand. Shuffle your deck.</property>
+        <property name="Quote">“To me, my board!”</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Dawn Greenwood" id="a23e01f9-a42f-416f-a779-f919be043002">
+      <property name="CardNumber" value="204302"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="1"/>
+      <property name="Attribute" value="Adventurer."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When Dawn Greenwood is defeated, deal 2 damage to your identity → return Dawn Greenwood to your hand.</property>
+      <property name="Quote">“You can't have her! I won't let you!” — Silver Surfer</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Silver Surfboard" id="a23e01f9-a42f-416f-a779-f919be043003">
+      <property name="CardNumber" value="204303"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Aerial. Cosmic. Vehicle."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust The Silver Surfboard → ready Silver Surfer.
+&lt;b&gt;Interrupt&lt;/b&gt;: When you discard The Silver Surfboard, deal 1 damage to Silver Surfer → draw a card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Energy Manipulation" id="a23e01f9-a42f-416f-a779-f919be043004">
+      <property name="CardNumber" value="204304"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Cosmic. Superpower."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Spend X [energy] resources → put X energy counters here.
+&lt;b&gt;Hero Action&lt;/b&gt;: Discard Energy Manipulation → draw 1 card (to a maximum of 5) for each energy counter here.</property>
+    </card>
+    <card name="Rage of Retribution" id="a23e01f9-a42f-416f-a779-f919be043005">
+      <property name="CardNumber" value="204305"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Silver Surfer gains retaliate 1.
+&lt;b&gt;Interrupt&lt;/b&gt;: When Silver Surfer would change form, discard Rage of Retribution → ready Silver Surfer instead.</property>
+      <property name="Quote">“Face my full unbridled fury!”</property>
+    </card>
+    <card name="Cosmic Speed" id="a23e01f9-a42f-416f-a779-f919be043006">
+      <property name="CardNumber" value="204306"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Cosmic. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Choose one:
+* Remove 4 threat from a scheme.
+* Discard The Silver Surfboard → remove up to 3 threat from each scheme in play.</property>
+      <property name="Quote">“Board, listen! Go that way, I'll go the other.”</property>
+    </card>
+    <card name="Cosmic Strength" id="a23e01f9-a42f-416f-a779-f919be043007">
+      <property name="CardNumber" value="204307"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Cosmic. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you make a basic attack, choose one:
+* You get +7 ATK for that attack.
+* Discard The Silver Surfboard → You get +9 ATK for that attack and it gains overkill.</property>
+    </card>
+    <card name="Cosmic Energy" id="a23e01f9-a42f-416f-a779-f919be043008">
+      <property name="CardNumber" value="204308"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Attack. Cosmic. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Remove X threat divided among schemes as you choose and deal X damage to an enemy, where X is the number of [energy] resources you paid for Cosmic Energy's cost.</property>
+      <property name="Quote">“That's the power cosmic.”</property>
+    </card>
+    <card name="Silver Up" id="a23e01f9-a42f-416f-a779-f919be043009">
+      <property name="CardNumber" value="204309"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Cosmic. Superpower."/>
+      <property name="Text">When you play this card, you may discard The Silver Surfboard, then choose two instead.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Flip to Silver Surfer, then choose one: draw 2 cards, deal 4 damage to an enemy, or ready Silver Surfer.</property>
+    </card>
+    <card name="The Power Cosmic" id="a23e01f9-a42f-416f-a779-f919be043010">
+      <property name="CardNumber" value="204310"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Cosmic."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After you spend this card to play a &lt;b&gt;COSMIC&lt;/b&gt; event, deal 2 damage to an enemy.</property>
+      <property name="Quote">“That's very...convenient.” — Dawn Greenwood</property>
+    </card>
+    <card name="Silver Down" id="a23e01f9-a42f-416f-a779-f919be043011" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="204311"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Norrin Radd player.&lt;/i&gt;&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+* Exhaust Norrin Radd → remove Silver Down from the game.
+* Summon Dawn Greenwood and remove her from the game → remove Silver Down from the game.</property>
+    </card>
+    <card name="Galactus" id="a23e01f9-a42f-416f-a779-f919be043012" size="EncounterCard">
+      <property name="CardNumber" value="204312"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Cosmic. Elite."/>
+      <property name="Text">Villainous.
+&lt;b&gt;When Revealed&lt;/b&gt;: Reveal The World Eater and put it into play engaged with you.
+&lt;b&gt;When Defeated&lt;/b&gt;: Remove Galactus from the game.</property>
+      <property name="Quote">(Silver Surfer's nemesis minion.)</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The World Eater" id="a23e01f9-a42f-416f-a779-f919be043013" size="EncounterCard">
+      <property name="CardNumber" value="204313"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax_nemesis"/>
+      <property name="Attack" value="0"/>
+      <property name="Scheme" value="0"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Cosmic. Elite."/>
+      <property name="Text">Galactus cannot take damage and his attacks gain overkill.
+&lt;b&gt;When Defeated&lt;/b&gt;: Remove The World Eater from the game.</property>
+      <property name="Quote">“You will claim no victory here today, Norrin Radd. True, you may delay me for a time, but you cannot possibly stop me.”</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Life Stealer" id="a23e01f9-a42f-416f-a779-f919be043014" size="SchemeCard">
+      <property name="CardNumber" value="204314"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax_nemesis"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">All friendly characters get -1 ATK.
+&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 additional threat here for each friendly character in play.</property>
+      <property name="Quote">Galactus is using The Power Cosmic to steal the heroes' life force!</property>
+    </card>
+    <card name="Cosmic Power" id="a23e01f9-a42f-416f-a779-f919be043015" size="EncounterCard">
+      <property name="CardNumber" value="204315"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="Silver_Surfer_by_Hax_nemesis"/>
+      <property name="Text">Attach to Galactus. If you cannot, attach to the villain.
+[star] Attached enemy's attacks gain overkill.
+&lt;b&gt;Hero Action&lt;/b&gt;: Take 3 damage → remove Cosmic Power from the game.</property>
+      <property name="Quote">“The only power you possess, is the power I bestowed upon you.”</property>
+    </card>
+  </cards>
+</set>

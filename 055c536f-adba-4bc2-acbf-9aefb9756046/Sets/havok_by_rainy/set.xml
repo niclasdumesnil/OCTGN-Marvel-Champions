@@ -9,5 +9,247 @@
       <property name="Type" value="fm_encounter_setup"/>
       <property name="Owner" value="havok_by_rainy_nemesis"/>
     </card>
+    <card name="Havok" id="6c7d476a-f54a-4e3c-b3ac-118c03030001">
+      <property name="CardNumber" value="203001a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="havok_by_rainy"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;i&gt;Plasma Generation&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you pay for a card using only [energy] resources, place 1 plasma counter on Havok (to a maximum of 3).
+&lt;i&gt;“You keep this up and soon...you'll cry Havok!”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Alex Summers" type="b">
+        <property name="CardNumber" value="203001b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="havok_by_rainy"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Mutant."/>
+        <property name="Text">&lt;i&gt;Rest &amp; Recharge&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Remove 1 plasma counter from here → heal 2 damage from Alex Summers. Search your deck and discard pile for a Cosmic Energy resource and add it to your hand. (Limit once per round.)</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Polaris" id="6c7d476a-f54a-4e3c-b3ac-118c03030002">
+      <property name="CardNumber" value="203002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="havok_by_rainy"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After Polaris enters play, place 1 plasma counter on Havok (to a maximum of 3). If this places the third plasma counter on Havok, each player may choose a card in their discard pile and add it to their hand.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Energy Absorption" id="6c7d476a-f54a-4e3c-b3ac-118c03030003">
+      <property name="CardNumber" value="203003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="havok_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Defense. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt &lt;/b&gt;&lt;i&gt;(defense)&lt;/i&gt;:&lt;b&gt; &lt;/b&gt;When you would take any amount of damage from an attack, prevent up to 4 of that damage. Then, if you took no damage from that attack, you may place a plasma counter on Havok (to a maximum of 3).
+&lt;i&gt;“C'mon, give me all you've got!” —Havok&lt;/i&gt;</property>
+    </card>
+    <card name="Plasma Blast" id="6c7d476a-f54a-4e3c-b3ac-118c03030004">
+      <property name="CardNumber" value="203004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="havok_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;:&lt;b&gt; &lt;/b&gt;Deal 3 damage to an enemy, plus 2 additional damage for each plasma counter on Havok. This attack gains overkill.
+&lt;i&gt;“I've been afraid of letting loose ever since I first manifested my powers. But here goes!” —Havok&lt;/i&gt;</property>
+    </card>
+    <card name="Plasma Burst" id="6c7d476a-f54a-4e3c-b3ac-118c03030005">
+      <property name="CardNumber" value="203005"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="havok_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;:&lt;b&gt; &lt;/b&gt;Resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on Plasma Discharge.
+&lt;i&gt;“With everything that's been happening, I actually find this pretty cathartic.” —Havok&lt;/i&gt;</property>
+    </card>
+    <card name="Wreak Havoc" id="6c7d476a-f54a-4e3c-b3ac-118c03030006">
+      <property name="CardNumber" value="203006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="havok_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(thwart)&lt;/i&gt;:&lt;b&gt; &lt;/b&gt;Remove 2 threat from a scheme, plus 1 additional threat for each plasma counter on Havok. You may remove a plasma counter from Havok to repeat this thwart on another scheme once.</property>
+    </card>
+    <card name="Cosmic Energy" id="6c7d476a-f54a-4e3c-b3ac-118c03030007">
+      <property name="CardNumber" value="203007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="havok_by_rainy"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When you spend this card, choose to either generate an additional [energy] resource or place 1 plasma counter on Havok (to a maximum of 3).</property>
+    </card>
+    <card name="Containment Suit" id="6c7d476a-f54a-4e3c-b3ac-118c03030008">
+      <property name="CardNumber" value="203008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="havok_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you would resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on Plasma Discharge, exhaust Containment Suit and choose a player → deal 3 damage to the villain and each minion engaged with that player instead.</property>
+    </card>
+    <card name="Controlled Blast" id="6c7d476a-f54a-4e3c-b3ac-118c03030009">
+      <property name="CardNumber" value="203009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="havok_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you would resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on Plasma Discharge, remove 1 threat from each scheme instead.
+&lt;i&gt;“You'd be surprised how many problems you can solve with a controlled plasma blast.” —Havok&lt;/i&gt;</property>
+    </card>
+    <card name="Plasma Discharge" id="6c7d476a-f54a-4e3c-b3ac-118c03030010">
+      <property name="CardNumber" value="203010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="havok_by_rainy"/>
+      <property name="Cost" value="None"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Permanent. Setup.
+&lt;b&gt;Forced Response&lt;/b&gt;: After you place a third plasma counter on Havok, remove all plasma counters on him. Resolve this card's "&lt;b&gt;Special&lt;/b&gt;" ability.
+&lt;b&gt;Special&lt;/b&gt;: Deal 1 damage to each enemy.
+&lt;i&gt;“You keep this up and soon...you'll cry Havok!” —Havok&lt;/i&gt;</property>
+    </card>
+    <card name="Brothers 'Til the End" id="6c7d476a-f54a-4e3c-b3ac-118c03030011">
+      <property name="CardNumber" value="203011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">Team-Up (Cyclops and Havok). Max 1 per deck.&lt;b&gt;
+Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 3 damage to an enemy. Deal 1 damage to each other enemy. This attack gains ranged.
+&lt;i&gt;“Just like old times, eh Alex?” —Cyclops&lt;/i&gt;</property>
+    </card>
+    <card name="Energy Surge" id="6c7d476a-f54a-4e3c-b3ac-118c03030012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="203012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="havok_by_rainy"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Choose one, then discard this obligation:
+. Exhaust Containment Suit. If you cannot, exhaust your identity.
+. Deal 1 damage to each character other than your identity and Cyclops/Scott Summers. This card gains surge.</property>
+    </card>
+    <card name="Reign of Fire" id="6c7d476a-f54a-4e3c-b3ac-118c03030013" size="SchemeCard">
+      <property name="CardNumber" value="203013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="havok_by_rainy_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;After a bloody civil war, Vulcan has crowned himself emperor of the Shi'ar, and his forces now scour the galaxy for Havok and his allies.
+&lt;/i&gt;&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the villain phase ends, deal 1 indirect damage to each player.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Deal 1 indirect damage to each player.
+[hazard]</property>
+    </card>
+    <card name="Vulcan" id="6c7d476a-f54a-4e3c-b3ac-118c03030014" size="EncounterCard">
+      <property name="CardNumber" value="203014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="havok_by_rainy_nemesis"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Elite. Emperor. Imperial Guard."/>
+      <property name="Text">Retaliate 1.
+Reduce all damage dealt to Vulcan by 1.
+[[superpower]] cards cost 1 additional resource to play.
+&lt;i&gt;(Havok's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Deathbird" id="6c7d476a-f54a-4e3c-b3ac-118c03030015" size="EncounterCard">
+      <property name="CardNumber" value="203015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="havok_by_rainy_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Aerial. Elite. Imperial Guard."/>
+      <property name="Text">Teamwork ([[imperial guard]]).
+[star]&lt;b&gt; Forced Response&lt;/b&gt;: After Deathbird activates against you, place 1 troop counter on Shi'ar Legion. If you cannot, find Shi'ar Legion and put them into play engaged with the player with the fewest remaining hit points.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Shi'ar Legion" id="6c7d476a-f54a-4e3c-b3ac-118c03030016" size="EncounterCard">
+      <property name="CardNumber" value="203016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="havok_by_rainy_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="1"/>
+      <property name="Attribute" value="Imperial Guard."/>
+      <property name="Text">Enters play with 3 troop counters.
+[star] Shi'ar Legion gets +X SCH and +X ATK, where X equals the number of troop counters here.&lt;b&gt;
+Forced Interrupt&lt;/b&gt;: When Shi'ar Legion would take damage, remove 1 troop counter from here instead.</property>
+    </card>
   </cards>
 </set>

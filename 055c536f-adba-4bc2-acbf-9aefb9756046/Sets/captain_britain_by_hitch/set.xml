@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Captain Britain" id="b7546cdd-468b-4441-b605-a8ec1bc7612d" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="b7546cdd-468b-4441-b605-a8ec1b000000" name="captain_britain_by_hitch">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch"/>
+    </card>
+    <card id="b7546cdd-468b-4441-b605-a8ec1b990000" name="captain_britain_by_hitch">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch_nemesis"/>
+    </card>
+    <card name="Captain Britain" id="b7546cdd-468b-4441-b605-a8ec1b042001">
+      <property name="CardNumber" value="204201a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Excalibur. Psionic."/>
+      <property name="Text">You may play cards attached to your identity as if they were in your hand.
+&lt;i&gt;Counter-attack&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: After you defend against an enemy attack and take no damage, deal damage to that enemy equal to your ATK.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Betsy Braddock" type="b">
+        <property name="CardNumber" value="204201b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="Captain_Britain_by_Hitch"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Psionic. Mutant."/>
+        <property name="Text">You may play cards attached to your identity as if they were in your hand. Max 1 attached card.
+&lt;i&gt;Telekinesis&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Search your deck for a &lt;b&gt;PSIONIC&lt;/b&gt; card and attach it faceup to your identity. (Limit once per round.)</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Captain Avalon" id="b7546cdd-468b-4441-b605-a8ec1b042002">
+      <property name="CardNumber" value="204202"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Otherworld."/>
+      <property name="Text">Toughness.
+[star] Captain Avalon's basic attack gains piercing. &lt;i&gt;(Discard any tough status cards from the target before dealing damage.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Telekinetic Sword" id="b7546cdd-468b-4441-b605-a8ec1b042003">
+      <property name="CardNumber" value="204203"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Weapon. Psionic."/>
+      <property name="Text">Restricted.
+Captain Britain gets +1 ATK.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you make an attack, exhaust Telekinetic Sword → that attack gains piercing.</property>
+    </card>
+    <card name="Telekinetic Shield" id="b7546cdd-468b-4441-b605-a8ec1b042004">
+      <property name="CardNumber" value="204204"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Weapon. Psionic."/>
+      <property name="Text">Restricted.
+Captain Britain gets +1 DEF.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you defend against an attack, exhaust Telekinetic Shield → ready Captain Britain.</property>
+    </card>
+    <card name="Amulet of Right" id="b7546cdd-468b-4441-b605-a8ec1b042005">
+      <property name="CardNumber" value="204205"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Otherworld."/>
+      <property name="Text">You get +2 hit points.
+&lt;b&gt;Resource&lt;/b&gt;: Exhaust Amulet of Right → generate a [wild] resource.</property>
+    </card>
+    <card name="Braddock Lighthouse" id="b7546cdd-468b-4441-b605-a8ec1b042006">
+      <property name="CardNumber" value="204206"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">Betsy Braddock gets +2 REC.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Braddock Lighthouse → shuffle up to 2 events from the discard pile into your deck.</property>
+    </card>
+    <card name="Shield Bash" id="b7546cdd-468b-4441-b605-a8ec1b042007">
+      <property name="CardNumber" value="204207"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Psionic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Confuse an enemy. If you paid for this card using a [physical] resource, deal 4 damage to that enemy.</property>
+    </card>
+    <card name="Against the Tides" id="b7546cdd-468b-4441-b605-a8ec1b042008">
+      <property name="CardNumber" value="204208"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you defeat an enemy, ready Captain Britain.</property>
+    </card>
+    <card name="Psionic Defense" id="b7546cdd-468b-4441-b605-a8ec1b042009">
+      <property name="CardNumber" value="204209"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Defense. Psionic."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(defense)&lt;/i&gt;: When you defend against an attack, you get +3 DEF for that attack. If you take no damage from that attack, heal 1 damage for each point of excess damage blocked.</property>
+    </card>
+    <card name="Psionic Blast" id="b7546cdd-468b-4441-b605-a8ec1b042010">
+      <property name="CardNumber" value="204210"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Psionic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Choose one:
+* Deal 1 damage to each enemy.
+* Deal 5 damage to an enemy.</property>
+    </card>
+    <card name="Provoke" id="b7546cdd-468b-4441-b605-a8ec1b042011">
+      <property name="CardNumber" value="204211"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Choose an enemy. That enemy attacks you. Remove threat from a scheme equal to your DEF.</property>
+    </card>
+    <card name="Sibling Rivalry" id="b7546cdd-468b-4441-b605-a8ec1b042012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="204212"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Betsy Braddock player.&lt;/i&gt;&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+* Exhaust Betsy Braddock → remove Sibling Rivalry from the game.
+* Discard each event from your hand. If no cards are discarded this way, this card gains surge. Discard this obligation.</property>
+    </card>
+    <card name="King Jamie Braddock" id="b7546cdd-468b-4441-b605-a8ec1b042013" size="EncounterCard">
+      <property name="CardNumber" value="204213"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Avalon. Mutant."/>
+      <property name="Text">Villainous.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When King Jamie Braddock schemes, if the Fractured Realities side scheme is in play place the threat on it instead.
+&lt;b&gt;When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for the Fractured Realities side scheme and put it into play.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Fractured Realities" id="b7546cdd-468b-4441-b605-a8ec1b042014" size="SchemeCard">
+      <property name="CardNumber" value="204214"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch_nemesis"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">The villain cannot take damage.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the villain would attack, put 1 threat on the main scheme instead.
+[hazard]</property>
+    </card>
+    <card name="Quantum Teleportation" id="b7546cdd-468b-4441-b605-a8ec1b042015" size="EncounterCard">
+      <property name="CardNumber" value="204215"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Attach to King Jamie Braddock. Otherwise, attach to the villain. Uses (3 teleport counters).
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached enemy would take any amount of damage, remove 1 teleport counter from this card → prevent all of that damage.</property>
+    </card>
+    <card name="Backlash" id="b7546cdd-468b-4441-b605-a8ec1b042016" size="EncounterCard">
+      <property name="CardNumber" value="204216"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="Captain_Britain_by_Hitch_nemesis"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard the top 5 cards of your deck. For each event discarded this way, take 1 indirect damage.
+[star] &lt;b&gt;Boost&lt;/b&gt;: For each event in your hand, this card gains 1 boost icon (to a maximum of 4).</property>
+    </card>
+  </cards>
+</set>

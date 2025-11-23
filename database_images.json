@@ -232,6 +232,14 @@
     "pack_octgn_id": ""
   },
   {
+    "pack_code": "2025_weekly",
+    "card_id": "999105",
+    "name": "Infamous Antiheroes",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
     "pack_code": "agent_of_shield_by_merlin",
     "card_id": "253001b",
     "name": "Agent du S.H.I.E.L.D.",
@@ -549,14 +557,6 @@
     "name": "Lurking",
     "type": "upgrade",
     "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028010",
-    "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
-  },
-  {
-    "pack_code": "alligator_loki_by_ripper3",
-    "card_id": "202811",
-    "name": "Lurking",
-    "type": "upgrade",
-    "octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d028011",
     "pack_octgn_id": "62f6ed57-a6a4-4598-bf0f-f9005d21bb50"
   },
   {
@@ -6064,6 +6064,142 @@
     "pack_octgn_id": "523dd7c3-884e-4eae-a2a6-df5be0ad30be"
   },
   {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204101b",
+    "name": "Blackagar Boltagon",
+    "type": "alter_ego",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204101a",
+    "name": "Black Bolt",
+    "type": "hero",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204102",
+    "name": "Lockjaw",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204103",
+    "name": "Strength of a King",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204104",
+    "name": "Energy Beam",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204105",
+    "name": "Aerial Dodge",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204106",
+    "name": "Silent Schemes",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204107",
+    "name": "Electron Absorption",
+    "type": "resource",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204108",
+    "name": "Royal Antenna",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204109",
+    "name": "Anti-Graviton Field",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204110",
+    "name": "Inhuman Throne",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204111",
+    "name": "Commanding Voice",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204112",
+    "name": "Muzzled",
+    "type": "obligation",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204113",
+    "name": "Maximus the Mad",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204114",
+    "name": "Alpha Primitives Revolt",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204115",
+    "name": "Telepathic Manipulation",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
+    "pack_code": "Black_Bolt_by_1-2-punchboard",
+    "card_id": "204116",
+    "name": "Madman's Invention",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "22ab00e8-c78a-4b66-ab58-15b782090fea"
+  },
+  {
     "pack_code": "blink_by_kajislav",
     "card_id": "201001a",
     "name": "Blink",
@@ -6902,6 +7038,142 @@
     "type": "upgrade",
     "octgn_id": "e798e771-db92-4108-8cf5-81019e16cb3c",
     "pack_octgn_id": "e09a8f87-88ee-4702-ada2-3ea1e5717e63"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204201b",
+    "name": "Betsy Braddock",
+    "type": "alter_ego",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042001",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204201a",
+    "name": "Captain Britain",
+    "type": "hero",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042001",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204202",
+    "name": "Captain Avalon",
+    "type": "ally",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042002",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204203",
+    "name": "Telekinetic Sword",
+    "type": "upgrade",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042003",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204204",
+    "name": "Telekinetic Shield",
+    "type": "upgrade",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042004",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204205",
+    "name": "Amulet of Right",
+    "type": "upgrade",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042005",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204206",
+    "name": "Braddock Lighthouse",
+    "type": "support",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042006",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204207",
+    "name": "Shield Bash",
+    "type": "event",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042007",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204208",
+    "name": "Against the Tides",
+    "type": "event",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042008",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204209",
+    "name": "Psionic Defense",
+    "type": "event",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042009",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204210",
+    "name": "Psionic Blast",
+    "type": "event",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042010",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204211",
+    "name": "Provoke",
+    "type": "event",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042011",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204212",
+    "name": "Sibling Rivalry",
+    "type": "obligation",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042012",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204213",
+    "name": "King Jamie Braddock",
+    "type": "minion",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042013",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204214",
+    "name": "Fractured Realities",
+    "type": "side_scheme",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042014",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204215",
+    "name": "Quantum Teleportation",
+    "type": "attachment",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042015",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
+  },
+  {
+    "pack_code": "Captain_Britain_by_Hitch",
+    "card_id": "204216",
+    "name": "Backlash",
+    "type": "treachery",
+    "octgn_id": "b7546cdd-468b-4441-b605-a8ec1b042016",
+    "pack_octgn_id": "b7546cdd-468b-4441-b605-a8ec1bc7612d"
   },
   {
     "pack_code": "cap",
@@ -20880,6 +21152,126 @@
     "pack_octgn_id": "2bb9367c-944e-4475-b643-6a84c3214443"
   },
   {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204001b",
+    "name": "Karnak Mander-Azur",
+    "type": "alter_ego",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040001",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204001a",
+    "name": "Karnak",
+    "type": "hero",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040001",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204002",
+    "name": "Gorgon Petragon",
+    "type": "ally",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040002",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204003",
+    "name": "Excess and Restraint",
+    "type": "event",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040003",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204004",
+    "name": "Disarm",
+    "type": "event",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040004",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204005",
+    "name": "Peerless Defense",
+    "type": "upgrade",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040005",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204006",
+    "name": "Probing for Weakness",
+    "type": "event",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040006",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204007",
+    "name": "Martial Training",
+    "type": "resource",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040007",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204008",
+    "name": "Tower of Wisdom",
+    "type": "support",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040008",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204009",
+    "name": "The Shatterer",
+    "type": "event",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040009",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204010",
+    "name": "Forever Unchanging",
+    "type": "obligation",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040010",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204011",
+    "name": "Kree Invasion",
+    "type": "side_scheme",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040011",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204012",
+    "name": "Supreme Intelligence",
+    "type": "minion",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040012",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204013",
+    "name": "Kree Soldier",
+    "type": "minion",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040013",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
+    "pack_code": "Karnak_by_1-2-punchboard",
+    "card_id": "204014",
+    "name": "Collective Intelligence",
+    "type": "attachment",
+    "octgn_id": "7f9b9b69-72b7-477d-9891-b4856c040014",
+    "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
+  },
+  {
     "pack_code": "king_in_black_by_ekaugust",
     "card_id": "500333",
     "name": "Carnage",
@@ -32998,6 +33390,134 @@
     "type": "treachery",
     "octgn_id": "25cf07ae-e8ab-4443-8040-672bd2052038",
     "pack_octgn_id": "25cf07ae-e8ab-4443-8040-672bd25d635a"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204301b",
+    "name": "Norrin Radd",
+    "type": "alter_ego",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043001",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204301a",
+    "name": "Silver Surfer",
+    "type": "hero",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043001",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204302",
+    "name": "Dawn Greenwood",
+    "type": "ally",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043002",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204303",
+    "name": "The Silver Surfboard",
+    "type": "upgrade",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043003",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204304",
+    "name": "Energy Manipulation",
+    "type": "upgrade",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043004",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204305",
+    "name": "Rage of Retribution",
+    "type": "upgrade",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043005",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204306",
+    "name": "Cosmic Speed",
+    "type": "event",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043006",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204307",
+    "name": "Cosmic Strength",
+    "type": "event",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043007",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204308",
+    "name": "Cosmic Energy",
+    "type": "event",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043008",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204309",
+    "name": "Silver Up",
+    "type": "event",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043009",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204310",
+    "name": "The Power Cosmic",
+    "type": "resource",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043010",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204311",
+    "name": "Silver Down",
+    "type": "obligation",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043011",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204312",
+    "name": "Galactus",
+    "type": "minion",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043012",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204313",
+    "name": "The World Eater",
+    "type": "minion",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043013",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204314",
+    "name": "The Life Stealer",
+    "type": "side_scheme",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043014",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+  },
+  {
+    "pack_code": "Silver_Surfer_by_Hax",
+    "card_id": "204315",
+    "name": "Cosmic Power",
+    "type": "attachment",
+    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043015",
+    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
   },
   {
     "pack_code": "singularity_by_phenexian",

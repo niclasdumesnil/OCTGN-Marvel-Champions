@@ -9,5 +9,242 @@
       <property name="Type" value="fm_encounter_setup"/>
       <property name="Owner" value="scarlet_spider_by_ripper3_nemesis"/>
     </card>
+    <card name="Scarlet Spider" id="22b2ebb7-99cf-4402-930c-c08019035001">
+      <property name="CardNumber" value="203501a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3"/>
+      <property name="HandSize" value="4"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Web-Warrior."/>
+      <property name="Text">&lt;i&gt;All The Power&lt;/i&gt;&lt;b&gt; &lt;/b&gt;—&lt;b&gt; Action&lt;/b&gt;: Deal 2 damage to Scarlet Spider → ready each Organic Webbing upgrade. (Limit once per round.)
+&lt;i&gt;“They're calling me Scarlet Spider now. Another man's name... a better man. But I'm trying.”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Kaine" type="b">
+        <property name="CardNumber" value="203501b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="scarlet_spider_by_ripper3"/>
+        <property name="HandSize" value="5"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Assassin. Clone."/>
+        <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Put your 2 Organic Webbing upgrades into play.
+&lt;i&gt;No Responsibility &lt;/i&gt;— &lt;b&gt;Interrupt&lt;/b&gt;: When the villain initiates a scheme against you, draw 1 card.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Organic Webbing" id="22b2ebb7-99cf-4402-930c-c08019035002">
+      <property name="CardNumber" value="203502"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3"/>
+      <property name="Cost" value="None"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Permanent.
+&lt;b&gt;Hero Resource&lt;/b&gt;: Exhaust Organic Webbing → generate a [physical] resource for an event.
+&lt;b&gt;Alter-Ego Resource&lt;/b&gt;: Exhaust Organic Webbing and take 1 damage → generate a [wild] resource.</property>
+    </card>
+    <card name="Venom" id="22b2ebb7-99cf-4402-930c-c08019035003">
+      <property name="CardNumber" value="203503"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Soldier. Symbiote."/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: Discard cards from the top of your deck until you discard an event and add it to you hand.
+[acceleration] &lt;i&gt;“ ... I've been looking forward to this.”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Scarlet Web Kick" id="22b2ebb7-99cf-4402-930c-c08019035004">
+      <property name="CardNumber" value="203504"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Aerial. Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Deal 8 damage to an enemy. If you paid for this card using only [physical] resources, this attack deals 1 additional damage and gains overkill.</property>
+    </card>
+    <card name="Tangled Web" id="22b2ebb7-99cf-4402-930c-c08019035005">
+      <property name="CardNumber" value="203505"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from among schemes in play. If you paid for this card using only resources generated by Organic Webbing, ready your hero.
+&lt;i&gt;“ I... am... not... SPIDER-MAN!”&lt;/i&gt;</property>
+    </card>
+    <card name="Mark of Kaine" id="22b2ebb7-99cf-4402-930c-c08019035006">
+      <property name="CardNumber" value="203506"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy. If you paid for this card using only [physical] resources, stun and confuse that enemy.</property>
+    </card>
+    <card name="Front Flip" id="22b2ebb7-99cf-4402-930c-c08019035007">
+      <property name="CardNumber" value="203507"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Defense. Skill."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt &lt;/b&gt;&lt;i&gt;(defense)&lt;/i&gt;: When an enemy initiates an attack against you, give Scarlet Spider a tough status card. If you paid for this card using a [physical] resource, draw 1 card.
+&lt;i&gt;“I deserve this. But not from these bastards.”&lt;/i&gt;</property>
+    </card>
+    <card name="Stealth Suit" id="22b2ebb7-99cf-4402-930c-c08019035008">
+      <property name="CardNumber" value="203508"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">Events tucked here may be played as if they were in your hand.
+&lt;b&gt;Response&lt;/b&gt;: After you change form, exhaust Stealth Suit → choose an event in your discard pile and tuck it here (to a maximum of 3).</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Spider-Healing Factor" id="22b2ebb7-99cf-4402-930c-c08019035009">
+      <property name="CardNumber" value="203509"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust Spider-Healing Factor → heal 2 damage from your identity.
+&lt;i&gt;“This may take more than five minutes.” &lt;/i&gt;— &lt;i&gt;Scarlet Spider&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Stingers" id="22b2ebb7-99cf-4402-930c-c08019035010">
+      <property name="CardNumber" value="203510"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">As an additional cost to play Stingers, take 2 damage.
+&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Exhaust Stingers → deal 1 damage to an enemy. Deal 1 damage to an enemy.</property>
+    </card>
+    <card name="Houston, Texas" id="22b2ebb7-99cf-4402-930c-c08019035011">
+      <property name="CardNumber" value="203511"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Houston, Texas → shuffle 1 Scarlet Spider card from your discard pile into your deck. Heal 1 damage from Kaine.
+&lt;i&gt;“If I've learned one thing, it's that you could not pay me to swing around in costume with this kind of humidity.” — Peter Parker&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Carrion Virus" id="22b2ebb7-99cf-4402-930c-c08019035012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="203512"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">You cannot ready Organic Webbing upgrades.
+&lt;b&gt;When Revealed&lt;/b&gt;: Exhaust each of your Organic Webbing upgrades.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Kaine → remove this obligation from the game.</property>
+    </card>
+    <card name="The Jackal's Obsession" id="22b2ebb7-99cf-4402-930c-c08019035013" size="SchemeCard">
+      <property name="CardNumber" value="203513"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;“Through my perfected cloning techniques, I, THE JACKAL, will bring Gwen Stacy back to life.” -Miles Warren, the Jackal
+&lt;/i&gt;&lt;b&gt;When Revealed:&lt;/b&gt; Place 1[per_hero] threat here.
+[crisis] &lt;i&gt;
+&lt;/i&gt;</property>
+    </card>
+    <card name="Jackal" id="22b2ebb7-99cf-4402-930c-c08019035014" size="EncounterCard">
+      <property name="CardNumber" value="203514"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="3"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Criminal. Genius."/>
+      <property name="Text">Quickstrike.
+&lt;b&gt;When Defeated&lt;/b&gt;: Confuse your identity. Search the encounter deck and set-aside area for the Clone Saga environment and put it into play.
+&lt;i&gt;(Scarlet Spider's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Clone Saga" id="22b2ebb7-99cf-4402-930c-c08019035015" size="EncounterCard">
+      <property name="CardNumber" value="203515"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3_nemesis"/>
+      <property name="Text">Surge. Jackal gains surge.
+The unique rule does not apply to characters in play.
+Each [[clone ]]minion gains each [[trait ]]of the identity engaged with them.</property>
+    </card>
+    <card name="Clone" id="22b2ebb7-99cf-4402-930c-c08019035016" size="EncounterCard">
+      <property name="CardNumber" value="203516"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="scarlet_spider_by_ripper3_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Clone."/>
+      <property name="Text">&lt;b&gt;Forced Interrupt:&lt;/b&gt; When a character other than your identity attacks Clone, discard the top card of your deck. If that card's printed cost is odd, resolve that attack against your identity instead.</property>
+    </card>
   </cards>
 </set>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Black Bolt" id="22ab00e8-c78a-4b66-ab58-15b782090fea" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="22ab00e8-c78a-4b66-ab58-15b782000000" name="black_bolt_by_1-2-punchboard">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+    </card>
+    <card id="22ab00e8-c78a-4b66-ab58-15b782990000" name="black_bolt_by_1-2-punchboard">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard_nemesis"/>
+    </card>
+  </cards>
+</set>

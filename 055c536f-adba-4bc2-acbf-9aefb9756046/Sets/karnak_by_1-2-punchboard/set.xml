@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Karnak" id="7f9b9b69-72b7-477d-9891-b4856c642572" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="7f9b9b69-72b7-477d-9891-b4856c000000" name="karnak_by_1-2-punchboard">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard"/>
+    </card>
+    <card id="7f9b9b69-72b7-477d-9891-b4856c990000" name="karnak_by_1-2-punchboard">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard_nemesis"/>
+    </card>
+    <card name="Karnak" id="7f9b9b69-72b7-477d-9891-b4856c040001">
+      <property name="CardNumber" value="204001a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="1"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Inhuman."/>
+      <property name="Text">&lt;i&gt;Flaw in All Things&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After Karnak attacks or thwarts and defeats an enemy or side scheme without dealing excess damage or removing excess threat, deal 1 damage to an enemy and ready Karnak. (Limit twice per round.)</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Karnak Mander-Azur" type="b">
+        <property name="CardNumber" value="204001b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="Karnak_by_1-2-punchboard"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Inhuman."/>
+        <property name="Text">&lt;i&gt;Meditation&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After Karnak recovers, search your deck and discard pile for an &lt;b&gt;ATTACK&lt;/b&gt;, &lt;b&gt;THWART&lt;/b&gt;, or &lt;b&gt;DEFENSE&lt;/b&gt; event. Add that card to your hand. If you searched your deck, shuffle it. (Limit once per phase.)</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Gorgon Petragon" id="7f9b9b69-72b7-477d-9891-b4856c040002">
+      <property name="CardNumber" value="204002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Inhuman."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Gorgon Petragon attacks, deal 1 damage to each enemy.
+&lt;i&gt;“I have devoted my entire life to honing the warrior's craft. I have sacrificed everything fighting for my people's future!”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Excess and Restraint" id="7f9b9b69-72b7-477d-9891-b4856c040003">
+      <property name="CardNumber" value="204003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="4"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Skill. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When Karnak attacks, increase or decrease (you choose) the damage that attack deals by 1.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When Karnak thwarts, increase or decrease (you choose) the threat that thwart removes by 1.</property>
+    </card>
+    <card name="Disarm" id="7f9b9b69-72b7-477d-9891-b4856c040004">
+      <property name="CardNumber" value="204004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Skill. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme and discard an &lt;b&gt;ARMOR&lt;/b&gt;, &lt;b&gt;TECH&lt;/b&gt;, or &lt;b&gt;WEAPON&lt;/b&gt; attachment from an enemy. If no attachment was discarded this way, confuse the villain instead.
+&lt;i&gt;“In time, all we rely on will shatter and fall.”&lt;/i&gt;</property>
+    </card>
+    <card name="Peerless Defense" id="7f9b9b69-72b7-477d-9891-b4856c040005">
+      <property name="CardNumber" value="204005"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Preparation. Skill. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: When you would take any amount of damage, discard Peerless Defense → prevent up to 3 of that damage. Remove threat from a scheme equal to the amount of damage prevented this way.</property>
+    </card>
+    <card name="Probing for Weakness" id="7f9b9b69-72b7-477d-9891-b4856c040006">
+      <property name="CardNumber" value="204006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Skill."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 1 damage to an enemy. This attack gains piercing. If this attack discarded a tough status card, deal another 3 damage to that enemy.
+&lt;i&gt;“Where is the flaw?”&lt;/i&gt;</property>
+    </card>
+    <card name="Martial Training" id="7f9b9b69-72b7-477d-9891-b4856c040007">
+      <property name="CardNumber" value="204007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">If Karnak has attacked or thwarted this turn, double the number of resources this card generates.</property>
+    </card>
+    <card name="Tower of Wisdom" id="7f9b9b69-72b7-477d-9891-b4856c040008">
+      <property name="CardNumber" value="204008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Inhuman. Location."/>
+      <property name="Text">Karnak Mander-Azur gets +2 REC.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Tower of Wisdom → remove 1 threat from a scheme.</property>
+    </card>
+    <card name="The Shatterer" id="7f9b9b69-72b7-477d-9891-b4856c040009">
+      <property name="CardNumber" value="204009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Skill."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal between 1 and 6 damage to an enemy. If you defeat a minion engaged with a player, stun the villain and each minion engaged with that player.
+&lt;i&gt;“It is my discipline to be able to sense the weakest spot in any object -- And my power to shatter it.”&lt;/i&gt;</property>
+    </card>
+    <card name="Forever Unchanging" id="7f9b9b69-72b7-477d-9891-b4856c040010" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="204010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Karnak Mander-Azur player.&lt;/i&gt;&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+* Exhaust Karnak Mander-Azur → remove Forever Unchanging from the game.
+* Until the end of the next hero phase, you cannot ready or change forms. Discard this obligation.</property>
+    </card>
+    <card name="Kree Invasion" id="7f9b9b69-72b7-477d-9891-b4856c040011" size="SchemeCard">
+      <property name="CardNumber" value="204011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard_nemesis"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;“We, of the Kree race, have power so much greater than yours that it must seem like virtual magic to you.”&lt;/i&gt;
+Threat cannot be removed from here if the Supreme Intelligence is in play.
+[hazard]</property>
+    </card>
+    <card name="Supreme Intelligence" id="7f9b9b69-72b7-477d-9891-b4856c040012" size="EncounterCard">
+      <property name="CardNumber" value="204012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard_nemesis"/>
+      <property name="Attack" value="0"/>
+      <property name="Scheme" value="3"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Genius. Kree."/>
+      <property name="Text">[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Supreme Intelligence would attack, he schemes instead.
+&lt;i&gt;(Karnak's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Kree Soldier" id="7f9b9b69-72b7-477d-9891-b4856c040013" size="EncounterCard">
+      <property name="CardNumber" value="204013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Kree."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: When Kree Soldier engages with you, either spend a [physical] resource or add 2 threat to the main scheme.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Put Kree Soldier into play engaged with you.</property>
+    </card>
+    <card name="Collective Intelligence" id="7f9b9b69-72b7-477d-9891-b4856c040014" size="EncounterCard">
+      <property name="CardNumber" value="204014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="Karnak_by_1-2-punchboard_nemesis"/>
+      <property name="Scheme" value="1"/>
+      <property name="Attribute" value="Kree. Tech."/>
+      <property name="Text">Attach to the villain.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: After resolving the effects of a treachery card, shuffle it back into the encounter deck instead of discarding it.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [mental] [mental] resources → discard this card.</property>
+    </card>
+  </cards>
+</set>
