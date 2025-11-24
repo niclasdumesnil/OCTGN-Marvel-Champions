@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Gwenpool" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="e6ccc9ba-8b6c-4ec8-a650-18a6ca000000" name="gwenpool_by_ekaugust">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust"/>
+    </card>
+    <card id="e6ccc9ba-8b6c-4ec8-a650-18a6ca990000" name="gwenpool_by_ekaugust">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust_nemesis"/>
+    </card>
+    <card name="Gwenpool" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044001">
+      <property name="CardNumber" value="204401a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="3"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="Avenger."/>
+      <property name="Text">&lt;i&gt;Medium Awareness&lt;/i&gt; — &lt;b&gt;Interrupt&lt;/b&gt;: When you resolve an ability on a Gwenpool card, replace "_______" with a phrase from a speech bubble. (Use bubbles on a card you are playing, a card you spend, or a card in play.) (Limit each bubble once per phase.)
+(Speech Bubble: &lt;b&gt;&lt;i&gt;"Draw 1 card."&lt;/i&gt;&lt;/b&gt;)</property>
+      <property name="Quote">“You're all just comic book characters in my world!”</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Gwendolyn Poole" type="b">
+        <property name="CardNumber" value="204401b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="Gwenpool_by_ekAugust"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="9"/>
+        <property name="Attribute" value="Mutant."/>
+        <property name="Text">&lt;i&gt;"I Won't Be an Extra"&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Find a Gwenpool card and add it to your hand. (Limit once per phase.)</property>
+        <property name="Quote">“If you're not wearing a mask or a cape, you're just an extra.”</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="&quot;Here I Come!&quot;" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044002">
+      <property name="CardNumber" value="204402"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 5 damage to an enemy. This attack gains overkill. If this attack defeats an enemy, _______.
+(Speech Bubble: &lt;b&gt;&lt;i&gt;"Deal 2 damage to the villain."&lt;/i&gt;&lt;/b&gt;)</property>
+      <property name="Quote">“Don't hate the player! Hate the game!” —Gwenpool</property>
+    </card>
+    <card name="&quot;It Can't End Like This!&quot;" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044003">
+      <property name="CardNumber" value="204403"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Attack. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack/thwart)&lt;/i&gt;: Deal 1 damage to the villain and remove 1 threat from the main scheme. If the villain schemed last round, _______.
+(Speech Bubble: &lt;b&gt;&lt;i&gt;"Confuse the villain."&lt;/i&gt;&lt;/b&gt;)</property>
+      <property name="Quote">“You're probably wondering how I got here...” —Gwenpool</property>
+    </card>
+    <card name="Fun Background Noise" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044004">
+      <property name="CardNumber" value="204404"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When a treachery card is revealed from the encounter deck, cancel its "When Revealed" effects and discard it. Then, _______.
+(Speech Bubble: &lt;b&gt;&lt;i&gt;"Give Gwenpool a tough status card."&lt;/i&gt;&lt;/b&gt;)</property>
+      <property name="Quote">“Did I miss something?” —Gwenpool</property>
+    </card>
+    <card name="&quot;Sorry, Gotta Run!&quot;" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044005">
+      <property name="CardNumber" value="204405"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 2 threat from a scheme. This thwart ignores the patrol keyword and crisis icons ([crisis]). If this thwart defeats a scheme, _______.
+(Speech Bubble: &lt;b&gt;&lt;i&gt;"Remove 2 threat from the main scheme."&lt;/i&gt;&lt;/b&gt;)</property>
+      <property name="Quote">“I totally hate this!” —Gwenpool</property>
+    </card>
+    <card name="Endless Storylines" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044006">
+      <property name="CardNumber" value="204406"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you spend this card, _______ and _______.
+(Speech Bubbles: &lt;b&gt;&lt;i&gt;"Remove 1 threat from a scheme."&lt;/i&gt;&lt;/b&gt;, &lt;b&gt;&lt;i&gt;"Heal 1 damage from Gwenpool."&lt;/i&gt;&lt;/b&gt;, &lt;b&gt;&lt;i&gt;"Deal 1 damage to an enemy."&lt;/i&gt;&lt;/b&gt;)</property>
+    </card>
+    <card name="Endless Storylines" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044007">
+      <property name="CardNumber" value="204407"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you spend this card, _______ and _______.
+(Speech Bubbles: &lt;b&gt;&lt;i&gt;"Remove 1 threat from a scheme."&lt;/i&gt;&lt;/b&gt;, &lt;b&gt;&lt;i&gt;"Heal 1 damage from Gwenpool."&lt;/i&gt;&lt;/b&gt;, &lt;b&gt;&lt;i&gt;"Deal 1 damage to an enemy."&lt;/i&gt;&lt;/b&gt;)</property>
+    </card>
+    <card name="Endless Storylines" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044008">
+      <property name="CardNumber" value="204408"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you spend this card, _______ and _______.
+(Speech Bubbles: &lt;b&gt;&lt;i&gt;"Remove 1 threat from a scheme."&lt;/i&gt;&lt;/b&gt;, &lt;b&gt;&lt;i&gt;"Heal 1 damage from Gwenpool."&lt;/i&gt;&lt;/b&gt;, &lt;b&gt;&lt;i&gt;"Deal 1 damage to an enemy."&lt;/i&gt;&lt;/b&gt;)</property>
+    </card>
+    <card name="Gwen's Room" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044009">
+      <property name="CardNumber" value="204409"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">You get +1 REC.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Gwen's Room → heal 1 damage from Gwendolyn Poole. Then, find Unbelievable Gwenpool and add it to your hand.
+(Speech Bubble: &lt;b&gt;&lt;i&gt;"Heal 1 damage from Gwenpool."&lt;/i&gt;&lt;/b&gt;)</property>
+      <property name="Quote">“It's real... It's calling to me!” —Gwendolyn Poole</property>
+    </card>
+    <card name="Comicbook Panels" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044010">
+      <property name="CardNumber" value="204410"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Resource&lt;/b&gt;: Exhaust Comicbook Panels → generate a [wild] resource and _______.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Comicbook Panels and Unbelievable Gwenpool → _______ and _______.
+(Speech Bubble: &lt;b&gt;&lt;i&gt;"Look at the top card of any deck."&lt;/i&gt;&lt;/b&gt;)</property>
+    </card>
+    <card name="Unbelievable Gwenpool" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044011">
+      <property name="CardNumber" value="204411"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Unbelievable Gwenpool → search your deck for a Gwenpool card and attach it faceup here (to a maximum of 1). &lt;i&gt;(Shuffle.)&lt;/i&gt; You may use the speech bubbles of the attached card.
+&lt;b&gt;Hero Action&lt;/b&gt;: Draw 2 cards and _______. Discard Unbelievable Gwenpool.
+(Speech Bubble: &lt;b&gt;&lt;i&gt;"Ready Gwenpool."&lt;/i&gt;&lt;/b&gt;)</property>
+    </card>
+    <card name="The End" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="204412"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Gwendolyn Poole player.&lt;/i&gt;&lt;/b&gt;
+You cannot use speech bubbles from Gwenpool cards.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Gwendolyn Poole and discard Unbelievable Gwenpool → remove THE END from the game.</property>
+    </card>
+    <card name="Rules of the Universe" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044013" size="SchemeCard">
+      <property name="CardNumber" value="204413"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust_nemesis"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Permanent.
+While there is no threat here, this scheme loses the [acceleration] icon.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When you resolve an ability on a Gwenpool card, replace "_______" with the phrase from the speech bubble on Evil Gwenpool.</property>
+    </card>
+    <card name="Evil Gwenpool" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044014" size="EncounterCard">
+      <property name="CardNumber" value="204414"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Elite. Variant."/>
+      <property name="Text">Steady. Villainous.
+&lt;b&gt;When Defeated&lt;/b&gt;: Shuffle Evil Gwenpool into the encounter deck.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Put Evil Gwenpool into play engaged with you.
+(Speech Bubble: &lt;b&gt;&lt;i&gt;"Gwenpool takes 1 damage."&lt;/i&gt;&lt;/b&gt;)
+&lt;i&gt;(Gwenpool's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Break Reality" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044015" size="EncounterCard">
+      <property name="CardNumber" value="204415"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Incite 1.
+&lt;b&gt;When Revealed&lt;/b&gt;: Search the encounter deck for Evil Gwenpool and reveal her. &lt;i&gt;(Shuffle.)&lt;/i&gt; If Unbelievable Gwenpool is in play, she gains quickstrike. If Evil Gwenpool was already in play, add 2[per_hero] threat to Rules of the Universe.</property>
+    </card>
+    <card name="&quot;Future Me Scares Me&quot;" id="e6ccc9ba-8b6c-4ec8-a650-18a6ca044016" size="EncounterCard">
+      <property name="CardNumber" value="204416"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="Gwenpool_by_ekAugust_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Incite 0 (incite 1 instead, if this is a multiplayer game).
+Incite 1 (incite 2 instead, if this is an expert mode game).
+&lt;b&gt;When Revealed&lt;/b&gt;: If Evil Gwenpool is in play, add 2 threat to Rules of the Universe and shuffle this card into the encounter deck.</property>
+    </card>
+  </cards>
+</set>

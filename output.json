@@ -1,130 +1,138 @@
 [
   {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204301b",
-    "name": "Norrin Radd",
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204401b",
+    "name": "Gwendolyn Poole",
     "type": "alter_ego",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043001",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044001",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
   },
   {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204301a",
-    "name": "Silver Surfer",
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204401a",
+    "name": "Gwenpool",
     "type": "hero",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043001",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044001",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
   },
   {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204302",
-    "name": "Dawn Greenwood",
-    "type": "ally",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043002",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
-  },
-  {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204303",
-    "name": "The Silver Surfboard",
-    "type": "upgrade",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043003",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
-  },
-  {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204304",
-    "name": "Energy Manipulation",
-    "type": "upgrade",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043004",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
-  },
-  {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204305",
-    "name": "Rage of Retribution",
-    "type": "upgrade",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043005",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
-  },
-  {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204306",
-    "name": "Cosmic Speed",
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204402",
+    "name": "\"Here I Come!\"",
     "type": "event",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043006",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044002",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
   },
   {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204307",
-    "name": "Cosmic Strength",
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204403",
+    "name": "\"It Can't End Like This!\"",
     "type": "event",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043007",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044003",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
   },
   {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204308",
-    "name": "Cosmic Energy",
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204404",
+    "name": "Fun Background Noise",
     "type": "event",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043008",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044004",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
   },
   {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204309",
-    "name": "Silver Up",
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204405",
+    "name": "\"Sorry, Gotta Run!\"",
     "type": "event",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043009",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044005",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
   },
   {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204310",
-    "name": "The Power Cosmic",
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204406",
+    "name": "Endless Storylines",
     "type": "resource",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043010",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044006",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
   },
   {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204311",
-    "name": "Silver Down",
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204407",
+    "name": "Endless Storylines",
+    "type": "resource",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044007",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204408",
+    "name": "Endless Storylines",
+    "type": "resource",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044008",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204409",
+    "name": "Gwen's Room",
+    "type": "support",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044009",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204410",
+    "name": "Comicbook Panels",
+    "type": "upgrade",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044010",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204411",
+    "name": "Unbelievable Gwenpool",
+    "type": "upgrade",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044011",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204412",
+    "name": "The End",
     "type": "obligation",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043011",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044012",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
   },
   {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204312",
-    "name": "Galactus",
-    "type": "minion",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043012",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
-  },
-  {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204313",
-    "name": "The World Eater",
-    "type": "minion",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043013",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
-  },
-  {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204314",
-    "name": "The Life Stealer",
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204413",
+    "name": "Rules of the Universe",
     "type": "side_scheme",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043014",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044013",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
   },
   {
-    "pack_code": "Silver_Surfer_by_Hax",
-    "card_id": "204315",
-    "name": "Cosmic Power",
-    "type": "attachment",
-    "octgn_id": "a23e01f9-a42f-416f-a779-f919be043015",
-    "pack_octgn_id": "a23e01f9-a42f-416f-a779-f919be0544de"
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204414",
+    "name": "Evil Gwenpool",
+    "type": "minion",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044014",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204415",
+    "name": "Break Reality",
+    "type": "treachery",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044015",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204416",
+    "name": "\"Future Me Scares Me\"",
+    "type": "treachery",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044016",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
   }
 ]

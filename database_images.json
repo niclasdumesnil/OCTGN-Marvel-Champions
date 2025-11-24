@@ -16808,6 +16808,142 @@
     "pack_octgn_id": "fe0387fe-86cb-5d1b-a634-a303f0c017c5"
   },
   {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204401b",
+    "name": "Gwendolyn Poole",
+    "type": "alter_ego",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044001",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204401a",
+    "name": "Gwenpool",
+    "type": "hero",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044001",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204402",
+    "name": "\"Here I Come!\"",
+    "type": "event",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044002",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204403",
+    "name": "\"It Can't End Like This!\"",
+    "type": "event",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044003",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204404",
+    "name": "Fun Background Noise",
+    "type": "event",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044004",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204405",
+    "name": "\"Sorry, Gotta Run!\"",
+    "type": "event",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044005",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204406",
+    "name": "Endless Storylines",
+    "type": "resource",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044006",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204407",
+    "name": "Endless Storylines",
+    "type": "resource",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044007",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204408",
+    "name": "Endless Storylines",
+    "type": "resource",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044008",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204409",
+    "name": "Gwen's Room",
+    "type": "support",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044009",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204410",
+    "name": "Comicbook Panels",
+    "type": "upgrade",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044010",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204411",
+    "name": "Unbelievable Gwenpool",
+    "type": "upgrade",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044011",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204412",
+    "name": "The End",
+    "type": "obligation",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044012",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204413",
+    "name": "Rules of the Universe",
+    "type": "side_scheme",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044013",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204414",
+    "name": "Evil Gwenpool",
+    "type": "minion",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044014",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204415",
+    "name": "Break Reality",
+    "type": "treachery",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044015",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
+    "pack_code": "Gwenpool_by_ekAugust",
+    "card_id": "204416",
+    "name": "\"Future Me Scares Me\"",
+    "type": "treachery",
+    "octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca044016",
+    "pack_octgn_id": "e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff"
+  },
+  {
     "pack_code": "havok_by_rainy",
     "card_id": "203001b",
     "name": "Alex Summers",
