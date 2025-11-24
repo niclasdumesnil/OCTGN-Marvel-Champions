@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Ka-Zar" id="5eb982b8-6684-4acb-8117-987bf3b701de" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="5eb982b8-6684-4acb-8117-987bf3000000" name="ka-zar_by_matty">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="Ka-Zar_by_Matty"/>
+    </card>
+    <card id="5eb982b8-6684-4acb-8117-987bf3990000" name="ka-zar_by_matty">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="Ka-Zar_by_Matty_nemesis"/>
+    </card>
+    <card name="Ka-Zar" id="5eb982b8-6684-4acb-8117-987bf3045001">
+      <property name="CardNumber" value="204501a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="Ka-Zar_by_Matty"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="11"/>
+      <property name="Attribute" value="Avenger. Jungle."/>
+      <property name="Text">&lt;i&gt;Jungle Mastery&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After Ka-Zar attacks, remove 1 threat from a scheme.
+&lt;i&gt;Agility&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After Ka-Zar defends, deal 1 damage to the attacking enemy.</property>
+      <property name="Quote">“I am Ka-Zar, Lord of the Jungle!”</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Kevin Plunder" type="b">
+        <property name="CardNumber" value="204501b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="Ka-Zar_by_Matty"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="11"/>
+        <property name="Attribute" value="Civilian. Lord of the Jungle."/>
+        <property name="Text">&lt;i&gt;Lord of the Savage Land&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Search your deck and discard pile for Zabu and put him into play. Shuffle your deck. (Limit once per game.)</property>
+        <property name="Quote">“The Savage Land is my home. I will protect it.”</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Zabu" id="5eb982b8-6684-4acb-8117-987bf3045002">
+      <property name="CardNumber" value="204502"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="Ka-Zar_by_Matty"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Creature. Savage Land."/>
+      <property name="Text">Ka-Zar gets +1 ATK.
+&lt;b&gt;Response&lt;/b&gt;: After Ka-Zar attacks a minion, exhaust Zabu → deal 2 damage to that minion.</property>
+      <property name="Quote">The last saber-toothed tiger.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Shanna the She-Devil" id="5eb982b8-6684-4acb-8117-987bf3045003">
+      <property name="CardNumber" value="204503"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="Ka-Zar_by_Matty"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Avenger. Savage Land."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Shanna the She-Devil enters play, search your deck and discard pile for a &lt;b&gt;Jungle&lt;/b&gt; event and add it to your hand. Shuffle your deck.</property>
+      <property name="Quote">“You can take the girl out of the jungle...”</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Stalk" id="5eb982b8-6684-4acb-8117-987bf3045004">
+      <property name="CardNumber" value="204504"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Ka-Zar_by_Matty"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart. Jungle."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme. If you are in a &lt;b&gt;Jungle&lt;/b&gt; environment (Hut Sweet Hut is in play), remove 2 additional threat.</property>
+      <property name="Quote">“Quiet... they won't hear us coming.”</property>
+    </card>
+    <card name="Ambush" id="5eb982b8-6684-4acb-8117-987bf3045005">
+      <property name="CardNumber" value="204505"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Ka-Zar_by_Matty"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Jungle."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy. If that enemy is engaged with you, this attack gains piercing.</property>
+      <property name="Quote">“Now!”</property>
+    </card>
+    <card name="Swing Into Action" id="5eb982b8-6684-4acb-8117-987bf3045006">
+      <property name="CardNumber" value="204506"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Ka-Zar_by_Matty"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Ready Ka-Zar. If Zabu is in play, draw 1 card.</property>
+      <property name="Quote">Through the vines!</property>
+    </card>
+    <card name="Pack Hunting" id="5eb982b8-6684-4acb-8117-987bf3045007">
+      <property name="CardNumber" value="204507"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Ka-Zar_by_Matty"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Team-Up."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 3 damage to an enemy. If Zabu is in play, deal 3 additional damage.</property>
+      <property name="Quote">Hunting together is what we do best.</property>
+    </card>
+    <card name="Pounce" id="5eb982b8-6684-4acb-8117-987bf3045008">
+      <property name="CardNumber" value="204508"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Ka-Zar_by_Matty"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 6 damage to an enemy. Stun that enemy.</property>
+      <property name="Quote">A silent strike from the shadows.</property>
+    </card>
+    <card name="Hut Sweet Hut" id="5eb982b8-6684-4acb-8117-987bf3045009">
+      <property name="CardNumber" value="204509"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="Ka-Zar_by_Matty"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location. Savage Land."/>
+      <property name="Text">You are considered to be in a &lt;b&gt;Jungle&lt;/b&gt; environment.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Hut Sweet Hut → heal 2 damage from Kevin Plunder.</property>
+      <property name="Quote">Home is where the jungle is.</property>
+    </card>
+    <card name="Feeding Time" id="5eb982b8-6684-4acb-8117-987bf3045010">
+      <property name="CardNumber" value="204510"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="Ka-Zar_by_Matty"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attach to a minion.
+&lt;b&gt;Forced Response&lt;/b&gt;: After attached minion takes damage, place 1 growth counter on it.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached minion would be defeated, heal Ka-Zar equal to the number of growth counters on it instead.</property>
+      <property name="Quote">Survival of the fittest.</property>
+    </card>
+    <card name="Beastmaster" id="5eb982b8-6684-4acb-8117-987bf3045011">
+      <property name="CardNumber" value="204511"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="Ka-Zar_by_Matty"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">Ka-Zar gets +1 THW.
+&lt;b&gt;Response&lt;/b&gt;: After you play an &lt;b&gt;Ally&lt;/b&gt; with the &lt;b&gt;Creature&lt;/b&gt; trait, give it a tough status card.</property>
+      <property name="Quote">They listen to me.</property>
+    </card>
+    <card name="Jurassic Stampede" id="5eb982b8-6684-4acb-8117-987bf3045012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="204512"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="Ka-Zar_by_Matty"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Kevin Plunder player.&lt;/i&gt;&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+* Exhaust Kevin Plunder → remove Jurassic Stampede from the game.
+* Discard Zabu from play. If Zabu is not in play, take 3 damage. Discard this obligation.</property>
+    </card>
+    <card name="The Most Dangerous Game" id="5eb982b8-6684-4acb-8117-987bf3045013" size="SchemeCard">
+      <property name="CardNumber" value="204513"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="Ka-Zar_by_Matty_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard cards from the encounter deck until a minion is discarded. Put that minion into play engaged with the first player.</property>
+      <property name="Quote">Kraven has come to the Savage Land to hunt.</property>
+    </card>
+    <card name="Last Son of Kraven" id="5eb982b8-6684-4acb-8117-987bf3045014" size="EncounterCard">
+      <property name="CardNumber" value="204514"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="Ka-Zar_by_Matty_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Elite. Hunter."/>
+      <property name="Text">Hunter. Toughness.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Last Son of Kraven attacks you, discard the top card of your deck. Take indirect damage equal to the number of printed resources on that card.</property>
+      <property name="Quote">The hunt begins.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Kraven's Vest" id="5eb982b8-6684-4acb-8117-987bf3045015" size="EncounterCard">
+      <property name="CardNumber" value="204515"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="Ka-Zar_by_Matty_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Item. Armor."/>
+      <property name="Text">Attach to Last Son of Kraven. If you cannot, attach to the villain.
+Attached enemy gets +2 HP and gains Retaliate 1.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [physical] [physical] resources → discard this card.</property>
+      <property name="Quote">A trophy from a past hunt.</property>
+    </card>
+    <card name="Hunted" id="5eb982b8-6684-4acb-8117-987bf3045016" size="EncounterCard">
+      <property name="CardNumber" value="204516"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="Ka-Zar_by_Matty_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attach to your identity.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When you would recover hit points, discard this card instead.
+&lt;b&gt;Hero Action&lt;/b&gt;: Discard 2 cards from your hand → discard this card.</property>
+      <property name="Quote">You are the prey.</property>
+    </card>
+  </cards>
+</set>

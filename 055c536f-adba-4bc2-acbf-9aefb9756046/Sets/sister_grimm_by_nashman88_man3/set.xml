@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Sister Grimm" id="f9e02f2d-7506-48d4-aa64-65e059ff47f3" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="f9e02f2d-7506-48d4-aa64-65e059000000" name="sister_grimm_by_nashman88_man3">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+    </card>
+    <card id="f9e02f2d-7506-48d4-aa64-65e059990000" name="sister_grimm_by_nashman88_man3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3_nemesis"/>
+    </card>
+    <card name="Sister Grimm" id="f9e02f2d-7506-48d4-aa64-65e059046001">
+      <property name="CardNumber" value="204601a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="1"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="Midnight Sun. Mystic."/>
+      <property name="Text">&lt;i&gt;Blood Magic&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Exhaust Staff of One, choose a [[Spell]] event in your hand, and discard cards from the top of your deck equal to that event's printed cost → play that event, ignoring its resource cost.</property>
+      <property name="Quote">“Take my advice. When the world goes crazy you run... you runaway.” -Nico Minoru</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Nico Minoru" type="b">
+        <property name="CardNumber" value="204601b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="9"/>
+        <property name="Attribute" value="Mystic. Runaway."/>
+        <property name="Text">You may only include 1 copy of each [[Spell]] event in your deck, but from any aspect.
+&lt;b&gt;Action&lt;/b&gt;: Discard cards from the top of your deck until a [[Spell]] event is discarded. Add that event to your hand. (Limit once per round.)</property>
+        <property name="Quote">“We need to take care of each other now.”</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Staff of One" id="f9e02f2d-7506-48d4-aa64-65e059046002">
+      <property name="CardNumber" value="204602"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Cost" value="None"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Item. Mystic."/>
+      <property name="Text">Permanent. Setup.
+&lt;b&gt;Forced Response&lt;/b&gt;: After you play a [[Spell]] event, add that event to the victory display.</property>
+      <property name="Quote">“When blood is shed... Let The Staff of One emerge!” -Nico Minoru</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Princess Justice" id="f9e02f2d-7506-48d4-aa64-65e059046003">
+      <property name="CardNumber" value="204603"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Aerial. Runaway."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Princess Justice enters play, choose a [[Spell]] event in the victory display and add it to your hand.</property>
+      <property name="Quote">“We always go to Plan B! Next time, we should just make that Plan A!” -Karolina Dean</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Cheat the System" id="f9e02f2d-7506-48d4-aa64-65e059046004">
+      <property name="CardNumber" value="204604"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Choose:
+• Add a [[Spell]] event from the victory display to your hand.
+• Shuffle up to 2 [[Spell]] events from the victory display into your deck.</property>
+      <property name="Quote">“With a little creativity you can...”</property>
+    </card>
+    <card name="Spell To Cause Harm" id="f9e02f2d-7506-48d4-aa64-65e059046005">
+      <property name="CardNumber" value="204605"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Spell."/>
+      <property name="Text">Max 1 per phase.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy. If there are at least 3 [[Spell]] events in the victory display, deal 4 damage to an enemy.</property>
+    </card>
+    <card name="Spell To Solve Problems" id="f9e02f2d-7506-48d4-aa64-65e059046006">
+      <property name="CardNumber" value="204606"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Spell."/>
+      <property name="Text">Max 1 per phase.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme. If there are at least 3 [[Spell]] events in the victory display, remove 3 threat from a scheme.</property>
+    </card>
+    <card name="Magical Aptitude" id="f9e02f2d-7506-48d4-aa64-65e059046007">
+      <property name="CardNumber" value="204607"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Text">This card generates [wild] for each [[Spell]] event in the victory display (to a maximum of 3).</property>
+      <property name="Quote">“You are the only other person in the world that staff will work for. Other than me.” -Tina Minoru</property>
+    </card>
+    <card name="The Hostel" id="f9e02f2d-7506-48d4-aa64-65e059046008">
+      <property name="CardNumber" value="204608"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust The Hostel and shuffle a [[Spell]] event from the victory display into its owner's deck → heal damage from your identity equal to that event's printed cost. Any player may trigger this ability.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Arcane Insight" id="f9e02f2d-7506-48d4-aa64-65e059046009">
+      <property name="CardNumber" value="204609"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Mystic. Skill."/>
+      <property name="Text">Sister Grimm gets +1 THW for every 3 [[Spell]] events in the victory display (to a maximum of +2 THW).
+&lt;b&gt;Response&lt;/b&gt;: After you play a [[Spell]] event, remove 1 threat from a scheme.</property>
+    </card>
+    <card name="Found Family" id="f9e02f2d-7506-48d4-aa64-65e059046010">
+      <property name="CardNumber" value="204610"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Sister Grimm gets +1 DEF for every 3 [[Spell]] events in the victory display (to a maximum of +2 DEF).
+&lt;b&gt;Response&lt;/b&gt;: After you play a [[Spell]] event, heal 1 damage from your identity.</property>
+    </card>
+    <card name="Mystical Training" id="f9e02f2d-7506-48d4-aa64-65e059046011">
+      <property name="CardNumber" value="204611"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Mystic. Skill."/>
+      <property name="Text">Sister Grimm gets +1 ATK for every 3 [[Spell]] events in the victory display (to a maximum of +2 ATK).
+&lt;b&gt;Response&lt;/b&gt;: After you play a [[Spell]] event, deal 1 damage to an enemy.</property>
+    </card>
+    <card name="Doctor Strange" id="f9e02f2d-7506-48d4-aa64-65e059046012">
+      <property name="CardNumber" value="204612"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Midnight Sun. Mystic."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When Doctor Strange uses a basic power, if you have at least 2 [[Spell]] events in your hand, he takes -1 consequential damage ([consequential]) for that use.</property>
+      <property name="Quote">“The magics are being abused.” -Doctor Strange</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Jinx" id="f9e02f2d-7506-48d4-aa64-65e059046013">
+      <property name="CardNumber" value="204613"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Midnight Sun. Mystic."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After you play a [[Spell]] event, heal 1 damage from Jinx.</property>
+      <property name="Quote">“Thanks, you've really cleared that up.”</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Healing Spell" id="f9e02f2d-7506-48d4-aa64-65e059046014">
+      <property name="CardNumber" value="204614"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Spell."/>
+      <property name="Text">Play only if your identity has the [[Mystic]] trait. Max 1 per deck.
+&lt;b&gt;Hero Action&lt;/b&gt;: Take X damage → heal X damage from a friendly character.</property>
+    </card>
+    <card name="Flames of Faltine" id="f9e02f2d-7506-48d4-aa64-65e059046015">
+      <property name="CardNumber" value="204615"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Spell."/>
+      <property name="Text">Play only if your identity has the [[Mystic]] trait. Max 1 per deck.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Take X damage → deal X damage to 3 different enemies.</property>
+    </card>
+    <card name="Magical Manipulation" id="f9e02f2d-7506-48d4-aa64-65e059046016">
+      <property name="CardNumber" value="204616"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Spell. Thwart."/>
+      <property name="Text">Play only if your identity has the [[Mystic]] trait. Max 1 per deck.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Take X damage → remove X threat from 2 different schemes.</property>
+    </card>
+    <card name="The Last Door" id="f9e02f2d-7506-48d4-aa64-65e059046017">
+      <property name="CardNumber" value="204617"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Spell."/>
+      <property name="Text">Play only if your identity has the [[Mystic]] trait. Max 1 per deck.
+&lt;b&gt;Hero Action&lt;/b&gt;: Take X damage → search your deck and discard pile for an ally with printed cost X or less and put that ally into play.</property>
+    </card>
+    <card name="Agatha Harkness" id="f9e02f2d-7506-48d4-aa64-65e059046018">
+      <property name="CardNumber" value="204618"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Midnight Sun. Mystic."/>
+      <property name="Text">Play only if your identity has the [[Mystic]] trait.
+&lt;b&gt;Response&lt;/b&gt;: After you play Agatha Harkness from your hand, choose a [[Spell]] event in your discard pile and shuffle it into your deck.</property>
+      <property name="Quote">“I did not break the rules. They simply bent to my power.” -Agatha Harkness</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Caretaker" id="f9e02f2d-7506-48d4-aa64-65e059046019">
+      <property name="CardNumber" value="204619"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Midnight Sun. Mystic."/>
+      <property name="Text">Play only if your identity has the [[Midnight Sun]] or [[Strange Academy]] trait.
+&lt;b&gt;Response&lt;/b&gt;: After a player uses the ability on Strange Academy, heal 1 damage from Caretaker.</property>
+      <property name="Quote">“What did you think when you decided to go after an angel? That it'd be easy?”</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Sorcerer Supremacy" id="f9e02f2d-7506-48d4-aa64-65e059046020">
+      <property name="CardNumber" value="204620"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Spell."/>
+      <property name="Text">Team-Up (2 [[Mystic]] characters). Max 1 per deck.
+&lt;b&gt;Hero Action&lt;/b&gt;: Search your deck and discard pile for a [[Spell]] event and add it to your hand.</property>
+    </card>
+    <card name="The Power of Magic" id="f9e02f2d-7506-48d4-aa64-65e059046021">
+      <property name="CardNumber" value="204621"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">Max 2 per deck.
+Double the number of resources this card generates while paying for a [[Spell]] event or a [[Mystic]] card.</property>
+    </card>
+    <card name="Strange Academy" id="f9e02f2d-7506-48d4-aa64-65e059046022">
+      <property name="CardNumber" value="204622"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">Ignore this card's resource cost if your identity has the [[Midnight Sun]] or [[Strange Academy]] trait.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Strange Academy → generate a [wild] resource for an ally.</property>
+      <property name="Quote">“How does all this even...?” "Um. Yeah... right. Magic."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Ancestral Legacy" id="f9e02f2d-7506-48d4-aa64-65e059046023" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="204623"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;Give to the Nico Minoru player.&lt;/b&gt;
+&lt;b&gt;Forced Response&lt;/b&gt;: After you use Sister Grimm's “Blood Magic” ability to play a [[Spell]] event, take damage equal to the cost of that event → discard this card.
+[amplify]</property>
+    </card>
+    <card name="Taking Back Control" id="f9e02f2d-7506-48d4-aa64-65e059046024" size="SchemeCard">
+      <property name="CardNumber" value="204624"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 additional threat here for each [[Spell]] event in the victory display.
+[crisis]</property>
+      <property name="Quote">The evil intent of Nico's ancestors has come back to haunt her.</property>
+    </card>
+    <card name="The One" id="f9e02f2d-7506-48d4-aa64-65e059046025" size="EncounterCard">
+      <property name="CardNumber" value="204625"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Mystic."/>
+      <property name="Text">[star] The One gets +1 hit point for each [[Spell]] event in the victory display.
+&lt;i&gt;(Sister Grimm's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Quote">“I think you've done your best to ignore me. But I will not be ignored!”</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Corrupting Influence" id="f9e02f2d-7506-48d4-aa64-65e059046026" size="EncounterCard">
+      <property name="CardNumber" value="204626"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="sister_grimm_by_nashman88_man3_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Remove 2 [[Spell]] events in the victory display from the game. If no [[Spell]] events are removed from the game in this way, this card gains surge.</property>
+    </card>
+  </cards>
+</set>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Sister Grimm" id="55b418b3-1352-4034-9eff-9c5c539353cf" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="55b418b3-1352-4034-9eff-9c5c53000000" name="sister_grimm">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="sister_grimm"/>
+    </card>
+    <card id="55b418b3-1352-4034-9eff-9c5c53990000" name="sister_grimm">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="sister_grimm_nemesis"/>
+    </card>
+  </cards>
+</set>

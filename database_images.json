@@ -21408,6 +21408,142 @@
     "pack_octgn_id": "7f9b9b69-72b7-477d-9891-b4856c642572"
   },
   {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204501b",
+    "name": "Kevin Plunder",
+    "type": "alter_ego",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204501a",
+    "name": "Ka-Zar",
+    "type": "hero",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204502",
+    "name": "Zabu",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204503",
+    "name": "Shanna the She-Devil",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204504",
+    "name": "Stalk",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204505",
+    "name": "Ambush",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204506",
+    "name": "Swing Into Action",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204507",
+    "name": "Pack Hunting",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204508",
+    "name": "Pounce",
+    "type": "event",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204509",
+    "name": "Hut, Sweet Hut",
+    "type": "support",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204510",
+    "name": "Feeding Time",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204511",
+    "name": "Beastmaster",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204512",
+    "name": "Jurassic Stampede",
+    "type": "obligation",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204513",
+    "name": "The Most Dangerous Game",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204514",
+    "name": "Last Son of Kraven",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204515",
+    "name": "Kraven's Lion's Head Vest",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "kazar_by_matty",
+    "card_id": "204516",
+    "name": "Hunted",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
     "pack_code": "king_in_black_by_ekaugust",
     "card_id": "500333",
     "name": "Carnage",
@@ -33854,6 +33990,222 @@
     "type": "treachery",
     "octgn_id": "670dd6af-ef0f-4494-b1ec-4a405b619024",
     "pack_octgn_id": "670dd6af-ef0f-4494-b1ec-4a405becbe36"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204601b",
+    "name": "Nico Minoru",
+    "type": "alter_ego",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046001",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204601a",
+    "name": "Sister Grimm",
+    "type": "hero",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046001",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204602",
+    "name": "Staff of One",
+    "type": "upgrade",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046002",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204603",
+    "name": "Princess Justice",
+    "type": "ally",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046003",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204604",
+    "name": "Cheat the System",
+    "type": "event",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046004",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204605",
+    "name": "Spell To Cause Harm",
+    "type": "event",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046005",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204606",
+    "name": "Spell To Solve Problems",
+    "type": "event",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046006",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204607",
+    "name": "Magical Aptitude",
+    "type": "resource",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046007",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204608",
+    "name": "The Hostel",
+    "type": "support",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046008",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204609",
+    "name": "Arcane Insight",
+    "type": "upgrade",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046009",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204610",
+    "name": "Found Family",
+    "type": "upgrade",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046010",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204611",
+    "name": "Mystical Training",
+    "type": "upgrade",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046011",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204612",
+    "name": "Doctor Strange",
+    "type": "ally",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046012",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204613",
+    "name": "Jinx",
+    "type": "ally",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046013",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204614",
+    "name": "Healing Spell",
+    "type": "event",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046014",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204615",
+    "name": "Flames of Faltine",
+    "type": "event",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046015",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204616",
+    "name": "Magical Manipulation",
+    "type": "event",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046016",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204617",
+    "name": "The Last Door",
+    "type": "event",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046017",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204618",
+    "name": "Agatha Harkness",
+    "type": "ally",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046018",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204619",
+    "name": "Caretaker",
+    "type": "ally",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046019",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204620",
+    "name": "Sorcerer Supremacy",
+    "type": "event",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046020",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204621",
+    "name": "The Power of Magic",
+    "type": "resource",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046021",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204622",
+    "name": "Strange Academy",
+    "type": "support",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046022",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204623",
+    "name": "Ancestral Legacy",
+    "type": "obligation",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046023",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204624",
+    "name": "Taking Back Control",
+    "type": "side_scheme",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046024",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204625",
+    "name": "The One",
+    "type": "minion",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046025",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+  },
+  {
+    "pack_code": "sister_grimm_by_nashman88_man3",
+    "card_id": "204626",
+    "name": "Corrupting Influence",
+    "type": "treachery",
+    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046026",
+    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
