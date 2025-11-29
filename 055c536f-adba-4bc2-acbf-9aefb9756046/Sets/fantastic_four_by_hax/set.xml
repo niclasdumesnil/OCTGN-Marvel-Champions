@@ -1,0 +1,978 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Fantastic Four" id="07933d8a-ba60-4386-a929-9c1c2fb6a56a" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card name="Invisible Woman" id="07933d8a-ba60-4386-a929-9c1c2f011001">
+      <property name="CardNumber" value="501101a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="invisible_woman"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="8"/>
+      <property name="Attribute" value="Fantastic Four. Invisible."/>
+      <property name="Text">&lt;i&gt;Boo!&lt;/i&gt; — &lt;b&gt;Forced Response&lt;/b&gt;: After you attack an enemy, change to your other hero form.</property>
+      <property name="Quote">"I guess I've given away my position."</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Sue Storm" type="b">
+        <property name="CardNumber" value="501101b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="invisible_woman"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="8"/>
+        <property name="Attribute" value="Genius."/>
+        <property name="Text">&lt;i&gt;Great Minds&lt;/i&gt; — &lt;b&gt;Resource&lt;/b&gt;: Exhaust Sue Storm → generate a [mental] resource ([mental] [mental] resources instead if Reed Richards is in play). If you paid for a [[TECH]] card using resources from this ability, ready Sue Storm. (Limit once per round.)</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+      <alternate name="Invisible Woman" type="c">
+        <property name="CardNumber" value="501101c"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="hero"/>
+        <property name="Owner" value="invisible_woman"/>
+        <property name="HandSize" value="4"/>
+        <property name="Thwart" value="1"/>
+        <property name="Attack" value="2"/>
+        <property name="Defense" value="2"/>
+        <property name="HP" value="8"/>
+        <property name="Attribute" value="Fantastic Four. Psionic."/>
+        <property name="Text">&lt;i&gt;Invisible Barrier&lt;/i&gt; — &lt;b&gt;Interrupt&lt;/b&gt;: When an enemy with 2 ATK or more initiates an attack against you, deal 1 damage to that enemy.</property>
+        <property name="Quote">"Reed, I'm perfectly capable of protecting myself."</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Mister Fantastic" id="07933d8a-ba60-4386-a929-9c1c2f011002">
+      <property name="CardNumber" value="501102"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="invisible_woman"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Fantastic Four. Genius."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Mister Fantastic enters play, remove 1 threat from each scheme or add the top card of your discard pile to your hand.</property>
+      <property name="Quote">"A simple plan can often be the best one." —Mister Fantastic</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Central City Estate" id="07933d8a-ba60-4386-a929-9c1c2f011003">
+      <property name="CardNumber" value="501103"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="invisible_woman"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">You get +1 REC.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Central City Estate → ready Sue Storm.</property>
+    </card>
+    <card name="Unstable Uniform" id="07933d8a-ba60-4386-a929-9c1c2f011004">
+      <property name="CardNumber" value="501104"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="invisible_woman"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">Invisible Woman gets +1 DEF.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you change to [[INVISIBLE]] hero form, you get +1 THW until the end of this turn.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you change to [[PSIONIC]] hero form, you get +1 ATK until the end of this turn.</property>
+    </card>
+    <card name="Flying Disk" id="07933d8a-ba60-4386-a929-9c1c2f011005">
+      <property name="CardNumber" value="501105"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="invisible_woman"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Psionic. Superpower."/>
+      <property name="Text">If you are in [[PSIONIC]] hero form, you gain the [[AERIAL]] trait and your attacks gain ranged.
+&lt;b&gt;Hero Action&lt;/b&gt;: Discard Flying Disk → deal 4 damage to an enemy.</property>
+    </card>
+    <card name="Vanishing Act" id="07933d8a-ba60-4386-a929-9c1c2f011006">
+      <property name="CardNumber" value="501106"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="invisible_woman"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Invisible. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: If you are in [[INVISIBLE]] hero form, exhaust Vanishing Act and spend [mental] [energy] resources → confuse an enemy.</property>
+    </card>
+    <card name="Force Shields" id="07933d8a-ba60-4386-a929-9c1c2f011007">
+      <property name="CardNumber" value="501107"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="invisible_woman"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Psionic. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: If you are in [[PSIONIC]] hero form, exhaust Force Shields and discard X cards with a printed [physical] resource → give X friendly characters a tough status card.</property>
+    </card>
+    <card name="Incognito" id="07933d8a-ba60-4386-a929-9c1c2f011008">
+      <property name="CardNumber" value="501108"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="invisible_woman"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Invisible. Tactic."/>
+      <property name="Text">Play only if you are in [[INVISIBLE]] hero form.
+&lt;b&gt;Hero Action&lt;/b&gt;: Look at the top 4 cards of the encounter deck. For each star icon looked at this way, draw 1 card.</property>
+    </card>
+    <card name="Infiltrate" id="07933d8a-ba60-4386-a929-9c1c2f011009">
+      <property name="CardNumber" value="501109"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="invisible_woman"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Invisible. Thwart."/>
+      <property name="Text">Play only if you are in [[INVISIBLE]] hero form.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove up to 4 threat from a scheme or remove up to 2 threat from each scheme.</property>
+    </card>
+    <card name="Forceful" id="07933d8a-ba60-4386-a929-9c1c2f011010">
+      <property name="CardNumber" value="501110"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="invisible_woman"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Psionic."/>
+      <property name="Text">Play only if you are in [[PSIONIC]] hero form.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Discard any number of tough status cards from characters you control → deal 3 damage to the villain for each tough status card discarded this way.</property>
+    </card>
+    <card name="Psionic Fields" id="07933d8a-ba60-4386-a929-9c1c2f011011">
+      <property name="CardNumber" value="501111"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="invisible_woman"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Psionic."/>
+      <property name="Text">Play only if you are in [[PSIONIC]] hero form.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Choose 2 of the following (you may choose the same option twice):
+• Deal 4 damage to an enemy.
+• Stun an enemy.</property>
+    </card>
+    <card name="Spectral Shift" id="07933d8a-ba60-4386-a929-9c1c2f011012">
+      <property name="CardNumber" value="501112"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="invisible_woman"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Change your form. Then, if you changed to:
+[[INVISIBLE]] hero form - Draw 2 cards.
+[[PSIONIC]] hero form - Draw 1 card.</property>
+    </card>
+    <card name="Mister Fantastic" id="07933d8a-ba60-4386-a929-9c1c2f011019">
+      <property name="CardNumber" value="501119a"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="mister_fantastic"/>
+      <property name="HandSize" value="4"/>
+      <property name="Thwart" value="3"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="12"/>
+      <property name="Attribute" value="Fantastic Four. Genius."/>
+      <property name="Text">&lt;i&gt;Flexibility&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you spend a [[SUPERPOWER]] card as a resource or discard it from your hand without being played, return it to your hand. (Limit once per phase.)</property>
+      <property name="Quote">"I've got powers you haven't even dreamed of!"</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Reed Richards" type="b">
+        <property name="CardNumber" value="501119b"/>
+        <property name="Position" value="19"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="mister_fantastic"/>
+        <property name="HandSize" value="5"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="12"/>
+        <property name="Attribute" value="Genius. Scientist."/>
+        <property name="Text">&lt;i&gt;Great Minds&lt;/i&gt; — &lt;b&gt;Resource&lt;/b&gt;: Exhaust Reed Richards → generate a [mental] resource ([mental] [mental] resources instead if Sue Storm is in play). If you paid for a [[TECH]] card using resources from this ability, ready Reed Richards. (Limit once per round.)</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Invisible Woman" id="07933d8a-ba60-4386-a929-9c1c2f011020">
+      <property name="CardNumber" value="501120"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="mister_fantastic"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Fantastic Four. Genius."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Invisible Woman enters play, ready your identity.</property>
+      <property name="Quote">"Reed Richards, you are undoubtedly the most stubborn jack ass I've ever known!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="H.E.R.B.I.E." id="07933d8a-ba60-4386-a929-9c1c2f011021">
+      <property name="CardNumber" value="501121"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="mister_fantastic"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Robot. Tech."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust H.E.R.B.I.E. → discard X cards from your hand, then draw X cards.
+&lt;b&gt;Action&lt;/b&gt;: Exhaust then discard H.E.R.B.I.E. → draw X cards, then discard X cards from your hand.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Baxter Building" id="07933d8a-ba60-4386-a929-9c1c2f011022">
+      <property name="CardNumber" value="501122"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="mister_fantastic"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Fantastic Four. Location. Tech."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Baxter Building → heal 2 damage from an identity.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Baxter Building → search the top 4 cards of your deck for a Mister Fantastic card, then add it to your hand (top 8 instead if your hero has 10 or more hit points remaining).</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Fantasticar" id="07933d8a-ba60-4386-a929-9c1c2f011023">
+      <property name="CardNumber" value="501123"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="mister_fantastic"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech. Vehicle."/>
+      <property name="Text">Mister Fantastic gets +1 hand size.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Fantasticar → choose a player in hero form. Reduce the cost of the next event card that player plays this phase by 1.</property>
+    </card>
+    <card name="Unstable Uniform" id="07933d8a-ba60-4386-a929-9c1c2f011024">
+      <property name="CardNumber" value="501124"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="mister_fantastic"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">Mister Fantastic gets +1 DEF.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you defend against an attack, return the bottommost Mister Fantastic card from your discard pile to your hand.</property>
+      <property name="Quote">"My costume's molecules shift." —Reed Richards</property>
+    </card>
+    <card name="Fantasti-Flare" id="07933d8a-ba60-4386-a929-9c1c2f011025">
+      <property name="CardNumber" value="501125"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="mister_fantastic"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Item. Tech."/>
+      <property name="Text">Uses (4 flare counters).
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Fantasti-Flare and remove one flare counter from it → choose a player. Reduce the cost of the next ally that player plays this phase by 1.</property>
+    </card>
+    <card name="Neutralizer" id="07933d8a-ba60-4386-a929-9c1c2f011026">
+      <property name="CardNumber" value="501126"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="mister_fantastic"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">Play under any player's control. Restricted. Uses (2 charge counters).
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you make a basic attack, exhaust Neutralizer and remove one charge counter from it → you get +3 ATK for that attack. That attack gains overkill.</property>
+    </card>
+    <card name="Stretched Thin" id="07933d8a-ba60-4386-a929-9c1c2f011027">
+      <property name="CardNumber" value="501127"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="mister_fantastic"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 2 threat from a scheme. Then, if you have no cards remaining in your hand, remove 1 threat from each scheme in play.</property>
+      <property name="Quote">"I know what I have to do to fix it...to make things right. Every problem can be solved." —Mister Fantastic</property>
+    </card>
+    <card name="Big Reach" id="07933d8a-ba60-4386-a929-9c1c2f011028">
+      <property name="CardNumber" value="501128"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="mister_fantastic"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 3 damage to the villain. Then, deal X damage to an enemy, where X is the number of cards remaining in your hand.</property>
+      <property name="Quote">"You know my answer: there's always another way. And we're going to teach you." —Mister Fantastic</property>
+    </card>
+    <card name="Slippery" id="07933d8a-ba60-4386-a929-9c1c2f011029">
+      <property name="CardNumber" value="501129"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="mister_fantastic"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When you would take any amount of damage, prevent 2 of that damage and draw 2 cards.</property>
+      <property name="Quote">"Good thing I saved some unstable molecules for the towels!" —Mister Fantastic</property>
+    </card>
+    <card name="Mental Gymnastics" id="07933d8a-ba60-4386-a929-9c1c2f011030">
+      <property name="CardNumber" value="501130"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="mister_fantastic"/>
+      <property name="Cost" value="None"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 2 + X damage to an enemy. Then, if you have no cards remaining in your hand, confuse that enemy.</property>
+      <property name="Quote">"I'm Reed Richards. Nobody's smarter than me." —Mister Fantastic</property>
+    </card>
+    <card name="Human Torch" id="07933d8a-ba60-4386-a929-9c1c2f011036">
+      <property name="CardNumber" value="501136a"/>
+      <property name="Position" value="36"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="human_torch"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Aerial. Fantastic Four. Fire."/>
+      <property name="Text">&lt;i&gt;Flame On!&lt;/i&gt; — &lt;b&gt;Interrupt&lt;/b&gt;: When you place a flame counter on an enemy, deal 1 damage to that enemy. An enemy cannot have more than 3 flame counters on them.</property>
+      <property name="Quote">"I am flame! And the nature of flame is to rise!"</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Johnny Storm" type="b">
+        <property name="CardNumber" value="501136b"/>
+        <property name="Position" value="36"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="human_torch"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="2"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Civilian."/>
+        <property name="Text">&lt;i&gt;Ignition&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Exhaust Johnny Storm → search the top 4 cards of your deck for a [[FIRE]] card and add it to your hand. If no cards were added to your hand this way, ready Johnny Storm. (Limit once per round.)</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="The Thing" id="07933d8a-ba60-4386-a929-9c1c2f011037">
+      <property name="CardNumber" value="501137"/>
+      <property name="Position" value="37"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="human_torch"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Fantastic Four. Stone."/>
+      <property name="Text">Toughness.
+&lt;b&gt;Response&lt;/b&gt;: After The Thing defends, ready him. (Limit once per phase.)</property>
+      <property name="Quote">"Hey, y'know something? I hate to say it, but we make a pretty good team!" —Human Torch</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Johnny's Workshop" id="07933d8a-ba60-4386-a929-9c1c2f011038">
+      <property name="CardNumber" value="501138"/>
+      <property name="Position" value="38"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="human_torch"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After you change to Johnny Storm, draw 1 card.
+&lt;b&gt;Response&lt;/b&gt;: After you change to Human Torch, ready a [[FIRE]] card.</property>
+    </card>
+    <card name="Unstable Uniform" id="07933d8a-ba60-4386-a929-9c1c2f011039">
+      <property name="CardNumber" value="501139"/>
+      <property name="Position" value="39"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="human_torch"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">Human Torch gets +1 DEF.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you take damage from an attack, place a flame counter on the attacker.</property>
+      <property name="Quote">"THIS is what you want me to wear?" —Johnny Storm</property>
+    </card>
+    <card name="Internal Combustion" id="07933d8a-ba60-4386-a929-9c1c2f011040">
+      <property name="CardNumber" value="501140"/>
+      <property name="Position" value="40"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="human_torch"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Fire. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Remove 3 flame counters from an enemy and discard Internal Combustion → draw 3 cards.</property>
+      <property name="Quote">"FLAME ON!" —Human Torch</property>
+    </card>
+    <card name="Spark" id="07933d8a-ba60-4386-a929-9c1c2f011041">
+      <property name="CardNumber" value="501141"/>
+      <property name="Position" value="41"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="human_torch"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Fire. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Resource&lt;/b&gt;: Exhaust Spark → generate a [energy] resource for a [[FIRE]] card.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Spark → place a flame counter on an enemy.</property>
+    </card>
+    <card name="Fly-By" id="07933d8a-ba60-4386-a929-9c1c2f011042">
+      <property name="CardNumber" value="501142"/>
+      <property name="Position" value="42"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="human_torch"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Aerial. Fire. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 2 threat from a scheme, then remove 1 threat from a scheme for each flame counter on the villain.</property>
+      <property name="Quote">"Don't say it! I'm way ahead of you Boss Man!" —Human Torch</property>
+    </card>
+    <card name="Blaze and Daze" id="07933d8a-ba60-4386-a929-9c1c2f011043">
+      <property name="CardNumber" value="501143"/>
+      <property name="Position" value="43"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="human_torch"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Fire. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy. Then, if they have 3 flame counters on them, remove all those counters and stun that enemy.</property>
+      <property name="Quote">"You want crispy, Reed, you got it!" —Human Torch</property>
+    </card>
+    <card name="Radiate" id="07933d8a-ba60-4386-a929-9c1c2f011044">
+      <property name="CardNumber" value="501144"/>
+      <property name="Position" value="44"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="human_torch"/>
+      <property name="Cost" value="None"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Fire. Superpower."/>
+      <property name="Text">Choose one:
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Place 2 flame counters on X enemies.
+&lt;b&gt;Action&lt;/b&gt;: Remove all flame counters from X enemies → change your form, then heal 1 damage for each flame counter removed this way (to a maximum of 5).</property>
+    </card>
+    <card name="Nova Flame" id="07933d8a-ba60-4386-a929-9c1c2f011045">
+      <property name="CardNumber" value="501145"/>
+      <property name="Position" value="45"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="human_torch"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Fire. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Exhaust Human Torch → place up to 3 flame counters on an enemy, then deal 7 damage to that enemy. This attack gains overkill.</property>
+      <property name="Quote">"I'm done with this. You want to be entertained? Fine... BE ENTERTAINED." —Human Torch</property>
+    </card>
+    <card name="The Thing" id="07933d8a-ba60-4386-a929-9c1c2f011050">
+      <property name="CardNumber" value="501150a"/>
+      <property name="Position" value="50"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="the_thing"/>
+      <property name="HandSize" value="4"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="3"/>
+      <property name="HP" value="17"/>
+      <property name="Attribute" value="Avenger. Fantastic Four. Stone."/>
+      <property name="Text">&lt;i&gt;Give 'Er&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Discard a tough status card from The Thing.
+&lt;i&gt;Take That!&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you discard a tough status card from The Thing, your attacks deal 1 additional damage until the end of the phase.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Ben Grimm" type="b">
+        <property name="CardNumber" value="501150b"/>
+        <property name="Position" value="50"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="the_thing"/>
+        <property name="HandSize" value="5"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="17"/>
+        <property name="Attribute" value="Pilot."/>
+        <property name="Text">&lt;i&gt;Ever-Lovin' Blue-Eyed Thing&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After Ben Grimm heals 4 or more damage, give him a tough status card.</property>
+        <property name="Quote">"Ahh. Time fer some R 'n R!"</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Human Torch" id="07933d8a-ba60-4386-a929-9c1c2f011051">
+      <property name="CardNumber" value="501151"/>
+      <property name="Position" value="51"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="the_thing"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Aerial. Fantastic Four."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Human Torch enters play, choose one:
+• Deal 1 damage to The Thing, then give The Thing a tough status card.
+• Deal 3 damage to the villain.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Alicia Masters" id="07933d8a-ba60-4386-a929-9c1c2f011052">
+      <property name="CardNumber" value="501152"/>
+      <property name="Position" value="52"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="the_thing"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="2"/>
+      <property name="Attribute" value="Persona."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Alicia Masters → draw 2 cards.</property>
+      <property name="Quote">"This fight isn't about brains or brawn. It's about heart. And no one has more heart than my Ben." —Alicia Masters</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Yancy Street Gang" id="07933d8a-ba60-4386-a929-9c1c2f011053">
+      <property name="CardNumber" value="501153"/>
+      <property name="Position" value="53"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="the_thing"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Gang."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust Yancy Street Gang → deal 1 damage to a character. This damage gains piercing. If a tough status card was discarded this way, ready Yancy Street Gang.</property>
+      <property name="Quote">"Yancy Street Gang ain't lettin' anyone ELSE bother you, Grimm. We want you all to ourselves!"</property>
+    </card>
+    <card name="Unstable Uniform" id="07933d8a-ba60-4386-a929-9c1c2f011054">
+      <property name="CardNumber" value="501154"/>
+      <property name="Position" value="54"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="the_thing"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">The Thing gets +1 DEF.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you defend against an attack, draw a card.</property>
+      <property name="Quote">"I can hardly move in this monkey suit!" —The Thing</property>
+    </card>
+    <card name="Rock 'Em" id="07933d8a-ba60-4386-a929-9c1c2f011055">
+      <property name="CardNumber" value="501155"/>
+      <property name="Position" value="55"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="the_thing"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Stone. Superpower. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 4 threat from a scheme. If this removes the last threat on that scheme, give The Thing a tough status card or confuse the villain.</property>
+      <property name="Quote">"Not on MY watch, fella!" —The Thing</property>
+    </card>
+    <card name="True Grit" id="07933d8a-ba60-4386-a929-9c1c2f011056">
+      <property name="CardNumber" value="501156"/>
+      <property name="Position" value="56"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="the_thing"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Deal 2 damage to The Thing → ready your hero and discard a status card from him. (Max once per round.)</property>
+      <property name="Quote">"Ya'll never beat me! I'm just too stupid... and ugly... ta know when to quit!" —The Thing</property>
+    </card>
+    <card name="Toughen Up" id="07933d8a-ba60-4386-a929-9c1c2f011057">
+      <property name="CardNumber" value="501157"/>
+      <property name="Position" value="57"/>
+      <property name="Quantity" value="4"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="the_thing"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Stone. Superpower."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After you take any amount of damage, give your identity a tough status card.</property>
+      <property name="Quote">"This is Yancy Street! An' we don't bend to nobody!" —The Thing</property>
+    </card>
+    <card name="Sock 'Em" id="07933d8a-ba60-4386-a929-9c1c2f011058">
+      <property name="CardNumber" value="501158"/>
+      <property name="Position" value="58"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="the_thing"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Stone. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy. If that enemy is defeated by this attack, give The Thing a tough status card or draw a card.</property>
+      <property name="Quote">"Head's Up Handsome--cause I'm gonna knock yers off!" —The Thing</property>
+    </card>
+    <card name="It's Clobberin' Time!" id="07933d8a-ba60-4386-a929-9c1c2f011059">
+      <property name="CardNumber" value="501159"/>
+      <property name="Position" value="59"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="the_thing"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Stone. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Make the following 2 attacks:
+• Deal 4 damage to an enemy.
+• Deal 4 damage to an enemy.</property>
+      <property name="Quote">"Oh, it's time all right." —The Thing</property>
+    </card>
+    <card name="Family Time" id="07933d8a-ba60-4386-a929-9c1c2f011013" size="EncounterCard">
+      <property name="CardNumber" value="501113"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="invisible_woman"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;Give to the Sue Storm player.&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+• Exhaust Sue Storm → remove Family Time from the game.
+• Discard a card from your hand → discard this obligation.</property>
+    </card>
+    <card name="Psycho-Man" id="07933d8a-ba60-4386-a929-9c1c2f011014" size="EncounterCard">
+      <property name="CardNumber" value="501114"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="invisible_woman_nemesis"/>
+      <property name="Attack" value="0"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Scientist. Traanian."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After Psycho-Man activates, discard 4 cards from the encounter deck. If any Invisible Woman Nemesis cards were discarded this way, reveal them instead.</property>
+      <property name="Quote">"Did you think I wear this armor merely for show?"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Emotional Masterplan" id="07933d8a-ba60-4386-a929-9c1c2f011015" size="SchemeCard">
+      <property name="CardNumber" value="501115"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="invisible_woman_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Heroes cannot change form.
+&lt;b&gt;Action&lt;/b&gt;: Discard 2 cards from your hand → treat the printed text box of this card as if it were blank until the end of your turn.</property>
+      <property name="Quote">Psycho-Man's manipulating your will!</property>
+    </card>
+    <card name="Microversal Maneuvers" id="07933d8a-ba60-4386-a929-9c1c2f011016" size="EncounterCard">
+      <property name="CardNumber" value="501116"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="invisible_woman_nemesis"/>
+      <property name="Attribute" value="Condition. Tiny."/>
+      <property name="Text">+2
+Attach to Psycho-Man. If you cannot, this card gains surge.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Psycho-Man schemes against you, take 1 indirect damage.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Reveal this card.</property>
+      <property name="Quote">"You will fear the Microverse!" —Psycho-Man</property>
+    </card>
+    <card name="Titanic Terror" id="07933d8a-ba60-4386-a929-9c1c2f011017" size="EncounterCard">
+      <property name="CardNumber" value="501117"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="invisible_woman_nemesis"/>
+      <property name="Attribute" value="Condition. Giant."/>
+      <property name="Text">+2
+Attach to Psycho-Man. If you cannot, this card gains surge.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Psycho-Man attacks, place 1 threat on the main scheme.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Reveal this card.</property>
+      <property name="Quote">"Is your spirit broken yet? It soon will be." —Psycho-Man</property>
+    </card>
+    <card name="End Of The Line" id="07933d8a-ba60-4386-a929-9c1c2f011018" size="EncounterCard">
+      <property name="CardNumber" value="501118"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="invisible_woman_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard the top 8 cards from the encounter deck. If Microversal Maneuvers or Titanic Terror are discarded this way, reveal them.</property>
+      <property name="Quote">"I will tear through your minds until you BEG me to stop. Then everyone can fear the Psycho-Man." —Psycho-Man</property>
+    </card>
+    <card name="Ben's Cure" id="07933d8a-ba60-4386-a929-9c1c2f011031" size="EncounterCard">
+      <property name="CardNumber" value="501131"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="mister_fantastic"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;Give to the Reed Richards player.&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+• Exhaust Reed Richards and discard a card with a printed [mental] resource → remove Ben's Cure from the game.
+• Take 1 damage and place 1 threat on the main scheme → discard this obligation.</property>
+    </card>
+    <card name="Wizard" id="07933d8a-ba60-4386-a929-9c1c2f011032" size="EncounterCard">
+      <property name="CardNumber" value="501132"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="mister_fantastic_nemesis"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="3"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Criminal. Genius."/>
+      <property name="Text">Each hero gets -1 THW.</property>
+      <property name="Quote">"I possess the greatest weapon of all -- the world's greatest brain!!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Hubris" id="07933d8a-ba60-4386-a929-9c1c2f011033" size="SchemeCard">
+      <property name="CardNumber" value="501133"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="mister_fantastic_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="BaseThreat" value="1"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place X additional threat here, where X is the combined THW of all heroes.</property>
+      <property name="Quote">Wizard has a nefarious plot in mind.</property>
+    </card>
+    <card name="Projection" id="07933d8a-ba60-4386-a929-9c1c2f011034" size="EncounterCard">
+      <property name="CardNumber" value="501134"/>
+      <property name="Position" value="34"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="mister_fantastic_nemesis"/>
+      <property name="Text">Incite 1. Surge.
+Attach to your identity card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Attach to your identity card.</property>
+      <property name="Quote">"As is your nature, clod... you look, but you do not see... the FULL picture." —Wizard</property>
+    </card>
+    <card name="Execution" id="07933d8a-ba60-4386-a929-9c1c2f011035" size="EncounterCard">
+      <property name="CardNumber" value="501135"/>
+      <property name="Position" value="35"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="mister_fantastic_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard each Projection attachment in play. For each attachment discarded this way, each player must choose to either discard 2 cards from their hand or take 2 indirect damage. If no Projection attachments were discarded this way, shuffle Execution back into the encounter deck and this card gains surge.</property>
+    </card>
+    <card name="Flame Off" id="07933d8a-ba60-4386-a929-9c1c2f011046" size="EncounterCard">
+      <property name="CardNumber" value="501146"/>
+      <property name="Position" value="46"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="human_torch"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;Give to the Johnny Storm player.&lt;/b&gt;
+Flip to alter-ego form and remove all flame counters from enemies in play. Then:
+• If up to 3 counters were removed this way, discard this obligation.
+• If 4 or more flame counters were removed this way, remove Flame Off from the game.</property>
+    </card>
+    <card name="Hydro-Man" id="07933d8a-ba60-4386-a929-9c1c2f011047" size="EncounterCard">
+      <property name="CardNumber" value="501147"/>
+      <property name="Position" value="47"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="human_torch_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="0"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="Criminal. Mutate. Water."/>
+      <property name="Text">Hydro-Man cannot have flame counters placed on him.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Put Hydro-Man into play engaged with you.</property>
+      <property name="Quote">"Hey, Hot Head! Tell me, how tough are your lungs?"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Dam It" id="07933d8a-ba60-4386-a929-9c1c2f011048" size="SchemeCard">
+      <property name="CardNumber" value="501148"/>
+      <property name="Position" value="48"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="human_torch_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Remove all flame counters from enemies in play. Then, place 1 additional threat here for each flame counter removed this way.</property>
+      <property name="Quote">Hydro-Man has appeared and extinguished all the flames!</property>
+    </card>
+    <card name="Tidal Surge" id="07933d8a-ba60-4386-a929-9c1c2f011049" size="EncounterCard">
+      <property name="CardNumber" value="501149"/>
+      <property name="Position" value="49"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="human_torch_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">Surge.
+&lt;b&gt;When Revealed&lt;/b&gt;: If Hydro-Man is in play, each player must choose to either exhaust their identity or take 3 indirect damage.</property>
+      <property name="Quote">"Can you dodge a tidal wave, tough guy?" —Hydro-Man</property>
+    </card>
+    <card name="Annual Shedding" id="07933d8a-ba60-4386-a929-9c1c2f011060" size="EncounterCard">
+      <property name="CardNumber" value="501160"/>
+      <property name="Position" value="60"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="the_thing"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;Give to the Ben Grimm player.&lt;/b&gt;
+Flip to alter-ego form. Choose one:
+• Discard a tough status card from Ben Grimm → discard this obligation.
+• Stun or confuse Ben Grimm → discard this obligation.</property>
+    </card>
+    <card name="Puppet Master" id="07933d8a-ba60-4386-a929-9c1c2f011061" size="EncounterCard">
+      <property name="CardNumber" value="501161"/>
+      <property name="Position" value="61"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="the_thing_nemesis"/>
+      <property name="Attack" value="0"/>
+      <property name="Scheme" value="3"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Criminal. Genius."/>
+      <property name="Text">Puppet Master cannot be attacked while Hulk is in play.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Puppet Master is revealed, search the encounter deck for Hulk and reveal him.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Pulling The Strings" id="07933d8a-ba60-4386-a929-9c1c2f011062" size="SchemeCard">
+      <property name="CardNumber" value="501162"/>
+      <property name="Position" value="62"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="the_thing_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">The minion in play with the lowest SCH gets +1 ATK and +1 SCH.</property>
+      <property name="Quote">Ben Grimm's unwilling stepfather-in-law has taken control of the Incredible Hulk!</property>
+    </card>
+    <card name="Hulk" id="07933d8a-ba60-4386-a929-9c1c2f011063" size="EncounterCard">
+      <property name="CardNumber" value="501163"/>
+      <property name="Position" value="63"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="the_thing_nemesis"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Enthralled. Brute. Gamma."/>
+      <property name="Text">Guard.
+[star] Hulk's attacks gain piercing and overkill.</property>
+      <property name="Quote">"Fight me, Thing!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Friendly Fire" id="07933d8a-ba60-4386-a929-9c1c2f011064" size="EncounterCard">
+      <property name="CardNumber" value="501164"/>
+      <property name="Position" value="64"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="the_thing_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: You take X damage, where X is the ATK of the friendly character with the highest ATK. If your identity is the only friendly character in play, this card gains surge.</property>
+      <property name="Quote">"You've hurt me like no one ever has, Benjamin. And tonight, I'll kill you." —Puppet Master</property>
+    </card>
+  </cards>
+</set>

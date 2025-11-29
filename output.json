@@ -1,218 +1,554 @@
 [
   {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204601b",
-    "name": "Nico Minoru",
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501101b",
+    "name": "Sue Storm",
     "type": "alter_ego",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046001",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011001",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
   },
   {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204601a",
-    "name": "Sister Grimm",
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501101a",
+    "name": "Invisible Woman",
     "type": "hero",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046001",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011001",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
   },
   {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204602",
-    "name": "Staff of One",
-    "type": "upgrade",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046002",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501101c",
+    "name": "Invisible Woman",
+    "type": "hero",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011001",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
   },
   {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204603",
-    "name": "Princess Justice",
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501102",
+    "name": "Mister Fantastic",
     "type": "ally",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046003",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011002",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
   },
   {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204604",
-    "name": "Cheat the System",
-    "type": "event",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046004",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
-  },
-  {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204605",
-    "name": "Spell To Cause Harm",
-    "type": "event",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046005",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
-  },
-  {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204606",
-    "name": "Spell To Solve Problems",
-    "type": "event",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046006",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
-  },
-  {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204607",
-    "name": "Magical Aptitude",
-    "type": "resource",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046007",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
-  },
-  {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204608",
-    "name": "The Hostel",
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501103",
+    "name": "Central City Estate",
     "type": "support",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046008",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011003",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
   },
   {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204609",
-    "name": "Arcane Insight",
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501104",
+    "name": "Unstable Uniform",
     "type": "upgrade",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046009",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011004",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
   },
   {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204610",
-    "name": "Found Family",
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501105",
+    "name": "Flying Disk",
     "type": "upgrade",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046010",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011005",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
   },
   {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204611",
-    "name": "Mystical Training",
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501106",
+    "name": "Vanishing Act",
     "type": "upgrade",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046011",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011006",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
   },
   {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204612",
-    "name": "Doctor Strange",
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501107",
+    "name": "Force Shields",
+    "type": "upgrade",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011007",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501108",
+    "name": "Incognito",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011008",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501109",
+    "name": "Infiltrate",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011009",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501110",
+    "name": "Forceful",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011010",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501111",
+    "name": "Psionic Fields",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011011",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501112",
+    "name": "Spectral Shift",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011012",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501119b",
+    "name": "Reed Richards",
+    "type": "alter_ego",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011019",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501119a",
+    "name": "Mister Fantastic",
+    "type": "hero",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011019",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501120",
+    "name": "Invisible Woman",
     "type": "ally",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046012",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011020",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
   },
   {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204613",
-    "name": "Jinx",
-    "type": "ally",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046013",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
-  },
-  {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204614",
-    "name": "Healing Spell",
-    "type": "event",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046014",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
-  },
-  {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204615",
-    "name": "Flames of Faltine",
-    "type": "event",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046015",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
-  },
-  {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204616",
-    "name": "Magical Manipulation",
-    "type": "event",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046016",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
-  },
-  {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204617",
-    "name": "The Last Door",
-    "type": "event",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046017",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
-  },
-  {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204618",
-    "name": "Agatha Harkness",
-    "type": "ally",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046018",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
-  },
-  {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204619",
-    "name": "Caretaker",
-    "type": "ally",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046019",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
-  },
-  {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204620",
-    "name": "Sorcerer Supremacy",
-    "type": "event",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046020",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
-  },
-  {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204621",
-    "name": "The Power of Magic",
-    "type": "resource",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046021",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
-  },
-  {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204622",
-    "name": "Strange Academy",
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501121",
+    "name": "H.E.R.B.I.E.",
     "type": "support",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046022",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011021",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
   },
   {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204623",
-    "name": "Ancestral Legacy",
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501122",
+    "name": "Baxter Building",
+    "type": "support",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011022",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501123",
+    "name": "Fantasticar",
+    "type": "support",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011023",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501124",
+    "name": "Unstable Uniform",
+    "type": "upgrade",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011024",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501125",
+    "name": "Fantasti-Flare",
+    "type": "upgrade",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011025",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501126",
+    "name": "Neutralizer",
+    "type": "upgrade",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011026",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501127",
+    "name": "Stretched Thin",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011027",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501128",
+    "name": "Big Reach",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011028",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501129",
+    "name": "Slippery",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011029",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501130",
+    "name": "Mental Gymnastics",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011030",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501136b",
+    "name": "Johnny Storm",
+    "type": "alter_ego",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011036",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501136a",
+    "name": "Human Torch",
+    "type": "hero",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011036",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501137",
+    "name": "The Thing",
+    "type": "ally",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011037",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501138",
+    "name": "Johnny's Workshop",
+    "type": "support",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011038",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501139",
+    "name": "Unstable Uniform",
+    "type": "upgrade",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011039",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501140",
+    "name": "Internal Combustion",
+    "type": "upgrade",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011040",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501141",
+    "name": "Spark",
+    "type": "upgrade",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011041",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501142",
+    "name": "Fly-By",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011042",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501143",
+    "name": "Blaze and Daze",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011043",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501144",
+    "name": "Radiate",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011044",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501145",
+    "name": "Nova Flame",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011045",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501150b",
+    "name": "Ben Grimm",
+    "type": "alter_ego",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011050",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501150a",
+    "name": "The Thing",
+    "type": "hero",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011050",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501151",
+    "name": "Human Torch",
+    "type": "ally",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011051",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501152",
+    "name": "Alicia Masters",
+    "type": "support",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011052",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501153",
+    "name": "Yancy Street Gang",
+    "type": "support",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011053",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501154",
+    "name": "Unstable Uniform",
+    "type": "upgrade",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011054",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501155",
+    "name": "Rock 'Em",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011055",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501156",
+    "name": "True Grit",
+    "type": "upgrade",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011056",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501157",
+    "name": "Toughen Up",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011057",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501158",
+    "name": "Sock 'Em",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011058",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501159",
+    "name": "It's Clobberin' Time!",
+    "type": "event",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011059",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501113",
+    "name": "Family Time",
     "type": "obligation",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046023",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011013",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
   },
   {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204624",
-    "name": "Taking Back Control",
-    "type": "side_scheme",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046024",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
-  },
-  {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204625",
-    "name": "The One",
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501114",
+    "name": "Psycho-Man",
     "type": "minion",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046025",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011014",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
   },
   {
-    "pack_code": "sister_grimm_by_nashman88_man3",
-    "card_id": "204626",
-    "name": "Corrupting Influence",
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501115",
+    "name": "Emotional Masterplan",
+    "type": "side_scheme",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011015",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501116",
+    "name": "Microversal Maneuvers",
+    "type": "attachment",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011016",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501117",
+    "name": "Titanic Terror",
+    "type": "attachment",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011017",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501118",
+    "name": "End Of The Line",
     "type": "treachery",
-    "octgn_id": "f9e02f2d-7506-48d4-aa64-65e059046026",
-    "pack_octgn_id": "f9e02f2d-7506-48d4-aa64-65e059ff47f3"
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011018",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501131",
+    "name": "Ben's Cure",
+    "type": "obligation",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011031",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501132",
+    "name": "Wizard",
+    "type": "minion",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011032",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501133",
+    "name": "Hubris",
+    "type": "side_scheme",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011033",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501134",
+    "name": "Projection",
+    "type": "attachment",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011034",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501135",
+    "name": "Execution",
+    "type": "treachery",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011035",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501146",
+    "name": "Flame Off",
+    "type": "obligation",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011046",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501147",
+    "name": "Hydro-Man",
+    "type": "minion",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011047",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501148",
+    "name": "Dam It",
+    "type": "side_scheme",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011048",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501149",
+    "name": "Tidal Surge",
+    "type": "treachery",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011049",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501160",
+    "name": "Annual Shedding",
+    "type": "obligation",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011060",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501161",
+    "name": "Puppet Master",
+    "type": "minion",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011061",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501162",
+    "name": "Pulling The Strings",
+    "type": "side_scheme",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011062",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501163",
+    "name": "Hulk",
+    "type": "minion",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011063",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
+  },
+  {
+    "pack_code": "fantastic_four_by_hax",
+    "card_id": "501164",
+    "name": "Friendly Fire",
+    "type": "treachery",
+    "octgn_id": "07933d8a-ba60-4386-a929-9c1c2f011064",
+    "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
   }
 ]

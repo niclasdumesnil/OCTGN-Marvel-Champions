@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Spider-Man Noir" id="cd4be2b6-ce23-48c1-be04-17bab80b3a1b" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="cd4be2b6-ce23-48c1-be04-17bab8000000" name="spider_man_noir_by_matty">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+    </card>
+    <card id="cd4be2b6-ce23-48c1-be04-17bab8990000" name="spider_man_noir_by_matty">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="spider_man_noir_by_matty_nemesis"/>
+    </card>
+    <card name="Spider-Man Noir" id="cd4be2b6-ce23-48c1-be04-17bab8047001">
+      <property name="CardNumber" value="204701a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="3"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Detective. Noir. Web-Warrior."/>
+      <property name="Text">&lt;i&gt;Vigilante Justice&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you set 1 [[CLUE]] card aside, deal 1 damage to an enemy or remove 1 threat from a scheme. (Limit once per phase.)</property>
+      <property name="Quote">“I collect facts, and when I determine who the bad guys are, I punish them.”</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Peter Parker" type="b">
+        <property name="CardNumber" value="204701b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="spider_man_noir_by_matty"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Civilian. Detective."/>
+        <property name="Text">&lt;i&gt;Great Depression&lt;/i&gt; — During deck-building, your deck may not include any basic or aspect resource cards.
+&lt;i&gt;Brooding Detective&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Seek 1 [[CLUE]] card from your deck and add it to your hand. (Limit once per round.)</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Case File" id="cd4be2b6-ce23-48c1-be04-17bab8047002">
+      <property name="CardNumber" value="204702"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Cost" value="None"/>
+      <property name="Text">Permanent. Setup.
+&lt;b&gt;Setup&lt;/b&gt;: Place 1 evidence counter here. (See insert.)
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When there are 4 set-aside [[CLUE]] cards, place 1 evidence counter here and place all set-aside [[CLUE]] cards in your discard pile. Then, if there are at least 5 evidence counters here, draw 1 card.</property>
+    </card>
+    <card name="Felicia Hardy" id="cd4be2b6-ce23-48c1-be04-17bab8047003">
+      <property name="CardNumber" value="204703"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Civilian."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Felicia Hardy is discarded from your deck, put her into play under your control.
+&lt;b&gt;Response&lt;/b&gt;: After you play Felicia Hardy from your hand, heal 1 damage from your identity.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Thwip!" id="cd4be2b6-ce23-48c1-be04-17bab8047004">
+      <property name="CardNumber" value="204704"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Add a card to your hand from your discard pile with a printed cost equal to or less than your case's strength.</property>
+      <property name="Quote">“You and me have some unfinished business.”</property>
+    </card>
+    <card name="With The Wind" id="cd4be2b6-ce23-48c1-be04-17bab8047005">
+      <property name="CardNumber" value="204705"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Defense."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(defense)&lt;/i&gt;: When you would take any amount of damage, prevent X of that damage, where X is double your case's strength. You may discard the top card of your deck.</property>
+      <property name="Quote">“Wherever I go, the wind follows.”</property>
+    </card>
+    <card name="“It's Curtains For You!”" id="cd4be2b6-ce23-48c1-be04-17bab8047006">
+      <property name="CardNumber" value="204706"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: When this card is discarded from your deck, remove 1 threat from a scheme.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 or X threat from a scheme (whichever is greater and to a maximum of 5), where X is equal to your case's strength.</property>
+    </card>
+    <card name="“The Jig Is Up!”" id="cd4be2b6-ce23-48c1-be04-17bab8047007">
+      <property name="CardNumber" value="204707"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: When this card is discarded from your deck, deal 2 damage to an enemy.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 1 damage to X enemies, where X is equal to your case's strength.</property>
+    </card>
+    <card name="Knuckle Sandwich" id="cd4be2b6-ce23-48c1-be04-17bab8047008">
+      <property name="CardNumber" value="204708"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 5 damage to an enemy. If your case's strength is at least:
+1 or 2 — Stun or confuse an enemy.
+3 or 4 — Deal 2 damage to an enemy.
+5 — Heal 2 damage.</property>
+      <property name="Quote">“APPLESAUCE!”</property>
+    </card>
+    <card name="Felicia's Apartment" id="cd4be2b6-ce23-48c1-be04-17bab8047009">
+      <property name="CardNumber" value="204709"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Felicia's Apartment → discard up to 3 cards from your deck. Heal 1 damage from Peter Parker for each card discarded this way.</property>
+      <property name="Quote">“You really are the cat's meow!” - Peter Parker</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Spider-Totem" id="cd4be2b6-ce23-48c1-be04-17bab8047010">
+      <property name="CardNumber" value="204710"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Artifact. Item."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Spider-Totem → shuffle 1 Spider-Man Noir or [[CLUE]] card from your discard pile into your deck. You may not resolve Peter Parker's “Brooding Detective” ability again this round. Draw 1 card.</property>
+    </card>
+    <card name="Spider-Man Noir's Gun" id="cd4be2b6-ce23-48c1-be04-17bab8047011">
+      <property name="CardNumber" value="204711"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you play an [[ATTACK]] or [[THWART]] event, exhaust Spider-Man Noir's Gun → discard cards from the top of your deck equal to that event's printed cost.</property>
+      <property name="Quote">“If you want to end something fast, you can't be afraid to get your hands dirty.”</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Spider-Sense" id="cd4be2b6-ce23-48c1-be04-17bab8047012">
+      <property name="CardNumber" value="204712"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When the villain initiates an attack against you, look at the top 2 cards of your deck. Add 1 to your hand and discard the other.</property>
+      <property name="Quote">“Spider-senses, tingling!”</property>
+    </card>
+    <card name="Inner Monologue" id="cd4be2b6-ce23-48c1-be04-17bab8047013">
+      <property name="CardNumber" value="204713"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust Inner Monologue → discard up to X cards from your deck, where X is equal to your case's strength. Reduce the cost of the next card you play this phase by the number of printed resource types discarded this way.</property>
+    </card>
+    <card name="Secret Informant" id="cd4be2b6-ce23-48c1-be04-17bab8047014">
+      <property name="CardNumber" value="204714"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Clue."/>
+      <property name="Text">Archive.
+This card generates 1 additional [wild] resource for an ally.</property>
+    </card>
+    <card name="Dossier" id="cd4be2b6-ce23-48c1-be04-17bab8047015">
+      <property name="CardNumber" value="204715"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Clue."/>
+      <property name="Text">Archive.
+&lt;b&gt;Response&lt;/b&gt;: After you spend this card, give a hero +1 THW, +1 ATK, +1 DEF until the end of the round.</property>
+    </card>
+    <card name="Place Of Interest" id="cd4be2b6-ce23-48c1-be04-17bab8047016">
+      <property name="CardNumber" value="204716"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Clue."/>
+      <property name="Text">Archive.
+This card generates 1 additional [wild] resource for a support.</property>
+    </card>
+    <card name="Forensic Artifact" id="cd4be2b6-ce23-48c1-be04-17bab8047017">
+      <property name="CardNumber" value="204717"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Clue."/>
+      <property name="Text">Archive.
+This card generates 1 additional [wild] resource for an upgrade.</property>
+    </card>
+    <card name="Witness Intimidation" id="cd4be2b6-ce23-48c1-be04-17bab8047018" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="204718"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="spider_man_noir_by_matty"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;Give to the Peter Parker player.&lt;/b&gt;
+[acceleration]
+Treat each [[CLUE]] card's text box as if it were blank, except for [[TRAITS]] and keywords.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Peter Parker → remove Witness Intimidation from the game.</property>
+    </card>
+    <card name="The Case Of The Circus Freaks" id="cd4be2b6-ce23-48c1-be04-17bab8047019" size="SchemeCard">
+      <property name="CardNumber" value="204719"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="spider_man_noir_by_matty_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the villain phase begins, the first player chooses to take 1 damage or place 1 threat here.
+[amplify]</property>
+      <property name="Quote">Norman Osborn's gang of carnival freaks have subjected the city to a reign of terror.</property>
+    </card>
+    <card name="Norman Osborn" id="cd4be2b6-ce23-48c1-be04-17bab8047020" size="EncounterCard">
+      <property name="CardNumber" value="204720"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="spider_man_noir_by_matty_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Criminal. Elite."/>
+      <property name="Text">Villainous.
+[star] Norman Osborn gets +X hit points, where X is equal to Spider-Man Noir's case's strength.
+&lt;i&gt;(Spider-Man Noir's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Quote">“I'm something of a recidivist myself.”</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Adrian Toomes" id="cd4be2b6-ce23-48c1-be04-17bab8047021" size="EncounterCard">
+      <property name="CardNumber" value="204721"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="spider_man_noir_by_matty_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">Guard. Villainous.
+[star] Adrian Toomes's attacks gain overkill.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Put Adrian Toomes into play engaged with you.</property>
+      <property name="Quote">“You don't ever want to cross The Vulture.” — Ben Urich</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Sergei Kravinoff" id="cd4be2b6-ce23-48c1-be04-17bab8047022" size="EncounterCard">
+      <property name="CardNumber" value="204722"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="spider_man_noir_by_matty_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">Guard. Retaliate 1.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Put Sergei Kravinoff into play engaged with you.</property>
+      <property name="Quote">“There is no creature or beast that can escape the crack of my whip!”</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Freaks Unleashed" id="cd4be2b6-ce23-48c1-be04-17bab8047023" size="EncounterCard">
+      <property name="CardNumber" value="204723"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="spider_man_noir_by_matty_nemesis"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for a [[CRIMINAL]] minion and put it into play engaged with you. Give each [[CRIMINAL]] minion engaged with you a tough status card.</property>
+    </card>
+    <card name="The Sticky-Fingered Illusionist" id="cd4be2b6-ce23-48c1-be04-17bab8047024" size="SchemeCard">
+      <property name="CardNumber" value="204724"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="the_magnificent_mysterio"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Each player places 1 card at random from their hand beneath this scheme.
+&lt;b&gt;When Defeated&lt;/b&gt;: Return each facedown card here to its owner's hand.</property>
+      <property name="Quote">The Magnificent Mysterio may leave audiences awestruck, but their sense of belief isn't the only thing left missing.</property>
+    </card>
+    <card name="Quentin Beck" id="cd4be2b6-ce23-48c1-be04-17bab8047025" size="EncounterCard">
+      <property name="CardNumber" value="204725"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="the_magnificent_mysterio"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After Quentin Beck activates against you, discard 1 card at random from your hand.</property>
+      <property name="Quote">“My dear boy. I'm a magician. Tricks are what I do.”</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Smoke Bomb" id="cd4be2b6-ce23-48c1-be04-17bab8047026" size="EncounterCard">
+      <property name="CardNumber" value="204726"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="the_magnificent_mysterio"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Attach to the minion with the most remaining hit points. If you cannot, this card gains surge.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached minion would be defeated, shuffle it into the encounter deck instead.</property>
+      <property name="Quote">“I must bid you adieu!” — Quentin Beck</property>
+    </card>
+    <card name="“For My Next Trick ...”" id="cd4be2b6-ce23-48c1-be04-17bab8047027" size="EncounterCard">
+      <property name="CardNumber" value="204727"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="the_magnificent_mysterio"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: In player order, each player must choose to either discard 1 card at random from their hand or take 3 damage.</property>
+      <property name="Quote">“... I shall require a volunteer.” — Quentin Beck</property>
+    </card>
+  </cards>
+</set>
