@@ -17640,6 +17640,158 @@
     "pack_octgn_id": "6c7d476a-f54a-4e3c-b3ac-118c038671c7"
   },
   {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204801b",
+    "name": "Kate Bishop",
+    "type": "alter_ego",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048001",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204801a",
+    "name": "Hawkeye",
+    "type": "hero",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048001",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204802",
+    "name": "Hawkeye",
+    "type": "ally",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048002",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204803",
+    "name": "Evasive Shot",
+    "type": "event",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048003",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204804",
+    "name": "Infiltrate",
+    "type": "event",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048004",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204805",
+    "name": "Quick Draw",
+    "type": "event",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048005",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204806",
+    "name": "Smoke Arrow",
+    "type": "event",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048006",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204807",
+    "name": "Anchor Points",
+    "type": "support",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048007",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204808",
+    "name": "Hawkeye Investigations",
+    "type": "support",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048008",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204809",
+    "name": "Lucky",
+    "type": "support",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048009",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204810",
+    "name": "Athletic Agility",
+    "type": "upgrade",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048010",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204811",
+    "name": "Kate's Aviators",
+    "type": "upgrade",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048011",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204812",
+    "name": "Kate's Bow",
+    "type": "upgrade",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048012",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204813",
+    "name": "Kate's Quiver",
+    "type": "upgrade",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048013",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204814",
+    "name": "Family = Trouble",
+    "type": "obligation",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048014",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204815",
+    "name": "Finding the Perfect LMD",
+    "type": "side_scheme",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048015",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204816",
+    "name": "Madame Masque",
+    "type": "minion",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048016",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204817",
+    "name": "Masque's Minions",
+    "type": "minion",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048017",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204818",
+    "name": "Golden Shot",
+    "type": "treachery",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048018",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
     "pack_code": "heimdall_by_jackhkp",
     "card_id": "200601b",
     "name": "Heimdall",
@@ -21014,6 +21166,150 @@
     "type": "treachery",
     "octgn_id": "4cae2254-7233-5851-a397-e5f8f0000020",
     "pack_octgn_id": "4cae2254-7233-5851-a397-e5f8f098edd7"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204901a",
+    "name": "Iron Lad",
+    "type": "hero",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049001",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204901b",
+    "name": "Nathaniel Richards",
+    "type": "alter_ego",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049001",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204902",
+    "name": "Stature",
+    "type": "ally",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049002",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204903",
+    "name": "Energy Overflow",
+    "type": "event",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049003",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204904",
+    "name": "Ion Blast",
+    "type": "event",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049004",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204905",
+    "name": "Seeking Solutions",
+    "type": "event",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049005",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204906",
+    "name": "Vision AI",
+    "type": "support",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049006",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204907",
+    "name": "Hack",
+    "type": "upgrade",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049007",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204908",
+    "name": "Ion Amplifiers",
+    "type": "upgrade",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049008",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204909",
+    "name": "Iron Lad's Boots",
+    "type": "upgrade",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049009",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204910",
+    "name": "Iron Lad's Helmet",
+    "type": "upgrade",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049010",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204911",
+    "name": "Iron Lad's Suit",
+    "type": "upgrade",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049011",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204912",
+    "name": "Neurokinetic Interface",
+    "type": "upgrade",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049012",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204913",
+    "name": "Shadow of the Future",
+    "type": "obligation",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049013",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204914",
+    "name": "Early Start",
+    "type": "side_scheme",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049014",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204915",
+    "name": "Kang the Conqueror",
+    "type": "minion",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049015",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204916",
+    "name": "Taking Responsability",
+    "type": "obligation",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049016",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+  },
+  {
+    "pack_code": "iron_lad_by_cptscorp",
+    "card_id": "204917",
+    "name": "Pay the Price",
+    "type": "treachery",
+    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049017",
+    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
   },
   {
     "pack_code": "iron_man_by_raytten",

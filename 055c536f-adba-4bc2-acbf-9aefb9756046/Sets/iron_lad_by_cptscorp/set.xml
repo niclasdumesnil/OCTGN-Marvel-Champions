@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Iron Lad" id="47edd197-7b0b-4941-b4a4-801f0a1baa41" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="47edd197-7b0b-4941-b4a4-801f0a000000" name="iron_lad_by_cptscorp">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="iron_lad_by_cptscorp"/>
+    </card>
+    <card id="47edd197-7b0b-4941-b4a4-801f0a990000" name="iron_lad_by_cptscorp">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="iron_lad_by_cptscorp_nemesis"/>
+    </card>
+    <card name="Iron Lad" id="47edd197-7b0b-4941-b4a4-801f0a049001">
+      <property name="CardNumber" value="204901a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="iron_lad_by_cptscorp"/>
+      <property name="HandSize" value="4"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="Young Avenger."/>
+      <property name="Text">&lt;i&gt;Destiny&lt;/i&gt; — &lt;b&gt;Action:&lt;/b&gt; Name a resource type and look at the top 4 cards of your deck. Add up to 2 cards with the chosen resource type to your hand and discard the others. (Limit once per round.)</property>
+      <property name="Quote">&lt;i&gt;“They call me Kang.”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Nathaniel Richards" type="b">
+        <property name="CardNumber" value="204901b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="iron_lad_by_cptscorp"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="9"/>
+        <property name="Attribute" value="Genius."/>
+        <property name="Text">&lt;i&gt;Inventive Genius&lt;/i&gt; — &lt;b&gt;Action:&lt;/b&gt; Reduce the resource cost of the next [[tech]] card played this phase by 2. (Limit once per round.)
+&lt;i&gt;“I'm from the thirtieth century...”&lt;/i&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Stature" id="47edd197-7b0b-4941-b4a4-801f0a049002">
+      <property name="CardNumber" value="204902"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="iron_lad_by_cptscorp"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Young Avenger."/>
+      <property name="Text">&lt;b&gt;Response:&lt;/b&gt; After Stature enters play, heal 1 damage from your identity. You may discard up to 3 cards from your deck to heal 1 more damage for each card discarded.
+&lt;i&gt;“We'll protect you, Nate.”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Energy Overflow" id="47edd197-7b0b-4941-b4a4-801f0a049003">
+      <property name="CardNumber" value="204903"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="iron_lad_by_cptscorp"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Action:&lt;/b&gt; Discard a [[tech]] card you control → deal 6 damage to X enemies in play, where X is equal to the printed resource cost of the discarded card. This damage ignores tough status cards.</property>
+    </card>
+    <card name="Ion Blast" id="47edd197-7b0b-4941-b4a4-801f0a049004">
+      <property name="CardNumber" value="204904"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="iron_lad_by_cptscorp"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (attack): Deal 2 damage to an enemy. You may discard 5 cards from your deck to deal 6 damage instead.
+&lt;i&gt;“You are NOTHING!” -Iron Lad&lt;/i&gt;</property>
+    </card>
+    <card name="Seeking Solutions" id="47edd197-7b0b-4941-b4a4-801f0a049005">
+      <property name="CardNumber" value="204905"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="iron_lad_by_cptscorp"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action:&lt;/b&gt; Shuffle 2 cards from your discard pile back into your deck. Draw 1 card for each [[tech]] card shuffled into your deck this way.
+&lt;i&gt;“I finally found someone who can help me.” -Iron Lad&lt;/i&gt;</property>
+    </card>
+    <card name="Vision AI" id="47edd197-7b0b-4941-b4a4-801f0a049006">
+      <property name="CardNumber" value="204906"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="iron_lad_by_cptscorp"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tech."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action:&lt;/b&gt; Exhaust Vision AI → shuffle the top card of your discard pile into your deck. Return the bottom card of your discard pile to your hand.
+&lt;i&gt;“I downloaded the Vision's operating system and data files into my armor.” -Iron Lad&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Hack" id="47edd197-7b0b-4941-b4a4-801f0a049007">
+      <property name="CardNumber" value="204907"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iron_lad_by_cptscorp"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Preparation. Tech."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt; (thwart): When threat would be placed on a scheme, discard Hack → remove that amount from that scheme instead. Additionally, you may discard 5 cards from your deck to remove the same amount from a different scheme.
+&lt;i&gt;“His mask is weird, too.” -Jessica Jones&lt;/i&gt;</property>
+    </card>
+    <card name="Ion Amplifiers" id="47edd197-7b0b-4941-b4a4-801f0a049008">
+      <property name="CardNumber" value="204908"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iron_lad_by_cptscorp"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech."/>
+      <property name="Text">Uses (X ion counters, where X is equal to the number of [[tech]] cards you control.)&lt;b&gt;
+Hero Resource:&lt;/b&gt; Exhaust Ion Amplifiers and remove 1 ion counter from it → generate a [wild] resource.
+&lt;i&gt;“His mask is weird, too.” -Jessica Jones&lt;/i&gt;</property>
+    </card>
+    <card name="Iron Lad's Boots" id="47edd197-7b0b-4941-b4a4-801f0a049009">
+      <property name="CardNumber" value="204909"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iron_lad_by_cptscorp"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">Iron Lad gains [[aerial]].&lt;b&gt;
+Hero Response:&lt;/b&gt; After playing an event, exhaust Iron Lad's Boots → return the bottom card of your discard pile to your hand.
+&lt;i&gt;“His mask is weird, too.” -Jessica Jones&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Iron Lad's Helmet" id="47edd197-7b0b-4941-b4a4-801f0a049010">
+      <property name="CardNumber" value="204910"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iron_lad_by_cptscorp"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">&lt;b&gt;Hero Response:&lt;/b&gt; After Iron Lad uses a basic power, exhaust Iron Lad's Helmet → return the bottom card of your discard pile to your hand.
+&lt;i&gt;“His mask is weird, too.” -Jessica Jones&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Iron Lad's Suit" id="47edd197-7b0b-4941-b4a4-801f0a049011">
+      <property name="CardNumber" value="204911"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iron_lad_by_cptscorp"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">You get +3 hit points.&lt;b&gt;
+Hero Action:&lt;/b&gt; Exhaust Iron Lad's Suit → ready Iron Lad.
+&lt;i&gt;“This armor responds to your thoughts.” -Kang&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Neurokinetic Interface" id="47edd197-7b0b-4941-b4a4-801f0a049012">
+      <property name="CardNumber" value="204912"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iron_lad_by_cptscorp"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">&lt;b&gt;Hero Response:&lt;/b&gt; After you reveal an encounter card, exhaust Neurokinetic Interface → if that card was: • A treachery or minion, deal 2 damage to an enemy.
+• A side scheme or attachment, remove 2 threat from a scheme.</property>
+    </card>
+    <card name="Shadow of the Future" id="47edd197-7b0b-4941-b4a4-801f0a049013" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="204913"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="iron_lad_by_cptscorp"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">You may flip to alter-ego form. Choose:
+Remove the top 3 cards of your deck from the game → remove Shadow of the Future from the game.
+Discard 1 tech card you control. Discard 3 cards from your deck. Discard this obligation.</property>
+    </card>
+    <card name="Early Start" id="47edd197-7b0b-4941-b4a4-801f0a049014" size="SchemeCard">
+      <property name="CardNumber" value="204914"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="iron_lad_by_cptscorp_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;Kang went back in time to show his younger self what he is destined to become... Hoping that he would start this path earlier than planned.
+&lt;/i&gt;&lt;b&gt;When Revealed:&lt;/b&gt; Exhaust each Iron Lad upgrade in play.
+While this scheme is in play, Iron Lad upgrades cannot be readied.</property>
+    </card>
+    <card name="Kang the Conqueror" id="47edd197-7b0b-4941-b4a4-801f0a049015" size="EncounterCard">
+      <property name="CardNumber" value="204915"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="iron_lad_by_cptscorp_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Temporal."/>
+      <property name="Text">Toughness. Villainous.
+&lt;b&gt;When Revealed:&lt;/b&gt; Put the highest cost Iron Lad upgrade in play under Kang the Conqueror.
+&lt;b&gt;When Defeated:&lt;/b&gt; Return the upgrade under here to its owner's hand. Set Kang the Conqueror aside.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Taking Responsability" id="47edd197-7b0b-4941-b4a4-801f0a049016" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="204916"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="iron_lad_by_cptscorp_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;Forced Response:&lt;/b&gt; After you attack or thwart, discard the top card of your deck.
+&lt;b&gt;Action:&lt;/b&gt; Remove the top card of your deck from the game → discard this obligation.
+“Fine, I'll go with you...” -Iron Lad</property>
+    </card>
+    <card name="Pay the Price" id="47edd197-7b0b-4941-b4a4-801f0a049017" size="EncounterCard">
+      <property name="CardNumber" value="204917"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="iron_lad_by_cptscorp_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed:&lt;/b&gt; Discard 8 cards from your deck. If less than 8 cards were discarded this way, this card gains surge.</property>
+    </card>
+  </cards>
+</set>

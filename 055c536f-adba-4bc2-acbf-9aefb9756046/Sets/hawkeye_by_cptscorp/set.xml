@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Hawkeye" id="733d90e1-16db-4601-8e3f-cd07065ae0e0" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="733d90e1-16db-4601-8e3f-cd0706000000" name="hawkeye_by_cptscorp">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+    </card>
+    <card id="733d90e1-16db-4601-8e3f-cd0706990000" name="hawkeye_by_cptscorp">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="hawkeye_by_cptscorp_nemesis"/>
+    </card>
+    <card name="Hawkeye" id="733d90e1-16db-4601-8e3f-cd0706048001">
+      <property name="CardNumber" value="204801a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="1"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="Young Avenger."/>
+      <property name="Text">&lt;i&gt;Master Archer&lt;/i&gt; — &lt;b&gt;Interrupt &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: When an enemy initiates an attack, remove up to 3 arrow counters from Kate's Bow → deal 1 damage to that enemy for each arrow counter removed.</property>
+      <property name="Quote">&lt;i&gt;“I aim to please.”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Kate Bishop" type="b">
+        <property name="CardNumber" value="204801b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="hawkeye_by_cptscorp"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="9"/>
+        <property name="Attribute" value="Private Investigator."/>
+        <property name="Text">&lt;i&gt;Skillful&lt;/i&gt; — During deck building you may include [[skill]] cards from any aspect.
+&lt;b&gt;Action:&lt;/b&gt; Search your deck and discard pile for Kate's Bow and put it into play. (Limit once per round.)</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Hawkeye&#10;Clint Barton" id="733d90e1-16db-4601-8e3f-cd0706048002">
+      <property name="CardNumber" value="204802"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Avenger."/>
+      <property name="Text">&lt;b&gt;Interrupt:&lt;/b&gt; When Hawkeye would be defeated by consequential damage, shuffle him into your deck and place 1 arrow counter on Kate's Bow.</property>
+      <property name="Quote">&lt;i&gt;“What am I doing, Katie? I'm rescuing you, of course.”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Evasive Shot" id="733d90e1-16db-4601-8e3f-cd0706048003">
+      <property name="CardNumber" value="204803"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Defense. Skill."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(defense)&lt;/i&gt;: When you would take any amount of damage from an attack, prevent 4 of that damage. Then, deal 1 damage to the attacker for each arrow counter on Kate's Bow (to a maximum of 5).</property>
+      <property name="Quote">&lt;i&gt;“Back off, minions.” - Kate Bishop&lt;/i&gt;</property>
+    </card>
+    <card name="Infiltrate" id="733d90e1-16db-4601-8e3f-cd0706048004">
+      <property name="CardNumber" value="204804"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Interrupt:&lt;/b&gt; When any amount of threat would be placed on a scheme, prevent 2 of that threat (4 instead if you are in alter-ego form).</property>
+      <property name="Quote">&lt;i&gt;“Oof, this is tight. Imma have to stop eating those delicious mini-donuts.” - Kate Bishop&lt;/i&gt;</property>
+    </card>
+    <card name="Quick Draw" id="733d90e1-16db-4601-8e3f-cd0706048005">
+      <property name="CardNumber" value="204805"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action:&lt;/b&gt; Flip to hero form and ready your hero.
+&lt;b&gt;Hero Action:&lt;/b&gt; Ready your hero and place 2 arrow counters on Kate's Bow.</property>
+      <property name="Quote">&lt;i&gt;“Whatcha boys say we even up these odds?”
+- Kate Bishop&lt;/i&gt;</property>
+    </card>
+    <card name="Smoke Arrow" id="733d90e1-16db-4601-8e3f-cd0706048006">
+      <property name="CardNumber" value="204806"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Arrow."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt:&lt;/b&gt; When an enemy initiates an activation, remove 1 arrow counter from Kate's Bow → cancel that activation. You may spend a resource to flip to alter-ego form or ready your hero.</property>
+      <property name="Quote">&lt;i&gt;“Sometimes Clint's right and a trick arrow really is the way to go.” - Kate Bishop&lt;/i&gt;</property>
+    </card>
+    <card name="Anchor Points" id="733d90e1-16db-4601-8e3f-cd0706048007">
+      <property name="CardNumber" value="204807"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Persona."/>
+      <property name="Text">&lt;b&gt;Resource:&lt;/b&gt; Exhaust Anchor Points → generate a [wild] resource for a [[skill]] card.</property>
+      <property name="Quote">&lt;i&gt;“We archers have "anchor points". A set place that your draw hand returns to... A place that brings stability and consistency.” - Kate Bishop&lt;/i&gt;</property>
+    </card>
+    <card name="Hawkeye Investigations" id="733d90e1-16db-4601-8e3f-cd0706048008">
+      <property name="CardNumber" value="204808"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After you prevent any amount of threat from being placed on a scheme, remove 1 threat from a scheme.
+&lt;b&gt;Response&lt;/b&gt;: After you prevent any amount of damage, remove 1 threat from a scheme.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Lucky" id="733d90e1-16db-4601-8e3f-cd0706048009">
+      <property name="CardNumber" value="204809"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Good Boy."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action:&lt;/b&gt; Exhaust Lucky → heal 2 damage from Kate Bishop and place 1 arrow counter on Kate's Bow.</property>
+      <property name="Quote">&lt;i&gt;“Woof!” - Lucky&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Athletic Agility" id="733d90e1-16db-4601-8e3f-cd0706048010">
+      <property name="CardNumber" value="204810"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">You gain Agile 1. &lt;i&gt;(Reduce damage taken from undefended attacks by 1, to a minimum of 1)&lt;/i&gt;
+&lt;b&gt;Interrupt:&lt;/b&gt; When you prevent any amount of damage from an attack, deal 1 damage to an enemy.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Kate's Aviators" id="733d90e1-16db-4601-8e3f-cd0706048011">
+      <property name="CardNumber" value="204811"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Uses (2 style counter).
+&lt;b&gt;Hero Action:&lt;/b&gt; Exhaust Kate's Aviators and remove 1 style counter from it → draw 1 card.</property>
+      <property name="Quote">&lt;i&gt;“Aviators rule.” - Kate Bishop&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Kate's Bow" id="733d90e1-16db-4601-8e3f-cd0706048012">
+      <property name="CardNumber" value="204812"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Restricted.
+Your basic attacks gain ranged.
+&lt;b&gt;Interrupt:&lt;/b&gt; At the end of the player phase, place 1 arrow counter on this card. (Max of 10 arrow counters here.)</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Kate's Quiver" id="733d90e1-16db-4601-8e3f-cd0706048013">
+      <property name="CardNumber" value="204813"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">You may remove up to 5 arrow counters with your &lt;i&gt;Master Archer&lt;/i&gt; &lt;b&gt;Interrupt &lt;/b&gt;instead.
+&lt;b&gt;Resource:&lt;/b&gt; Exhaust Kate's Quiver → generate a [wild] resource and place 1 arrow counter on Kate's Bow.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Family = Trouble" id="733d90e1-16db-4601-8e3f-cd0706048014" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="204814"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="hawkeye_by_cptscorp"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">You may flip to alter-ego form. Choose:
+Summon the hero-specific Hawkeye ally and remove him from the game → remove Family = Trouble from the game.
+Remove all arrow counters from Kate's Bow. You cannot place arrow counters on Kate's Bow until the end of the next round. Discard this obligation.</property>
+    </card>
+    <card name="Finding the Perfect LMD" id="733d90e1-16db-4601-8e3f-cd0706048015" size="SchemeCard">
+      <property name="CardNumber" value="204815"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="hawkeye_by_cptscorp_nemesis"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">While this scheme is in play, threat cannot be prevented from being placed on a scheme and Madame Masque cannot take damage.</property>
+    </card>
+    <card name="Madame Masque" id="733d90e1-16db-4601-8e3f-cd0706048016" size="EncounterCard">
+      <property name="CardNumber" value="204816"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="hawkeye_by_cptscorp_nemesis"/>
+      <property name="Attack" value="None"/>
+      <property name="Scheme" value="None"/>
+      <property name="Attribute" value="Masters Of Evil."/>
+      <property name="Text">[star] Madame Masque's ATK and SCH are equal to the ATK and THW, respectively, of the hero form of the identity she is engaged with.
+&lt;i&gt;(Hawkeye's Nemesis Minion.)&lt;/i&gt;</property>
+    </card>
+    <card name="Masque's Minions" id="733d90e1-16db-4601-8e3f-cd0706048017" size="EncounterCard">
+      <property name="CardNumber" value="204817"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="hawkeye_by_cptscorp_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Text">Guard.
+&lt;b&gt;
+Forced Interrupt:&lt;/b&gt; When this minion would be defeated, place 1 minion counter on it and heal all damage from him.
+&lt;b&gt;
+Forced Interrupt:&lt;/b&gt; When this minion has 2 or more counters on it, discard it.</property>
+    </card>
+    <card name="Golden Shot" id="733d90e1-16db-4601-8e3f-cd0706048018" size="EncounterCard">
+      <property name="CardNumber" value="204818"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="hawkeye_by_cptscorp_nemesis"/>
+    </card>
+  </cards>
+</set>
