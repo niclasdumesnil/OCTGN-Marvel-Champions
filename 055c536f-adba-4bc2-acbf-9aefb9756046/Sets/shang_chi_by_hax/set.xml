@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Shang-Chi" id="7d79f086-4f07-4d2b-86fc-4bbd0133cd1f" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="7d79f086-4f07-4d2b-86fc-4bbd01000000" name="shang_chi_by_hax">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="shang_chi"/>
+    </card>
+    <card id="7d79f086-4f07-4d2b-86fc-4bbd01990000" name="shang_chi_by_hax">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="shang_chi_nemesis"/>
+    </card>
+    <card name="Shang-Chi" id="7d79f086-4f07-4d2b-86fc-4bbd01050001">
+      <property name="CardNumber" value="205001a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="shang_chi"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="1"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="Avenger. Hero for Hire."/>
+      <property name="Text">&lt;i&gt;Chi Mastery&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you resolve a "[[Flow]]" ability, ready Shang-Chi.</property>
+      <property name="Quote">"Every pilgrim's journey begins with but a single step. This, then, was mine. Countless more await me over the horizon...yet walk them I will."</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Shang-Chi" type="b">
+        <property name="CardNumber" value="205001b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="shang_chi"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="9"/>
+        <property name="Attribute" value="Martial Artist."/>
+        <property name="Text">&lt;i&gt;Multiple Forms&lt;/i&gt; — You may include up to 3 copies of 1 [[ATTACK]] event from each aspect other than your chosen aspect.
+&lt;i&gt;Meditate&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you change to this form, shuffle a card from State of Flow into your deck.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Throat Punch" id="7d79f086-4f07-4d2b-86fc-4bbd01050002">
+      <property name="CardNumber" value="205002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="shang_chi"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 1 damage to the villain. Draw a card.
+&lt;b&gt;Flow&lt;/b&gt;: [wild] → draw 2 additional cards.</property>
+      <property name="Quote">"From Yuan Jing, I draw boldness."</property>
+    </card>
+    <card name="Roundhouse Kick" id="7d79f086-4f07-4d2b-86fc-4bbd01050003">
+      <property name="CardNumber" value="205003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="shang_chi"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 1 damage to an enemy.
+&lt;b&gt;Flow&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: [physical] → deal 2 damage to an enemy.</property>
+      <property name="Quote">"From Tang Minzhe, I draw power."</property>
+    </card>
+    <card name="Special Delivery" id="7d79f086-4f07-4d2b-86fc-4bbd01050004">
+      <property name="CardNumber" value="205004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="shang_chi"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 3 damage to an enemy. If this is the first event you have played this phase, confuse an enemy.
+&lt;b&gt;Flow&lt;/b&gt;: [mental] → if this attack defeats an enemy, play the next [[ATTACK]] event from your hand at no cost.</property>
+    </card>
+    <card name="Dragon Strike" id="7d79f086-4f07-4d2b-86fc-4bbd01050005">
+      <property name="CardNumber" value="205005"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="shang_chi"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 5 damage to an enemy.
+&lt;b&gt;Flow&lt;/b&gt;: [energy] → this attack gains piercing, ranged, and overkill.</property>
+      <property name="Quote">"Another weapon. With it--I will take his eyes."</property>
+    </card>
+    <card name="Chi Jabs" id="7d79f086-4f07-4d2b-86fc-4bbd01050006">
+      <property name="CardNumber" value="205006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="shang_chi"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Choose up to 3 different enemies. Deal 1 damage to each of them.
+&lt;b&gt;Flow&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: [physical] → deal 2 damage to the villain.</property>
+      <property name="Quote">"From Kho Danghai, I draw resilience."</property>
+    </card>
+    <card name="Augmented Blow" id="7d79f086-4f07-4d2b-86fc-4bbd01050007">
+      <property name="CardNumber" value="205007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="shang_chi"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 1 damage to a minion. Place 1 additional counter on an upgrade with any type of counters on it.
+&lt;b&gt;Flow&lt;/b&gt;: [energy] → choose up to 2 upgrades with any type of counter on them. Place 2 additional counters on each of them.</property>
+    </card>
+    <card name="Stark Nunchaku" id="7d79f086-4f07-4d2b-86fc-4bbd01050008">
+      <property name="CardNumber" value="205008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="shang_chi"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Restricted. Enters play with 3 charge counters on it.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Stark Nunchaku and remove 2 charge counters from it → stun an enemy.</property>
+      <property name="Quote">Bzzt.</property>
+    </card>
+    <card name="Metal Bracers" id="7d79f086-4f07-4d2b-86fc-4bbd01050009">
+      <property name="CardNumber" value="205009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="shang_chi"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Armor."/>
+      <property name="Text">Shang-Chi gets +1 DEF. Enters play with 2 reflection counters on it.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Metal Bracers and remove 2 reflection counters from it → give Shang-Chi a tough status card.</property>
+    </card>
+    <card name="Martial Mastery" id="7d79f086-4f07-4d2b-86fc-4bbd01050010">
+      <property name="CardNumber" value="205010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="shang_chi"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">Uses (3 chi counters).
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you use one of your hero's basic powers (&lt;i&gt;THW, ATK, or DEF&lt;/i&gt;), exhaust Martial Mastery and remove 1 chi counter from it → your hero gets +1 to that power for this use.</property>
+    </card>
+    <card name="State of Flow" id="7d79f086-4f07-4d2b-86fc-4bbd01050011">
+      <property name="CardNumber" value="205011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="shang_chi"/>
+      <property name="Cost" value="None"/>
+      <property name="Attribute" value=""/>
+      <property name="Text">Permanent. Setup.
+&lt;b&gt;Forced Response&lt;/b&gt;: After you play an [[ATTACK]] event, place it faceup on top here, forming a pile. After the player deck runs out, shuffle each card placed here back into the player deck.
+&lt;b&gt;Flow&lt;/b&gt;: Look at the top card here. If a printed resource on that card matches the resource required by the "[[Flow]]" ability, you may also resolve its effects.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Family Ties" id="7d79f086-4f07-4d2b-86fc-4bbd01050012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="205012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="shang_chi"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;Give to the Shang-Chi player.&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+• Deal 2 damage to Shang-Chi → remove Family Ties from the game.
+• Deal 2 damage to each ally. Discard this obligation.</property>
+    </card>
+    <card name="Zheng Zu" id="7d79f086-4f07-4d2b-86fc-4bbd01050013" size="EncounterCard">
+      <property name="CardNumber" value="205013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="shang_chi_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Elite. Mystic."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After Zheng Zu schemes, place 1 mystic counter here.
+[star] Zheng Zu gets +1 ATK for each mystic counter here.
+&lt;i&gt;(Shang-Chi's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Quote">"Save your pity for yourself...you'll get none from me."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Life Stealer" id="7d79f086-4f07-4d2b-86fc-4bbd01050014" size="SchemeCard">
+      <property name="CardNumber" value="205014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="shang_chi_nemesis"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Victory 1.
+&lt;b&gt;Forced Response&lt;/b&gt;: After resolving step one of the villain phase, place 1 mystic counter here. After a third mystic counter is placed here, deal 3 indirect damage to each hero and ally in play and remove The Life Stealer from the game.</property>
+      <property name="Quote">Zheng Zu is casting a ritual to restore himself to full power. Don't let it happen!</property>
+    </card>
+    <card name="Downtown Attack" id="7d79f086-4f07-4d2b-86fc-4bbd01050015" size="EncounterCard">
+      <property name="CardNumber" value="205015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="shang_chi_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Remove an ally or [[PERSONA]] card in play from the game. If no card was removed from the game this way, take 3 indirect damage or discard 3 cards from your hand. Then, remove this card from the game.</property>
+      <property name="Quote">"My father has always been a terrorist." —Shang-Chi</property>
+    </card>
+  </cards>
+</set>

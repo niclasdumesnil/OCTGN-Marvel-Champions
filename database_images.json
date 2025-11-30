@@ -34208,6 +34208,134 @@
     "pack_octgn_id": "6db56efb-88fb-5b74-9dc8-c546b403121e"
   },
   {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205001b",
+    "name": "Shang-Chi",
+    "type": "alter_ego",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050001",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205001a",
+    "name": "Shang-Chi",
+    "type": "hero",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050001",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205002",
+    "name": "Throat Punch",
+    "type": "event",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050002",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205003",
+    "name": "Roundhouse Kick",
+    "type": "event",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050003",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205004",
+    "name": "Special Delivery",
+    "type": "event",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050004",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205005",
+    "name": "Dragon Strike",
+    "type": "event",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050005",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205006",
+    "name": "Chi Jabs",
+    "type": "event",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050006",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205007",
+    "name": "Augmented Blow",
+    "type": "event",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050007",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205008",
+    "name": "Stark Nunchaku",
+    "type": "upgrade",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050008",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205009",
+    "name": "Metal Bracers",
+    "type": "upgrade",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050009",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205010",
+    "name": "Martial Mastery",
+    "type": "upgrade",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050010",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205011",
+    "name": "State of Flow",
+    "type": "support",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050011",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205012",
+    "name": "Family Ties",
+    "type": "obligation",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050012",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205013",
+    "name": "Zheng Zu",
+    "type": "minion",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050013",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205014",
+    "name": "The Life Stealer",
+    "type": "side_scheme",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050014",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205015",
+    "name": "Downtown Attack",
+    "type": "treachery",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050015",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
     "pack_code": "silk",
     "card_id": "52001a",
     "name": "Silk",

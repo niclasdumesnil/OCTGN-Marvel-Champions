@@ -1,146 +1,130 @@
 [
   {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204901a",
-    "name": "Iron Lad",
-    "type": "hero",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049001",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
-  },
-  {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204901b",
-    "name": "Nathaniel Richards",
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205001b",
+    "name": "Shang-Chi",
     "type": "alter_ego",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049001",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050001",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204902",
-    "name": "Stature",
-    "type": "ally",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049002",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205001a",
+    "name": "Shang-Chi",
+    "type": "hero",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050001",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204903",
-    "name": "Energy Overflow",
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205002",
+    "name": "Throat Punch",
     "type": "event",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049003",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050002",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204904",
-    "name": "Ion Blast",
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205003",
+    "name": "Roundhouse Kick",
     "type": "event",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049004",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050003",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204905",
-    "name": "Seeking Solutions",
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205004",
+    "name": "Special Delivery",
     "type": "event",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049005",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050004",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204906",
-    "name": "Vision AI",
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205005",
+    "name": "Dragon Strike",
+    "type": "event",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050005",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205006",
+    "name": "Chi Jabs",
+    "type": "event",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050006",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205007",
+    "name": "Augmented Blow",
+    "type": "event",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050007",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205008",
+    "name": "Stark Nunchaku",
+    "type": "upgrade",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050008",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205009",
+    "name": "Metal Bracers",
+    "type": "upgrade",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050009",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205010",
+    "name": "Martial Mastery",
+    "type": "upgrade",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050010",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+  },
+  {
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205011",
+    "name": "State of Flow",
     "type": "support",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049006",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050011",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204907",
-    "name": "Hack",
-    "type": "upgrade",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049007",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
-  },
-  {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204908",
-    "name": "Ion Amplifiers",
-    "type": "upgrade",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049008",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
-  },
-  {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204909",
-    "name": "Iron Lad's Boots",
-    "type": "upgrade",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049009",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
-  },
-  {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204910",
-    "name": "Iron Lad's Helmet",
-    "type": "upgrade",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049010",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
-  },
-  {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204911",
-    "name": "Iron Lad's Suit",
-    "type": "upgrade",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049011",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
-  },
-  {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204912",
-    "name": "Neurokinetic Interface",
-    "type": "upgrade",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049012",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
-  },
-  {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204913",
-    "name": "Shadow of the Future",
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205012",
+    "name": "Family Ties",
     "type": "obligation",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049013",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050012",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204914",
-    "name": "Early Start",
-    "type": "side_scheme",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049014",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
-  },
-  {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204915",
-    "name": "Kang the Conqueror",
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205013",
+    "name": "Zheng Zu",
     "type": "minion",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049015",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050013",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204916",
-    "name": "Taking Responsability",
-    "type": "obligation",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049016",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205014",
+    "name": "The Life Stealer",
+    "type": "side_scheme",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050014",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
-    "pack_code": "iron_lad_by_cptscorp",
-    "card_id": "204917",
-    "name": "Pay the Price",
+    "pack_code": "shang_chi_by_hax",
+    "card_id": "205015",
+    "name": "Downtown Attack",
     "type": "treachery",
-    "octgn_id": "47edd197-7b0b-4941-b4a4-801f0a049017",
-    "pack_octgn_id": "47edd197-7b0b-4941-b4a4-801f0a1baa41"
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050015",
+    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   }
 ]
