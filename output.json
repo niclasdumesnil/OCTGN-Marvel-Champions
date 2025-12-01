@@ -1,130 +1,138 @@
 [
   {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205001b",
-    "name": "Shang-Chi",
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205101b",
+    "name": "John Walker",
     "type": "alter_ego",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050001",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051001",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
   },
   {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205001a",
-    "name": "Shang-Chi",
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205101a",
+    "name": "U.S. Agent",
     "type": "hero",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050001",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051001",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
   },
   {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205002",
-    "name": "Throat Punch",
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205102",
+    "name": "Bouncing Bulwark",
     "type": "event",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050002",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051002",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
   },
   {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205003",
-    "name": "Roundhouse Kick",
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205103",
+    "name": "Deflection",
     "type": "event",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050003",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051003",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
   },
   {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205004",
-    "name": "Special Delivery",
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205104",
+    "name": "Reckless",
     "type": "event",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050004",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051004",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
   },
   {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205005",
-    "name": "Dragon Strike",
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205105",
+    "name": "Roundhouse",
     "type": "event",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050005",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051005",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
   },
   {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205006",
-    "name": "Chi Jabs",
-    "type": "event",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050006",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
-  },
-  {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205007",
-    "name": "Augmented Blow",
-    "type": "event",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050007",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
-  },
-  {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205008",
-    "name": "Stark Nunchaku",
-    "type": "upgrade",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050008",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
-  },
-  {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205009",
-    "name": "Metal Bracers",
-    "type": "upgrade",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050009",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
-  },
-  {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205010",
-    "name": "Martial Mastery",
-    "type": "upgrade",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050010",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
-  },
-  {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205011",
-    "name": "State of Flow",
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205106",
+    "name": "Walker's Chopper",
     "type": "support",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050011",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051006",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
   },
   {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205012",
-    "name": "Family Ties",
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205107",
+    "name": "Convincer",
+    "type": "upgrade",
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051007",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+  },
+  {
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205108",
+    "name": "Obstinance",
+    "type": "upgrade",
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051008",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+  },
+  {
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205109",
+    "name": "Solid Gear",
+    "type": "upgrade",
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051009",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+  },
+  {
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205110",
+    "name": "U.S. Agent's Machine Gun",
+    "type": "upgrade",
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051010",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+  },
+  {
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205111",
+    "name": "U.S. Agent's Shield",
+    "type": "upgrade",
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051011",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+  },
+  {
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205112",
+    "name": "Forced Leave",
     "type": "obligation",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050012",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051012",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
   },
   {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205013",
-    "name": "Zheng Zu",
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205113",
+    "name": "Nuke",
     "type": "minion",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050013",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051013",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
   },
   {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205014",
-    "name": "The Life Stealer",
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205114",
+    "name": "Battle of the Patriots",
     "type": "side_scheme",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050014",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051014",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
   },
   {
-    "pack_code": "shang_chi_by_hax",
-    "card_id": "205015",
-    "name": "Downtown Attack",
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205115",
+    "name": "Seeing Red",
     "type": "treachery",
-    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050015",
-    "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051015",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+  },
+  {
+    "pack_code": "us_agent_by_hax",
+    "card_id": "205116",
+    "name": "Spear of Odin",
+    "type": "attachment",
+    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051016",
+    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
   }
 ]

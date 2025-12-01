@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="U.S. Agent" id="2eff4402-8e17-48f6-b378-5a1ccd2ad9dd" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="2eff4402-8e17-48f6-b378-5a1ccd000000" name="us_agent_by_hax">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="us_agent"/>
+    </card>
+    <card id="2eff4402-8e17-48f6-b378-5a1ccd990000" name="us_agent_by_hax">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="us_agent_nemesis"/>
+    </card>
+    <card name="U.S. Agent" id="2eff4402-8e17-48f6-b378-5a1ccd051001">
+      <property name="CardNumber" value="205101a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="us_agent"/>
+      <property name="HandSize" value="6"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="11"/>
+      <property name="Attribute" value="Avenger. Soldier."/>
+      <property name="Text">&lt;i&gt;Bolster&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you defend, ready an upgrade you control.</property>
+      <property name="Quote">"...tell 'em I'm busy."</property>
+      <property name="Unique" value="True"/>
+      <alternate name="John Walker" type="b">
+        <property name="CardNumber" value="205101b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="us_agent"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="11"/>
+        <property name="Attribute" value="Soldier."/>
+        <property name="Text">&lt;i&gt;Master of None&lt;/i&gt; — You may include cards in your deck from any aspect. You cannot include allies or basic cards.
+&lt;b&gt;Action&lt;/b&gt;: Exhaust John Walker → search your deck and discard pile for the U.S. Agent's Shield upgrade and add it to your hand.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Bouncing Bulwark" id="2eff4402-8e17-48f6-b378-5a1ccd051002">
+      <property name="CardNumber" value="205102"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="us_agent"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Discard U.S. Agent's Shield → deal 4 damage to an enemy. Then, if this attack deals 2 or more excess damage, put U.S. Agent's Shield into play from your discard pile.</property>
+    </card>
+    <card name="Deflection" id="2eff4402-8e17-48f6-b378-5a1ccd051003">
+      <property name="CardNumber" value="205103"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="us_agent"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After an enemy deals 2 or more damage to you, if U.S. Agent's Shield is in play, stun up to 2 minions.</property>
+      <property name="Quote">"Dammit, not another shield!" —U.S. Agent</property>
+    </card>
+    <card name="Reckless" id="2eff4402-8e17-48f6-b378-5a1ccd051004">
+      <property name="CardNumber" value="205104"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="us_agent"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Attack. Tactic. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack/thwart)&lt;/i&gt;: Take X damage → remove X threat from a scheme and deal X damage to an enemy (to a maximum of 4.)</property>
+      <property name="Quote">"Maybe this wasn't such a good idea." —U.S. Agent</property>
+    </card>
+    <card name="Roundhouse" id="2eff4402-8e17-48f6-b378-5a1ccd051005">
+      <property name="CardNumber" value="205105"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="us_agent"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 2 damage to an enemy. If you paid for this card using a Protection (&lt;i&gt;green&lt;/i&gt;) or Justice (&lt;i&gt;yellow&lt;/i&gt;) card, confuse that enemy.</property>
+      <property name="Quote">"Come get some, loser." —U.S. Agent</property>
+    </card>
+    <card name="Walker's Chopper" id="2eff4402-8e17-48f6-b378-5a1ccd051006">
+      <property name="CardNumber" value="205106"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="us_agent"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Vehicle."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Response&lt;/b&gt;: After you exhaust John Walker to recover or search for U.S. Agent's Shield, exhaust Walker's Chopper → change to hero form, then ready U.S. Agent.</property>
+    </card>
+    <card name="Convincer" id="2eff4402-8e17-48f6-b378-5a1ccd051007">
+      <property name="CardNumber" value="205107"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="us_agent"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">Restricted. U.S. Agent gets +1 ATK.
+Uses (3 charge counters).
+&lt;b&gt;Hero Response&lt;/b&gt;: After you damage a minion with base hit points of 5 or less, exhaust Convincer and remove 1 charge counter from here → stun that minion.</property>
+    </card>
+    <card name="Obstinance" id="2eff4402-8e17-48f6-b378-5a1ccd051008">
+      <property name="CardNumber" value="205108"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="us_agent"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you exhaust to use a basic power but before resolving its effects, exhaust Obstinance and spend 1 [mental] or [physical] resource → ready U.S. Agent.</property>
+      <property name="Quote">"Party time!" —U.S. Agent</property>
+    </card>
+    <card name="Solid Gear" id="2eff4402-8e17-48f6-b378-5a1ccd051009">
+      <property name="CardNumber" value="205109"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="us_agent"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Armor."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When an enemy initiates an attack, exhaust Solid Gear → reduce the resource cost of the next Protection (&lt;i&gt;green&lt;/i&gt;) card you play this phase by 2.</property>
+      <property name="Quote">"...it itches." —U.S. Agent</property>
+    </card>
+    <card name="U.S. Agent's Machine Gun" id="2eff4402-8e17-48f6-b378-5a1ccd051010">
+      <property name="CardNumber" value="205110"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="us_agent"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Restricted. U.S. Agent gets +1 ATK.
+Uses (3 ammo counters.)
+&lt;b&gt;Hero Response&lt;/b&gt;: After you damage an enemy, remove 1 ammo counter from here → deal 2 damage to each minion engaged with you.</property>
+    </card>
+    <card name="U.S. Agent's Shield" id="2eff4402-8e17-48f6-b378-5a1ccd051011">
+      <property name="CardNumber" value="205111"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="us_agent"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Item. Weapon."/>
+      <property name="Text">Restricted.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you are attacked by an enemy, exhaust U.S. Agent's Shield → deal 2 damage to the attacker or prevent 1 damage from this attack.</property>
+    </card>
+    <card name="Forced Leave" id="2eff4402-8e17-48f6-b378-5a1ccd051012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="205112"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="us_agent"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;Give to the John Walker player.&lt;/b&gt;
+Flip to Alter-Ego form. Choose:
+• Exhaust John Walker and discard U.S. Agent's Shield → remove this obligation from the game.
+• Discard 1 card from your hand at random → discard this obligation.</property>
+      <property name="Quote">"Don't touch the remote." —John Walker</property>
+    </card>
+    <card name="Nuke" id="2eff4402-8e17-48f6-b378-5a1ccd051013" size="EncounterCard">
+      <property name="CardNumber" value="205113"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="us_agent_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Cyborg. Soldier."/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Nuke makes an attack against you, discard the top card from your deck. If an Aggression (&lt;i&gt;red&lt;/i&gt;) card, or a card with a printed [physical] resource was discarded this way, that attack deals 1 additional damage.</property>
+      <property name="Quote">"I am the defender of the American dream!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Battle of the Patriots" id="2eff4402-8e17-48f6-b378-5a1ccd051014" size="SchemeCard">
+      <property name="CardNumber" value="205114"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="us_agent_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Aggression (&lt;i&gt;red&lt;/i&gt;), Basic (&lt;i&gt;gray&lt;/i&gt;), and Leadership (&lt;i&gt;blue&lt;/i&gt;) cards cost 1 additional resource.</property>
+      <property name="Quote">The insidious Scourge is none other than Nuke, the cybernetically enhanced, pill-popping patriot!</property>
+    </card>
+    <card name="Seeing Red" id="2eff4402-8e17-48f6-b378-5a1ccd051015" size="EncounterCard">
+      <property name="CardNumber" value="205115"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="us_agent_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Discard the top 2 cards from your deck. If a card with a printed [physical] resource was discarded this way, take 2 indirect damage.</property>
+      <property name="Quote">"Give me a red. A RED." —Nuke</property>
+    </card>
+    <card name="Spear of Odin" id="2eff4402-8e17-48f6-b378-5a1ccd051016" size="EncounterCard">
+      <property name="CardNumber" value="205116"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="us_agent_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">Attach to the enemy with the most remaining hit points.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached enemy deals damage to your hero, discard an upgrade you control, then discard Spear of Odin.</property>
+      <property name="Quote">"This weapon is property of H.A.M.M.E.R. and Director of Security Osborn." —Nuke</property>
+    </card>
+  </cards>
+</set>
