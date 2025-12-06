@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Old Man Hawkeye" id="761b938d-d5c8-4606-84a6-9400d6e42738" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="761b938d-d5c8-4606-84a6-9400d6000000" name="old_man_hawkeye_by_illogical">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical"/>
+    </card>
+    <card id="761b938d-d5c8-4606-84a6-9400d6990000" name="old_man_hawkeye_by_illogical">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical_nemesis"/>
+    </card>
+    <card name="Hawkeye" id="761b938d-d5c8-4606-84a6-9400d6054001">
+      <property name="CardNumber" value="205401a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="Avenger. Wastelander."/>
+      <property name="Text">&lt;i&gt;Eye for an Eye&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Exhaust Hawkeye and take up to 4 damage → Look at the top X cards of the encounter deck, where X is double the amount of damage taken, then return them in any order.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Old Man Hawkeye" type="b">
+        <property name="CardNumber" value="205401b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="old_man_hawkeye_by_illogical"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="9"/>
+        <property name="Attribute" value="Outlaw. Wastelander."/>
+        <property name="Text">&lt;i&gt;Incognito&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Exhaust Old Man Hawkeye → defeat a non-&lt;b&gt;ELITE&lt;/b&gt; minion.</property>
+        <property name="Quote">"Maybe today is the day I make it right."</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Mayor Bishop" id="761b938d-d5c8-4606-84a6-9400d6054002">
+      <property name="CardNumber" value="205402"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Avenger. Wastelander."/>
+      <property name="Text">[star] Mayor Bishop gains +1 ATK and THW for each boost icon on the topmost card of the encounter discard pile.</property>
+      <property name="Quote">"I'm done burying people I care about."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Deadeye" id="761b938d-d5c8-4606-84a6-9400d6054003">
+      <property name="CardNumber" value="205403"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Discard the top 4 cards of the encounter deck. Deal damage to an enemy equal to the combined total of their boost icons. This attack gains Overkill and piercing.</property>
+      <property name="Quote">"You've got a debt that's come due." —Hawkeye</property>
+    </card>
+    <card name="Higher Ground" id="761b938d-d5c8-4606-84a6-9400d6054004">
+      <property name="CardNumber" value="205404"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove threat from a scheme equal to the number of boost icons on the topmost card of the encounter discard pile. If this removes the last threat on that scheme, heal 2 damage from your hero.</property>
+    </card>
+    <card name="Speedshot" id="761b938d-d5c8-4606-84a6-9400d6054005">
+      <property name="CardNumber" value="205405"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="4"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal damage to an enemy equal to the boost icons on the topmost card of the encounter discard pile.</property>
+      <property name="Quote">"Did you see that one coming?" —Hawkeye</property>
+    </card>
+    <card name="Trick Arrow" id="761b938d-d5c8-4606-84a6-9400d6054006">
+      <property name="CardNumber" value="205406"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Arrow."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Count the number of boost icons on the topmost card of the encounter discard pile. If it has:
+• 0, heal 2 damage from your hero.
+• 1, remove 4 threat from a scheme.
+• 2, deal 5 damage to an enemy.
+• 3+, stun or confuse an enemy.</property>
+    </card>
+    <card name="Relentless" id="761b938d-d5c8-4606-84a6-9400d6054007">
+      <property name="CardNumber" value="205407"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical"/>
+      <property name="Cost" value="None"/>
+      <property name="Resource_Wild" value="2"/>
+      <property name="Attribute" value=""/>
+      <property name="Text">Double the number of resources this card generates while you have sustained 4 or more damage.</property>
+      <property name="Quote">"This hero's journey you think you're on? It's only going to end with a bullet in your head." —Kate Bishop</property>
+    </card>
+    <card name="Barton's Bow" id="761b938d-d5c8-4606-84a6-9400d6054008">
+      <property name="CardNumber" value="205408"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Exhaust Barton's Bow → Discard the top card of the encounter deck. Deal damage to an enemy equal to the number of boost icons discarded this way.</property>
+    </card>
+    <card name="Barton's Quiver" id="761b938d-d5c8-4606-84a6-9400d6054009">
+      <property name="CardNumber" value="205409"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">You gain +1 hand size while you have sustained 4 or more damage.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Barton's Quiver → Ready Hawkeye.</property>
+      <property name="Quote">"This here is an arrow with your name on it!" —Hawkeye</property>
+    </card>
+    <card name="Hunted" id="761b938d-d5c8-4606-84a6-9400d6054010" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="205410"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;Give to the Old Man Hawkeye player.&lt;/b&gt;
+Attach to the minion with the most remaining hit points. If you cannot, discard cards from the top of the encounter deck until a minion is discarded, put that minion into play with you, and attach Hunted to it.
+Attached minion cannot be defeated.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Old Man Hawkeye → Discard Hunted.</property>
+    </card>
+    <card name="Marshall Bullseye" id="761b938d-d5c8-4606-84a6-9400d6054011" size="EncounterCard">
+      <property name="CardNumber" value="205411"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Elite. Wastelander."/>
+      <property name="Text">Villainous.
+[star] Each character cannot defend against Marshall Bullseye's attacks, and they gain piercing. Damage from Marshall Bullseye's attacks cannot be reduced or avoided.
+&lt;i&gt;(Old Man Hawkeye's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Worthy of Killing" id="761b938d-d5c8-4606-84a6-9400d6054012" size="SchemeCard">
+      <property name="CardNumber" value="205412"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Each minion gains +1 ATK and Villainous. If they already have Villainous, they gain an additional +2 ATK.</property>
+      <property name="Quote">"I have waited 41 years, 7 months and 27 days for the chance to kill another super hero. Please have the courtesy not to make me wait any longer." —Marshall Bullseye</property>
+    </card>
+    <card name="Dead to Rights" id="761b938d-d5c8-4606-84a6-9400d6054013" size="EncounterCard">
+      <property name="CardNumber" value="205413"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When you look at this card while resolving Hawkeye's &lt;i&gt;Eye for an Eye&lt;/i&gt; ability, deal it to yourself as a facedown encounter card.
+&lt;b&gt;When Revealed&lt;/b&gt;: Marshall Bullseye activates against you. Otherwise, search the encounter deck and discard pile for Marshall Bullseye and reveal him.</property>
+    </card>
+    <card name="Blindsided" id="761b938d-d5c8-4606-84a6-9400d6054014" size="EncounterCard">
+      <property name="CardNumber" value="205414"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Exhaust your identity card and shuffle the encounter deck.
+This card gains surge.</property>
+      <property name="Quote">"You're just one big, pathetic disappointment. The last Avenger's going to die alone." —Marshall Bullseye</property>
+    </card>
+  </cards>
+</set>
