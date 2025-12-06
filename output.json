@@ -1,138 +1,130 @@
 [
   {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205401b",
-    "name": "Old Man Hawkeye",
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205501b",
+    "name": "Old Man Quill",
     "type": "alter_ego",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054001",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055001",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
   },
   {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205401a",
-    "name": "Hawkeye",
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205501a",
+    "name": "Star-Lord",
     "type": "hero",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054001",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055001",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
   },
   {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205402",
-    "name": "Mayor Bishop",
-    "type": "ally",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054002",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
-  },
-  {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205403",
-    "name": "Deadeye",
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205502",
+    "name": "Desperate Draw",
     "type": "event",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054003",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055002",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
   },
   {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205404",
-    "name": "Higher Ground",
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205503",
+    "name": "Don't Fear the Reaper",
     "type": "event",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054004",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055003",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
   },
   {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205405",
-    "name": "Speedshot",
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205504",
+    "name": "Old Habits",
     "type": "event",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054005",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055004",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
   },
   {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205406",
-    "name": "Trick Arrow",
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205505",
+    "name": "Spartoi Grit",
     "type": "event",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054006",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055005",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
   },
   {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205407",
-    "name": "Trick Arrow",
-    "type": "event",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054007",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205506",
+    "name": "The Pryde",
+    "type": "support",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055006",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
   },
   {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205408",
-    "name": "Trick Arrow",
-    "type": "event",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054008",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
-  },
-  {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205409",
-    "name": "Relentless",
-    "type": "resource",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054009",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
-  },
-  {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205410",
-    "name": "Barton's Bow",
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205507",
+    "name": "Element Guns",
     "type": "upgrade",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054010",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055007",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
   },
   {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205411",
-    "name": "Barton's Quiver",
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205508",
+    "name": "Quill's Helmet",
     "type": "upgrade",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054011",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055008",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
   },
   {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205412",
-    "name": "Hunted",
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205509",
+    "name": "Jet Boosters",
+    "type": "upgrade",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055009",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205510",
+    "name": "Last of the Guardians",
+    "type": "upgrade",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055010",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205511",
+    "name": "All In Your Head",
     "type": "obligation",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054012",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055011",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
   },
   {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205413",
-    "name": "Marshall Bullseye",
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205512",
+    "name": "Guardians of the Galaxy...?",
     "type": "minion",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054013",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055012",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
   },
   {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205414",
-    "name": "Worthy of Killing",
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205513",
+    "name": "Last Living Super Hero",
     "type": "side_scheme",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054014",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055013",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
   },
   {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205415",
-    "name": "Dead to Rights",
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205514",
+    "name": "Everybody Dies",
     "type": "treachery",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054015",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055014",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
   },
   {
-    "pack_code": "old_man_hawkeye_by_illogical",
-    "card_id": "205416",
-    "name": "Blindsided",
-    "type": "treachery",
-    "octgn_id": "761b938d-d5c8-4606-84a6-9400d6054016",
-    "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205515",
+    "name": "Unforgiven",
+    "type": "attachment",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055015",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
   }
 ]

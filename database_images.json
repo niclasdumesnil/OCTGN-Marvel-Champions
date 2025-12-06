@@ -31512,6 +31512,134 @@
     "pack_octgn_id": "761b938d-d5c8-4606-84a6-9400d6e42738"
   },
   {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205501b",
+    "name": "Old Man Quill",
+    "type": "alter_ego",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055001",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205501a",
+    "name": "Star-Lord",
+    "type": "hero",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055001",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205502",
+    "name": "Desperate Draw",
+    "type": "event",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055002",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205503",
+    "name": "Don't Fear the Reaper",
+    "type": "event",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055003",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205504",
+    "name": "Old Habits",
+    "type": "event",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055004",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205505",
+    "name": "Spartoi Grit",
+    "type": "event",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055005",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205506",
+    "name": "The Pryde",
+    "type": "support",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055006",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205507",
+    "name": "Element Guns",
+    "type": "upgrade",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055007",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205508",
+    "name": "Quill's Helmet",
+    "type": "upgrade",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055008",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205509",
+    "name": "Jet Boosters",
+    "type": "upgrade",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055009",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205510",
+    "name": "Last of the Guardians",
+    "type": "upgrade",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055010",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205511",
+    "name": "All In Your Head",
+    "type": "obligation",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055011",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205512",
+    "name": "Guardians of the Galaxy...?",
+    "type": "minion",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055012",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205513",
+    "name": "Last Living Super Hero",
+    "type": "side_scheme",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055013",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205514",
+    "name": "Everybody Dies",
+    "type": "treachery",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055014",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
+    "pack_code": "old_man_quill_by_illogical",
+    "card_id": "205515",
+    "name": "Unforgiven",
+    "type": "attachment",
+    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055015",
+    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+  },
+  {
     "pack_code": "phoenix",
     "card_id": "34001a",
     "name": "Phoenix",

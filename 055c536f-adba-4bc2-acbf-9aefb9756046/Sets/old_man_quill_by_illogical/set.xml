@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Old Man Quill" id="05fd8eaf-b53e-4c8a-a179-ee1eb37c0122" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="05fd8eaf-b53e-4c8a-a179-ee1eb3000000" name="old_man_quill_by_illogical">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="old_man_quill_by_illogical"/>
+    </card>
+    <card id="05fd8eaf-b53e-4c8a-a179-ee1eb3990000" name="old_man_quill_by_illogical">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="old_man_quill_by_illogical_nemesis"/>
+    </card>
+    <card name="Star-Lord" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055001">
+      <property name="CardNumber" value="205501a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="old_man_quill_by_illogical"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="0"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="12"/>
+      <property name="Attribute" value="Guardian. Wastelander."/>
+      <property name="Text">Star-Lord gains THW and ATK equal to the THW and ATK of the ally on top of the [[GUARDIAN]] deck.
+&lt;i&gt;Seein' Things&lt;/i&gt; — &lt;b&gt;Forced Response&lt;/b&gt;: After the player phase begins, discard the top card of the [[GUARDIAN]] deck.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Old Man Quill" type="b">
+        <property name="CardNumber" value="205501b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="old_man_quill_by_illogical"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="12"/>
+        <property name="Attribute" value="Outlaw. Wastelander."/>
+        <property name="Text">Old Man Quill begins the game with a [[GUARDIAN]] deck. (See insert.)
+&lt;i&gt;Last Man Standing&lt;/i&gt; — [[GUARDIAN]] allies do not count towards your deck size. Your deck must include at least 4 [[GUARDIAN]] allies.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Desperate Draw" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055002">
+      <property name="CardNumber" value="205502"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="old_man_quill_by_illogical"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">Max 1 per round.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal yourself 1 facedown encounter card → deal 7 damage to an enemy.</property>
+      <property name="Quote">"That's not how it's going to go." —Star-Lord</property>
+    </card>
+    <card name="Don't Fear the Reaper" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055003">
+      <property name="CardNumber" value="205503"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="old_man_quill_by_illogical"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value=""/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Deal 3 indirect damage to yourself → discard 1 facedown encounter card in front of you and draw 1 card.</property>
+      <property name="Quote">"I've come too far to let you stop me." —Star-Lord</property>
+    </card>
+    <card name="Old Habits" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055004">
+      <property name="CardNumber" value="205504"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="old_man_quill_by_illogical"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value=""/>
+      <property name="Text">Max 1 per round.
+&lt;b&gt;Hero Action&lt;/b&gt;: Deal yourself 1 facedown encounter card → play the top card of the [[GUARDIAN]] deck as if it were in your hand, reducing its resource cost by 3.</property>
+      <property name="Quote">"You're not even real!" —Peter Quill</property>
+    </card>
+    <card name="Spartoi Grit" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055005">
+      <property name="CardNumber" value="205505"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="old_man_quill_by_illogical"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 4 threat from a scheme. If this removes the last threat on that scheme, discard 1 facedown encounter card in front of you.</property>
+      <property name="Quote">"I'm a hands-on leader, and it's time I got my hands on some #$%&amp;!" —Star-Lord</property>
+    </card>
+    <card name="The Pryde" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055006">
+      <property name="CardNumber" value="205506"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="old_man_quill_by_illogical"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Vehicle."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust The Pryde → heal 2 damage from Old Man Quill.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust the Pryde → deal 1 damage to an enemy.</property>
+      <property name="Quote">One last date?</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Element Guns" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055007">
+      <property name="CardNumber" value="205507"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="old_man_quill_by_illogical"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">Star-Lord gets +1 ATK. Star-Lord's basic attacks gain piercing and ranged.</property>
+      <property name="Quote">"If you aim for their eyes, they don't have a prayer." —Star-Lord</property>
+    </card>
+    <card name="Quill's Helmet" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055008">
+      <property name="CardNumber" value="205508"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="old_man_quill_by_illogical"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Quill's Helmet and deal yourself 1 facedown encounter card → draw 2 cards.</property>
+      <property name="Quote">"Anyone know what error code 218 means?" —Star-Lord</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Jet Boosters" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055009">
+      <property name="CardNumber" value="205509"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="old_man_quill_by_illogical"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Item. Tech."/>
+      <property name="Text">Star-Lord gains +1 DEF and the [[AERIAL]] trait.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Jet Boosters and deal yourself 1 facedown encounter card → ready your hero.</property>
+    </card>
+    <card name="Last of the Guardians" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055010">
+      <property name="CardNumber" value="205510"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="old_man_quill_by_illogical"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text">Each ally you control gains +1 hit point and the [[GUARDIAN]] trait.
+While you control no allies, Star-Lord gains +1 THW, +1 ATK, and +1 DEF.</property>
+      <property name="Quote">You are the last hope the galaxy has.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="All In Your Head" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055011" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="205511"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="old_man_quill_by_illogical"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;Give to the Old Man Quill player.&lt;/b&gt;
+&lt;b&gt;When Revealed&lt;/b&gt;: Search the encounter deck, discard pile, and set-aside area for Guardians of the Galaxy...? and reveal it. If Guardians of the Galaxy...? did not enter play this way, this card gains surge. Discard All In Your Head.</property>
+    </card>
+    <card name="Guardians of the Galaxy...?" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055012" size="EncounterCard">
+      <property name="CardNumber" value="205512"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="old_man_quill_by_illogical_nemesis"/>
+      <property name="Attack" value="0"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="8"/>
+      <property name="Attribute" value="Elite. Guardian."/>
+      <property name="Text">[[Guard]]. [[Patrol]].
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When a friendly character takes damage, increase that damage by 1.
+&lt;i&gt;(Old Man Quill's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Quote">They always come back.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Last Living Super Hero" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055013" size="SchemeCard">
+      <property name="CardNumber" value="205513"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="old_man_quill_by_illogical_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the villain phase begins, deal 1 damage to each friendly character.
+[crisis]</property>
+      <property name="Quote">"You're all dead... Just like everyone else I cared about." —Star-Lord</property>
+    </card>
+    <card name="Everybody Dies" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055014" size="EncounterCard">
+      <property name="CardNumber" value="205514"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="old_man_quill_by_illogical_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Take damage equal to the printed hit points of the ally on top of the [[GUARDIAN]] deck.</property>
+      <property name="Quote">"I saved you." —Peter Quill</property>
+    </card>
+    <card name="Unforgiven" id="05fd8eaf-b53e-4c8a-a179-ee1eb3055015" size="EncounterCard">
+      <property name="CardNumber" value="205515"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="old_man_quill_by_illogical_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">[[Condition]].
+Treat attached ally as a minion with a blank text box. Attached minion's SCH is equal to its printed THW and it does not take consequential damage.
+&lt;b&gt;When Revealed&lt;/b&gt;: Put the top card of the [[GUARDIAN]] deck into play engaged with you with Unforgiven attached to it.</property>
+      <property name="Quote">"A hero would have died with the rest of us."</property>
+    </card>
+  </cards>
+</set>
