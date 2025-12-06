@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Totally Awesome Hulk" id="f1a61e48-5b90-49e0-b3e5-b7bc937b5176" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="f1a61e48-5b90-49e0-b3e5-b7bc93000000" name="totally_awesome_hulk_by_hax">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="totally_awesome_hulk"/>
+    </card>
+    <card id="f1a61e48-5b90-49e0-b3e5-b7bc93990000" name="totally_awesome_hulk_by_hax">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="totally_awesome_hulk_nemesis"/>
+    </card>
+    <card name="Totally Awesome Hulk" id="f1a61e48-5b90-49e0-b3e5-b7bc93052001">
+      <property name="CardNumber" value="205201a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="totally_awesome_hulk"/>
+      <property name="HandSize" value="4"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="3"/>
+      <property name="HP" value="16"/>
+      <property name="Attribute" value="Champion. Gamma."/>
+      <property name="Text">&lt;i&gt;Losing Control&lt;/i&gt; — You can only change to [[BRUTE]] hero form by resolving the effects of "The Trunk" support.
+&lt;i&gt;Hypermind&lt;/i&gt; — Treat all resources you generate as [wild] resources.</property>
+      <property name="Quote">"Me, I'm different. So my Hulk's different."</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Amadeus Cho" type="b">
+        <property name="CardNumber" value="205201b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="totally_awesome_hulk"/>
+        <property name="HandSize" value="4"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="16"/>
+        <property name="Attribute" value="Genius. Scientist."/>
+        <property name="Text">&lt;i&gt;Reverse Engineer&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Discard a hero-specific card from your hand → draw X cards, where X is the printed cost of the card you discarded this way. (Limit once per round.)</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+      <alternate name="Uncontrollable Hulk" type="c">
+        <property name="CardNumber" value="205201c"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="hero"/>
+        <property name="Owner" value="totally_awesome_hulk"/>
+        <property name="HandSize" value="4"/>
+        <property name="Thwart" value="0"/>
+        <property name="Attack" value="2"/>
+        <property name="Defense" value="3"/>
+        <property name="HP" value="16"/>
+        <property name="Attribute" value="Brute. Gamma."/>
+        <property name="Text">&lt;i&gt;Uncontrollable&lt;/i&gt; — You cannot change to or from this form without resolving the effects of "The Trunk" support.
+&lt;b&gt;Interrupt&lt;/b&gt;: When you attack, that attack deals 2 additional damage.</property>
+        <property name="Quote">"How do you like your "Big Gun" now?!"</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Hercules" id="f1a61e48-5b90-49e0-b3e5-b7bc93052002">
+      <property name="CardNumber" value="205202"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="totally_awesome_hulk"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Avenger. Olympus."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Hercules defeats a minion, ready him.</property>
+      <property name="Quote">"Your Hulk identity is new to me, Amadeus, but still... you and I, just like old times! Ready?"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Maddy Cho" id="f1a61e48-5b90-49e0-b3e5-b7bc93052003">
+      <property name="CardNumber" value="205203"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="totally_awesome_hulk"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Genius. Persona."/>
+      <property name="Text">Totally Awesome Hulk gets +1 hand size.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Maddy Cho → add or remove 1 rage counter from "The Trunk".</property>
+      <property name="Quote">"Ammy, you can't give in to every stupid impulse!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Kegger" id="f1a61e48-5b90-49e0-b3e5-b7bc93052004">
+      <property name="CardNumber" value="205204"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="totally_awesome_hulk"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Robot. Tech."/>
+      <property name="Text">&lt;b&gt;Resource&lt;/b&gt;: Shuffle Kegger into your deck → generate a [wild] resource.
+&lt;b&gt;Action&lt;/b&gt;: Shuffle Kegger and a card from your hand into your deck → ready your identity.</property>
+      <property name="Quote">Olympus Group B-98 Beta Robo Drone "Kegger".</property>
+    </card>
+    <card name="Motivation" id="f1a61e48-5b90-49e0-b3e5-b7bc93052005">
+      <property name="CardNumber" value="205205"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="totally_awesome_hulk"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Your hero gets +1 DEF.
+&lt;b&gt;Hero Response&lt;/b&gt;: After your hero defends, take 2 damage → ready your hero.</property>
+      <property name="Quote">"Everyone get behind me!" —Amadeus Cho</property>
+    </card>
+    <card name="Gamma Barrier" id="f1a61e48-5b90-49e0-b3e5-b7bc93052006">
+      <property name="CardNumber" value="205206"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="totally_awesome_hulk"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Gamma."/>
+      <property name="Text">Your hero gains retaliate 1.
+&lt;b&gt;Interrupt&lt;/b&gt;: When you would be stunned, discard this card → prevent that stun and stun the villain instead.</property>
+      <property name="Quote">"Right back atcha, kids." —Amadeus Cho</property>
+    </card>
+    <card name="The Power of Forgiveness" id="f1a61e48-5b90-49e0-b3e5-b7bc93052007">
+      <property name="CardNumber" value="205207"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="totally_awesome_hulk"/>
+      <property name="Cost" value="None"/>
+      <property name="Resource_Wild" value="3"/>
+      <property name="Attribute" value=""/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After you resolve the effects of the card you paid for with The Power of Forgiveness, remove all counters from "The Trunk" and heal 2 hit points from another friendly character.</property>
+    </card>
+    <card name="Calculated Strike" id="f1a61e48-5b90-49e0-b3e5-b7bc93052008">
+      <property name="CardNumber" value="205208"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="totally_awesome_hulk"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Attack. Tactic. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack/thwart)&lt;/i&gt;: Remove 2 threat from a scheme, then deal 3 damage to the villain. If you paid for this card using only [wild] resources, remove 2 additional threat.</property>
+      <property name="Quote">"I'm stronger and smarter than all of you."</property>
+    </card>
+    <card name="Wild Lunge" id="f1a61e48-5b90-49e0-b3e5-b7bc93052009">
+      <property name="CardNumber" value="205209"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="totally_awesome_hulk"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">You can only spend [wild] resources to pay for this card.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy.</property>
+      <property name="Quote">"Oh. THAT look." —Miles Morales</property>
+    </card>
+    <card name="Irradiated Swipe" id="f1a61e48-5b90-49e0-b3e5-b7bc93052010">
+      <property name="CardNumber" value="205210"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="totally_awesome_hulk"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 5 damage to an enemy. If you paid for this card using only [wild] resources, draw 2 cards.</property>
+      <property name="Quote">"THIS IS WHAT I WAS MADE FOR!" —Amadeus Cho</property>
+    </card>
+    <card name="Kinetic Stomp" id="f1a61e48-5b90-49e0-b3e5-b7bc93052011">
+      <property name="CardNumber" value="205211"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="totally_awesome_hulk"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you make a basic attack, you get +6 ATK for that attack. If this attack deals 10 or more damage, ready your hero.</property>
+      <property name="Quote">"Let's do this." —Amadeus Cho</property>
+    </card>
+    <card name="&quot;The Trunk&quot;" id="f1a61e48-5b90-49e0-b3e5-b7bc93052012">
+      <property name="CardNumber" value="205212a"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="totally_awesome_hulk"/>
+      <property name="Cost" value="None"/>
+      <property name="Text">Permanent. Setup.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Totally Awesome Hulk takes any amount of damage, add a rage counter here.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When there are 4 rage counters here, flip this card and change form to Uncontrollable Hulk.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="&quot;The Trunk&quot;" type="b">
+        <property name="CardNumber" value="205212b"/>
+        <property name="Position" value="12"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="support"/>
+        <property name="Owner" value="totally_awesome_hulk"/>
+        <property name="Cost" value="None"/>
+        <property name="Text">Permanent.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Uncontrollable Hulk attacks, remove a rage counter from this card.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When there are no rage counters here, flip this card and change form to Amadeus Cho.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Get Under Control" id="f1a61e48-5b90-49e0-b3e5-b7bc93052013" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="205213"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="totally_awesome_hulk"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;Give to the Amadeus Cho player.&lt;/b&gt;
+Victory 1. You cannot put allies into play.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Treat "The Trunk's" printed text box as if it were blank, then remove "The Trunk" from the game → remove this obligation from the game.</property>
+    </card>
+    <card name="Lady Hellbender" id="f1a61e48-5b90-49e0-b3e5-b7bc93052014" size="EncounterCard">
+      <property name="CardNumber" value="205214"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="totally_awesome_hulk_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Elite. Monster. Queen."/>
+      <property name="Text">Victory 1.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [wild] resources equal to Lady Hellbender's remaining hit points → treat Lady Hellbender as an ally you control with THW instead of SCH.
+&lt;i&gt;(Totally Awesome Hulk's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="For The Queen!" id="f1a61e48-5b90-49e0-b3e5-b7bc93052015" size="SchemeCard">
+      <property name="CardNumber" value="205215"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="totally_awesome_hulk_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Hinder 1[per_hero]. While Lady Hellbender is in play, [[MONSTER]] minions gain villainous.
+[amplify]</property>
+    </card>
+    <card name="Fin Fang Foom" id="f1a61e48-5b90-49e0-b3e5-b7bc93052016" size="EncounterCard">
+      <property name="CardNumber" value="205216"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="totally_awesome_hulk_nemesis"/>
+      <property name="Attack" value="4"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="4"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Elite. Monster."/>
+      <property name="Text">Victory 1.
+&lt;b&gt;When Revealed&lt;/b&gt;: Fin Fang Foom gets +2[per_hero] hit points.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Fin Fang Foom has 2[per_hero] or fewer hit points remaining, his attacks gain overkill.</property>
+      <property name="Quote">"HA! The strongest on your planet!" —Lady Hellbender</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Krackalakassian" id="f1a61e48-5b90-49e0-b3e5-b7bc93052017" size="EncounterCard">
+      <property name="CardNumber" value="205217"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="totally_awesome_hulk_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Elite. Monster."/>
+      <property name="Text">Victory 1.
+&lt;b&gt;When Revealed&lt;/b&gt;: Krackalakassian gets +2[per_hero] hit points.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Krackalakassian attacks, take 2 indirect damage.</property>
+      <property name="Quote">"Oh, these are lovely!" —Lady Hellbender</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Threat Assessment" id="f1a61e48-5b90-49e0-b3e5-b7bc93052018" size="EncounterCard">
+      <property name="CardNumber" value="205218"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="totally_awesome_hulk_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Deal 3 damage to the identity with the most remaining hit points.</property>
+      <property name="Quote">"D-D-D-D-Down, Girl!" —Amadeus Cho</property>
+    </card>
+  </cards>
+</set>

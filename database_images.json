@@ -248,6 +248,14 @@
     "pack_octgn_id": ""
   },
   {
+    "pack_code": "2025_weekly",
+    "card_id": "999107",
+    "name": "Xavier’s Final Exam",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
     "pack_code": "agent_of_shield_by_merlin",
     "card_id": "253001b",
     "name": "Agent du S.H.I.E.L.D.",
@@ -34212,7 +34220,7 @@
     "card_id": "205001b",
     "name": "Shang-Chi",
     "type": "alter_ego",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050001",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34220,7 +34228,7 @@
     "card_id": "205001a",
     "name": "Shang-Chi",
     "type": "hero",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050001",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34228,7 +34236,7 @@
     "card_id": "205002",
     "name": "Throat Punch",
     "type": "event",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050002",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34236,7 +34244,7 @@
     "card_id": "205003",
     "name": "Roundhouse Kick",
     "type": "event",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050003",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34244,7 +34252,7 @@
     "card_id": "205004",
     "name": "Special Delivery",
     "type": "event",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050004",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34252,7 +34260,7 @@
     "card_id": "205005",
     "name": "Dragon Strike",
     "type": "event",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050005",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34260,7 +34268,7 @@
     "card_id": "205006",
     "name": "Chi Jabs",
     "type": "event",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050006",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34268,7 +34276,7 @@
     "card_id": "205007",
     "name": "Augmented Blow",
     "type": "event",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050007",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34276,7 +34284,7 @@
     "card_id": "205008",
     "name": "Stark Nunchaku",
     "type": "upgrade",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050008",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34284,7 +34292,7 @@
     "card_id": "205009",
     "name": "Metal Bracers",
     "type": "upgrade",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050009",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34292,7 +34300,7 @@
     "card_id": "205010",
     "name": "Martial Mastery",
     "type": "upgrade",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050010",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34300,7 +34308,7 @@
     "card_id": "205011",
     "name": "State of Flow",
     "type": "support",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050011",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34308,7 +34316,7 @@
     "card_id": "205012",
     "name": "Family Ties",
     "type": "obligation",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050012",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34316,7 +34324,7 @@
     "card_id": "205013",
     "name": "Zheng Zu",
     "type": "minion",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050013",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34324,7 +34332,7 @@
     "card_id": "205014",
     "name": "The Life Stealer",
     "type": "side_scheme",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050014",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -34332,7 +34340,7 @@
     "card_id": "205015",
     "name": "Downtown Attack",
     "type": "treachery",
-    "octgn_id": "",
+    "octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd01050015",
     "pack_octgn_id": "7d79f086-4f07-4d2b-86fc-4bbd0133cd1f"
   },
   {
@@ -41896,6 +41904,150 @@
     "pack_octgn_id": "1c7b60ea-0ca6-574b-9cd5-254b7a124186"
   },
   {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205301b",
+    "name": "Frank Castle",
+    "type": "alter_ego",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053001",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205301a",
+    "name": "The Punisher",
+    "type": "hero",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053001",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205302",
+    "name": "The Skull",
+    "type": "upgrade",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053002",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205303",
+    "name": "Cleaning the Streets",
+    "type": "event",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053003",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205304",
+    "name": "Dramatic Entrance",
+    "type": "event",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053004",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205305",
+    "name": "Guns Blazing",
+    "type": "event",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053005",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205306",
+    "name": "Personal War",
+    "type": "event",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053006",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205307",
+    "name": "Spare Ammo",
+    "type": "resource",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053007",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205308",
+    "name": "Battle Van",
+    "type": "support",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053008",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205309",
+    "name": "Body Armor",
+    "type": "upgrade",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053009",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205310",
+    "name": "Combat Specialist",
+    "type": "upgrade",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053010",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205311",
+    "name": "Unstoppable",
+    "type": "upgrade",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053011",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205312",
+    "name": "Dealing with the Law",
+    "type": "obligation",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053012",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205313",
+    "name": "Underworld Dealings",
+    "type": "side_scheme",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053013",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205314",
+    "name": "Jigsaw",
+    "type": "minion",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053014",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205315",
+    "name": "Barracuda",
+    "type": "minion",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053015",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205316",
+    "name": "The Russian",
+    "type": "minion",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053016",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205317",
+    "name": "Detained",
+    "type": "attachment",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053017",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
     "pack_code": "thor",
     "card_id": "06001a",
     "name": "Thor",
@@ -42774,6 +42926,174 @@
     "type": "treachery",
     "octgn_id": "a375b550-ddd0-43f0-8a60-0d7ca57e35d1",
     "pack_octgn_id": "3b31a2f9-936d-4a99-ba71-8e05987037e9"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205201b",
+    "name": "Amadeus Cho",
+    "type": "alter_ego",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052001",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205201a",
+    "name": "Totally Awesome Hulk",
+    "type": "hero",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052001",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205201c",
+    "name": "Uncontrollable Hulk",
+    "type": "hero",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052001",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205202",
+    "name": "Hercules",
+    "type": "ally",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052002",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205203",
+    "name": "Maddy Cho",
+    "type": "support",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052003",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205204",
+    "name": "Kegger",
+    "type": "upgrade",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052004",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205205",
+    "name": "Motivation",
+    "type": "upgrade",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052005",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205206",
+    "name": "Gamma Barrier",
+    "type": "upgrade",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052006",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205207",
+    "name": "The Power of Forgiveness",
+    "type": "resource",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052007",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205208",
+    "name": "Calculated Strike",
+    "type": "event",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052008",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205209",
+    "name": "Wild Lunge",
+    "type": "event",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052009",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205210",
+    "name": "Irradiated Swipe",
+    "type": "event",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052010",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205211",
+    "name": "Kinetic Stomp",
+    "type": "event",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052011",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205212a",
+    "name": "\"The Trunk\"",
+    "type": "support",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052012",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205212b",
+    "name": "\"The Trunk\"",
+    "type": "support",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052012",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205213",
+    "name": "Get Under Control",
+    "type": "obligation",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052013",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205214",
+    "name": "Lady Hellbender",
+    "type": "minion",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052014",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205215",
+    "name": "For The Queen!",
+    "type": "side_scheme",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052015",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205216",
+    "name": "Fin Fang Foom",
+    "type": "minion",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052016",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205217",
+    "name": "Krackalakassian",
+    "type": "minion",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052017",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
+  },
+  {
+    "pack_code": "totally_awesome_hulk_by_hax",
+    "card_id": "205218",
+    "name": "Threat Assessment",
+    "type": "treachery",
+    "octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc93052018",
+    "pack_octgn_id": "f1a61e48-5b90-49e0-b3e5-b7bc937b5176"
   },
   {
     "pack_code": "trors",

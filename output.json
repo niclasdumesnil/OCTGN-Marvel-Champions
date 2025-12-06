@@ -1,138 +1,146 @@
 [
   {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205101b",
-    "name": "John Walker",
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205301b",
+    "name": "Frank Castle",
     "type": "alter_ego",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051001",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053001",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
   },
   {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205101a",
-    "name": "U.S. Agent",
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205301a",
+    "name": "The Punisher",
     "type": "hero",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051001",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053001",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
   },
   {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205102",
-    "name": "Bouncing Bulwark",
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205302",
+    "name": "The Skull",
+    "type": "upgrade",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053002",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205303",
+    "name": "Cleaning the Streets",
     "type": "event",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051002",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053003",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
   },
   {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205103",
-    "name": "Deflection",
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205304",
+    "name": "Dramatic Entrance",
     "type": "event",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051003",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053004",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
   },
   {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205104",
-    "name": "Reckless",
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205305",
+    "name": "Guns Blazing",
     "type": "event",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051004",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053005",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
   },
   {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205105",
-    "name": "Roundhouse",
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205306",
+    "name": "Personal War",
     "type": "event",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051005",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053006",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
   },
   {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205106",
-    "name": "Walker's Chopper",
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205307",
+    "name": "Spare Ammo",
+    "type": "resource",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053007",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205308",
+    "name": "Battle Van",
     "type": "support",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051006",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053008",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
   },
   {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205107",
-    "name": "Convincer",
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205309",
+    "name": "Body Armor",
     "type": "upgrade",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051007",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053009",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
   },
   {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205108",
-    "name": "Obstinance",
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205310",
+    "name": "Combat Specialist",
     "type": "upgrade",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051008",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053010",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
   },
   {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205109",
-    "name": "Solid Gear",
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205311",
+    "name": "Unstoppable",
     "type": "upgrade",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051009",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053011",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
   },
   {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205110",
-    "name": "U.S. Agent's Machine Gun",
-    "type": "upgrade",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051010",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
-  },
-  {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205111",
-    "name": "U.S. Agent's Shield",
-    "type": "upgrade",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051011",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
-  },
-  {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205112",
-    "name": "Forced Leave",
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205312",
+    "name": "Dealing with the Law",
     "type": "obligation",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051012",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053012",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
   },
   {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205113",
-    "name": "Nuke",
-    "type": "minion",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051013",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
-  },
-  {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205114",
-    "name": "Battle of the Patriots",
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205313",
+    "name": "Underworld Dealings",
     "type": "side_scheme",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051014",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053013",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
   },
   {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205115",
-    "name": "Seeing Red",
-    "type": "treachery",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051015",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205314",
+    "name": "Jigsaw",
+    "type": "minion",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053014",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
   },
   {
-    "pack_code": "us_agent_by_hax",
-    "card_id": "205116",
-    "name": "Spear of Odin",
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205315",
+    "name": "Barracuda",
+    "type": "minion",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053015",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205316",
+    "name": "The Russian",
+    "type": "minion",
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053016",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
+  },
+  {
+    "pack_code": "the_punisher_by_odysseus",
+    "card_id": "205317",
+    "name": "Detained",
     "type": "attachment",
-    "octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd051016",
-    "pack_octgn_id": "2eff4402-8e17-48f6-b378-5a1ccd2ad9dd"
+    "octgn_id": "f909454d-57e7-4b92-b698-4eb768053017",
+    "pack_octgn_id": "f909454d-57e7-4b92-b698-4eb76860135d"
   }
 ]
