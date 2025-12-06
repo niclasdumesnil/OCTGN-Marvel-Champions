@@ -100,7 +100,7 @@
     <card name="Trick Arrow" id="761b938d-d5c8-4606-84a6-9400d6054006">
       <property name="CardNumber" value="205406"/>
       <property name="Position" value="6"/>
-      <property name="Quantity" value="3"/>
+      <property name="Quantity" value="1"/>
       <property name="Faction" value="hero"/>
       <property name="Type" value="event"/>
       <property name="Owner" value="old_man_hawkeye_by_illogical"/>
@@ -113,9 +113,41 @@
 • 2, deal 5 damage to an enemy.
 • 3+, stun or confuse an enemy.</property>
     </card>
-    <card name="Relentless" id="761b938d-d5c8-4606-84a6-9400d6054007">
+    <card name="Trick Arrow" id="761b938d-d5c8-4606-84a6-9400d6054007">
       <property name="CardNumber" value="205407"/>
       <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Arrow."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Count the number of boost icons on the topmost card of the encounter discard pile. If it has:
+• 0, heal 2 damage from your hero.
+• 1, remove 4 threat from a scheme.
+• 2, deal 5 damage to an enemy.
+• 3+, stun or confuse an enemy.</property>
+    </card>
+    <card name="Trick Arrow" id="761b938d-d5c8-4606-84a6-9400d6054008">
+      <property name="CardNumber" value="205408"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="old_man_hawkeye_by_illogical"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Arrow."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Count the number of boost icons on the topmost card of the encounter discard pile. If it has:
+• 0, heal 2 damage from your hero.
+• 1, remove 4 threat from a scheme.
+• 2, deal 5 damage to an enemy.
+• 3+, stun or confuse an enemy.</property>
+    </card>
+    <card name="Relentless" id="761b938d-d5c8-4606-84a6-9400d6054009">
+      <property name="CardNumber" value="205409"/>
+      <property name="Position" value="9"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="hero"/>
       <property name="Type" value="resource"/>
@@ -126,9 +158,9 @@
       <property name="Text">Double the number of resources this card generates while you have sustained 4 or more damage.</property>
       <property name="Quote">"This hero's journey you think you're on? It's only going to end with a bullet in your head." —Kate Bishop</property>
     </card>
-    <card name="Barton's Bow" id="761b938d-d5c8-4606-84a6-9400d6054008">
-      <property name="CardNumber" value="205408"/>
-      <property name="Position" value="8"/>
+    <card name="Barton's Bow" id="761b938d-d5c8-4606-84a6-9400d6054010">
+      <property name="CardNumber" value="205410"/>
+      <property name="Position" value="10"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="hero"/>
       <property name="Type" value="upgrade"/>
@@ -138,9 +170,9 @@
       <property name="Attribute" value="Weapon."/>
       <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Exhaust Barton's Bow → Discard the top card of the encounter deck. Deal damage to an enemy equal to the number of boost icons discarded this way.</property>
     </card>
-    <card name="Barton's Quiver" id="761b938d-d5c8-4606-84a6-9400d6054009">
-      <property name="CardNumber" value="205409"/>
-      <property name="Position" value="9"/>
+    <card name="Barton's Quiver" id="761b938d-d5c8-4606-84a6-9400d6054011">
+      <property name="CardNumber" value="205411"/>
+      <property name="Position" value="11"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="hero"/>
       <property name="Type" value="upgrade"/>
@@ -152,10 +184,10 @@
 &lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Barton's Quiver → Ready Hawkeye.</property>
       <property name="Quote">"This here is an arrow with your name on it!" —Hawkeye</property>
     </card>
-    <card name="Hunted" id="761b938d-d5c8-4606-84a6-9400d6054010" size="EncounterCard">
+    <card name="Hunted" id="761b938d-d5c8-4606-84a6-9400d6054012" size="EncounterCard">
       <property name="DefaultSetupPile" value="Nemesis"/>
-      <property name="CardNumber" value="205410"/>
-      <property name="Position" value="10"/>
+      <property name="CardNumber" value="205412"/>
+      <property name="Position" value="12"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
       <property name="Type" value="obligation"/>
@@ -166,9 +198,9 @@ Attach to the minion with the most remaining hit points. If you cannot, discard 
 Attached minion cannot be defeated.
 &lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Old Man Hawkeye → Discard Hunted.</property>
     </card>
-    <card name="Marshall Bullseye" id="761b938d-d5c8-4606-84a6-9400d6054011" size="EncounterCard">
-      <property name="CardNumber" value="205411"/>
-      <property name="Position" value="11"/>
+    <card name="Marshall Bullseye" id="761b938d-d5c8-4606-84a6-9400d6054013" size="EncounterCard">
+      <property name="CardNumber" value="205413"/>
+      <property name="Position" value="13"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
       <property name="Type" value="minion"/>
@@ -183,9 +215,9 @@ Attached minion cannot be defeated.
 &lt;i&gt;(Old Man Hawkeye's nemesis minion.)&lt;/i&gt;</property>
       <property name="Unique" value="True"/>
     </card>
-    <card name="Worthy of Killing" id="761b938d-d5c8-4606-84a6-9400d6054012" size="SchemeCard">
-      <property name="CardNumber" value="205412"/>
-      <property name="Position" value="12"/>
+    <card name="Worthy of Killing" id="761b938d-d5c8-4606-84a6-9400d6054014" size="SchemeCard">
+      <property name="CardNumber" value="205414"/>
+      <property name="Position" value="14"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
       <property name="Type" value="side_scheme"/>
@@ -197,9 +229,9 @@ Attached minion cannot be defeated.
       <property name="Text">Each minion gains +1 ATK and Villainous. If they already have Villainous, they gain an additional +2 ATK.</property>
       <property name="Quote">"I have waited 41 years, 7 months and 27 days for the chance to kill another super hero. Please have the courtesy not to make me wait any longer." —Marshall Bullseye</property>
     </card>
-    <card name="Dead to Rights" id="761b938d-d5c8-4606-84a6-9400d6054013" size="EncounterCard">
-      <property name="CardNumber" value="205413"/>
-      <property name="Position" value="13"/>
+    <card name="Dead to Rights" id="761b938d-d5c8-4606-84a6-9400d6054015" size="EncounterCard">
+      <property name="CardNumber" value="205415"/>
+      <property name="Position" value="15"/>
       <property name="Quantity" value="1"/>
       <property name="Faction" value="encounter"/>
       <property name="Type" value="treachery"/>
@@ -208,9 +240,9 @@ Attached minion cannot be defeated.
       <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When you look at this card while resolving Hawkeye's &lt;i&gt;Eye for an Eye&lt;/i&gt; ability, deal it to yourself as a facedown encounter card.
 &lt;b&gt;When Revealed&lt;/b&gt;: Marshall Bullseye activates against you. Otherwise, search the encounter deck and discard pile for Marshall Bullseye and reveal him.</property>
     </card>
-    <card name="Blindsided" id="761b938d-d5c8-4606-84a6-9400d6054014" size="EncounterCard">
-      <property name="CardNumber" value="205414"/>
-      <property name="Position" value="14"/>
+    <card name="Blindsided" id="761b938d-d5c8-4606-84a6-9400d6054016" size="EncounterCard">
+      <property name="CardNumber" value="205416"/>
+      <property name="Position" value="16"/>
       <property name="Quantity" value="2"/>
       <property name="Faction" value="encounter"/>
       <property name="Type" value="treachery"/>
