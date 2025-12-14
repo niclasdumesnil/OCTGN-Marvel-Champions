@@ -1,130 +1,146 @@
 [
   {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205501b",
-    "name": "Old Man Quill",
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205601b",
+    "name": "James Howlett",
     "type": "alter_ego",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055001",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056001",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
   },
   {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205501a",
-    "name": "Star-Lord",
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205601a",
+    "name": "Old Man Logan",
     "type": "hero",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055001",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056001",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
   },
   {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205502",
-    "name": "Desperate Draw",
-    "type": "event",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055002",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
-  },
-  {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205503",
-    "name": "Don't Fear the Reaper",
-    "type": "event",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055003",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
-  },
-  {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205504",
-    "name": "Old Habits",
-    "type": "event",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055004",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
-  },
-  {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205505",
-    "name": "Spartoi Grit",
-    "type": "event",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055005",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
-  },
-  {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205506",
-    "name": "The Pryde",
-    "type": "support",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055006",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
-  },
-  {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205507",
-    "name": "Element Guns",
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205602",
+    "name": "Old and Tired",
     "type": "upgrade",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055007",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056002",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
   },
   {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205508",
-    "name": "Quill's Helmet",
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205603",
+    "name": "Wolverine's Claws",
     "type": "upgrade",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055008",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056003",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
   },
   {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205509",
-    "name": "Jet Boosters",
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205604",
+    "name": "Blind Rage",
     "type": "upgrade",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055009",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056004",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
   },
   {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205510",
-    "name": "Last of the Guardians",
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205605",
+    "name": "Adamantium Skeleton",
     "type": "upgrade",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055010",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056005",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
   },
   {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205511",
-    "name": "All In Your Head",
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205606",
+    "name": "Enhanced Healing Factor",
+    "type": "upgrade",
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056006",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+  },
+  {
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205607",
+    "name": "Old Man Hawkeye",
+    "type": "ally",
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056007",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+  },
+  {
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205608",
+    "name": "Savage Stab",
+    "type": "event",
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056008",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+  },
+  {
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205609",
+    "name": "Unfazed",
+    "type": "event",
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056010",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+  },
+  {
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205610",
+    "name": "Vicious Animal",
+    "type": "event",
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056012",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+  },
+  {
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205611",
+    "name": "Skilled Tracker",
+    "type": "event",
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056014",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+  },
+  {
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205612",
+    "name": "Blood on One's Hands",
     "type": "obligation",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055011",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056016",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
   },
   {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205512",
-    "name": "Guardians of the Galaxy...?",
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205613",
+    "name": "Old Man Hulk",
     "type": "minion",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055012",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056017",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
   },
   {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205513",
-    "name": "Last Living Super Hero",
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205614",
+    "name": "Debt Collection",
     "type": "side_scheme",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055013",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056018",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
   },
   {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205514",
-    "name": "Everybody Dies",
-    "type": "treachery",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055014",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205615",
+    "name": "Bobbie-Jo Banner",
+    "type": "minion",
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056019",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
   },
   {
-    "pack_code": "old_man_quill_by_illogical",
-    "card_id": "205515",
-    "name": "Unforgiven",
-    "type": "attachment",
-    "octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb3055015",
-    "pack_octgn_id": "05fd8eaf-b53e-4c8a-a179-ee1eb37c0122"
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205616",
+    "name": "Charlie Banner",
+    "type": "minion",
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056020",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+  },
+  {
+    "pack_code": "old_man_logan_by_nugget",
+    "card_id": "205617",
+    "name": "Otis Banner",
+    "type": "minion",
+    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056021",
+    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
   }
 ]

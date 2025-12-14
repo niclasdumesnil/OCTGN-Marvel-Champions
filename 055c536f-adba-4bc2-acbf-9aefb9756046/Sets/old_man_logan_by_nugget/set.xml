@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Old Man Logan" id="85ef87e7-7618-4420-b85f-fdf2bde6743e" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="85ef87e7-7618-4420-b85f-fdf2bd000000" name="old_man_logan_by_nugget">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="old_man_logan_by_nugget"/>
+    </card>
+    <card id="85ef87e7-7618-4420-b85f-fdf2bd990000" name="old_man_logan_by_nugget">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="old_man_logan_by_nugget_nemesis"/>
+    </card>
+    <card name="Old Man Logan" id="85ef87e7-7618-4420-b85f-fdf2bd056001">
+      <property name="CardNumber" value="205601a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="old_man_logan_by_nugget"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="1"/>
+      <property name="HP" value="12"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text">&lt;i&gt;Berserker&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Place 1 wound counter on the Old and Tired upgrade. Old Man Logan gets +1 THW, +1 ATK and +1 DEF until the end of the round. (Limit once per round.)</property>
+      <property name="Quote">"Every time I start to think things won't go bad."</property>
+      <property name="Unique" value="True"/>
+      <alternate name="James Howlett" type="b">
+        <property name="CardNumber" value="205601b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="old_man_logan_by_nugget"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="12"/>
+        <property name="Attribute" value="Mutant."/>
+        <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Search your deck, hand and discard pile for Wolverine's Claws and put it into play under your control.
+&lt;i&gt;Healing Factor&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Remove 1 wound counter from the Old and Tired upgrade. (Limit once per round.)</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Old and Tired" id="85ef87e7-7618-4420-b85f-fdf2bd056002">
+      <property name="CardNumber" value="205602"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="old_man_logan_by_nugget"/>
+      <property name="Cost" value="None"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Permanent. Setup.
+You get -1 hit point for each wound counter here.
+While there are 6 or more wound counters here, you get +1 hand size.</property>
+    </card>
+    <card name="Wolverine's Claws" id="85ef87e7-7618-4420-b85f-fdf2bd056003">
+      <property name="CardNumber" value="205603"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="old_man_logan_by_nugget"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Weapon. Superpower."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When you attack, exhaust Wolverine's Claws → increase the damage that attack deals by 1 for each wound counter on Old and Tired (max 3 increase in damage). This attack gains piercing. Place 1 wound counter on Old and Tired.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Blind Rage" id="85ef87e7-7618-4420-b85f-fdf2bd056004">
+      <property name="CardNumber" value="205604"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="old_man_logan_by_nugget"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">&lt;b&gt;Hero Resource&lt;/b&gt;: Exhaust Blind Rage → Place 1 wound counter on Old and Tired. Generate a [wild] resource.</property>
+      <property name="Quote">"I let myself become chaos. Madness. Death." — Old Man Logan</property>
+    </card>
+    <card name="Adamantium Skeleton" id="85ef87e7-7618-4420-b85f-fdf2bd056005">
+      <property name="CardNumber" value="205605"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="old_man_logan_by_nugget"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Armor."/>
+      <property name="Text">Old Man Logan gets +1 DEF.
+&lt;b&gt;Interrupt&lt;/b&gt;: When a wound counter would be placed on Old and Tired, exhaust Adamantium Skeleton instead.</property>
+    </card>
+    <card name="Enhanced Healing Factor" id="85ef87e7-7618-4420-b85f-fdf2bd056006">
+      <property name="CardNumber" value="205606"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="old_man_logan_by_nugget"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Preparation. Superpower."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When you would be defeated, remove each wound counter from Old and Tired instead. Then, discard Enhanced Healing Factor.</property>
+      <property name="Quote">"This is what old is. Confusion, aches and pains." — Old Man Logan</property>
+    </card>
+    <card name="Old Man Hawkeye" id="85ef87e7-7618-4420-b85f-fdf2bd056007">
+      <property name="CardNumber" value="205607"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="old_man_logan_by_nugget"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Avenger."/>
+      <property name="Text">Old Man Hawkeye enters play with 2 arrow counters on him.
+&lt;b&gt;Response&lt;/b&gt;: After a minion engages you, remove 1 arrow counter from Old Man Hawkeye → deal 4 damage to that minion.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Savage Stab" id="85ef87e7-7618-4420-b85f-fdf2bd056008">
+      <property name="CardNumber" value="205608"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="old_man_logan_by_nugget"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Place 1 wound counter on Old and Tired. Deal 3 damage to an enemy. If you paid for this card using a [physical] resource, ready Wolverine's Claws.</property>
+      <property name="Quote">SNIKT!</property>
+    </card>
+    <card name="Unfazed" id="85ef87e7-7618-4420-b85f-fdf2bd056010">
+      <property name="CardNumber" value="205609"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="old_man_logan_by_nugget"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Defense."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When you would take any amount of damage from an attack, prevent 1 of that damage for each wound counter on Old and Tired. Place 1 wound counter on Old and Tired.</property>
+    </card>
+    <card name="Vicious Animal" id="85ef87e7-7618-4420-b85f-fdf2bd056012">
+      <property name="CardNumber" value="205610"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="old_man_logan_by_nugget"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 2 damage to an enemy for each wound counter on Old and Tired (max 8 damage). You may divide the damage dealt by this attack among enemies as you choose. If you paid for this card using a [physical] resource, you may place a wound counter on Old and Tired.</property>
+    </card>
+    <card name="Skilled Tracker" id="85ef87e7-7618-4420-b85f-fdf2bd056014">
+      <property name="CardNumber" value="205611"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="old_man_logan_by_nugget"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Skill. Thwart."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 1 threat from a scheme for each wound counter on Old and Tired (max 4 threat). If you paid for this card using a [mental] resource, you may remove a wound counter from Old and Tired.</property>
+    </card>
+    <card name="Blood on One's Hands" id="85ef87e7-7618-4420-b85f-fdf2bd056016" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="205612"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="old_man_logan_by_nugget"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;Give to the James Howlett player.&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+• Discard Wolverine's Claws → remove Blood on one's Hands from the game.
+• Place 3 wound counters on Old and Tired. Discard this card.</property>
+    </card>
+    <card name="Old Man Hulk" id="85ef87e7-7618-4420-b85f-fdf2bd056017" size="EncounterCard">
+      <property name="CardNumber" value="205613"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="old_man_logan_by_nugget_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="8"/>
+      <property name="Attribute" value="Gamma. Genius."/>
+      <property name="Text">[star] Old Man Hulk gets +1 ATK for each damage token here.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a [[GAMMA]] minion is defeated, deal 1 damage to Old Man Hulk.
+&lt;i&gt;(Old Man Logan's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Debt Collection" id="85ef87e7-7618-4420-b85f-fdf2bd056018" size="SchemeCard">
+      <property name="CardNumber" value="205614"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="old_man_logan_by_nugget_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;The Hulk Gang is going around collecting debt. If you can't pay up, prepare to take a beating.&lt;/i&gt;
+[crisis]
+&lt;b&gt;When Revealed&lt;/b&gt;: The James Howlett player must choose to either take 2 damage or place 1 additional threat here.</property>
+    </card>
+    <card name="Bobbie-Jo Banner" id="85ef87e7-7618-4420-b85f-fdf2bd056019" size="EncounterCard">
+      <property name="CardNumber" value="205615"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="old_man_logan_by_nugget_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Gamma."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If Charlie Banner is not in play, search the encounter deck and discard pile for him. Reveal him and put him into play engaged with you.</property>
+      <property name="Quote">"You don't have this month's rent. Which is why my brothers are here today. You met Otis and Charlie?</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Charlie Banner" id="85ef87e7-7618-4420-b85f-fdf2bd056020" size="EncounterCard">
+      <property name="CardNumber" value="205616"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="old_man_logan_by_nugget_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Gamma."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If Otis Banner is not in play, search the encounter deck and discard pile for him. Reveal him and put him into play engaged with you.</property>
+      <property name="Quote">"Are you ready to take your beating?"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Otis Banner" id="85ef87e7-7618-4420-b85f-fdf2bd056021" size="EncounterCard">
+      <property name="CardNumber" value="205617"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="old_man_logan_by_nugget_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Gamma."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If Bobbie-Jo Banner is not in play, search the encounter deck and discard pile for her. Reveal her and put her into play engaged with you.</property>
+      <property name="Quote">"This punk tryin' ta piss us off?"</property>
+      <property name="Unique" value="True"/>
+    </card>
+  </cards>
+</set>
