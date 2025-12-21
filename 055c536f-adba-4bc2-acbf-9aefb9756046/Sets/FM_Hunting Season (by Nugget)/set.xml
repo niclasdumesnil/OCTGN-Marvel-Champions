@@ -2,15 +2,15 @@
 <set name="(FM) Hunting Season (By Nugget)" id="a1825670-a77e-4e37-89e8-9e629bc7892e" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
   <cards>
     <card id="a1825670-a77e-4e37-89e8-9e629b900009" name="Savage Six">
-      <property name="Type" value="encounter_setup"/>
+      <property name="Type" value="fm_encounter_setup"/>
       <property name="Owner" value="savage_six_by_nugget"/>
     </card>
     <card id="a1825670-a77e-4e37-89e8-9e629b900008" name="Red Vulture">
-      <property name="Type" value="encounter_setup"/>
-      <property name="Owner" value="red_vulture_by_nugge"/>
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="red_vulture_by_nugget"/>
     </card>
     <card id="a1825670-a77e-4e37-89e8-9e629b900007" name="Lizard Thralls">
-      <property name="Type" value="encounter_setup"/>
+      <property name="Type" value="fm_encounter_setup"/>
       <property name="Owner" value="lizard_thralls_by_nugget"/>
     </card>
     <card id="a1825670-a77e-4e37-89e8-9e629b900005" name="Kraven (by Nugget)">

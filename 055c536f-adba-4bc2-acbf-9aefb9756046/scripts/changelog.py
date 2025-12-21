@@ -439,5 +439,36 @@ changelog = {
         ]),
     '0000393': ("0.0.3.93", "08 November 2025", [
         "Hotfix: previous update introduce a bug where discard didn't work anymore."
+        ]),
+    '0000394': ("0.0.3.94", "13 December 2025", [
+        "Fanmade: Skrull Menace (by Kajislav) scenarios added.",
+        "Fanmade: Alligator_Loki (by Ripper3) hero added.",
+        "Fanmade: Angela (by Odysseus) hero added.",
+        "Fanmade: Beast (by Hainz3y2) hero added.",
+        "Fanmade: Beta_Ray_Bill (by Ripper3) hero added.",
+        "Fanmade: Blue_Marvel (by Rainy) hero added.",
+        "Fanmade: Captain_Britain (by Hitch) hero added.",
+        "Fanmade: Gwenpool (by Ekaugust) hero added.",
+        "Fanmade: Havok (by Rainy) hero added.",
+        "Fanmade: Hawkeye (by Cptscorp) hero added.",
+        "Fanmade: Hercules (by Rainy) hero added.",
+        "Fanmade: Howard_The_Duck (by Rycoran) hero added.",
+        "Fanmade: Iron_Lad (by Cptscorp) hero added.",
+        "Fanmade: Ka-zar (by Matty) hero added.",
+        "Fanmade: Karnak (by 1-2-punchboard) hero added.",
+        "Fanmade: Luke_Cage (by Rainy) hero added.",
+        "Fanmade: Namor (by Odysseus) hero added.",
+        "Fanmade: Red_Guardian (by Kajislav) hero added.",
+        "Fanmade: Sabretooth (by Rycoran) hero added.",
+        "Fanmade: Scarlet_Spider (by Ripper3) hero added.",
+        "Fanmade: Silver_Surfer (by Hax) hero added.",
+        "Fanmade: Spider_Man_Noir (by Matty) hero added.",
+        "Fanmade: Stature (by Captain_Corp_&_Hax) hero added.",
+        "Fanmade: Superior_Spider-Man (by Ripper3) hero added.",
+        "Fanmade: Throg (by Rainy) hero added.",
+        "Fanmade: Venom (by Ripper3) hero added."
+        ]),
+    '0000395': ("0.0.3.95", "13 December 2025", [
+        "Fix: Next Villain action bug."
         ])
 }

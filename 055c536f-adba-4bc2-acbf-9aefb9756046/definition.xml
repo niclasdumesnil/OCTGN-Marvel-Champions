@@ -3,7 +3,7 @@
     name="Marvel Champions"
     id="055c536f-adba-4bc2-acbf-9aefb9756046"
     octgnVersion="3.4.426.0"
-    version="0.0.3.93"
+    version="0.0.3.95"
     scriptVersion="3.1.0.2"
     markersize="15"
     tags="OCTGN, Marvel, Champions"
@@ -96,6 +96,7 @@
         <property name="nbModular" type="String" />
         <property name="mandatoryModular" type="String" />
         <property name="recommendedModular" type="String" />
+		<property name="LinkedCards" type="String" />
         <property name="Faction" type="String" />
         <property name="Type" type="String" />
         <property name="Owner" type="String" />

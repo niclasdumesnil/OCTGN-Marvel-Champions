@@ -4,7 +4,7 @@ import os
 from os import path
 import argparse
 
-runFile = 'cw'
+runFile = 'skrull_menace_by_kajislav'
 print(f'fm_{runFile}')  # Doit afficher fm_mystique_by_merlin
 xmlSet = None
 packName = None

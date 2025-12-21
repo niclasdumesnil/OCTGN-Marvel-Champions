@@ -256,5 +256,8 @@
         <card id="055c536f-adba-4bc2-acbf-100000000064" name="Wonder Man">
             <property name="Owner" value="wonder_man" />
         </card>
+        <card id="055c536f-adba-4bc2-acbf-100000000064" name="Hercules">
+            <property name="Owner" value="hercules" />
+        </card>
     </cards>
 </set>

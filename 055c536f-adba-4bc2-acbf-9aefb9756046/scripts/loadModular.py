@@ -271,3 +271,14 @@ def campaignEncounter(villainSet = '', x = 0, y = 0):
     if villainSet == "black_widow_villain" or villainSet == "batroc" or villainSet == "m.o.d.o.k." or villainSet == "thunderbolts":
         createCardsFromSet(campaignDeck(), "s.h.i.e.l.d._executive_board", "S.H.I.E.L.D. Executive Board", True)
         createCardsFromSet(campaignDeck(), "executive_board_evidence", "Executive Board Evidence", True)
+
+    if villainSet == "skrull_empire_by_kajislav" or villainSet == "super-skrull_by_kajislav" or villainSet == "paibok_by_kajislav" or villainSet == "skrull_pantheon_by_kajislav" or villainSet == "secret_invasion_by_kajislav":
+        createCardsFromSet(campaignDeck(), "shaper_of_worlds_by_kajislav", "Shaper of Worlds", True)
+        createCardsFromSet(campaignDeck(), "skrull_elite_-_crusader_by_kajislav", "Skrull Elite - Crusader", True)
+        createCardsFromSet(campaignDeck(), "skrull_elite_-_jazinda_by_kajislav", "Skrull Elite - Jazinda", True)
+        createCardsFromSet(campaignDeck(), "skrull_elite_-_skymax_by_kajislav", "Skrull Elite - Skymax", True)
+        createCardsFromSet(campaignDeck(), "skrull_elite_-_war_skrull_by_kajislav", "Skrull Elite - War Skrull", True)
+        createCardsFromSet(campaignDeck(), "skrull_elite_-_xavin_by_kajislav", "Skrull Elite - Xavin", True)
+        createCardsFromSet(campaignDeck(), "standard_skrull_by_kajislav", "Standard Skrull", True)
+        createCardsFromSet(campaignDeck(), "expert_skrull_by_kajislav", "Expert Skrull", True)
+        createCardsFromSet(campaignDeck(), "skrull_menace_campaign_by_kajislav", "Skrull Menace Campaign", True)

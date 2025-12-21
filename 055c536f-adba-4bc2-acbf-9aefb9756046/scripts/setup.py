@@ -550,6 +550,34 @@ def scenarioSetup_fm(group=table, x = 0, y = 0):
         envCard = filter(lambda card: card.Name == "S.H.I.E.L.D. Wingsuits", encounterDeck())
         envCard[0].moveToTable(tableLocations['environment'][0], tableLocations['environment'][1])
 
+    elif vName == "Skrull Empire (By Kajislav)":
+        if gameDifficulty == "0":
+            envCard = filter(lambda card: card.Name == "Skrull Empire I", removedFromGameDeck())
+        else:
+            envCard = filter(lambda card: card.Name == "Skrull Empire II", removedFromGameDeck())
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        envCard[0].moveToTable(tableLocations['environment'][0], tableLocations['environment'][1])
+        shuffle(sideDeck())
+
+    elif vName == "Super-Skrull (By Kajislav)":
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        shuffle(sideDeck())
+
+    elif vName == "Paibok (By Kajislav)":
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        villainCards[0].markers[AllPurposeMarker] += 1
+
+    elif vName == "Secret Invasion (By Kajislav)":
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        envCard = filter(lambda card: card.Name == "Who Do You Trust?", encounterDeck())
+        envCard[0].moveToTable(tableLocations['environment'][0], tableLocations['environment'][1])
+        shuffle(sideDeck())
+        sideDeck().visibility = "all"
+
     else:
         # If we loaded the encounter deck - add the first villain and main scheme cards to the table
         mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
@@ -689,6 +717,7 @@ def nextSchemeStageSetup(vName = None):
 #------------------------------------------------------------
 def nextVillainStageSetup(vName = None):
     mute()
+    gameDifficulty = getGlobalVariable("difficulty")
     """
     Reveal the next Villain Stage.
     """
@@ -889,6 +918,52 @@ def nextVillainStageSetup(vName = None):
             if vCardOnTable[0].markers[ToughMarker] == 0:
                 lookForToughness(vCardOnTable[0])
             setHPOnCharacter(vCardOnTable[0])
+
+    elif vName == "Skrull Empire (By Kajislav)":
+        if gameDifficulty == "0":
+            envCard = filter(lambda card: card.Name == "Skrull Empire II", removedFromGameDeck())
+        else:
+            envCard = filter(lambda card: card.Name == "Skrull Empire III", removedFromGameDeck())
+        if len(envCard) == 1:
+            choice = askChoice("What do you want to do ?", ["Defeat current villain", "Defeat current Skrull Empire environment"])
+        else:
+            choice = 1
+        if choice == None: return
+        if choice == 1:
+            selectedCard = filter(lambda card: card.Type == "villain" and card.hasProperty("Stage"), table)
+            x, y = selectedCard[0].position
+            currentVillain = num(selectedCard[0].CardNumber)
+            notify("{} removed from table".format(selectedCard[0].Name))
+            for c in villainDeck():
+                checkNumber = num(c.CardNumber)
+                if checkNumber == currentVillain + 3:
+                    selectedCard[0].moveToBottom(removedFromGameDeck())
+                    c.moveToTable(x, y)
+                    notify("{} advances to the next Villain in sequential order".format(me))
+     
+        if choice == 2:
+            selectedCard = filter(lambda card: card.Type == "villain" and not card.hasProperty("Stage"), table)
+            x, y = selectedCard[0].position
+            selectedCard[0].moveToBottom(removedFromGameDeck())
+            for c in table:
+                if isVillain([c]):
+                    vilX, vilY = c.position
+                    c.moveToBottom(removedFromGameDeck())
+            if gameDifficulty == "0":
+                envCard = filter(lambda card: card.Name == "Skrull Empire II", removedFromGameDeck())
+            else:
+                envCard = filter(lambda card: card.Name == "Skrull Empire III", removedFromGameDeck())
+            envCard[0].moveToTable(x, y)
+            for c in villainDeck():
+                c.moveTo(removedFromGameDeck())
+            for c in removedFromGameDeck():
+                if isVillain([c]) and gameDifficulty == "0" and c.Stage == "II":
+                    c.moveTo(villainDeck())
+                elif isVillain([c]) and gameDifficulty == "1" and c.Stage == "III":
+                    c.moveTo(villainDeck())
+            vCards = sorted(filter(lambda card: card.Type == "villain", villainDeck()), key=lambda c: c.CardNumber)
+            vCards[0].moveToTable(vilX, vilY)
+            notify("{} advances Villain to the next stage".format(me))
 
     else:
         for c in table:

@@ -1758,5 +1758,147 @@ Piercing. Reckless  (&lt;i&gt;After this character enters play, place 1 threat o
 &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Spiders-man uses a basic power, remove 1 or more spider counters from here → deal 1 damage to an enemy for each counter removed this way.</property>
       <property name="Unique" value="True"/>
     </card>
+    <card name="Ralph" id="65becd33-a610-4313-9d2f-27670e044223">
+      <property name="CardNumber" value="44223"/>
+      <property name="Position" value="223"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Aerial. Bird."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When your hero attacks an enemy, attach Ralph to that enemy and look at 2 cards from among the top of the encounter deck and encounter cards dealt to players → that attack gains piercing and deals X additional damage to both that enemy and Ralph, where X is the number of boost ([boost]) icons looked that way</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Target Painted" id="65becd33-a610-4313-9d2f-27670e044224">
+      <property name="CardNumber" value="44224"/>
+      <property name="Position" value="224"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">Play only if your identity has the [[soldier]] trait. attach to a minion. Max 1 per Minion.
+Attacks against attached minion gain ranged and deal 1 additionnal damage for each card attached to that minion.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Night Thrasher" id="65becd33-a610-4313-9d2f-27670e044225">
+      <property name="CardNumber" value="44225"/>
+      <property name="Position" value="225"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Avenger. New Warrior."/>
+      <property name="Text">Night Thrasher enters play exhausted.
+Retaliate 2.
+&lt;b&gt;Response&lt;/b&gt;: After you flip a card you control, ready Night Thrasher.</property>
+      <property name="Quote">I don't waste energy on what other people think.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Rage" id="65becd33-a610-4313-9d2f-27670e044226">
+      <property name="CardNumber" value="44226"/>
+      <property name="Position" value="226"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Avenger. New Warrior."/>
+      <property name="Text">Rage enters play exhausted.
+[star] Rage gets +X ATK, where X is equal to the villainâ€™s stage number.</property>
+      <property name="Quote">So? You all gonna sit and wait for orders?! Or are we gonna start acting like SUPER HEROES?!</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Collective Breather" id="65becd33-a610-4313-9d2f-27670e044227">
+      <property name="CardNumber" value="44227"/>
+      <property name="Position" value="227"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">Max 1 per round.
+&lt;b&gt;Hero Action&lt;/b&gt;: Heal 2 damage from each damaged enemy → ready a friendly character for each enemy healed this way.</property>
+      <property name="Quote">You are fortunate Doom is graciouâ€“
+Shut up. - Doctor Doom &amp; Doctor Strange</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="MRVL Network" id="65becd33-a610-4313-9d2f-27670e044228">
+      <property name="CardNumber" value="44228"/>
+      <property name="Position" value="228"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">Uses (3 replay counters).
+&lt;b&gt;Response&lt;/b&gt;: After an enemy takes damage during the villain phase, remove 1 replay counter from here → ready a character you control.</property>
+      <property name="Quote">They say he favors his left. Letâ€™s go! - Microbe</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Determined Conditioning" id="65becd33-a610-4313-9d2f-27670e044229">
+      <property name="CardNumber" value="44229"/>
+      <property name="Position" value="229"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Play under any players control.Max 1 per player.
+You get +3 hit points, and your hero gets -1 DEF and gains retaliate 1.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Timed Detonation" id="65becd33-a610-4313-9d2f-27670e044230">
+      <property name="CardNumber" value="44230"/>
+      <property name="Position" value="230"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">Attach to an enemy. Max 1 per enemy.
+&lt;b&gt;Forced Interrupt (Hero)&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: When the villain phase ends, flip to alter-ego form and remove Timed Detonation from the game → deal 6 damage to attached enemy. This attack gains ranged and overkill.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Speedball" id="65becd33-a610-4313-9d2f-27670e044231">
+      <property name="CardNumber" value="44231"/>
+      <property name="Position" value="231"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="determination"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Avenger. New Warrior."/>
+      <property name="Text">Speedball enters play exhausted.
+&lt;b&gt;Response&lt;/b&gt;: After you ready Speedball, place 1 ball counter on him (to a maximum of 2). Reduce the amount of damage Speedball takes from enemy attacks by 1 for each ball counter on him.</property>
+      <property name="Unique" value="True"/>
+    </card>
   </cards>
 </set>

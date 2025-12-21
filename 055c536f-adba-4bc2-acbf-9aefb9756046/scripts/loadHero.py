@@ -239,6 +239,16 @@ def heroSetup(group=table, x = 0, y = 0):
             for c in filter(lambda card: card.CardNumber == "50035a", me.Deck):
                 c.moveToTable(playerX(id)+70,tableLocations['hero'][1])
 
+
+        #------------------------------------------------------------
+        # Specific Fanmade Hero setup
+        #------------------------------------------------------------
+
+        # Luke Cage (by Rainy)
+        if heroPlayed == 'luke_cage_by_rainy':
+            for c in filter(lambda card: card.CardNumber == "203601b", table):
+                tough(c)
+
         #------------------------------------------------------------
         # moveToTable Hero setup cards
         #------------------------------------------------------------

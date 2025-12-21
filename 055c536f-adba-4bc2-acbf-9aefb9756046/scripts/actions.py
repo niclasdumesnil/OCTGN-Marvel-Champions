@@ -1398,9 +1398,11 @@ def nextVillainStage(group=None, x=0, y=0):
     # We need a new Villain card
     if group is None or group == table:
         group = villainDeck()
+        whisper("group Next Villain")
     if len(group) == 0 and vName != "Apocalypse": return
 
     if group.controller != me:
+        whisper("Remote call Next Villain")
         remoteCall(group.controller, "nextVillainStage", [group, x, y])
         return
 
