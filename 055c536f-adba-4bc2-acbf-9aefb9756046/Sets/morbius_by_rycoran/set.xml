@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Morbius" id="d44cc126-0575-463f-8a1e-f59476be71a5" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="d44cc126-0575-463f-8a1e-f59476000000" name="morbius_by_rycoran">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="morbius_by_rycoran"/>
+    </card>
+    <card id="d44cc126-0575-463f-8a1e-f59476990000" name="morbius_by_rycoran">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="morbius_by_rycoran_nemesis"/>
+    </card>
+    <card name="Morbius" id="d44cc126-0575-463f-8a1e-f59476061001">
+      <property name="CardNumber" value="206101a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="morbius_by_rycoran"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="3"/>
+      <property name="Attack" value="3"/>
+      <property name="Defense" value="3"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Midnight Son. Vampire."/>
+      <property name="Text">&lt;i&gt;Vampiric Bite&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you use a basic power, drain 1 from an enemy. (Limit once per round.)
+&lt;i&gt;“If I must drink blood, let it be the blood of the corrupt - of those that deserve to die. The blood of the guilty.”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Michael Morbius" type="b">
+        <property name="CardNumber" value="206101b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="morbius_by_rycoran"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Genius. Vampire."/>
+        <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Put your Bloodlust upgrade into play.&lt;i&gt;
+Immortal&lt;/i&gt; — &lt;b&gt;Forced Response&lt;/b&gt;: After you change to this form, place blood counters on your Bloodlust upgrade (to a maximum of 9).
+&lt;i&gt;&lt;/i&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Werewolf" id="d44cc126-0575-463f-8a1e-f59476061002">
+      <property name="CardNumber" value="206102"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="morbius_by_rycoran"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Midnight Son."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After Werewolf enters play, search your discard pile for an identity specific event and add it to your hand.
+&lt;i&gt;“You don't wanna be around when I sprout fangs again." —Werewolf&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="It's Morbin Time" id="d44cc126-0575-463f-8a1e-f59476061003">
+      <property name="CardNumber" value="206103"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="morbius_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack/thwart)&lt;/i&gt;: Deal damage to an enemy equal to Morbius's ATK and remove threat from a scheme equal to his THW. If you have 9 blood counters on Bloodlust, give Morbius a tough status card.</property>
+    </card>
+    <card name="Dark Shadows" id="d44cc126-0575-463f-8a1e-f59476061004">
+      <property name="CardNumber" value="206104"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="morbius_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 4 threat from a scheme. If there are blood counters on each THW slot on Bloodlust, confuse an enemy.
+&lt;i&gt;"You're vermin. And I am the predator that feeds 			on your kind. Welcome to the food chain."&lt;/i&gt;</property>
+    </card>
+    <card name="Taste the Blood" id="d44cc126-0575-463f-8a1e-f59476061005">
+      <property name="CardNumber" value="206105"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="morbius_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy. If there are blood counters on each ATK slot on Bloodlust, this attack gains piercing. 		
+&lt;i&gt;"If I must drink blood, let it be the blood of the corrupt —of those that deserve to die!"&lt;/i&gt;</property>
+    </card>
+    <card name="Fright Night" id="d44cc126-0575-463f-8a1e-f59476061006">
+      <property name="CardNumber" value="206106"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="morbius_by_rycoran"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Defense. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(defense)&lt;/i&gt;: When you would take any amount of damage, prevent 3 of that damage. If there are blood counters on each DEF slot, stun the attacking enemy.
+&lt;i&gt;"Tell me...are you scared now?"&lt;/i&gt;</property>
+    </card>
+    <card name="Blood of the Vampire" id="d44cc126-0575-463f-8a1e-f59476061007">
+      <property name="CardNumber" value="206107"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="morbius_by_rycoran"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you spend this card, heal 1 damage from Morbius and ready him.
+&lt;i&gt;"Tell me...are you scared now?"&lt;/i&gt;</property>
+    </card>
+    <card name="Lifeforce" id="d44cc126-0575-463f-8a1e-f59476061008">
+      <property name="CardNumber" value="206108"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="morbius_by_rycoran"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust Lifeforce → play an ally from your hand, reducing its resource cost by X, then deal X damage to it. &lt;b&gt;
+Response&lt;/b&gt;: After an ally you control is defeated, exhaust Lifeforce → shuffle it into your deck instead.</property>
+    </card>
+    <card name="Horizon Labs" id="d44cc126-0575-463f-8a1e-f59476061009">
+      <property name="CardNumber" value="206109"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="morbius_by_rycoran"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">Michael Morbius gets +2 REC.&lt;b&gt;
+Resource&lt;/b&gt;: Exhaust Horizon Labs → generate a [wild] resource. &lt;i&gt;
+"I am a man of science. My life dedicated to preserving life. Yet around me is the stench of death so strong I can never be rid of it."&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Living Vampire" id="d44cc126-0575-463f-8a1e-f59476061010">
+      <property name="CardNumber" value="206110"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="morbius_by_rycoran"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text">You get +3 hit points.&lt;b&gt;
+Interrupt&lt;/b&gt;: When Morbius would be defeated, set his hit point dial to 4 instead. Then, discard this card.
+	&lt;i&gt;"Instead of curing my affliction, I have made it stronger."&lt;/i&gt;</property>
+    </card>
+    <card name="Psionic Gliding" id="d44cc126-0575-463f-8a1e-f59476061011">
+      <property name="CardNumber" value="206111"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="morbius_by_rycoran"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Morbius gains the [[aerial]] trait.&lt;b&gt;
+Hero Interrupt&lt;/b&gt;: When an enemy activates, exhaust Psionic Gliding → deal 1 damage to that enemy or remove 1 threat from a scheme.&lt;i&gt;&lt;/i&gt;</property>
+    </card>
+    <card name="Bloodlust" id="d44cc126-0575-463f-8a1e-f59476061012">
+      <property name="CardNumber" value="206112"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="morbius_by_rycoran"/>
+      <property name="Cost" value="None"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Text">Permanent. Setup.
+Enters play with 9 blood counters covering all slots. Your basic powers are reduced by each uncovered slot.
+&lt;b&gt;Forced Response&lt;/b&gt;: After your turn ends, remove 2 blood counters from a basic power slot here.</property>
+    </card>
+    <card name="Uncurable" id="d44cc126-0575-463f-8a1e-f59476061013" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="206113"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="morbius_by_rycoran"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">You may flip to alter-ego form. Choose:
+Exhaust Michael Morbius → remove Uncurable from the game.
+Remove 3 blood counters from Bloodlust. You cannot change form until your next turn ends. Discard this obligation.</property>
+    </card>
+    <card name="Blood Hunt" id="d44cc126-0575-463f-8a1e-f59476061014" size="SchemeCard">
+      <property name="CardNumber" value="206114"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="morbius_by_rycoran_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;To reverse his transformation, Morbius wants Spider-man's blood.
+&lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: Deal 2 damage to each identity.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a friendly character is defeated by an enemy attack, place 2 threat on the main scheme.
+[hazard]</property>
+    </card>
+    <card name="Spider-Man 616" id="d44cc126-0575-463f-8a1e-f59476061015" size="EncounterCard">
+      <property name="CardNumber" value="206115"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="morbius_by_rycoran_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Elite. Web-Warrior."/>
+      <property name="Text">Guard. Villainous.
+[star]&lt;b&gt; Forced Response&lt;/b&gt;: After Spider-Man 616 activates against you, place 1 threat on each scheme.
+&lt;i&gt;(Morbius's nemesis minion.)				&lt;/i&gt;
+ [star] &lt;b&gt;Boost&lt;/b&gt;: You are confused.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="All Webbed Up" id="d44cc126-0575-463f-8a1e-f59476061016" size="EncounterCard">
+      <property name="CardNumber" value="206116"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="morbius_by_rycoran_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attach to your identity.
+Attached character gets -1 THW, -1 ATK, and -1 DEF.
+&lt;b&gt;Hero Action&lt;/b&gt;: Take 1 damage and spend [energy][physical] resources → discard this card.</property>
+    </card>
+    <card name="Blood Feud" id="d44cc126-0575-463f-8a1e-f59476061017" size="EncounterCard">
+      <property name="CardNumber" value="206117"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="morbius_by_rycoran_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Peril. &lt;i&gt;(While you are resolving this card, other players cannot help you.)&lt;/i&gt;&lt;b&gt;
+When Revealed&lt;/b&gt;: Choose:
+• Discard an ally or support you control. If you cannot, this card gains surge.
+• The villain attacks you.</property>
+    </card>
+    <card name="This Bites" id="d44cc126-0575-463f-8a1e-f59476061018" size="EncounterCard">
+      <property name="CardNumber" value="206118"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="morbius_by_rycoran_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Give the villain a tough status card, take 1 damage and place 1 threat on the main scheme.
+&lt;i&gt;"Morbius, Please..Let me help you...Before it's too late." —Spider-Man&lt;/i&gt;</property>
+    </card>
+  </cards>
+</set>

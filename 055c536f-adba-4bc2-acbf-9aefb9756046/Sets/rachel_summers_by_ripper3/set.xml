@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Rachel Summers" id="00276b7e-a61c-4dbb-b503-f849f395b101" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="00276b7e-a61c-4dbb-b503-f849f3000000" name="rachel_summers_by_ripper3">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="rachel_summers_by_ripper3"/>
+    </card>
+    <card id="00276b7e-a61c-4dbb-b503-f849f3990000" name="rachel_summers_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="rachel_summers_by_ripper3_nemesis"/>
+    </card>
+    <card name="Rachel Summers" id="00276b7e-a61c-4dbb-b503-f849f3057001">
+      <property name="CardNumber" value="205701a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="rachel_summers_by_ripper3"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="3"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="Psionic. X-Men."/>
+      <property name="Text">&lt;i&gt;Mind Burn&lt;/i&gt; — &lt;b&gt;Special:&lt;/b&gt; Deal 1 damage to an enemy. Remove threat from a scheme equal to that enemy's SCH.
+&lt;i&gt;Firebird &lt;/i&gt;— &lt;b&gt;Response&lt;/b&gt;: After you play a [[psionic ]]card, draw 1 card. (Limit once per phase.)
+&lt;i&gt;“We should all live for the moment. It could be our last.”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Rachel Summers" type="b">
+        <property name="CardNumber" value="205701b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="rachel_summers_by_ripper3"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="9"/>
+        <property name="Attribute" value="Mutant. Psionic. Temporal."/>
+        <property name="Text">&lt;i&gt;Current Codename&lt;/i&gt;&lt;b&gt; &lt;/b&gt;—&lt;b&gt; Setup&lt;/b&gt;: Search your deck and discard pile for a [[title ]]upgrade and add it to your hand.
+&lt;i&gt;Firebird &lt;/i&gt;— &lt;b&gt;Response&lt;/b&gt;: After you play a [[psionic ]]card, draw 1 card. (Limit once per phase.)</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Captain Britain" id="00276b7e-a61c-4dbb-b503-f849f3057002">
+      <property name="CardNumber" value="205702"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="rachel_summers_by_ripper3"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Psionic. X-Men."/>
+      <property name="Text">[star]&lt;b&gt; Response&lt;/b&gt;: After Captain Britain uses a basic power, shuffle 1 [[psionic ]]event from your discard pile into your deck.
+&lt;i&gt;“The multiverse needs us!”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Phoenix II" id="00276b7e-a61c-4dbb-b503-f849f3057003">
+      <property name="CardNumber" value="205703"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="rachel_summers_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Cosmic Entity. Title."/>
+      <property name="Text">&lt;b&gt;Forced Interrupt: &lt;/b&gt;When Rachel Summers would take damage from an enemy attack, place that damage here instead. Then, if there is at least 6 damage here, discard this card and resolve Rachel Summer's “&lt;i&gt;Mind Burn&lt;/i&gt;” ability.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Prestige" id="00276b7e-a61c-4dbb-b503-f849f3057004">
+      <property name="CardNumber" value="205704"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="rachel_summers_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text">While in hero form, Rachel Summers gains the [[aerial]] trait.
+&lt;b&gt;Hero Resource&lt;/b&gt;: Exhaust Prestige → generate a [mental] resource.
+&lt;i&gt;“I took the name "Prestige" to put the past behind me.”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Askani" id="00276b7e-a61c-4dbb-b503-f849f3057005">
+      <property name="CardNumber" value="205705"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="rachel_summers_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(thwart)&lt;/i&gt;&lt;b&gt;:&lt;/b&gt; After you defend against an enemy attack, exhaust Askani and spend a [mental] resource → resolve Rachel Summer's “&lt;i&gt;Mind Burn&lt;/i&gt;” ability against that enemy.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Phoenix Fire" id="00276b7e-a61c-4dbb-b503-f849f3057006">
+      <property name="CardNumber" value="205706"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="rachel_summers_by_ripper3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Psionic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Resolve Rachel Summer's “&lt;i&gt;Mind Burn&lt;/i&gt;” ability. If this effect removes less than 2 threat from a scheme, draw 1 card.
+&lt;i&gt;“No... It took to me... The Phoenix knows me, remember? It likes me.”&lt;/i&gt;</property>
+    </card>
+    <card name="Chrono-Skimming" id="00276b7e-a61c-4dbb-b503-f849f3057007">
+      <property name="CardNumber" value="205707"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="rachel_summers_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Psionic. Thwart."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme. If this thwart removes the last threat from that scheme, return an ally from your discard pile to your hand.
+&lt;i&gt;“Everyone always forgets about my chrono-skimming...”&lt;/i&gt;</property>
+    </card>
+    <card name="Psionic Blast" id="00276b7e-a61c-4dbb-b503-f849f3057008">
+      <property name="CardNumber" value="205708"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="rachel_summers_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Attack. Psionic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 3 damage to an enemy. Choose:
+• Resolve Rachel Summer's “&lt;i&gt;Mind Burn”&lt;/i&gt; ability.
+• &lt;i&gt;(attack)&lt;/i&gt; Deal 3 damage to an enemy.</property>
+    </card>
+    <card name="Chrono-Psionics" id="00276b7e-a61c-4dbb-b503-f849f3057009">
+      <property name="CardNumber" value="205709"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="rachel_summers_by_ripper3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Psionic."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you spend this card to play a [[psionic]] card, draw 1 card.</property>
+    </card>
+    <card name="The Boneyard" id="00276b7e-a61c-4dbb-b503-f849f3057010">
+      <property name="CardNumber" value="205710"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="rachel_summers_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location. X-Factor."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust The Boneyard → shuffle 1 [[psionic]] card from your discard pile into your deck. If you are in alter-ego form, draw 1 card.
+&lt;i&gt;The Boneyard is living, sentient, and can grow as needed.&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Hounded" id="00276b7e-a61c-4dbb-b503-f849f3057011" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="205711"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="rachel_summers_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Rachel Summers gets +2 ATK and -2 THW.
+&lt;b&gt;Hero Response&lt;/b&gt;: After Rachel Summers attacks, discard this card → resolve her “&lt;i&gt;Mind Burn&lt;/i&gt;” ability.
+ [acceleration]</property>
+    </card>
+    <card name="Release the Hounds" id="00276b7e-a61c-4dbb-b503-f849f3057012" size="SchemeCard">
+      <property name="CardNumber" value="205712"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="rachel_summers_by_ripper3_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">The first copy of Hound revealed each phase gains surge.
+&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this scheme searches the encounter deck and discard pile for a copy of Hound and deals it to themself as a facedown encounter card.
+ &lt;i&gt;
+&lt;/i&gt;</property>
+    </card>
+    <card name="Ahab" id="00276b7e-a61c-4dbb-b503-f849f3057013" size="EncounterCard">
+      <property name="CardNumber" value="205713"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="rachel_summers_by_ripper3_nemesis"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Cyborg. Tracker."/>
+      <property name="Text">Toughness.
+&lt;i&gt;(Rachel Summer's nemesis minion.)
+“Time to go, then. Hounds, HEEL! That includes you, Rachel...”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Hound" id="00276b7e-a61c-4dbb-b503-f849f3057014" size="EncounterCard">
+      <property name="CardNumber" value="205714"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="rachel_summers_by_ripper3_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Tracker."/>
+      <property name="Text">Guard.
+&lt;b&gt;When Revealed&lt;/b&gt;: If you are in hero form, Hound attacks you. Otherwise, change your identity to hero form.
+&lt;i&gt;Ahab's hounds are mutants stripped of free will and forced to hunt their own kind.&lt;/i&gt;</property>
+    </card>
+    <card name="Astral Plane Attack" id="00276b7e-a61c-4dbb-b503-f849f3057015" size="SchemeCard">
+      <property name="CardNumber" value="205715"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="rachel_summers_tribulation_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="BaseThreat" value="6"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Victory 1.
+Each enemy gets +1 SCH (+2 SCH if that enemy is [[psionic]]).
+&lt;b&gt;When Defeated:&lt;/b&gt; Resolve Rachel Summer's &lt;i&gt;“Mind Burn”&lt;/i&gt; ability against each enemy in play. &lt;i&gt;(Rachel Summer's Tribulation.)
+&lt;/i&gt;</property>
+    </card>
+    <card name="Unleash The Firebird" id="00276b7e-a61c-4dbb-b503-f849f3057016" size="EncounterCard">
+      <property name="CardNumber" value="205716"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="rachel_summers_tribulation_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed (Alter-Ego)&lt;/b&gt;: This card gains surge.
+&lt;b&gt;When Revealed (Hero)&lt;/b&gt;: Stun and exhaust Rachel Summers. Stun the villain and each minion engaged with the Rachel Summers player. Remove this card from the game.
+&lt;i&gt;(Rachel Summer's Tribulation.)&lt;/i&gt;</property>
+    </card>
+  </cards>
+</set>

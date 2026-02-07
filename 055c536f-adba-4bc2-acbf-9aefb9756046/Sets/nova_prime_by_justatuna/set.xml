@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Nova Prime by JustATuna" id="fdf03832-04ba-4026-a82a-e07b84fab7a6" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="fdf03832-04ba-4026-a82a-e07b84000000" name="nova_prime_by_justatuna">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="nova_prime_by_justatuna"/>
+    </card>
+    <card id="fdf03832-04ba-4026-a82a-e07b84990000" name="nova_prime_by_justatuna">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="nova_prime_by_justatuna_nemesis"/>
+    </card>
+    <card name="Nova Prime" id="fdf03832-04ba-4026-a82a-e07b84020001">
+      <property name="CardNumber" value="502001a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="nova_prime_by_justatuna"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="1"/>
+      <property name="HP" value="12"/>
+      <property name="Attribute" value="Guardian. Nova Corps."/>
+      <property name="Text">&lt;i&gt;Human Rocket&lt;/i&gt; — &lt;b&gt;Resource&lt;/b&gt;: Spend [energy] [mental] [physical] resources → generate [wild][wild][wild][wild][wild] resources for a card in your hand.</property>
+      <property name="Quote">“It's all up to me!”</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Richard Rider" type="b">
+        <property name="CardNumber" value="502001b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="nova_prime_by_justatuna"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="12"/>
+        <property name="Attribute" value="Soldier."/>
+        <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Search your deck and discard pile for Nova Helmet and put it into play.
+[star] You get +1 REC for each card in your hand with a printed [wild] resource.</property>
+        <property name="Quote">“All right. Let me tell you about the Nova Force.”</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Star-Lord" id="fdf03832-04ba-4026-a82a-e07b84020002">
+      <property name="CardNumber" value="502002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="nova_prime_by_justatuna"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="5"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Aerial. Guardian."/>
+      <property name="Text">You cannot play Star-Lord if you have played another card this phase.
+&lt;b&gt;Response&lt;/b&gt;: After you play Star-Lord from your hand, discard your hand. Draw up to your hand size.</property>
+      <property name="Quote">“Most of the time, I just make stuff up.”</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Nova Helmet" id="fdf03832-04ba-4026-a82a-e07b84020003">
+      <property name="CardNumber" value="502003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="nova_prime_by_justatuna"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Armor."/>
+      <property name="Text">Your hero gains the [[AERIAL]] trait.
+&lt;b&gt;Hero Resource&lt;/b&gt;: Exhaust Nova Helmet and discard 1 card from your hand → generate a [star] resource.</property>
+      <property name="Quote">“Human rocket, Worldmind. Human rocket. Nothing outruns us.” —Richard Rider</property>
+    </card>
+    <card name="Xandar" id="fdf03832-04ba-4026-a82a-e07b84020004">
+      <property name="CardNumber" value="502004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="nova_prime_by_justatuna"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After a player spends Connection to the Worldmind, exhaust Xandar → that player draws 1 card.</property>
+      <property name="Quote">All that remains of Xandarian culture are two Novas and the long dormant worldmind of that society.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Accelerate" id="fdf03832-04ba-4026-a82a-e07b84020005">
+      <property name="CardNumber" value="502005"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="nova_prime_by_justatuna"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Requirement ([energy]).
+&lt;b&gt;Hero Action&lt;/b&gt;: Ready Nova Prime and draw 1 card.</property>
+      <property name="Quote">“I'm doing the thing. It's human rocket time Pete.”</property>
+    </card>
+    <card name="Accelerate" id="fdf03832-04ba-4026-a82a-e07b84020006">
+      <property name="CardNumber" value="502006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="nova_prime_by_justatuna"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Requirement ([mental]).
+&lt;b&gt;Hero Action&lt;/b&gt;: Ready Nova Prime and draw 1 card.</property>
+      <property name="Quote">“I'm doing the thing. It's human rocket time Pete.”</property>
+    </card>
+    <card name="Accelerate" id="fdf03832-04ba-4026-a82a-e07b84020007">
+      <property name="CardNumber" value="502007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="nova_prime_by_justatuna"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Requirement ([physical]).
+&lt;b&gt;Hero Action&lt;/b&gt;: Ready Nova Prime and draw 1 card.</property>
+      <property name="Quote">“I'm doing the thing. It's human rocket time Pete.”</property>
+    </card>
+    <card name="Accelerate" id="fdf03832-04ba-4026-a82a-e07b84020008">
+      <property name="CardNumber" value="502008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="nova_prime_by_justatuna"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Requirement ([wild]).
+&lt;b&gt;Hero Action&lt;/b&gt;: Ready Nova Prime and draw 1 card.</property>
+      <property name="Quote">“I'm doing the thing. It's human rocket time Pete.”</property>
+    </card>
+    <card name="Gravimetric Blast" id="fdf03832-04ba-4026-a82a-e07b84020009">
+      <property name="CardNumber" value="502009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="nova_prime_by_justatuna"/>
+      <property name="Cost" value="5"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Ready Nova Prime. Until the end of the round, he gets +4 ATK and his attacks gain overkill and piercing.</property>
+      <property name="Quote">“Here, let me give you a boost!”</property>
+    </card>
+    <card name="Galactic Guardian" id="fdf03832-04ba-4026-a82a-e07b84020010">
+      <property name="CardNumber" value="502010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="nova_prime_by_justatuna"/>
+      <property name="Cost" value="5"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Ready Nova Prime. Until the end of the round, he gets +3 THW and threat he removes can be divided among schemes as you choose.</property>
+      <property name="Quote">“Don't make me come over there.” -Nova Prime</property>
+    </card>
+    <card name="Galactic Response" id="fdf03832-04ba-4026-a82a-e07b84020011">
+      <property name="CardNumber" value="502011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="nova_prime_by_justatuna"/>
+      <property name="Cost" value="5"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When a minion, treachery or side scheme is revealed from the encounter deck, cancel all of its effects and discard it. Draw 1 card for each icon ([star] and [boost]) in its boost area.</property>
+      <property name="Quote">“Blue Blazes! Are you serious?” -Nova Prime</property>
+    </card>
+    <card name="Connection to the Worldmind" id="fdf03832-04ba-4026-a82a-e07b84020012">
+      <property name="CardNumber" value="502012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="nova_prime_by_justatuna"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">Connection to the Worldmind does not count toward your hand size.</property>
+    </card>
+    <card name="War Weary" id="fdf03832-04ba-4026-a82a-e07b84020013" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="502013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="nova_prime_by_justatuna"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">[[Give to the Richard Rider player.]]
+You may flip to alter-ego form. Choose:
+* Exhaust Richard Rider → remove War Weary from the game.
+* Discard half the cards in your hand rounded down. Discard War Weary.</property>
+    </card>
+    <card name="Annihilus" id="fdf03832-04ba-4026-a82a-e07b84020014" size="EncounterCard">
+      <property name="CardNumber" value="502014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="nova_prime_by_justatuna_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="7"/>
+      <property name="Attribute" value="Arthrosian. Elite."/>
+      <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Annihilus activates against you, if Annihilation Wave is in play, put the top card of your deck into play facedown, engaged with you as an [[ARTHROSIAN]] minion.</property>
+      <property name="Quote">“All serve Annihilus! Annihilus is the will and the way and he WILL NOT BE DENIED!”</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Bring Annihilation" id="fdf03832-04ba-4026-a82a-e07b84020015" size="SchemeCard">
+      <property name="CardNumber" value="502015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="nova_prime_by_justatuna_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Search the encounter deck, discard pile, and set-aside area for Annihilation Wave and put it into play. Shuffle the encounter deck. Each player puts the top card of their deck into play facedown, engaged with them as an [[ARTHROSIAN]] minion.</property>
+    </card>
+    <card name="Annihilation Wave" id="fdf03832-04ba-4026-a82a-e07b84020016" size="EncounterCard">
+      <property name="CardNumber" value="502016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="nova_prime_by_justatuna_nemesis"/>
+      <property name="Text">Each facedown [[ARTHROSIAN]] minion engaged with a player has a base SCH of 0, a base ATK of 2, and a base hit points of 1.
+&lt;b&gt;Forced Response&lt;/b&gt;: After an [[ARTHROSIAN]] minion is defeated, place that card in it's owners discard pile.</property>
+    </card>
+    <card name="Armies of Annihilus" id="fdf03832-04ba-4026-a82a-e07b84020017" size="EncounterCard">
+      <property name="CardNumber" value="502017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="nova_prime_by_justatuna_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Put the top 2 cards of your deck into play facedown engaged with you as an [[ARTHROSIAN]] minion. If you cannot, this card gains surge.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Put the top card of your deck into play facedown, engaged with you as an [[ARTHROSIAN]] minion.</property>
+    </card>
+  </cards>
+</set>

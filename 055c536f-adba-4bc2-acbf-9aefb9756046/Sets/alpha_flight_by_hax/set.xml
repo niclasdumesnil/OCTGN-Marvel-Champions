@@ -1,0 +1,2207 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Alpha Flight" id="68071830-cf71-4497-a47d-19c19f5fb6fc" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="68071830-cf71-4497-a47d-19c19f990000" name="Alpha Flight by hax">
+    <property name="Type" value="fm_encounter_setup"/>
+    <property name="Owner" value="snowbird_by_hax_nemesis"/>
+    </card>
+    <card id="68071830-cf71-4497-a47d-19c19f990001" name="Alpha Flight by hax">
+    <property name="Type" value="fm_encounter_setup"/>
+    <property name="Owner" value="shaman_by_designhacker_nemesis"/>
+    </card>
+    <card id="68071830-cf71-4497-a47d-19c19f990002" name="Alpha Flight by hax">
+    <property name="Type" value="fm_encounter_setup"/>
+    <property name="Owner" value="sasquatch_by_designhacker_nemesis"/>
+    </card>
+    <card id="68071830-cf71-4497-a47d-19c19f990003" name="Alpha Flight by hax">
+    <property name="Type" value="fm_encounter_setup"/>
+    <property name="Owner" value="puck_by_designhacker_nemesis"/>
+    </card>
+    <card id="68071830-cf71-4497-a47d-19c19f990004" name="Alpha Flight by hax">
+    <property name="Type" value="fm_encounter_setup"/>
+    <property name="Owner" value="vindicator_by_designhacker_nemesis"/>
+    </card>
+    <card id="68071830-cf71-4497-a47d-19c19f990005" name="Alpha Flight by hax">
+    <property name="Type" value="fm_encounter_setup"/>
+    <property name="Owner" value="guardian_by_designhacker_nemesis"/>
+    </card>
+    <card id="68071830-cf71-4497-a47d-19c19f990006" name="Alpha Flight by hax">
+    <property name="Type" value="fm_encounter_setup"/>
+    <property name="Owner" value="aurora_northstar_by_designhacker_nemesis"/>
+    </card>
+    <card id="68071830-cf71-4497-a47d-19c19f000000" name="Snowbird by hax">
+    <property name="Type" value="fm_hero_setup"/>
+    <property name="Owner" value="snowbird_by_hax"/>
+    </card>
+    <card id="68071830-cf71-4497-a47d-19c19f000001" name="Shaman by hax">
+    <property name="Type" value="fm_hero_setup"/>
+    <property name="Owner" value="shaman_by_designhacker"/>
+    </card>
+    <card id="68071830-cf71-4497-a47d-19c19f000002" name="Sasquatch by hax">
+    <property name="Type" value="fm_hero_setup"/>
+    <property name="Owner" value="sasquatch_by_designhacker"/>
+    </card>
+    <card id="68071830-cf71-4497-a47d-19c19f000003" name="Puck by hax">
+    <property name="Type" value="fm_hero_setup"/>
+    <property name="Owner" value="puck_by_designhacker"/>
+    </card>
+    <card id="68071830-cf71-4497-a47d-19c19f000004" name="Vindicator by hax">
+    <property name="Type" value="fm_hero_setup"/>
+    <property name="Owner" value="vindicator_by_designhacker"/>
+    </card>
+    <card id="68071830-cf71-4497-a47d-19c19f000005" name="Guardian by hax">
+    <property name="Type" value="fm_hero_setup"/>
+    <property name="Owner" value="guardian_by_designhacker"/>
+    </card>
+    <card id="68071830-cf71-4497-a47d-19c19f000006" name="Aurora_northstar by hax">
+    <property name="Type" value="fm_hero_setup"/>
+    <property name="Owner" value="aurora_northstar_by_designhacker"/>
+    </card>
+
+    <card name="Snowbird" id="68071830-cf71-4497-a47d-19c19f016001">
+      <property name="CardNumber" value="201601a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="14"/>
+      <property name="Attribute" value="Alpha Flight. Mystic."/>
+      <property name="Text">Creature forms enter play facedown.
+&lt;i&gt;Great Beasts&lt;/i&gt; - &lt;b&gt;Action&lt;/b&gt;: Spend a resource of any type → flip each faceup creature form. Then, choose a facedown creature form and flip it. Snowbird gains each &lt;b&gt;&lt;i&gt;TRAIT&lt;/i&gt;&lt;/b&gt; on that creature form.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Narya" type="b">
+        <property name="CardNumber" value="201601b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="snowbird_by_hax"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="14"/>
+        <property name="Attribute" value="Mystic. Officer."/>
+        <property name="Text">Creature forms enter play facedown.
+&lt;i&gt;Demigoddess&lt;/i&gt; - &lt;b&gt;Response&lt;/b&gt;: After Narya heals, for each point of excess damage healed beyond her maximum hit points, heal 1 damage from a friendly character.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Shaman" id="68071830-cf71-4497-a47d-19c19f016002">
+      <property name="CardNumber" value="201602"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Alpha Flight. Mystic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Shaman and deal 1 damage to him → draw 1 card.</property>
+      <property name="Quote">&lt;i&gt;"There is a richness to life that ou have not yet begun even to suspect, Narya. Do not deny yourself this fullness."&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Artic Assault" id="68071830-cf71-4497-a47d-19c19f016003">
+      <property name="CardNumber" value="201603"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;(&lt;i&gt;attack&lt;/i&gt;): Deal 5 damage to an enemy. Resolve Snowbird's "&lt;i&gt;Great Beasts&lt;/i&gt;" ability for free. Deal damage to an enemy equal to your ATK.</property>
+      <property name="Quote">&lt;i&gt;"Sasquatch is not the only one with strength"-Snowbird&lt;/i&gt;</property>
+    </card>
+    <card name="Boreal Boost" id="68071830-cf71-4497-a47d-19c19f016004">
+      <property name="CardNumber" value="201604"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: (&lt;i&gt;thwart&lt;/i&gt;): Remove 4 threat from a scheme. Resolve Snowbird's "&lt;i&gt;Great Beasts&lt;/i&gt;" ability for free. Remove X threat from a scheme, where X is equal to your THW.</property>
+      <property name="Quote">&lt;i&gt;"You have made a grave mistake."-Snowbird&lt;/i&gt;</property>
+    </card>
+    <card name="Fluid Formation" id="68071830-cf71-4497-a47d-19c19f016005">
+      <property name="CardNumber" value="201605"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Tactic. Mystic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Resolve Snowbird's "&lt;i&gt;Great Beasts&lt;/i&gt;" ability for free. Draw X cards, where X is equal to your THW</property>
+    </card>
+    <card name="Heavy Hide" id="68071830-cf71-4497-a47d-19c19f016006">
+      <property name="CardNumber" value="201606"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Defense. Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;(&lt;i&gt;defense&lt;/i&gt;): When you would take any amount of damage, resolve Snowbird's "&lt;i&gt;Great Beasts&lt;/i&gt;" ability for free. Reduce the amount of damage taken by X, where X is equal to your DEF.</property>
+    </card>
+    <card name="Great White North" id="68071830-cf71-4497-a47d-19c19f016007">
+      <property name="CardNumber" value="201607"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">&lt;b&gt;Hero Resource&lt;/b&gt;: Exhaust Great White North → generate the resource on the faceup creature form. If the printed resource on the card you are playing is the same resource, generate 2 of that resource instead.</property>
+      <property name="Quote">&lt;i&gt;"it's a beauty way to go." -Puck&lt;/i&gt;</property>
+    </card>
+    <card name="Bear" id="68071830-cf71-4497-a47d-19c19f016008">
+      <property name="CardNumber" value="201608a"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Creature."/>
+      <property name="Text">Creature form.
+Snowbird gets -1 THW, +1 DEF and retaliate 1.
+&lt;b&gt;response&lt;/b&gt;: After you play a &lt;b&gt;&lt;i&gt;DEFENSE&lt;/i&gt;&lt;/b&gt; card, exhaust Bear → draw 1 card.</property>
+      <alternate name="Bear" type="b">
+        <property name="CardNumber" value="201608b"/>
+        <property name="Position" value="8"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="upgrade"/>
+        <property name="Owner" value="snowbird_by_hax"/>
+        <property name="Cost" value="1"/>
+        <property name="Resource_Energy" value="1"/>
+        <property name="Attribute" value="Creature."/>
+        <property name="Text">Creature form.
+Snowbird gets -1 THW, +1 DEF and retaliate 1.
+&lt;b&gt;response&lt;/b&gt;: After you play a &lt;b&gt;&lt;i&gt;DEFENSE&lt;/i&gt;&lt;/b&gt; card, exhaust Bear → draw 1 card.</property>
+      </alternate>
+    </card>
+    <card name="Dinosaur" id="68071830-cf71-4497-a47d-19c19f016009">
+      <property name="CardNumber" value="201609a"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Creature."/>
+      <property name="Text">Creature form.
+Snowbird gets -1 ATK, +1 DEF and her attacks gain piercing
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Dinosaur → reduce the cost of the next &lt;b&gt;&lt;i&gt;ATTACK&lt;/i&gt;&lt;/b&gt; card you play this round by 1.</property>
+      <alternate name="Dinosaur" type="b">
+        <property name="CardNumber" value="201609b"/>
+        <property name="Position" value="9"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="upgrade"/>
+        <property name="Owner" value="snowbird_by_hax"/>
+        <property name="Cost" value="1"/>
+        <property name="Resource_Energy" value="1"/>
+        <property name="Attribute" value="Creature."/>
+        <property name="Text">Creature form.
+Snowbird gets -1 ATK, +1 DEF and her attacks gain piercing
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Dinosaur → reduce the cost of the next &lt;b&gt;&lt;i&gt;ATTACK&lt;/i&gt;&lt;/b&gt; card you play this round by 1.</property>
+      </alternate>
+    </card>
+    <card name="Human" id="68071830-cf71-4497-a47d-19c19f016010">
+      <property name="CardNumber" value="201610a"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Aerial."/>
+      <property name="Text">Setup. Creature form.This card cannot be discarded. Enters play faceup.
+Narya gets + 1 hand size.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Human → Search your deck for a creature form and add it to your hand.</property>
+      <alternate name="Human" type="b">
+        <property name="CardNumber" value="201610b"/>
+        <property name="Position" value="10"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="upgrade"/>
+        <property name="Owner" value="snowbird_by_hax"/>
+        <property name="Resource_Physical" value="1"/>
+        <property name="Attribute" value="Aerial."/>
+        <property name="Text">Setup. Creature form.This card cannot be discarded. Enters play faceup.
+Narya gets + 1 hand size.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Human → Search your deck for a creature form and add it to your hand.</property>
+      </alternate>
+    </card>
+    <card name="Owl" id="68071830-cf71-4497-a47d-19c19f016011">
+      <property name="CardNumber" value="201611a"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Aerial. Bird."/>
+      <property name="Text">Creature form.
+Snowbird gets +1 THW, +1 ATK and ignores guard and patrol.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Owl → reduce the cost of the next &lt;b&gt;&lt;i&gt;THWART&lt;/i&gt;&lt;/b&gt; card you play this round by 1.</property>
+      <alternate name="Owl" type="b">
+        <property name="CardNumber" value="201611b"/>
+        <property name="Position" value="11"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="upgrade"/>
+        <property name="Owner" value="snowbird_by_hax"/>
+        <property name="Cost" value="1"/>
+        <property name="Resource_Mental" value="1"/>
+        <property name="Attribute" value="Aerial. Bird."/>
+        <property name="Text">Creature form.
+Snowbird gets +1 THW, +1 ATK and ignores guard and patrol.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Owl → reduce the cost of the next &lt;b&gt;&lt;i&gt;THWART&lt;/i&gt;&lt;/b&gt; card you play this round by 1.</property>
+      </alternate>
+    </card>
+    <card name="Seal" id="68071830-cf71-4497-a47d-19c19f016012">
+      <property name="CardNumber" value="201612a"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Creature."/>
+      <property name="Text">Creature form.
+Snowbird gets -1 ATK, +1 DEF and gains agile 1.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Seal → reduce the cost of the next &lt;b&gt;&lt;i&gt;TACTIC &lt;/i&gt;&lt;/b&gt;card you play this round by 1.</property>
+      <alternate name="Seal" type="b">
+        <property name="CardNumber" value="201612b"/>
+        <property name="Position" value="12"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="upgrade"/>
+        <property name="Owner" value="snowbird_by_hax"/>
+        <property name="Cost" value="1"/>
+        <property name="Resource_Energy" value="1"/>
+        <property name="Attribute" value="Creature."/>
+        <property name="Text">Creature form.
+Snowbird gets -1 ATK, +1 DEF and gains agile 1.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Seal → reduce the cost of the next &lt;b&gt;&lt;i&gt;TACTIC &lt;/i&gt;&lt;/b&gt;card you play this round by 1.</property>
+      </alternate>
+    </card>
+    <card name="Wendigo" id="68071830-cf71-4497-a47d-19c19f016013">
+      <property name="CardNumber" value="201613a"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Creature. Mystic."/>
+      <property name="Text">Creature form.
+Snowbird gets -1 THW, +1 ATK and her attacks gain overkill.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Wendigo → reduce the cost of the next &lt;b&gt;&lt;i&gt;MYSTIC &lt;/i&gt;&lt;/b&gt;card you play this round by 1.</property>
+      <alternate name="Wendigo" type="b">
+        <property name="CardNumber" value="201613b"/>
+        <property name="Position" value="13"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="upgrade"/>
+        <property name="Owner" value="snowbird_by_hax"/>
+        <property name="Cost" value="1"/>
+        <property name="Resource_Energy" value="1"/>
+        <property name="Attribute" value="Creature. Mystic."/>
+        <property name="Text">Creature form.
+Snowbird gets -1 THW, +1 ATK and her attacks gain overkill.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Wendigo → reduce the cost of the next &lt;b&gt;&lt;i&gt;MYSTIC &lt;/i&gt;&lt;/b&gt;card you play this round by 1.</property>
+      </alternate>
+    </card>
+    <card name="Don't Get Stuck!" id="68071830-cf71-4497-a47d-19c19f016014">
+      <property name="CardNumber" value="201614a"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Text">Permanent. Setup.
+&lt;b&gt;Forced Response&lt;/b&gt;: After the villain phase ends, place a permanence counter on your faceup creature form. Then, if there are 4 permanence counters on it, flip this card.
+&lt;b&gt;Force Interrupt&lt;/b&gt;: When you flip  this car of flip a creature form facedown, remoce each permance counter from it.</property>
+      <alternate name="Stuck!" type="b">
+        <property name="CardNumber" value="201614b"/>
+        <property name="Position" value="14"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="support"/>
+        <property name="Owner" value="snowbird_by_hax"/>
+        <property name="Attribute" value="Curse."/>
+        <property name="Text">You cannot resolve  Snowbird's "&lt;i&gt;Great Beasts&lt;/i&gt;" ability. Your faceup creature form and stuck! gain permanent.
+&lt;b&gt;When Revealed&lt;/b&gt;: Summon each non permanent creature form and remove them from the game. Treat each number 1 on the faceup creature card as a number 2 instead.</property>
+      </alternate>
+    </card>
+    <card name="Vindicator" id="68071830-cf71-4497-a47d-19c19f016021">
+      <property name="CardNumber" value="201621"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Aerial. Alpha Flight."/>
+      <property name="Text">Play only if your identity as the &lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; trait.
+Toughness. Vindicator gets retaliate 2 while she 3 or more remaining hit points.</property>
+      <property name="Quote">&lt;i&gt;"Just in time for the fun to begin!" - Vindicator&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Aurora" id="68071830-cf71-4497-a47d-19c19f016022">
+      <property name="CardNumber" value="201622"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Aerial. Alpha Flight. X-Men."/>
+      <property name="Text">Play only if your identity as the &lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; or &lt;b&gt;&lt;i&gt;X-MEN&lt;/i&gt;&lt;/b&gt; trait.
+Companion. Fleeting.
+&lt;b&gt;Response&lt;/b&gt;: After Aurora enters or leaves play, deal 1 damage to an enemy.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Captain Marvel" id="68071830-cf71-4497-a47d-19c19f016023">
+      <property name="CardNumber" value="201623"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="None"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Aerial. Alpha Flight."/>
+      <property name="Text">Play only if your identity as the &lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; trait.
+[star] &lt;b&gt;Interrupt&lt;/b&gt;: When Captain Marvel attacks, choose up to X enemies, where X is equal to the number of &lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; characters you control → deal 2 damage to each chosen enemy.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Guardian" id="68071830-cf71-4497-a47d-19c19f016024">
+      <property name="CardNumber" value="201624"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Aerial. Alpha Flight."/>
+      <property name="Text">Play only if your identity as the &lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; trait.
+Toughness. Guardian gets +1 THW ans +1 ATK while he has 3 or more remaining hit points.</property>
+      <property name="Quote">&lt;i&gt;"And STAY out, eh!" -Guardian&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Marrina" id="68071830-cf71-4497-a47d-19c19f016025">
+      <property name="CardNumber" value="201625"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Alpha Flight."/>
+      <property name="Text">Play only if your identity as the &lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; trait.
+&lt;b&gt;Response&lt;/b&gt;: After an enemy attacks Marrina, stun that enemy.</property>
+      <property name="Quote">&lt;i&gt;"The next time they try and break someone, they'll remember they're pretty fragile too." -Marrina&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Nothstar" id="68071830-cf71-4497-a47d-19c19f016026">
+      <property name="CardNumber" value="201626"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Aerial. Alpha Flight. X-Men."/>
+      <property name="Text">Play only if your identity as the &lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; or &lt;b&gt;&lt;i&gt;X-MEN&lt;/i&gt;&lt;/b&gt; trait.
+Companion. Fleeting.
+&lt;b&gt;Response&lt;/b&gt;: After Aurora enters or leaves play, remove 1 threat from a scheme.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Puck" id="68071830-cf71-4497-a47d-19c19f016027">
+      <property name="CardNumber" value="201627"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Alpha Flight."/>
+      <property name="Text">Play only if your identity as the &lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; trait.
+Reduce the amount of damage Puck takes from eac attack by 1..</property>
+      <property name="Quote">"I was BORN ready! Sakkatchewan steel coming through!" -Puck</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Sasquatch" id="68071830-cf71-4497-a47d-19c19f016028">
+      <property name="CardNumber" value="201628"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="5"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Alpha Flight. Gamma."/>
+      <property name="Text">Play only if your identity as the &lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; or &lt;b&gt;&lt;i&gt;GAMMA &lt;/i&gt;&lt;/b&gt;trait.
+&lt;b&gt;[star]&lt;/b&gt; If you paid for this card using only [mental] resources, your hero gets +1 hand size untl Sasquatch leaves play. If you paid for this  card using only [physical] resources, Sasquatch gets +3 ATK.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Shaman" id="68071830-cf71-4497-a47d-19c19f016029">
+      <property name="CardNumber" value="201629"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Alpha Flight. Mystic."/>
+      <property name="Text">Play only if your identity as the &lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; or &lt;b&gt;&lt;i&gt;MYSTIC &lt;/i&gt;&lt;/b&gt;trait.
+&lt;b&gt;Hero Action: &lt;/b&gt;Exhaust Shaman → draw 1 card. If that card is an aspect or basic card, deal 1 damage to him.</property>
+      <property name="Quote">"The spirits defer to my presence." -Shaman</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Snowbird" id="68071830-cf71-4497-a47d-19c19f016030">
+      <property name="CardNumber" value="201630"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Alpha Flight. Mystic."/>
+      <property name="Text">Play only if your identity as the &lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; or &lt;b&gt;&lt;i&gt;MYSTIC &lt;/i&gt;&lt;/b&gt;trait.
+&lt;b&gt;Response: &lt;/b&gt;After Snowbird enters play, choose one:
+. Snowbird gets +1 ATK and her attacks gain piercing,
+. Snowbird gets + 2 hit points and gains retaliate 2,
+. Snowbird gets +1 THW and gains the &lt;b&gt;&lt;i&gt;AERIAL &lt;/i&gt;&lt;/b&gt;trait.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Shaman" id="68071830-cf71-4497-a47d-19c19f016031">
+      <property name="CardNumber" value="201631a"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="shaman_by_designhacker"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="0"/>
+      <property name="Attack" value="0"/>
+      <property name="Defense" value="0"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="Alpha Flight. Mystic."/>
+      <property name="Text">&lt;i&gt;Mystic Mastery&lt;/i&gt; — &lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Shaman → draw 1 card.</property>
+      <property name="Quote">“Deep meditation will be required to understand this fully.”</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Michael Twoyoungmen" type="b">
+        <property name="CardNumber" value="201631b"/>
+        <property name="Position" value="31"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="shaman_by_designhacker"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="9"/>
+        <property name="Attribute" value="Genius. Mystic."/>
+        <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Summon Shaman's Medicine Pouch and add it to your hand.
+[star] &lt;i&gt;Medicine Man&lt;/i&gt; — Damage you heal using your basic recovery can be divided among your identity and 1 additional character as you choose.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Snowbird" id="68071830-cf71-4497-a47d-19c19f016032">
+      <property name="CardNumber" value="201632"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="shaman_by_designhacker"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Alpha Flight. Mystic."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When Snowbird exhausts, place or remove 1 shift counter from here. While the shift counters here are equal to (X), she gets:
+(1) +2 ATK and her attacks gain piercing.
+(2) +3 hit points and gains retaliate 2.
+(3) +2 THW and gains the [[AERIAL]] trait.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Astral Form" id="68071830-cf71-4497-a47d-19c19f016033">
+      <property name="CardNumber" value="201633"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="shaman_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Defense. Spell."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(defense)&lt;/i&gt;: When the villain would deal damage to Shaman, confuse them instead.</property>
+      <property name="Quote">“Synchronicity is a major component of magic.” —Shaman</property>
+    </card>
+    <card name="Commune" id="68071830-cf71-4497-a47d-19c19f016034">
+      <property name="CardNumber" value="201634"/>
+      <property name="Position" value="34"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="shaman_by_designhacker"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Spell."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Ready a [[MYSTIC]] card.</property>
+      <property name="Quote">“Great Spirit, guide me!” —Shaman</property>
+    </card>
+    <card name="Entangle" id="68071830-cf71-4497-a47d-19c19f016035">
+      <property name="CardNumber" value="201635"/>
+      <property name="Position" value="35"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="shaman_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Spell."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Stun and deal 3 damage to an enemy. If a minion was stunned this way, ready Shaman.</property>
+      <property name="Quote">“Deep in your heart, you know this is wrong.” —Shaman</property>
+    </card>
+    <card name="Mystic Healing" id="68071830-cf71-4497-a47d-19c19f016036">
+      <property name="CardNumber" value="201636"/>
+      <property name="Position" value="36"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="shaman_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Spell."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Heal 1 damage and remove a status card from a character. If a status card was removed this way, ready Shaman.</property>
+      <property name="Quote">“The soul, too, can be cured.” —Shaman</property>
+    </card>
+    <card name="Mystic Dust" id="68071830-cf71-4497-a47d-19c19f016037">
+      <property name="CardNumber" value="201637"/>
+      <property name="Position" value="37"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="shaman_by_designhacker"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you spend this card on a [[SPELL]] event, remove 1 threat from a scheme or ready Shaman.</property>
+    </card>
+    <card name="Eaglet" id="68071830-cf71-4497-a47d-19c19f016038">
+      <property name="CardNumber" value="201638"/>
+      <property name="Position" value="38"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="shaman_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Bird. Mystic."/>
+      <property name="Text">Attach to a main scheme.
+Increase the target threat value of attached scheme by 4.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When Shaman would remove any amount of threat from attached scheme, remove 1 additional threat.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Refreshing Winds" id="68071830-cf71-4497-a47d-19c19f016039">
+      <property name="CardNumber" value="201639"/>
+      <property name="Position" value="39"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="shaman_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Mystic. Spell."/>
+      <property name="Text">Shaman gains the [[AERIAL]] trait.
+&lt;b&gt;Hero Response&lt;/b&gt;: After Shaman defeats a minion or side scheme, ready him. (Limit once per phase.)</property>
+    </card>
+    <card name="Shaman's Medicine Pouch" id="68071830-cf71-4497-a47d-19c19f016040">
+      <property name="CardNumber" value="201640"/>
+      <property name="Position" value="40"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="shaman_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Item. Mystic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Shaman's Medicine Pouch and discard a [[SPELL]] card from your hand → choose two:
+* Play a [[SPELL]] card from your discard pile &lt;i&gt;(paying its cost)&lt;/i&gt;
+* Deal 1 damage to an enemy
+* Heal 1 damage from a character</property>
+    </card>
+    <card name="Spirit Staff" id="68071830-cf71-4497-a47d-19c19f016041">
+      <property name="CardNumber" value="201641"/>
+      <property name="Position" value="41"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="shaman_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Mystic. Weapon."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Spirit Staff → place a spirit counter on a card (to a maximum of 2 per card).
+&lt;b&gt;Interrupt&lt;/b&gt;: When you use a basic power against a card with X spirit counters on it, you get +X to that power for this use.</property>
+    </card>
+    <card name="Code Blue" id="68071830-cf71-4497-a47d-19c19f016042" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="201642"/>
+      <property name="Position" value="42"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="shaman_by_designhacker"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Michael Twoyoungmen player.&lt;/i&gt;&lt;/b&gt;
+You cannot ready.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Discard each [[SPELL]] card or printed [mental] resource from your hand. If 3 or more cards were discarded this way, remove Code Blue from the game.</property>
+      <property name="Quote">“Paging Dr. Twoyoungmen.”</property>
+    </card>
+    <card name="Sasquatch" id="68071830-cf71-4497-a47d-19c19f016043">
+      <property name="CardNumber" value="201643a"/>
+      <property name="Position" value="43"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="sasquatch_by_designhacker"/>
+      <property name="HandSize" value="4"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="3"/>
+      <property name="HP" value="17"/>
+      <property name="Attribute" value="Alpha Flight. Gamma."/>
+      <property name="Text">&lt;i&gt;Strategy&lt;/i&gt; — &lt;b&gt;Forced Response&lt;/b&gt;: After the player phase begins, choose either [mental] or [physical] as your "Strategy" resource type.
+[star] While your "Strategy" resource type is:
+* [mental] - You get +1 THW.
+* [physical] - You get +1 ATK.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Walter Langkowski" type="b">
+        <property name="CardNumber" value="201643b"/>
+        <property name="Position" value="43"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="sasquatch_by_designhacker"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="17"/>
+        <property name="Attribute" value="Genius. Scientist."/>
+        <property name="Text">&lt;i&gt;Strategy&lt;/i&gt; — &lt;b&gt;Forced Response&lt;/b&gt;: After the player phase begins, choose either [mental] or [physical] as your "Strategy" resource type.
+&lt;b&gt;Action&lt;/b&gt;: Discard a card from your hand → if your "Strategy" resource type is [mental], draw 1 card. If it is [physical], ready Walter Langkowski. (Limit once per round.)</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Puck" id="68071830-cf71-4497-a47d-19c19f016044">
+      <property name="CardNumber" value="201644"/>
+      <property name="Position" value="44"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="sasquatch_by_designhacker"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="2"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Alpha Flight."/>
+      <property name="Text">While your "Strategy" resource type is:
+* [mental] - Puck cannot take consequential damage.
+* [physical] - Puck cannot take damage from minion attacks.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Northern Exposure" id="68071830-cf71-4497-a47d-19c19f016045">
+      <property name="CardNumber" value="201645"/>
+      <property name="Position" value="45"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sasquatch_by_designhacker"/>
+      <property name="Cost" value="3"/>
+      <property name="Attribute" value="Gamma. Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Choose up to 3 different enemies. Place a different status card on each of them.</property>
+      <property name="Quote">“I don't have time to mess around here.” —Sasquatch</property>
+    </card>
+    <card name="Rushing Blow" id="68071830-cf71-4497-a47d-19c19f016046">
+      <property name="CardNumber" value="201646"/>
+      <property name="Position" value="46"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sasquatch_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Attribute" value="Attack. Thwart."/>
+      <property name="Text">You can only spend your "Strategy" resource type to pay for this card.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack/thwart)&lt;/i&gt;: Deal damage to an enemy equal to your ATK or remove threat from a scheme equal to your THW.</property>
+    </card>
+    <card name="Squatch Smash" id="68071830-cf71-4497-a47d-19c19f016047">
+      <property name="CardNumber" value="201647"/>
+      <property name="Position" value="47"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sasquatch_by_designhacker"/>
+      <property name="Cost" value="3"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you use a basic power, you get +6 for that use. If you paid for this card using only your "Strategy" resource type, draw 1 card.</property>
+      <property name="Quote">“Squatch smash puny Canadians!” —Sasquatch</property>
+    </card>
+    <card name="Unstoppable Farce" id="68071830-cf71-4497-a47d-19c19f016048">
+      <property name="CardNumber" value="201648"/>
+      <property name="Position" value="48"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="sasquatch_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Attribute" value="Gamma. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Ready Sasquatch. If you paid for this card using only your "Strategy" resource type, draw 1 card.</property>
+      <property name="Quote">“I feel fine. Seriously.” —Walter Langkowski</property>
+    </card>
+    <card name="Limitless Potential" id="68071830-cf71-4497-a47d-19c19f016049">
+      <property name="CardNumber" value="201649"/>
+      <property name="Position" value="49"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="sasquatch_by_designhacker"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you spend this card, treat it as if it has 3 printed resources of your "Strategy" resource type instead.</property>
+    </card>
+    <card name="Walter's Lab" id="68071830-cf71-4497-a47d-19c19f016050">
+      <property name="CardNumber" value="201650"/>
+      <property name="Position" value="50"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="sasquatch_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Attribute" value="Alpha Flight. Location."/>
+      <property name="Text">Walter Langkowski gets +2 REC.
+&lt;b&gt;Alter-Ego Resource&lt;/b&gt;: Exhaust Walter's Lab → generate either a [mental] resource or a [physical] resource.</property>
+      <property name="Quote">“Ever been hit by a Gamma Bomb, Jackie? It's a trip.” —Walter Langkowski</property>
+    </card>
+    <card name="Boundless Fury" id="68071830-cf71-4497-a47d-19c19f016051">
+      <property name="CardNumber" value="201651"/>
+      <property name="Position" value="51"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="sasquatch_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Attribute" value="Condition. Gamma."/>
+      <property name="Text">Hero form only. Sasquatch gets +1 THW, +1 ATK, and +1 DEF.
+&lt;b&gt;Forced Response&lt;/b&gt;: After you change form, discard this card.</property>
+      <property name="Quote">“Did you say 'furious' or 'furriest'?” —Puck</property>
+    </card>
+    <card name="Immovable Subject" id="68071830-cf71-4497-a47d-19c19f016052">
+      <property name="CardNumber" value="201652"/>
+      <property name="Position" value="52"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="sasquatch_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">You get +4 hit points.
+Sasquatch gains retaliate 1.</property>
+      <property name="Quote">“Turn around and back away.” —Sasquatch</property>
+    </card>
+    <card name="Survivor's Guilt" id="68071830-cf71-4497-a47d-19c19f016053" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="201653"/>
+      <property name="Position" value="53"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="sasquatch_by_designhacker"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Walter Langkowski player.&lt;/i&gt;&lt;/b&gt;
+Choose:
+* You are stunned. Discard this obligation.
+* You are confused. Discard this obligation.</property>
+      <property name="Quote">“The Collective wiped 'em out. Only Walt lived.”</property>
+    </card>
+    <card name="Puck" id="68071830-cf71-4497-a47d-19c19f016054">
+      <property name="CardNumber" value="201654a"/>
+      <property name="Position" value="54"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="puck_by_designhacker"/>
+      <property name="HandSize" value="4"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="8"/>
+      <property name="Attribute" value="Alpha Flight."/>
+      <property name="Text">[star] &lt;i&gt;Rebounding&lt;/i&gt; — &lt;b&gt;Hero Response&lt;/b&gt;: After Puck uses a basic power, ready him. Then, he gets -1 THW, -1 ATK, and -1 DEF until the end of the phase.</property>
+      <property name="Quote">“Aren't I just the luckiest little super-hero?”</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Eugene Judd" type="b">
+        <property name="CardNumber" value="201654b"/>
+        <property name="Position" value="54"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="puck_by_designhacker"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="2"/>
+        <property name="HP" value="8"/>
+        <property name="Attribute" value="Adventurer."/>
+        <property name="Text">&lt;i&gt;Extended Longevity&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you recover, choose to either ready Eugene Judd or give him a tough status card. (Limit once per round.)</property>
+        <property name="Quote">“Vowed to live an interesting life. I've done okay.”</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Sasquatch" id="68071830-cf71-4497-a47d-19c19f016055">
+      <property name="CardNumber" value="201655"/>
+      <property name="Position" value="55"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="puck_by_designhacker"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Alpha Flight. Genius."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust Sasquatch → Puck gains the [[AERIAL]] trait until the end of this turn. Reduce the cost of the next [[TACTIC]] or [[AERIAL]] card you play this round by 1.</property>
+      <property name="Quote">“Let's discuss our options, Eugene.”</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Boing!" id="68071830-cf71-4497-a47d-19c19f016056">
+      <property name="CardNumber" value="201656"/>
+      <property name="Position" value="56"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="puck_by_designhacker"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower. Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When Puck would take 1 or more damage, reduce that amount by X. If you take no damage this way, stun or confuse an enemy.</property>
+      <property name="Quote">“Losing a bit of your edge, eh?” —Puck</property>
+    </card>
+    <card name="Bounce Around" id="68071830-cf71-4497-a47d-19c19f016057">
+      <property name="CardNumber" value="201657"/>
+      <property name="Position" value="57"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="puck_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Tactic. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack/thwart)&lt;/i&gt;: Choose to either deal damage to an enemy equal to your ATK or remove threat from a scheme equal to your THW. If a minion or side scheme was defeated this way, return this card to your hand. (Limit once per round per copy.)</property>
+    </card>
+    <card name="Glance" id="68071830-cf71-4497-a47d-19c19f016058">
+      <property name="CardNumber" value="201658"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="puck_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower. Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When Puck would take up to 3 damage, give him a tough status card instead.</property>
+      <property name="Quote">“I don't think so. Now, let's get to work, eh!” —Puck</property>
+    </card>
+    <card name="Ultra Durable" id="68071830-cf71-4497-a47d-19c19f016059">
+      <property name="CardNumber" value="201659"/>
+      <property name="Position" value="59"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="puck_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Give Puck a tough status card. If he is already tough, he gets +1 THW, +1 ATK, and +1 DEF until the end of the round instead.</property>
+      <property name="Quote">“Small. Fast. Tough. Also, I'm a big hockey fan.” —Puck</property>
+    </card>
+    <card name="Compressed Physiology" id="68071830-cf71-4497-a47d-19c19f016060">
+      <property name="CardNumber" value="201660"/>
+      <property name="Position" value="60"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="puck_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Condition. Superpower."/>
+      <property name="Text">Puck ignores the piercing keyword.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When a tough status card is discarded from Puck, draw 1 card.</property>
+    </card>
+    <card name="Double Down" id="68071830-cf71-4497-a47d-19c19f016061">
+      <property name="CardNumber" value="201661"/>
+      <property name="Position" value="61"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="puck_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Puck gets +1 DEF.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When a tough status card is discarded from Puck while resolving the effects of an enemy attack, deal 1 damage to the attacker.</property>
+    </card>
+    <card name="Push Through" id="68071830-cf71-4497-a47d-19c19f016062">
+      <property name="CardNumber" value="201662"/>
+      <property name="Position" value="62"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="puck_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Push Through → take 1 damage. Puck gets +1 THW or +1 ATK until the end of the round. (Limit once per round.)</property>
+      <property name="Quote">Eugene's achondroplasia causes daily pain.</property>
+    </card>
+    <card name="Surreptitious" id="68071830-cf71-4497-a47d-19c19f016063">
+      <property name="CardNumber" value="201663"/>
+      <property name="Position" value="63"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="puck_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Surreptitious → Puck's next basic power ignores the guard and patrol keywords and crisis icons ([per_hero]).
+&lt;b&gt;Action&lt;/b&gt;: Discard Surreptitious → ready your identity.</property>
+    </card>
+    <card name="Achondroplasty" id="68071830-cf71-4497-a47d-19c19f016064" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="201664"/>
+      <property name="Position" value="64"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="puck_by_designhacker"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Eugene Judd player.&lt;/i&gt;&lt;/b&gt;
+You may flip to alter-ego form. You cannot ready your identity.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Discard a tough status card from your identity → remove Achondroplasty from the game.</property>
+    </card>
+    <card name="Vindicator" id="68071830-cf71-4497-a47d-19c19f016065">
+      <property name="CardNumber" value="201665a"/>
+      <property name="Position" value="65"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="vindicator_by_designhacker"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Aerial. Alpha Flight."/>
+      <property name="Text">Vindicator cannot have more than 4 charge counters here.
+&lt;i&gt;Vindicated&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you heal any amount of excess damage from Vindicator, place up to that amount of charge counters here.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Heather Hudson" type="b">
+        <property name="CardNumber" value="201665b"/>
+        <property name="Position" value="65"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="vindicator_by_designhacker"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Officer."/>
+        <property name="Text">&lt;i&gt;Dedicated&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Spend a [mental] resource → search your deck for a hero-specific ally or upgrade and add it to your hand. If Guardian is already in play, place 1 charge counter on him and 1 charge counter on Heather Hudson.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Guardian" id="68071830-cf71-4497-a47d-19c19f016066">
+      <property name="CardNumber" value="201666"/>
+      <property name="Position" value="66"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="vindicator_by_designhacker"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="0"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Aerial. Alpha Flight."/>
+      <property name="Text">Guardian gets +1 ATK for each charge counter here.
+&lt;b&gt;Response&lt;/b&gt;: After Guardian uses a basic power, place 1 charge counter here. If there are 4 or more charge counters here, shuffle Guardian into your deck.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="All of Us Command" id="68071830-cf71-4497-a47d-19c19f016067">
+      <property name="CardNumber" value="201667"/>
+      <property name="Position" value="67"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="vindicator_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">Alliance.
+&lt;b&gt;Hero Action&lt;/b&gt;: Remove 1 charge counter from Guardian or Vindicator for each [[ALPHA FLIGHT]] character in play → draw 1 card for each charge counter removed this way.</property>
+    </card>
+    <card name="Patriot Love" id="68071830-cf71-4497-a47d-19c19f016068">
+      <property name="CardNumber" value="201668"/>
+      <property name="Position" value="68"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="vindicator_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Ready your identity. Then, if you are in hero form, you may place 1 charge counter on Guardian or Vindicator.</property>
+      <property name="Quote">“Hang on, Mac! I'll be right with you.” —Heather Hudson</property>
+    </card>
+    <card name="Serve and Protect" id="68071830-cf71-4497-a47d-19c19f016069">
+      <property name="CardNumber" value="201669"/>
+      <property name="Position" value="69"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="vindicator_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Attribute" value="Superpower. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: When you use a basic power, remove 4 threat from a scheme. If it is during the villain phase, heal 2 damage from your identity.</property>
+      <property name="Quote">“It's alright. I've got you.” —Vindicator</property>
+    </card>
+    <card name="Unexpected Blast" id="68071830-cf71-4497-a47d-19c19f016070">
+      <property name="CardNumber" value="201670"/>
+      <property name="Position" value="70"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="vindicator_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: When you exhaust to use a basic power, deal 4 damage to an enemy. If it is during the villain phase, confuse the villain.</property>
+      <property name="Quote">“Surprise, jackass!” —Vindicator</property>
+    </card>
+    <card name="Anti-Gravity Generation" id="68071830-cf71-4497-a47d-19c19f016071">
+      <property name="CardNumber" value="201671"/>
+      <property name="Position" value="71"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="vindicator_by_designhacker"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you spend this card, heal 2 damage from Vindicator.</property>
+    </card>
+    <card name="Department H" id="68071830-cf71-4497-a47d-19c19f016072">
+      <property name="CardNumber" value="201672"/>
+      <property name="Position" value="72"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="vindicator_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Attribute" value="Alpha Flight. Location."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust Department H → look at the top 2 cards of any deck. If you looked at your deck this way, add 1 of those cards to your hand and discard 1 card from your hand.</property>
+      <property name="Quote">“Come in, Department H. This is Vindicator.” —Vindicator</property>
+    </card>
+    <card name="Concussive Beams" id="68071830-cf71-4497-a47d-19c19f016073">
+      <property name="CardNumber" value="201673"/>
+      <property name="Position" value="73"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="vindicator_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Concussive Beams and remove up to 2 charge counters from Vindicator → you gain retaliate X until the end of the round, where X is equal to the number of charge counters removed this way.</property>
+    </card>
+    <card name="Energy Redirection" id="68071830-cf71-4497-a47d-19c19f016074">
+      <property name="CardNumber" value="201674"/>
+      <property name="Position" value="74"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="vindicator_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you play a [[SUPERPOWER]] event, remove 1 charge counter from Vindicator → choose:
+* Add a copy of Anti-Gravity Generation from your discard pile to your hand.
+* Ready Vindicator.</property>
+    </card>
+    <card name="Improved Power Cell" id="68071830-cf71-4497-a47d-19c19f016075">
+      <property name="CardNumber" value="201675"/>
+      <property name="Position" value="75"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="vindicator_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Attribute" value="Item. Tech."/>
+      <property name="Text">Attach to Guardian or Vindicator.
+Treat each printed number "4" on attached character's card as a "6" instead.</property>
+      <property name="Quote">“Heather, this new power source is 50% more effective than the old model!” —Guardian</property>
+    </card>
+    <card name="Vindicator's Helmet" id="68071830-cf71-4497-a47d-19c19f016076">
+      <property name="CardNumber" value="201676"/>
+      <property name="Position" value="76"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="vindicator_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Vindicator's Helmet and discard the top card of the encounter deck. Then, take X damage, where X is equal to the number of boost icons ([boost]) on that card → Vindicator gets +X THW or +X ATK or +X DEF until the end of the round.</property>
+    </card>
+    <card name="Care for Claire" id="68071830-cf71-4497-a47d-19c19f016077" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="201677"/>
+      <property name="Position" value="77"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="vindicator_by_designhacker"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Heather Hudson player.&lt;/i&gt;&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+* Exhaust Heather Hudson → remove Care for Claire from the game.
+* Choose and discard 1 card from your hand. You cannot change form until your next turn ends. Discard this obligation.</property>
+    </card>
+    <card name="Guardian" id="68071830-cf71-4497-a47d-19c19f016078">
+      <property name="CardNumber" value="201678a"/>
+      <property name="Position" value="78"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="guardian_by_designhacker"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="12"/>
+      <property name="Attribute" value="Aerial. Alpha Flight."/>
+      <property name="Text">&lt;i&gt;Charge&lt;/i&gt; — &lt;b&gt;Special&lt;/b&gt;: Discard the top card of the encounter deck and place X charge counters here, where X is equal to the number of boost ([boost]) and star ([star]) icons on it. Then, if there are 4 or more charge counters here, take 1 damage and remove 2 charge counters from here.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="James Hudson" type="b">
+        <property name="CardNumber" value="201678b"/>
+        <property name="Position" value="78"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="guardian_by_designhacker"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="12"/>
+        <property name="Attribute" value="Genius."/>
+        <property name="Text">&lt;i&gt;Department H&lt;/i&gt; — &lt;b&gt;Forced Response&lt;/b&gt;: After you change to this form, remove each charge counter from here. Shuffle a Guardian card from your discard pile into your deck for each charge counter discarded this way.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Vindicator" id="68071830-cf71-4497-a47d-19c19f016079">
+      <property name="CardNumber" value="201679"/>
+      <property name="Position" value="79"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="guardian_by_designhacker"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Aerial. Alpha Flight."/>
+      <property name="Text">Vindicator gets +1 ATK for each charge counter here.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When 4 or more charge counters are here, discard Vindicator.
+&lt;b&gt;Response&lt;/b&gt;: After Guardian uses a basic power, move a charge counter from Guardian to here.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="All of Us Command" id="68071830-cf71-4497-a47d-19c19f016080">
+      <property name="CardNumber" value="201680"/>
+      <property name="Position" value="80"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="guardian_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">Alliance.
+&lt;b&gt;Hero Action&lt;/b&gt;: Remove 1 charge counter from Guardian or Vindicator for each &lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; character in play → draw 1 card for each charge counter removed this way.</property>
+    </card>
+    <card name="From Far and Wide" id="68071830-cf71-4497-a47d-19c19f016081">
+      <property name="CardNumber" value="201681"/>
+      <property name="Position" value="81"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="guardian_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;thwart&lt;/i&gt;): Remove 3 threat from a scheme. Resolve Guardian's "&lt;i&gt;Charge&lt;/i&gt;" ability. Then, remove 1 threat from a scheme for each charge counter on Guardian.</property>
+      <property name="Quote">"It's time to seize our opportunity." —Guardian</property>
+    </card>
+    <card name="Patriot Love" id="68071830-cf71-4497-a47d-19c19f016082">
+      <property name="CardNumber" value="201682"/>
+      <property name="Position" value="82"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="guardian_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Ready your identity. Then, if you are in hero form, you may place 1 charge counter on Guardian or Vindicator.</property>
+      <property name="Quote">"...Ultimately it was not that we succeeded or failed, it was that we tried." —Guardian</property>
+    </card>
+    <card name="True North Strong" id="68071830-cf71-4497-a47d-19c19f016083">
+      <property name="CardNumber" value="201683"/>
+      <property name="Position" value="83"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="guardian_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): Resolve Guardian's "&lt;i&gt;Charge&lt;/i&gt;" ability. Then, deal 4 damage to an enemy. Deal 1 additional damage to that enemy for each charge counter on Guardian.</property>
+      <property name="Quote">"And stay out, eh?" —Guardian</property>
+    </card>
+    <card name="Stand on Guard" id="68071830-cf71-4497-a47d-19c19f016084">
+      <property name="CardNumber" value="201684"/>
+      <property name="Position" value="84"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="guardian_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Defense. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; (&lt;i&gt;defense&lt;/i&gt;): When the villain initiates an attack against you, remove 2 charge counters from Guardian → cancel that attack and stun the villain.</property>
+      <property name="Quote">"Not this time, fella." —Guardian</property>
+    </card>
+    <card name="Glowing Heart" id="68071830-cf71-4497-a47d-19c19f016085">
+      <property name="CardNumber" value="201685"/>
+      <property name="Position" value="85"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="guardian_by_designhacker"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Resource."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you spend this card, resolve Guardian's "&lt;i&gt;Charge&lt;/i&gt;" ability.</property>
+    </card>
+    <card name="Omnijet" id="68071830-cf71-4497-a47d-19c19f016086">
+      <property name="CardNumber" value="201686"/>
+      <property name="Position" value="86"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="guardian_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Alpha Flight. Vehicle."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Omnijet → resolve Guardian's "&lt;i&gt;Charge&lt;/i&gt;" ability or place a charge counter on Vindicator.</property>
+      <property name="Quote">"I'm flying this time, Walter." —Guardian</property>
+    </card>
+    <card name="Improved Power Cell" id="68071830-cf71-4497-a47d-19c19f016087">
+      <property name="CardNumber" value="201687"/>
+      <property name="Position" value="87"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="guardian_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Item. Tech."/>
+      <property name="Text">Attach to Guardian or Vindicator.
+Treat each printed number "4" on attached character's card as a "6" instead.</property>
+      <property name="Quote">"Heather, this new power source is 50% more effective than the old model!" —Guardian</property>
+    </card>
+    <card name="Guardian's Suit" id="68071830-cf71-4497-a47d-19c19f016088">
+      <property name="CardNumber" value="201688"/>
+      <property name="Position" value="88"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="guardian_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">Guardian gets +1 ATK, +1 THW, and +1 DEF for every 2 charge counters on him.</property>
+      <property name="Quote">Guardian's suit has a neural connection allowing him to allocate power where needed.</property>
+    </card>
+    <card name="Department H" id="68071830-cf71-4497-a47d-19c19f016089" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="201689"/>
+      <property name="Position" value="89"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="guardian_by_designhacker"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the James Hudson player.&lt;/i&gt;&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+• Exhaust James Hudson → remove Department H from the game.
+• Take 2 damage and remove each charge counter on Guardian. Discard this obligation.</property>
+    </card>
+    <card name="Northstar" id="68071830-cf71-4497-a47d-19c19f016090">
+      <property name="CardNumber" value="201690a"/>
+      <property name="Position" value="90"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="1"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Aerial. Alpha Flight. X-Men."/>
+      <property name="Text">Damage is shared between your active identity and your set-aside identity.
+Agile 1.
+&lt;i&gt;Reflex&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After Northstar makes a basic defense, remove 1 threat from a scheme. If this removes the last threat on that scheme, ready him.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Jean-Paul Beaubier" type="b">
+        <property name="CardNumber" value="201690b"/>
+        <property name="Position" value="90"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="aurora_northstar_by_designhacker"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="2"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Mutant."/>
+        <property name="Text">Damage is shared between your active identity and your set-aside identity.
+&lt;b&gt;Setup&lt;/b&gt;: Set the Jeanne-Marie Beaubier identity card aside.
+&lt;i&gt;Toute Suite&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After Jean-Paul Beaubier enters play, remove 1 threat from a scheme.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Aurora" id="68071830-cf71-4497-a47d-19c19f016091">
+      <property name="CardNumber" value="201691a"/>
+      <property name="Position" value="91"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker"/>
+      <property name="DefaultSetupPile" value="Setup"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="1"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Aerial. Alpha Flight. X-Men."/>
+      <property name="Text">Damage is shared between your active identity and your set-aside identity.
+Agile 1.
+&lt;i&gt;Reflects&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After Aurora makes a basic defense, deal 1 damage to an enemy. If that enemy is defeated this way, ready her.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Jeanne-Marie Beaubier" type="b">
+        <property name="CardNumber" value="201691b"/>
+        <property name="Position" value="91"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="aurora_northstar_by_designhacker"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="2"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Mutant."/>
+        <property name="Text">Damage is shared between your active identity and your set-aside identity.
+&lt;i&gt;"Je Reviens!"&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After Jeanne-Marie Beaubier enters play, deal 1 damage to a character.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Aurora" id="68071830-cf71-4497-a47d-19c19f016092">
+      <property name="CardNumber" value="201692a"/>
+      <property name="Position" value="92"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Cost" value="0"/> 
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="None"/>
+      <property name="Attribute" value="Aerial. Alpha Flight. X-Men."/>
+      <property name="Text">Permanent. Setup. This card's printed text box cannot be treated as if it were blank.
+[star] Aurora cannot defend, take damage, or have upgrades attached to her.
+&lt;b&gt;Response&lt;/b&gt;: After Aurora enters play, deal 1 damage to an enemy.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Northstar" type="b">
+        <property name="CardNumber" value="201692b"/>
+        <property name="Position" value="92"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="ally"/>
+        <property name="Owner" value="aurora_northstar_by_designhacker"/>
+        <property name="Thwart" value="1"/>
+        <property name="Attack" value="1"/>
+        <property name="Cost" value="0"/>
+        <property name="Resource_Physical" value="1"/>
+        <property name="HP" value="None"/>
+        <property name="Attribute" value="Aerial. Alpha Flight. X-Men."/>
+        <property name="Text">Permanent. This card's printed text box cannot be treated as if it were blank.
+[star] Northstar cannot defend, take damage, or have upgrades attached to him.
+&lt;b&gt;Response&lt;/b&gt;: After Northstar enters play, remove 1 threat from a scheme.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Toujours en Mouvement" id="68071830-cf71-4497-a47d-19c19f016093">
+      <property name="CardNumber" value="201693"/>
+      <property name="Position" value="93"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Choose two:
+• Ready Aurora.
+• Ready Northstar.
+• Ready the Supersonic upgrade.</property>
+      <property name="Quote">"Northstar, don't just stand there!" —Aurora</property>
+    </card>
+    <card name="Dépêche Toi!" id="68071830-cf71-4497-a47d-19c19f016094">
+      <property name="CardNumber" value="201694"/>
+      <property name="Position" value="94"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Choose one:
+• Exhaust Northstar → remove 3 threat from a scheme.
+• Exhaust Aurora → deal 3 damage to an enemy.
+• Exhaust Aurora and Northstar → draw 3 cards.</property>
+    </card>
+    <card name="Gestalt Photokinesis" id="68071830-cf71-4497-a47d-19c19f016095">
+      <property name="CardNumber" value="201695"/>
+      <property name="Position" value="95"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust Aurora and Northstar → stun and confuse the villain and each minion engaged with you.</property>
+      <property name="Quote">"Time to show them what the Beaubier twins can do, mon frère." —Aurora</property>
+    </card>
+    <card name="Multiple Personalities" id="68071830-cf71-4497-a47d-19c19f016096">
+      <property name="CardNumber" value="201696"/>
+      <property name="Position" value="96"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Exhaust Aurora and discard the top card of your deck. If its printed resource is:
+[energy] - Deal 1 damage to each enemy engaged with you.
+[mental] - Remove 2 threat from each scheme.
+[physical] - Deal 3 damage to an enemy.
+[wild] - Resolve all of the above.</property>
+    </card>
+    <card name="X-Factor Investigation" id="68071830-cf71-4497-a47d-19c19f016097">
+      <property name="CardNumber" value="201697"/>
+      <property name="Position" value="97"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower. X-Factor."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Look at the top 4 cards of any deck and put them back in any order. Then, if the top two cards of that deck are the same card type, ready Northstar and draw 1 card.</property>
+      <property name="Quote">"I searched everywhere, Kyle. Literally." —Northstar</property>
+    </card>
+    <card name="French Connection" id="68071830-cf71-4497-a47d-19c19f016098">
+      <property name="CardNumber" value="201698"/>
+      <property name="Position" value="98"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">&lt;b&gt;Hero Resource&lt;/b&gt;: Exhaust French Connection → generate the printed resource of your signature ally.</property>
+      <property name="Quote">"Without Aurora -- without our special partnership -- there is little to bind me to the team." —Northstar</property>
+    </card>
+    <card name="Rerun" id="68071830-cf71-4497-a47d-19c19f016099">
+      <property name="CardNumber" value="201699"/>
+      <property name="Position" value="99"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Discard Rerun → shuffle each Aurora &amp; Northstar event you played this turn into your deck. If 2 or more cards were shuffled this way, ready a card you control.</property>
+      <property name="Quote">"Shall we give that another go?" —Northstar</property>
+    </card>
+    <card name="Supersonic" id="68071830-cf71-4497-a47d-19c19f016100">
+      <property name="CardNumber" value="206001"/>
+      <property name="Position" value="100"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When Aurora or Northstar would resolve an ability on their character card or a use a basic power, exhaust Supersonic → treat a printed number "1" on that card as if it were a printed number "2" for that use.</property>
+    </card>
+    <card name="Tag Team!" id="68071830-cf71-4497-a47d-19c19f016101">
+      <property name="CardNumber" value="206002"/>
+      <property name="Position" value="101"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">Permanent. Setup.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Tag Team! → swap your identity with the set-aside identity, flip your signature ally, and ready each of them. Then, swap all encounter cards and status cards attached to your signature ally with all encounter cards and status cards attached to your identity.</property>
+    </card>
+    <card name="Different Lives" id="68071830-cf71-4497-a47d-19c19f016102" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="206003"/>
+      <property name="Position" value="102"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Aurora &amp; Northstar player.&lt;/i&gt;&lt;/b&gt;
+You cannot exhaust your signature ally.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Spend 3 resources of the same resource type as your signature ally → remove Different Lives from the game.</property>
+    </card>
+    <card name="Hang on to Humanity" id="68071830-cf71-4497-a47d-19c19f016015" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="201615"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="snowbird_by_hax"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;Give to the Narya Player.&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+. Exhaust Narya → remove Hang on to Humanity from the game.
+. Place 2 permanence counters on your faceup creature form. Discard this obligation.</property>
+    </card>
+    <card name="Master of the World" id="68071830-cf71-4497-a47d-19c19f016016" size="EncounterCard">
+      <property name="CardNumber" value="201616"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="snowbird_by_hax_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Aerial. Genius."/>
+      <property name="Text">Drone minions get +1 SCH, +1 ATK and +1 hit points. master of the world gets +1 ATK for each acceleration token in play.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Master fo the world attacks, resolve his attack aganst each &lt;b&gt;&lt;i&gt;ALPHA FLIGHT &lt;/i&gt;&lt;/b&gt;character.
+(&lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; nemesis minion.)</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Drone Master" id="68071830-cf71-4497-a47d-19c19f016017" size="SchemeCard">
+      <property name="CardNumber" value="201617"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="snowbird_by_hax_nemesis"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Permanent.
+&lt;b&gt;Forced Response&lt;/b&gt;: After your turn ends, if there is 1 or more threat here, resolve the "&lt;i&gt;Drone Master&lt;/i&gt;" ability.
+&lt;i&gt;Drone Master&lt;/i&gt; - &lt;b&gt;Special&lt;/b&gt;: Discard te top 2 cards of the encounter deck. put each trachery discarded this way into play facedown, engaged with you  as a drone minion. Each facedown encounter card Drone minon has base hit points of 1, base SCH of 0, base attack of 0 and the &lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; trait.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Alpha Drone" id="68071830-cf71-4497-a47d-19c19f016018" size="EncounterCard">
+      <property name="CardNumber" value="201618"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="snowbird_by_hax_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Attribute" value="Aerial. Drone."/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;DRONE &lt;/i&gt;&lt;/b&gt;minons gain ranged.
+&lt;b&gt;When Revealed&lt;/b&gt;: Resolve the "Drone Master" ability.
+&lt;b&gt;When defeated&lt;/b&gt;: Resolve the "Drone Master" ability.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Gravity Displacement" id="68071830-cf71-4497-a47d-19c19f016019" size="EncounterCard">
+      <property name="CardNumber" value="201619"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="snowbird_by_hax_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; characters get -1 ATK and -1 DEF. Ranged attacks deal 1 additional damage.
+&lt;b&gt;Action&lt;/b&gt;: Discard 2 cards from you hand and the top 5 cards of the encounter deck → draw 2 cards. If the combined cost of those cards is 3 or more, discard this card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Increasing Drones" id="68071830-cf71-4497-a47d-19c19f016020" size="EncounterCard">
+      <property name="CardNumber" value="201620"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="snowbird_by_hax_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Each &lt;b&gt;&lt;i&gt;DRONE &lt;/i&gt;&lt;/b&gt;minion gets +1 ATK and gains toughness and retaliate 1.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you defeat a &lt;b&gt;&lt;i&gt;DRONE&lt;/i&gt;&lt;/b&gt; minion, spend 2[per_hero] resources → discard this card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Master of the World" id="68071830-cf71-4497-a47d-19c19f016016" size="EncounterCard">
+      <property name="CardNumber" value="201616"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="shaman_by_designhacker_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Aerial. Genius."/>
+      <property name="Text">Drone minions get +1 SCH, +1 ATK and +1 hit points. master of the world gets +1 ATK for each acceleration token in play.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Master fo the world attacks, resolve his attack aganst each &lt;b&gt;&lt;i&gt;ALPHA FLIGHT &lt;/i&gt;&lt;/b&gt;character.
+(&lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; nemesis minion.)</property>
+      <property name="Unique" value="True"/>
+    </card>
+     <card name="Drone Master" id="68071830-cf71-4497-a47d-19c19f016017" size="SchemeCard">
+      <property name="CardNumber" value="201617"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="shaman_by_designhacker_nemesis"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Permanent.
+&lt;b&gt;Forced Response&lt;/b&gt;: After your turn ends, if there is 1 or more threat here, resolve the "&lt;i&gt;Drone Master&lt;/i&gt;" ability.
+&lt;i&gt;Drone Master&lt;/i&gt; - &lt;b&gt;Special&lt;/b&gt;: Discard te top 2 cards of the encounter deck. put each trachery discarded this way into play facedown, engaged with you  as a drone minion. Each facedown encounter card Drone minon has base hit points of 1, base SCH of 0, base attack of 0 and the &lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; trait.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Alpha Drone" id="68071830-cf71-4497-a47d-19c19f016018" size="EncounterCard">
+      <property name="CardNumber" value="201618"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="shaman_by_designhacker_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Attribute" value="Aerial. Drone."/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;DRONE &lt;/i&gt;&lt;/b&gt;minons gain ranged.
+&lt;b&gt;When Revealed&lt;/b&gt;: Resolve the "Drone Master" ability.
+&lt;b&gt;When defeated&lt;/b&gt;: Resolve the "Drone Master" ability.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Gravity Displacement" id="68071830-cf71-4497-a47d-19c19f016019" size="EncounterCard">
+      <property name="CardNumber" value="201619"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="shaman_by_designhacker_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; characters get -1 ATK and -1 DEF. Ranged attacks deal 1 additional damage.
+&lt;b&gt;Action&lt;/b&gt;: Discard 2 cards from you hand and the top 5 cards of the encounter deck → draw 2 cards. If the combined cost of those cards is 3 or more, discard this card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Increasing Drones" id="68071830-cf71-4497-a47d-19c19f016020" size="EncounterCard">
+      <property name="CardNumber" value="201620"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="shaman_by_designhacker_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Each &lt;b&gt;&lt;i&gt;DRONE &lt;/i&gt;&lt;/b&gt;minion gets +1 ATK and gains toughness and retaliate 1.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you defeat a &lt;b&gt;&lt;i&gt;DRONE&lt;/i&gt;&lt;/b&gt; minion, spend 2[per_hero] resources → discard this card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+     <card name="Master of the World" id="68071830-cf71-4497-a47d-19c19f016016" size="EncounterCard">
+      <property name="CardNumber" value="201616"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="sasquatch_by_designhacker_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Aerial. Genius."/>
+      <property name="Text">Drone minions get +1 SCH, +1 ATK and +1 hit points. master of the world gets +1 ATK for each acceleration token in play.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Master fo the world attacks, resolve his attack aganst each &lt;b&gt;&lt;i&gt;ALPHA FLIGHT &lt;/i&gt;&lt;/b&gt;character.
+(&lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; nemesis minion.)</property>
+      <property name="Unique" value="True"/>
+    </card>
+     <card name="Drone Master" id="68071830-cf71-4497-a47d-19c19f016017" size="SchemeCard">
+      <property name="CardNumber" value="201617"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="sasquatch_by_designhacker_nemesis"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Permanent.
+&lt;b&gt;Forced Response&lt;/b&gt;: After your turn ends, if there is 1 or more threat here, resolve the "&lt;i&gt;Drone Master&lt;/i&gt;" ability.
+&lt;i&gt;Drone Master&lt;/i&gt; - &lt;b&gt;Special&lt;/b&gt;: Discard te top 2 cards of the encounter deck. put each trachery discarded this way into play facedown, engaged with you  as a drone minion. Each facedown encounter card Drone minon has base hit points of 1, base SCH of 0, base attack of 0 and the &lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; trait.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Alpha Drone" id="68071830-cf71-4497-a47d-19c19f016018" size="EncounterCard">
+      <property name="CardNumber" value="201618"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="sasquatch_by_designhacker_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Attribute" value="Aerial. Drone."/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;DRONE &lt;/i&gt;&lt;/b&gt;minons gain ranged.
+&lt;b&gt;When Revealed&lt;/b&gt;: Resolve the "Drone Master" ability.
+&lt;b&gt;When defeated&lt;/b&gt;: Resolve the "Drone Master" ability.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Gravity Displacement" id="68071830-cf71-4497-a47d-19c19f016019" size="EncounterCard">
+      <property name="CardNumber" value="201619"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="sasquatch_by_designhacker_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; characters get -1 ATK and -1 DEF. Ranged attacks deal 1 additional damage.
+&lt;b&gt;Action&lt;/b&gt;: Discard 2 cards from you hand and the top 5 cards of the encounter deck → draw 2 cards. If the combined cost of those cards is 3 or more, discard this card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Increasing Drones" id="68071830-cf71-4497-a47d-19c19f016020" size="EncounterCard">
+      <property name="CardNumber" value="201620"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="sasquatch_by_designhacker_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Each &lt;b&gt;&lt;i&gt;DRONE &lt;/i&gt;&lt;/b&gt;minion gets +1 ATK and gains toughness and retaliate 1.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you defeat a &lt;b&gt;&lt;i&gt;DRONE&lt;/i&gt;&lt;/b&gt; minion, spend 2[per_hero] resources → discard this card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+
+     <card name="Master of the World" id="68071830-cf71-4497-a47d-19c19f016016" size="EncounterCard">
+      <property name="CardNumber" value="201616"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="puck_by_designhacker_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Aerial. Genius."/>
+      <property name="Text">Drone minions get +1 SCH, +1 ATK and +1 hit points. master of the world gets +1 ATK for each acceleration token in play.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Master fo the world attacks, resolve his attack aganst each &lt;b&gt;&lt;i&gt;ALPHA FLIGHT &lt;/i&gt;&lt;/b&gt;character.
+(&lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; nemesis minion.)</property>
+      <property name="Unique" value="True"/>
+    </card>
+     <card name="Drone Master" id="68071830-cf71-4497-a47d-19c19f016017" size="SchemeCard">
+      <property name="CardNumber" value="201617"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="puck_by_designhacker_nemesis"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Permanent.
+&lt;b&gt;Forced Response&lt;/b&gt;: After your turn ends, if there is 1 or more threat here, resolve the "&lt;i&gt;Drone Master&lt;/i&gt;" ability.
+&lt;i&gt;Drone Master&lt;/i&gt; - &lt;b&gt;Special&lt;/b&gt;: Discard te top 2 cards of the encounter deck. put each trachery discarded this way into play facedown, engaged with you  as a drone minion. Each facedown encounter card Drone minon has base hit points of 1, base SCH of 0, base attack of 0 and the &lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; trait.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Alpha Drone" id="68071830-cf71-4497-a47d-19c19f016018" size="EncounterCard">
+      <property name="CardNumber" value="201618"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="puck_by_designhacker_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Attribute" value="Aerial. Drone."/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;DRONE &lt;/i&gt;&lt;/b&gt;minons gain ranged.
+&lt;b&gt;When Revealed&lt;/b&gt;: Resolve the "Drone Master" ability.
+&lt;b&gt;When defeated&lt;/b&gt;: Resolve the "Drone Master" ability.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Gravity Displacement" id="68071830-cf71-4497-a47d-19c19f016019" size="EncounterCard">
+      <property name="CardNumber" value="201619"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="puck_by_designhacker_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; characters get -1 ATK and -1 DEF. Ranged attacks deal 1 additional damage.
+&lt;b&gt;Action&lt;/b&gt;: Discard 2 cards from you hand and the top 5 cards of the encounter deck → draw 2 cards. If the combined cost of those cards is 3 or more, discard this card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Increasing Drones" id="68071830-cf71-4497-a47d-19c19f016020" size="EncounterCard">
+      <property name="CardNumber" value="201620"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="puck_by_designhacker_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Each &lt;b&gt;&lt;i&gt;DRONE &lt;/i&gt;&lt;/b&gt;minion gets +1 ATK and gains toughness and retaliate 1.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you defeat a &lt;b&gt;&lt;i&gt;DRONE&lt;/i&gt;&lt;/b&gt; minion, spend 2[per_hero] resources → discard this card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+
+       <card name="Master of the World" id="68071830-cf71-4497-a47d-19c19f016016" size="EncounterCard">
+      <property name="CardNumber" value="201616"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="vindicator_by_designhacker_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Aerial. Genius."/>
+      <property name="Text">Drone minions get +1 SCH, +1 ATK and +1 hit points. master of the world gets +1 ATK for each acceleration token in play.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Master fo the world attacks, resolve his attack aganst each &lt;b&gt;&lt;i&gt;ALPHA FLIGHT &lt;/i&gt;&lt;/b&gt;character.
+(&lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; nemesis minion.)</property>
+      <property name="Unique" value="True"/>
+    </card>
+     <card name="Drone Master" id="68071830-cf71-4497-a47d-19c19f016017" size="SchemeCard">
+      <property name="CardNumber" value="201617"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="vindicator_by_designhacker_nemesis"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Permanent.
+&lt;b&gt;Forced Response&lt;/b&gt;: After your turn ends, if there is 1 or more threat here, resolve the "&lt;i&gt;Drone Master&lt;/i&gt;" ability.
+&lt;i&gt;Drone Master&lt;/i&gt; - &lt;b&gt;Special&lt;/b&gt;: Discard te top 2 cards of the encounter deck. put each trachery discarded this way into play facedown, engaged with you  as a drone minion. Each facedown encounter card Drone minon has base hit points of 1, base SCH of 0, base attack of 0 and the &lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; trait.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Alpha Drone" id="68071830-cf71-4497-a47d-19c19f016018" size="EncounterCard">
+      <property name="CardNumber" value="201618"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="vindicator_by_designhacker_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Attribute" value="Aerial. Drone."/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;DRONE &lt;/i&gt;&lt;/b&gt;minons gain ranged.
+&lt;b&gt;When Revealed&lt;/b&gt;: Resolve the "Drone Master" ability.
+&lt;b&gt;When defeated&lt;/b&gt;: Resolve the "Drone Master" ability.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Gravity Displacement" id="68071830-cf71-4497-a47d-19c19f016019" size="EncounterCard">
+      <property name="CardNumber" value="201619"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="vindicator_by_designhacker_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; characters get -1 ATK and -1 DEF. Ranged attacks deal 1 additional damage.
+&lt;b&gt;Action&lt;/b&gt;: Discard 2 cards from you hand and the top 5 cards of the encounter deck → draw 2 cards. If the combined cost of those cards is 3 or more, discard this card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Increasing Drones" id="68071830-cf71-4497-a47d-19c19f016020" size="EncounterCard">
+      <property name="CardNumber" value="201620"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="vindicator_by_designhacker_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Each &lt;b&gt;&lt;i&gt;DRONE &lt;/i&gt;&lt;/b&gt;minion gets +1 ATK and gains toughness and retaliate 1.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you defeat a &lt;b&gt;&lt;i&gt;DRONE&lt;/i&gt;&lt;/b&gt; minion, spend 2[per_hero] resources → discard this card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+
+        <card name="Master of the World" id="68071830-cf71-4497-a47d-19c19f016016" size="EncounterCard">
+      <property name="CardNumber" value="201616"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="guardian_by_designhacker_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Aerial. Genius."/>
+      <property name="Text">Drone minions get +1 SCH, +1 ATK and +1 hit points. master of the world gets +1 ATK for each acceleration token in play.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Master fo the world attacks, resolve his attack aganst each &lt;b&gt;&lt;i&gt;ALPHA FLIGHT &lt;/i&gt;&lt;/b&gt;character.
+(&lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; nemesis minion.)</property>
+      <property name="Unique" value="True"/>
+    </card>
+     <card name="Drone Master" id="68071830-cf71-4497-a47d-19c19f016017" size="SchemeCard">
+      <property name="CardNumber" value="201617"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="guardian_by_designhacker_nemesis"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Permanent.
+&lt;b&gt;Forced Response&lt;/b&gt;: After your turn ends, if there is 1 or more threat here, resolve the "&lt;i&gt;Drone Master&lt;/i&gt;" ability.
+&lt;i&gt;Drone Master&lt;/i&gt; - &lt;b&gt;Special&lt;/b&gt;: Discard te top 2 cards of the encounter deck. put each trachery discarded this way into play facedown, engaged with you  as a drone minion. Each facedown encounter card Drone minon has base hit points of 1, base SCH of 0, base attack of 0 and the &lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; trait.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Alpha Drone" id="68071830-cf71-4497-a47d-19c19f016018" size="EncounterCard">
+      <property name="CardNumber" value="201618"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="guardian_by_designhacker_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Attribute" value="Aerial. Drone."/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;DRONE &lt;/i&gt;&lt;/b&gt;minons gain ranged.
+&lt;b&gt;When Revealed&lt;/b&gt;: Resolve the "Drone Master" ability.
+&lt;b&gt;When defeated&lt;/b&gt;: Resolve the "Drone Master" ability.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Gravity Displacement" id="68071830-cf71-4497-a47d-19c19f016019" size="EncounterCard">
+      <property name="CardNumber" value="201619"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="guardian_by_designhacker_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; characters get -1 ATK and -1 DEF. Ranged attacks deal 1 additional damage.
+&lt;b&gt;Action&lt;/b&gt;: Discard 2 cards from you hand and the top 5 cards of the encounter deck → draw 2 cards. If the combined cost of those cards is 3 or more, discard this card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Increasing Drones" id="68071830-cf71-4497-a47d-19c19f016020" size="EncounterCard">
+      <property name="CardNumber" value="201620"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="guardian_by_designhacker_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Each &lt;b&gt;&lt;i&gt;DRONE &lt;/i&gt;&lt;/b&gt;minion gets +1 ATK and gains toughness and retaliate 1.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you defeat a &lt;b&gt;&lt;i&gt;DRONE&lt;/i&gt;&lt;/b&gt; minion, spend 2[per_hero] resources → discard this card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+
+      <card name="Master of the World" id="68071830-cf71-4497-a47d-19c19f016016" size="EncounterCard">
+      <property name="CardNumber" value="201616"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Aerial. Genius."/>
+      <property name="Text">Drone minions get +1 SCH, +1 ATK and +1 hit points. master of the world gets +1 ATK for each acceleration token in play.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Master fo the world attacks, resolve his attack aganst each &lt;b&gt;&lt;i&gt;ALPHA FLIGHT &lt;/i&gt;&lt;/b&gt;character.
+(&lt;b&gt;&lt;i&gt;ALPHA FLIGHT&lt;/i&gt;&lt;/b&gt; nemesis minion.)</property>
+      <property name="Unique" value="True"/>
+    </card>
+     <card name="Drone Master" id="68071830-cf71-4497-a47d-19c19f016017" size="SchemeCard">
+      <property name="CardNumber" value="201617"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker_nemesis"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Permanent.
+&lt;b&gt;Forced Response&lt;/b&gt;: After your turn ends, if there is 1 or more threat here, resolve the "&lt;i&gt;Drone Master&lt;/i&gt;" ability.
+&lt;i&gt;Drone Master&lt;/i&gt; - &lt;b&gt;Special&lt;/b&gt;: Discard te top 2 cards of the encounter deck. put each trachery discarded this way into play facedown, engaged with you  as a drone minion. Each facedown encounter card Drone minon has base hit points of 1, base SCH of 0, base attack of 0 and the &lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; trait.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Alpha Drone" id="68071830-cf71-4497-a47d-19c19f016018" size="EncounterCard">
+      <property name="CardNumber" value="201618"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Attribute" value="Aerial. Drone."/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;DRONE &lt;/i&gt;&lt;/b&gt;minons gain ranged.
+&lt;b&gt;When Revealed&lt;/b&gt;: Resolve the "Drone Master" ability.
+&lt;b&gt;When defeated&lt;/b&gt;: Resolve the "Drone Master" ability.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Gravity Displacement" id="68071830-cf71-4497-a47d-19c19f016019" size="EncounterCard">
+      <property name="CardNumber" value="201619"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;AERIAL&lt;/i&gt;&lt;/b&gt; characters get -1 ATK and -1 DEF. Ranged attacks deal 1 additional damage.
+&lt;b&gt;Action&lt;/b&gt;: Discard 2 cards from you hand and the top 5 cards of the encounter deck → draw 2 cards. If the combined cost of those cards is 3 or more, discard this card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+    <card name="Increasing Drones" id="68071830-cf71-4497-a47d-19c19f016020" size="EncounterCard">
+      <property name="CardNumber" value="201620"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="environment"/>
+      <property name="Owner" value="aurora_northstar_by_designhacker_nemesis"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Each &lt;b&gt;&lt;i&gt;DRONE &lt;/i&gt;&lt;/b&gt;minion gets +1 ATK and gains toughness and retaliate 1.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you defeat a &lt;b&gt;&lt;i&gt;DRONE&lt;/i&gt;&lt;/b&gt; minion, spend 2[per_hero] resources → discard this card.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Place 3 threat on the Drone Master side scheme.</property>
+    </card>
+  </cards>
+</set>

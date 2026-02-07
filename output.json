@@ -1,146 +1,946 @@
 [
   {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205601b",
-    "name": "James Howlett",
-    "type": "alter_ego",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056001",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
-  },
-  {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205601a",
-    "name": "Old Man Logan",
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201601a",
+    "name": "Snowbird",
     "type": "hero",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056001",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016001",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   },
   {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205602",
-    "name": "Old and Tired",
-    "type": "upgrade",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056002",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201601b",
+    "name": "Narya",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016001",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   },
   {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205603",
-    "name": "Wolverine's Claws",
-    "type": "upgrade",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056003",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
-  },
-  {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205604",
-    "name": "Blind Rage",
-    "type": "upgrade",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056004",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
-  },
-  {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205605",
-    "name": "Adamantium Skeleton",
-    "type": "upgrade",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056005",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
-  },
-  {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205606",
-    "name": "Enhanced Healing Factor",
-    "type": "upgrade",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056006",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
-  },
-  {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205607",
-    "name": "Old Man Hawkeye",
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201602",
+    "name": "Shaman",
     "type": "ally",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056007",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016002",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   },
   {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205608",
-    "name": "Savage Stab",
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201603",
+    "name": "Artic Assault",
     "type": "event",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056008",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016003",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   },
   {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205609",
-    "name": "Unfazed",
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201604",
+    "name": "Boreal Boost",
     "type": "event",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056010",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016004",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   },
   {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205610",
-    "name": "Vicious Animal",
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201605",
+    "name": "Fluid Formation",
     "type": "event",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056012",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016005",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   },
   {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205611",
-    "name": "Skilled Tracker",
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201606",
+    "name": "Heavy Hide",
     "type": "event",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056014",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016006",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   },
   {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205612",
-    "name": "Blood on One's Hands",
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201607",
+    "name": "Great White North",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016007",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201608a",
+    "name": "Bear",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016008",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201608b",
+    "name": "Bear",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016008",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201609a",
+    "name": "Dinosaur",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016009",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201609b",
+    "name": "Dinosaur",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016009",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201610a",
+    "name": "Human",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016010",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201610b",
+    "name": "Human",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016010",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201611a",
+    "name": "Owl",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016011",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201611b",
+    "name": "Owl",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016011",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201612a",
+    "name": "Seal",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016012",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201612b",
+    "name": "Seal",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016012",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201613a",
+    "name": "Wendigo",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016013",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201613b",
+    "name": "Wendigo",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016013",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201614a",
+    "name": "Don't Get Stuck!",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016014",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201614b",
+    "name": "Stuck!",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016014",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201621",
+    "name": "Vindicator",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016021",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201622",
+    "name": "Aurora",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016022",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201623",
+    "name": "Captain Marvel",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016023",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201624",
+    "name": "Guardian",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016024",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201625",
+    "name": "Marrina",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016025",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201626",
+    "name": "Nothstar",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016026",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201627",
+    "name": "Puck",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016027",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201628",
+    "name": "Sasquatch",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016028",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201629",
+    "name": "Shaman",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016029",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201630",
+    "name": "Snowbird",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016030",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201631b",
+    "name": "Michael Twoyoungmen",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016031",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201631a",
+    "name": "Shaman",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016031",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201632",
+    "name": "Snowbird",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016032",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201633",
+    "name": "Astral Form",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016033",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201634",
+    "name": "Commune",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016034",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201635",
+    "name": "Entangle",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016035",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201636",
+    "name": "Mystic Healing",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016036",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201637",
+    "name": "Mystic Dust",
+    "type": "resource",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016037",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201638",
+    "name": "Eaglet",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016038",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201639",
+    "name": "Refreshing Winds",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016039",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201640",
+    "name": "Shaman's Medicine Pouch",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016040",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201641",
+    "name": "Spirit Staff",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016041",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201642",
+    "name": "Code Blue",
     "type": "obligation",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056016",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016042",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   },
   {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205613",
-    "name": "Old Man Hulk",
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201643b",
+    "name": "Walter Langkowski",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016043",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201643a",
+    "name": "Sasquatch",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016043",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201644",
+    "name": "Puck",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016044",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201645",
+    "name": "Northern Exposure",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016045",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201646",
+    "name": "Rushing Blow",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016046",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201647",
+    "name": "Squatch Smash",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016047",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201648",
+    "name": "Unstoppable Farce",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016048",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201649",
+    "name": "Limitless Potential",
+    "type": "resource",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016049",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201650",
+    "name": "Walter's Lab",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016050",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201651",
+    "name": "Boundless Fury",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016051",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201652",
+    "name": "Immovable Subject",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016052",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201653",
+    "name": "Survivor's Guilt",
+    "type": "obligation",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016053",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201654b",
+    "name": "Eugene Judd",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016054",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201654a",
+    "name": "Puck",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016054",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201655",
+    "name": "Sasquatch",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016055",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201656",
+    "name": "Boing!",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016056",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201657",
+    "name": "Bounce Around",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016057",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201658",
+    "name": "Glance",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016058",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201659",
+    "name": "Ultra Durable",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016059",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201660",
+    "name": "Compressed Physiology",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016060",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201661",
+    "name": "Double Down",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016061",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201662",
+    "name": "Push Through",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016062",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201663",
+    "name": "Surreptitious",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016063",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201664",
+    "name": "Achondroplasty",
+    "type": "obligation",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016064",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201665b",
+    "name": "Heather Hudson",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016065",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201665a",
+    "name": "Vindicator",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016065",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201666",
+    "name": "Guardian",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016066",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201667",
+    "name": "All of Us Command",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016067",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201668",
+    "name": "Patriot Love",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016068",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201669",
+    "name": "Serve and Protect",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016069",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201670",
+    "name": "Unexpected Blast",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016070",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201671",
+    "name": "Anti-Gravity Generation",
+    "type": "resource",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016071",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201672",
+    "name": "Department H",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016072",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201673",
+    "name": "Concussive Beams",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016073",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201674",
+    "name": "Energy Redirection",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016074",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201675",
+    "name": "Improved Power Cell",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016075",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201676",
+    "name": "Vindicator's Helmet",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016076",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201677",
+    "name": "Care for Claire",
+    "type": "obligation",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016077",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201678b",
+    "name": "James Hudson",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016078",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201678a",
+    "name": "Guardian",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016078",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201679",
+    "name": "Vindicator",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016079",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201680",
+    "name": "All of Us Command",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016080",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201681",
+    "name": "From Far and Wide",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016081",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201682",
+    "name": "Patriot Love",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016082",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201683",
+    "name": "True North Strong",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016083",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201684",
+    "name": "Stand on Guard",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016084",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201685",
+    "name": "Glowing Heart",
+    "type": "resource",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016085",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201686",
+    "name": "Omnijet",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016086",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201687",
+    "name": "Improved Power Cell",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016087",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201688",
+    "name": "Guardian's Suit",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016088",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201689",
+    "name": "Department H",
+    "type": "obligation",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016089",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201690b",
+    "name": "Jean-Paul Beaubier",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016090",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201690a",
+    "name": "Northstar",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016090",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201691b",
+    "name": "Jeanne-Marie Beaubier",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016091",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201691a",
+    "name": "Aurora",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016091",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201692a",
+    "name": "Aurora",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016092",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201692b",
+    "name": "Northstar",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016092",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201693",
+    "name": "Toujours en Mouvement",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016093",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201694",
+    "name": "Dépêche Toi!",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016094",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201695",
+    "name": "Gestalt Photokinesis",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016095",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201696",
+    "name": "Multiple Personalities",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016096",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201697",
+    "name": "X-Factor Investigation",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016097",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201698",
+    "name": "French Connection",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016098",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201699",
+    "name": "Rerun",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016099",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "206001",
+    "name": "Supersonic",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016100",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "206002",
+    "name": "Tag Team!",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016101",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "206003",
+    "name": "Different Lives",
+    "type": "obligation",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016102",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201615",
+    "name": "Hang on to Humanity",
+    "type": "obligation",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016015",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201616",
+    "name": "Master of the World",
     "type": "minion",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056017",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016016",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   },
   {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205614",
-    "name": "Debt Collection",
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201617",
+    "name": "Drone Master",
     "type": "side_scheme",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056018",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016017",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   },
   {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205615",
-    "name": "Bobbie-Jo Banner",
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201618",
+    "name": "Alpha Drone",
     "type": "minion",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056019",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016018",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   },
   {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205616",
-    "name": "Charlie Banner",
-    "type": "minion",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056020",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201619",
+    "name": "Gravity Displacement",
+    "type": "environment",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016019",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   },
   {
-    "pack_code": "old_man_logan_by_nugget",
-    "card_id": "205617",
-    "name": "Otis Banner",
-    "type": "minion",
-    "octgn_id": "85ef87e7-7618-4420-b85f-fdf2bd056021",
-    "pack_octgn_id": "85ef87e7-7618-4420-b85f-fdf2bde6743e"
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201620",
+    "name": "Increasing Drones",
+    "type": "environment",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016020",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   }
 ]

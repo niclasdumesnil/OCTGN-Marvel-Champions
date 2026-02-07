@@ -256,6 +256,46 @@
     "pack_octgn_id": ""
   },
   {
+    "pack_code": "2025_weekly",
+    "card_id": "999108",
+    "name": "Unstoppable Momentum",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2025_weekly",
+    "card_id": "999109",
+    "name": "Tag Team",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2025_weekly",
+    "card_id": "999110",
+    "name": "Keep Them in the Air",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2025_weekly",
+    "card_id": "999111",
+    "name": "Mojo’s Major Movie Mayhem",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "2025_weekly",
+    "card_id": "999112",
+    "name": "A Close Call",
+    "type": "challenge",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
     "pack_code": "agent_of_shield_by_merlin",
     "card_id": "253001b",
     "name": "Agent du S.H.I.E.L.D.",
@@ -869,6 +909,646 @@
     "name": "Snowbird",
     "type": "ally",
     "octgn_id": "68071830-cf71-4497-a47d-19c19f016030",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201631b",
+    "name": "Michael Twoyoungmen",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016031",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201631a",
+    "name": "Shaman",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016031",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201632",
+    "name": "Snowbird",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016032",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201633",
+    "name": "Astral Form",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016033",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201634",
+    "name": "Commune",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016034",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201635",
+    "name": "Entangle",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016035",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201636",
+    "name": "Mystic Healing",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016036",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201637",
+    "name": "Mystic Dust",
+    "type": "resource",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016037",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201638",
+    "name": "Eaglet",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016038",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201639",
+    "name": "Refreshing Winds",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016039",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201640",
+    "name": "Shaman's Medicine Pouch",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016040",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201641",
+    "name": "Spirit Staff",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016041",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201642",
+    "name": "Code Blue",
+    "type": "obligation",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016042",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201643b",
+    "name": "Walter Langkowski",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016043",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201643a",
+    "name": "Sasquatch",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016043",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201644",
+    "name": "Puck",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016044",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201645",
+    "name": "Northern Exposure",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016045",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201646",
+    "name": "Rushing Blow",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016046",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201647",
+    "name": "Squatch Smash",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016047",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201648",
+    "name": "Unstoppable Farce",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016048",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201649",
+    "name": "Limitless Potential",
+    "type": "resource",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016049",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201650",
+    "name": "Walter's Lab",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016050",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201651",
+    "name": "Boundless Fury",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016051",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201652",
+    "name": "Immovable Subject",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016052",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201653",
+    "name": "Survivor's Guilt",
+    "type": "obligation",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016053",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201654b",
+    "name": "Eugene Judd",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016054",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201654a",
+    "name": "Puck",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016054",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201655",
+    "name": "Sasquatch",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016055",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201656",
+    "name": "Boing!",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016056",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201657",
+    "name": "Bounce Around",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016057",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201658",
+    "name": "Glance",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016058",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201659",
+    "name": "Ultra Durable",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016059",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201660",
+    "name": "Compressed Physiology",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016060",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201661",
+    "name": "Double Down",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016061",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201662",
+    "name": "Push Through",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016062",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201663",
+    "name": "Surreptitious",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016063",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201664",
+    "name": "Achondroplasty",
+    "type": "obligation",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016064",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201665b",
+    "name": "Heather Hudson",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016065",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201665a",
+    "name": "Vindicator",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016065",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201666",
+    "name": "Guardian",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016066",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201667",
+    "name": "All of Us Command",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016067",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201668",
+    "name": "Patriot Love",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016068",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201669",
+    "name": "Serve and Protect",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016069",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201670",
+    "name": "Unexpected Blast",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016070",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201671",
+    "name": "Anti-Gravity Generation",
+    "type": "resource",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016071",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201672",
+    "name": "Department H",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016072",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201673",
+    "name": "Concussive Beams",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016073",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201674",
+    "name": "Energy Redirection",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016074",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201675",
+    "name": "Improved Power Cell",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016075",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201676",
+    "name": "Vindicator's Helmet",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016076",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201677",
+    "name": "Care for Claire",
+    "type": "obligation",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016077",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201678b",
+    "name": "James Hudson",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016078",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201678a",
+    "name": "Guardian",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016078",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201679",
+    "name": "Vindicator",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016079",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201680",
+    "name": "All of Us Command",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016080",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201681",
+    "name": "From Far and Wide",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016081",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201682",
+    "name": "Patriot Love",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016082",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201683",
+    "name": "True North Strong",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016083",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201684",
+    "name": "Stand on Guard",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016084",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201685",
+    "name": "Glowing Heart",
+    "type": "resource",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016085",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201686",
+    "name": "Omnijet",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016086",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201687",
+    "name": "Improved Power Cell",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016087",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201688",
+    "name": "Guardian's Suit",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016088",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201689",
+    "name": "Department H",
+    "type": "obligation",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016089",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201690b",
+    "name": "Jean-Paul Beaubier",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016090",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201690a",
+    "name": "Northstar",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016090",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201691b",
+    "name": "Jeanne-Marie Beaubier",
+    "type": "alter_ego",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016091",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201691a",
+    "name": "Aurora",
+    "type": "hero",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016091",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201692a",
+    "name": "Aurora",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016092",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201692b",
+    "name": "Northstar",
+    "type": "ally",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016092",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201693",
+    "name": "Toujours en Mouvement",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016093",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201694",
+    "name": "Dépêche Toi!",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016094",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201695",
+    "name": "Gestalt Photokinesis",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016095",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201696",
+    "name": "Multiple Personalities",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016096",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201697",
+    "name": "X-Factor Investigation",
+    "type": "event",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016097",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201698",
+    "name": "French Connection",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016098",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "201699",
+    "name": "Rerun",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016099",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "206001",
+    "name": "Supersonic",
+    "type": "upgrade",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016100",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "206002",
+    "name": "Tag Team!",
+    "type": "support",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016101",
+    "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
+  },
+  {
+    "pack_code": "alpha_flight_by_hax",
+    "card_id": "206003",
+    "name": "Different Lives",
+    "type": "obligation",
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016102",
     "pack_octgn_id": "68071830-cf71-4497-a47d-19c19f5fb6fc"
   },
   {
@@ -1988,7 +2668,7 @@
     "card_id": "45052",
     "name": "",
     "type": "",
-    "octgn_id": "",
+    "octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3a045052",
     "pack_octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3aa25a34"
   },
   {
@@ -14208,6 +14888,126 @@
     "pack_octgn_id": "07933d8a-ba60-4386-a929-9c1c2fb6a56a"
   },
   {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205801b",
+    "name": "Angelica Jones",
+    "type": "alter_ego",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058001",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205801a",
+    "name": "Firestar",
+    "type": "hero",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058001",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205802",
+    "name": "Justice",
+    "type": "ally",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058002",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205803",
+    "name": "Microwave Blast",
+    "type": "event",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058003",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205804",
+    "name": "Radiative Vision",
+    "type": "event",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058004",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205805",
+    "name": "Ambient Microwaves",
+    "type": "resource",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058005",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205806",
+    "name": "Clandestine Operative",
+    "type": "upgrade",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058006",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205807",
+    "name": "Once an Avenger...",
+    "type": "upgrade",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058007",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205808",
+    "name": "Plasma Propulsion",
+    "type": "upgrade",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058008",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205809",
+    "name": "Solar Surge",
+    "type": "upgrade",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058009",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205810",
+    "name": "Stellar Aura",
+    "type": "upgrade",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058010",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205811",
+    "name": "Radiation Side Effects",
+    "type": "obligation",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058011",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205812",
+    "name": "Subverting Propaganda",
+    "type": "side_scheme",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058012",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205813",
+    "name": "Judas Traveller",
+    "type": "minion",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058013",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
+    "pack_code": "firestar_by_bluehg",
+    "card_id": "205814",
+    "name": "Keeping Up Appearances",
+    "type": "attachment",
+    "octgn_id": "616b40dd-052c-455d-a2bd-fc8b47058014",
+    "pack_octgn_id": "616b40dd-052c-455d-a2bd-fc8b4758a94a"
+  },
+  {
     "pack_code": "gam",
     "card_id": "18001a",
     "name": "Gamora",
@@ -17376,6 +18176,998 @@
     "pack_octgn_id": "fe0387fe-86cb-5d1b-a634-a303f0c017c5"
   },
   {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502101",
+    "name": "The Gardener",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502102",
+    "name": "The Gardener",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502103",
+    "name": "The Gardener",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502104a",
+    "name": "Groot Invasion",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502104b",
+    "name": "Groot Invasion",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502105a",
+    "name": "Branching Path",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502105b",
+    "name": "Branching Path",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502106a",
+    "name": "Confront the Root",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502106b",
+    "name": "Confront the Root",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502107a",
+    "name": "Leaf No Survivors",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502107b",
+    "name": "Leaf No Survivors",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502108",
+    "name": "Flora Beast",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502109",
+    "name": "Flora Colossus",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502110",
+    "name": "Flora Consumer",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502111",
+    "name": "Flora Titan",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502112",
+    "name": "Reclaim the Green",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502113",
+    "name": "Wode Blockade",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502114",
+    "name": "Groot Swarm",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502115",
+    "name": "Rampant Growth",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502116",
+    "name": "Regrowth",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502117",
+    "name": "Flora Sapling",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502118",
+    "name": "Warbringer",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502119",
+    "name": "Warbringer",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502120",
+    "name": "Warbringer",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502121a",
+    "name": "Chitauran Command",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502121b",
+    "name": "Chitauran Command",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502122a",
+    "name": "Stall for Time",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502122b",
+    "name": "Stall for Time",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502123a",
+    "name": "Raring to Go",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502123b",
+    "name": "Raring to Go",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502124",
+    "name": "Blockade",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502125",
+    "name": "Ship Turrets",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502126",
+    "name": "Warlord Endurance",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502127",
+    "name": "Urgent Repairs",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502128",
+    "name": "Weapon of War",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502129",
+    "name": "Warpath",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502130",
+    "name": "Homing Missile",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502131",
+    "name": "Chitauri Speeder",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502132",
+    "name": "Rip Open",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502133",
+    "name": "Spoils of War",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502134",
+    "name": "Warbringer's Wrath",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502135",
+    "name": "Heavy Cannon",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502136",
+    "name": "Hyper Thrusters",
+    "type": "upgrade",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502137a",
+    "name": "Raker",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502137b",
+    "name": "Raker",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502138a",
+    "name": "\"Here's the Milano!\"",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502138b",
+    "name": "\"Here's the Milano!\"",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502139a",
+    "name": "Spring our Allies",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502139b",
+    "name": "Spring our Allies",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502140a",
+    "name": "The Grand Escape",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502140b",
+    "name": "The Grand Escape",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502141",
+    "name": "Church Homeworld",
+    "type": "environment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502142",
+    "name": "Guard of Truth",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502143",
+    "name": "Church Patrol",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502144",
+    "name": "Interrogation Room",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502145",
+    "name": "Raid the Armory",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502146",
+    "name": "Evade Notice",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502147",
+    "name": "Hunt the Heretics",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502148",
+    "name": "Zealous Strike",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502149",
+    "name": "High Evolutionary",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502150",
+    "name": "High Evolutionary",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502151",
+    "name": "High Evolutionary",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502152a",
+    "name": "Obtain Perfection",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502152b",
+    "name": "Obtain Perfection",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502153",
+    "name": "Backlash",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502154",
+    "name": "Evolution Suit",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502155",
+    "name": "Evolved Weapon",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502156",
+    "name": "Induced Evolution",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502157",
+    "name": "Evolutionary",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502158",
+    "name": "Evolutionarian",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502159",
+    "name": "Legions of Evolutionaries",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502160",
+    "name": "The Magus",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502161",
+    "name": "The Magus",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502162",
+    "name": "The Magus",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502163a",
+    "name": "Temple of The Magus",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502163b",
+    "name": "Temple of The Magus",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502164a",
+    "name": "Usurp Death",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502164b",
+    "name": "Usurp Death",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502165",
+    "name": "Cosmic Ward",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502166",
+    "name": "Quantum Magic",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502167",
+    "name": "Cathedral",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502168",
+    "name": "Mystic Senses",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502169",
+    "name": "Cosmic Awareness",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502170",
+    "name": "Karmic Blast",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502171",
+    "name": "Milano",
+    "type": "ally",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502172",
+    "name": "Hazardous Terrain",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502173",
+    "name": "Rogue Ship",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502174",
+    "name": "All Hands on Deck",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502175",
+    "name": "Evasive Maneuver",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502176",
+    "name": "Outrun Danger",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502177",
+    "name": "Growing Pain",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502178",
+    "name": "Flora Giant",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502179",
+    "name": "Entangling Vines",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502180",
+    "name": "Ship Siege",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502181",
+    "name": "Assault Ship",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502182",
+    "name": "Chitauri Leviathan",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502183",
+    "name": "Warp Ship",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502184",
+    "name": "The Matriarch",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502185",
+    "name": "Universal Church of Truth",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502186",
+    "name": "Acolyte of Truth",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502187",
+    "name": "Cardinal of Truth",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502188",
+    "name": "Spread the Word",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502189",
+    "name": "Luminous",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502190",
+    "name": "Order in Entropy",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502191",
+    "name": "Bend Chaos",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502192",
+    "name": "Hex Bolt",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502193",
+    "name": "Master of the Dark Arts",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502194",
+    "name": "Magic Attack",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502195",
+    "name": "Shield Spell",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502196",
+    "name": "Summoning Spell",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502197",
+    "name": "Zone of Silence",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502198",
+    "name": "Lord Gator",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502199",
+    "name": "Dhrovo",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502200",
+    "name": "Evolved Tracker",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502201",
+    "name": "Ja'Rou",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502202",
+    "name": "New Men Soldier",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502203",
+    "name": "Harness the Cosmos",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502204",
+    "name": "Cosmic Prowess",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502205",
+    "name": "Cosmic Might",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502206",
+    "name": "Cosmic Regeneration",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502207",
+    "name": "Delusion of Collusion",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502208",
+    "name": "Manipulated Mind",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502209",
+    "name": "Old Grudge",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
+    "pack_code": "guardians_of_the_flarking_galaxy_by_justatuna",
+    "card_id": "502210",
+    "name": "Analysis Paralysis",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": ""
+  },
+  {
     "pack_code": "Gwenpool_by_ekAugust",
     "card_id": "204401b",
     "name": "Gwendolyn Poole",
@@ -17761,6 +19553,14 @@
   },
   {
     "pack_code": "hawkeye_by_cptscorp",
+    "card_id": "204819",
+    "name": "Promoted!",
+    "type": "upgrade",
+    "octgn_id": "733d90e1-16db-4601-8e3f-cd0706048019",
+    "pack_octgn_id": "733d90e1-16db-4601-8e3f-cd07065ae0e0"
+  },
+  {
+    "pack_code": "hawkeye_by_cptscorp",
     "card_id": "204814",
     "name": "Family = Trouble",
     "type": "obligation",
@@ -17952,6 +19752,182 @@
     "pack_octgn_id": "c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf"
   },
   {
+    "pack_code": "hercules",
+    "card_id": "59001a",
+    "name": "Hercules",
+    "type": "hero",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059001",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59001b",
+    "name": "Hercules",
+    "type": "alter_ego",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059001",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59002",
+    "name": "Defeat the Hydra",
+    "type": "attachment",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059002",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59003",
+    "name": "Embody Pathos",
+    "type": "attachment",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059003",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59004",
+    "name": "Protect Humanity",
+    "type": "obligation",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059004",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59005",
+    "name": "Nemean Lion Skin",
+    "type": "upgrade",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059005",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59006",
+    "name": "Shield of Perseus",
+    "type": "upgrade",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059006",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59007",
+    "name": "Sword of Peleus",
+    "type": "upgrade",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059007",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59008",
+    "name": "Amadeus Cho",
+    "type": "ally",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059008",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59009",
+    "name": "The Gift of Battle",
+    "type": "event",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059009",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59010",
+    "name": "Son of Zeus",
+    "type": "event",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059010",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59011",
+    "name": "Wisdom of Athena",
+    "type": "event",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059011",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59012",
+    "name": "Olympus",
+    "type": "support",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059012",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59013",
+    "name": "Gauntlets of Hercules",
+    "type": "upgrade",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059013",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59015",
+    "name": "Herc's Helm",
+    "type": "upgrade",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059015",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59016",
+    "name": "Lion of Olympus",
+    "type": "upgrade",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059016",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59018",
+    "name": "Deathcry",
+    "type": "ally",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059018",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59020",
+    "name": "Thor",
+    "type": "ally",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059020",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59022",
+    "name": "",
+    "type": "",
+    "octgn_id": "",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59024",
+    "name": "\"Avenge Me!\"",
+    "type": "upgrade",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059024",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59026",
+    "name": "Ancient Rivalry",
+    "type": "event",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059026",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59032",
+    "name": "Avengers Compound",
+    "type": "support",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059032",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
     "pack_code": "hercules_by_rainy",
     "card_id": "203201b",
     "name": "Hercules Panhellenios",
@@ -18102,6 +20078,30 @@
     "type": "treachery",
     "octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864032018",
     "pack_octgn_id": "5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59041",
+    "name": "All Versus All",
+    "type": "side_scheme",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059041",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59042",
+    "name": "Hecate",
+    "type": "minion",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059042",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
+  },
+  {
+    "pack_code": "hercules",
+    "card_id": "59043",
+    "name": "Kyknos",
+    "type": "minion",
+    "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059043",
+    "pack_octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6877046"
   },
   {
     "pack_code": "hlk",
@@ -19170,7 +21170,7 @@
   {
     "pack_code": "hunting_season_by_nugget",
     "card_id": "500220",
-    "name": "Rocket Raccon",
+    "name": "Rocket Raccoon",
     "type": "ally",
     "octgn_id": "a1825670-a77e-4e37-89e8-9e629b001120",
     "pack_octgn_id": "a1825670-a77e-4e37-89e8-9e629bc7892e"
@@ -23592,6 +25592,230 @@
     "pack_octgn_id": "a9f65411-f86b-48a8-bcac-0564be7f1ab9"
   },
   {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270101",
+    "name": "Mister Negative",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270102",
+    "name": "Mister Negative",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270103",
+    "name": "Mister Negative",
+    "type": "villain",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270104a",
+    "name": "Demons Unleashed",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270104b",
+    "name": "Demons Unleashed",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270105a",
+    "name": "Reign of Terror",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270105b",
+    "name": "Reign of Terror",
+    "type": "main_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270106",
+    "name": "Darkforce Energy",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270107a",
+    "name": "Negative Charge",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270107b",
+    "name": "Negative Charge",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270108",
+    "name": "Negative's Sword",
+    "type": "attachment",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270109",
+    "name": "Anti-Venom",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270110",
+    "name": "Cloak & Dagger",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270111",
+    "name": "Demon Brute",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270112",
+    "name": "Demon Swordsmen",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270113",
+    "name": "Overdrive",
+    "type": "minion",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270114",
+    "name": "Deceived by Martin Li",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270115",
+    "name": "Demonic Oppression",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270116",
+    "name": "Focused Negativity",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270117",
+    "name": "Held Hostage",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270118",
+    "name": "Mayor Osborn in Danger",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270119",
+    "name": "Workplace Bombing",
+    "type": "side_scheme",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270120",
+    "name": "Corrupting Touch",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270121",
+    "name": "Dark Purpose",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270122",
+    "name": "Demon Form",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270123",
+    "name": "Negative Pressure",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270124",
+    "name": "Negative Surge",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
+    "pack_code": "mister_negative_by_andyn",
+    "card_id": "270125",
+    "name": "Spreading Fear",
+    "type": "treachery",
+    "octgn_id": "",
+    "pack_octgn_id": "c0882996-24cb-4ead-aa2b-89052c8a4545"
+  },
+  {
     "pack_code": "mk_by_hax",
     "card_id": "10326a",
     "name": "Moon Knight",
@@ -24414,6 +26638,158 @@
     "type": "ally",
     "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039071",
     "pack_octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16acf52c"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206101a",
+    "name": "Morbius",
+    "type": "hero",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061001",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206101b",
+    "name": "Michael Morbius",
+    "type": "alter_ego",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061001",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206102",
+    "name": "Werewolf",
+    "type": "ally",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061002",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206103",
+    "name": "It's Morbin Time",
+    "type": "event",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061003",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206104",
+    "name": "Dark Shadows",
+    "type": "event",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061004",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206105",
+    "name": "Taste the Blood",
+    "type": "event",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061005",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206106",
+    "name": "Fright Night",
+    "type": "event",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061006",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206107",
+    "name": "Blood of the Vampire",
+    "type": "resource",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061007",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206108",
+    "name": "Lifeforce",
+    "type": "support",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061008",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206109",
+    "name": "Horizon Labs",
+    "type": "support",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061009",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206110",
+    "name": "The Living Vampire",
+    "type": "upgrade",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061010",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206111",
+    "name": "Psionic Gliding",
+    "type": "upgrade",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061011",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206112",
+    "name": "Bloodlust",
+    "type": "upgrade",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061012",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206113",
+    "name": "Uncurable",
+    "type": "obligation",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061013",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206114",
+    "name": "Blood Hunt",
+    "type": "side_scheme",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061014",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206115",
+    "name": "Spider-Man 616",
+    "type": "minion",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061015",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206116",
+    "name": "All Webbed Up",
+    "type": "attachment",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061016",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206117",
+    "name": "Blood Feud",
+    "type": "treachery",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061017",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
+  },
+  {
+    "pack_code": "morbius_by_rycoran",
+    "card_id": "206118",
+    "name": "This Bites",
+    "type": "treachery",
+    "octgn_id": "d44cc126-0575-463f-8a1e-f59476061018",
+    "pack_octgn_id": "d44cc126-0575-463f-8a1e-f59476be71a5"
   },
   {
     "pack_code": "msm",
@@ -31376,6 +33752,150 @@
     "pack_octgn_id": "46209500-1ae1-452b-81d7-0a0447e7b505"
   },
   {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502001b",
+    "name": "Richard Rider",
+    "type": "alter_ego",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020001",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502001a",
+    "name": "Nova Prime",
+    "type": "hero",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020001",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502002",
+    "name": "Star-Lord",
+    "type": "ally",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020002",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502003",
+    "name": "Nova Helmet",
+    "type": "upgrade",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020003",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502004",
+    "name": "Xandar",
+    "type": "support",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020004",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502005",
+    "name": "Accelerate",
+    "type": "event",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020005",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502006",
+    "name": "Accelerate",
+    "type": "event",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020006",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502007",
+    "name": "Accelerate",
+    "type": "event",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020007",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502008",
+    "name": "Accelerate",
+    "type": "event",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020008",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502009",
+    "name": "Gravimetric Blast",
+    "type": "event",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020009",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502010",
+    "name": "Galactic Guardian",
+    "type": "event",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020010",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502011",
+    "name": "Galactic Response",
+    "type": "event",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020011",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502012",
+    "name": "Connection to the Worldmind",
+    "type": "resource",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020012",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502013",
+    "name": "War Weary",
+    "type": "obligation",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020013",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502014",
+    "name": "Annihilus",
+    "type": "minion",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020014",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502015",
+    "name": "Bring Annihilation",
+    "type": "side_scheme",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020015",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502016",
+    "name": "Annihilation Wave",
+    "type": "environment",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020016",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
+    "pack_code": "nova_prime_by_justatuna",
+    "card_id": "502017",
+    "name": "Armies of Annihilus",
+    "type": "treachery",
+    "octgn_id": "fdf03832-04ba-4026-a82a-e07b84020017",
+    "pack_octgn_id": "fdf03832-04ba-4026-a82a-e07b84fab7a6"
+  },
+  {
     "pack_code": "old_man_hawkeye_by_illogical",
     "card_id": "205401b",
     "name": "Old Man Hawkeye",
@@ -32774,6 +35294,158 @@
     "type": "treachery",
     "octgn_id": "f3f34d13-7b0d-4b56-9609-cb8e8e35c1d1",
     "pack_octgn_id": "9d9ef955-af76-4493-901a-65288d7649dd"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205701a",
+    "name": "Rachel Summers",
+    "type": "hero",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057001",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205701b",
+    "name": "Rachel Summers",
+    "type": "alter_ego",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057001",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205702",
+    "name": "Captain Britain",
+    "type": "ally",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057002",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205703",
+    "name": "Phoenix II",
+    "type": "upgrade",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057003",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205704",
+    "name": "Prestige",
+    "type": "upgrade",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057004",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205705",
+    "name": "Askani",
+    "type": "upgrade",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057005",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205706",
+    "name": "Phoenix Fire",
+    "type": "event",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057006",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205707",
+    "name": "Chrono-Skimming",
+    "type": "event",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057007",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205708",
+    "name": "Psionic Blast",
+    "type": "event",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057008",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205709",
+    "name": "Chrono-Psionics",
+    "type": "resource",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057009",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205710",
+    "name": "The Boneyard",
+    "type": "support",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057010",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205717",
+    "name": "Psychic Rapport",
+    "type": "event",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057017",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205718",
+    "name": "Knights of X",
+    "type": "event",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057018",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205711",
+    "name": "Hounded",
+    "type": "obligation",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057011",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205712",
+    "name": "Release the Hounds",
+    "type": "side_scheme",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057012",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205713",
+    "name": "Ahab",
+    "type": "minion",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057013",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205714",
+    "name": "Hound",
+    "type": "minion",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057014",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205715",
+    "name": "Astral Plane Attack",
+    "type": "side_scheme",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057015",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
+  },
+  {
+    "pack_code": "rachel_summers_by_ripper3",
+    "card_id": "205716",
+    "name": "Unleash The Firebird",
+    "type": "treachery",
+    "octgn_id": "00276b7e-a61c-4dbb-b503-f849f3057016",
+    "pack_octgn_id": "00276b7e-a61c-4dbb-b503-f849f395b101"
   },
   {
     "pack_code": "red_guardian_by_kajislav",
@@ -38201,7 +40873,7 @@
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500954",
+    "card_id": "500962",
     "name": "Tricky Assault",
     "type": "treachery",
     "octgn_id": "",
@@ -38209,7 +40881,7 @@
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500955",
+    "card_id": "500954",
     "name": "Impostor",
     "type": "attachment",
     "octgn_id": "",
@@ -38217,7 +40889,7 @@
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500956",
+    "card_id": "500955",
     "name": "Cursed by the Past",
     "type": "treachery",
     "octgn_id": "",
@@ -38225,7 +40897,7 @@
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500957",
+    "card_id": "500956",
     "name": "Experiment Subject",
     "type": "treachery",
     "octgn_id": "",
@@ -38233,7 +40905,7 @@
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500958",
+    "card_id": "500957",
     "name": "Forge Ahead",
     "type": "treachery",
     "octgn_id": "",
@@ -38241,7 +40913,7 @@
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500959",
+    "card_id": "500958",
     "name": "Mobilization",
     "type": "treachery",
     "octgn_id": "",
@@ -38249,7 +40921,7 @@
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500960",
+    "card_id": "500959",
     "name": "Stick to the Plan",
     "type": "treachery",
     "octgn_id": "",
@@ -38257,7 +40929,7 @@
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500961",
+    "card_id": "500960",
     "name": "Replaced Archenemy",
     "type": "attachment",
     "octgn_id": "",
@@ -38265,7 +40937,7 @@
   },
   {
     "pack_code": "skrull_menace_by_kajislav",
-    "card_id": "500962",
+    "card_id": "500961",
     "name": "Focused Attention",
     "type": "treachery",
     "octgn_id": "",
@@ -42310,6 +44982,246 @@
     "type": "treachery",
     "octgn_id": "1c7b60ea-0ca6-574b-9cd5-254b7a000022",
     "pack_octgn_id": "1c7b60ea-0ca6-574b-9cd5-254b7a124186"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57032",
+    "name": "You're Out of Order!",
+    "type": "event",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057032",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57033",
+    "name": "She-Hulk Smash",
+    "type": "event",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057033",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57034",
+    "name": "Make Me Angry",
+    "type": "upgrade",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057034",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57035",
+    "name": "Legal Counsel",
+    "type": "resource",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057035",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57074",
+    "name": "Calculated Risk",
+    "type": "event",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057074",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57076",
+    "name": "Phased Out",
+    "type": "event",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057076",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57001",
+    "name": "She-Hulk",
+    "type": "leader",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057001",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57007",
+    "name": "Superhuman Strength",
+    "type": "attachment",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057007",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57008",
+    "name": "Focused Rage",
+    "type": "attachment",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057008",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57009",
+    "name": "One-Two Punch",
+    "type": "treachery",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057009",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57011",
+    "name": "Gamma Slam",
+    "type": "treachery",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057011",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57012",
+    "name": "Legal Practice",
+    "type": "side_scheme",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057012",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57017",
+    "name": "Atlas",
+    "type": "minion",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057017",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57018",
+    "name": "Songbird",
+    "type": "minion",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057018",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57019",
+    "name": "Penance",
+    "type": "minion",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057019",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57022",
+    "name": "Taskmaster",
+    "type": "minion",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057022",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57026",
+    "name": "Taskmaster's Academy",
+    "type": "minion",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057026",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57040",
+    "name": "Vision",
+    "type": "leader",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057040",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57046a",
+    "name": "Dense",
+    "type": "attachment",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057046",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57046b",
+    "name": "Intangible",
+    "type": "attachment",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057046",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57047",
+    "name": "Solar Gem",
+    "type": "attachment",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057047",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57048",
+    "name": "Vision's Cape",
+    "type": "attachment",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057048",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57049",
+    "name": "Mass Increase",
+    "type": "attachment",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057049",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57050",
+    "name": "Density Control",
+    "type": "attachment",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057050",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57053",
+    "name": "Phase Disruption",
+    "type": "treachery",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057053",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57055",
+    "name": "Patriot",
+    "type": "minion",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057055",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57056",
+    "name": "Hawkeye",
+    "type": "minion",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057056",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57059",
+    "name": "Young Avengers",
+    "type": "side_scheme",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057059",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57065",
+    "name": "Moon Knight",
+    "type": "minion",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057065",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
+  },
+  {
+    "pack_code": "synthezoid",
+    "card_id": "57067",
+    "name": "Fist of Khonshu",
+    "type": "treachery",
+    "octgn_id": "2b778323-b4d9-4567-999d-42e7de057067",
+    "pack_octgn_id": "2b778323-b4d9-4567-999d-42e7def75dde"
   },
   {
     "pack_code": "the_punisher_by_odysseus",
@@ -46617,6 +49529,14 @@
   },
   {
     "pack_code": "venom_by_ripper3",
+    "card_id": "203319",
+    "name": "Symbiotic Relationship",
+    "type": "event",
+    "octgn_id": "6a999490-11a8-4533-9c1e-d53b00033019",
+    "pack_octgn_id": "6a999490-11a8-4533-9c1e-d53b00f48ec0"
+  },
+  {
+    "pack_code": "venom_by_ripper3",
     "card_id": "203312",
     "name": "Sonic Vulnerability",
     "type": "obligation",
@@ -48526,6 +51446,254 @@
     "type": "treachery",
     "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035037",
     "pack_octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca895722"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58001a",
+    "name": "Wonder Man",
+    "type": "hero",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058001",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58001b",
+    "name": "Simon Williams",
+    "type": "alter_ego",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058001",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58002",
+    "name": "Ionic Physiology",
+    "type": "upgrade",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058002",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58003",
+    "name": "Active Altruism",
+    "type": "event",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058003",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58004",
+    "name": "Ionic Blast",
+    "type": "event",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058004",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58005",
+    "name": "Starstruck",
+    "type": "event",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058005",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58006",
+    "name": "Energy Siphon",
+    "type": "resource",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058006",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58007",
+    "name": "Wonder Fans",
+    "type": "support",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058007",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58008",
+    "name": "Jet Belt",
+    "type": "upgrade",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058008",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58009",
+    "name": "Mr. Hollywood",
+    "type": "upgrade",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058009",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58010",
+    "name": "Signature Sunglasses",
+    "type": "upgrade",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058010",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58011",
+    "name": "\"What Are You?\"",
+    "type": "upgrade",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058011",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58012",
+    "name": "Firebird",
+    "type": "ally",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058012",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58013",
+    "name": "Hawkeye",
+    "type": "ally",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058013",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58014",
+    "name": "Scarlet Witch",
+    "type": "ally",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058014",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58015",
+    "name": "Sentry",
+    "type": "ally",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058015",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58016",
+    "name": "Battlefield Benevolence",
+    "type": "event",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058016",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58017",
+    "name": "",
+    "type": "",
+    "octgn_id": "",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58018",
+    "name": "Everywhere All at Once",
+    "type": "event",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058018",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58019",
+    "name": "Stronger Together",
+    "type": "event",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058019",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58020",
+    "name": "Unified Strike",
+    "type": "event",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058020",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58021",
+    "name": "Heroic Conditioning",
+    "type": "upgrade",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058021",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58022",
+    "name": "Swordsman",
+    "type": "ally",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058022",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58024",
+    "name": "Jarvis",
+    "type": "support",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058024",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58030",
+    "name": "Caught in the Crossfire",
+    "type": "upgrade",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058030",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58031",
+    "name": "Cameo",
+    "type": "support",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058031",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58032",
+    "name": "Coordinated Effort",
+    "type": "upgrade",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058032",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58033",
+    "name": "Disarming Defense",
+    "type": "event",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058033",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58026",
+    "name": "Grim Reaper",
+    "type": "minion",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058026",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58027",
+    "name": "Brother vs. Brother",
+    "type": "side_scheme",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058027",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58028",
+    "name": "Scythe Strike",
+    "type": "treachery",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058028",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
     "pack_code": "wsp",
