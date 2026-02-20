@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Venompool" id="0c714380-7fb9-4a28-9c0f-872b0924c970" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="0c714380-7fb9-4a28-9c0f-872b09000000" name="venompool_by_cptscorp">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="venompool_by_cptscorp"/>
+    </card>
+    <card id="0c714380-7fb9-4a28-9c0f-872b09990000" name="venompool_by_cptscorp">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="venompool_by_cptscorp_nemesis"/>
+    </card>
+    <card name="Venompool" id="0c714380-7fb9-4a28-9c0f-872b09062001">
+      <property name="CardNumber" value="206201a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="venompool_by_cptscorp"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="9"/>
+      <property name="Attribute" value="Mutant. Symbiote. Web-Warrior."/>
+      <property name="Text">&lt;i&gt;Fear Factor&lt;/i&gt; — &lt;b&gt;Response &lt;/b&gt;&lt;i&gt;(thwart)&lt;/i&gt;: After Venompool defeats an enemy, remove 1 threat from a scheme. (Limit 1[per_hero] per phase.)
+&lt;i&gt;“All right buckos... Step up... Because I'm feeling feisty!”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Wade Wilson" type="b">
+        <property name="CardNumber" value="206201b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="venompool_by_cptscorp"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="6"/>
+        <property name="HP" value="9"/>
+        <property name="Attribute" value="Mutant."/>
+        <property name="Text">[star] Wade Wilson can only use his REC when he has 3 or fewer hit points.&lt;i&gt;
+Unexpected Bond&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Exhaust Wade Wilson → search your deck and discard pile for the Klyntar Suit upgrade and add it to your hand. Shuffle your deck.&lt;i&gt;&lt;/i&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Black Cat" id="0c714380-7fb9-4a28-9c0f-872b09062002">
+      <property name="CardNumber" value="206202"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="venompool_by_cptscorp"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Hero For Hire."/>
+      <property name="Text">[star] Black Cat's basic thwart ignores crisis icons ([crisis]).
+&lt;i&gt;“I'm not Spider-Man.” -Venompool
+"I know all right? You're not Spider-Man ALL of the time, and I can accept that." -Black Cat&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Talk About Armed Assault" id="0c714380-7fb9-4a28-9c0f-872b09062003">
+      <property name="CardNumber" value="206203"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="venompool_by_cptscorp"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage divided among enemies as you choose (6 damage instead if the True Form upgrade is in play).
+&lt;i&gt;“You shouldn't bring a weapon to the party... Unless you brought enough for everyone!” -Venompool&lt;/i&gt;</property>
+    </card>
+    <card name="Tasty Meal" id="0c714380-7fb9-4a28-9c0f-872b09062004">
+      <property name="CardNumber" value="206204"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="venompool_by_cptscorp"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Superpower. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack/thwart)&lt;/i&gt;: Deal 2 damage to an enemy. Remove 1 threat from a scheme. Venompool gets +1 THW, +1 ATK and +1 DEF until the end of the round. If True Form is in play, this attack gains piercing.
+&lt;i&gt;“That's so MEAN!” -Killer Thrill&lt;/i&gt;</property>
+    </card>
+    <card name="Thwip!" id="0c714380-7fb9-4a28-9c0f-872b09062005">
+      <property name="CardNumber" value="206205"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="venompool_by_cptscorp"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Stun the villain. If the villain is already stunned, remove 3 threat from a scheme instead.
+&lt;i&gt;“Did I just 'thwip'? I 'thwipped'! Cool!”
+-Venompool&lt;/i&gt;</property>
+    </card>
+    <card name="Whack-a-Rabbit" id="0c714380-7fb9-4a28-9c0f-872b09062006">
+      <property name="CardNumber" value="206206"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="venompool_by_cptscorp"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">You may trigger the "&lt;b&gt;Hero Action&lt;/b&gt;" below one additional time for each minion engaged with you. (Each enemy may only be targeted once.)
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Take 1 damage → deal 2 damage to an enemy.</property>
+    </card>
+    <card name="Eat Them All!" id="0c714380-7fb9-4a28-9c0f-872b09062007">
+      <property name="CardNumber" value="206207"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="venompool_by_cptscorp"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Symbiote."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After Venompool attacks, heal 1 damage from him. (Limit once per phase.)
+&lt;i&gt;“Hmmm! Lots of gristle!” -Venompool&lt;/i&gt;</property>
+    </card>
+    <card name="Foresight" id="0c714380-7fb9-4a28-9c0f-872b09062008">
+      <property name="CardNumber" value="206208"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="venompool_by_cptscorp"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Genius. Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Take 2 damage and exhaust Foresight → ready Venompool.
+&lt;i&gt;“I gouged out my own peepers in order to resist Dansen Macabre's mesmerizing gyrations.” -Deadpool&lt;/i&gt;</property>
+    </card>
+    <card name="Klyntar Suit" id="0c714380-7fb9-4a28-9c0f-872b09062009">
+      <property name="CardNumber" value="206209"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="venompool_by_cptscorp"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Symbiote."/>
+      <property name="Text">You get +3 hit points.&lt;b&gt;
+Hero Response &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: After you take damage from an enemy attack, exhaust Klyntar Suit → drain 1 from the attacking enemy. (See insert.)
+&lt;i&gt;“I .” -Deadpool&lt;/i&gt;</property>
+    </card>
+    <card name="True Form" id="0c714380-7fb9-4a28-9c0f-872b09062010">
+      <property name="CardNumber" value="206210"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="venompool_by_cptscorp"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower. Symbiote."/>
+      <property name="Text">Discard this card from play if you do not control Klyntar Suit.&lt;b&gt;
+Hero Interrupt&lt;/b&gt;: When Venompool makes a basic attack against an enemy, exhaust True Form → that attack gains overkill. Drain 1 from that enemy.&lt;i&gt;&lt;/i&gt;</property>
+    </card>
+    <card name="Energy" id="0c714380-7fb9-4a28-9c0f-872b09062017">
+      <property name="CardNumber" value="206217"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="resource"/>
+      <property name="Resource_Energy" value="4"/>
+      <property name="Text">Max 1 per deck.</property>
+    </card>
+    <card name="Genius" id="0c714380-7fb9-4a28-9c0f-872b09062018">
+      <property name="CardNumber" value="206218"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="resource"/>
+      <property name="Resource_Mental" value="4"/>
+      <property name="Text">Max 1 per deck.</property>
+    </card>
+    <card name="Strength" id="0c714380-7fb9-4a28-9c0f-872b09062019">
+      <property name="CardNumber" value="206219"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="resource"/>
+      <property name="Resource_Physical" value="4"/>
+      <property name="Text">Max 1 per deck.</property>
+    </card>
+    <card name="One Too Many Voices" id="0c714380-7fb9-4a28-9c0f-872b09062011" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="206211"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="venompool_by_cptscorp"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">You must flip to alter-ego form. Choose:
+Exhaust Wade Wilson → remove One Too Many Voices from the game.
+Discard Klyntar Suit. If Klyntar Suit was not discarded this way, this card gains surge. Discard this obligation.</property>
+    </card>
+    <card name="Shocking Entrance" id="0c714380-7fb9-4a28-9c0f-872b09062012" size="SchemeCard">
+      <property name="CardNumber" value="206212"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="venompool_by_cptscorp_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;"Surrender the Klyntar." -Killer Thrill&lt;/i&gt;&lt;b&gt;
+When Revealed&lt;/b&gt;: Deal 3 indirect damage to the first player.
+[hazard]
+&lt;b&gt;		 Boost&lt;/b&gt;: Deal 1 indirect damage to the first player.</property>
+    </card>
+    <card name="Killer Thrill" id="0c714380-7fb9-4a28-9c0f-872b09062013" size="EncounterCard">
+      <property name="CardNumber" value="206213"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="venompool_by_cptscorp_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Alien. Bounty Hunter."/>
+      <property name="Text">[star] Killer Thrill gets +1 ATK for each adrenaline counter on her.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the player phase ends, put 1 adrenaline counter on Killer Thrill. Then, if there are 2 or more adrenaline counters on her, remove them all and she activates.
+&lt;i&gt;(Venompool's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Coldwar" id="0c714380-7fb9-4a28-9c0f-872b09062014" size="EncounterCard">
+      <property name="CardNumber" value="206214"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="venompool_by_cptscorp_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Alien. Bounty Hunter."/>
+      <property name="Text">Quickstrike. &lt;i&gt;(After this minion engages your hero, it attacks you.)&lt;/i&gt; [star] While Killer Thrill is in play, Coldwar gets +1 ATK.
+&lt;b&gt; Boost&lt;/b&gt;: After this activation, deal this card to yourself as a facedown encounter card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Guzz" id="0c714380-7fb9-4a28-9c0f-872b09062015" size="EncounterCard">
+      <property name="CardNumber" value="206215"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="venompool_by_cptscorp_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Alien. Bounty Hunter."/>
+      <property name="Text">Plotting. &lt;i&gt;(After this minion engages you, it schemes.)&lt;/i&gt; [star] While Killer Thrill is in play, Guzz gets +1 SCH.
+&lt;b&gt; Boost&lt;/b&gt;: After this activation, deal this card to yourself as a facedown encounter card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Psyche Warp" id="0c714380-7fb9-4a28-9c0f-872b09062016" size="EncounterCard">
+      <property name="CardNumber" value="206216"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="venompool_by_cptscorp_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: You take X damage where X is equal to the ATK of the ally with the highest printed ATK. Discard that ally. If no damage was taken this way, this card gains surge.</property>
+    </card>
+  </cards>
+</set>

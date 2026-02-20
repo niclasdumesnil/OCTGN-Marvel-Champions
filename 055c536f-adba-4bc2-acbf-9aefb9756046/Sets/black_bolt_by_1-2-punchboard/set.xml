@@ -1,13 +1,238 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes'?>
-<set name="Black Bolt" id="22ab00e8-c78a-4b66-ab58-15b782090fea" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+<set name="Black Bolt" id="2315a5c8-a4cd-4932-96b2-53901c880860" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
   <cards>
-    <card id="22ab00e8-c78a-4b66-ab58-15b782000000" name="black_bolt_by_1-2-punchboard">
-      <property name="Type" value="fm_hero_setup"/>
+  <card id="2315a5c8-a4cd-4932-96b2-53901c990000" name="Black_Bolt_by_1-2-punchboard_nemesis">
+<property name="Type" value="fm_encounter_setup"/>
+<property name="Owner" value="Black_Bolt_by_1-2-punchboar_nemesis"/>
+</card>
+<card id="2315a5c8-a4cd-4932-96b2-53901c900000" name="Black_Bolt_by_1-2-punchboard">
+<property name="Type" value="fm_hero_setup"/>
+<property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+</card>
+    <card name="Black Bolt" id="2315a5c8-a4cd-4932-96b2-53901c041001">
+      <property name="CardNumber" value="204101a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
       <property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="1"/>
+      <property name="HP" value="11"/>
+      <property name="Attribute" value="Inhuman. King."/>
+      <property name="Text">&lt;i&gt;Particle Channeling&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Discard a card from your hand → place electron counters on Black Bolt equal to the number of printed [mental] resources on that card. (Limit once per round.)</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Blackagar Boltagon" type="b">
+        <property name="CardNumber" value="204101b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="11"/>
+        <property name="Attribute" value="Inhuman."/>
+        <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: Place 2 electron counters on Blackagar Boltagon.
+&lt;i&gt;Drawing In Strength&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Draw a card. Place electron counters on Blackagar Boltagon equal to the number of [mental] resources on that card. (Limit once per round.)</property>
+        <property name="Unique" value="True"/>
+      </alternate>
     </card>
-    <card id="22ab00e8-c78a-4b66-ab58-15b782990000" name="black_bolt_by_1-2-punchboard">
-      <property name="Type" value="fm_encounter_setup"/>
+    <card name="Lockjaw" id="2315a5c8-a4cd-4932-96b2-53901c041002">
+      <property name="CardNumber" value="204102"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Inhuman."/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When Lockjaw is defeated, remove 2 electron counters from Black Bolt → return Lockjaw to your hand.
+&lt;i&gt;“He is my oldest friend in the world -- closer to me than my family, truer to me than my brother.” -- Black Bolt&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Strength of a King" id="2315a5c8-a4cd-4932-96b2-53901c041003">
+      <property name="CardNumber" value="204103"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">Max 1 per round.
+&lt;b&gt;Hero Action&lt;/b&gt;: Remove 1 electron counter from Black Bolt → until the end of the round, Black Bolt gets +2 ATK.</property>
+    </card>
+    <card name="Energy Beam" id="2315a5c8-a4cd-4932-96b2-53901c041004">
+      <property name="CardNumber" value="204104"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Remove 2 electron counters from Black Bolt → deal 6 damage to an enemy. This attack gains overkill and piercing.</property>
+    </card>
+    <card name="Aerial Dodge" id="2315a5c8-a4cd-4932-96b2-53901c041005">
+      <property name="CardNumber" value="204105"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Defense. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(defense)&lt;/i&gt;: When you would take any amount of damage, prevent 2 of that damage (4 of that damage instead if you have the [[AERIAL]] trait). If you took no damage, place 1 electron counter on Black Bolt.</property>
+    </card>
+    <card name="Silent Schemes" id="2315a5c8-a4cd-4932-96b2-53901c041006">
+      <property name="CardNumber" value="204106"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove X electron counters from Black Bolt → remove 3 threat from X schemes.
+&lt;i&gt;“You are about to see a most wonderful, carefully-orchestrated plan come to its fruition.” - Karnak&lt;/i&gt;</property>
+    </card>
+    <card name="Electron Absorption" id="2315a5c8-a4cd-4932-96b2-53901c041007">
+      <property name="CardNumber" value="204107"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+      <property name="Resource_Mental" value="2"/>
+      <property name="Text"> </property>
+    </card>
+    <card name="Royal Antenna" id="2315a5c8-a4cd-4932-96b2-53901c041008">
+      <property name="CardNumber" value="204108"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Item. Tech."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Take up to 3 damage and exhaust Royal Antenna → place 1 electron counter on Blackagar Boltagon for each damage you took.</property>
+    </card>
+    <card name="Anti-Graviton Field" id="2315a5c8-a4cd-4932-96b2-53901c041009">
+      <property name="CardNumber" value="204109"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Black Bolt gains the [[AERIAL]] trait.
+&lt;b&gt;Hero Action&lt;/b&gt;: Remove 1 electron counter from Black Bolt and exhaust Anti-Graviton Field → ready Black Bolt.</property>
+    </card>
+    <card name="Inhuman Throne" id="2315a5c8-a4cd-4932-96b2-53901c041010">
+      <property name="CardNumber" value="204110"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Inhuman. Location."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Inhuman Throne → shuffle a Black Bolt card from your discard pile into your deck.</property>
+    </card>
+    <card name="Commanding Voice" id="2315a5c8-a4cd-4932-96b2-53901c041011">
+      <property name="CardNumber" value="204111"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Choose a player and remove 4 electron counters from Black Bolt → deal 10 damage to the villain and each enemy engaged with that player.
+&lt;i&gt;“War.”&lt;/i&gt;</property>
+    </card>
+    <card name="Muzzled" id="2315a5c8-a4cd-4932-96b2-53901c041012" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="204112"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Blackagar Boltagon player.&lt;/i&gt;&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+. Exhaust Blackagar Boltagon → remove Muzzled from the game.
+. Remove all electron counters from Black Bolt or Blackagar Boltagon. If no counters were removed, this card gains surge. Discard this obligation.</property>
+    </card>
+    <card name="Maximus the Mad" id="2315a5c8-a4cd-4932-96b2-53901c041013" size="EncounterCard">
+      <property name="CardNumber" value="204113"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
       <property name="Owner" value="Black_Bolt_by_1-2-punchboard_nemesis"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="3"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Genius. Inhuman."/>
+      <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Maximus the Mad attacks, remove 1 electron counter from Black Bolt.
+&lt;i&gt;“I am my brother's keeper -- because that's what they made me to be.”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Alpha Primitives Revolt" id="2315a5c8-a4cd-4932-96b2-53901c041014" size="SchemeCard">
+      <property name="CardNumber" value="204114"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;“Oh my brothers. It is our time to rejoice. We have been meek and downtrodden for too long.” — Maximus the Mad&lt;/i&gt;
+[hazard]</property>
+    </card>
+    <card name="Telepathic Manipulation" id="2315a5c8-a4cd-4932-96b2-53901c041015" size="EncounterCard">
+      <property name="CardNumber" value="204115"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Remove 3 electron counters from Black Bolt and take 1 indirect damage for each electron counter removed. If no electron counters were removed, this card gains surge.</property>
+    </card>
+    <card name="Madman's Invention" id="2315a5c8-a4cd-4932-96b2-53901c041016" size="EncounterCard">
+      <property name="CardNumber" value="204116"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="Black_Bolt_by_1-2-punchboard_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Experimental. Weapon."/>
+      <property name="Text">Attach to the villain.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When the villain attacks you, give them 1 additional boost card for this activation. Discard the boost card with the least boost icons ([boost]) before resolving the attack.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [mental] [mental] resources → discard this card.</property>
     </card>
   </cards>
 </set>
