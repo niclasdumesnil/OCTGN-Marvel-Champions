@@ -1,298 +1,266 @@
 [
   {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204101b",
-    "name": "Blackagar Boltagon",
-    "type": "alter_ego",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041001",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
-  },
-  {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204101a",
-    "name": "Black Bolt",
+    "pack_code": "wonder_man",
+    "card_id": "58001a",
+    "name": "Wonder Man",
     "type": "hero",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041001",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058001",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204102",
-    "name": "Lockjaw",
-    "type": "ally",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041002",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
+    "pack_code": "wonder_man",
+    "card_id": "58001b",
+    "name": "Simon Williams",
+    "type": "alter_ego",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058001",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204103",
-    "name": "Strength of a King",
+    "pack_code": "wonder_man",
+    "card_id": "58002",
+    "name": "Ionic Physiology",
+    "type": "upgrade",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058002",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58003",
+    "name": "Active Altruism",
     "type": "event",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041003",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058003",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204104",
-    "name": "Energy Beam",
+    "pack_code": "wonder_man",
+    "card_id": "58004",
+    "name": "Ionic Blast",
     "type": "event",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041004",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058004",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204105",
-    "name": "Aerial Dodge",
+    "pack_code": "wonder_man",
+    "card_id": "58005",
+    "name": "Starstruck",
     "type": "event",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041005",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058005",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204106",
-    "name": "Silent Schemes",
-    "type": "event",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041006",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
-  },
-  {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204107",
-    "name": "Electron Absorption",
+    "pack_code": "wonder_man",
+    "card_id": "58006",
+    "name": "Energy Siphon",
     "type": "resource",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041007",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058006",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204108",
-    "name": "Royal Antenna",
-    "type": "upgrade",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041008",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
-  },
-  {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204109",
-    "name": "Anti-Graviton Field",
-    "type": "upgrade",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041009",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
-  },
-  {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204110",
-    "name": "Inhuman Throne",
+    "pack_code": "wonder_man",
+    "card_id": "58007",
+    "name": "Wonder Fans",
     "type": "support",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041010",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058007",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204111",
-    "name": "Commanding Voice",
-    "type": "event",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041011",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
+    "pack_code": "wonder_man",
+    "card_id": "58008",
+    "name": "Jet Belt",
+    "type": "upgrade",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058008",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204112",
-    "name": "Muzzled",
-    "type": "obligation",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041012",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
+    "pack_code": "wonder_man",
+    "card_id": "58009",
+    "name": "Mr. Hollywood",
+    "type": "upgrade",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058009",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204113",
-    "name": "Maximus the Mad",
-    "type": "minion",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041013",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
+    "pack_code": "wonder_man",
+    "card_id": "58010",
+    "name": "Signature Sunglasses",
+    "type": "upgrade",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058010",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204114",
-    "name": "Alpha Primitives Revolt",
-    "type": "side_scheme",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041014",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
+    "pack_code": "wonder_man",
+    "card_id": "58011",
+    "name": "\"What Are You?\"",
+    "type": "upgrade",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058011",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204115",
-    "name": "Telepathic Manipulation",
-    "type": "treachery",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041015",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
-  },
-  {
-    "pack_code": "Black_Bolt_by_1-2-punchboard",
-    "card_id": "204116",
-    "name": "Madman's Invention",
-    "type": "attachment",
-    "octgn_id": "2315a5c8-a4cd-4932-96b2-53901c041016",
-    "pack_octgn_id": "2315a5c8-a4cd-4932-96b2-53901c880860"
-  },
-  {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206201a",
-    "name": "Venompool",
-    "type": "hero",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062001",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
-  },
-  {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206201b",
-    "name": "Wade Wilson",
-    "type": "alter_ego",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062001",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
-  },
-  {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206202",
-    "name": "Black Cat",
+    "pack_code": "wonder_man",
+    "card_id": "58012",
+    "name": "Firebird",
     "type": "ally",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062002",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058012",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206203",
-    "name": "Talk About Armed Assault",
+    "pack_code": "wonder_man",
+    "card_id": "58013",
+    "name": "Hawkeye",
+    "type": "ally",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058013",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58014",
+    "name": "Scarlet Witch",
+    "type": "ally",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058014",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58015",
+    "name": "Sentry",
+    "type": "ally",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058015",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58016",
+    "name": "Battlefield Benevolence",
     "type": "event",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062003",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058016",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206204",
-    "name": "Tasty Meal",
+    "pack_code": "wonder_man",
+    "card_id": "58018",
+    "name": "Everywhere All at Once",
     "type": "event",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062004",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058018",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206205",
-    "name": "Thwip!",
+    "pack_code": "wonder_man",
+    "card_id": "58019",
+    "name": "Stronger Together",
     "type": "event",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062005",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058019",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206206",
-    "name": "Whack-a-Rabbit",
+    "pack_code": "wonder_man",
+    "card_id": "58020",
+    "name": "Unified Strike",
     "type": "event",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062006",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058020",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206207",
-    "name": "Eat Them All!",
+    "pack_code": "wonder_man",
+    "card_id": "58021",
+    "name": "Heroic Conditioning",
     "type": "upgrade",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062007",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058021",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206208",
-    "name": "Foresight",
+    "pack_code": "wonder_man",
+    "card_id": "58022",
+    "name": "Swordsman",
+    "type": "ally",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058022",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58024",
+    "name": "Jarvis",
+    "type": "support",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058024",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58030",
+    "name": "Caught in the Crossfire",
     "type": "upgrade",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062008",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058030",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206209",
-    "name": "Klyntar Suit",
+    "pack_code": "wonder_man",
+    "card_id": "58031",
+    "name": "Cameo",
+    "type": "support",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058031",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58032",
+    "name": "Coordinated Effort",
     "type": "upgrade",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062009",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058032",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206210",
-    "name": "True Form",
-    "type": "upgrade",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062010",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
+    "pack_code": "wonder_man",
+    "card_id": "58033",
+    "name": "Disarming Defense",
+    "type": "event",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058033",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206217",
-    "name": "Energy",
-    "type": "resource",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062017",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
+    "pack_code": "wonder_man",
+    "card_id": "58034",
+    "name": "Avengers Compound",
+    "type": "support",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058034",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206218",
-    "name": "Genius",
-    "type": "resource",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062018",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
-  },
-  {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206219",
-    "name": "Strength",
-    "type": "resource",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062019",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
-  },
-  {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206211",
-    "name": "One Too Many Voices",
+    "pack_code": "wonder_man",
+    "card_id": "58025",
+    "name": "Pacifism",
     "type": "obligation",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062011",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058025",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206212",
-    "name": "Shocking Entrance",
+    "pack_code": "wonder_man",
+    "card_id": "58026",
+    "name": "Grim Reaper",
+    "type": "minion",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058026",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58027",
+    "name": "Brother vs. Brother",
     "type": "side_scheme",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062012",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058027",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   },
   {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206213",
-    "name": "Killer Thrill",
-    "type": "minion",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062013",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
-  },
-  {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206214",
-    "name": "Coldwar",
-    "type": "minion",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062014",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
-  },
-  {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206215",
-    "name": "Guzz",
-    "type": "minion",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062015",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
-  },
-  {
-    "pack_code": "venompool_by_cptscorp",
-    "card_id": "206216",
-    "name": "Psyche Warp",
+    "pack_code": "wonder_man",
+    "card_id": "58028",
+    "name": "Scythe Strike",
     "type": "treachery",
-    "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062016",
-    "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058028",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
+  },
+  {
+    "pack_code": "wonder_man",
+    "card_id": "58029",
+    "name": "Death Cannot Die",
+    "type": "treachery",
+    "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058029",
+    "pack_octgn_id": "7eb46497-8915-4be9-b31d-7bee67842bce"
   }
 ]

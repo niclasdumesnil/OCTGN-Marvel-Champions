@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Wonder Man" id="7eb46497-8915-4be9-b31d-7bee67842bce" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card name="Wonder Man" id="7eb46497-8915-4be9-b31d-7bee67058001">
+      <property name="CardNumber" value="58001a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="wonder_man"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="12"/>
+      <property name="Attribute" value="Aerial. Avenger."/>
+      <property name="Text">&lt;i&gt;Power Recycling&lt;/i&gt; — Wonder Man gets +1 ATK for each card tucked under Ionic Physiology.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Wonder Man makes a basic attack, discard each card tucked under Ionic Physiology.</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Simon Williams" type="b">
+        <property name="CardNumber" value="58001b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="wonder_man"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="12"/>
+        <property name="Attribute" value="Civilian."/>
+        <property name="Text">&lt;i&gt;Ionic Energy Being&lt;/i&gt; — You may include events with a printed [energy] resource icon from any aspect in your deck.
+&lt;b&gt;Setup&lt;/b&gt;: Put Ionic Physiology into play.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Ionic Physiology" id="7eb46497-8915-4be9-b31d-7bee67058002">
+      <property name="CardNumber" value="58002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="wonder_man"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Permanent. Max 3 cards tucked here.
+&lt;b&gt;Response&lt;/b&gt;: After you play an event with a printed [energy] resource, tuck that event from your discard pile under this card → heal 1 damage from your identity.</property>
+    </card>
+    <card name="Active Altruism" id="7eb46497-8915-4be9-b31d-7bee67058003">
+      <property name="CardNumber" value="58003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="wonder_man"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 1 threat from a scheme. Remove 2 additional threat from that scheme for each [energy] resource you overpaid for this card (to a maximum of [energy] [energy]).</property>
+    </card>
+    <card name="Ionic Blast" id="7eb46497-8915-4be9-b31d-7bee67058004">
+      <property name="CardNumber" value="58004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="wonder_man"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 3 damage to an enemy. Deal 2 additional damage to that enemy for each [energy] resource you overpaid for this card (to a maximum of [energy] [energy] [energy]).</property>
+    </card>
+    <card name="Starstruck" id="7eb46497-8915-4be9-b31d-7bee67058005">
+      <property name="CardNumber" value="58005"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="wonder_man"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal damage to an enemy equal to your ATK. If you overpaid for this card with a [energy] resource, stun that enemy.</property>
+    </card>
+    <card name="Energy Siphon" id="7eb46497-8915-4be9-b31d-7bee67058006">
+      <property name="CardNumber" value="58006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="wonder_man"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you spend this card, take up to 3 damage → this card generates 1 additional [energy] resource for each damage taken this way.</property>
+    </card>
+    <card name="Wonder Fans" id="7eb46497-8915-4be9-b31d-7bee67058007">
+      <property name="CardNumber" value="58007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="wonder_man"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Civilian."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Wonder Fans → choose:
+• Tuck 1 event with a printed [energy] resource from your discard pile under Ionic Physiology.
+• Draw 1 card.</property>
+    </card>
+    <card name="Jet Belt" id="7eb46497-8915-4be9-b31d-7bee67058008">
+      <property name="CardNumber" value="58008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="wonder_man"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Item. Tech."/>
+      <property name="Text">&lt;b&gt;Hero Resource&lt;/b&gt;: Exhaust Jet Belt → generate a [energy] resource for an event.
+&lt;b&gt;Hero Resource&lt;/b&gt;: Exhaust Jet Belt and discard a card tucked under Ionic Physiology → generate a [energy] resource.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Mr. Hollywood" id="7eb46497-8915-4be9-b31d-7bee67058009">
+      <property name="CardNumber" value="58009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="wonder_man"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text">&lt;b&gt;Resource&lt;/b&gt;: Generate a [energy] resource to overpay for a card. (Limit once per card.)</property>
+      <property name="Quote">"Hey, aren't you one of those guys from Beach Volleyball Bros Part II?" —Kate Bishop</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Signature Sunglasses" id="7eb46497-8915-4be9-b31d-7bee67058010">
+      <property name="CardNumber" value="58010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="wonder_man"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After you change form, choose:
+• Tuck an event or resource card with a printed [energy] resource from your discard pile under Ionic Physiology.
+• Add a card tucked under Ionic Physiology to your hand.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="&quot;What Are You?&quot;" id="7eb46497-8915-4be9-b31d-7bee67058011">
+      <property name="CardNumber" value="58011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="wonder_man"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Wonder Man would be defeated, instead set his hit point dial to 4 and change him to alter-ego form. You may tuck events with a printed [energy] resource from your discard pile under Ionic Physiology until there are 3 cards tucked there. Remove this card from the game.</property>
+    </card>
+    <card name="Firebird" id="7eb46497-8915-4be9-b31d-7bee67058012">
+      <property name="CardNumber" value="58012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Aerial. Avenger."/>
+      <property name="Text">If you overpaid for Firebird, put 1 rebirth counter on her.
+&lt;b&gt;Interrupt&lt;/b&gt;: When Firebird would be defeated by consequential damage, remove 1 rebirth counter from her → heal all damage from her instead.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Hawkeye" id="7eb46497-8915-4be9-b31d-7bee67058013">
+      <property name="CardNumber" value="58013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Avenger. S.H.I.E.L.D."/>
+      <property name="Text">Hawkeye enters play with 4 arrow counters on him.
+&lt;b&gt;Response&lt;/b&gt;: After an ally makes a basic thwart, remove 1 arrow counter from Hawkeye → deal 2 damage to a minion.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Scarlet Witch" id="7eb46497-8915-4be9-b31d-7bee67058014">
+      <property name="CardNumber" value="58014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Avenger. Mystic."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After you play Scarlet Witch, discard the top card of the encounter deck. If it is a treachery card, resolve its &lt;b&gt;"When Revealed"&lt;/b&gt; ability.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Sentry" id="7eb46497-8915-4be9-b31d-7bee67058015">
+      <property name="CardNumber" value="58015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Aerial. Avenger."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After Sentry enters play, search the encounter deck for a side scheme and reveal it. &lt;i&gt;(Shuffle.)&lt;/i&gt; If no side scheme was revealed this way, place 6 threat on the main scheme.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Battlefield Benevolence" id="7eb46497-8915-4be9-b31d-7bee67058016">
+      <property name="CardNumber" value="58016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Heal 2 damage from an enemy → confuse that enemy.</property>
+      <property name="Quote">"Huh? What's the trick?" —Vulture</property>
+    </card>
+    <card name="Everywhere All at Once" id="7eb46497-8915-4be9-b31d-7bee67058018">
+      <property name="CardNumber" value="58018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="-1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Aerial. Thwart."/>
+      <property name="Text">Play only if your identity has the [[Aerial]] trait.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Choose X schemes. Remove 2 threat from each chosen scheme (3 threat instead if you overpaid for this card).</property>
+    </card>
+    <card name="Stronger Together" id="7eb46497-8915-4be9-b31d-7bee67058019">
+      <property name="CardNumber" value="58019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When a character other than your hero would take any amount of damage, if that character shares a [[Trait]] with your hero, reduce that damage by your DEF.</property>
+    </card>
+    <card name="Unified Strike" id="7eb46497-8915-4be9-b31d-7bee67058020">
+      <property name="CardNumber" value="58020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When an ally uses a basic power, exhaust your hero → add your hero's matching power to that ally's power for this use. That ally does not take consequential damage for this use.</property>
+    </card>
+    <card name="Heroic Conditioning" id="7eb46497-8915-4be9-b31d-7bee67058021">
+      <property name="CardNumber" value="58021"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="justice"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Play under any player's control. Max 1 per player.
+You get +3 hit points and your hero gets +1 THW.</property>
+    </card>
+    <card name="Swordsman" id="7eb46497-8915-4be9-b31d-7bee67058022">
+      <property name="CardNumber" value="58022"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Avenger."/>
+      <property name="Text">[star] Swordsman's basic attacks gain piercing.
+&lt;b&gt;Hero Response&lt;/b&gt;: After a boost card is turned faceup during an undefended attack, declare Swordsman as the defender without exhausting him.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Jarvis" id="7eb46497-8915-4be9-b31d-7bee67058024">
+      <property name="CardNumber" value="58024"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Avenger. Persona."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After an [[Avenger]] hero changes into alter-ego form, exhaust Jarvis → choose:
+• That identity gets +2 REC until the end of the phase.
+• Discard a status card from that identity.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Caught in the Crossfire" id="7eb46497-8915-4be9-b31d-7bee67058030">
+      <property name="CardNumber" value="58030"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="aggression"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">Attach to a non-[[Elite]] minion. Max 1 per minion.
+&lt;b&gt;Interrupt&lt;/b&gt;: When a friendly character attacks, deal 1 damage to attached minion.</property>
+    </card>
+    <card name="Cameo" id="7eb46497-8915-4be9-b31d-7bee67058031">
+      <property name="CardNumber" value="58031"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="support"/>
+      <property name="Text">Setup. Max 1 per deck.
+&lt;b&gt;Setup&lt;/b&gt;: Search your collection for an identity-specific ally for an identity not in this game. Shuffle that ally into your deck. Discard 2 cards from your hand and remove this card from the game.</property>
+    </card>
+    <card name="Coordinated Effort" id="7eb46497-8915-4be9-b31d-7bee67058032">
+      <property name="CardNumber" value="58032"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">Attach to an encounter card in play. Max 1 per encounter card.
+While paying costs on attached card, any player may help pay those costs.</property>
+    </card>
+    <card name="Disarming Defense" id="7eb46497-8915-4be9-b31d-7bee67058033">
+      <property name="CardNumber" value="58033"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="protection"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Defense."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(defense)&lt;/i&gt;: When your hero defends against an attack, it gets +2 DEF for that attack. If you take no damage from that attack, discard an attachment on the attacking enemy with the text "&lt;b&gt;Hero Action&lt;/b&gt;" or "&lt;b&gt;Hero Response&lt;/b&gt;".</property>
+    </card>
+    <card name="Avengers Compound" id="7eb46497-8915-4be9-b31d-7bee67058034">
+      <property name="CardNumber" value="58034"/>
+      <property name="Position" value="34"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Avenger. Location."/>
+      <property name="Text">Play only if your identity has the [[Avenger]] trait. Max 1 per deck.
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Avengers Compound → choose: tuck 1 ally from your hand here if there is no ally tucked here, or play the ally tucked here as if it were in your hand.</property>
+    </card>
+    <card name="Pacifism" id="7eb46497-8915-4be9-b31d-7bee67058025" size="EncounterCard">
+      <property name="CardNumber" value="58025"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="wonder_man"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Simon Williams player.&lt;/i&gt;&lt;/b&gt;
+Wonder Man cannot attack.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Simon Williams or discard 3 cards tucked under Ionic Physiology → discard this card.</property>
+    </card>
+    <card name="Grim Reaper" id="7eb46497-8915-4be9-b31d-7bee67058026" size="EncounterCard">
+      <property name="CardNumber" value="58026"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="wonder_man_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Cyborg."/>
+      <property name="Text">Quickstrike.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Grim Reaper attacks and defeats an ally, deal that ally's controller a facedown encounter card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Brother vs. Brother" id="7eb46497-8915-4be9-b31d-7bee67058027" size="SchemeCard">
+      <property name="CardNumber" value="58027"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="wonder_man_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">As an additional cost to attack Grim Reaper, you must discard 1 card from your hand.</property>
+      <property name="Quote">"If only you were my real brother...instead of this monstrosity you've become." —Grim Reaper</property>
+    </card>
+    <card name="Scythe Strike" id="7eb46497-8915-4be9-b31d-7bee67058028" size="EncounterCard">
+      <property name="CardNumber" value="58028"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="wonder_man_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If Grim Reaper is in play, he activates against you. Otherwise, take 2 indirect damage.</property>
+      <property name="Quote">"Nothing will get in my way!" —Grim Reaper</property>
+    </card>
+    <card name="Death Cannot Die" id="7eb46497-8915-4be9-b31d-7bee67058029" size="EncounterCard">
+      <property name="CardNumber" value="58029"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="wonder_man_nemesis"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Grim Reaper activates against you. If Grim Reaper is not in play, find him and reveal him.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: If Grim Reaper is in play, he activates against you &lt;i&gt;(after this activation)&lt;/i&gt;.</property>
+    </card>
+  </cards>
+</set>

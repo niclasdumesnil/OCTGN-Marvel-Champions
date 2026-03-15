@@ -7912,6 +7912,174 @@
     "pack_octgn_id": "e09a8f87-88ee-4702-ada2-3ea1e5717e63"
   },
   {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206401",
+    "name": "Quoi",
+    "type": "villain",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064001",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206416",
+    "name": "Organic Portal",
+    "type": "side_scheme",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064016",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206402",
+    "name": "Quoi",
+    "type": "villain",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064002",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206403",
+    "name": "Quoi",
+    "type": "villain",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064003",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206404a",
+    "name": "Blue Area of the Moon",
+    "type": "main_scheme",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064004",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206404b",
+    "name": "Blue Area of the Moon",
+    "type": "main_scheme",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064004",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206405a",
+    "name": "Battle for Wakanda",
+    "type": "main_scheme",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064005",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206405b",
+    "name": "Battle for Wakanda",
+    "type": "main_scheme",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064005",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206406",
+    "name": "Deadly Vines",
+    "type": "attachment",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064006",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206407",
+    "name": "Swordsman",
+    "type": "minion",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064007",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206408",
+    "name": "Quoi's Golden Sword",
+    "type": "attachment",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064008",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206409",
+    "name": "Wooden Shackles",
+    "type": "attachment",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064009",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206410",
+    "name": "Cotati Warrior",
+    "type": "minion",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064010",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206411",
+    "name": "Excruciating Release",
+    "type": "treachery",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064011",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206412",
+    "name": "Growth Spurt",
+    "type": "treachery",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064012",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206413",
+    "name": "Seize Control",
+    "type": "treachery",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064013",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206414",
+    "name": "Cotati Empyre",
+    "type": "side_scheme",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064014",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206415",
+    "name": "Green Domain",
+    "type": "side_scheme",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064015",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206417",
+    "name": "Body Takeover",
+    "type": "attachment",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064017",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206418",
+    "name": "Cotati Wizard",
+    "type": "minion",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064018",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
+    "pack_code": "celestial_messiah_by_cpstcorp",
+    "card_id": "206419",
+    "name": "She-hulk",
+    "type": "minion",
+    "octgn_id": "7d62609a-0b1f-4144-96b4-97972c064019",
+    "pack_octgn_id": "7d62609a-0b1f-4144-96b4-97972c383346"
+  },
+  {
     "pack_code": "core",
     "card_id": "01001a",
     "name": "Spider-Man",
@@ -33656,6 +33824,134 @@
     "pack_octgn_id": "104e1218-df9b-43f7-93e0-ca2ef997967d"
   },
   {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206501a",
+    "name": "Nightwing",
+    "type": "hero",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065001",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206501b",
+    "name": "Dick Grayson",
+    "type": "alter_ego",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065001",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206502",
+    "name": "Batman",
+    "type": "ally",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065002",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206503",
+    "name": "Escrima Sticks",
+    "type": "upgrade",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065003",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206504",
+    "name": "Flying Trapeze",
+    "type": "upgrade",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065004",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206505",
+    "name": "Attacrobatics",
+    "type": "upgrade",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065005",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206506",
+    "name": "Grappling Hook",
+    "type": "upgrade",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065006",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206507",
+    "name": "Ready for Anything",
+    "type": "event",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065007",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206508",
+    "name": "Untouchable",
+    "type": "event",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065008",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206509",
+    "name": "Nightstrike",
+    "type": "event",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065009",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206510",
+    "name": "Oracle",
+    "type": "support",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065010",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206511",
+    "name": "Orphaned",
+    "type": "obligation",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065011",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206512",
+    "name": "The Man Who Collects Hearts",
+    "type": "side_scheme",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065012",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206513",
+    "name": "Heartless",
+    "type": "minion",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065013",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206514",
+    "name": "Tear out your Heart",
+    "type": "treachery",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065014",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
+    "pack_code": "nightwing_by_ripper3",
+    "card_id": "206515",
+    "name": "Beating Heart",
+    "type": "treachery",
+    "octgn_id": "5c9e6e36-5868-4171-aacc-18a7d7065015",
+    "pack_octgn_id": "5c9e6e36-5868-4171-aacc-18a7d711f63d"
+  },
+  {
     "pack_code": "nova",
     "card_id": "28001a",
     "name": "Nova",
@@ -37716,7 +38012,7 @@
     "card_id": "52015",
     "name": "",
     "type": "",
-    "octgn_id": "",
+    "octgn_id": "25cf07ae-e8ab-4443-8040-672bd2052015",
     "pack_octgn_id": "25cf07ae-e8ab-4443-8040-672bd25d635a"
   },
   {
@@ -43734,6 +44030,150 @@
     "type": "minion",
     "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030038",
     "pack_octgn_id": "5f189d1d-2352-41cc-b285-a4c687da51de"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206301a",
+    "name": "Spider-boy",
+    "type": "hero",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063001",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206301b",
+    "name": "Bailey Briggs",
+    "type": "alter_ego",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063001",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206302",
+    "name": "Spider-girl",
+    "type": "ally",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063002",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206303",
+    "name": "Bugflip",
+    "type": "event",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063003",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206304",
+    "name": "Dine And Dash",
+    "type": "event",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063004",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206305",
+    "name": "Paralyzing Bite",
+    "type": "event",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063005",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206306",
+    "name": "Thwipless",
+    "type": "event",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063006",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206307",
+    "name": "Christina Xu",
+    "type": "support",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063007",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206308",
+    "name": "Friends We Made",
+    "type": "support",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063008",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206309",
+    "name": "Tabitha Briggs",
+    "type": "support",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063009",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206310",
+    "name": "Bug-pack",
+    "type": "upgrade",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063010",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206311",
+    "name": "Psychic Spider-sense",
+    "type": "upgrade",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063011",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206313",
+    "name": "Madame Monstrosity",
+    "type": "minion",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063013",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206314",
+    "name": "The Farm",
+    "type": "side_scheme",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063014",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206315",
+    "name": "Boy-spider",
+    "type": "minion",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063015",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206316",
+    "name": "Hellifino",
+    "type": "minion",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063016",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206317",
+    "name": "Mr. Bobo",
+    "type": "minion",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063017",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
+  },
+  {
+    "pack_code": "spider_boy_by_hax",
+    "card_id": "206312",
+    "name": "Origin Story Trauma",
+    "type": "obligation",
+    "octgn_id": "32e33e64-1e00-48df-85b0-48040f063012",
+    "pack_octgn_id": "32e33e64-1e00-48df-85b0-48040fad465d"
   },
   {
     "pack_code": "spider_man_noir_by_matty",
@@ -50146,24 +50586,24 @@
   {
     "pack_code": "venompool_by_cptscorp",
     "card_id": "206217",
-    "name": "Energy",
-    "type": "resource",
+    "name": "",
+    "type": "",
     "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062017",
     "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
   },
   {
     "pack_code": "venompool_by_cptscorp",
     "card_id": "206218",
-    "name": "Genius",
-    "type": "resource",
+    "name": "",
+    "type": "",
     "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062018",
     "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
   },
   {
     "pack_code": "venompool_by_cptscorp",
     "card_id": "206219",
-    "name": "Strength",
-    "type": "resource",
+    "name": "",
+    "type": "",
     "octgn_id": "0c714380-7fb9-4a28-9c0f-872b09062019",
     "pack_octgn_id": "0c714380-7fb9-4a28-9c0f-872b0924c970"
   },

@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Nightwing" id="5c9e6e36-5868-4171-aacc-18a7d711f63d" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="5c9e6e36-5868-4171-aacc-18a7d7000000" name="nightwing_by_ripper3">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="nightwing_by_ripper3"/>
+    </card>
+    <card id="5c9e6e36-5868-4171-aacc-18a7d7990000" name="nightwing_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="nightwing_by_ripper3_nemesis"/>
+    </card>
+    <card name="Nightwing" id="5c9e6e36-5868-4171-aacc-18a7d7065001">
+      <property name="CardNumber" value="206501a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="nightwing_by_ripper3"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="3"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Bat-Family. Titan."/>
+      <property name="Text">If there are more than 4 tucked cards here, discard all but 4 of those cards.
+&lt;i&gt;Master Detective&lt;/i&gt; — &lt;b&gt;Response:&lt;/b&gt; After you cancel any effects of a revealed encounter card, tuck that card under here from the encounter discard pile and draw 2 cards.
+&lt;i&gt;“We should all live for the moment. It could be our last.”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Dick Grayson" type="b">
+        <property name="CardNumber" value="206501b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="nightwing_by_ripper3"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Civilian."/>
+        <property name="Text">If there are more than 4 tucked cards here, discard all but 4 of those cards.
+&lt;b&gt;Setup:&lt;/b&gt; Search your deck and discard pile for the Escrima Sticks upgrade and add it to your hand.
+&lt;i&gt;“A pupil is only as good as his teacher... and I had the best there is.”&lt;/i&gt;</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Batman" id="5c9e6e36-5868-4171-aacc-18a7d7065002">
+      <property name="CardNumber" value="206502"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="nightwing_by_ripper3"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Bat-Family."/>
+      <property name="Text">Reduce the cost to play Batman by 1 for each card tucked under your identity.
+&lt;b&gt;Response&lt;/b&gt;: After Batman enters play, choose to tuck the top card of the encounter deck under your identity or confuse the villain.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Escrima Sticks" id="5c9e6e36-5868-4171-aacc-18a7d7065003">
+      <property name="CardNumber" value="206503"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="nightwing_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">Restricted.
+&lt;b&gt;Response&lt;/b&gt;: After you cancel the boost icons or a “&lt;b&gt;Boost&lt;/b&gt;” ability on a boost card, tuck that card under your identity from the encounter discard pile and deal 2 damage to an enemy.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Flying Trapeze" id="5c9e6e36-5868-4171-aacc-18a7d7065004">
+      <property name="CardNumber" value="206504"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="nightwing_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Aerial. Tech."/>
+      <property name="Text">Nightwing gets +1 THW and gains the [[aerial]] trait.
+&lt;b&gt;Hero Response:&lt;/b&gt; After you tuck a card under Nightwing, ready him.
+&lt;i&gt;“He'd fly through the air with the greatest of ease...”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Attacrobatics" id="5c9e6e36-5868-4171-aacc-18a7d7065005">
+      <property name="CardNumber" value="206505"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="nightwing_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Preparation. Skill."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: When a boost card is turned faceup, discard Attacrobatics → cancel the boost icons on that card. Deal 1 damage to the villain for each boost icon canceled this way.
+&lt;i&gt;“You think I'm letting you walk away?”&lt;/i&gt;</property>
+    </card>
+    <card name="Grappling Hook" id="5c9e6e36-5868-4171-aacc-18a7d7065006">
+      <property name="CardNumber" value="206506"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="nightwing_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Preparation. Tech."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you reveal a treachery, discard Grappling Hook → cancel the effects of that treachery and discard it.
+&lt;i&gt;“Whenever someone asked what power they wish they had, flying is always at the top of my list... but I have to admit, I've learned to love falling too.”&lt;/i&gt;</property>
+    </card>
+    <card name="Ready for Anything" id="5c9e6e36-5868-4171-aacc-18a7d7065007">
+      <property name="CardNumber" value="206507"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="nightwing_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you reveal a card from the encounter deck, cancel all of its effects and discard it.
+&lt;b&gt;Hero Action:&lt;/b&gt; Ready Nightwing.
+&lt;i&gt;“Huh, I'm just too damn good at this.”&lt;/i&gt;</property>
+    </card>
+    <card name="Untouchable" id="5c9e6e36-5868-4171-aacc-18a7d7065008">
+      <property name="CardNumber" value="206508"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="nightwing_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Defense. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt &lt;/b&gt;&lt;i&gt;(defense/thwart)&lt;/i&gt;: When a boost card is turned face up while an enemy attacks, cancel all icons ([star] and [boost]) on that card (including any “&lt;b&gt;Boost&lt;/b&gt;” effects). Then, remove 1 threat from among schemes in play for each icon canceled this way.</property>
+    </card>
+    <card name="Nightstrike" id="5c9e6e36-5868-4171-aacc-18a7d7065009">
+      <property name="CardNumber" value="206509"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="nightwing_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Exhaust Escrima Sticks → deal 4 damage among enemies in play and discard up to 4 cards tucked under Nightwing. This attack deals 1 additional damage for each icon ([boost] or [star]) discarded this way.</property>
+    </card>
+    <card name="Oracle" id="5c9e6e36-5868-4171-aacc-18a7d7065010">
+      <property name="CardNumber" value="206510"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="nightwing_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Genius. Persona."/>
+      <property name="Text">Your identity gains the [[spy ]]trait.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Oracle→ tuck the top card of the encounter deck under Dick Grayson. Heal 1 damage from Dick Grayson.
+&lt;i&gt;“Oracle and Nightwing. Batgirl and Robin. Dick and Babs. Forever.”
+&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Orphaned" id="5c9e6e36-5868-4171-aacc-18a7d7065011" size="EncounterCard">
+      <property name="CardNumber" value="206511"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="nightwing_by_ripper3"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">You may flip to alter-ego form. Choose:
+Exhaust Dick Grayson → remove Orphaned from the game.
+Discard each card tucked beneath your identity. If no cards were discarded this way, this card gains surge. Discard this obligation.</property>
+    </card>
+    <card name="The Man Who Collects Hearts" id="5c9e6e36-5868-4171-aacc-18a7d7065012" size="SchemeCard">
+      <property name="CardNumber" value="206512"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="nightwing_by_ripper3_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;i&gt;“I want this city to feel hope. Then I want to take that all away.”
+&lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: Each player places a card with a printed [physical] resource from their hand facedown here. If they cannot, they place 1 threat here.
+ [acceleration]
+ &lt;i&gt;
+&lt;/i&gt;</property>
+    </card>
+    <card name="Heartless" id="5c9e6e36-5868-4171-aacc-18a7d7065013" size="EncounterCard">
+      <property name="CardNumber" value="206513"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="nightwing_by_ripper3_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">Heartless gets +2 hit points for each printed [physical] resource tucked under him.
+&lt;b&gt;When Revealed:&lt;/b&gt;&lt;i&gt; &lt;/i&gt;Discard cards from the top of your deck until you discard a printed [physical] resource. Tuck that card under Heartless.
+&lt;i&gt;(Nightwing's nemesis minion.)
+“Is there someone who will miss you? ...Good”&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Tear out your Heart" id="5c9e6e36-5868-4171-aacc-18a7d7065014" size="EncounterCard">
+      <property name="CardNumber" value="206514"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="nightwing_by_ripper3_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">In expert mode, this cannot be canceled.
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard cards from the top of your deck until you discard a printed [physical] resource. Tuck that card under Heartless. If you cannot, this card gains surge.</property>
+    </card>
+    <card name="Beating Heart" id="5c9e6e36-5868-4171-aacc-18a7d7065015" size="EncounterCard">
+      <property name="CardNumber" value="206515"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="nightwing_by_ripper3_nemesis"/>
+      <property name="Text">In expert mode, this cannot be canceled.
+&lt;b&gt;When Revealed&lt;/b&gt;: If Heartless is not in play, search the encounter deck and discard pile for him and reveal him. Then, tuck each card with a printed [physical] resource from your hand under Heartless.</property>
+    </card>
+  </cards>
+</set>

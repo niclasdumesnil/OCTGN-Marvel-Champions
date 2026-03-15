@@ -1,0 +1,12 @@
+[ZIP TRACE START]
+Starting zip recursion from: C:\github\OCTGN-Marvel-Champions\octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046
+Checking dir: C:\github\OCTGN-Marvel-Champions\octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046
+Zipping Directory: C:\github\OCTGN-Marvel-Champions\octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets
+Checking dir: C:\github\OCTGN-Marvel-Champions\octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets
+Zipping Directory: C:\github\OCTGN-Marvel-Champions\octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\5c9e6e36-5868-4171-aacc-18a7d711f63d
+Checking dir: C:\github\OCTGN-Marvel-Champions\octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\5c9e6e36-5868-4171-aacc-18a7d711f63d
+Zipping Directory: C:\github\OCTGN-Marvel-Champions\octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\5c9e6e36-5868-4171-aacc-18a7d711f63d\Cards
+Checking dir: C:\github\OCTGN-Marvel-Champions\octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\5c9e6e36-5868-4171-aacc-18a7d711f63d\Cards
+Zipping File: C:\github\OCTGN-Marvel-Champions\octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\5c9e6e36-5868-4171-aacc-18a7d711f63d\Cards\5c9e6e36-5868-4171-aacc-18a7d7065001.b.jpg
+Zipping File: C:\github\OCTGN-Marvel-Champions\octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\5c9e6e36-5868-4171-aacc-18a7d711f63d\Cards\5c9e6e36-5868-4171-aacc-18a7d7065001.jpg
+Successfully created O8C archive: nightwing_by_ripper3-images.o8c

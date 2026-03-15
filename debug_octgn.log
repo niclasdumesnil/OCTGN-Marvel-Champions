@@ -1,0 +1,233 @@
+--- create_image_ref.py ---
+STDOUT:
+Nombre de cartes : 6716
+
+STDERR:
+
+
+--- set_image.py ---
+STDOUT:
+Nombre d'images dans le r�pertoire source 'mcdb_images': 33
+[TRACE DOSSIER] pack_id= (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=7146ec51-0500-47b8-9c64-cba3ab051845 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=db923053-d92c-4454-b573-ecb998d60fba (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=5db83ac0-b4a3-49d3-b135-e6143d144cf3 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=fa335428-d9ec-4c0d-8309-bc17699c7814 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=fb5e24e2-4df6-4512-9638-fd350335fb3b (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=2c10b8ef-af46-4fdf-9a74-0ac2fa5f008c (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=2b778323-b4d9-4567-999d-42e7def75dde (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=c9f54c39-12b4-5377-ace0-55551b1f825a (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=255a9090-1868-5a70-a084-7e646dc54737 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=670dd6af-ef0f-4494-b1ec-4a405becbe36 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=08cf8438-8367-43e7-8443-46836f7974e4 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=1ab538aa-6ad1-4d9d-83a6-3ebc3aa25a34 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=dea583bf-554b-43c8-a6ed-a44782094ad1 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=0035c164-5de7-4b2e-bb80-d49e4b2e67d0 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=104e1218-df9b-43f7-93e0-ca2ef997967d (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=fe0387fe-86cb-5d1b-a634-a303f0c017c5 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=6db56efb-88fb-5b74-9dc8-c546b403121e (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=d8b7361a-9c4e-5d26-afe4-adb3e10c7159 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=61039cd6-e30d-4e50-9019-0960e40385f4 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=0a6276d1-079f-4b56-83f6-da46aa177d8d (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=07933d8a-ba60-4386-a929-9c1c2fb6a56a (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=744249b2-f7f3-55df-8f1a-69a48606a411 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=0c714380-7fb9-4a28-9c0f-872b0924c970 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=46209500-1ae1-452b-81d7-0a0447e7b505 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=d44cc126-0575-463f-8a1e-f59476be71a5 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=f7eaac08-b459-4b76-a5e4-a87bce22e990 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=5fbe8550-ee38-5775-83b2-91ddfb1b4786 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=ab4e6448-4f17-5734-8f18-f41e30c00f09 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=c0882996-24cb-4ead-aa2b-89052c8a4545 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=5c9e6e36-5868-4171-aacc-18a7d711f63d (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=7d62609a-0b1f-4144-96b4-97972c383346 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=3de3869c-3b99-58d1-b7bc-198e3f414e84 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=88687068-70fb-478f-9a86-282477727842 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=2bb9367c-944e-4475-b643-6a84c3214443 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=a9f65411-f86b-48a8-bcac-0564be7f1ab9 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=a1825670-a77e-4e37-89e8-9e629bc7892e (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=733d90e1-16db-4601-8e3f-cd07065ae0e0 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=e09a8f87-88ee-4702-ada2-3ea1e5717e63 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=28899df2-c1e3-40db-be05-f45307341541 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=85ef87e7-7618-4420-b85f-fdf2bde6743e (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=9d9ef955-af76-4493-901a-65288d7649dd (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=e1ad8fbe-b7e2-48f0-96ea-40362c3184da (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=f1524875-8b14-4a9a-9249-85a09874dd9d (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=01625c2e-06c7-4321-bfd4-9abdc6877046 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=9959d3ea-b7fa-4688-95f7-e75d379d67ed (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=e2cb5690-df32-4c1d-94f0-0d65a685b669 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=3b31a2f9-936d-4a99-ba71-8e05987037e9 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=47d34c5d-5319-45a9-a2d6-1fb975198ec7 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=4cae2254-7233-5851-a397-e5f8f098edd7 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=523dd7c3-884e-4eae-a2a6-df5be0ad30be (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=cbfcb70f-a855-4068-b02f-81680487e73c (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=8a2b541d-69d6-5c7a-b1b2-5827487cdc56 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=00276b7e-a61c-4dbb-b503-f849f395b101 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=7eb46497-8915-4be9-b31d-7bee67842bce (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=2ede8afd-13d6-42ae-b6a4-df1336220174 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=7da2a29c-3abd-4e3b-b36e-9f140c958773 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=62f6ed57-a6a4-4598-bf0f-f9005d21bb50 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=7f9b9b69-72b7-477d-9891-b4856c642572 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=2ff1dcda-c503-479c-9a9e-22f9ba24a941 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=5b7da011-412e-452a-9edd-24618a8bae2c (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=3c32a2ff-6778-5c4b-b798-56f15ea8fda8 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=4335882a-0e8e-4f98-a7a0-0a418fae8253 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=a609960e-607c-5889-921f-5e725e65ce5b (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=8a4a4ea7-f221-51fd-9475-1d693cfab27e (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=f8fe0d39-7068-4fbd-9901-6ba095105f07 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=68071830-cf71-4497-a47d-19c19f5fb6fc (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=188a98aa-e714-56cf-92f0-8ccdf523996d (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=dc47d9b6-c518-4972-b8bf-a1e1ab9d9f23 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=663cb632-e6c8-4e94-8676-a8e0ca895722 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=91abeb34-d8d2-483b-976c-03c9c6e4e138 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=6577554c-f04a-47cd-bff5-3debd97b0712 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=eb348cf3-57f3-52ef-acc9-fab07a470154 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=ac7a05f3-6dfd-4966-add6-4156a24ec16b (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=761b938d-d5c8-4606-84a6-9400d6e42738 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=ec67f058-3ad2-45b0-accc-7d9b34aa9bd9 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=a4082154-3c42-520c-ade7-5ee1eca38441 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=7d79f086-4f07-4d2b-86fc-4bbd0133cd1f (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=aa79499f-88a2-4fcc-92da-408c9e146488 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=65f91d01-99db-4c7e-814f-28ddf0e91d6d (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=1c7b60ea-0ca6-574b-9cd5-254b7a124186 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=e5d7526b-ccb9-4ade-8a41-2bc08bd22eca (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=381bd788-111a-5f4f-a3eb-bcb150fa67c5 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=f1a61e48-5b90-49e0-b3e5-b7bc937b5176 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=57c51749-3457-48bc-a9fe-97d1e6a28983 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=d2407046-eb8c-5483-99d6-c7f3b237af34 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=b7546cdd-468b-4441-b605-a8ec1bc7612d (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=52b14ebe-d3fe-402d-93d4-eace2a1b7f8e (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=9612581e-ee76-46fb-89b7-71ae7aac08d7 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=65becd33-a610-4313-9d2f-27670e9a4c1e1 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=117aee27-3fe8-40ce-a654-ae4344fc53c2 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=98ea4e68-1cb4-49ae-80a0-74f41a944c47 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=e9c1eef1-7d5d-483e-b57a-5822d2f3d266 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=7f59dfc0-ebe6-572b-bdb0-e58e87aca1c1 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=47edd197-7b0b-4941-b4a4-801f0a1baa41 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=6c7d476a-f54a-4e3c-b3ac-118c038671c7 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=f3ee0950-3220-468c-9735-3b1dcb9694b7 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=22b2ebb7-99cf-4402-930c-c080191f1036 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=07741c02-2afb-5d7c-8088-7da43783c0c3 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=32e33e64-1e00-48df-85b0-48040fad465d (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=8e74fa84-01d6-42e0-8b7d-b02638e96f5c (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=56b64e85-e416-4ec5-83e2-4bbd16acf52c (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=3a0370be-2e45-4783-9b7e-2d43b1fc0ed2 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=e6ccc9ba-8b6c-4ec8-a650-18a6ca703cff (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=b8975c82-2e76-4226-9b7e-56851cec5822 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=cd4be2b6-ce23-48c1-be04-17bab80b3a1b (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=c9c9899a-e4d2-412f-9dd0-dd6f3b2108cf (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=8d26c7dd-a46e-44de-b0a1-04ad31f68390 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=b1c7df6c-7f34-5ff7-bf32-9c58db219efd (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=6a999490-11a8-4533-9c1e-d53b00f48ec0 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=5f189d1d-2352-41cc-b285-a4c687da51de (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=75156e6a-46eb-4164-9986-e466213e2c4d (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=9709f455-364f-4f8e-8140-3ed8b439babb (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=41907c5a-42a5-11f0-9fe2-0242ac120002 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=5f69f8a1-6e2a-4995-b4fb-de4864a6dfe6 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=2eff4402-8e17-48f6-b378-5a1ccd2ad9dd (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=7bdcef20-83cc-47aa-a505-c601f5b57c6b (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=15bee02e-f628-5492-9f96-3be16dd0aa3a (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=c987fcbc-c4d3-51c2-a88f-db10fac8fe41 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=8ed5030f-bb57-4682-aad0-fc5f5368cc77 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=616b40dd-052c-455d-a2bd-fc8b4758a94a (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=a23e01f9-a42f-416f-a779-f919be0544de (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=3b2a4c53-6d51-4b16-8342-db9b9e1e6c8a (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=e4e959c3-c409-44ea-8bba-46addf9c4b4b (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=05fd8eaf-b53e-4c8a-a179-ee1eb37c0122 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=c56be783-1536-4416-bfad-269f534366b0 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=4d588cb6-81f7-4fc7-afcf-7c79e2dde833 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=25cf07ae-e8ab-4443-8040-672bd25d635a (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=2315a5c8-a4cd-4932-96b2-53901c880860 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=775cc394-70e0-4a37-bb3b-5a13b47c9e31 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=c89b0fd0-7794-55b7-8314-a57faf4202e6 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=fdf03832-04ba-4026-a82a-e07b84fab7a6 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=81d41f69-1640-51c5-ace6-3177e599f78e (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=f909454d-57e7-4b92-b698-4eb76860135d (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=9b407333-e221-495f-a145-e5a9b405a0f3 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=7e399030-8d69-490f-9fd4-dafa6b293a51 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=bddee479-23cf-4576-b33c-c95ee9f3cc96 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=cd491a1d-b192-4cd5-8a50-6f9093f271ee (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=eb5252a6-d631-49b7-a562-b88b234c58d5 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=03bdcc46-22c1-4a7f-8ca7-e212d52c301a (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=f9e02f2d-7506-48d4-aa64-65e059ff47f3 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=4010e194-df1c-477e-852e-3a2adf07ea10 (type=<class 'str'>)
+[TRACE DOSSIER] pack_id=69713448-33d2-470b-99bd-e119346cfc27 (type=<class 'str'>)
+[AVERTISSEMENT] Image ignor�e : card_id=500770 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007070) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500771 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007071) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500772 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007072) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500773 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007073) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500774 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007074) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500775 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007075) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500776 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007076) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500777 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007077) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500778 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007078) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500779 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007079) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500780 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007080) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500781 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007081) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500782a (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007082) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500782b (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007082) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500783a (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007083) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500783b (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007083) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500784a (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007084) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500784b (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007084) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500785a (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007085) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500785b (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007085) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500786 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007086) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500787 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007087) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500788 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007088) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500789 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007089) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500790 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007090) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500791 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007091) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500792 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007092) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500793 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007093) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500794 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007094) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500795 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007095) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500796 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007096) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500797 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007097) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500798 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007098) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500799 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007099) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500800 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007100) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500801 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007101) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500802 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007102) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500803 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007103) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500804 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007104) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500805 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007105) n'a pas de pack_octgn_id.
+[AVERTISSEMENT] Image ignor�e : card_id=500806 (octgn_id=af7d7f42-b69a-4c2a-9f9d-f327cd007106) n'a pas de pack_octgn_id.
+Copi� mcdb_images\58001a.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058001.jpg
+Copi� mcdb_images\58001b.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058001.b.jpg
+Copi� mcdb_images\58002.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058002.jpg
+Copi� mcdb_images\58003.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058003.jpg
+Copi� mcdb_images\58004.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058004.jpg
+Copi� mcdb_images\58005.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058005.jpg
+Copi� mcdb_images\58006.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058006.jpg
+Copi� mcdb_images\58007.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058007.jpg
+Copi� mcdb_images\58008.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058008.jpg
+Copi� mcdb_images\58009.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058009.jpg
+Copi� mcdb_images\58010.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058010.jpg
+Copi� mcdb_images\58011.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058011.jpg
+Copi� mcdb_images\58012.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058012.jpg
+Copi� mcdb_images\58013.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058013.jpg
+Copi� mcdb_images\58014.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058014.jpg
+Copi� mcdb_images\58015.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058015.jpg
+Copi� mcdb_images\58016.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058016.jpg
+Copi� mcdb_images\58018.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058018.jpg
+Copi� mcdb_images\58019.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058019.jpg
+Copi� mcdb_images\58020.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058020.jpg
+Copi� mcdb_images\58021.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058021.jpg
+Copi� mcdb_images\58022.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058022.jpg
+Copi� mcdb_images\58024.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058024.jpg
+Copi� mcdb_images\58030.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058030.jpg
+Copi� mcdb_images\58031.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058031.jpg
+Copi� mcdb_images\58032.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058032.jpg
+Copi� mcdb_images\58033.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058033.jpg
+Copi� mcdb_images\58034.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058034.jpg
+Copi� mcdb_images\58025.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058025.jpg
+Copi� mcdb_images\58026.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058026.jpg
+Copi� mcdb_images\58027.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058027.jpg
+Copi� mcdb_images\58028.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058028.jpg
+Copi� mcdb_images\58029.jpg -> octgn_images\055c536f-adba-4bc2-acbf-9aefb9756046\Sets\7eb46497-8915-4be9-b31d-7bee67842bce\Cards\7eb46497-8915-4be9-b31d-7bee67058029.jpg
+Nombre de cartes copi�es : 33
+Import Termin�.
+Nettoyage termin�.
+
+STDERR:
+

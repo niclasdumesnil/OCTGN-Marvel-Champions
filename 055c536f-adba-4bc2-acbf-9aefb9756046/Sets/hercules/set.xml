@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Hercules" id="01625c2e-06c7-4321-bfd4-9abdc6877046" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card name="Hercules" id="01625c2e-06c7-4321-bfd4-9abdc6059001">
+      <property name="CardNumber" value="59001a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="hercules"/>
+      <property name="HandSize" value="4"/>
+      <property name="Thwart" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="14"/>
+      <property name="Attribute" value="Avenger. Olympus."/>
+      <property name="Text">&lt;i&gt;Atonement&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After a [[labor]] card is added to the victory display, put the top card of the [[gift]] deck into play. Ready Hercules. You may flip to alter-ego form. (Limit once per phase.)</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Hercules" type="b">
+        <property name="CardNumber" value="59001b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="hercules"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="HP" value="14"/>
+        <property name="Attribute" value="Olympus."/>
+        <property name="Text">Hercules begins the game with a [[labor]] deck and a [[gift]] deck. &lt;i&gt;(See insert.)&lt;/i&gt;
+&lt;i&gt;New Labors of Hercules&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: If there is no [[labor]] card in play, reveal the top card of the [[labor]] deck.</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Defeat the Hydra" id="01625c2e-06c7-4321-bfd4-9abdc6059002" size="EncounterCard">
+      <property name="CardNumber" value="59002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="attachment"/>
+       <property name="DefaultSetupPile" value="Setup"/>
+      <property name="Owner" value="hercules_labor_deck"/>
+      <property name="Attribute" value="Labor."/>
+      <property name="Text">Victory 0.
+Attached minion gets +6 hit points and gains the [[Elite]] trait. Attached minion cannot take damage except from Hercules's attacks.
+&lt;b&gt;When Revealed&lt;/b&gt;: Find a non-[[Elite]] minion with at least 6 printed hit points. Reveal it, heal all damage from it, and attach this card to it.</property>
+    </card>
+    <card name="Embody Pathos" id="01625c2e-06c7-4321-bfd4-9abdc6059003" size="EncounterCard">
+      <property name="CardNumber" value="59003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="attachment"/>
+      <property name="DefaultSetupPile" value="Setup"/>
+      <property name="Owner" value="hercules_labor_deck"/>
+      <property name="Attribute" value="Labor."/>
+      <property name="Text">Victory 0.
+Attached side scheme gains assault. Threat cannot be removed from attached scheme except by Hercules's thwarts.
+&lt;b&gt;When Revealed&lt;/b&gt;: Find an encounter side scheme that is not in play and reveal it, treating each [per_hero] on it as 1, and attach this card to it. Place 6 additional threat on it.</property>
+    </card>
+    <card name="Protect Humanity" id="01625c2e-06c7-4321-bfd4-9abdc6059004" size="EncounterCard">
+      <property name="CardNumber" value="59004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="obligation"/>
+      <property name="DefaultSetupPile" value="Setup"/>
+      <property name="Owner" value="hercules_labor_deck"/>
+      <property name="Attribute" value="Labor."/>
+      <property name="Text">Uses (3 labor counters). Victory 0.
+&lt;b&gt;When Revealed&lt;/b&gt;: Find Amadeus Cho and put him into play.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the villain would attack Hercules, choose 1 of your allies. The villain attacks that ally instead. After that attack resolves, if Hercules defended, remove 1 labor counter from here.</property>
+    </card>
+    <card name="Nemean Lion Skin" id="01625c2e-06c7-4321-bfd4-9abdc6059005">
+      <property name="CardNumber" value="59005"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules_gift_deck"/>
+      <property name="DefaultSetupPile" value="Special"/>
+      <property name="Attribute" value="Artifact. Gift."/>
+      <property name="Text">Permanent.
+Hercules gets +2 hit points and gains steady.
+&lt;b&gt;Response&lt;/b&gt;: After this card enters play, draw 4 cards.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Shield of Perseus" id="01625c2e-06c7-4321-bfd4-9abdc6059006">
+      <property name="CardNumber" value="59006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules_gift_deck"/>
+      <property name="DefaultSetupPile" value="Special"/>
+      <property name="Attribute" value="Artifact. Gift."/>
+      <property name="Text">Permanent.
+Hercules gets +1 hit point and gains retaliate 1.
+&lt;b&gt;Response&lt;/b&gt;: After this card enters play, draw 4 cards.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Sword of Peleus" id="01625c2e-06c7-4321-bfd4-9abdc6059007">
+      <property name="CardNumber" value="59007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules_gift_deck"/>
+      <property name="DefaultSetupPile" value="Special"/>
+      <property name="Attribute" value="Artifact. Gift. Weapon."/>
+      <property name="Text">Permanent. Restricted.
+Hercules gets +1 hit point and his basic attacks gain piercing.
+&lt;b&gt;Response&lt;/b&gt;: After this card enters play, draw 4 cards.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Amadeus Cho" id="01625c2e-06c7-4321-bfd4-9abdc6059008">
+      <property name="CardNumber" value="59008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="ally"/>
+      <property name="Owner" value="hercules"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="HP" value="2"/>
+      <property name="Attribute" value="Genius."/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When a minion would attack you, it attacks Amadeus Cho instead.
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Amadeus Cho → draw 1 card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="The Gift of Battle" id="01625c2e-06c7-4321-bfd4-9abdc6059009">
+      <property name="CardNumber" value="59009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="hercules"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">Reduce the cost to play this card by 1 for each [[Gift]] card you control.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 5 damage to an enemy.</property>
+      <property name="Quote">"As Hercules has said countless times: have at thee!" —Hercules</property>
+    </card>
+    <card name="Son of Zeus" id="01625c2e-06c7-4321-bfd4-9abdc6059010">
+      <property name="CardNumber" value="59010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="hercules"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Olympus."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Ready Hercules. If you control at least:
+• 1 [[Gift]] card, ready an identity-specific upgrade you control.
+• 2 [[Gift]] cards, gain a tough status card.
+• 3 [[Gift]] cards, draw 1 card.</property>
+    </card>
+    <card name="Wisdom of Athena" id="01625c2e-06c7-4321-bfd4-9abdc6059011">
+      <property name="CardNumber" value="59011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="hercules"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">Reduce the cost to play this card by 1 for each [[Gift]] card you control.
+&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 4 threat from a scheme.</property>
+      <property name="Quote">"Zounds! Is that you, oh sister of mine?" —Hercules</property>
+    </card>
+    <card name="Olympus" id="01625c2e-06c7-4321-bfd4-9abdc6059012">
+      <property name="CardNumber" value="59012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="hercules"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Location. Olympus."/>
+      <property name="Text">&lt;b&gt;Resource&lt;/b&gt;: Exhaust Olympus → generate a [wild] resource for each [[Gift]] card you control.</property>
+      <property name="Quote">Although Olympus's influence may have waned since the Hellenistic period, the celebrating has not.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Gauntlets of Hercules" id="01625c2e-06c7-4321-bfd4-9abdc6059013">
+      <property name="CardNumber" value="59013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Armor. Olympus."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When Hercules defends against an attack, exhaust Gauntlets of Hercules → Hercules gains retaliate 1 for that attack for each [[Gift]] card you control.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Golden Mace" id="01625c2e-06c7-4321-bfd4-9abdc6059014">
+      <property name="CardNumber" value="59014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Olympus. Weapon."/>
+      <property name="Text">Restricted.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When Hercules makes a basic attack, exhaust Golden Mace → Hercules gets +1 ATK for this attack for each [[Gift]] card you control. This attack gains overkill.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Herc's Helm" id="01625c2e-06c7-4321-bfd4-9abdc6059015">
+      <property name="CardNumber" value="59015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Armor. Olympus."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt; &lt;i&gt;(defense)&lt;/i&gt;: When the villain attacks, exhaust Herc's Helm → reduce the amount of damage this attack deals by 1.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Lion of Olympus" id="01625c2e-06c7-4321-bfd4-9abdc6059016">
+      <property name="CardNumber" value="59016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Olympus."/>
+      <property name="Text">Temporary. &lt;i&gt;(Discard this card at the end of the round.)&lt;/i&gt;
+Your hero gets +1 THW, +1 ATK, and +1 DEF.</property>
+      <property name="Quote">Like the mighty lions native to ancient Greece, the ferocity of Hercules is incredible.</property>
+    </card>
+    <card name="Prince of Power" id="01625c2e-06c7-4321-bfd4-9abdc6059017">
+      <property name="CardNumber" value="59017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="hercules"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Olympus. Title."/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After Hercules attacks and defeats an enemy, exhaust Prince of Power → heal 1 damage from Hercules for each point of excess damage dealt to that enemy by that attack.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Deathcry" id="01625c2e-06c7-4321-bfd4-9abdc6059018">
+      <property name="CardNumber" value="59018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Avenger."/>
+      <property name="Text">[star] &lt;b&gt;Hero Interrupt&lt;/b&gt;: When Deathcry makes a basic attack, deal your hero 1 damage → Deathcry takes -1 consequential damage ([cost]) for this attack.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Namora" id="01625c2e-06c7-4321-bfd4-9abdc6059019">
+      <property name="CardNumber" value="59019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Agent of Atlas. Atlantis."/>
+      <property name="Text">[star] Namora gets +1 hit point for each other ally you control.</property>
+      <property name="Quote">"I've heard she can beat Captain Marvel in an arm wrestling contest." —Gorilla-Man</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Thor" id="01625c2e-06c7-4321-bfd4-9abdc6059020">
+      <property name="CardNumber" value="59020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="3"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Asgard. Avenger."/>
+      <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Thor makes a basic thwart, discard cards from the top of the encounter deck until you discard a minion. Put that minion into play engaged with you.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Recruitment Drive" id="01625c2e-06c7-4321-bfd4-9abdc6059023">
+      <property name="CardNumber" value="59023"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="support"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Text">Alter-ego form only.
+&lt;b&gt;Action&lt;/b&gt;: Discard Recruitment Drive and choose a player → reduce the resource cost of the next ally that player plays this phase to 0.</property>
+    </card>
+    <card name="&quot;Avenge Me!&quot;" id="01625c2e-06c7-4321-bfd4-9abdc6059024">
+      <property name="CardNumber" value="59024"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="leadership"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Avenger."/>
+      <property name="Text">Play only if your identity has the [[Avenger]] trait.
+Attach to an ally. Max 1 per ally.
+&lt;b&gt;Interrupt&lt;/b&gt;: When attached ally is defeated, draw 2 cards.</property>
+    </card>
+    <card name="Gilgamesh" id="01625c2e-06c7-4321-bfd4-9abdc6059025">
+      <property name="CardNumber" value="59025"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="ally"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Eternal."/>
+      <property name="Text">As an additional cost to play this card, if you do not have the [[Eternal]] trait, confuse your identity.</property>
+      <property name="Quote">Having lived for around a million years, even Gilgamesh had once forgotten who he was.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Ancient Rivalry" id="01625c2e-06c7-4321-bfd4-9abdc6059026">
+      <property name="CardNumber" value="59026"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Asgard. Olympus."/>
+      <property name="Text">Team-Up (Hercules and Thor). Max 1 per deck.
+&lt;b&gt;Hero Action&lt;/b&gt;: Search your discard pile for an identity-specific upgrade and add it to your hand. Ready Hercules and Thor.</property>
+    </card>
+    <card name="Evaluate Threat" id="01625c2e-06c7-4321-bfd4-9abdc6059028" size="PlayerSchemeCard">
+      <property name="CardNumber" value="59028"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Victory 0.
+Play only if your identity has the [[Avenger]] or [[S.H.I.E.L.D.]] trait.
+&lt;b&gt;When Defeated&lt;/b&gt;: Each player may search their deck and discard pile for an [[Avenger]] or [[S.H.I.E.L.D.]] card and add it to their hand. &lt;i&gt;(Shuffle.)&lt;/i&gt; Reduce the cost to play each of those cards by 2 until the end of the phase.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Appeal to Athena" id="01625c2e-06c7-4321-bfd4-9abdc6059035" size="EncounterCard">
+      <property name="CardNumber" value="59035"/>
+      <property name="Position" value="35"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="hercules"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Hercules player.&lt;/i&gt;&lt;/b&gt;
+When counting [[Gift]] cards you control, you are considered to control none.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Hercules or spend [mental] [mental] → remove this obligation from the game.</property>
+    </card>
+    <card name="Ares" id="01625c2e-06c7-4321-bfd4-9abdc6059036" size="EncounterCard">
+      <property name="CardNumber" value="59036"/>
+      <property name="Position" value="36"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="hercules_nemesis"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Elite. Olympus."/>
+      <property name="Text">Retaliate 1.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Ares schemes, deal yourself 1 facedown encounter card.
+&lt;i&gt;(Hercules's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Lernean Hydra" id="01625c2e-06c7-4321-bfd4-9abdc6059037" size="EncounterCard">
+      <property name="CardNumber" value="59037"/>
+      <property name="Position" value="37"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="hercules_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Creature. Hydra."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After a character you control attacks and damages Lernean Hydra, choose:
+• Spend a [physical] resource.
+• Lernean Hydra heals 2 damage.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Olympic Feud" id="01625c2e-06c7-4321-bfd4-9abdc6059038" size="SchemeCard">
+      <property name="CardNumber" value="59038"/>
+      <property name="Position" value="38"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="hercules_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 additional threat here for each [[Olympus]] card in play.</property>
+      <property name="Quote">Hercules has twice thwarted attempts to overthrow Olympus orchestrated by his uncle Pluto and half-brother Ares.</property>
+    </card>
+    <card name="Ares's Axe" id="01625c2e-06c7-4321-bfd4-9abdc6059039" size="EncounterCard">
+      <property name="CardNumber" value="59039"/>
+      <property name="Position" value="39"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="hercules_nemesis"/>
+      <property name="Attack" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Attach to Ares. Otherwise, attach to the villain.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After attached enemy attacks, if no friendly character took damage from this attack, discard this card.</property>
+      <property name="Quote">From kukri to Shi'ar sniper rifles, Ares wields every weapon with equal malice toward all.</property>
+    </card>
+    <card name="God of War" id="01625c2e-06c7-4321-bfd4-9abdc6059040" size="EncounterCard">
+      <property name="CardNumber" value="59040"/>
+      <property name="Position" value="40"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="hercules_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">Each minion attacks the player it is engaged with &lt;i&gt;(even if that player is in alter-ego form)&lt;/i&gt;. If no minion activates this way, discard cards from the top of the encounter deck until a minion is discarded and reveal that minion.</property>
+    </card>
+    <card name="All Versus All" id="01625c2e-06c7-4321-bfd4-9abdc6059041" size="SchemeCard">
+      <property name="CardNumber" value="59041"/>
+      <property name="Position" value="41"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="all_versus_all"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Text">Hinder 2[per_hero].
+&lt;b&gt;Forced Response&lt;/b&gt;: After a character is defeated, place 2 threat on this scheme.
+&lt;b&gt;When Defeated&lt;/b&gt;: Set All Versus All aside.</property>
+    </card>
+    <card name="Hecate" id="01625c2e-06c7-4321-bfd4-9abdc6059042" size="EncounterCard">
+      <property name="CardNumber" value="59042"/>
+      <property name="Position" value="42"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="all_versus_all"/>
+      <property name="Attack" value="0"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Olympus."/>
+      <property name="Text">&lt;b&gt;When Revealed/Defeated&lt;/b&gt;: Find the All Versus All side scheme and reveal it.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Hecate activates, place 2 threat on the All Versus All side scheme.</property>
+      <property name="Quote">"Those who once adored you have turned on you."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Kyknos" id="01625c2e-06c7-4321-bfd4-9abdc6059043" size="EncounterCard">
+      <property name="CardNumber" value="59043"/>
+      <property name="Position" value="43"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="all_versus_all"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="7"/>
+      <property name="Attribute" value="Brute. Olympus."/>
+      <property name="Text">Retaliate 1. Toughness. Victory 0.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Kyknos activates, place 2 threat on the All Versus All side scheme. Otherwise, place 1 threat on the main scheme.</property>
+      <property name="Quote">"The penalty of death shall be meted out by Kyknos, the son of Ares."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Bewitched Officer" id="01625c2e-06c7-4321-bfd4-9abdc6059044" size="EncounterCard">
+      <property name="CardNumber" value="59044"/>
+      <property name="Position" value="44"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="all_versus_all"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Aerial. Dragon. Enthralled."/>
+      <property name="Text">Retaliate 1.
+[star] Bewitched Officer's attacks gain piercing and ranged.</property>
+      <property name="Quote">"Hey, pull over!"</property>
+    </card>
+    <card name="Roving Mobs" id="01625c2e-06c7-4321-bfd4-9abdc6059045" size="SchemeCard">
+      <property name="CardNumber" value="59045"/>
+      <property name="Position" value="45"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="all_versus_all"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Text">Victory 0.
+&lt;b&gt;When Defeated&lt;/b&gt;: Find the All Versus All side scheme and reveal it.</property>
+      <property name="Quote">Nowhere is safe under the wargospel of All Versus All.</property>
+    </card>
+  </cards>
+</set>
