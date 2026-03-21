@@ -513,6 +513,50 @@
             <property name="Owner" value="cloak_and_dagger_modular"/>
             <property name="CW_Side" value="resistance"/>
         </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000125" name="S.H.I.E.L.D. Ops">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="shield_ops"/>
+            <property name="CW_Side" value="registration"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000126" name="Thunderbolts">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="thunderbolts_modular"/>
+            <property name="CW_Side" value="registration"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000127" name="Taskmaster">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="taskmaster_modular"/>
+            <property name="CW_Side" value="registration"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000128" name="Deadly Duo">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="deadly_duo"/>
+            <property name="CW_Side" value="registration"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000129" name="Young Avengers">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="young_avengers"/>
+            <property name="CW_Side" value="resistance"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000130" name="Scarlet Twins">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="scarlet_twins"/>
+            <property name="CW_Side" value="resistance"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000131" name="Moon Knight">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="moon_knight_modular"/>
+            <property name="CW_Side" value="resistance"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000132" name="Royal Guard">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="royal_guard"/>
+            <property name="CW_Side" value="resistance"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000000133" name="All Versus All">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="all_versus_all"/>
+        </card>
         <card id="055c536f-adba-4bc2-acbf-300000009001" name="Nemesis: Vulture">
             <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="spider_man_nemesis"/>
@@ -765,8 +809,13 @@
             <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="hulkling_nemesis"/>
         </card>
-        <card id="055c536f-adba-4bc2-acbf-300000009064" name="Nemesis: ">
+        <card id="055c536f-adba-4bc2-acbf-300000009064" name="Nemesis: Grim Reaper">
+            <property name="Type" value="encounter_setup"/>
             <property name="Owner" value="wonder_man_nemesis"/>
+        </card>
+        <card id="055c536f-adba-4bc2-acbf-300000009065" name="Nemesis: Ares">
+            <property name="Type" value="encounter_setup"/>
+            <property name="Owner" value="hercules_nemesis"/>
         </card>
     </cards>
 </set>

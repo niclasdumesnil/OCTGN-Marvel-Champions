@@ -470,5 +470,10 @@ changelog = {
         ]),
     '0000395': ("0.0.3.95", "13 December 2025", [
         "Fix: Next Villain action bug."
+        ]),
+    '0000396': ("0.0.3.96", "17 March 2026", [
+        "Synthezoid Smackdown Scenario pack added",
+        "Wonder Man Hero pack added",
+        "Hercules Hero pack added"
         ])
 }

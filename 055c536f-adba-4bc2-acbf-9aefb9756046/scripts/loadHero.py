@@ -239,6 +239,18 @@ def heroSetup(group=table, x = 0, y = 0):
             for c in filter(lambda card: card.CardNumber == "50035a", me.Deck):
                 c.moveToTable(playerX(id)+70,tableLocations['hero'][1])
 
+        # Wonder Man
+        if heroPlayed == 'wonder_man':
+            for c in filter(lambda card: card.CardNumber == "58002", me.Deck):
+                c.moveToTable(playerX(id)+70,tableLocations['hero'][1])
+
+        # Hercules
+        if heroPlayed == 'hercules':
+            createCardsFromSet(me.piles['Special'], "hercules_labor_deck", " Hercules Labor Deck", False)
+            createCardsFromSet(me.piles['Special Discard'], "hercules_gift_deck", " Hercules Gift Deck", False)
+            showGroup(me.piles['Special'], True)
+            showGroup(me.piles['Special Discard'], True)
+            me.piles['Special Discard'].visibility = "none"
 
         #------------------------------------------------------------
         # Specific Fanmade Hero setup

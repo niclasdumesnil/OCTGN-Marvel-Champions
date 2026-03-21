@@ -4,13 +4,14 @@ import os
 from os import path
 import argparse
 
-runFile = 'skrull_menace_by_kajislav'
+runFile = 'wonder_man'
+githubPath = 'C:\Github\marvelsdb-json-data'
 print(f'fm_{runFile}')  # Doit afficher fm_mystique_by_merlin
 xmlSet = None
 packName = None
 runFileList = [
-    os.path.join("datapack", runFile + ".json"),
-    os.path.join("datapack", runFile + "_encounter.json")
+    os.path.join(githubPath, "pack", runFile + ".json"),
+    os.path.join(githubPath, "pack", runFile + "_encounter.json")
 ]
 print("runFileList:", runFileList)  # TRACE: affiche la liste des fichiers traités
 
@@ -21,7 +22,7 @@ FANMADE = args.fanmade
 print("FanMade:", FANMADE)  # TRACE
 
 def getPack(set_code):
-    pack_path = os.path.join("datapack", f"{set_code}_packs.json")
+    pack_path = os.path.join(githubPath, "packs.json")
     with open(pack_path, encoding="utf-8") as pack_json_file:
         packData = json.load(pack_json_file)
         print("getPack packData:", packData)  # TRACE

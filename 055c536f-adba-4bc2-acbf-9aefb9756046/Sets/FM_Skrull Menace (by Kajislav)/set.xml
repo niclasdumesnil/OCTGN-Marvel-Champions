@@ -2132,6 +2132,7 @@ Hinder 2[per_hero].
       <property name="Attack" value="2"/>
       <property name="Scheme" value="1"/>
       <property name="HP" value="14"/>
+      <property name="HP_Per_Hero" value="True"/>
       <property name="Attribute" value="Skrull."/>
       <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After resolving step two of the villain phase, shuffle each [[superpower]] attachment from play into the [[superpower]] deck and reveal the top card of the [[superpower]] deck.&lt;i&gt;
 “This is no common miscreant you face. Mine is the combined power of the Fantastic Four!”&lt;/i&gt;</property>
@@ -2151,6 +2152,7 @@ Hinder 2[per_hero].
       <property name="Attack" value="2"/>
       <property name="Scheme" value="1"/>
       <property name="HP" value="16"/>
+      <property name="HP_Per_Hero" value="True"/>
       <property name="Attribute" value="Skrull."/>
       <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After resolving step two of the villain phase, shuffle each [[superpower]] attachment from play into the [[superpower]] deck and reveal the top 2 cards of the [[superpower]] deck.&lt;i&gt;
 “This is no common miscreant you face. Mine is the combined power of the Fantastic Four!”&lt;/i&gt;</property>
@@ -2170,6 +2172,7 @@ Hinder 2[per_hero].
       <property name="Attack" value="2"/>
       <property name="Scheme" value="2"/>
       <property name="HP" value="19"/>
+      <property name="HP_Per_Hero" value="True"/>
       <property name="Attribute" value="Skrull."/>
       <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After resolving step two of the villain phase, shuffle each [[superpower]] attachment from play into the [[superpower]] deck and reveal the top 2 cards of the [[superpower]] deck.&lt;i&gt;
 “This is no common miscreant you face. Mine is the combined power of the Fantastic Four!”&lt;/i&gt;</property>
@@ -2521,6 +2524,7 @@ Forced Response&lt;/b&gt;: After a card that belongs to the Kree-Skrull War enco
       <property name="Attack" value="2"/>
       <property name="Scheme" value="1"/>
       <property name="HP" value="13"/>
+      <property name="HP_Per_Hero" value="True"/>
       <property name="Attribute" value="Skrull."/>
       <property name="Text">Toughness.
 While the number of [[power skrull]] cards attached to Paibok is equal to or less than the number of mastery counters on him, [[power skrull]] cards cannot be discarded.
@@ -2541,6 +2545,7 @@ While the number of [[power skrull]] cards attached to Paibok is equal to or les
       <property name="Attack" value="2"/>
       <property name="Scheme" value="2"/>
       <property name="HP" value="16"/>
+      <property name="HP_Per_Hero" value="True"/>
       <property name="Attribute" value="Skrull."/>
       <property name="Text">Toughness. 
 While the number of [[power skrull]] cards attached to Paibok is equal to or less than the number of mastery counters on him, [[power skrull]] cards cannot be discarded.
@@ -2561,6 +2566,7 @@ While the number of [[power skrull]] cards attached to Paibok is equal to or les
       <property name="Attack" value="3"/>
       <property name="Scheme" value="3"/>
       <property name="HP" value="20"/>
+      <property name="HP_Per_Hero" value="True"/>
       <property name="Attribute" value="Skrull."/>
       <property name="Text">Toughness. 
 While the number of [[power skrull]] cards attached to Paibok is equal to or less than the number of mastery counters on him, [[power skrull]] cards cannot be discarded.
@@ -3017,8 +3023,9 @@ When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for The Reve
       <property name="Attack" value="1"/>
       <property name="Scheme" value="2"/>
       <property name="HP" value="15"/>
+      <property name="HP_Per_Hero" value="True"/>
       <property name="Attribute" value="God. Skrull."/>
-      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 faith counter on Kly'bn. 
+      <property name="Text">Uses (1 faith counters). &lt;b&gt;When Revealed&lt;/b&gt;: Place 1 faith counter on Kly'bn. 
 &lt;b&gt;Forced Response&lt;/b&gt;: After resolving step one of the villain phase, discard the top card of the encounter deck for each faith counter on Kly'bn. Deal the players each non-treachery card discarded this way as a facedown encounter card in player order.</property>
       <property name="Unique" value="True"/>
       <alternate name="Sl'gur't" type="b" size="VillainCard">
@@ -3035,8 +3042,9 @@ When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for The Reve
         <property name="Attack" value="2"/>
         <property name="Scheme" value="1"/>
         <property name="HP" value="15"/>
+		<property name="HP_Per_Hero" value="True"/>
         <property name="Attribute" value="God. Skrull."/>
-        <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 faith counter on Sl'gur't. 
+        <property name="Text">Uses (1 faith counters). &lt;b&gt;When Revealed&lt;/b&gt;: Place 1 faith counter on Sl'gur't. 
 &lt;b&gt;Forced Response&lt;/b&gt;: After resolving step one of the villain phase, discard the top card of the encounter deck for each faith counter on Sl'gur't. Deal the players each treachery card discarded this way as a facedown encounter card in player order.</property>
         <property name="Unique" value="True"/>
       </alternate>
@@ -3055,8 +3063,9 @@ When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for The Reve
       <property name="Attack" value="1"/>
       <property name="Scheme" value="3"/>
       <property name="HP" value="18"/>
+      <property name="HP_Per_Hero" value="True"/>
       <property name="Attribute" value="God. Skrull."/>
-      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 faith counter on Kly'bn. 
+      <property name="Text">Uses (1 faith counters). &lt;b&gt;When Revealed&lt;/b&gt;: Place 1 faith counter on Kly'bn. 
 &lt;b&gt;Forced Response&lt;/b&gt;: After resolving step one of the villain phase, discard the top card of the encounter deck for each faith counter on Kly'bn. Deal the players each non-treachery card discarded this way as a facedown encounter card in player order.</property>
       <property name="Unique" value="True"/>
       <alternate name="Sl'gur't" type="b" size="VillainCard">
@@ -3073,8 +3082,9 @@ When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for The Reve
         <property name="Attack" value="3"/>
         <property name="Scheme" value="1"/>
         <property name="HP" value="18"/>
+		<property name="HP_Per_Hero" value="True"/>
         <property name="Attribute" value="God. Skrull."/>
-        <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 faith counter on Sl'gur't. 
+        <property name="Text">Uses (1 faith counters). &lt;b&gt;When Revealed&lt;/b&gt;: Place 1 faith counter on Sl'gur't. 
 &lt;b&gt;Forced Response&lt;/b&gt;: After resolving step one of the villain phase, discard the top card of the encounter deck for each faith counter on Sl'gur't. Deal the players each treachery card discarded this way as a facedown encounter card in player order.</property>
         <property name="Unique" value="True"/>
       </alternate>
@@ -3093,8 +3103,9 @@ When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for The Reve
       <property name="Attack" value="2"/>
       <property name="Scheme" value="3"/>
       <property name="HP" value="20"/>
+      <property name="HP_Per_Hero" value="True"/>
       <property name="Attribute" value="God. Skrull."/>
-      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 faith counter on Kly'bn and give him a tough status card. 
+      <property name="Text">Toughness. Uses (1 faith counters). &lt;b&gt;When Revealed&lt;/b&gt;: Place 1 faith counter on Kly'bn and give him a tough status card. 
 &lt;b&gt;Forced Response&lt;/b&gt;: After resolving step one of the villain phase, discard the top card of the encounter deck for each faith counter on Kly'bn. Deal the players each non-treachery card discarded this way as a facedown encounter card in player order.</property>
       <property name="Unique" value="True"/>
       <alternate name="Sl'gur't" type="b" size="VillainCard">
@@ -3111,8 +3122,9 @@ When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for The Reve
         <property name="Attack" value="3"/>
         <property name="Scheme" value="2"/>
         <property name="HP" value="20"/>
+		<property name="HP_Per_Hero" value="True"/>
         <property name="Attribute" value="God. Skrull."/>
-        <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 faith counter on Sl'gur't and give her a tough status card. 
+        <property name="Text">Toughness. Uses (1 faith counters). &lt;b&gt;When Revealed&lt;/b&gt;: Place 1 faith counter on Sl'gur't and give her a tough status card. 
 &lt;b&gt;Forced Response&lt;/b&gt;: After resolving step one of the villain phase, discard the top card of the encounter deck for each faith counter on Sl'gur't. Deal the players each treachery card discarded this way as a facedown encounter card in player order.</property>
         <property name="Unique" value="True"/>
       </alternate>
@@ -3397,6 +3409,7 @@ Forced Response&lt;/b&gt;: After an ally or a minion is defeated, if that charac
       <property name="Attack" value="2"/>
       <property name="Scheme" value="2"/>
       <property name="HP" value="14"/>
+      <property name="HP_Per_Hero" value="True"/>
       <property name="Attribute" value="Camouflaged. Skrull."/>
       <property name="Text">Spider-Woman cannot take damage. 
 [star] &lt;b&gt;Forced Response&lt;/b&gt;: After Spider-Woman attacks you, place 1 suspicion counter on "Who do you trust?". &lt;i&gt;You are a Skrull! &lt;/i&gt;—&lt;b&gt; Hero Action&lt;/b&gt;: Exhaust a hero and spend 1[per_hero] resources of any type → flip Spider-Woman. &lt;i&gt;(The players can pay this ability's costs as a group.)
@@ -3416,6 +3429,7 @@ Forced Response&lt;/b&gt;: After an ally or a minion is defeated, if that charac
         <property name="Attack" value="2"/>
         <property name="Scheme" value="2"/>
         <property name="HP" value="14"/>
+		<property name="HP_Per_Hero" value="True"/>
         <property name="Attribute" value="Revealed. Skrull."/>
         <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After the villain phase ends, if any player is in alter-ego form, flip Queen Veranke.
 &lt;b&gt;When Defeated&lt;/b&gt;: Remove all suspicion counters from "Who Do You Trust?".
@@ -3437,6 +3451,7 @@ Forced Response&lt;/b&gt;: After an ally or a minion is defeated, if that charac
       <property name="Attack" value="2"/>
       <property name="Scheme" value="3"/>
       <property name="HP" value="18"/>
+      <property name="HP_Per_Hero" value="True"/>
       <property name="Attribute" value="Camouflaged. Skrull."/>
       <property name="Text">Spider-Woman cannot take damage. 
 [star] &lt;b&gt;Forced Response&lt;/b&gt;: After Spider-Woman attacks you, place 1 suspicion counter on "Who do you trust?". &lt;i&gt;You are a Skrull! &lt;/i&gt;—&lt;b&gt; Hero Action&lt;/b&gt;: Exhaust a hero and spend 1[per_hero] resources of any type → flip Spider-Woman. &lt;i&gt;(The players can pay this ability's costs as a group.)
@@ -3456,6 +3471,7 @@ Forced Response&lt;/b&gt;: After an ally or a minion is defeated, if that charac
         <property name="Attack" value="3"/>
         <property name="Scheme" value="2"/>
         <property name="HP" value="18"/>
+		<property name="HP_Per_Hero" value="True"/>
         <property name="Attribute" value="Revealed. Skrull."/>
         <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After the villain phase ends, if any player is in alter-ego form, flip Queen Veranke.
 &lt;b&gt;When Defeated&lt;/b&gt;: Remove all suspicion counters from "Who Do You Trust?".
@@ -3477,6 +3493,7 @@ Forced Response&lt;/b&gt;: After an ally or a minion is defeated, if that charac
       <property name="Attack" value="3"/>
       <property name="Scheme" value="3"/>
       <property name="HP" value="21"/>
+      <property name="HP_Per_Hero" value="True"/>
       <property name="Attribute" value="Camouflaged. Skrull."/>
       <property name="Text">Spider-Woman cannot take damage. 
 [star] &lt;b&gt;Forced Response&lt;/b&gt;: After Spider-Woman attacks you, place 1 suspicion counter on "Who do you trust?". &lt;i&gt;You are a Skrull! &lt;/i&gt;—&lt;b&gt; Hero Action&lt;/b&gt;: Exhaust a hero and spend 1[per_hero] resources of any type → flip Spider-Woman. &lt;i&gt;(The players can pay this ability's costs as a group.)
@@ -3496,6 +3513,7 @@ Forced Response&lt;/b&gt;: After an ally or a minion is defeated, if that charac
         <property name="Attack" value="4"/>
         <property name="Scheme" value="2"/>
         <property name="HP" value="21"/>
+		<property name="HP_Per_Hero" value="True"/>
         <property name="Attribute" value="Revealed. Skrull."/>
         <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After the villain phase ends, if any player is in alter-ego form, flip Queen Veranke. Otherwise, discard the top card of the encounter deck, if it is a treachery, flip Queen Veranke.
 &lt;i&gt;"I will be among those on Earth infiltration assignment. I will take a role in this strategy.”&lt;/i&gt;</property>

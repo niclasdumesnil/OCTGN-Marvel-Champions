@@ -49,11 +49,11 @@ def scenarioSetup(group=table, x = 0, y = 0):
     if cw_Side <> "":
         setupChoice = askChoice("How do you to setup the main scheme deck ?", ["Give me the default one", "Surprise me! (Random)"])
         if cw_Side == "registration":
-            mainScheme_Stage1 = ["56063a", "56096a", "56121a", "56122a"]
-            mainScheme_Stage2 = ["56064a", "56097a", "56123a", "56124a"]
+            mainScheme_Stage1 = ["56063a", "56096a", "56121a", "56122a", "57005a"]
+            mainScheme_Stage2 = ["56064a", "56097a", "56123a", "56124a", "57006a"]
         elif cw_Side == "resistance":
-            mainScheme_Stage1 = ["56141a", "56172a", "56199a", "56200a"]
-            mainScheme_Stage2 = ["56142a", "56173a", "56201a", "56202a"]
+            mainScheme_Stage1 = ["56141a", "56172a", "56199a", "56200a", "57044a"]
+            mainScheme_Stage2 = ["56142a", "56173a", "56201a", "56202a", "57045a"]
         if setupChoice == 0:
             deleteAllSharedCards()
             return
@@ -67,9 +67,9 @@ def scenarioSetup(group=table, x = 0, y = 0):
                     c.delete()
                 elif vName == "Spider-Woman" and c.CardNumber not in ["56172a", "56173a"]:
                     c.delete()
-                elif vName == "She-Hulk" and c.CardNumber not in ["", ""]:
+                elif vName == "She-Hulk" and c.CardNumber not in ["57005a", "57006a"]:
                     c.delete()
-                elif vName == "Vision" and c.CardNumber not in ["", ""]:
+                elif vName == "Vision" and c.CardNumber not in ["57044a", "57045a"]:
                     c.delete()
         if setupChoice == 2:
             rndStage1 = rnd(0, len(mainScheme_Stage1) - 1)
@@ -406,6 +406,22 @@ def scenarioSetup(group=table, x = 0, y = 0):
         villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
         revealCardOnSetup("Self-propelled Glide", "56179", tableLocations['mainScheme'][0] + 100, tableLocations['mainScheme'][1])
         revealCardOnSetup("Finesse", "56174", tableLocations['environment'][0], tableLocations['environment'][1])
+
+    elif vName == "She-Hulk":
+        # If we loaded the encounter deck - add the first villain and main scheme cards to the table
+        mainSchemeCards = sorted(filter(lambda card: card.Type == "main_scheme", mainSchemeDeck()), key=lambda c: c.Stage)
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        revealCardOnSetup("Legal Practice", "57012", tableLocations['mainScheme'][0] + 100, tableLocations['mainScheme'][1])
+        revealCardOnSetup("Superhuman Strength", "57007", tableLocations['environment'][0], tableLocations['environment'][1])
+
+    elif vName == "Vision":
+        # If we loaded the encounter deck - add the first villain and main scheme cards to the table
+        mainSchemeCards = sorted(filter(lambda card: card.Type == "main_scheme", mainSchemeDeck()), key=lambda c: c.Stage)
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        revealCardOnSetup("Get Through", "57054", tableLocations['mainScheme'][0] + 100, tableLocations['mainScheme'][1])
+        revealCardOnSetup("Dense", "57046a", tableLocations['environment'][0], tableLocations['environment'][1])
 
     else:
         # If we loaded the encounter deck - add the first villain and main scheme cards to the table

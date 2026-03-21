@@ -1,0 +1,1157 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Synthezoid Smackdown" id="2b778323-b4d9-4567-999d-42e7def75dde" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card name="You're Out of Order!" id="2b778323-b4d9-4567-999d-42e7de057032">
+      <property name="CardNumber" value="57032"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="she_hulk_leader"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When any amount of threat would be placed on the main scheme, say "I object!" and prevent 3 of that threat.</property>
+    </card>
+    <card name="She-Hulk Smash" id="2b778323-b4d9-4567-999d-42e7de057033">
+      <property name="CardNumber" value="57033"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="she_hulk_leader"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Your She-Hulk leader attacks the enemy leader. If you spent a [physical] resource to pay for this event, stun the enemy leader.</property>
+      <property name="Quote">"That does it! Now I'm mad!" —She-Hulk</property>
+    </card>
+    <card name="Make Me Angry" id="2b778323-b4d9-4567-999d-42e7de057034">
+      <property name="CardNumber" value="57034"/>
+      <property name="Position" value="34"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="she_hulk_leader"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Text">Attach to your She-Hulk leader.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a hero or leader attacks attached She-Hulk, she attacks that character. Then, discard this card.</property>
+    </card>
+    <card name="Legal Counsel" id="2b778323-b4d9-4567-999d-42e7de057035">
+      <property name="CardNumber" value="57035"/>
+      <property name="Position" value="35"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="she_hulk_leader"/>
+      <property name="Resource_Wild" value="2"/>
+      <property name="Text">&lt;b&gt;Hero Response&lt;/b&gt;: After you spend this resource, move 1 threat from the main scheme to your leader's main scheme.</property>
+    </card>
+    <card name="Calculated Risk" id="2b778323-b4d9-4567-999d-42e7de057074">
+      <property name="CardNumber" value="57074"/>
+      <property name="Position" value="74"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Search the top 5 cards of your leader's encounter deck for an encounter card and deal it to the first player on the enemy team as a facedown encounter card.</property>
+      <property name="Quote">"There is no victory without risk." —Vision</property>
+    </card>
+    <card name="Synthezoid Strike" id="2b778323-b4d9-4567-999d-42e7de057075">
+      <property name="CardNumber" value="57075"/>
+      <property name="Position" value="75"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Your Vision leader attacks the enemy leader. If Vision's mass form attachment is:
+• Dense, Vision gets +1 ATK for this attack and this attack gains piercing.
+• Intangible, flip it to Dense before resolving this attack.</property>
+    </card>
+    <card name="Phased Out" id="2b778323-b4d9-4567-999d-42e7de057076">
+      <property name="CardNumber" value="57076"/>
+      <property name="Position" value="76"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: Choose an attachment on the enemy leader with the text &lt;b&gt;"Hero Response"&lt;/b&gt; or &lt;b&gt;"Hero Interrupt"&lt;/b&gt; and discard it.</property>
+      <property name="Quote">"My ability to phase through electronics can disrupt Stark's technology." —Vision</property>
+    </card>
+    <card name="Android Assistance" id="2b778323-b4d9-4567-999d-42e7de057077">
+      <property name="CardNumber" value="57077"/>
+      <property name="Position" value="77"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="basic"/>
+      <property name="Type" value="resource"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Resource_Wild" value="2"/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you spend this resource, flip your Vision leader's mass form attachment.</property>
+    </card>
+    <card name="She-Hulk" id="2b778323-b4d9-4567-999d-42e7de057001" size="LeaderCard">
+      <property name="CardNumber" value="57001"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="leader"/>
+      <property name="Owner" value="she_hulk_leader"/>
+      <property name="Stage" value="I"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="16"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Avenger. Gamma."/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: The enemy team finds a copy of Superhuman Strength and attaches it to She-Hulk.
+&lt;b&gt;Forced Response&lt;/b&gt;: After an alter-ego changes to hero form, deal 1 damage to that hero.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="She-Hulk" id="2b778323-b4d9-4567-999d-42e7de057002" size="LeaderCard">
+      <property name="CardNumber" value="57002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="leader"/>
+      <property name="Owner" value="she_hulk_leader"/>
+      <property name="Stage" value="II"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="20"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Avenger. Gamma."/>
+      <property name="Text">Steady.
+&lt;b&gt;When Revealed&lt;/b&gt;: Deal each player an encounter card. She-Hulk cannot take damage this phase.
+&lt;b&gt;Forced Response&lt;/b&gt;: After an alter-ego changes to hero form, deal 1 damage to that hero.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="She-Hulk" id="2b778323-b4d9-4567-999d-42e7de057003" size="LeaderCard">
+      <property name="CardNumber" value="57003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="leader"/>
+      <property name="Owner" value="she_hulk_leader"/>
+      <property name="Stage" value="III"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="20"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Avenger. Gamma."/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: The enemy team finds a copy of Superhuman Strength and attaches it to She-Hulk.
+&lt;b&gt;Forced Response&lt;/b&gt;: After an alter-ego changes to hero form, deal 1 damage to that hero.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="She-Hulk" id="2b778323-b4d9-4567-999d-42e7de057004" size="LeaderCard">
+      <property name="CardNumber" value="57004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="leader"/>
+      <property name="Owner" value="she_hulk_leader"/>
+      <property name="Stage" value="IV"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="24"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Avenger. Gamma."/>
+      <property name="Text">Steady.
+&lt;b&gt;When Revealed&lt;/b&gt;: Deal each player an encounter card. She-Hulk cannot take damage this phase.
+&lt;b&gt;Forced Response&lt;/b&gt;: After an alter-ego changes to hero form, deal 1 damage to that hero.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Superhero Registration Act" id="2b778323-b4d9-4567-999d-42e7de057005" size="SchemeCard">
+      <property name="CardNumber" value="57005a"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="synthezoid_registration"/>
+      <property name="Stage" value="1A"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Chosen leader I and II &lt;i&gt;(III and IV for expert mode)&lt;/i&gt;. Chosen leader's set, Standard set, and 3–4 modular sets.
+&lt;b&gt;Setup&lt;/b&gt;: In competitive mode, the enemy team finds the Choosing Sides side scheme and your team reveals it. In cooperative mode, find the chosen leader's side scheme and reveal it.</property>
+      <alternate name="Enforce the Law" type="b" size="SchemeCard">
+        <property name="CardNumber" value="57005b"/>
+        <property name="Position" value="5"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="synthezoid_registration"/>
+        <property name="Stage" value="1B"/>
+        <property name="BaseThreat" value="0"/>
+        <property name="BaseThreatFixed" value="True"/>
+        <property name="Threat" value="7"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Text">If there is more than 1 player on your team, this stage gains hinder 2[per_hero].
+The enemy leader gains steady.</property>
+        <property name="Quote">"This could all be avoided if you'd only obey the law!" —She-Hulk</property>
+      </alternate>
+    </card>
+    <card name="Pro-Registration Tactics" id="2b778323-b4d9-4567-999d-42e7de057006" size="SchemeCard">
+      <property name="CardNumber" value="57006a"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="synthezoid_registration"/>
+      <property name="Stage" value="2A"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Quote">Iron Man and his Avengers are ordered to apprehend any superpowered individuals who refuse to register with S.H.I.E.L.D. That includes former teammates such as Captain America and Spider-Woman.</property>
+      <alternate name="Mighty Avengers" type="b" size="SchemeCard">
+        <property name="CardNumber" value="57006b"/>
+        <property name="Position" value="6"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="synthezoid_registration"/>
+        <property name="Stage" value="2B"/>
+        <property name="BaseThreat" value="0"/>
+        <property name="BaseThreatFixed" value="True"/>
+        <property name="Threat" value="9"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Text">While the enemy leader is attacking, it gets +1 ATK (+2 ATK instead if the attack is undefended).
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Quote">Iron Man's Avengers believe so strongly in superhero reform that they lead the charge against their former teammates.</property>
+      </alternate>
+    </card>
+    <card name="Superhuman Strength" id="2b778323-b4d9-4567-999d-42e7de057007" size="EncounterCard">
+      <property name="CardNumber" value="57007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="she_hulk_leader"/>
+      <property name="Attack" value="2"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Attach to She-Hulk.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When She-Hulk attacks, this attack gains overkill. Discard this card after this attack.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Reveal this card.</property>
+    </card>
+    <card name="Focused Rage" id="2b778323-b4d9-4567-999d-42e7de057008" size="EncounterCard">
+      <property name="CardNumber" value="57008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="she_hulk_leader"/>
+      <property name="Scheme" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Attach to She-Hulk.
+She-Hulk gains stalwart.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After She-Hulk schemes, discard this card.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Reveal this card.</property>
+    </card>
+    <card name="One-Two Punch" id="2b778323-b4d9-4567-999d-42e7de057009" size="EncounterCard">
+      <property name="CardNumber" value="57009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="she_hulk_leader"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed (Alter-Ego)&lt;/b&gt;: She-Hulk schemes. Give her a tough status card.
+&lt;b&gt;When Revealed (Hero)&lt;/b&gt;: She-Hulk attacks you. Give her a tough status card.</property>
+      <property name="Quote">"Don't make this harder than it already is!" —She-Hulk</property>
+    </card>
+    <card name="Ground Stomp" id="2b778323-b4d9-4567-999d-42e7de057010" size="EncounterCard">
+      <property name="CardNumber" value="57010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="she_hulk_leader"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Exhaust each character you control. If no character was exhausted this way, this card gains surge.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Exhaust a character you control.</property>
+    </card>
+    <card name="Gamma Slam" id="2b778323-b4d9-4567-999d-42e7de057011" size="EncounterCard">
+      <property name="CardNumber" value="57011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="she_hulk_leader"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard the highest-cost ally or support you control. Place threat on the main scheme equal to that card's cost. If no threat is placed on the main scheme this way, this card gains surge.</property>
+      <property name="Quote">"You messed with the wrong woman!" —She-Hulk</property>
+    </card>
+    <card name="Legal Practice" id="2b778323-b4d9-4567-999d-42e7de057012" size="SchemeCard">
+      <property name="CardNumber" value="57012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="she_hulk_leader"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">Threat cannot be removed from this scheme by heroes or allies.
+&lt;b&gt;Alter-Ego Response&lt;/b&gt;: After you change form, exhaust your identity → remove 3 threat from this scheme.</property>
+    </card>
+    <card name="S.H.I.E.L.D. Operator" id="2b778323-b4d9-4567-999d-42e7de057013" size="EncounterCard">
+      <property name="CardNumber" value="57013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="shield_ops"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="S.H.I.E.L.D."/>
+      <property name="Text">Patrol.
+&lt;b&gt;When Revealed&lt;/b&gt;: Place 2 threat on the main scheme.</property>
+      <property name="Quote">"Unregistered super located at 43rd and Madison. Dispatch unit twelve to intercept."</property>
+    </card>
+    <card name="Strategic Overwatch" id="2b778323-b4d9-4567-999d-42e7de057014" size="EncounterCard">
+      <property name="CardNumber" value="57014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="shield_ops"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Give the enemy leader and each minion a tough status card.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Give the activating enemy a tough status card.</property>
+      <property name="Quote">"I knew we couldn't trust that guy." —Maria Hill</property>
+    </card>
+    <card name="Rapid Response" id="2b778323-b4d9-4567-999d-42e7de057015" size="EncounterCard">
+      <property name="CardNumber" value="57015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="shield_ops"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard cards from the encounter deck until a minion is discarded. If you are in:
+• Alter-ego form, place threat on the main scheme equal to that minion's SCH.
+• Hero form, deal damage to your hero equal to that minion's ATK.</property>
+    </card>
+    <card name="Homeland Security" id="2b778323-b4d9-4567-999d-42e7de057016" size="SchemeCard">
+      <property name="CardNumber" value="57016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="shield_ops"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">Hinder 1[per_hero].
+The first minion revealed each round gains surge.</property>
+      <property name="Quote">"Illegal superpowered activity has been detected in this area. Please return to your homes and take shelter!" —S.H.I.E.L.D. officer</property>
+    </card>
+    <card name="Atlas" id="2b778323-b4d9-4567-999d-42e7de057017" size="EncounterCard">
+      <property name="CardNumber" value="57017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="thunderbolts_modular"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Giant. Thunderbolt."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Stun your leader. Otherwise, you are stunned.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Stun your leader. Otherwise, you are stunned.</property>
+      <property name="Quote">"I'm gonna put the hurt on you, little man."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Songbird" id="2b778323-b4d9-4567-999d-42e7de057018" size="EncounterCard">
+      <property name="CardNumber" value="57018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="thunderbolts_modular"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Aerial. Thunderbolt."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Confuse your leader. Otherwise, you are confused.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Confuse your leader. Otherwise, you are confused.</property>
+      <property name="Quote">"That worked better than I expected."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Penance" id="2b778323-b4d9-4567-999d-42e7de057019" size="EncounterCard">
+      <property name="CardNumber" value="57019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="thunderbolts_modular"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Thunderbolt."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Deal 2 damage to your leader. Otherwise, deal 2 damage to a character you control.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Deal 2 damage to your leader. Otherwise, deal 1 damage to a character you control.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Justice Like Lightning" id="2b778323-b4d9-4567-999d-42e7de057020" size="EncounterCard">
+      <property name="CardNumber" value="57020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="thunderbolts_modular"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Each minion activates against the player it is engaged with. Otherwise, the enemy leader activates against you. Do not give it a boost card for this activation.</property>
+      <property name="Quote">"We're all guilty. This is justice!" —Penance</property>
+    </card>
+    <card name="The Thunderbolts" id="2b778323-b4d9-4567-999d-42e7de057021" size="SchemeCard">
+      <property name="CardNumber" value="57021"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="thunderbolts_modular"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Text">Hinder 1[per_hero].
+Threat cannot be removed from this scheme while a [[Thunderbolt]] minion is in play.</property>
+      <property name="Quote">The government gave supercriminals two options: rot in prison or join the Thunderbolts.</property>
+    </card>
+    <card name="Taskmaster" id="2b778323-b4d9-4567-999d-42e7de057022" size="EncounterCard">
+      <property name="CardNumber" value="57022"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="taskmaster_modular"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="HP" value="6"/>
+      <property name="Attribute" value="Elite. Thunderbolt."/>
+      <property name="Text">Retaliate 1. Toughness. Villainous.
+&lt;b&gt;When Revealed&lt;/b&gt;: Taskmaster activates against you.</property>
+      <property name="Quote">"I'm going to charge S.H.I.E.L.D. extra for this!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Taskmaster's Sword" id="2b778323-b4d9-4567-999d-42e7de057023" size="EncounterCard">
+      <property name="CardNumber" value="57023"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="taskmaster_modular"/>
+      <property name="Attack" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Attach to Taskmaster. Otherwise, attach to the enemy leader.
+[star] Attached character's attacks gain piercing.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [mental] [physical] resources → discard this card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Taskmaster's Shield" id="2b778323-b4d9-4567-999d-42e7de057024" size="EncounterCard">
+      <property name="CardNumber" value="57024"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="taskmaster_modular"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Armor."/>
+      <property name="Text">Attach to Taskmaster. Otherwise, attach to the enemy leader.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached character would take any amount of damage, reduce that amount by 1.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [mental] [physical] resources → discard this card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Mimicked Move" id="2b778323-b4d9-4567-999d-42e7de057025" size="EncounterCard">
+      <property name="CardNumber" value="57025"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="taskmaster_modular"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If Taskmaster is in play, he attacks your leader. Otherwise, give the enemy leader a tough status card and a facedown boost card.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Give the activating enemy an additional boost card.</property>
+    </card>
+    <card name="Taskmaster's Academy" id="2b778323-b4d9-4567-999d-42e7de057026" size="SchemeCard">
+      <property name="CardNumber" value="57026"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="taskmaster_modular"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Hinder 1[per_hero].
+&lt;b&gt;When Defeated&lt;/b&gt;: Give the enemy leader a tough status card and a facedown boost card.</property>
+      <property name="Quote">"You think I'm mean? Just wait 'til you're fighting Steve Rogers!" —Taskmaster</property>
+    </card>
+    <card name="Jester" id="2b778323-b4d9-4567-999d-42e7de057027" size="EncounterCard">
+      <property name="CardNumber" value="57027"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="deadly_duo"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Thunderbolt."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard the top 3 cards of your deck. Take 1 indirect damage for each different card type discarded this way.</property>
+      <property name="Quote">"Ha ha! This is too great! We're being ordered to attack heroes!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Jack O'Lantern" id="2b778323-b4d9-4567-999d-42e7de057028" size="EncounterCard">
+      <property name="CardNumber" value="57028"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="deadly_duo"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Thunderbolt."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard the top 3 cards of your deck. Place 1 threat on the main scheme for each different card type discarded this way.</property>
+      <property name="Quote">"I can't believe we're getting paid for this!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Mad Jack's Platform" id="2b778323-b4d9-4567-999d-42e7de057029" size="EncounterCard">
+      <property name="CardNumber" value="57029"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="deadly_duo"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Attribute" value="Tech."/>
+      <property name="Text">Attach to a minion of the enemy team's choice. Otherwise, this card gains surge.
+Attached minion gets +4 hit points and gains stalwart.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Attach this card to a minion engaged with you.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Jester's Yo-Yo" id="2b778323-b4d9-4567-999d-42e7de057030" size="EncounterCard">
+      <property name="CardNumber" value="57030"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="deadly_duo"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard the highest-cost card you control. Otherwise, this card gains surge.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Discard an upgrade you control.</property>
+    </card>
+    <card name="Deadly Duo" id="2b778323-b4d9-4567-999d-42e7de057031" size="SchemeCard">
+      <property name="CardNumber" value="57031"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="deadly_duo"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Text">Hinder 1[per_hero].
+&lt;b&gt;When Defeated&lt;/b&gt;: Each player discards the top 8 cards of their deck.</property>
+      <property name="Quote">Ordered by S.H.I.E.L.D. to hunt down renegade heroes, Jester and Jack O'Lantern are only too happy to do their part.</property>
+    </card>
+    <card name="Vision" id="2b778323-b4d9-4567-999d-42e7de057040" size="LeaderCard">
+      <property name="CardNumber" value="57040"/>
+      <property name="Position" value="40"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="leader"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Stage" value="I"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="14"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Aerial. Avenger."/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: The enemy team finds Vision's mass form attachment and attaches it to Vision, Dense side faceup.
+&lt;b&gt;Forced Response&lt;/b&gt;: After resolving step 1 of the villain phase, flip Vision's mass form attachment.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Vision" id="2b778323-b4d9-4567-999d-42e7de057041" size="LeaderCard">
+      <property name="CardNumber" value="57041"/>
+      <property name="Position" value="41"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="leader"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Stage" value="II"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="18"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Aerial. Avenger."/>
+      <property name="Text">Steady.
+&lt;b&gt;When Revealed&lt;/b&gt;: Deal each player an encounter card. Vision cannot take damage this phase.
+&lt;b&gt;Forced Response&lt;/b&gt;: After resolving step 1 of the villain phase, flip Vision's mass form attachment.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Vision" id="2b778323-b4d9-4567-999d-42e7de057042" size="LeaderCard">
+      <property name="CardNumber" value="57042"/>
+      <property name="Position" value="42"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="leader"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Stage" value="III"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="HP" value="18"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Aerial. Avenger."/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: The enemy team finds Vision's mass form attachment and attaches it to Vision, Dense side faceup.
+&lt;b&gt;Forced Response&lt;/b&gt;: After resolving step 1 of the villain phase, flip Vision's mass form attachment.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Vision" id="2b778323-b4d9-4567-999d-42e7de057043" size="LeaderCard">
+      <property name="CardNumber" value="57043"/>
+      <property name="Position" value="43"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="Type" value="leader"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Stage" value="IV"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="HP" value="22"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Aerial. Avenger."/>
+      <property name="Text">Steady.
+&lt;b&gt;When Revealed&lt;/b&gt;: Deal each player an encounter card. Vision cannot take damage this phase.
+&lt;b&gt;Forced Response&lt;/b&gt;: After resolving step 1 of the villain phase, flip Vision's mass form attachment.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Superhero Resistance" id="2b778323-b4d9-4567-999d-42e7de057044" size="SchemeCard">
+      <property name="CardNumber" value="57044a"/>
+      <property name="Position" value="44"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="synthezoid_resistance"/>
+      <property name="Stage" value="1A"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Chosen leader I and II &lt;i&gt;(III and IV for expert mode)&lt;/i&gt;. Chosen leader's set, Standard set, and 3–4 modular sets.
+&lt;b&gt;Setup&lt;/b&gt;: In competitive mode, the enemy team finds the Choosing Sides side scheme and your team reveals it. In cooperative mode, find the chosen leader's side scheme and reveal it.</property>
+      <alternate name="Protect Secret Identities" type="b" size="SchemeCard">
+        <property name="CardNumber" value="57044b"/>
+        <property name="Position" value="44"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="synthezoid_resistance"/>
+        <property name="Stage" value="1B"/>
+        <property name="BaseThreat" value="0"/>
+        <property name="BaseThreatFixed" value="True"/>
+        <property name="Threat" value="7"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Text">If there is more than 1 player on your team, this stage gains hinder 2[per_hero].
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After resolving step 1 of the villain phase, each player discards the top 3 cards of their deck.</property>
+        <property name="Quote">By giving up the masks, heroes put themselves and their loved ones at risk.</property>
+      </alternate>
+    </card>
+    <card name="Resistance Tactics" id="2b778323-b4d9-4567-999d-42e7de057045" size="SchemeCard">
+      <property name="CardNumber" value="57045a"/>
+      <property name="Position" value="45"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Owner" value="synthezoid_resistance"/>
+      <property name="Stage" value="2A"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Quote">Captain America and his Avengers are forced to go underground or face arrest for refusing to register with S.H.I.E.L.D. When Iron Man and Captain Marvel start rounding up their superpowered friends, the resistance decides to fight back.</property>
+      <alternate name="Expose Overreach" type="b" size="SchemeCard">
+        <property name="CardNumber" value="57045b"/>
+        <property name="Position" value="45"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Owner" value="synthezoid_resistance"/>
+        <property name="Stage" value="2B"/>
+        <property name="BaseThreat" value="0"/>
+        <property name="BaseThreatFixed" value="True"/>
+        <property name="Threat" value="9"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="EscalationThreatFixed" value="False"/>
+        <property name="Text">Allies enter play exhausted.
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Quote">"If we expose S.H.I.E.L.D.'s secret prison to the world, they will lose public support." —Vision</property>
+      </alternate>
+    </card>
+    <card name="Dense" id="2b778323-b4d9-4567-999d-42e7de057046" size="EncounterCard">
+      <property name="CardNumber" value="57046a"/>
+      <property name="Position" value="46"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Attack" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Permanent. Mass form.</property>
+      <property name="Quote">Vision controls the molecules of his body to make himself intangible, or so dense that weapons shatter against him.</property>
+      <alternate name="Intangible" type="b" size="EncounterCard">
+        <property name="CardNumber" value="57046b"/>
+        <property name="Position" value="46"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Type" value="attachment"/>
+        <property name="Owner" value="vision_leader"/>
+        <property name="Scheme" value="1"/>
+        <property name="Attribute" value="Superpower."/>
+        <property name="Text">Permanent. Mass form.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Vision would take any amount of damage, reduce that amount by 1.</property>
+        <property name="Quote">"Innovation is the ultimate weapon." —Vision</property>
+      </alternate>
+    </card>
+    <card name="Solar Gem" id="2b778323-b4d9-4567-999d-42e7de057047" size="EncounterCard">
+      <property name="CardNumber" value="57047"/>
+      <property name="Position" value="47"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Scheme" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Attach to Vision.
+Vision gains stalwart.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you make a basic attack against Vision, spend [energy] [physical] resources → discard this card and flip Vision's mass form attachment.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Reveal this card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Vision's Cape" id="2b778323-b4d9-4567-999d-42e7de057048" size="EncounterCard">
+      <property name="CardNumber" value="57048"/>
+      <property name="Position" value="48"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Attack" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Attach to Vision.
+Vision gains retaliate 1.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you make a basic attack against Vision, spend [energy] [mental] resources → discard this card and flip Vision's mass form attachment.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Reveal this card.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Mass Increase" id="2b778323-b4d9-4567-999d-42e7de057049" size="EncounterCard">
+      <property name="CardNumber" value="57049"/>
+      <property name="Position" value="49"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Attach to Vision.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When a character attacks Vision while the Dense attachment is in play, prevent all damage from that attack and stun the attacking character. Discard this card.</property>
+      <property name="Quote">"Halt!" —Vision</property>
+    </card>
+    <card name="Density Control" id="2b778323-b4d9-4567-999d-42e7de057050" size="EncounterCard">
+      <property name="CardNumber" value="57050"/>
+      <property name="Position" value="50"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Boost" value="3"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Surge. Attach to Vision.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Vision activates, if this activation is:
+• A scheme, flip Vision's mass form attachment to Intangible.
+• An attack, flip Vision's mass form attachment to Dense.
+Then, if Vision's mass form attachment flipped, discard this card.</property>
+    </card>
+    <card name="Solar Beam" id="2b778323-b4d9-4567-999d-42e7de057051" size="EncounterCard">
+      <property name="CardNumber" value="57051"/>
+      <property name="Position" value="51"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed (Alter-Ego)&lt;/b&gt;: Vision schemes. If the Intangible attachment is in play, Vision gets +1 SCH for this scheme.
+&lt;b&gt;When Revealed (Hero)&lt;/b&gt;: Vision attacks you. If the Dense attachment is in play, Vision gets +1 ATK for this attack.</property>
+    </card>
+    <card name="Superdense Strike" id="2b778323-b4d9-4567-999d-42e7de057052" size="EncounterCard">
+      <property name="CardNumber" value="57052"/>
+      <property name="Position" value="52"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Exhaust a character you control. If the Dense attachment is in play, deal 2 damage to that character. If the Intangible attachment is in play, flip that attachment.</property>
+      <property name="Quote">"Please do not resist or I will be required to apply even greater force." —Vision</property>
+    </card>
+    <card name="Phase Disruption" id="2b778323-b4d9-4567-999d-42e7de057053" size="EncounterCard">
+      <property name="CardNumber" value="57053"/>
+      <property name="Position" value="53"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: The enemy team exhausts an upgrade you control. If the Intangible attachment is in play, discard that upgrade instead. If the Dense attachment is in play, flip that attachment.</property>
+      <property name="Quote">"Target neutralized." —Vision</property>
+    </card>
+    <card name="Just Passing Through" id="2b778323-b4d9-4567-999d-42e7de057054" size="SchemeCard">
+      <property name="CardNumber" value="57054"/>
+      <property name="Position" value="54"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="vision_leader"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="False"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this scheme confuses their identity. Otherwise, they stun their identity.</property>
+      <property name="Quote">Vision's phasing power makes him a difficult and unpredictable foe.</property>
+    </card>
+    <card name="Patriot" id="2b778323-b4d9-4567-999d-42e7de057055" size="EncounterCard">
+      <property name="CardNumber" value="57055"/>
+      <property name="Position" value="55"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="young_avengers"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Young Avenger."/>
+      <property name="Text">Toughness.
+&lt;b&gt;When Revealed&lt;/b&gt;: Give the enemy leader a tough status card.</property>
+      <property name="Quote">"Don't they know that WE'RE the good guys?"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Hawkeye" id="2b778323-b4d9-4567-999d-42e7de057056" size="EncounterCard">
+      <property name="CardNumber" value="57056"/>
+      <property name="Position" value="56"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="young_avengers"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Young Avenger."/>
+      <property name="Text">[star] Hawkeye's attacks gain piercing and ranged.
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard an upgrade you control.</property>
+      <property name="Quote">"Eat your heart out, Clint!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Stature" id="2b778323-b4d9-4567-999d-42e7de057057" size="EncounterCard">
+      <property name="CardNumber" value="57057"/>
+      <property name="Position" value="57"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="young_avengers"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Giant. Young Avenger."/>
+      <property name="Text">Guard.
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard a support you control.</property>
+      <property name="Quote">"You shouldn't talk down to a girl who can grow two stories tall!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Teenage Superheroes" id="2b778323-b4d9-4567-999d-42e7de057058" size="EncounterCard">
+      <property name="CardNumber" value="57058"/>
+      <property name="Position" value="58"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="young_avengers"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Resolve the "&lt;b&gt;When Revealed&lt;/b&gt;" ability of each minion in play. If no "&lt;b&gt;When Revealed&lt;/b&gt;" abilities were resolved this way, this card gains surge.</property>
+      <property name="Quote">"Young Avengers, assemble!" —Kate Bishop</property>
+    </card>
+    <card name="Young Avengers" id="2b778323-b4d9-4567-999d-42e7de057059" size="SchemeCard">
+      <property name="CardNumber" value="57059"/>
+      <property name="Position" value="59"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="young_avengers"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">Hinder 1[per_hero].
+The first minion revealed each round gains surge.</property>
+      <property name="Quote">The next generation of superheroes hopes to carry on the legacy of their seniors.</property>
+    </card>
+    <card name="Speed" id="2b778323-b4d9-4567-999d-42e7de057060" size="EncounterCard">
+      <property name="CardNumber" value="57060"/>
+      <property name="Position" value="60"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="scarlet_twins"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Young Avenger."/>
+      <property name="Text">Quickstrike.
+&lt;b&gt;When Revealed&lt;/b&gt;: You are stunned. Otherwise, deal 2 damage to your identity.</property>
+      <property name="Quote">"Hey! Geriatrics! Let's get a move on."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Wiccan" id="2b778323-b4d9-4567-999d-42e7de057061" size="EncounterCard">
+      <property name="CardNumber" value="57061"/>
+      <property name="Position" value="61"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="scarlet_twins"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Young Avenger."/>
+      <property name="Text">Incite 1.
+&lt;b&gt;When Revealed&lt;/b&gt;: You are confused. Otherwise, place 2 threat on the main scheme.</property>
+      <property name="Quote">"You picked the wrong kids to mess with."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Superspeed" id="2b778323-b4d9-4567-999d-42e7de057062" size="EncounterCard">
+      <property name="CardNumber" value="57062"/>
+      <property name="Position" value="62"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="scarlet_twins"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard 1 random card from your hand. Take indirect damage equal to its cost.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Discard 1 card from your hand.</property>
+      <property name="Quote">"Didn't see that coming, did you?" Speed</property>
+    </card>
+    <card name="Spellcasting" id="2b778323-b4d9-4567-999d-42e7de057063" size="EncounterCard">
+      <property name="CardNumber" value="57063"/>
+      <property name="Position" value="63"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="scarlet_twins"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When you play a card, cancel its effects and discard it. Then, discard this card.</property>
+      <property name="Quote">"BLINDINGFLASHBLINDINGFLASH." —Wiccan</property>
+    </card>
+    <card name="Superpowered Siblings" id="2b778323-b4d9-4567-999d-42e7de057064" size="SchemeCard">
+      <property name="CardNumber" value="57064"/>
+      <property name="Position" value="64"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="scarlet_twins"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Text">Hinder 1[per_hero].
+&lt;b&gt;When Defeated&lt;/b&gt;: The player who defeated this scheme discards 1 card from their hand.</property>
+      <property name="Quote">Wiccan and Speed are following in the footsteps of their superhero parents: Vision and Scarlet Witch.</property>
+    </card>
+    <card name="Moon Knight" id="2b778323-b4d9-4567-999d-42e7de057065" size="EncounterCard">
+      <property name="CardNumber" value="57065"/>
+      <property name="Position" value="65"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="moon_knight_modular"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="5"/>
+      <property name="Attribute" value="Defender. Elite."/>
+      <property name="Text">Retaliate 2. Toughness.
+&lt;b&gt;When Revealed&lt;/b&gt;: Resolve the &lt;b&gt;"When Revealed"&lt;/b&gt; ability of the topmost treachery in the encounter discard pile.</property>
+      <property name="Quote">"You're in a world of trouble now."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Crescent Dart" id="2b778323-b4d9-4567-999d-42e7de057066" size="EncounterCard">
+      <property name="CardNumber" value="57066"/>
+      <property name="Position" value="66"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="attachment"/>
+      <property name="Owner" value="moon_knight_modular"/>
+      <property name="Attack" value="2"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Attach to Moon Knight. Otherwise, attach to the enemy leader.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached character attacks, this attack gains piercing and ranged. Discard this card after this attack.</property>
+    </card>
+    <card name="Fist of Khonshu" id="2b778323-b4d9-4567-999d-42e7de057067" size="EncounterCard">
+      <property name="CardNumber" value="57067"/>
+      <property name="Position" value="67"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="moon_knight_modular"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Exhaust your identity and deal 2 damage to it.
+&lt;hr /&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: Exhaust your identity.</property>
+      <property name="Quote">"I am the Fist of Khonshu! I am vengeance!" —Moon Knight</property>
+    </card>
+    <card name="Khonshu's Avatar" id="2b778323-b4d9-4567-999d-42e7de057068" size="SchemeCard">
+      <property name="CardNumber" value="57068"/>
+      <property name="Position" value="68"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="moon_knight_modular"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Text">Hinder 1[per_hero].
+&lt;b&gt;When Defeated&lt;/b&gt;: Discard cards from the top of the encounter deck until a treachery is discarded. Resolve that card's "&lt;b&gt;When Revealed&lt;/b&gt;" ability.</property>
+    </card>
+    <card name="Janus" id="2b778323-b4d9-4567-999d-42e7de057069" size="EncounterCard">
+      <property name="CardNumber" value="57069"/>
+      <property name="Position" value="69"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="royal_guard"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Atlantis."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If you have the [[Hunted]] trait, Janus activates against you. Otherwise, discard the top 2 cards of your deck.</property>
+      <property name="Quote">"No one escapes the Atlantean royal guard!"</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Amir" id="2b778323-b4d9-4567-999d-42e7de057070" size="EncounterCard">
+      <property name="CardNumber" value="57070"/>
+      <property name="Position" value="70"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="royal_guard"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attribute" value="Atlantis."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If you have the [[Hunted]] trait, Amir activates against you. Otherwise, discard the top 2 cards of your deck.</property>
+      <property name="Quote">"My lord, Namor, has ordered you brought before him."</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Atlanteans" id="2b778323-b4d9-4567-999d-42e7de057071" size="EncounterCard">
+      <property name="CardNumber" value="57071"/>
+      <property name="Position" value="71"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="royal_guard"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard the top 3 cards of your deck. If you are in:
+• Alter-ego form, place 1 threat on the main scheme for each different card type discarded this way.
+• Hero form, take 1 indirect damage for each different card type discarded this way.</property>
+    </card>
+    <card name="Blood Debt" id="2b778323-b4d9-4567-999d-42e7de057072" size="EncounterCard">
+      <property name="CardNumber" value="57072"/>
+      <property name="Position" value="72"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="royal_guard"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">You gain the [[Hunted]] trait.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Discard the top 8 cards of your deck → discard this card.</property>
+    </card>
+    <card name="The Royal Guard" id="2b778323-b4d9-4567-999d-42e7de057073" size="SchemeCard">
+      <property name="CardNumber" value="57073"/>
+      <property name="Position" value="73"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="royal_guard"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Crisis" value="1"/>
+      <property name="Text">Hinder 1[per_hero].
+&lt;b&gt;When Defeated&lt;/b&gt;: The enemy team searches the encounter deck and discard pile for a copy of Blood Debt and deals it to the player who defeated this scheme as a facedown encounter card.</property>
+    </card>
+  </cards>
+</set>
