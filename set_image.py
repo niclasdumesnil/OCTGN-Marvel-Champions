@@ -1,7 +1,10 @@
 import os
 import json
-import shutil
 import re
+from PIL import Image
+
+# ── Configuration ──
+JPEG_QUALITY = 60   # Compression quality for OCTGN images (1-100)
 
 # Chemins à adapter si besoin
 json_path = "database_images.json"
@@ -34,7 +37,7 @@ for pack_id in pack_ids:
 
 cards = []  # Liste pour stocker les cartes traitées
 
-# Copier et renommer les images
+# Copier, compresser et renommer les images
 for card in data:
     card_id = card["card_id"]
     octgn_id = card["octgn_id"]
@@ -56,15 +59,16 @@ for card in data:
     src_png = os.path.join(images_src_dir, f"{card_id}.png")
     if os.path.exists(src_jpg):
         src_img = src_jpg
-        ext = ".jpg"
     elif os.path.exists(src_png):
         src_img = src_png
-        ext = ".png"
     else:
         continue
 
+    # Output is always .jpg (compressed)
+    ext = ".jpg"
+
     # Le nom cible : si card_id se termine par une lettre, ajouter ".<lettre>" avant l'extension
-    # Exception : si card_id finit par "a", retirer le "a" et ne pas ajouter de point
+    # Exception : si card_id finit par "a", retirer le "a" et ne pas ajouter de point
     if card_id.endswith("a"):
         new_name = f"{octgn_id}{ext}"
     elif re.match(r"^(.*?)([a-zA-Z])$", card_id):
@@ -76,8 +80,12 @@ for card in data:
     dest_dir = os.path.join(sets_base_dir, pack_id, "Cards")
     dest_img = os.path.join(dest_dir, new_name)
 
-    shutil.copy2(src_img, dest_img)
-    print(f"Copié {src_img} -> {dest_img}")
+    # Compress image to JPEG at configured quality
+    img = Image.open(src_img)
+    if img.mode in ("RGBA", "P"):
+        img = img.convert("RGB")
+    img.save(dest_img, "JPEG", quality=JPEG_QUALITY, optimize=True)
+    print(f"Compressé {src_img} -> {dest_img} (qualité {JPEG_QUALITY}%)")
 
     cards.append(card)  # Ajouter la carte à la liste des cartes traitées
 
