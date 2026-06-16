@@ -213,7 +213,8 @@ Flip to Alter-Ego form. Choose:
       <property name="BaseThreat" value="4"/>
       <property name="BaseThreatFixed" value="True"/>
       <property name="EscalationThreatFixed" value="False"/>
-      <property name="Text">Aggression (&lt;i&gt;red&lt;/i&gt;), Basic (&lt;i&gt;gray&lt;/i&gt;), and Leadership (&lt;i&gt;blue&lt;/i&gt;) cards cost 1 additional resource.</property>
+      <property name="Text">Aggression (&lt;i&gt;red&lt;/i&gt;), Basic (&lt;i&gt;gray&lt;/i&gt;), and Leadership (&lt;i&gt;blue&lt;/i&gt;) cards cost 1 additional resource.
+ [acceleration]</property>
       <property name="Quote">The insidious Scourge is none other than Nuke, the cybernetically enhanced, pill-popping patriot!</property>
     </card>
     <card name="Seeing Red" id="2eff4402-8e17-48f6-b378-5a1ccd051015" size="EncounterCard">

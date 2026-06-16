@@ -1,0 +1,2428 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Web of Deceit" id="fb766780-0f17-4e74-9fb7-4ca84fef5f62" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000000" name="shocker_by_ripper3">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="nbModular" value="1"/>
+      <property name="mandatoryModular" value="{'power_drain_ii_by_ripper3': ['Power Drain II', 'Encounter', True]}"/>
+      <property name="recommendedModular" value="{'crime_wave_by_ripper3': ['Crime Wave', 'Encounter', True]}"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f990000" name="power_drain_ii_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="power_drain_ii_by_ripper3"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000002" name="electro_by_ripper3">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="nbModular" value="1"/>
+      <property name="recommendedModular" value="{'sinister_assault': ['Sinister Assault', 'Encounter', True]}"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000003" name="the_lizard_by_ripper3">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="nbModular" value="2"/>
+      <property name="recommendedModular" value="{'city_sewers_by_ripper3': ['City Sewers', 'Encounter', True], 'down_to_earth': ['Down to Earth', 'Encounter', True]}"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000004" name="city_sewers_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="city_sewers_by_ripper3"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000005" name="vulture_by_ripper3">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="nbModular" value="1"/>
+      <property name="recommendedModular" value="{'a.i.m._abduction': ['A.I.M. Abduction', 'Encounter', True]}"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000006" name="kingpin_by_ripper3">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="nbModular" value="1"/>
+      <property name="recommendedModular" value="{'crime_wave_by_ripper3': ['Crime Wave', 'Encounter', False]}"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000007" name="kraven_the_hunter_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="kraven_the_hunter_by_ripper3"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000008" name="crime_wave_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="crime_wave_by_ripper3"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000009" name="wod_campaign_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="wod_campaign_by_ripper3"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000010" name="bodyguard_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="bodyguard_by_ripper3"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000011" name="wod_campaign_multiverse_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="wod_campaign_multiverse_by_ripper3"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000012" name="wod_campaign_radioactive_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="wod_campaign_radioactive_by_ripper3"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000013" name="wod_campaign_spidersense_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="wod_campaign_spidersense_by_ripper3"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000014" name="wod_campaign_webspinner_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="wod_campaign_webspinner_by_ripper3"/>
+    </card>
+    <card id="fb766780-0f17-4e74-9fb7-4ca84f000015" name="power_outage_by_ripper3">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="power_outage_by_ripper3"/>
+    </card>
+    <card name="Symbiotic Relationship" id="fb766780-0f17-4e74-9fb7-4ca84f030046">
+      <property name="CardNumber" value="203319"/>
+      <property name="Position" value="46"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="basic"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Attack."/>
+      <property name="Text">Team-Up (Spider-Man and Venom). Max 1 per deck.
+&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(attack)&lt;/i&gt;: Deal 4 damage to an enemy. Heal 1 damage from Venom and Spider-Man</property>
+    </card>
+    <card name="Shocker" id="fb766780-0f17-4e74-9fb7-4ca84f030057" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="503057a"/>
+      <property name="Position" value="57"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="HP" value="10"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">Steady.
+&lt;b&gt;When Defeated&lt;/b&gt;: Remove 5 threat from a side scheme. Flip this card.
+</property>
+      <property name="Quote" value="&lt;i&gt;“I can liquefy your brains with these vibrations!”&lt;/i&gt;"/>
+      <property name="Stage" value="A"/>
+      <alternate name="Shocker" type="b" size="VillainCard">
+        <property name="DefaultSetupPile" value="Villain"/>
+        <property name="CardNumber" value="503057b"/>
+        <property name="Position" value="57"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="villain"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="shocker_by_ripper3"/>
+        <property name="HP" value="20"/>
+        <property name="Attack" value="2"/>
+        <property name="Scheme" value="2"/>
+        <property name="Unique" value="True"/>
+        <property name="Attribute" value="Criminal."/>
+        <property name="Text">Steady.
+In expert mode, Shocker gains stalwart.
+&lt;b&gt;When Defeated&lt;/b&gt;: Deal 1 damage to each hero. Remove 10 threat from a side scheme. Flip this card.
+</property>
+        <property name="Quote" value="&lt;i&gt;“I can liquefy your bones with these vibrations!”&lt;/i&gt;"/>
+        <property name="Stage" value="B"/>
+      </alternate>
+    </card>
+    <card name="Shock Party" id="fb766780-0f17-4e74-9fb7-4ca84f030058" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="503058a"/>
+      <property name="Position" value="58"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Shocker (A). &lt;i&gt;(Shocker (B) instead for expert mode.)&lt;/i&gt; Shocker, City in Chaos, Power Drain II, and Standard III encounters sets. One modular encounter set &lt;i&gt;(recommended: Crime Wave)&lt;/i&gt;.
+&lt;b&gt;Setup:&lt;/b&gt; Search the encounter deck for The Long Night side scheme and reveal it. Remove each obligation card in the encounter deck from the game.</property>
+      <property name="Stage" value="1A"/>
+      <alternate name="Shock Party" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="503058b"/>
+        <property name="Position" value="58"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="shocker_by_ripper3"/>
+        <property name="BaseThreat" value="0"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="4"/>
+        <property name="BaseThreatFixed" value="True"/>
+        <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for the Vibro-Shock Gauntlets attachment and reveal it."/>
+        <property name="Quote">&lt;i&gt;New York City has lost power, a blackout. Shocker is lighting up Times Square, claiming responsibility and looking for a fight.
+&lt;/i&gt;</property>
+        <property name="Stage" value="1B"/>
+      </alternate>
+    </card>
+    <card name="Look Who Finally Showed" id="fb766780-0f17-4e74-9fb7-4ca84f030059" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="503059a"/>
+      <property name="Position" value="59"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for the Rhino minion and put him into play engaged with the first player. Search the encounter deck and discard pile for the Grand Larceny side scheme and reveal it. &lt;i&gt;(Shuffle.)
+&lt;/i&gt;</property>
+      <property name="Stage" value="2A"/>
+      <alternate name="Look Who Finally Showed" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="503059b"/>
+        <property name="Position" value="59"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="shocker_by_ripper3"/>
+        <property name="BaseThreat" value="1"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="6"/>
+        <property name="Text" value="&lt;b&gt;Forced Response&lt;/b&gt;: After Shocker or Rhino is defeated, remove 1[per_hero] threat from this scheme."/>
+        <property name="Quote">&lt;i&gt;“We're getting paid to rob a bank? Hahaha, that's a win-win! My two favorite things - breakin...and takin!”
+&lt;/i&gt;</property>
+        <property name="Stage" value="2B"/>
+      </alternate>
+    </card>
+    <card name="The Gang's All Here" id="fb766780-0f17-4e74-9fb7-4ca84f030060" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="503060a"/>
+      <property name="Position" value="60"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: In player order, each player not engaged with unique minion ([unique]) searches the encounter deck and discard pile for a unique minion ([unique]) and reveals it."/>
+      <property name="Quote">&lt;i&gt;Shocker puts out the call for all of New York's super villains to aid him in killing the heroes, promising them a cut of his pay.
+&lt;/i&gt;</property>
+      <property name="Stage" value="3A"/>
+      <alternate name="The Gang's All Here" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="503060b"/>
+        <property name="Position" value="60"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="shocker_by_ripper3"/>
+        <property name="BaseThreat" value="0"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="8"/>
+        <property name="BaseThreatFixed" value="True"/>
+        <property name="Text">Vibro-Shock Gauntlets gains permanent.
+&lt;b&gt;If this stage is completed, the players lose the game.
+&lt;/b&gt;</property>
+        <property name="Quote">&lt;i&gt;Shocker has new tech and powerful allies. Their only goal - create chaos and terror.
+&lt;/i&gt;</property>
+        <property name="Stage" value="3B"/>
+      </alternate>
+    </card>
+    <card name="Vibro-Shock Gauntlets" id="fb766780-0f17-4e74-9fb7-4ca84f030061" size="EncounterCard">
+      <property name="CardNumber" value="503061"/>
+      <property name="Position" value="61"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">Setup. Attach to Shocker.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: AfterShocker attacks and damages you, discard a card from your hand.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [mental][physical] resources and remove a stunned or confused status card from Shocker → discard Vibro-Shock Gauntlets.
+ [star]&lt;b&gt;Boost:&lt;/b&gt; Reveal this card.</property>
+    </card>
+    <card name="Sandman" id="fb766780-0f17-4e74-9fb7-4ca84f030062" size="EncounterCard">
+      <property name="CardNumber" value="503062"/>
+      <property name="Position" value="62"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="HP" value="5"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">Toughness.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Sandman attacks or engages you, discard the top 6 cards of the encounter deck.</property>
+      <property name="Quote" value="&quot;I need the money for my Daughter! Kingpin better pay up...&quot; -Sandman"/>
+    </card>
+    <card name="Scorpion" id="fb766780-0f17-4e74-9fb7-4ca84f030063" size="EncounterCard">
+      <property name="CardNumber" value="503063"/>
+      <property name="Position" value="63"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="HP" value="5"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Elite. Criminal."/>
+      <property name="Text" value="&lt;b&gt;Forced Response (Hero):&lt;/b&gt; After Scorpion engages you, stun your hero."/>
+      <property name="Quote" value="&quot;Sup Spiders? Ready for pain?&quot; -Scorpion"/>
+    </card>
+    <card name="Vulture" id="fb766780-0f17-4e74-9fb7-4ca84f030064" size="EncounterCard">
+      <property name="CardNumber" value="503064"/>
+      <property name="Position" value="64"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="HP" value="4"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Aerial. Criminal."/>
+      <property name="Text">Quickstrike.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Vulture engages you, discard 1 random card from your hand unless your identity has the [[aerial ]] trait.</property>
+      <property name="Quote" value="&quot;I trust that the kingpin will pay. I trust you less, Shocker...&quot; -Vulture"/>
+    </card>
+    <card name="Feedback" id="fb766780-0f17-4e74-9fb7-4ca84f030065" size="EncounterCard">
+      <property name="CardNumber" value="503065"/>
+      <property name="Position" value="65"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Stun your identity and Shocker. Discard your hand. Draw up to your hand size.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Discard your hand. Draw up to your hand size.</property>
+    </card>
+    <card name="Ionic Boots" id="fb766780-0f17-4e74-9fb7-4ca84f030066" size="EncounterCard">
+      <property name="CardNumber" value="503066"/>
+      <property name="Position" value="66"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">Attach to Shocker.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Shocker attacks and damages you, place 2 threat on the main scheme.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [energy][mental][physical] resources → discard this card.</property>
+    </card>
+    <card name="Grand Larceny" id="fb766780-0f17-4e74-9fb7-4ca84f030067" size="SchemeCard">
+      <property name="CardNumber" value="503067"/>
+      <property name="Position" value="67"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text">Threat cannot be removed from The Long Night.
+&lt;b&gt;Hero Response &lt;/b&gt;&lt;i&gt;(thwart)&lt;/i&gt;&lt;b&gt;:&lt;/b&gt; After a [[criminal ]]minion is defeated, remove 5 threat from Grand Larceny.
+[crisis]</property>
+      <property name="Quote">&lt;i&gt;Criminals in New York are on a a crime spree, robbing every business they come across.
+&lt;/i&gt;</property>
+    </card>
+    <card name="The Getaway" id="fb766780-0f17-4e74-9fb7-4ca84f030068" size="EncounterCard">
+      <property name="CardNumber" value="503068"/>
+      <property name="Position" value="68"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Choose one:
+• Heal 3 damage from Shocker. Shocker schemes.
+• If the Vibro-Shock Gauntlets attachment is not in play, search the encounter deck and discard pile for it and reveal it.
+&lt;i&gt;
+&lt;/i&gt;</property>
+    </card>
+    <card name="The Check Cleared" id="fb766780-0f17-4e74-9fb7-4ca84f030069" size="EncounterCard">
+      <property name="CardNumber" value="503069"/>
+      <property name="Position" value="69"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Surge.
+&lt;b&gt;When Revealed&lt;/b&gt;: Place threat on The Long Night equal to the combined SCH of each [[criminal ]]enemy in play.
+&lt;i&gt;
+&lt;/i&gt;</property>
+    </card>
+    <card name="Get Shocked!" id="fb766780-0f17-4e74-9fb7-4ca84f030070" size="EncounterCard">
+      <property name="CardNumber" value="503070"/>
+      <property name="Position" value="70"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Stun your identity. Deal 1 damage to each hero.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Discard your hand. Draw up to your hand size.</property>
+      <property name="Quote">&lt;i&gt;“I bet you're shocked to see me.”
+&lt;/i&gt;</property>
+    </card>
+    <card name="The Long Night" id="fb766780-0f17-4e74-9fb7-4ca84f030071" size="SchemeCard">
+      <property name="CardNumber" value="503071"/>
+      <property name="Position" value="71"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="shocker_by_ripper3"/>
+      <property name="BaseThreat" value="10"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text">Setup. Permanent. Hinder 15[per_hero].
+The players cannot win unless they survive the night.
+&lt;b&gt;Reponse:&lt;/b&gt; After a [[criminal ]]minion is defeated, remove 2 threat from The Long Night.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the last threat is removed from this scheme, the players survive the night and win the game.</property>
+    </card>
+    <card name="Power Drain" id="fb766780-0f17-4e74-9fb7-4ca84f030072" size="SchemeCard">
+      <property name="CardNumber" value="503072"/>
+      <property name="Position" value="72"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="power_drain_ii_by_ripper3"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: Discard 2 cards from the encounter deck. Each player must choose and discard 1 resource of any type from their hand for each boost icon discarded this way.
+[acceleration]</property>
+    </card>
+    <card name="Electro" id="fb766780-0f17-4e74-9fb7-4ca84f030073" size="EncounterCard">
+      <property name="CardNumber" value="503073"/>
+      <property name="Position" value="73"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="power_drain_ii_by_ripper3"/>
+      <property name="HP" value="6"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Electro attacks you, discard 1 card from the encounter deck. Take 1 indirect damage for each boost icon discarded this way.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Discard 3 cards from the encounter deck.</property>
+    </card>
+    <card name="Electromagnetic Pulse" id="fb766780-0f17-4e74-9fb7-4ca84f030074" size="EncounterCard">
+      <property name="CardNumber" value="503074"/>
+      <property name="Position" value="74"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="power_drain_ii_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard 7 cards from the encounter deck. If an Electro minion was discarded this way, put that minion into play engaged with you. If Electro was not discarded this way, this card gains surge.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Discard 3 cards from the encounter deck.</property>
+    </card>
+    <card name="Lightning Bolt" id="fb766780-0f17-4e74-9fb7-4ca84f030075" size="EncounterCard">
+      <property name="CardNumber" value="503075"/>
+      <property name="Position" value="75"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="power_drain_ii_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard 2 cards from the encounter deck. Take 1 indirect damage for each boost icon discarded this way.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Discard 3 cards from the encounter deck.</property>
+    </card>
+    <card name="Shock Therapy" id="fb766780-0f17-4e74-9fb7-4ca84f030076" size="EncounterCard">
+      <property name="CardNumber" value="503076"/>
+      <property name="Position" value="76"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="power_drain_ii_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard 1[per_hero] cards from the encounter deck. The villain heals 1 damage for each boost icon discarded this way.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Discard 3 cards from the encounter deck.</property>
+    </card>
+    <card name="Electro" id="fb766780-0f17-4e74-9fb7-4ca84f030077" size="EncounterCard">
+      <property name="CardNumber" value="503077"/>
+      <property name="Position" value="77"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="power_drain_ii_by_ripper3"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">[star] Electro gets +1 hit point for each [energy] resource attached to her.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Electro engages you or activates against you, choose 1 card from your hand with a printed [energy] resource and attach it to her.</property>
+    </card>
+    <card name="Electro" id="fb766780-0f17-4e74-9fb7-4ca84f030078" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="503078"/>
+      <property name="Position" value="78"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="HP" value="14"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text" value="&lt;b&gt;Forced Response&lt;/b&gt;: After Electro activates against you, discard cards from the top of the encounter deck until a treachery is discarded."/>
+      <property name="Quote" value="&quot;You think that's bad? You just wait!&quot;"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+    </card>
+    <card name="Electro" id="fb766780-0f17-4e74-9fb7-4ca84f030079" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="503079"/>
+      <property name="Position" value="79"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="HP" value="18"/>
+      <property name="Attack" value="2"/>
+      <property name="Thwart" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard cards from the top of the encounter deck until a copy of A.I.M. Scientist is discarded. Put it into play engaged with the first player.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Electro activates against you, discard cards from the top of the encounter deck until a treachery is discarded.</property>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Electro" id="fb766780-0f17-4e74-9fb7-4ca84f030080" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="503080"/>
+      <property name="Position" value="80"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="HP" value="22"/>
+      <property name="Attack" value="3"/>
+      <property name="Thwart" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text" value="&lt;b&gt;Forced Response&lt;/b&gt;: After Electro activates against you, discard cards from the top of the encounter deck until a treachery with 1 or more boost icons is discarded. Then, discard an equal number of cards from the top of your deck."/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Energized!" id="fb766780-0f17-4e74-9fb7-4ca84f030081" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="503081a"/>
+      <property name="Position" value="81"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;Contents:&lt;/b&gt; Electro (I) and Electro (II). (Electro (II) and Electro (III) instead for expert.) Electro, Power Drain, and Standard encounter sets. 1 modular encounter set (Sinister Assault).
+&lt;b&gt;Setup:&lt;/b&gt; Find the Electricty Clones and Grounded environments and put them into play. Advance to stage 1B.</property>
+      <property name="Quote" value="Electro has teamed up with A.I.M. to help boost his already deadly electricity abilities. With access to dark matter energy, pure electricity form, and even electric clones of himself, he's no joke anymore."/>
+      <property name="Stage" value="1A"/>
+      <alternate name="Energized!" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="503081b"/>
+        <property name="Position" value="81"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="electro_by_ripper3"/>
+        <property name="BaseThreat" value="2"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="18"/>
+        <property name="Unique" value="False"/>
+        <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After step 1 of the villain phase ends, heal 1 damage from the villain for each acceleration token and icon ([acceleration]) in play.
+If this stage is completed, the players lose the game.</property>
+        <property name="Stage" value="1B"/>
+      </alternate>
+    </card>
+    <card name="Electricity Clones" id="fb766780-0f17-4e74-9fb7-4ca84f030082" size="EncounterCard">
+      <property name="CardNumber" value="503082"/>
+      <property name="Position" value="82"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="environment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Setup. Permanent.
+Electro ignores the unique rule. (Multiple copies of Electro can be in play, but "&lt;b&gt;Forced Response&lt;/b&gt;" abilities on a copy of Electro can still only be triggered by that particular copy.)</property>
+      <property name="Quote" value="&quot;I saw him do that in a video game once!&quot; -Deadpool"/>
+    </card>
+    <card name="Grounded" id="fb766780-0f17-4e74-9fb7-4ca84f030083" size="EncounterCard">
+      <property name="CardNumber" value="503083"/>
+      <property name="Position" value="83"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="environment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Setup. Permanent.
+While the total cost of all upgrades and supports in play is less than 10[per_hero], the villain cannot be defeated.
+&lt;b&gt;Forced Response&lt;/b&gt;: After the villain is defeated, remove this card from the game [arrow] each player draws 2 cards.</property>
+    </card>
+    <card name="Greased Lightning" id="fb766780-0f17-4e74-9fb7-4ca84f030084" size="EncounterCard">
+      <property name="CardNumber" value="503084"/>
+      <property name="Position" value="84"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="Boost" value="3"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text" value="Attach to the villain. The attached villain gets +1 Scheme. &lt;b&gt;Forced Response&lt;/b&gt;: After the villain schemes, place an [acceleration] token here. &lt;b&gt;Hero Action&lt;/b&gt;: Discard each card from the encounter deck → discard this card."/>
+    </card>
+    <card name="Lightning Speed" id="fb766780-0f17-4e74-9fb7-4ca84f030085" size="EncounterCard">
+      <property name="CardNumber" value="503085"/>
+      <property name="Position" value="85"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="Boost" value="3"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Attach to the villain.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a copy of Electro enters play, place an acceleration token here.
+&lt;b&gt;Hero Action&lt;/b&gt;: Discard each card from the encounter deck [acceleration] discard this card.</property>
+      <property name="Quote" value="&quot;I'm a living force of nature!&quot;—Electro"/>
+    </card>
+    <card name="A.I.M. Scientist" id="fb766780-0f17-4e74-9fb7-4ca84f030086" size="EncounterCard">
+      <property name="CardNumber" value="503086"/>
+      <property name="Position" value="86"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="HP" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="A.I.M. Scientist."/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: Find the Dark Matter Conversion side scheme and reveal it.
+[star] Boost: Place an acceleration token on an ally.</property>
+    </card>
+    <card name="Black Cat" id="fb766780-0f17-4e74-9fb7-4ca84f030087" size="EncounterCard">
+      <property name="CardNumber" value="503087"/>
+      <property name="Position" value="87"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="HP" value="4"/>
+      <property name="Attack" value="2"/>
+      <property name="Thwart" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text" value="&lt;b&gt;[star] &lt;b&gt;Forced Response&lt;/b&gt;:&lt;/b&gt; After Black Cat engages you or schemes, discard the top 2 cards of the encounter deck. Deal each card with a star icon ([star]) discarded this way to yourself as a facedown encounter card."/>
+      <property name="Quote" value="&quot;Max, there's nothing you can do that'd shock me!&quot;"/>
+    </card>
+    <card name="Electro" id="fb766780-0f17-4e74-9fb7-4ca84f030088" size="EncounterCard">
+      <property name="CardNumber" value="503088"/>
+      <property name="Position" value="88"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="HP" value="8"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Criminal. Elite."/>
+      <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Electro attacks and damages you, discard the top 7 cards of your deck.
+&lt;b&gt;When Defeated&lt;/b&gt;: Remove 4 threat from a side scheme.</property>
+      <property name="Quote" value="&quot;Drop something, pal?!&quot; —Electro"/>
+    </card>
+    <card name="Electro" id="fb766780-0f17-4e74-9fb7-4ca84f030089" size="EncounterCard">
+      <property name="CardNumber" value="503089"/>
+      <property name="Position" value="89"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="HP" value="8"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Criminal. Elite."/>
+      <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After Electro attacks and damages you, discard the top 7 cards of your deck.
+&lt;b&gt;When Defeated&lt;/b&gt;: Remove 4 threat from a side scheme.</property>
+      <property name="Quote" value="&quot;Drop something, pal?!&quot; —Electro"/>
+    </card>
+    <card name="Accelerated Plans" id="fb766780-0f17-4e74-9fb7-4ca84f030090" size="SchemeCard">
+      <property name="CardNumber" value="503090"/>
+      <property name="Position" value="90"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="Scheme_Acceleration" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After this side scheme enters play, place 2 threat here for each acceleration icon and token in play.
+</property>
+      <property name="Quote" value="&quot;Tell me this is gonna work...&quot; -Electro"/>
+    </card>
+    <card name="Dark Matter Conversion" id="fb766780-0f17-4e74-9fb7-4ca84f030091" size="SchemeCard">
+      <property name="CardNumber" value="503091"/>
+      <property name="Position" value="91"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">The villain gets +2 ATK and gains retaliate 1.
+&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 additional threat here for each acceleration token and icon ([acceleration]) in play.</property>
+      <property name="Quote" value="&quot;That Quantum Field Generator is no joke. It'll let Electro harness the power of Dark Matter, too.&quot; -Spider-Man"/>
+    </card>
+    <card name="Charging" id="fb766780-0f17-4e74-9fb7-4ca84f030092" size="EncounterCard">
+      <property name="CardNumber" value="503092"/>
+      <property name="Position" value="92"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: Discard cards from the top of the encounter deck until a minion is discarded. If that minion is Electro, put it into play and it gains quickstrike. Otherwise, this card gains surge."/>
+      <property name="Quote">"Ever heard lightning never strikes twice? All lies."
+—Electro</property>
+    </card>
+    <card name="High Voltage" id="fb766780-0f17-4e74-9fb7-4ca84f030093" size="EncounterCard">
+      <property name="CardNumber" value="503093"/>
+      <property name="Position" value="93"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed (Alter-Ego):&lt;/b&gt; Discard the top 5 cards of your deck.
+&lt;b&gt;When Revealed (Hero):&lt;/b&gt; Discard the top 5 cards of the encounter deck.
+[star] Boost: Discard the top 3 cards of the encounter deck.</property>
+    </card>
+    <card name="Recharging" id="fb766780-0f17-4e74-9fb7-4ca84f030094" size="EncounterCard">
+      <property name="CardNumber" value="503094"/>
+      <property name="Position" value="94"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: Heal 3 damage from each copy of Electro in play. If 3 or fewer damage was healed this way, this card gains surge."/>
+      <property name="Quote" value="&quot;Time to get a little extra juice!&quot; —Electro"/>
+    </card>
+    <card name="Shocked" id="fb766780-0f17-4e74-9fb7-4ca84f030095" size="EncounterCard">
+      <property name="CardNumber" value="503095"/>
+      <property name="Position" value="95"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="electro_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: Discard cards from the top of the encounter deck equal to the number of cards in your hand. If 3 or fewer cards were discarded this way, this card gains surge."/>
+      <property name="Quote" value="&quot;...ouch.&quot; —Spider-Man"/>
+    </card>
+    <card name="The Lizard" id="fb766780-0f17-4e74-9fb7-4ca84f030096" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="503096a"/>
+      <property name="Position" value="96"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="HP" value="12"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Reptilian."/>
+      <property name="Text">Each [[reptilian ]]enemy gest +1 ATK for each formula counter here.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the Lizard would be defeated, instead: discard each attachment from him, remove each formula counter from here, place 1[per_hero] sanity counters on Lizard Brain, and flip card.</property>
+      <property name="Stage" value="A"/>
+      <alternate name="Curt Connors" type="b" size="VillainCard">
+        <property name="DefaultSetupPile" value="Villain"/>
+        <property name="CardNumber" value="503096b"/>
+        <property name="Position" value="96"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="villain"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="the_lizard_by_ripper3"/>
+        <property name="Scheme" value="2"/>
+        <property name="Unique" value="True"/>
+        <property name="Attribute" value="Scientist."/>
+        <property name="Text">[star]&lt;b&gt; &lt;b&gt;Forced Interrupt&lt;/b&gt;: &lt;/b&gt;When Curt Connors would attack, remove 1 sanity counter from Lizard Brain instead.
+[star]&lt;b&gt; Forced Interrupt&lt;/b&gt;: When Curt Connors schemes, this activation removes threat instead of placing it. After this activation, remove 1 sanity counter from Lizard Brain.</property>
+        <property name="Stage" value="0"/>
+        <property name="Standard" value="True"/>
+        <property name="Expert" value="True"/>
+      </alternate>
+    </card>
+    <card name="Chasing Down The Lizard" id="fb766780-0f17-4e74-9fb7-4ca84f030097" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="503097a"/>
+      <property name="Position" value="97"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="Text">&lt;i&gt;After tampering by the Kingpin and A.I.M., the Lizard is rampaging through the city!
+&lt;/i&gt;&lt;b&gt;Contents&lt;/b&gt;: The Lizard (A).&lt;i&gt; &lt;/i&gt;The Lizard and Standard encounter sets. Two modular encounter sets &lt;i&gt;(City Sewers and Down to Earth)&lt;/i&gt;.&lt;b&gt;
+Setup&lt;/b&gt;: Reveal the Lizard Brain attachment. Place 1 formula counter on The Lizard. In expert mode, place 1 additional formula counter on The Lizard.</property>
+      <property name="Stage" value="1A"/>
+      <alternate name="Chasing Down The Lizard" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="503097b"/>
+        <property name="Position" value="97"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="the_lizard_by_ripper3"/>
+        <property name="BaseThreat" value="6"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="15"/>
+        <property name="Text">&lt;b&gt;&lt;b&gt;Forced Interrupt&lt;/b&gt;: &lt;/b&gt;When the last threat is removed from this scheme, advance to stage 2A &lt;i&gt;(the players win by advancing)&lt;/i&gt;. If Curt Connors is in play, remove all sanity counters from Lizard Brain, and each player draws 1 card for each sanity counter removed this way.
+&lt;b&gt;If this stage is completed,
+the players lose the game.
+&lt;/b&gt;</property>
+        <property name="Stage" value="1B"/>
+      </alternate>
+    </card>
+    <card name="The Cure" id="fb766780-0f17-4e74-9fb7-4ca84f030098" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="503098a"/>
+      <property name="Position" value="98"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="Text">&lt;i&gt;The heroes have lured the Lizard back to his lab. Can they cobble together a cure for Connors?
+&lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 formula counter on The Lizard. Search the encounter deck and discard pile for Regenerative Research and reveal it. Place 2[per_hero] threat on Regenerative Research.</property>
+      <property name="Stage" value="2A"/>
+      <alternate name="The Cure" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="503098b"/>
+        <property name="Position" value="98"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="the_lizard_by_ripper3"/>
+        <property name="BaseThreat" value="9"/>
+        <property name="EscalationThreat" value="2"/>
+        <property name="Threat" value="16"/>
+        <property name="Text">&lt;b&gt;Alter-Ego &lt;b&gt;Action&lt;/b&gt;: &lt;/b&gt;If you control a [[genius ]]character, spend [mental][mental] resources → remove 4 threat from here. (Limit once per round per player).
+&lt;b&gt;If this stage is completed, the players lose the game.
+If there is no threat here and the Lizard is not in play, the
+players win the game.&lt;/b&gt;</property>
+        <property name="Stage" value="2B"/>
+      </alternate>
+    </card>
+    <card name="Lizard Brain" id="fb766780-0f17-4e74-9fb7-4ca84f030099" size="EncounterCard">
+      <property name="CardNumber" value="503099"/>
+      <property name="Position" value="99"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="environment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="Text">Setup. Permanent.
+In expert mode, each minion gains the [[reptilian ]]trait.
+[star] &lt;b&gt;Forced Response&lt;/b&gt;: After the last sanity counter is removed from here, flip Curt Connors, then set The Lizard's hit point dial to his printed hit points.</property>
+    </card>
+    <card name="Viper Fangs" id="fb766780-0f17-4e74-9fb7-4ca84f030100" size="EncounterCard">
+      <property name="CardNumber" value="503100"/>
+      <property name="Position" value="100"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Attach to the villain.
+[star]&lt;b&gt; &lt;b&gt;Forced Interrupt&lt;/b&gt;:&lt;/b&gt; When attached villain attacks, the attack gains piercing. If that attack deals damage to an identity, place 1 threat on the main scheme.
+[star] &lt;b&gt;Boost:&lt;/b&gt; Attach this card to The Lizard.</property>
+    </card>
+    <card name="Reptilian Regeneration" id="fb766780-0f17-4e74-9fb7-4ca84f030101" size="EncounterCard">
+      <property name="CardNumber" value="503101"/>
+      <property name="Position" value="101"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Attach to the [[reptilian ]]enemy with the highest printed hit points without another Reptilian Regeneration attached. If you cannot, this card gains surge.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the villain phase begins, heal 1[per_hero] damage from attached enemy.</property>
+    </card>
+    <card name="Super Reptile" id="fb766780-0f17-4e74-9fb7-4ca84f030102" size="EncounterCard">
+      <property name="CardNumber" value="503102"/>
+      <property name="Position" value="102"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attach to The Lizard. Otherwise, Super Reptile gains surge.
+Attached villain gains the [[brute ]]trait.
+[star] &lt;b&gt;Boost:&lt;/b&gt; Attach this card to The Lizard.</property>
+    </card>
+    <card name="Experimental Injection" id="fb766780-0f17-4e74-9fb7-4ca84f030103" size="EncounterCard">
+      <property name="CardNumber" value="503103"/>
+      <property name="Position" value="103"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="Text">Attach to a minion without the [[reptilian ]]trait. Otherwise, attach to the minion with the least remaining hit points. If you cannot, this card gains surge.
+Attached minion gains the [[reptilian ]]trait and gets +4 hit points.</property>
+    </card>
+    <card name="Lizardmen" id="fb766780-0f17-4e74-9fb7-4ca84f030104" size="EncounterCard">
+      <property name="CardNumber" value="503104"/>
+      <property name="Position" value="104"/>
+      <property name="Quantity" value="4"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Reptilian."/>
+      <property name="Text">Toughness.
+[star] &lt;b&gt;Boost:&lt;/b&gt; Give the villain a tough status card.</property>
+    </card>
+    <card name="Giant Alligator" id="fb766780-0f17-4e74-9fb7-4ca84f030105" size="EncounterCard">
+      <property name="CardNumber" value="503105"/>
+      <property name="Position" value="105"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="HP" value="6"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Creature. Giant. Reptilian."/>
+      <property name="Text">Quickstrike. Patrol.
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard the top 5 cards of your deck.
+&lt;i&gt;“Dungeon boss: most ginormous alligator ever.” -Ms. Marvel&lt;/i&gt;</property>
+    </card>
+    <card name="Princess Python" id="fb766780-0f17-4e74-9fb7-4ca84f030106" size="EncounterCard">
+      <property name="CardNumber" value="503106"/>
+      <property name="Position" value="106"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="HP" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">&lt;b&gt;&lt;b&gt;When Revealed&lt;/b&gt;: &lt;/b&gt;Search the encounter deck and discard pile for a copy of Experimental Injection and attach it to Princess Python.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Princess Python attacks you, take 2 indirect damage.</property>
+    </card>
+    <card name="Regenerative Research" id="fb766780-0f17-4e74-9fb7-4ca84f030107" size="SchemeCard">
+      <property name="CardNumber" value="503107"/>
+      <property name="Position" value="107"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text">Hinder 1[per_hero].
+&lt;b&gt;&lt;b&gt;Forced Interrupt&lt;/b&gt;: &lt;/b&gt;When the villain phase begins, heal 1 damage from each [[reptilian ]]enemy. [hazard] &lt;i&gt;“Let the warm-blooded weaklings who inherited the earth through the cosmic fluke _ of a meteor crash beware!”
+&lt;/i&gt;</property>
+    </card>
+    <card name="Scaly Setback" id="fb766780-0f17-4e74-9fb7-4ca84f030108" size="SchemeCard">
+      <property name="CardNumber" value="503108"/>
+      <property name="Position" value="108"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Text">The Lizard gets +10 hit points.&lt;b&gt;
+&lt;/b&gt;
+[crisis] [star] &lt;b&gt;Boost:&lt;/b&gt; If the villain is attacking, this attack gains overkill.</property>
+    </card>
+    <card name="Martha and Billy" id="fb766780-0f17-4e74-9fb7-4ca84f030109" size="EncounterCard">
+      <property name="CardNumber" value="503109"/>
+      <property name="Position" value="109"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Surge.
+&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 sanity counter on Lizard Brain.
+&lt;i&gt;“Curtis Connors was a good husband, a good father! His son, Billy, adored him... and so did I!” &lt;/i&gt;— &lt;i&gt;Martha Connors&lt;/i&gt;</property>
+    </card>
+    <card name="In Cold Blood" id="fb766780-0f17-4e74-9fb7-4ca84f030110" size="EncounterCard">
+      <property name="CardNumber" value="503110"/>
+      <property name="Position" value="110"/>
+      <property name="Quantity" value="4"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="the_lizard_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed (Alter-Ego): &lt;/b&gt;If The Lizard is in play, discard 1 card at random from your hand.
+&lt;b&gt;When Revealed (Hero): &lt;/b&gt;The Lizard attacks you. You cannot play events until after that attack resolves. If no attack was made this way, this card gains surge.</property>
+    </card>
+    <card name="Experimental Sewer Lair" id="fb766780-0f17-4e74-9fb7-4ca84f030111" size="SchemeCard">
+      <property name="CardNumber" value="503111"/>
+      <property name="Position" value="111"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="city_sewers_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Text" value="Each enemy gains retaliate 1."/>
+    </card>
+    <card name="Stegron" id="fb766780-0f17-4e74-9fb7-4ca84f030112" size="EncounterCard">
+      <property name="CardNumber" value="503112"/>
+      <property name="Position" value="112"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="city_sewers_by_ripper3"/>
+      <property name="HP" value="5"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Criminal. Reptilian."/>
+      <property name="Text">[star] &lt;b&gt;Boost:&lt;/b&gt; Give the villain a tough status card. Put this minion into play engaged with you.
+&lt;i&gt;“STEGRON, THE DINOSAUR MAN, will bring a new world of dinosaurs - born in blood and terror!”&lt;/i&gt;</property>
+    </card>
+    <card name="Trapped in the Pipes" id="fb766780-0f17-4e74-9fb7-4ca84f030113" size="EncounterCard">
+      <property name="CardNumber" value="503113"/>
+      <property name="Position" value="113"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="city_sewers_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attach to your identity.
+Negate 1. &lt;i&gt;(After this card is revealed or turned faceup during an enemy activation, if any of its effects are canceled, the revealing player draws 1 card.)
+&lt;/i&gt;[star] &lt;b&gt;Forced Response&lt;/b&gt;: After you change form, discard this card.
+ [star] &lt;b&gt;Boost:&lt;/b&gt; You are confused.</property>
+    </card>
+    <card name="Ceiling Collapse" id="fb766780-0f17-4e74-9fb7-4ca84f030114" size="EncounterCard">
+      <property name="CardNumber" value="503114"/>
+      <property name="Position" value="114"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="city_sewers_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Negate 2. &lt;i&gt;(After this card is revealed or turned faceup during an enemy activation, if any of its effects are canceled, the revealing player draws 2 cards.)
+&lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: Reveal the top card of the encounter deck.
+[star] &lt;b&gt;Boost:&lt;/b&gt; Deal yourself 1 facedown encounter card.</property>
+    </card>
+    <card name="We're Totally Lost" id="fb766780-0f17-4e74-9fb7-4ca84f030115" size="EncounterCard">
+      <property name="CardNumber" value="503115"/>
+      <property name="Position" value="115"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="city_sewers_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Negate 1. &lt;i&gt;(After this card is revealed or turned faceup during an enemy activation, if any of its effects are canceled, the revealing player draws 1 card.)
+&lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: You are confused. If you are already confused, choose and discard 1 card you control.</property>
+    </card>
+    <card name="Vulture" id="fb766780-0f17-4e74-9fb7-4ca84f030116" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="503116"/>
+      <property name="Position" value="116"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="HP" value="10"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Aerial. Criminal."/>
+      <property name="Text">Vulture cannot be attacked during the player phase unless the attacker or attack has the [[aerial ]]trait, or the attack has ranged.
+&lt;i&gt;“It's only a matter of time before I crush you!”&lt;/i&gt;</property>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+    </card>
+    <card name="Vulture" id="fb766780-0f17-4e74-9fb7-4ca84f030117" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="503117"/>
+      <property name="Position" value="117"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="HP" value="15"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Aerial. Criminal."/>
+      <property name="Text">Vulture cannot be attacked during the player phase unless the attacker or attack has the [[aerial ]]trait, or the attack has ranged.
+&lt;b&gt;When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for Feather Daggers and reveal it.
+&lt;i&gt;“It's only a matter of time before I crush you!”&lt;/i&gt;</property>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Vulture" id="fb766780-0f17-4e74-9fb7-4ca84f030118" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="503118"/>
+      <property name="Position" value="118"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="HP" value="20"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Aerial. Criminal."/>
+      <property name="Text">Vulture cannot be attacked during the player phase unless the attacker or attack has the [[aerial ]]trait, or the attack has ranged.
+&lt;b&gt;When Revealed&lt;/b&gt;: Deal each player an encounter card.
+&lt;i&gt;“It's only a matter of time before I crush you!”&lt;/i&gt;</property>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Surveillance Pigeons" id="fb766780-0f17-4e74-9fb7-4ca84f030119" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="503119"/>
+      <property name="Position" value="119"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Vulture (I) and Vulture (II). &lt;i&gt;(Vulture (II) and Vulture (III) for expert mode.)&lt;/i&gt; Vulture and Standard III encounter sets. One modular encounter set &lt;i&gt;(recommended: A.I.M. Abduction)&lt;/i&gt;.
+&lt;b&gt;Setup&lt;/b&gt;: Each player puts a Wingsuit upgrade into play under their control. Put each copy of Aerial Advantage into play.</property>
+      <property name="Stage" value="1A"/>
+    </card>
+    <card name="Surveillance Pigeons" id="fb766780-0f17-4e74-9fb7-4ca84f030120" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="503120"/>
+      <property name="Position" value="120"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="EscalationThreat" value="1"/>
+      <property name="Threat" value="9"/>
+      <property name="Text">[[bird.
+]]&lt;b&gt;&lt;b&gt;Forced Interrupt&lt;/b&gt;: &lt;/b&gt;When you would remove any amount of threat from this scheme, remove 3 pigeon counters from here instead.
+&lt;b&gt;Interrupt&lt;/b&gt;: When you would discard a random card from your hand, you may place 2 pigeon counters here instead.
+&lt;b&gt;If this stage is completed, the players lose the game.
+&lt;/b&gt;</property>
+      <property name="Stage" value="1B"/>
+    </card>
+    <card name="The Vulture's Plans" id="fb766780-0f17-4e74-9fb7-4ca84f030121" size="EncounterCard">
+      <property name="CardNumber" value="503121"/>
+      <property name="Position" value="121"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard 1 card at random from each player's hand. Place 1 threat on the main scheme for each different resource type discarded this way.
+&lt;i&gt;"Spider-Man will pay for interfering with my plans!" —The Vulture&lt;/i&gt;</property>
+    </card>
+    <card name="Sweeping Swoop" id="fb766780-0f17-4e74-9fb7-4ca84f030122" size="EncounterCard">
+      <property name="CardNumber" value="503122"/>
+      <property name="Position" value="122"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="Text">Surge.
+&lt;b&gt;When Revealed&lt;/b&gt;: Stun your hero.
+__________________________________
+[star] &lt;b&gt;Boost:&lt;/b&gt; If this activation deals damage to a friendly character, stun that character.</property>
+    </card>
+    <card name="Falling" id="fb766780-0f17-4e74-9fb7-4ca84f030123" size="EncounterCard">
+      <property name="CardNumber" value="503123"/>
+      <property name="Position" value="123"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Peril.
+&lt;b&gt;When Revealed&lt;/b&gt;: Choose:
+• Exhaust an [[aerial ]]card you control.
+• Discard 3 cards from your hand at random.
+• Take 5 damage.</property>
+    </card>
+    <card name="Vulturion" id="fb766780-0f17-4e74-9fb7-4ca84f030124" size="EncounterCard">
+      <property name="CardNumber" value="503124"/>
+      <property name="Position" value="124"/>
+      <property name="Quantity" value="4"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="HP" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Aerial. Criminal."/>
+      <property name="Text">Quickstrike. Vulnerable.
+&lt;b&gt;When Defeated&lt;/b&gt;: Discard 1 card at random from the engaged player's hand.
+&lt;i&gt;
+&lt;/i&gt;[star]&lt;i&gt; &lt;/i&gt;&lt;b&gt;Boost&lt;/b&gt;: Discard 1 card at random from your hand.</property>
+    </card>
+    <card name="Fisk Helicopter" id="fb766780-0f17-4e74-9fb7-4ca84f030125" size="EncounterCard">
+      <property name="CardNumber" value="503125"/>
+      <property name="Position" value="125"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="HP" value="5"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="Attribute" value="Aerial. Vehicle."/>
+      <property name="Text">Patrol. Steady. Vulnerable.
+&lt;b&gt;&lt;b&gt;When Defeated&lt;/b&gt;: &lt;/b&gt;Choose:
+• Spend 2 resources of the same type.
+• Place 2 threat on a scheme. The defeating player takes 2 indirect damage.</property>
+    </card>
+    <card name="Aggressive Surveillance" id="fb766780-0f17-4e74-9fb7-4ca84f030126" size="SchemeCard">
+      <property name="CardNumber" value="503126"/>
+      <property name="Position" value="126"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text">Characters with the [[aerial ]]trait remove 1 additional threat when thwarting this scheme.
+&lt;b&gt;When Defeated&lt;/b&gt;: Search the encounter deck and discard pile for the Fisk Helicopter minion and reveal it.
+[amplify][crisis]</property>
+    </card>
+    <card name="Highway Robbery" id="fb766780-0f17-4e74-9fb7-4ca84f030127" size="SchemeCard">
+      <property name="CardNumber" value="503127"/>
+      <property name="Position" value="127"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Each player places a random card from their hand facedown here.
+&lt;b&gt;When Defeated&lt;/b&gt;: Return each facedown card here to its owner's hand.
+ [acceleration]</property>
+    </card>
+    <card name="Aerial Dogfight" id="fb766780-0f17-4e74-9fb7-4ca84f030128" size="SchemeCard">
+      <property name="CardNumber" value="503128"/>
+      <property name="Position" value="128"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text">Hinder 2[per_hero].
+Reduce the damage each [[aerial ]]character takes from each attack by 2 unless the attacker or attack has the [[aerial ]]trait, or the attack has ranged.
+ [hazard]</property>
+    </card>
+    <card name="Aerial Advantage" id="fb766780-0f17-4e74-9fb7-4ca84f030129" size="EncounterCard">
+      <property name="CardNumber" value="503129"/>
+      <property name="Position" value="129"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Setup. Surge.
+Attach to the Vulture.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When any amount of damage would be dealt to Vulture, discard Aerial Advantage instead. Place 1 pigeon counter on the main scheme.
+&lt;i&gt;“My wings give me the ultimate high ground!”&lt;/i&gt;</property>
+    </card>
+    <card name="Anti-Gravitational Harness" id="fb766780-0f17-4e74-9fb7-4ca84f030130" size="EncounterCard">
+      <property name="CardNumber" value="503130"/>
+      <property name="Position" value="130"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">Attach to your identity.
+Attached character gains the [[aerial ]]trait.
+&lt;b&gt;Alter-Ego &lt;b&gt;Action&lt;/b&gt;:&lt;/b&gt; Discard a card from your hand and place 2 pigeon counters on the main scheme → discard this card.
+[hazard]</property>
+    </card>
+    <card name="Feather Daggers" id="fb766780-0f17-4e74-9fb7-4ca84f030131" size="EncounterCard">
+      <property name="CardNumber" value="503131"/>
+      <property name="Position" value="131"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="Boost" value="3"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">Attach to Vulture.
+[star] Vulture's attacks gain piercing and ranged.
+&lt;b&gt;Hero Response&lt;/b&gt;: After Vulture attacks you, discard Feather Daggers → Vulture activates against you.
+&lt;i&gt;“Guess Vulture had some upgrades of his own!” -Spider-Man&lt;/i&gt;</property>
+    </card>
+    <card name="Aviator Goggles" id="fb766780-0f17-4e74-9fb7-4ca84f030132" size="EncounterCard">
+      <property name="CardNumber" value="503132"/>
+      <property name="Position" value="132"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="vulture_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Attach to Vulture and place 2 pigeon counters on the main scheme.
+Vulture gains steady.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you attack and damage Vulture, spend an [energy] resource → discard Aviator Goggles.</property>
+    </card>
+    <card name="Wingsuit" id="fb766780-0f17-4e74-9fb7-4ca84f030133">
+      <property name="DefaultSetupPile" value="Setup"/>
+      <property name="CardNumber" value="503133"/>
+      <property name="Position" value="133"/>
+      <property name="Quantity" value="4"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="basic"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Aerial. Tech."/>
+      <property name="Text">Setup. Permanent.
+&lt;b&gt;Hero Interrupt&lt;/b&gt;: When you play an ally or event card, exhaust Wingsuit → that card gains the [[aerial ]]trait until the end of the phase.</property>
+    </card>
+    <card name="Kingpin" id="fb766780-0f17-4e74-9fb7-4ca84f030134" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="503134"/>
+      <property name="Position" value="134"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="HP" value="13"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">Toughness. Steady.
+&lt;b&gt;When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for Kingpin's Suit and reveal it.
+&lt;i&gt;“You embarassed me in front of Vanessa.”&lt;/i&gt;</property>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+    </card>
+    <card name="Kingpin" id="fb766780-0f17-4e74-9fb7-4ca84f030135" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="503135"/>
+      <property name="Position" value="135"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="HP" value="15"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">Toughness. Steady.
+&lt;b&gt;When Revealed&lt;/b&gt;: Search the encounter deck and discard pile for the Kingpin's Suit and Kingpin's Cane attachments and attach them to Kingpin.&lt;i&gt;“You embarassed me in front of Vanessa.”&lt;/i&gt;</property>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Kingpin" id="fb766780-0f17-4e74-9fb7-4ca84f030136" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="503136"/>
+      <property name="Position" value="136"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="HP" value="17"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">Toughness. Stalwart.
+&lt;b&gt;When Revealed&lt;/b&gt;: Each player puts the top card of their deck into play facedown as a [[corrupt ]]side scheme. Search the encounter deck and discard pile for Kingpin's Suit and reveal it.
+&lt;i&gt;“You embarassed me in front of Vanessa.”&lt;/i&gt;</property>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Shadow of the Kingpin" id="fb766780-0f17-4e74-9fb7-4ca84f030137" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="503137a"/>
+      <property name="Position" value="137"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="Text">&lt;i&gt;Wilson Fisk is the Kingpin, the feared crime lord of New York City. Thanks to media manipulation from A.I.M., he is also the mayor of New York City.
+&lt;/i&gt;&lt;b&gt;Contents&lt;/b&gt;: Kingpin and Standard III encounters sets. One modular encounter set &lt;i&gt;(recommended: Crime Wave)&lt;/i&gt;.
+&lt;b&gt;Setup&lt;/b&gt;: Find Fisk Tower and put it into play. Place 1[per_hero] counters on Pursued by the Past.</property>
+      <property name="Stage" value="1A"/>
+      <alternate name="Shadow of the Kingpin" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="503137b"/>
+        <property name="Position" value="137"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="kingpin_by_ripper3"/>
+        <property name="BaseThreat" value="1"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="8"/>
+        <property name="Text">&lt;i&gt;Deep Pockets&lt;/i&gt;&lt;b&gt; &lt;/b&gt;—&lt;b&gt; Forced Response&lt;/b&gt;: After resolving step one of the villain phase, the first player places 1 pursuit counter on Pursued by the Past.
+&lt;b&gt;If this stage is completed, the players lose the game.
+&lt;/b&gt;&lt;i&gt;“It's Hard To Come To Terms With Our Violent Nature.” -Mayor Wilson Fisk
+&lt;/i&gt;</property>
+        <property name="Stage" value="1B"/>
+      </alternate>
+    </card>
+    <card name="Fisk Tower" id="fb766780-0f17-4e74-9fb7-4ca84f030138" size="EncounterCard">
+      <property name="CardNumber" value="503138"/>
+      <property name="Position" value="138"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="environment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">Setup. Each facedown [[corrupt ]]side scheme has starting threat equal to the villain's stage number.
+&lt;b&gt;Forced Response&lt;/b&gt;: After step one of the villain phase, heal 1 damage from Kingpin and Kingpin's Suit for each [[corrupt ]]side scheme in play.</property>
+    </card>
+    <card name="King's Gambit" id="fb766780-0f17-4e74-9fb7-4ca84f030139" size="EncounterCard">
+      <property name="CardNumber" value="503139"/>
+      <property name="Position" value="139"/>
+      <property name="Quantity" value="4"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Put the top card of your deck into play facedown as a [[corrupt ]]side scheme. Kingpin schemes.
+[star] &lt;b&gt;Boost:&lt;/b&gt; Discard 1 card from the top of the encounter deck for each pursuit counter on Pursued by the Past.</property>
+    </card>
+    <card name="Long Live the King" id="fb766780-0f17-4e74-9fb7-4ca84f030140" size="EncounterCard">
+      <property name="CardNumber" value="503140"/>
+      <property name="Position" value="140"/>
+      <property name="Quantity" value="4"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Put the top card of your deck into play facedown as a [[corrupt ]]side scheme. Place 1 pursuit counter on Pursued by the Past.
+&lt;i&gt;“I won't stand for it.”&lt;/i&gt;</property>
+    </card>
+    <card name="Controlling the Narrative" id="fb766780-0f17-4e74-9fb7-4ca84f030141" size="EncounterCard">
+      <property name="CardNumber" value="503141"/>
+      <property name="Position" value="141"/>
+      <property name="Quantity" value="4"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Incite 1.
+Attach to the non-permanent side scheme with the most remaining threat without another copy of Controlling the Narrative attached. If you cannot, this card gains surge.
+Attached scheme gains the [acceleration][crisis] icons.</property>
+    </card>
+    <card name="Kingpin's Suit" id="fb766780-0f17-4e74-9fb7-4ca84f030142" size="EncounterCard">
+      <property name="CardNumber" value="503142"/>
+      <property name="Position" value="142"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Armor."/>
+      <property name="Text">Attach to Kingpin.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When any amount of damage would be dealt to Kingpin, place it here instead. Then, if there is at least 10 damage here, discard Kingpin's Suit.
+[star]&lt;b&gt; Boost&lt;/b&gt;: Attach Kingpin's Suit to Kingpin.</property>
+    </card>
+    <card name="Kingpin's Cane" id="fb766780-0f17-4e74-9fb7-4ca84f030143" size="EncounterCard">
+      <property name="CardNumber" value="503143"/>
+      <property name="Position" value="143"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Attach to Kingpin.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Kingpin initiates an attack against you, put the top card of your deck into play facedown as a [[corrupt ]]side scheme.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [physical][physical][physical] resources → discard this card.
+[star] &lt;b&gt;Boost:&lt;/b&gt; After this activation, attach this card to Kingpin.</property>
+    </card>
+    <card name="Typhoid Mary" id="fb766780-0f17-4e74-9fb7-4ca84f030144" size="EncounterCard">
+      <property name="CardNumber" value="503144"/>
+      <property name="Position" value="144"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">[star]&lt;b&gt; &lt;/b&gt;Typhoid Mary's attacks deal indirect damage.
+&lt;b&gt;When Revealed&lt;/b&gt;: Take 1 indirect damage for each pursuit counter on Pursued by the Past.
+&lt;i&gt;“And the thing is... I didn't even &lt;/i&gt;eat &lt;i&gt;the cheese.”&lt;/i&gt;</property>
+    </card>
+    <card name="Lady Bullseye" id="fb766780-0f17-4e74-9fb7-4ca84f030145" size="EncounterCard">
+      <property name="CardNumber" value="503145"/>
+      <property name="Position" value="145"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="HP" value="5"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Assassin. Criminal."/>
+      <property name="Text">Quickstrike. Vulnerable. &lt;i&gt;(Discard this character if it is stunned or confused.)
+&lt;/i&gt;&lt;b&gt;When Defeated&lt;/b&gt;: Place 2 pursuit counters on Pursued by the Past.
+&lt;i&gt;“The first time I killed a man, all I felt was... impatience to do it again.”
+&lt;/i&gt;</property>
+    </card>
+    <card name="Devil's Reign" id="fb766780-0f17-4e74-9fb7-4ca84f030146" size="SchemeCard">
+      <property name="CardNumber" value="503146"/>
+      <property name="Position" value="146"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Text">[[corrupt.
+]]&lt;i&gt;Wilson Fisk's hubris as mayor of New York has cast the city in the waiting arms of a cadre of dangerous and deadly super villains!
+&lt;/i&gt;
+[hazard][hazard]</property>
+    </card>
+    <card name="“Legitimate Business”" id="fb766780-0f17-4e74-9fb7-4ca84f030147" size="SchemeCard">
+      <property name="CardNumber" value="503147"/>
+      <property name="Position" value="147"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text">[[corrupt.
+]]&lt;i&gt;The Kingpin. On paper he was a shadow. A businessman. He was careful not to leave a trail...
+&lt;/i&gt;Hinder 1[per_hero].
+&lt;b&gt;When Defeated&lt;/b&gt;: The first player discards cards from the top of the encounter deck until an attachment is discarded and reveals that card.
+ [amplify]</property>
+    </card>
+    <card name="FBI Investigation" id="fb766780-0f17-4e74-9fb7-4ca84f030148" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Encounter"/>
+      <property name="CardNumber" value="503148"/>
+      <property name="Position" value="148"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="obligation"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kingpin_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After a card you control defeats a side scheme, place 1 clue counter here. Then, if there are at least 3 clue counters here, discard this card and place 1 pursuit counter on Pursued by the Past.
+[acceleration]</property>
+    </card>
+    <card name="Prey for Mercy" id="fb766780-0f17-4e74-9fb7-4ca84f030149" size="SchemeCard">
+      <property name="CardNumber" value="503149"/>
+      <property name="Position" value="149"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kraven_the_hunter_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Text">&lt;i&gt;“We are going to fight, Kaine. One predator against another. And one of us will die.” -Kraven the Hunter
+&lt;/i&gt;Threat cannot be removed from this scheme while Kraven the Hunter is in play.
+&lt;i&gt;(Prey for Mercy is a nemesis side scheme.)
+&lt;/i&gt;
+[hazard] &lt;i&gt;
+&lt;/i&gt;</property>
+    </card>
+    <card name="Kraven the Hunter" id="fb766780-0f17-4e74-9fb7-4ca84f030150" size="EncounterCard">
+      <property name="CardNumber" value="503150"/>
+      <property name="Position" value="150"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kraven_the_hunter_by_ripper3"/>
+      <property name="HP" value="5"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Criminal. Elite."/>
+      <property name="Text">Steady. Villainous.
+[star]&lt;b&gt; Forced Response&lt;/b&gt;: After Kraven the Hunter attacks and damages you, exhaust 1 upgrade or support you control.
+&lt;i&gt;(Kraven the Hunter is a nemesis minion.)
+“Let the hunt... begin!”&lt;/i&gt;</property>
+    </card>
+    <card name="Mancatcher Net" id="fb766780-0f17-4e74-9fb7-4ca84f030151" size="EncounterCard">
+      <property name="CardNumber" value="503151"/>
+      <property name="Position" value="151"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kraven_the_hunter_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Choose and discard the lowest-cost support or upgrade you control. Stun your identity.
+&lt;i&gt;“I'll be head to heels in blood tonight...” -Kraven the Hunter
+&lt;/i&gt;</property>
+    </card>
+    <card name="Tiger" id="fb766780-0f17-4e74-9fb7-4ca84f030152" size="EncounterCard">
+      <property name="CardNumber" value="503152"/>
+      <property name="Position" value="152"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kraven_the_hunter_by_ripper3"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Creature."/>
+      <property name="Text">Quickstrike.
+[star]&lt;b&gt; &lt;/b&gt;Tiger's attacks gain piercing.&lt;i&gt;
+“ROAR!”
+&lt;/i&gt;[star]&lt;b&gt; Boost:&lt;/b&gt; If this activation is an attack, it gains piercing.</property>
+    </card>
+    <card name="Pit Trap" id="fb766780-0f17-4e74-9fb7-4ca84f030153" size="EncounterCard">
+      <property name="CardNumber" value="503153"/>
+      <property name="Position" value="153"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="kraven_the_hunter_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Trap!"/>
+      <property name="Text">Attach to your identity and take 1 damage.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached character would ready, discard this card instead.
+[star] &lt;b&gt;Boost&lt;/b&gt;: Attach this card to your identity.</property>
+    </card>
+    <card name="Escaped Convict" id="fb766780-0f17-4e74-9fb7-4ca84f030160" size="EncounterCard">
+      <property name="CardNumber" value="503160"/>
+      <property name="Position" value="160"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="crime_wave_by_ripper3"/>
+      <property name="HP" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text" value="Surge. Vulnerable. &lt;i&gt;(Discard this character if it is stunned or confused.)&lt;/i&gt;"/>
+    </card>
+    <card name="Hired Gun" id="fb766780-0f17-4e74-9fb7-4ca84f030161" size="EncounterCard">
+      <property name="CardNumber" value="503161"/>
+      <property name="Position" value="161"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="crime_wave_by_ripper3"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text" value="Guard. Vulnerable. &lt;i&gt;(Discard this character if it is stunned or confused.)&lt;/i&gt;"/>
+    </card>
+    <card name="Crime Pays" id="fb766780-0f17-4e74-9fb7-4ca84f030162" size="SchemeCard">
+      <property name="CardNumber" value="503162"/>
+      <property name="Position" value="162"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="crime_wave_by_ripper3"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Search the encounter deck for a [[criminal ]]minion and put it into play engaged with you. &lt;i&gt;(Shuffle.)&lt;/i&gt; If no minion was put into play this way, this card gains surge.
+[acceleration]</property>
+    </card>
+    <card name="Honor Among Thieves" id="fb766780-0f17-4e74-9fb7-4ca84f030163" size="EncounterCard">
+      <property name="CardNumber" value="503163"/>
+      <property name="Position" value="163"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="crime_wave_by_ripper3"/>
+      <property name="Boost" value="2"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: Discard cards from the top of the encounter deck until a [[criminal ]]minion is discarded. Reveal that minion, then give that minion a tough status card and the villain 1 facedown boost card."/>
+    </card>
+    <card name="“Vote for Fisk”" id="fb766780-0f17-4e74-9fb7-4ca84f030164" size="EncounterCard">
+      <property name="CardNumber" value="503164a"/>
+      <property name="Position" value="164"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="environment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="wod_campaign_by_ripper3"/>
+      <property name="Text">Standard Mode Only.
+[star]&lt;b&gt; Forced Response&lt;/b&gt;: After the villain schemes, place 2 threat on the scheme with the lowest amount of threat.
+&lt;i&gt;“We can no longer rely on Superhumans in New York City. The Avengers, the X-Men, and least of all, The Spiders.”
+&lt;/i&gt;</property>
+      <alternate name="“Vote for Fisk”" type="b" size="EncounterCard">
+        <property name="CardNumber" value="503164b"/>
+        <property name="Position" value="164"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="environment"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="wod_campaign_by_ripper3"/>
+        <property name="Text">Expert Mode Only.
+[star]&lt;b&gt; Forced Response&lt;/b&gt;: After the villain schemes, place 2 threat on the scheme with the lowest amount of threat.
+
+								 [acceleration][hazard]</property>
+      </alternate>
+    </card>
+    <card name="Bodyguard" id="fb766780-0f17-4e74-9fb7-4ca84f030165" size="EncounterCard">
+      <property name="CardNumber" value="503165"/>
+      <property name="Position" value="165"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="bodyguard_by_ripper3"/>
+      <property name="Boost" value="3"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text">Search the encounter deck for the minion with the highest printed hit points and put it into play with you with Bodyguard attached to it.
+Attached minion gains the [[elite ]]trait, guard, and gets +2 hit points.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached minion is defeated, shuffle it into the encounter deck from the encounter discard pile.
+&lt;i&gt;“I get paid by the punch.”&lt;/i&gt;</property>
+    </card>
+    <card name="“He's Mine!”" id="fb766780-0f17-4e74-9fb7-4ca84f030166" size="EncounterCard">
+      <property name="CardNumber" value="503166"/>
+      <property name="Position" value="166"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="bodyguard_by_ripper3"/>
+      <property name="Boost" value="1"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: If the Bodyguard attachment is not in play, discard each non-[[elite]] minion engaged with you. Place 1 threat on the main scheme for each minion discarded this way. Search the encounter deck and discard pile for the Bodyguard attachment and reveal it. Otherwise, this card gains surge."/>
+    </card>
+    <card name="Bodyguard" id="fb766780-0f17-4e74-9fb7-4ca84f030167" size="EncounterCard">
+      <property name="CardNumber" value="503167"/>
+      <property name="Position" value="167"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="bodyguard_by_ripper3"/>
+      <property name="HP" value="5"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="Attribute" value="Mercenary."/>
+      <property name="Text">Guard. &lt;i&gt;(While this minion is engaged with you, you cannot attack the villain.)
+&lt;/i&gt;[star] &lt;b&gt;Boost: &lt;/b&gt;Choose to give the villain a tough status card or heal 4 damage from the villain. If you cannot, put this card into play engaged with you.</property>
+    </card>
+    <card name="Multiverse Recruit" id="fb766780-0f17-4e74-9fb7-4ca84f030168" size="EncounterCard">
+      <property name="CardNumber" value="503168"/>
+      <property name="Position" value="168"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="bodyguard_by_ripper3"/>
+      <property name="Boost" value="3"/>
+      <property name="Attribute" value="Multiverse."/>
+      <property name="Text">Attached minion ignores the unique rule and gains Victory 0.
+&lt;b&gt;When Revealed&lt;/b&gt;: Search your collection for a nemesis minion and put it into play engaged with you with Multiverse Recruit attached. (Limit once per minion per campaign.)
+&lt;i&gt;“This round goes to you fair spider. But you shall hear again from the Six Men of Sinestry.”&lt;/i&gt;</property>
+    </card>
+    <card name="The Great Web" id="fb766780-0f17-4e74-9fb7-4ca84f030171" size="EncounterCard">
+      <property name="CardNumber" value="503169"/>
+      <property name="Position" value="171"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="environment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="wod_campaign_by_ripper3"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Setting."/>
+      <property name="Text">Setup. Surge.
+The unique rule does not apply to each [[web-warrior]] character and each card with “Spider” in its title.
+&lt;i&gt;“We learn from our mistakes, Peter. But new challenges will arise, and when they do... the Web-Warriors will be there to meet them.”
+&lt;/i&gt;</property>
+    </card>
+    <card name="Green Goblin" id="fb766780-0f17-4e74-9fb7-4ca84f030170" size="EncounterCard">
+      <property name="CardNumber" value="503170"/>
+      <property name="Position" value="170"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="wod_campaign_by_ripper3"/>
+      <property name="HP" value="6"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="3"/>
+      <property name="Boost" value="4"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Criminal. Elite. Goblin."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Take 2 indirect damage. Shuffle each [[tech ]]attachment in the encounter discard pile into the encounter deck.
+&lt;i&gt;“Ha ha ha ha ha ha ha hahahaha haha!” -Green Goblin&lt;/i&gt;</property>
+    </card>
+    <card name="Hobgoblin" id="fb766780-0f17-4e74-9fb7-4ca84f030169" size="EncounterCard">
+      <property name="CardNumber" value="503171"/>
+      <property name="Position" value="169"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="wod_campaign_by_ripper3"/>
+      <property name="HP" value="6"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Criminal. Elite. Goblin."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Take 2 indirect damage. Shuffle each [[tech ]]attachment in the encounter discard pile into the encounter deck.
+&lt;i&gt;“Hahahahahahahaahaaaaaha!”&lt;/i&gt;</property>
+    </card>
+    <card name="Great Web Strand" id="fb766780-0f17-4e74-9fb7-4ca84f030172">
+      <property name="CardNumber" value="503172"/>
+      <property name="Position" value="172"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="support"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_multiverse_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Web-Warrior."/>
+      <property name="Text">Setup.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you change form, discard Great Web Strand → search your deck and discard pile for a [[web-warrior]] ally or an ally with “Spider” in its title and add it to your hand.</property>
+    </card>
+    <card name="Spider-Girl" id="fb766780-0f17-4e74-9fb7-4ca84f030173">
+      <property name="CardNumber" value="503173"/>
+      <property name="Position" value="173"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="ally"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_multiverse_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Web-Warrior."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Spider-Girl enters play or leaves play, choose:
+• Ready your hero.
+• Heal 1 damage from your alter-ego.</property>
+    </card>
+    <card name="Spider-UK" id="fb766780-0f17-4e74-9fb7-4ca84f030174">
+      <property name="CardNumber" value="503174"/>
+      <property name="Position" value="174"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="ally"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_multiverse_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Web-Warrior."/>
+      <property name="Text">Toughness.
+&lt;b&gt;Response&lt;/b&gt;: After Spider-UK enters play, give another [[web-warrior]] character a tough status card. If you cannot, discard cards from the top of your deck until you discard an ally and add it to your hand.
+&lt;i&gt;“british quote here!”&lt;/i&gt;</property>
+    </card>
+    <card name="Great Web Warrior" id="fb766780-0f17-4e74-9fb7-4ca84f030175">
+      <property name="CardNumber" value="503175"/>
+      <property name="Position" value="175"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_multiverse_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Title."/>
+      <property name="Text">Setup.
+You gain the [[web-warrior]] trait.
+You get +2 hit points.
+&lt;i&gt;The portal opens to reveal the dimension designated Earth-001.&lt;/i&gt;</property>
+    </card>
+    <card name="Earth-001" id="fb766780-0f17-4e74-9fb7-4ca84f030176">
+      <property name="CardNumber" value="503176"/>
+      <property name="Position" value="176"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="support"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_multiverse_by_ripper3"/>
+      <property name="Cost" value="0"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Location. Web-Warrior."/>
+      <property name="Text">Setup. Permanent.
+You may include [[web-warrior]] allies from any aspect in your deck during deckbuilding.
+&lt;i&gt;“So, Karn. How've you been? You're not feeling...hungry or anything, are you?” -Anya&lt;/i&gt;</property>
+    </card>
+    <card name="Web-Warriors" id="fb766780-0f17-4e74-9fb7-4ca84f030177">
+      <property name="CardNumber" value="503177"/>
+      <property name="Position" value="177"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="support"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_multiverse_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Team."/>
+      <property name="Text">Play under any player's control. Max 1 [[team ]]card per player.
+Each of your [[web-warrior]] allies gets +1 hit point and +1 ATK.
+&lt;i&gt;“Battleplan Normandy! Take it to 'em!” -Spider-UK&lt;/i&gt;</property>
+    </card>
+    <card name="Spider-Man Noir" id="fb766780-0f17-4e74-9fb7-4ca84f030178">
+      <property name="CardNumber" value="503178"/>
+      <property name="Position" value="178"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="ally"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_multiverse_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Web-Warrior."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Spider-Man Noir leaves play, heal 4 damage from your identity.
+&lt;i&gt;“Wherever I go the wind follows, and the wind... smells like rain.”&lt;/i&gt;</property>
+    </card>
+    <card name="Spider-Man" id="fb766780-0f17-4e74-9fb7-4ca84f030179">
+      <property name="CardNumber" value="503179"/>
+      <property name="Position" value="179"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="ally"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_multiverse_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Web-Warrior."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Spider-Man leaves play, remove 4 threat from a scheme.
+&lt;i&gt;"Being Spider-Man is so easy!"&lt;/i&gt;</property>
+    </card>
+    <card name="Arana" id="fb766780-0f17-4e74-9fb7-4ca84f030180">
+      <property name="CardNumber" value="503180"/>
+      <property name="Position" value="180"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="ally"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_multiverse_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Web-Warrior."/>
+      <property name="Text" value="&lt;b&gt;Response&lt;/b&gt;: After Arana leaves play, deal 5 damage to an enemy."/>
+    </card>
+    <card name="Master Weaver" id="fb766780-0f17-4e74-9fb7-4ca84f030181">
+      <property name="CardNumber" value="503181"/>
+      <property name="Position" value="181"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="support"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_multiverse_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Web-Warrior."/>
+      <property name="Text">Each [[web-warrior]] ally gets +1 hit point for each boost icon ([boost]) tucked under them.
+&lt;b&gt;Response&lt;/b&gt;: After a [[web-warrior]] ally enters play, tuck the top card of the encounter deck under that ally.</property>
+    </card>
+    <card name="Radioactive Spider" id="fb766780-0f17-4e74-9fb7-4ca84f030182">
+      <property name="CardNumber" value="503182"/>
+      <property name="Position" value="182"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="support"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_radioactive_by_ripper3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Radioactive. Tiny."/>
+      <property name="Text">Setup.
+&lt;b&gt;Action&lt;/b&gt;: Discard Radioactive Spider → deal 1 damage to your identity. You get +2 hand size until the end of the phase.</property>
+    </card>
+    <card name="Venom Blast" id="fb766780-0f17-4e74-9fb7-4ca84f030183">
+      <property name="CardNumber" value="503183"/>
+      <property name="Position" value="183"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_radioactive_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(attack)&lt;/i&gt;: Deal 5 damage to an enemy.
+&lt;i&gt;(This card is both a Web of Deceit Campaign Reward card and an Aggression card.)&lt;/i&gt;</property>
+    </card>
+    <card name="Wallcrawl" id="fb766780-0f17-4e74-9fb7-4ca84f030184">
+      <property name="CardNumber" value="503184"/>
+      <property name="Position" value="184"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_radioactive_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; &lt;i&gt;(thwart)&lt;/i&gt;: Remove 3 threat from a scheme. If this removes the last threat from that scheme, draw 2 cards.
+&lt;i&gt;(This card is both a Web of Deceit Campaign Reward card and a Justice card.)&lt;/i&gt;</property>
+    </card>
+    <card name="Spider-Healing Factor" id="fb766780-0f17-4e74-9fb7-4ca84f030185">
+      <property name="CardNumber" value="503185"/>
+      <property name="Position" value="185"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_radioactive_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">You get +3 hit points.
+&lt;b&gt;Response&lt;/b&gt;: After your turn begins, exhaust Spider-Healing Factor → heal 1 damage from your identity.
+&lt;i&gt;(This card is both a Web of Deceit Campaign Reward card an a Pool card.)&lt;/i&gt;</property>
+    </card>
+    <card name="Proportionate Strength and Speed" id="fb766780-0f17-4e74-9fb7-4ca84f030186">
+      <property name="CardNumber" value="503186"/>
+      <property name="Position" value="186"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_radioactive_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">You get +3 hit points and your hero gets +1 DEF and +1 ATK.
+&lt;i&gt;(This card is both a Web of Deceit Campaign Reward card and a Protection card.)
+&lt;/i&gt;</property>
+    </card>
+    <card name="Doppelganger" id="fb766780-0f17-4e74-9fb7-4ca84f030187">
+      <property name="CardNumber" value="503187"/>
+      <property name="Position" value="187"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="ally"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_radioactive_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Thwart" value="0"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Web-Warrior."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Doppelganger leaves play, search your deck and discard pile for a [[superpower ]]card and add it to your hand.
+&lt;i&gt;(This card is both a Web of Deceit Campaign Reward card and a Leadership card.)&lt;/i&gt;</property>
+    </card>
+    <card name="Radioactive Power" id="fb766780-0f17-4e74-9fb7-4ca84f030188">
+      <property name="CardNumber" value="503188"/>
+      <property name="Position" value="188"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="resource"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_radioactive_by_ripper3"/>
+      <property name="Resource_Physical" value="2"/>
+      <property name="Resource_Energy" value="2"/>
+      <property name="Attribute" value="Superpower."/>
+    </card>
+    <card name="Dynamo" id="fb766780-0f17-4e74-9fb7-4ca84f030189">
+      <property name="CardNumber" value="503189"/>
+      <property name="Position" value="189"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_radioactive_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Uses (3 energy counters).
+&lt;b&gt;Response&lt;/b&gt;: After you play a [[superpower ]]card, remove 1 energy counter from Dynamo → stun an enemy and deal 2 damage to it.</property>
+    </card>
+    <card name="Camouflage" id="fb766780-0f17-4e74-9fb7-4ca84f030190">
+      <property name="CardNumber" value="503190"/>
+      <property name="Position" value="190"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_radioactive_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Uses (3 energy counters).
+&lt;b&gt;Response&lt;/b&gt;: After you play a [[superpower ]]card, remove 1 energy counter from Camouflage→ confuse an enemy and give your identity a tough status card.</property>
+    </card>
+    <card name="Spider-Tingle" id="fb766780-0f17-4e74-9fb7-4ca84f030191">
+      <property name="CardNumber" value="503191"/>
+      <property name="Position" value="191"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_spidersense_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Setup.
+&lt;b&gt;Interrupt&lt;/b&gt;: When you reveal a treachery, discard Spider-Tingle → cancel the “&lt;b&gt;When Revealed&lt;/b&gt;” effects of that treachery.
+&lt;i&gt;“It's his Spider-Sense!”&lt;/i&gt;</property>
+    </card>
+    <card name="Spider-Sense" id="fb766780-0f17-4e74-9fb7-4ca84f030192">
+      <property name="CardNumber" value="503192"/>
+      <property name="Position" value="192"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_spidersense_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt&lt;/b&gt;: When the villain initiates an attack against you, draw 1 card.
+&lt;i&gt;“Thanks Spidey-Sense!”&lt;/i&gt;</property>
+    </card>
+    <card name="Clairvoyant Sight" id="fb766780-0f17-4e74-9fb7-4ca84f030193">
+      <property name="CardNumber" value="503193"/>
+      <property name="Position" value="193"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_spidersense_by_ripper3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Psionic. Superpower."/>
+      <property name="Text">Setup. Permanent.
+You gain the [[psionic ]]trait.
+&lt;i&gt;“The threads of destiny are never still. I see where they lead… if you dare to follow.” -Madame Web.&lt;/i&gt;</property>
+    </card>
+    <card name="Sensing Trouble" id="fb766780-0f17-4e74-9fb7-4ca84f030194">
+      <property name="CardNumber" value="503194"/>
+      <property name="Position" value="194"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_spidersense_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(thwart)&lt;/i&gt;:&lt;b&gt; &lt;/b&gt;Ready your identity → remove 3 threat from a scheme.
+&lt;i&gt;“Trouble nearby, I better investigate!”&lt;/i&gt;</property>
+    </card>
+    <card name="Team Spider-Sense" id="fb766780-0f17-4e74-9fb7-4ca84f030195">
+      <property name="CardNumber" value="503195"/>
+      <property name="Position" value="195"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_spidersense_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Psionic. Superpower."/>
+      <property name="Text">Alliance.
+&lt;b&gt;&lt;b&gt;Interrupt&lt;/b&gt;: &lt;/b&gt;When a treachery card is revealed from the encounter deck, cancel its "&lt;b&gt;When Revealed&lt;/b&gt;" effects. Each player draws 1 card.</property>
+    </card>
+    <card name="Arachno-Telepathy" id="fb766780-0f17-4e74-9fb7-4ca84f030196">
+      <property name="CardNumber" value="503196"/>
+      <property name="Position" value="196"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_spidersense_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Psionic. Superpower."/>
+      <property name="Text">&lt;b&gt;Action &lt;/b&gt;&lt;i&gt;(thwart)&lt;/i&gt;: Exhaust Arachno-Telepathy, and discard 1 card from the encounter deck → remove 1 threat from a scheme for each icon ([boost] or [star]) discarded this way.
+&lt;i&gt;“We can eat them, right? Asking for a friend.” &lt;/i&gt;—&lt;i&gt;Spiders-Man&lt;/i&gt;</property>
+    </card>
+    <card name="Backflip" id="fb766780-0f17-4e74-9fb7-4ca84f030197">
+      <property name="CardNumber" value="503197"/>
+      <property name="Position" value="197"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_spidersense_by_ripper3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Defense. Skill."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt &lt;/b&gt;&lt;i&gt;(defense)&lt;/i&gt;: When your hero would take any amount of damage from an enemy attack, prevent all of that damage.
+&lt;i&gt;“Whoops!”
+- Silk&lt;/i&gt;</property>
+    </card>
+    <card name="See the Future" id="fb766780-0f17-4e74-9fb7-4ca84f030198" size="PlayerSchemeCard">
+      <property name="CardNumber" value="503198"/>
+      <property name="Position" value="198"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_spidersense_by_ripper3"/>
+      <property name="Cost" value="0"/>
+      <property name="BaseThreat" value="5"/>
+      <property name="Unique" value="True"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Text">Victory 0.
+&lt;b&gt;When Defeated&lt;/b&gt;: Each player draws 2 cards. Until the end of the round, play with the top card of the encounter deck faceup.
+&lt;i&gt;“New skeins of being sewn....” -Julia Carpenter, Madame Web&lt;/i&gt;</property>
+    </card>
+    <card name="Madame Web" id="fb766780-0f17-4e74-9fb7-4ca84f030199">
+      <property name="CardNumber" value="503199"/>
+      <property name="Position" value="199"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="support"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_spidersense_by_ripper3"/>
+      <property name="Cost" value="3"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Persona. Psionic. Web-Warrior."/>
+      <property name="Text">Each [[psionic ]]character you control gains the [[web-warrior]] trait.
+&lt;b&gt;Alter-Ego Action &lt;/b&gt;&lt;i&gt;(thwart)&lt;/i&gt;: Exhaust Madame Web → for each [[web-warrior]] card you control, choose a scheme and remove 1 threat from it.</property>
+    </card>
+    <card name="Web-Shooter" id="fb766780-0f17-4e74-9fb7-4ca84f030200">
+      <property name="CardNumber" value="503200"/>
+      <property name="Position" value="200"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_webspinner_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Item. Tech."/>
+      <property name="Text">Setup. Uses (3 web counters.)
+&lt;b&gt;Hero Resource&lt;/b&gt;: Exhaust Web-Shooter and remove 1 web counter from it → generate a [wild] resource.</property>
+    </card>
+    <card name="Quick Reload" id="fb766780-0f17-4e74-9fb7-4ca84f030201">
+      <property name="CardNumber" value="503201"/>
+      <property name="Position" value="201"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_webspinner_by_ripper3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Choose two of the following (you may choose the same option twice):
+• Ready a [[tech ]]card you control.
+• Place 1 all-purpose counter on a [[tech ]]upgrade you control.
+&lt;i&gt;“I need to whip up a new batch of web fluid soon...”
+- Spider-Man&lt;/i&gt;</property>
+    </card>
+    <card name="Spider-Bots" id="fb766780-0f17-4e74-9fb7-4ca84f030202">
+      <property name="CardNumber" value="503202"/>
+      <property name="Position" value="202"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_webspinner_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tech."/>
+      <property name="Text">Uses (4 bot counters).
+&lt;b&gt;Hero Action &lt;/b&gt;&lt;i&gt;(thwart)&lt;/i&gt;&lt;b&gt;:&lt;/b&gt; Exhaust Spider-Bots and remove 1 bot counter from here → remove threat from a scheme equal to the total number of printed [mental] and [wild] resources in your hand.</property>
+    </card>
+    <card name="Bag Head" id="fb766780-0f17-4e74-9fb7-4ca84f030203">
+      <property name="CardNumber" value="503203"/>
+      <property name="Position" value="203"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_webspinner_by_ripper3"/>
+      <property name="Cost" value="0"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Victory 1.
+&lt;b&gt;Action&lt;/b&gt;: Add Bag Head to the victory display→ change to hero form. Draw up to your hand size.</property>
+    </card>
+    <card name="The Power of Web" id="fb766780-0f17-4e74-9fb7-4ca84f030204">
+      <property name="CardNumber" value="503204"/>
+      <property name="Position" value="204"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="resource"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_webspinner_by_ripper3"/>
+      <property name="Resource_Energy" value="2"/>
+      <property name="Resource_Wild" value="4"/>
+      <property name="Quote" value="&lt;i&gt;“I'm a symbol of hope... At the very least, I can look cool doing it.” &lt;/i&gt;—&lt;i&gt; Spider-Man, India&lt;/i&gt;"/>
+    </card>
+    <card name="Spider-Mobile" id="fb766780-0f17-4e74-9fb7-4ca84f030205">
+      <property name="CardNumber" value="503205"/>
+      <property name="Position" value="205"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="support"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_webspinner_by_ripper3"/>
+      <property name="Cost" value="4"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Tech. Vehicle. Web-Warrior."/>
+      <property name="Text">Reduce the cost to play this card by 1 for each [[web-warrior]] card you control.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you defend against an attack, exhaust Spider-Mobile → ready your identity.</property>
+    </card>
+    <card name="Spider-Boy" id="fb766780-0f17-4e74-9fb7-4ca84f030206">
+      <property name="CardNumber" value="503206"/>
+      <property name="Position" value="206"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="ally"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_webspinner_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="HP" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Web-Warrior."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After Spider-Boy enters play or leaves play, remove 1 threat from a scheme.
+&lt;i&gt;"No need to applaud. Well...maybe some applause would be nice." &lt;/i&gt;—&lt;i&gt;Spider-Boy&lt;/i&gt;</property>
+    </card>
+    <card name="Web Swing!" id="fb766780-0f17-4e74-9fb7-4ca84f030207">
+      <property name="CardNumber" value="503207"/>
+      <property name="Position" value="207"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_webspinner_by_ripper3"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Skill."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Ready your hero. Your identity gets +1 to each of its basic powers until the end of the round.
+&lt;i&gt;“I need to whip up a new batch of web fluid soon...”
+- Spider-Man&lt;/i&gt;</property>
+    </card>
+    <card name="Webbed" id="fb766780-0f17-4e74-9fb7-4ca84f030208">
+      <property name="CardNumber" value="503208"/>
+      <property name="Position" value="208"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="campaign"/>
+      <property name="Owner" value="wod_campaign_webspinner_by_ripper3"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Attach to an enemy.
+Attached enemy loses steady and stalwart.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When an enemy would activate, discard Webbed instead.</property>
+    </card>
+    <card name="Power Outage" id="fb766780-0f17-4e74-9fb7-4ca84f030210" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="503210a"/>
+      <property name="Position" value="210"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="power_outage_by_ripper3"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;Contents:&lt;/b&gt; Electro (I) and Electro (II). (Electro (II) and Electro (III) instead for expert mode.) Electro, Power Drain II, and Standard encounters sets. One modular encounter set (recommended A.I.M. Science).
+&lt;b&gt;Setup:&lt;/b&gt; Put the Electricity Clones and Grounded environments into play.</property>
+      <property name="Stage" value="1A"/>
+      <alternate name="Power Outage" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="503210b"/>
+        <property name="Position" value="210"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="power_outage_by_ripper3"/>
+        <property name="BaseThreat" value="1"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="7"/>
+        <property name="Unique" value="False"/>
+        <property name="Text" value="[star] &lt;b&gt;Forced Response&lt;/b&gt;: After resolving step one of the villain phase, heal 1 damage from the villain for each acceleration token and icon ([acceleration]) in play."/>
+        <property name="Quote" value="Electro teams up with his girlfriend, A.I.M., Kingpin, and his electro-clones to charge up more than ever before! Can the Spiders stop him?"/>
+        <property name="Stage" value="1B"/>
+      </alternate>
+    </card>
+    <card name="Power Surge" id="fb766780-0f17-4e74-9fb7-4ca84f030211" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="503211a"/>
+      <property name="Position" value="209"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="power_outage_by_ripper3"/>
+      <property name="Unique" value="False"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: Exhaust each friendly [[TECH]] support and upgrade. Each player discards cards from the encounter deck until they discard an [[A.I.M.]] minion, then reveals that minion. Each player searches their deck and discard pile for a card with a printed [energy] resource and adds it to their hand. (&lt;i&gt;Shuffle&lt;/i&gt;.)"/>
+      <property name="Quote" value="The Electros are on the verge of unlimited power, thanks to the science of A.I.M. and the backing of the Kingpin..."/>
+      <property name="Stage" value="2A"/>
+      <alternate name="Power Surge" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="503211b"/>
+        <property name="Position" value="210"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="power_outage_by_ripper3"/>
+        <property name="Scheme_Acceleration" value="1"/>
+        <property name="BaseThreat" value="0"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="9"/>
+        <property name="Unique" value="False"/>
+        <property name="Text">* &lt;b&gt;Forced Response&lt;/b&gt;: After you resolve an Electro treachery, remove that treachery from the game.
+
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Quote" value="Electro is overloading the grid!"/>
+        <property name="Stage" value="2B"/>
+      </alternate>
+    </card>
+    <card name="A.i.m. Scientist" id="fb766780-0f17-4e74-9fb7-4ca84f030209" size="EncounterCard">
+      <property name="CardNumber" value="503209"/>
+      <property name="Position" value="211"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="power_outage_by_ripper3"/>
+      <property name="HP" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Thwart" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="A.i.m. Scientist."/>
+      <property name="Text">Vulnerable.
+&lt;b&gt;When Defeated&lt;/b&gt;: Search the encounter deck and discard pile for the Dark Matter Conversion side scheme and reveal it.</property>
+    </card>
+  </cards>
+</set>

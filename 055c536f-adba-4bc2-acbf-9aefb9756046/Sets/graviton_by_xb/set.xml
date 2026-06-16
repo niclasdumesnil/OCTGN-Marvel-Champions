@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Graviton" id="fe0387fe-86cb-5d1b-a634-a303f0c017c5" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="fe0387fe-86cb-5d1b-a634-a303f0000000" name="graviton_by_xb">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="graviton_by_xb"/>
+    </card>
+    <card id="fe0387fe-86cb-5d1b-a634-a303f0990000" name="dark_matter_by_xb">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="dark_matter_by_xb"/>
+    </card>
+    <card name="Graviton" id="fe0387fe-86cb-5d1b-a634-a303f0000001" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="250001"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="HP" value="14"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Genius. Scientist."/>
+      <property name="Text" value="&lt;i&gt;Formidable Foe &lt;/i&gt;— &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Graviton would take damage that would defeat him, discard the top card of the encounter deck. Prevent an amount of damage equal to the number of boost icons ([boost]) discarded this way."/>
+      <property name="Stage" value="0"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Graviton" id="fe0387fe-86cb-5d1b-a634-a303f0000002" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="250002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="HP" value="16"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Genius. Scientist."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Deal 1 damage to each exhausted ally. Exhaust each friendly character and support.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Graviton would take damage that would defeat him, discard 2 cards from the encounter deck. Prevent an amount of damage equal to the total number of boost icons ([boost]) discarded this way.</property>
+      <property name="Stage" value="0"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Graviton" id="fe0387fe-86cb-5d1b-a634-a303f0000003" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="250003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="HP" value="18"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Genius. Scientist."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard each exhausted ally and support. Exhaust each friendly character and support.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Graviton would take damage that would defeat him, discard 3 cards from the encounter deck. Prevent an amount of damage equal to the total number of boost icons ([boost]) discarded this way.</property>
+      <property name="Stage" value="0"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Turning Into a Black Hole" id="fe0387fe-86cb-5d1b-a634-a303f0000004" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="250004a"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="Text">&lt;i&gt;After breaking free from his prison, Graviton conjures a cataclysmic black hole.
+&lt;/i&gt;&lt;b&gt;Contents&lt;/b&gt;: Graviton (I) and Graviton (II). (Graviton (II) and Graviton (III) for expert mode.) Graviton, Dark Matter and Standard encounter set. One modular encounter set &lt;i&gt;(Masters of Evil)&lt;/i&gt;.
+&lt;b&gt;Setup&lt;/b&gt;: Search the encounter deck for the Dark Matter environment and the Seismic Uprising side scheme and reveal them.&lt;i&gt; (Shuffle.)&lt;/i&gt; Advance to stage 1B.</property>
+      <property name="Stage" value="0"/>
+      <alternate name="Turning Into a Black Hole" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="250004b"/>
+        <property name="Position" value="4"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="graviton_by_xb"/>
+        <property name="BaseThreat" value="1"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="8"/>
+        <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After resolving step one of the villain phase, each player must choose to either place 1 threat here or exhaust a character they control.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When threat is placed here, discard the top card of the encounter deck.</property>
+        <property name="Stage" value="0"/>
+      </alternate>
+    </card>
+    <card name="The Singularity" id="fe0387fe-86cb-5d1b-a634-a303f0000005" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="250005a"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="Text">&lt;i&gt;Earth's irreversible demise looms as the singularity draws near.
+&lt;/i&gt;&lt;b&gt;When Revealed&lt;/b&gt;: Each player must exhaust 1 ally and 1 support they control. Deal 1 encounter card to each player. Advance to stage 2B.</property>
+      <property name="Stage" value="0"/>
+      <alternate name="The Singularity" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="250005b"/>
+        <property name="Position" value="5"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="graviton_by_xb"/>
+        <property name="BaseThreat" value="2"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="9"/>
+        <property name="Text">[star] &lt;b&gt;Forced Response&lt;/b&gt;: After resolving step one of the villain phase, each player must choose to either place 2 threat here or exhaust a character they control.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When threat is placed here, discard the top card of the encounter deck.
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Stage" value="0"/>
+      </alternate>
+    </card>
+    <card name="Seismic Uprising" id="fe0387fe-86cb-5d1b-a634-a303f0000006" size="SchemeCard">
+      <property name="CardNumber" value="250006a"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="Text">&lt;i&gt;Graviton is tearing apart his former prison.&lt;/i&gt;
+Setup.
+&lt;b&gt;Forced Response&lt;/b&gt;:&lt;b&gt; &lt;/b&gt;After resolving step one of the villain phase, place 1 prison counter here. If there are 4 or more prison counters here, flip this card.
+&lt;b&gt;When Defeated&lt;/b&gt;: Place 3[per_hero] threat on the main scheme and remove this card from the game.</property>
+      <alternate name="Flying Prison" type="b" size="EncounterCard">
+        <property name="CardNumber" value="250006b"/>
+        <property name="Position" value="6"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="environment"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="graviton_by_xb"/>
+        <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: In player order, each player must discard cards from the encounter deck until a non-[[dark matter]] minion is discarded, then put it into play engaged with them.
+Each friendly character without the [[aerial]] trait gets -1 THW and -1 ATK.
+&lt;b&gt;Hero Action&lt;/b&gt;: As a group, the players exhaust 2[per_hero] characters → remove this card from the game.</property>
+      </alternate>
+    </card>
+    <card name="Moon Crash" id="fe0387fe-86cb-5d1b-a634-a303f0000007" size="SchemeCard">
+      <property name="CardNumber" value="250007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Text">&lt;i&gt;"Things down here are only gonna get worse. More meteors, gravity quakes..." - Sylvie
+&lt;/i&gt;&lt;b&gt;Forced Response&lt;/b&gt;:&lt;b&gt; &lt;/b&gt;After resolving step one of the villain phase, place 1 moon counter here. Then deal X indirect damage to each player, where X is the number of moon counters here.
+[acceleration]</property>
+    </card>
+    <card name="Solar Gravitational Field" id="fe0387fe-86cb-5d1b-a634-a303f0000008" size="SchemeCard">
+      <property name="CardNumber" value="250008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Text">&lt;i&gt;Graviton separated himself from Earth's gravitational field and is tuning to the Sun's gravitational field instead.
+&lt;/i&gt;&lt;b&gt;Forced Response&lt;/b&gt;: After your turn ends, heal 2 damage from Graviton.
+[amplify]</property>
+    </card>
+    <card name="Gravity Pull" id="fe0387fe-86cb-5d1b-a634-a303f0000009" size="EncounterCard">
+      <property name="CardNumber" value="250009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Exhaust an ally and a support you control. If no card is exhausted this way, exhaust your identity.
+[star] &lt;b&gt;Boost&lt;/b&gt;: If this activation is an attack, the defender cannot ready until your next turn ends.</property>
+    </card>
+    <card name="Graviton Blast" id="fe0387fe-86cb-5d1b-a634-a303f0000011" size="EncounterCard">
+      <property name="CardNumber" value="250011"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard each card with a printed [physical] resource from your hand. If no card was discarded this way, take 2 indirect damage.
+[star]&lt;b&gt;Boost&lt;/b&gt;: Reveal this card.</property>
+    </card>
+    <card name="City in Collapse" id="fe0387fe-86cb-5d1b-a634-a303f0000013" size="EncounterCard">
+      <property name="CardNumber" value="250013"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Surge.
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard X cards from the top of the encounter deck, where X is equal to the amount of threat on the main scheme. If no card was discarded this way, place 3 threat on the main scheme.</property>
+    </card>
+    <card name="Graviton's Reign" id="fe0387fe-86cb-5d1b-a634-a303f0000015" size="EncounterCard">
+      <property name="CardNumber" value="250015"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="Boost" value="3"/>
+      <property name="Text">Surge.
+&lt;b&gt;When Revealed&lt;/b&gt;: Place 2 threat on each scheme in play. Heal X damage from Graviton, where X is equal to the amount of threat placed this way.</property>
+    </card>
+    <card name="Graviton's Grasp" id="fe0387fe-86cb-5d1b-a634-a303f0000016" size="EncounterCard">
+      <property name="CardNumber" value="250016"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">Surge.
+&lt;b&gt;When Revealed&lt;/b&gt;: Discard an exhausted ally under your control. Heal X damage from Graviton where X is equal to the printed cost of the discarded ally. If no ally was discarded this way, exhaust a character you control.
+[star] &lt;b&gt;Boost&lt;/b&gt;: If this activation is an attack, it gains overkill.</property>
+    </card>
+    <card name="Gravity Lockdown" id="fe0387fe-86cb-5d1b-a634-a303f0000017" size="EncounterCard">
+      <property name="CardNumber" value="250017"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Attach to your identity.
+Attached identity cannot make basic attacks or basic thwarts.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust your hero and spend a [physical] resource → discard this card.</property>
+    </card>
+    <card name="Gravity Nullification" id="fe0387fe-86cb-5d1b-a634-a303f0000018" size="EncounterCard">
+      <property name="CardNumber" value="250018"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attach to Graviton.
+Reduce the damage Graviton takes from each attack from non-[[aerial]] characters by 1.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust your hero and spend a [physical] resource → discard this card.</property>
+    </card>
+    <card name="Graviton Presence" id="fe0387fe-86cb-5d1b-a634-a303f0000019" size="EncounterCard">
+      <property name="CardNumber" value="250019"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="Boost" value="1"/>
+      <property name="Text">Attach to the ally you control with the most remaining hit points. If you cannot, this card gains surge.
+You cannot ready the attached ally.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust your hero and spend a [physical] resource → discard this card.</property>
+    </card>
+    <card name="Blackout" id="fe0387fe-86cb-5d1b-a634-a303f0000020" size="EncounterCard">
+      <property name="CardNumber" value="250020"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="HP" value="6"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Masters Of Evil."/>
+      <property name="Text">[star]&lt;b&gt;Forced Response&lt;/b&gt;: After Blackout attacks and damages a character, stun that character.
+[star]&lt;b&gt;Boost&lt;/b&gt;: Stun the character you control with the highest ATK value.</property>
+    </card>
+    <card name="Moonstone" id="fe0387fe-86cb-5d1b-a634-a303f0000021" size="EncounterCard">
+      <property name="CardNumber" value="250021"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="graviton_by_xb"/>
+      <property name="HP" value="6"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Masters Of Evil."/>
+      <property name="Text">Reduce the damage Moonstone takes from each attack from non-[[aerial]] characters by 1.
+ [star]&lt;b&gt;Boost&lt;/b&gt;: Exhaust an ally you control.</property>
+    </card>
+    <card name="Dark Matter" id="fe0387fe-86cb-5d1b-a634-a303f0000022" size="EncounterCard">
+      <property name="CardNumber" value="250022"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="environment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="dark_matter_by_xb"/>
+      <property name="Text">Permanent. Setup.
+&lt;b&gt;Forced Response&lt;/b&gt;: After an ally or support enters play under your control, spend a [physical] resource or exhaust it.
+&lt;i&gt;It is everywhere. 85% of the matter of the Universe is dark matter.&lt;/i&gt;</property>
+    </card>
+    <card name="Self Interacting Dark Matter" id="fe0387fe-86cb-5d1b-a634-a303f0000023" size="SchemeCard">
+      <property name="CardNumber" value="250023"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="dark_matter_by_xb"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text">&lt;i&gt;The ever-present dark matter particles seem to flicker and interact with one another.&lt;/i&gt;
+Hinder 2[per_hero].
+&lt;b&gt;Forced Response&lt;/b&gt;: After you ready a character, deal 1 damage to it.</property>
+    </card>
+    <card name="Dark Matter Excess" id="fe0387fe-86cb-5d1b-a634-a303f0000024" size="EncounterCard">
+      <property name="CardNumber" value="250024"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="dark_matter_by_xb"/>
+      <property name="HP" value="1"/>
+      <property name="Attack" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Dark Matter."/>
+      <property name="Text">Dark Matter Excess cannot take damage.
+[star]&lt;b&gt;Boost&lt;/b&gt;: Put Dark Matter Excess into play engaged with you.
+&lt;i&gt;Dark matter barely interacts with normal matter. It is invisible and escapes all attempts to observe it.&lt;/i&gt;</property>
+    </card>
+    <card name="Dark Matter Wind" id="fe0387fe-86cb-5d1b-a634-a303f0000025" size="EncounterCard">
+      <property name="CardNumber" value="250025"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="dark_matter_by_xb"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Each player discards the top 3 cards of their deck. For each printed [energy] or [mental] resource a player discards this way, that player takes 1 indirect damage.
+&lt;i&gt;A strong dark matter wind is coming from the Cygnus constellation.
+&lt;/i&gt;</property>
+    </card>
+    <card name="Dark Matter Resonance" id="fe0387fe-86cb-5d1b-a634-a303f0000026" size="EncounterCard">
+      <property name="CardNumber" value="250026"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="dark_matter_by_xb"/>
+      <property name="Boost" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Attach to the villain. Attached villain gains steady.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached villain would be defeated, reset their hit points to 2[per_hero] instead, then discard this card.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust your hero and spend [energy][mental] resources → discard this card.</property>
+    </card>
+    <card name="Dark Matter Entanglement" id="fe0387fe-86cb-5d1b-a634-a303f0000027" size="EncounterCard">
+      <property name="CardNumber" value="250027"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="dark_matter_by_xb"/>
+      <property name="Text">Attach to the ally you control with the most remaining hit points. If you cannot, this card gains surge.
+&lt;b&gt;Forced Response&lt;/b&gt;: After you ready attached ally, deal 1 damage to it.
+[star]&lt;b&gt;Boost&lt;/b&gt;: Deal 1 damage to each exhausted ally you control.</property>
+    </card>
+  </cards>
+</set>

@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Iron Man Model 42" id="aae41917-f1fb-481e-9d15-08d71e7b9376" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="aae41917-f1fb-481e-9d15-08d71e000000" name="iron_man_model_42_by_rainy">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy"/>
+    </card>
+    <card id="aae41917-f1fb-481e-9d15-08d71e990000" name="iron_man_model_42_by_rainy">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy_nemesis"/>
+    </card>
+    <card name="Iron Man" id="aae41917-f1fb-481e-9d15-08d71e068001">
+      <property name="CardNumber" value="206801a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="hero"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy"/>
+      <property name="HandSize" value="5"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="2"/>
+      <property name="Defense" value="2"/>
+      <property name="HP" value="10"/>
+      <property name="Attribute" value="Avenger."/>
+      <property name="Text">Reactor Cores — &lt;b&gt;Action:&lt;/b&gt; Spend X printed [energy] resources → place X reactor counters here.</property>
+      <property name="Quote">"Hi. I'm Iron Man. Want to cut to the surrender?"</property>
+      <property name="Unique" value="True"/>
+      <alternate name="Tony Stark" type="b">
+        <property name="CardNumber" value="206801b"/>
+        <property name="Position" value="0"/>
+        <property name="Quantity" value="1"/>
+        <property name="Faction" value="hero"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Owner" value="iron_man_model_42_by_rainy"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="3"/>
+        <property name="HP" value="10"/>
+        <property name="Attribute" value="Genius."/>
+        <property name="Text">Inventor — &lt;b&gt;Setup:&lt;/b&gt; Discard 1 card from your hand → search your deck for a [[TECH]] upgrade and add it to your hand.
+&lt;b&gt;Action&lt;/b&gt;: Reduce the cost of the next upgrade played this round by 1. (Limit once per round.)</property>
+        <property name="Unique" value="True"/>
+      </alternate>
+    </card>
+    <card name="Repulsor Barrage" id="aae41917-f1fb-481e-9d15-08d71e068002">
+      <property name="CardNumber" value="206802"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Attack. Superpower."/>
+      <property name="Text">Hero Action (attack): Deal 3 damage to an enemy. This attack gains ranged. You may remove 1 reactor counter from Iron Man to deal 3 additional damage to that enemy. If Iron Man has the [[AERIAL]] trait, you may divide damage among enemies as you choose.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Tactical Overview" id="aae41917-f1fb-481e-9d15-08d71e068003">
+      <property name="CardNumber" value="206803"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Superpower. Thwart."/>
+      <property name="Text">Hero Action (thwart): Remove 3 threat from a scheme. You may remove 1 reactor counter from Iron Man to remove 3 additional threat from that scheme. If Iron Man has the [[AERIAL]] trait, you may divide threat removed from among schemes as you choose.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Take Flight" id="aae41917-f1fb-481e-9d15-08d71e068004">
+      <property name="CardNumber" value="206804"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="3"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="event"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Hero Action: Ready Iron Man. Iron Man gains the [[AERIAL]] trait until the end of the round. If Iron Man already has [[AERIAL]], place 1 reactor counter on Iron Man.</property>
+      <property name="Quote">"Taking her for a test flight. Let's see how she flies."
+-Iron Man</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Stark Tower" id="aae41917-f1fb-481e-9d15-08d71e068005">
+      <property name="CardNumber" value="206805"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy"/>
+      <property name="Cost" value="3"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">&lt;b&gt;Resource:&lt;/b&gt; Exhaust Stark Tower → generate a [star] resource for any player.</property>
+      <property name="Quote">"Do you know, my financial team told me I'm down to my last hundred million dollars today?" -Tony Stark</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Tony's Workshop" id="aae41917-f1fb-481e-9d15-08d71e068006">
+      <property name="CardNumber" value="206806"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="support"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">Alter-Ego Action: Exhaust Tony's Workshop → heal 1 damage from Tony Stark and place 1 reactor counter on him.</property>
+      <property name="Quote">"We've got some tinkering to do." —Tony Stark</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Energy Shield" id="aae41917-f1fb-481e-9d15-08d71e068007">
+      <property name="CardNumber" value="206807"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech."/>
+      <property name="Text">Iron Man gets +1 DEF.
+&lt;b&gt;Hero Interrupt:&lt;/b&gt; When Iron Man would take any amount of damage, remove 1 reactor counter from him → prevent up to 2 of that damage.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Mark Iva Repulsors" id="aae41917-f1fb-481e-9d15-08d71e068008">
+      <property name="CardNumber" value="206808"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech. Weapon."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt:&lt;/b&gt; When Iron Man makes a basic attack, remove 1 reactor counter from him → that attack deals 2 additional damage and gains ranged.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Repulsor Core One" id="aae41917-f1fb-481e-9d15-08d71e068009">
+      <property name="CardNumber" value="206809"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy"/>
+      <property name="Cost" value="2"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Tech."/>
+      <property name="Text">&lt;b&gt;Hero Action:&lt;/b&gt; Exhaust Repulsor Core One → place 1 reactor counter on Iron Man.
+&lt;b&gt;Hero Action:&lt;/b&gt; Remove 1 reactor counter from Iron Man and exhaust Repulsor Core One → ready Iron Man.</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Rocket Boots" id="aae41917-f1fb-481e-9d15-08d71e068010">
+      <property name="CardNumber" value="206810"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Armor. Tech."/>
+      <property name="Text">Iron Man gains the [[AERIAL]] trait.
+&lt;b&gt;Hero Interrupt:&lt;/b&gt; When you use one of Iron Man's basic powers, exhaust Rocket Boots → Iron Man gets +1 to that power for this use.</property>
+      <property name="Quote">"Not fast enough. Let's try full power."</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Save The Day" id="aae41917-f1fb-481e-9d15-08d71e068011">
+      <property name="CardNumber" value="206811"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Preparation."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt:&lt;/b&gt; When a treachery is revealed, discard Save The Day and remove 1 reactor counter from Iron Man → cancel all of that treachery's effects and discard it.</property>
+      <property name="Quote">"200% power. Give it everything we've got."</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Tactical Interface" id="aae41917-f1fb-481e-9d15-08d71e068012">
+      <property name="CardNumber" value="206812"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="hero"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy"/>
+      <property name="Cost" value="1"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tech."/>
+      <property name="Text">&lt;b&gt;Hero Interrupt:&lt;/b&gt; When Iron Man makes a basic thwart, remove 1 reactor counter from him → that thwart removes 2 additional threat and ignores the patrol keyword.</property>
+      <property name="Quote">"What are we dealing with? Onscreen." —Iron Man</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Technical Issues" id="aae41917-f1fb-481e-9d15-08d71e068013" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="206813"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="obligation"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Tony Stark player.&lt;/b&gt;&lt;/i&gt;
+You may flip to alter-ego form. Choose:
+• Exhaust Tony Stark and Tony's Workshop → remove Technical Issues from the game.
+• Remove 2 reactor counters from your identity. If no reactor counters were removed this way, this card gains surge. Discard this obligation.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Imminent Overload" id="aae41917-f1fb-481e-9d15-08d71e068014" size="SchemeCard">
+      <property name="CardNumber" value="206814"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="EscalationThreatFixed" value="False"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Text">&lt;b&gt;When Revealed:&lt;/b&gt; Place an additional 1 [per_hero] threat here.</property>
+      <property name="Quote">Whiplash has seized control of a power plant, threatening to overload the transformers if his demands are not met.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Whiplash" id="aae41917-f1fb-481e-9d15-08d71e068015" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="206815"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="minion"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy_nemesis"/>
+      <property name="Thwart" value="2"/>
+      <property name="Attack" value="3"/>
+      <property name="Boost" value="2"/>
+      <property name="HP" value="4"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">Retaliate 1. (&lt;i&gt;After this character is attacked, deal 1 damage to the attacking character.&lt;/i&gt;)</property>
+      <property name="Quote">“You started this, Tony. I will finish it.”</property>
+      <property name="Unique" value="True"/>
+    </card>
+    <card name="Electric Whip Attack" id="aae41917-f1fb-481e-9d15-08d71e068016" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="206816"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="2"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy_nemesis"/>
+      <property name="Text">&lt;b&gt;When Revealed:&lt;/b&gt; Choose to either deal 1 damage to your hero for each upgrade you control or choose and discard an upgrade you control. &lt;hr&gt;
+[star] &lt;b&gt;Boost&lt;/b&gt;: If the villain is making an undefended attack, choose and discard an upgrade you control.</property>
+      <property name="Unique" value="False"/>
+    </card>
+    <card name="Electromagnetic Backlash" id="aae41917-f1fb-481e-9d15-08d71e068017" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="206817"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Type" value="treachery"/>
+      <property name="Owner" value="iron_man_model_42_by_rainy_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Text">&lt;b&gt;When Revealed:&lt;/b&gt; Each player discards the top 5 cards of their deck. For each printed [energy] resource a player discards this way, that player takes 1 damage.</property>
+      <property name="Quote">Five, four, three, two...</property>
+      <property name="Unique" value="False"/>
+    </card>
+  </cards>
+</set>

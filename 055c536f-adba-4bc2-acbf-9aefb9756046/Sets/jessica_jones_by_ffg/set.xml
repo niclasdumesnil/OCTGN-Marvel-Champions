@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Jessica Jones" id="7f19133c-13a9-4b3e-a364-bf17416b5119" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="7f19133c-13a9-4b3e-a364-bf1741000000" name="jessica_jones_by_ffg">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+    </card>
+    <card name="Jessica Jones" id="7f19133c-13a9-4b3e-a364-bf1741610001">
+      <property name="CardNumber" value="61001a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="hero"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+      <property name="HP" value="11"/>
+      <property name="HandSize" value="5"/>
+      <property name="Attack" value="2"/>
+      <property name="Thwart" value="3"/>
+      <property name="Defense" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Defender."/>
+      <property name="Text" value="[star] &lt;i&gt;Gather Evidence&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After you use a basic power, place 1 evidence counter on Alias Investigations."/>
+      <property name="Quote" value="&quot;These things rarely end well.&quot;"/>
+      <alternate name="Jessica Jones" type="b">
+        <property name="CardNumber" value="61001b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Faction" value="hero"/>
+        <property name="Owner" value="jessica_jones_by_ffg"/>
+        <property name="HP" value="11"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="Unique" value="True"/>
+        <property name="Attribute" value="Civilian."/>
+        <property name="Text">&lt;i&gt;Incognito Mode&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Change to hero form. You cannot change back to alter-ego form this phase.
+&lt;b&gt;Setup&lt;/b&gt;: Put the Alias Investigations support into play.</property>
+      </alternate>
+    </card>
+    <card name="Alias Investigations" id="7f19133c-13a9-4b3e-a364-bf1741610002">
+      <property name="CardNumber" value="61002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="support"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+      <property name="Cost" value="0"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text">Permanent.
+&lt;b&gt;Response&lt;/b&gt;: After a side scheme is defeated, exhaust this card → place 2 evidence counters here. Then, you may remove evidence counters from here equal to the villain's remaining hit points to defeat the villain's current stage.</property>
+    </card>
+    <card name="Luke Cage" id="7f19133c-13a9-4b3e-a364-bf1741610003">
+      <property name="CardNumber" value="61003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="ally"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+      <property name="Cost" value="3"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="2"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="2"/>
+      <property name="Defense" value="0"/>
+      <property name="Recovery" value="0"/>
+      <property name="Scheme" value="0"/>
+      <property name="BaseThreat" value="0"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Defender."/>
+      <property name="Text">Toughness.
+&lt;b&gt;Action&lt;/b&gt;: Exhaust Luke Cage and deal 1 damage to him → give him a tough status card.</property>
+      <property name="Quote" value="&quot;He may have skin like steel, but he's got a heart of gold.&quot; -Jessica Jones"/>
+    </card>
+    <card name="Big Mistake" id="7f19133c-13a9-4b3e-a364-bf1741610004">
+      <property name="CardNumber" value="61004"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+      <property name="Cost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="ATTACK."/>
+      <property name="Text" value="&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): Deal 3 damage to an enemy. You may remove 1 evidence counter from Alias Investigations to deal 2 additional damage and for this attack to gain either overkill or piercing."/>
+      <property name="Quote" value="&quot;You messed with the wrong lady.&quot; -Jessica Jones"/>
+    </card>
+    <card name="Breakthrough" id="7f19133c-13a9-4b3e-a364-bf1741610005">
+      <property name="CardNumber" value="61005"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+      <property name="Cost" value="0"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Text" value="&lt;b&gt;Response&lt;/b&gt;: After an evidence counter is placed on Alias Investigations, ready your identity. Shuffle this card into your deck."/>
+      <property name="Quote" value="&quot;Tell me more.&quot; -Jessica Jones"/>
+    </card>
+    <card name="Snooping Around" id="7f19133c-13a9-4b3e-a364-bf1741610006">
+      <property name="CardNumber" value="61006"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+      <property name="Cost" value="0"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="THWART."/>
+      <property name="Text" value="&lt;b&gt;Alter-Ego Action&lt;/b&gt; (&lt;i&gt;thwart&lt;/i&gt;): Remove 4 threat from a scheme and place 2 evidence counters on Alias Investigations. Discard the top card of the encounter deck. If that card is a minion or side scheme, reveal it."/>
+    </card>
+    <card name="Piecing It All Together" id="7f19133c-13a9-4b3e-a364-bf1741610007" size="PlayerSchemeCard">
+      <property name="CardNumber" value="61007"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+      <property name="Cost" value="0"/>
+      <property name="BaseThreat" value="6"/>
+      <property name="Unique" value="True"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Text">This scheme does not count against the player side scheme limit.
+&lt;b&gt;When Defeated&lt;/b&gt;: The defeating player draws 3 cards.</property>
+      <property name="Quote" value="Sometimes, you take a step back to look at the big picture and it all falls into place."/>
+    </card>
+    <card name="Calling In Favors" id="7f19133c-13a9-4b3e-a364-bf1741610008">
+      <property name="CardNumber" value="61008"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="support"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+      <property name="Cost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Text" value="&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Remove 2 evidence counters from Alias Investigations and exhaust Calling in Favors → search your deck for an ally and play it as if it were in your hand, reducing its resource cost by 2. (&lt;i&gt;Shuffle&lt;/i&gt;.)"/>
+    </card>
+    <card name="4k Digital Camcorder" id="7f19133c-13a9-4b3e-a364-bf1741610009">
+      <property name="CardNumber" value="61009"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+      <property name="Cost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text" value=" &lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust this card and choose a non-[[ELITE ]]minion. Remove X evidence counters from Alias Investigations, where X is equal to 2 less than that minion's remaining hit points → discard that minion."/>
+      <property name="Quote" value="&quot;...gotcha.&quot; -Jessica Jones"/>
+    </card>
+    <card name="Circumstantial Evidence" id="7f19133c-13a9-4b3e-a364-bf1741610010">
+      <property name="CardNumber" value="61010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+      <property name="Cost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text" value="&lt;b&gt;Response&lt;/b&gt;: After an enemy is defeated, exhaust Circumstantial Evidence → place 1 evidence counter on Alias Investigations."/>
+      <property name="Quote" value="&quot;Nice find! That'll come in handy.&quot; -Daredevil"/>
+    </card>
+    <card name="Leather Jacket" id="7f19133c-13a9-4b3e-a364-bf1741610011">
+      <property name="CardNumber" value="61011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+      <property name="Cost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Jessica Jones gets +2 DEF.
+&lt;b&gt;Response&lt;/b&gt;: After you defend, place 1 evidence counter on Alias Investigations.</property>
+      <property name="Quote" value="“Luke, does she own any jackets that aren't black leather?” -Iron Fist"/>
+    </card>
+    <card name="Now I'm Ticked Off!" id="7f19133c-13a9-4b3e-a364-bf1741610012">
+      <property name="CardNumber" value="61012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+      <property name="Cost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text" value="&lt;b&gt;Forced Response&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): After the villain activates against a player, if you are in alter-ego form, change to hero form. Deal 5 damage to the villain and each minion engaged with that player. Discard this card."/>
+      <property name="Quote" value="&quot;What did you just say to her?&quot; -Jessica Jones"/>
+    </card>
+    <card name="Reluctant Flier" id="7f19133c-13a9-4b3e-a364-bf1741610013">
+      <property name="CardNumber" value="61013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+      <property name="Cost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Aerial. Preparation."/>
+      <property name="Text" value="&lt;b&gt;Hero Interrupt&lt;/b&gt; (&lt;i&gt;defense&lt;/i&gt;): When you would take at least 3 damage from an attack, discard this card → prevent all of that attack's damage. Take 1 damage."/>
+      <property name="Quote" value="&quot;I think I'm gonna puke.&quot; -Jessica Jones"/>
+    </card>
+    <card name="Stakeout" id="7f19133c-13a9-4b3e-a364-bf1741610014">
+      <property name="CardNumber" value="61014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="jessica_jones_by_ffg"/>
+      <property name="Cost" value="0"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Tactic."/>
+      <property name="Text">&lt;b&gt;Action&lt;/b&gt;: If this card is in your play area, attach it to a non-permanent encounter side scheme.
+&lt;b&gt;Interrupt&lt;/b&gt;: When a character thwarts attached scheme, that thwart removes 2 additional threat. If that thwart defeats attached scheme, place 2 evidence counters on Alias Investigations.</property>
+    </card>
+    <card name="Captain Marvel" id="7f19133c-13a9-4b3e-a364-bf1741610015">
+      <property name="CardNumber" value="61015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="ally"/>
+      <property name="Faction" value="justice"/>
+      <property name="Cost" value="4"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="3"/>
+      <property name="AttackCost" value="2"/>
+      <property name="Thwart" value="2"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Aerial. Avenger."/>
+      <property name="Text" value="&lt;b&gt;Response&lt;/b&gt;: After Captain Marvel enters play, discard the top 4 cards of your deck. If you discard a printed [energy] resource, remove 2 threat from a scheme. If you discard more than one printed [energy] resource, also confuse an enemy."/>
+    </card>
+    <card name="Squirrel Girl" id="7f19133c-13a9-4b3e-a364-bf1741610017">
+      <property name="CardNumber" value="61017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="ally"/>
+      <property name="Faction" value="justice"/>
+      <property name="Cost" value="2"/>
+      <property name="HP" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Thwart" value="1"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Avenger."/>
+      <property name="Text">&lt;b&gt;Response&lt;/b&gt;: After you play Squirrel Girl from your hand, place 1 squirrel counter here for each card in your hand (to a maximum of 4).
+&lt;b&gt;Action&lt;/b&gt;: Remove 1 squirrel counter from here → remove 1 threat from a scheme.</property>
+    </card>
+    <card name="Strategy Session" id="7f19133c-13a9-4b3e-a364-bf1741610019">
+      <property name="CardNumber" value="61019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="justice"/>
+      <property name="Cost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Tactic. Thwart."/>
+      <property name="Text">&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Choose a player to search their deck for a player side scheme and add it to their hand.
+&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;thwart&lt;/i&gt;): Remove 3 threat from a player side scheme.</property>
+      <property name="Quote" value="&quot;Okay, gang, I've got a plan.&quot;-Nova"/>
+    </card>
+    <card name="Run Them To Ground" id="7f19133c-13a9-4b3e-a364-bf1741610020" size="PlayerSchemeCard">
+      <property name="CardNumber" value="61020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Faction" value="justice"/>
+      <property name="Cost" value="0"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Text">&lt;b&gt;When Defeated&lt;/b&gt;: Resolve each of the following:
+• Skip the next villain phase.
+• Deal each player 1 facedown encounter card (&lt;i&gt;immediately&lt;/i&gt;).
+• The villain cannot take damage until the start of the next (&lt;i&gt;unskipped&lt;/i&gt;) villain phase.</property>
+      <property name="Quote" value="Victory 0."/>
+    </card>
+    <card name="Grapnel Launcher" id="7f19133c-13a9-4b3e-a364-bf1741610023">
+      <property name="CardNumber" value="61023"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="justice"/>
+      <property name="Cost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Item."/>
+      <property name="Text">Restricted.
+&lt;b&gt;Hero Action&lt;/b&gt;: Discard this card → make a basic thwart without exhausting (&lt;i&gt;even if you are exhausted&lt;/i&gt;). For this thwart, your hero gets +1 THW and ignores the patrol keyword and any [crisis] icons in play.</property>
+    </card>
+    <card name="Entrapment" id="7f19133c-13a9-4b3e-a364-bf1741610024">
+      <property name="CardNumber" value="61024"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="justice"/>
+      <property name="Cost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Preparation."/>
+      <property name="Text">Max 1 per player.
+&lt;b&gt;Alter-Ego Response&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): After the villain schemes, change to hero form and discard this card → deal damage to the villain equal to the amount of threat placed by that activation.</property>
+    </card>
+    <card name="Joys Of Life" id="7f19133c-13a9-4b3e-a364-bf1741610026">
+      <property name="CardNumber" value="61026"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="basic"/>
+      <property name="Cost" value="0"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Text">Alliance.
+&lt;b&gt;Action&lt;/b&gt;: Choose:
+• Exhaust a [[CIVILIAN ]] alter-ego → ready a hero or ally.
+• Exhaust a hero or ally → ready a [[CIVILIAN ] alter-ego.</property>
+    </card>
+    <card name="Unbreakable Bond" id="7f19133c-13a9-4b3e-a364-bf1741610027">
+      <property name="CardNumber" value="61027"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="basic"/>
+      <property name="Cost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="THWART."/>
+      <property name="Text">
+Team-Up (&lt;i&gt;Jessica Jones and Luke Cage&lt;/i&gt;). Max 1 per deck.
+&lt;b&gt;Hero Action&lt;/b&gt;: (&lt;i&gt;thwart&lt;/i&gt;): Remove 3 threat from a scheme. Heal a total of 3 damage from among Jessica Jones and Luke Cage.</property>
+    </card>
+    <card name="Defend Our City" id="7f19133c-13a9-4b3e-a364-bf1741610029" size="PlayerSchemeCard">
+      <property name="CardNumber" value="61029"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="player_side_scheme"/>
+      <property name="Faction" value="basic"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Unique" value="True"/>
+      <property name="Text">Hinder 1[per_hero].
+Prerequisite ([[DEFENDER]]). Victory 0.
+&lt;b&gt;When Defeated&lt;/b&gt;: Each player may search their deck and discard pile for a Team-Up card and add it to their hand. Until the end of the phase, reduce the cost to play each Team-Up card by 1.</property>
+    </card>
+  </cards>
+</set>

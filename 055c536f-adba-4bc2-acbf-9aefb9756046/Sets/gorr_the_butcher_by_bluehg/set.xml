@@ -1,0 +1,571 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Gorr the Butcher" id="92a03fcf-a4e3-4f87-93a4-8c924b0bae8f" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="92a03fcf-a4e3-4f87-93a4-8c924b000000" name="gorr_the_god_butcher_by_bluehg">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="nbModular" value="1"/>
+      <property name="mandatoryModular" value="{'necroverse_by_bluehg': ['Necroverse', 'Special', False]}"/>
+      <property name="recommendedModular" value="{'intergalactic_hazards_by_bluehg': ['Intergalactic Hazards', 'Encounter', True]}"/>
+    </card>
+    <card id="92a03fcf-a4e3-4f87-93a4-8c924b990000" name="necroverse_by_bluehg">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="necroverse_by_bluehg"/>
+    </card>
+    <card id="92a03fcf-a4e3-4f87-93a4-8c924b000002" name="intergalactic_hazards_by_bluehg">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="intergalactic_hazards_by_bluehg"/>
+    </card>
+    <card name="Gorr The God Butcher" id="92a03fcf-a4e3-4f87-93a4-8c924b074001" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="207401"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="HP" value="13"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Necroverse."/>
+      <property name="Text" value="&lt;b&gt;Forced Response&lt;/b&gt;: After a player's deck runs out of cards, Gorr the God Butcher activates against them."/>
+      <property name="Quote" value="&lt;i&gt;&quot;Next you will learn how it feels to be butchered.&quot;&lt;/i&gt;"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+    </card>
+    <card name="Gorr The God Butcher" id="92a03fcf-a4e3-4f87-93a4-8c924b074002" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="207402"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="HP" value="16"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Necroverse."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Deal each player 1 facedown encounter card.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a player's deck runs out of cards, Gorr the God Butcher activates against them.</property>
+      <property name="Quote" value="&lt;i&gt;&quot;Next you will learn how it feels to be butchered.&quot;&lt;/i&gt;"/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Gorr The God Butcher" id="92a03fcf-a4e3-4f87-93a4-8c924b074003" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="207403"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="HP" value="19"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Necroverse."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Advance the main scheme to stage 3A. Discard the top 5 cards of each player's deck.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a player's deck runs out of cards, Gorr the God Butcher activates against them.</property>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Deicide" id="92a03fcf-a4e3-4f87-93a4-8c924b074004" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="207404a"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Gorr the God Butcher (I) and Gorr the God Butcher (II). &lt;i&gt;(Gorr the God Butcher (II) and Gorr the God Butcher (III) instead for expert mode.)&lt;/i&gt; Gorr the God Butcher, Necroverse, and Standard encounter sets. One additional modular encounter set &lt;i&gt;(recommended: Intergalactic Hazards)&lt;/i&gt;.
+&lt;b&gt;Setup:&lt;/b&gt; Set the Necroverse modular encounter set, the Necro-Raven Gestalt minion, the double-sided Godbomb environment, and all copies of Heroes' Labor and Stalking Berserker aside, out of play. Advance to stage 1B.</property>
+      <property name="Stage" value="1A"/>
+      <alternate name="Deicide" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="207404b"/>
+        <property name="Position" value="4"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+        <property name="BaseThreat" value="0"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="3"/>
+        <property name="Unique" value="False"/>
+        <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After step 1 of the villain phase, if the villain's stage number is 2 or 3, place 1 plan counter here. Then, if there are 3 or more plan counters here, advance to stage 2A.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Gorr the God Butcher defeats an ally, place 1 threat on this scheme.</property>
+        <property name="Stage" value="1B"/>
+      </alternate>
+    </card>
+    <card name="Make Ready The Bomb" id="92a03fcf-a4e3-4f87-93a4-8c924b074005" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="207405a"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Unique" value="True"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: Put the set-aside Godbomb environment into play. Shuffle 1 copy of the Heroes' Labor treachery into each player's deck. Advance to stage 2B."/>
+      <property name="Quote" value="&lt;i&gt;Gorr's plan is revealed. He's coerced a god of bombs to construct a massive bomb, and using the stolen power of time gods, he plans to detonate it. Across space, across all time, all gods will die.&lt;/i&gt;"/>
+      <property name="Stage" value="2A"/>
+      <alternate name="Make Ready The Bomb" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="207405b"/>
+        <property name="Position" value="5"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+        <property name="BaseThreat" value="2"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="9"/>
+        <property name="Unique" value="False"/>
+        <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After step 1 of the villain phase, place 1 [per_hero] timer counters on the Godbomb environment.
+&lt;b&gt;Forced Response&lt;/b&gt;: After an enemy attacks and defeats an ally, place 1 timer counter on the Godbomb environment.
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Stage" value="2B"/>
+      </alternate>
+    </card>
+    <card name="Welcome To Darkness" id="92a03fcf-a4e3-4f87-93a4-8c924b074006" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="207406a"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If the Godbomb environment is in play, remove all timer counters from it and flip it to its All-Black Necroverse side. Otherwise, put the set-aside All-Black Necroverse environment into play.
+Shuffle the set-aside Necroverse modular encounter set into the encounter deck.
+Shuffle 1 copy of the Stalking Berserker minion into each player's deck.</property>
+      <property name="Quote" value="&lt;i&gt;The god who is not a god has given himself over entirely to the All-Black Necroblade.&lt;/i&gt;"/>
+      <property name="Stage" value="3A"/>
+      <alternate name="Welcome To Darkness" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="207406b"/>
+        <property name="Position" value="6"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+        <property name="BaseThreat" value="2"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="8"/>
+        <property name="Unique" value="False"/>
+        <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After a player's deck runs out of cards, place 4 necro counters on the All-Black Necroverse environment.
+&lt;b&gt;Hero Action&lt;/b&gt;: Discard 1 card from your hand at random → remove 1 necro counter from All-Black Necroverse.
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Stage" value="3B"/>
+      </alternate>
+    </card>
+    <card name="Godbomb" id="92a03fcf-a4e3-4f87-93a4-8c924b074007" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Special"/>
+      <property name="CardNumber" value="207407a"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="environment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">If there are 12 [per_hero] or more timer counters here, the players lose the game.
+&lt;b&gt;Hero Action&lt;/b&gt;: Discard an ally you control → remove 1 timer counter from here.</property>
+      <property name="Quote" value="&quot;Bleed for my blessed bomb.&quot;"/>
+      <alternate name="All-black Necroverse" type="b" size="EncounterCard">
+        <property name="DefaultSetupPile" value="Special"/>
+        <property name="CardNumber" value="207407b"/>
+        <property name="Position" value="7"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="environment"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+        <property name="Unique" value="False"/>
+        <property name="Attribute" value="Necroverse."/>
+        <property name="Text">While All-Black Necroverse has the following number of necro counters:
+• 3[per_hero]: Gorr the God Butcher's attacks gain overkill.
+• 6[per_hero]: All [[Necroverse]] enemies get +1 ATK.
+• 9[per_hero]: All [[Necroverse]] enemies get +1 SCH.
+• 12[per_hero]: The players lose the game.</property>
+      </alternate>
+    </card>
+    <card name="Necro-raven Gestalt" id="92a03fcf-a4e3-4f87-93a4-8c924b074008" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Special"/>
+      <property name="CardNumber" value="207408"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="HP" value="5"/>
+      <property name="Attack" value="3"/>
+      <property name="Thwart" value="3"/>
+      <property name="Scheme" value="3"/>
+      <property name="Boost" value="4"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Elite. Necroverse."/>
+      <property name="Text">Guard. Patrol.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Necro-Raven Gestalt would be defeated, instead of discarding it, set it aside, out of play instead.</property>
+    </card>
+    <card name="Black Berserker" id="92a03fcf-a4e3-4f87-93a4-8c924b074009" size="EncounterCard">
+      <property name="CardNumber" value="207409"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="HP" value="4"/>
+      <property name="Attack" value="2"/>
+      <property name="Thwart" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Necroverse."/>
+      <property name="Text">Patrol.
+[star] Black Berserker gets +X hit points, where X is the number of [[Necroverse]] attachments in play (to a maximum of 4).</property>
+      <property name="Quote" value="&lt;i&gt;&quot;This is not my killer. This is his guard dog. His very strong guard dog.&quot;&lt;/i&gt;"/>
+    </card>
+    <card name="Necro-raven" id="92a03fcf-a4e3-4f87-93a4-8c924b074010" size="EncounterCard">
+      <property name="CardNumber" value="207410"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="0"/>
+      <property name="Thwart" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Necroverse."/>
+      <property name="Text">Incite 1. Surge.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Necro-Raven enters play, discard the top card of your deck. Then, if there are 3 copies of Necro-Raven in play, discard them and summon the Necro-Raven Gestalt minion and put it into play engaged with you.
+&lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;:&lt;/b&gt; Put Necro-Raven into play engaged with you.</property>
+    </card>
+    <card name="Blighted Chains" id="92a03fcf-a4e3-4f87-93a4-8c924b074011" size="EncounterCard">
+      <property name="CardNumber" value="207411"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Necroverse."/>
+      <property name="Text">Attach to your identity.
+As an additional cost to use a hero's basic power, you must discard 1 random card from your hand.
+&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Discard the top 2 cards of your deck → discard this card.</property>
+    </card>
+    <card name="Mind-hewn Blade" id="92a03fcf-a4e3-4f87-93a4-8c924b074012" size="EncounterCard">
+      <property name="CardNumber" value="207412"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Boost" value="3"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Necroverse. Weapon."/>
+      <property name="Text">Attach to Gorr the God Butcher.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Gorr the God Butcher attacks you, discard the top 2 cards of your deck. This attack gains piercing.
+&lt;b&gt;Hero Action&lt;/b&gt;: Take 2 indirect damage and discard the top 2 cards of your deck → discard this card.</property>
+    </card>
+    <card name="Umbral Wings" id="92a03fcf-a4e3-4f87-93a4-8c924b074013" size="EncounterCard">
+      <property name="CardNumber" value="207413"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Boost" value="3"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Necroverse."/>
+      <property name="Text">Attach to Gorr the God Butcher.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Gorr the God Butcher is dealt damage, reduce that damage by 1.
+&lt;b&gt;Hero Action&lt;/b&gt;: Discard 2 cards from your hand and the top 2 cards of your deck → discard this card.</property>
+    </card>
+    <card name="Vicious Tendrils" id="92a03fcf-a4e3-4f87-93a4-8c924b074014" size="EncounterCard">
+      <property name="CardNumber" value="207414"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Boost" value="3"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Necroverse. Weapon."/>
+      <property name="Text">Attach to Gorr the God Butcher.
+Gorr the God Butcher gains retaliate 1.
+[star] Gorr the God Butcher's attacks gain ranged.
+&lt;b&gt;Hero Action&lt;/b&gt;: Discard 1 card at random from your hand and discard the top 4 cards of your deck → discard this card.</property>
+    </card>
+    <card name="Anti-dogma" id="92a03fcf-a4e3-4f87-93a4-8c924b074015" size="EncounterCard">
+      <property name="CardNumber" value="207415"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Gorr the God Butcher schemes. Place 2 threat on the main scheme or discard the top 2 cards of your deck.
+&lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;:&lt;/b&gt; Place 2 threat on the main scheme or discard the top 2 cards of your deck.</property>
+    </card>
+    <card name="Brutal Cunning" id="92a03fcf-a4e3-4f87-93a4-8c924b074016" size="EncounterCard">
+      <property name="CardNumber" value="207416"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">Peril.
+&lt;b&gt;When Revealed&lt;/b&gt;: Choose one:
+• Discard cards from the top of the encounter deck until you discard a [[Necroverse]] attachment. Reveal that card.
+• Shuffle the bottommost [[Necroverse]] attachment in the encounter discard pile into the encounter deck. This card gains surge.</property>
+    </card>
+    <card name="Gleeful Savagery" id="92a03fcf-a4e3-4f87-93a4-8c924b074017" size="EncounterCard">
+      <property name="CardNumber" value="207417"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt; &lt;i&gt;(Alter-Ego)&lt;/i&gt;: Take 1 indirect damage. This card gains surge.
+&lt;b&gt;When Revealed&lt;/b&gt; &lt;i&gt;(Hero)&lt;/i&gt;: Gorr the God Butcher attacks you. Take 2 indirect damage or discard the top 2 cards of your deck.
+&lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;: Take 2 indirect damage or discard the top 2 cards of your deck.</property>
+    </card>
+    <card name="Forgotten Gods" id="92a03fcf-a4e3-4f87-93a4-8c924b074018" size="SchemeCard">
+      <property name="CardNumber" value="207418"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: When the villain phase ends, deal each player 1 indirect damage.
+&lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;:&lt;/b&gt; Reveal this card.</property>
+      <property name="Quote" value="&lt;i&gt;Everywhere you go, you find the trail of deities' corpses that Gorr has left behind.&lt;/i&gt;"/>
+    </card>
+    <card name="Nihilistic Vision" id="92a03fcf-a4e3-4f87-93a4-8c924b074019" size="SchemeCard">
+      <property name="CardNumber" value="207419"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Scheme_Acceleration" value="2"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard cards from the top of the encounter deck until an attachment is discarded. Reveal that card.
+All [[Necroverse]] enemies &lt;i&gt;(including Gorr the God Butcher)&lt;/i&gt; get +1 ATK.</property>
+      <property name="Quote" value="&lt;i&gt;On a backwoods planet, an alien boy looks up at the morning sky, and watches the sun turn black.&lt;/i&gt;"/>
+    </card>
+    <card name="You Are My God" id="92a03fcf-a4e3-4f87-93a4-8c924b074020" size="SchemeCard">
+      <property name="CardNumber" value="207420"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text">Hinder 1[per_hero].
+&lt;b&gt;Forced Response&lt;/b&gt;: After Gorr the God Butcher attacks, he attacks again. Deal him no boost cards for this attack. (Limit once per player per phase.)</property>
+      <property name="Quote" value="&lt;i&gt;Even if Gorr kills all the gods in creation, there will still be one god left standing.&lt;/i&gt;"/>
+    </card>
+    <card name="Heroes' Labor" id="92a03fcf-a4e3-4f87-93a4-8c924b074021" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Special"/>
+      <property name="CardNumber" value="207421"/>
+      <property name="Position" value="21"/>
+      <property name="Quantity" value="4"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">Incite 1.
+&lt;b&gt;Forced Response&lt;/b&gt;: After you draw Heroes' Labor or discard it from the top of your deck, reveal it.
+&lt;b&gt;When Revealed&lt;/b&gt;: Place 1 timer counter on the Godbomb environment, if able. Otherwise, place 1 necro counter on the All-Black Necroverse environment. Put this card into your discard pile &lt;i&gt;(instead of discarding it to the encounter discard pile)&lt;/i&gt;.</property>
+    </card>
+    <card name="Stalking Berserker" id="92a03fcf-a4e3-4f87-93a4-8c924b074022" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Special"/>
+      <property name="CardNumber" value="207422"/>
+      <property name="Position" value="22"/>
+      <property name="Quantity" value="4"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="gorr_the_god_butcher_by_bluehg"/>
+      <property name="HP" value="2"/>
+      <property name="Attack" value="0"/>
+      <property name="Thwart" value="0"/>
+      <property name="Scheme" value="0"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Necroverse."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After you draw Stalking Berserker or discard it from the top of your deck, reveal it.
+&lt;b&gt;Forced Response&lt;/b&gt;: After your turn ends, discard the top 2 cards of your deck and place 1 necro counter on the All-Black Necroverse environment.
+&lt;b&gt;When Defeated&lt;/b&gt;: Put this card into the engaged player's discard pile.</property>
+    </card>
+    <card name="Shadow Serpent" id="92a03fcf-a4e3-4f87-93a4-8c924b074023" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Special"/>
+      <property name="CardNumber" value="207423"/>
+      <property name="Position" value="23"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="necroverse_by_bluehg"/>
+      <property name="HP" value="6"/>
+      <property name="Attack" value="3"/>
+      <property name="Thwart" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Necroverse."/>
+      <property name="Text">[star] Shadow Serpent's attacks gain overkill.
+&lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;:&lt;/b&gt; Deal yourself 1 facedown encounter card.</property>
+      <property name="Quote" value="&quot;I feel them... drowning. Feel the blackness flooding them.&quot;"/>
+    </card>
+    <card name="Annihilablade" id="92a03fcf-a4e3-4f87-93a4-8c924b074024" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Special"/>
+      <property name="CardNumber" value="207424"/>
+      <property name="Position" value="24"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="necroverse_by_bluehg"/>
+      <property name="Boost" value="4"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Necroverse. Weapon."/>
+      <property name="Text">Attach to the villain.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When the villain's attack would defeat an ally, remove that ally from the game instead of discarding it.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [physical] [mental] [energy] resources and discard the top 5 cards of your deck → discard this card.</property>
+    </card>
+    <card name="Dark Apotheosis" id="92a03fcf-a4e3-4f87-93a4-8c924b074025" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Special"/>
+      <property name="CardNumber" value="207425"/>
+      <property name="Position" value="25"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="necroverse_by_bluehg"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Necroverse."/>
+      <property name="Text">Attach to the enemy with the most hit points remaining.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [physical] [mental] resources and discard the top 3 cards of your deck → discard this card.</property>
+    </card>
+    <card name="Manifest Will" id="92a03fcf-a4e3-4f87-93a4-8c924b074026" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Special"/>
+      <property name="CardNumber" value="207426"/>
+      <property name="Position" value="26"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="necroverse_by_bluehg"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: Shuffle all minions in the encounter discard pile into the encounter deck. Discard cards from the top of the encounter deck until a minion is discarded. Reveal that card."/>
+    </card>
+    <card name="The Ingenuity Of Hatred" id="92a03fcf-a4e3-4f87-93a4-8c924b074027" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Special"/>
+      <property name="CardNumber" value="207427"/>
+      <property name="Position" value="27"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="necroverse_by_bluehg"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: Shuffle all attachments in the encounter discard pile into the encounter deck. Discard cards from the top of the encounter deck until an attachment is discarded. Reveal that card."/>
+    </card>
+    <card name="The Planet Cleaver" id="92a03fcf-a4e3-4f87-93a4-8c924b074028" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Special"/>
+      <property name="CardNumber" value="207428"/>
+      <property name="Position" value="28"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="necroverse_by_bluehg"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text">Hinder 2[per_hero].
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When facedown encounter cards are dealt to players during the villain phase, deal each player 1 additional facedown encounter card.</property>
+      <property name="Quote" value="&lt;i&gt;The final doom of all gods is Gorr's weapon in its truest form. The Annihilablade hangs over us all.&lt;/i&gt;"/>
+    </card>
+    <card name="Bounty Hunter" id="92a03fcf-a4e3-4f87-93a4-8c924b074029" size="EncounterCard">
+      <property name="CardNumber" value="207429"/>
+      <property name="Position" value="29"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="intergalactic_hazards_by_bluehg"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="1"/>
+      <property name="Thwart" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Criminal."/>
+      <property name="Text">Patrol.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Bounty Hunter attacks, if you are confused, they get +2 ATK for this attack.</property>
+      <property name="Quote" value="&lt;i&gt;Your antagonist is well connected, but these hired guns won't stop you.&lt;/i&gt;"/>
+    </card>
+    <card name="Solar Flare" id="92a03fcf-a4e3-4f87-93a4-8c924b074030" size="EncounterCard">
+      <property name="CardNumber" value="207430"/>
+      <property name="Position" value="30"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="intergalactic_hazards_by_bluehg"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If you are confused, take 3 indirect damage. Otherwise, you are confused.
+&lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;:&lt;/b&gt; Reveal this card.</property>
+      <property name="Quote" value="&quot;That was close!&quot; -Rocket Raccoon"/>
+    </card>
+    <card name="Turned Around" id="92a03fcf-a4e3-4f87-93a4-8c924b074031" size="EncounterCard">
+      <property name="CardNumber" value="207431"/>
+      <property name="Position" value="31"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="intergalactic_hazards_by_bluehg"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: You are confused. Then, choose an engaged minion, if able. That enemy attacks you."/>
+      <property name="Quote" value="&lt;i&gt;&quot;I hate to say it, but I think we're lost.&quot;&lt;/i&gt; —Star-Lord"/>
+    </card>
+    <card name="Asteroid Belt" id="92a03fcf-a4e3-4f87-93a4-8c924b074032" size="EncounterCard">
+      <property name="CardNumber" value="207432"/>
+      <property name="Position" value="32"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="environment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="intergalactic_hazards_by_bluehg"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Location. Setting."/>
+      <property name="Text">Uses (2 [per_hero] asteroid counters).
+&lt;b&gt;Forced Response&lt;/b&gt;: After the end of the player phase, each player takes 2 indirect damage.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust your hero → remove X asteroid counters from here, where X is the highest of your ATK, THW, or DEF.</property>
+    </card>
+  </cards>
+</set>

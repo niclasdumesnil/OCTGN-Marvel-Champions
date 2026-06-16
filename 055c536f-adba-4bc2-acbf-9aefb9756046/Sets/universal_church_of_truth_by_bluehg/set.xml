@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Universal Church of Truth" id="a7eb4ebd-4425-4183-9ff2-3d231e9d003e" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="a7eb4ebd-4425-4183-9ff2-3d231e000000" name="universal_church_of_truth_by_bluehg">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+      <property name="nbModular" value="1"/>
+      <property name="mandatoryModular" value="{'ship_command': ['Ship Command', 'Encounter', True], 'you_must_have_faith_by_bluehg': ['You Must Have Faith', 'Encounter', True]}"/>
+      <property name="recommendedModular" value="{'drax_clones_by_bluehg': ['Drax Clones', 'Encounter', True]}"/>
+    </card>
+    <card id="a7eb4ebd-4425-4183-9ff2-3d231e990000" name="drax_clones_by_bluehg">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="drax_clones_by_bluehg"/>
+    </card>
+    <card id="a7eb4ebd-4425-4183-9ff2-3d231e000002" name="you_must_have_faith_by_bluehg">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="you_must_have_faith_by_bluehg"/>
+    </card>
+    <card name="Matriarch" id="a7eb4ebd-4425-4183-9ff2-3d231e070001" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="207001"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+      <property name="HP" value="11"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Faithful."/>
+      <property name="Text" value="[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: After Matriarch schemes against you, create 1 Faithful Zealot minion and put it into play engaged with you. That minion cannot attack or scheme this phase except by card effects."/>
+      <property name="Quote" value="&quot;Who are they? Unbelievers? Anti-Church heretics?&quot;"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+    </card>
+    <card name="Matriarch" id="a7eb4ebd-4425-4183-9ff2-3d231e070002" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="207002"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+      <property name="HP" value="13"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Faithful."/>
+      <property name="Text" value="Each [[FAITHFUL]] minion gets +1 hit points."/>
+      <property name="Quote" value="The orbit ways teem with Templeships and pilgrim traffic. The Faithful accumulate here. And, as ever, she is waiting to bless them."/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Matriarch" id="a7eb4ebd-4425-4183-9ff2-3d231e070003" size="VillainCard">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="207003"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="villain"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+      <property name="HP" value="15"/>
+      <property name="Attack" value="2"/>
+      <property name="Thwart" value="3"/>
+      <property name="Scheme" value="3"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Faithful."/>
+      <property name="Text">&lt;b&gt;Forced Response&lt;/b&gt;: After a friendly character is defeated, place 2 threat on the main scheme.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a [[FAITHFUL]] minion is defeated, heal 1 damage from Matriarch.</property>
+      <property name="Quote" value="&quot;Who are they? Unbelievers? Anti-Church heretics?&quot;"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Find The Truth" id="a7eb4ebd-4425-4183-9ff2-3d231e070004" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="207004a"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Matriarch (I) and Matriarch (II). (Matriarch (II) and Matriarch (III) instead for expert mode.) Universal Church of Truth, Ship Command, You Must Have Faith, and Standard encounter sets. One modular encounter set (Drax Clones).
+&lt;b&gt;Setup:&lt;/b&gt; Set aside the Spartax environment, the Phone for Help side scheme, and the 10 copies of Faithful Zealot. Put the Templeship environment into play.</property>
+      <property name="Stage" value="1A"/>
+      <alternate name="Find The Truth" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="207004b"/>
+        <property name="Position" value="4"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+        <property name="BaseThreat" value="1"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="3"/>
+        <property name="Unique" value="False"/>
+        <property name="Text">Each **FAITHFUL** minion gains guard.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the player phase begins, each player creates 1 Faithful Zealot minion and puts it into play engaged with them.</property>
+        <property name="Quote" value="The Church has been amassing an army... but what for? Maybe if you let their scheme advance you'll figure out what they're up to."/>
+        <property name="Stage" value="1B"/>
+      </alternate>
+    </card>
+    <card name="Shipboard Struggle" id="a7eb4ebd-4425-4183-9ff2-3d231e070005" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="207005a"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+      <property name="Unique" value="False"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: If the Templeship Damaged environment is in play, deal each player 1 encounter card. Deal the first player 1 additional encounter card."/>
+      <property name="Quote" value="You don't know all the pieces to the plan yet, but you do know that the Church is targeting Spartax, homeworld of King J'son, Star-Lord's father. You have to stop them!"/>
+      <property name="Stage" value="2A"/>
+      <alternate name="Shipboard Struggle" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="207005b"/>
+        <property name="Position" value="5"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="8"/>
+        <property name="Unique" value="False"/>
+        <property name="EscalationThreatFixed" value="True"/>
+        <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: If the Templeship environment is in play, place 3 [per_hero] threat here.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Matriarch takes damage from an attack, shuffle the bottommost [[RESERVES]] card from the encounter discard pile into the encounter deck. (Limit once per round per player.)</property>
+        <property name="Stage" value="2B"/>
+      </alternate>
+    </card>
+    <card name="Battle Of Spartax" id="a7eb4ebd-4425-4183-9ff2-3d231e070006" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="207006a"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+      <property name="Unique" value="False"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: If the Templeship environment is in play, remove it from the game and put the Spartax Damaged environment into play. If the Templeship Damaged environment is in play, remove it from the game and put the Spartax environment into play."/>
+      <property name="Quote" value="It's time for Spartax's last stand against the Universal Church of Truth. Help them!"/>
+      <property name="Stage" value="3A"/>
+      <alternate name="Battle Of Spartax" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="207006b"/>
+        <property name="Position" value="6"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+        <property name="BaseThreat" value="1"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="5"/>
+        <property name="Unique" value="False"/>
+        <property name="Text">Each &lt;b&gt;FAITHFUL&lt;/b&gt; minion loses guard and gets +1 ATK.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust the Milano → ignore this card's "Forced Response" ability until the end of the round.
+&lt;b&gt;Forced Response&lt;/b&gt;: After a &lt;b&gt;FAITHFUL&lt;/b&gt; minion is defeated, place 1 threat here.
+If this stage is completed, the players lose the game.</property>
+        <property name="Stage" value="3B"/>
+      </alternate>
+    </card>
+    <card name="Templeship" id="a7eb4ebd-4425-4183-9ff2-3d231e070007" size="EncounterCard">
+      <property name="CardNumber" value="207007a"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="environment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+      <property name="HP" value="9"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Aerial. Vehicle."/>
+      <property name="Text">Templeship may be attacked as if it were a minion not engaged with any player.
+Each [[FAITHFUL]] minion gets +1 SCH.
+&lt;b&gt;When Defeated&lt;/b&gt;: Flip this card over.</property>
+      <property name="Quote" value="Damaging the ship might slow them down, but it's dangerous. Make sure the Milano's ready when it blows!"/>
+      <alternate name="Templeship Damaged" type="b" size="EncounterCard">
+        <property name="CardNumber" value="207007b"/>
+        <property name="Position" value="7"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="environment"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+        <property name="Unique" value="True"/>
+        <property name="Attribute" value="Aerial. Vehicle."/>
+        <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: Each player takes 4 indirect damage (1 indirect damage instead, if the Milano is ready). The villain takes 3 damage. Defeat each &lt;b&gt;FAITHFUL&lt;/b&gt; minion in play. Put the set-aside Phone for Help side scheme into play."/>
+        <property name="Quote" value="That explosion should get someone helpful's attention."/>
+      </alternate>
+    </card>
+    <card name="Spartax" id="a7eb4ebd-4425-4183-9ff2-3d231e070008" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Setup"/>
+      <property name="CardNumber" value="207008a"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="environment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Location."/>
+      <property name="Text" value="&lt;b&gt;Action&lt;/b&gt;: Exhaust the Milano and choose a player → that player draws 1 card (2 cards, instead, if their identity is in its alter-ego form)."/>
+      <property name="Quote" value="&quot;Planet Spartax. It's damn nice.&quot;—Star-Lord"/>
+      <alternate name="Spartax Damaged" type="b" size="EncounterCard">
+        <property name="DefaultSetupPile" value="Setup"/>
+        <property name="CardNumber" value="207008b"/>
+        <property name="Position" value="8"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="environment"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+        <property name="Unique" value="True"/>
+        <property name="Attribute" value="Location."/>
+        <property name="Text" value="&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust the Milano and choose a player → characters that player controls get +1 THW until the end of the round."/>
+        <property name="Quote" value="&quot;I will pray you find peace for your impending suffering.&quot; —Matriarch"/>
+      </alternate>
+    </card>
+    <card name="Phone For Help" id="a7eb4ebd-4425-4183-9ff2-3d231e070009" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Setup"/>
+      <property name="CardNumber" value="207009a"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text">Hinder 3 [per_hero].
+&lt;b&gt;Alter-Ego &lt;b&gt;Action&lt;/b&gt;:&lt;/b&gt; Exhaust your identity → remove threat from this scheme equal to your REC.
+&lt;b&gt;When Defeated&lt;/b&gt;: Flip this card over.</property>
+      <property name="Quote" value="So the ship isn't completely blown up, but you did some damage. That explosion will definitely get some people looking. Better let them know there are friendlies onboard."/>
+      <alternate name="Nova Corps" type="b">
+        <property name="DefaultSetupPile" value="Setup"/>
+        <property name="CardNumber" value="207009b"/>
+        <property name="Position" value="9"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="support"/>
+        <property name="Faction" value="hero"/>
+        <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+        <property name="Unique" value="False"/>
+        <property name="Attribute" value="Nova Corps."/>
+        <property name="Text">Permanent.
+The first player gains control of Nova Corps.
+&lt;b&gt;Action&lt;/b&gt;: Remove 1 corps counter from here → deal 1 damage to an enemy.
+&lt;b&gt;Interrupt&lt;/b&gt;: When the player phase ends, place corps counters here until there are 1 plus 1 [per_hero] corps counters here.</property>
+      </alternate>
+    </card>
+    <card name="Cardinal Of Truth" id="a7eb4ebd-4425-4183-9ff2-3d231e070010" size="EncounterCard">
+      <property name="CardNumber" value="207010"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+      <property name="HP" value="5"/>
+      <property name="Attack" value="1"/>
+      <property name="Thwart" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Faithful."/>
+      <property name="Text">[star] Cardinal of Truth gets +1 ATK for each keyword it has.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Cardinal of Truth gains a keyword, heal all damage from it.
+&lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;: Heal 2 damage from Matriarch.</property>
+    </card>
+    <card name="Powered By Faith" id="a7eb4ebd-4425-4183-9ff2-3d231e070011" size="SchemeCard">
+      <property name="CardNumber" value="207011"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text">Hinder 1[per_hero].
+Each [[FAITHFUL]] enemy gains villainous.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust the Milano → treat this card's text box as blank until the end of the round.</property>
+      <property name="Quote" value="They call these &quot;faith batteries.&quot; Real people, bottled up, and used for their faith."/>
+    </card>
+    <card name="Righteous Fervor" id="a7eb4ebd-4425-4183-9ff2-3d231e070012" size="SchemeCard">
+      <property name="CardNumber" value="207012"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text" value="Hinder 2[per_hero]. Each [[FAITHFUL]] enemy gains quickstrike. &lt;b&gt;Hero Action&lt;/b&gt;: Exhaust the Milano → treat this card's text box as blank until the end of the round."/>
+      <property name="Quote" value="You don't know what &quot;truth&quot; it is this church is fighting for. You just know it hurts."/>
+    </card>
+    <card name="Drax Clone" id="a7eb4ebd-4425-4183-9ff2-3d231e070013" size="EncounterCard">
+      <property name="CardNumber" value="207013"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="drax_clones_by_bluehg"/>
+      <property name="HP" value="4"/>
+      <property name="Attack" value="1"/>
+      <property name="Thwart" value="0"/>
+      <property name="Scheme" value="0"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Clone. Faithful."/>
+      <property name="Text">[star] If Drax Clone is a minion, he gets +1 ATK for each point of damage he has.
+&lt;b&gt;Alter-Ego &lt;b&gt;Action&lt;/b&gt;:&lt;/b&gt; Spend [wild][wild][wild] resources → take control of Drax Clone, treating him as an ally. Drax Clone loses the [[FAITHFUL]] trait, his THW is equal to his printed SCH, and he takes 1 consequential damage for thwarting or attacking. (His printed resource cost is considered to be 0.)</property>
+    </card>
+    <card name="Ceaseless Bodies" id="a7eb4ebd-4425-4183-9ff2-3d231e070014" size="EncounterCard">
+      <property name="CardNumber" value="207014"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="drax_clones_by_bluehg"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">Peril.
+Choose one:
+• Search the encounter deck and discard pile for a Drax Clone minion and put him into play engaged with you.
+• Shuffle all copies of Drax Clone from the encounter discard pile into the encounter deck. This card gains surge.</property>
+    </card>
+    <card name="Field Of Cocoons" id="a7eb4ebd-4425-4183-9ff2-3d231e070015" size="SchemeCard">
+      <property name="CardNumber" value="207015"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="drax_clones_by_bluehg"/>
+      <property name="Scheme_Acceleration" value="1"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Text">Hinder 2[per_hero].
+&lt;b&gt;Forced Response&lt;/b&gt;: After the round ends, place 1 hibernation counter here. Then, if there are 3 or more hibernation counters here, search the encounter deck and discard pile for all copies of Drax Clone and put them into play engaged with the first player and discard this side scheme.</property>
+    </card>
+    <card name="Faithful Zealot" id="a7eb4ebd-4425-4183-9ff2-3d231e070016" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Special"/>
+      <property name="CardNumber" value="207016"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="10"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="universal_church_of_truth_by_bluehg"/>
+      <property name="HP" value="2"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Faithful."/>
+      <property name="Text">Guard. &lt;i&gt;(While this minion is engaged with you, you cannot attack the villain.&lt;/i&gt;)
+Patrol. (&lt;i&gt;While this minion is engaged with you, you cannot thwart the main scheme.&lt;/i&gt;)</property>
+      <property name="Quote" value="You Must Have Faith"/>
+    </card>
+    <card name="Grand Unifier Raker" id="a7eb4ebd-4425-4183-9ff2-3d231e070017" size="EncounterCard">
+      <property name="CardNumber" value="207017"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="you_must_have_faith_by_bluehg"/>
+      <property name="HP" value="6"/>
+      <property name="Attack" value="2"/>
+      <property name="Thwart" value="2"/>
+      <property name="Scheme" value="2"/>
+      <property name="Boost" value="3"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Elite. Faithful."/>
+      <property name="Text">Toughness.
+&lt;b&gt;Forced Response&lt;/b&gt;: After Grand Unifier Raker is damaged by an attack, give a tough status card to the villain.
+* Boost: Give the villain a tough status card.</property>
+      <property name="Quote" value="&quot;The Church demands your submission.&quot;"/>
+    </card>
+    <card name="Have Faith" id="a7eb4ebd-4425-4183-9ff2-3d231e070018" size="EncounterCard">
+      <property name="CardNumber" value="207018"/>
+      <property name="Position" value="18"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="you_must_have_faith_by_bluehg"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Condition."/>
+      <property name="Text">Treat attached ally as a [[Faithful]] minion with a blank text box. Attached minion's SCH is equal to its printed THW and it does not take consequential damage.
+&lt;b&gt;When Revealed&lt;/b&gt;: Attach to the ally with the highest cost without Have Faith attached. Attached ally engages its controller. Otherwise, this card gains surge.</property>
+    </card>
+    <card name="Army Of The Faithful" id="a7eb4ebd-4425-4183-9ff2-3d231e070019" size="EncounterCard">
+      <property name="CardNumber" value="207019"/>
+      <property name="Position" value="19"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="you_must_have_faith_by_bluehg"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Reserves."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Create 2 Faithful Zealot minions and put them into play engaged with you. If no enemies are put into play this way, this card gains surge.
+* &lt;b&gt;Boost:&lt;/b&gt; Create 1 Faithful Zealot minion and put it into play engaged with you.</property>
+      <property name="Quote" value="RESERVES."/>
+    </card>
+    <card name="Consolidate Forces" id="a7eb4ebd-4425-4183-9ff2-3d231e070020" size="SchemeCard">
+      <property name="CardNumber" value="207020"/>
+      <property name="Position" value="20"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="you_must_have_faith_by_bluehg"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Reserves."/>
+      <property name="Text" value="&lt;b&gt;Forced Interrupt&lt;/b&gt;: When the round ends, create 2 Faithful Zealot minions and put them into play engaged with the first player. The first player may exhaust a [[Vehicle]] card they control to reduce the number of Faithful Zealot minions created by this effect to 1."/>
+    </card>
+  </cards>
+</set>
