@@ -179,7 +179,7 @@ If this stage is completed, the players lose the game.</property>
       <property name="Unique" value="True"/>
       <property name="HP_Per_Hero" value="True"/>
       <property name="Attribute" value="Aerial. Vehicle."/>
-      <property name="Text">Templeship may be attacked as if it were a minion not engaged with any player.
+      <property name="Text">Setup. Templeship may be attacked as if it were a minion not engaged with any player.
 Each [[FAITHFUL]] minion gets +1 SCH.
 &lt;b&gt;When Defeated&lt;/b&gt;: Flip this card over.</property>
       <property name="Quote" value="Damaging the ship might slow them down, but it's dangerous. Make sure the Milano's ready when it blows!"/>
