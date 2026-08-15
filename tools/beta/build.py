@@ -86,9 +86,20 @@ def copier_definition(source: Path, destination: Path) -> None:
     shutil.copytree(source, destination)
 
 
+def copier_un_set(chemin_source: Path, nom: str, staging_sets_dir: Path) -> None:
+    destination = staging_sets_dir / nom
+    if destination.exists():
+        shutil.rmtree(destination)
+    shutil.copytree(chemin_source, destination)
+
+
 def copier_sets_fanmade_additionnels(entrees: list, staging_sets_dir: Path) -> list[str]:
-    """Copie des sets fanmade additionnels (hors du dossier de définition officiel)
-    dans staging/Sets/. Liste vide pour l'instant (Lot 2)."""
+    """Copie des sets déclarés un par un dans `sets_fanmade_additionnels`.
+
+    Réservé aux cas particuliers : set hors des dossiers Nexus, ou dont on veut
+    forcer le nom dans le staging. Le cas courant passe par
+    `dossiers_sets_supplementaires` ci-dessous.
+    """
     noms_copies: list[str] = []
     for entree in entrees:
         chemin_source = Path(entree["chemin_source"])
@@ -97,11 +108,38 @@ def copier_sets_fanmade_additionnels(entrees: list, staging_sets_dir: Path) -> l
         nom = entree.get("nom") or chemin_source.name
         if not chemin_source.is_dir():
             raise ErreurBuild(f"set fanmade additionnel introuvable : {chemin_source}")
-        destination = staging_sets_dir / nom
-        if destination.exists():
-            shutil.rmtree(destination)
-        shutil.copytree(chemin_source, destination)
+        copier_un_set(chemin_source, nom, staging_sets_dir)
         noms_copies.append(nom)
+    return noms_copies
+
+
+def copier_dossiers_sets(dossiers: list, staging_sets_dir: Path) -> list[str]:
+    """Prend TOUS les sets présents dans les dossiers configurés.
+
+    Chaque sous-dossier contenant un `set.xml` devient un set du build — ajouter
+    un set à la bêta ne demande alors aucune configuration : il suffit que Nexus
+    le génère au bon endroit (voir le contrat de génération, dossier
+    `…\\produits\\octgn-sets\\<pack_name>\\set.xml`).
+
+    Le nom du dossier source est repris tel quel dans le staging ; c'est sans
+    conséquence sur le module produit, o8build renommant les dossiers de sets
+    par leur GUID à l'empaquetage.
+    """
+    noms_copies: list[str] = []
+    for dossier in dossiers:
+        racine = Path(dossier)
+        if not racine.is_absolute():
+            racine = (REPO_ROOT / racine).resolve()
+        if not racine.is_dir():
+            raise ErreurBuild(f"dossier de sets supplémentaires introuvable : {racine}")
+        for candidat in sorted(racine.iterdir()):
+            if not candidat.is_dir():
+                continue
+            if not (candidat / "set.xml").exists():
+                print(f"      /!\\ ignoré (pas de set.xml) : {candidat.name}")
+                continue
+            copier_un_set(candidat, candidat.name, staging_sets_dir)
+            noms_copies.append(candidat.name)
     return noms_copies
 
 
@@ -333,14 +371,18 @@ def construire(config: dict) -> dict:
     print(f"[1/6] copie {dossier_source} -> {STAGING_DIR}")
     copier_definition(dossier_source, STAGING_DIR)
 
+    dossiers_sets = config.get("dossiers_sets_supplementaires") or []
     sets_fanmade = config.get("sets_fanmade_additionnels") or []
-    if sets_fanmade:
-        print(f"[2/6] copie de {len(sets_fanmade)} set(s) fanmade additionnel(s)")
-        noms = copier_sets_fanmade_additionnels(sets_fanmade, STAGING_DIR / "Sets")
-        for nom in noms:
+    noms_ajoutes: list[str] = []
+    if dossiers_sets or sets_fanmade:
+        print("[2/6] sets supplémentaires")
+        noms_ajoutes += copier_dossiers_sets(dossiers_sets, STAGING_DIR / "Sets")
+        noms_ajoutes += copier_sets_fanmade_additionnels(sets_fanmade, STAGING_DIR / "Sets")
+        for nom in noms_ajoutes:
             print(f"      + {nom}")
+        print(f"      {len(noms_ajoutes)} set(s) ajouté(s)")
     else:
-        print("[2/6] aucun set fanmade additionnel configuré")
+        print("[2/6] aucun set supplémentaire configuré")
 
     print(f"[3/6] remplacement exhaustif du GUID officiel ({guid_officiel} -> {guid_beta})")
     fichiers_texte, fichiers_binaires = remplacer_guid_partout(STAGING_DIR, guid_officiel, guid_beta)

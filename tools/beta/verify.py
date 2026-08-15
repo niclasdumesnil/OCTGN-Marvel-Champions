@@ -44,11 +44,33 @@ def trouver_le_plus_recent(motif: str):
     return candidats[0] if candidats else None
 
 
-def compter_sets_sources(config: dict) -> int:
-    sets_dir = REPO_ROOT / config["dossier_definition_source"] / "Sets"
-    if not sets_dir.is_dir():
+def compter_sets_dans(racine: Path) -> int:
+    if not racine.is_dir():
         return 0
-    return sum(1 for p in sets_dir.iterdir() if p.is_dir() and (p / "set.xml").exists())
+    return sum(1 for p in racine.iterdir() if p.is_dir() and (p / "set.xml").exists())
+
+
+def compter_sets_sources(config: dict) -> int:
+    """Nombre de sets attendus dans l'archive : ceux du dossier de définition,
+    plus les sets supplémentaires (dossiers Nexus + entrées explicites) que
+    build.py injecte dans le staging. Sans eux, la vérification signalerait à
+    tort un décompte incohérent dès qu'un set fanmade entre dans le build."""
+    total = compter_sets_dans(REPO_ROOT / config["dossier_definition_source"] / "Sets")
+
+    for dossier in config.get("dossiers_sets_supplementaires") or []:
+        racine = Path(dossier)
+        if not racine.is_absolute():
+            racine = (REPO_ROOT / racine).resolve()
+        total += compter_sets_dans(racine)
+
+    for entree in config.get("sets_fanmade_additionnels") or []:
+        chemin = Path(entree["chemin_source"])
+        if not chemin.is_absolute():
+            chemin = (REPO_ROOT / chemin).resolve()
+        if (chemin / "set.xml").exists():
+            total += 1
+
+    return total
 
 
 def verifier(chemin_archive: Path, config: dict, prefixe: str = ""):
