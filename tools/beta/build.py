@@ -197,6 +197,30 @@ def patcher_definition_xml(
     return surcharges
 
 
+def remplacer_fichiers(staging_dir: Path, remplacements: dict | None) -> list[str]:
+    """Écrase des fichiers du staging par des variantes bêta versionnées.
+
+    Sert à signer visuellement le module (dos de cartes badgés « BETA », vus en
+    permanence en partie). Clés = chemins relatifs au staging, valeurs = chemins
+    relatifs à tools/beta/. Le fichier cible doit exister : remplacer un chemin
+    absent signalerait une source qui a bougé chez upstream.
+    """
+    faits: list[str] = []
+    for cible_rel, source_rel in (remplacements or {}).items():
+        source = TOOLS_BETA_DIR / source_rel
+        cible = staging_dir / cible_rel
+        if not source.exists():
+            raise ErreurBuild(f"fichier de remplacement introuvable : {source}")
+        if not cible.exists():
+            raise ErreurBuild(
+                f"cible de remplacement absente du staging : {cible_rel} "
+                "(upstream a-t-il renommé ou supprimé ce fichier ?)"
+            )
+        shutil.copy2(source, cible)
+        faits.append(cible_rel)
+    return faits
+
+
 def compter_sets_sources(staging_sets_dir: Path) -> int:
     if not staging_sets_dir.is_dir():
         return 0
@@ -336,6 +360,10 @@ def construire(config: dict) -> dict:
     )
     if surcharges:
         print(f"      attributs surchargés : {', '.join(surcharges)}")
+
+    remplaces = remplacer_fichiers(STAGING_DIR, config.get("fichiers_remplaces"))
+    if remplaces:
+        print(f"      fichiers remplacés : {', '.join(remplaces)}")
 
     nb_sets_sources = compter_sets_sources(STAGING_DIR / "Sets")
     set_xml_touches = [f for f, _ in fichiers_texte if re.match(r"^Sets/[^/]+/set\.xml$", f)]
