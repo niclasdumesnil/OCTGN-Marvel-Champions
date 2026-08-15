@@ -4,7 +4,7 @@
     "nom_beta": "Marvel Champions (BETA)",
     "dossier_definition_source": "055c536f-adba-4bc2-acbf-9aefb9756046",
     "multiplicateur_version_beta": 1000,
-    "revision_beta": 1,
+    "revision_beta": 4,
     "attributs_definition": {
         "authors": "Ourob09, updated by Merlin",
         "description": "Bêta communautaire du Marvel Champions Game Package pour OCTGN, maintenue par Merlin. Module distinct du mod officiel d'Ourob09, qui reste intact."
@@ -14,5 +14,10 @@
         "cards/altback.png": "assets/altback.png",
         "cards/vilback.png": "assets/vilback.png"
     },
-    "sets_fanmade_additionnels": []
+    "sets_fanmade_additionnels": [
+        {
+            "nom": "Fear no Evil",
+            "chemin_source": "C:/OS-Merlin/fichiers/marvel-champions/produits/octgn-sets/fear_no_evil_by_ffg"
+        }
+    ]
 }
