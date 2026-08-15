@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
-"""Vérification du .o8g bêta produit par build.py.
+"""Vérification des artefacts bêta produits par build.py.
 
-Contrôles effectués :
-- l'archive .o8g s'ouvre proprement (zip valide, pas de fichier corrompu) ;
+Deux artefacts sont contrôlés :
+- le .nupkg (produit par o8build), qui est le format réellement consommé par
+  OCTGN : la définition y vit sous def/ ;
+- le .o8g (archive de téléchargement direct), contenu à la racine.
+
+Contrôles effectués sur chacun :
+- l'archive s'ouvre proprement (zip valide, pas de fichier corrompu) ;
 - plus AUCUNE occurrence du GUID officiel nulle part dans l'archive ;
 - definition.xml porte le bon id / name / version bêta ;
 - nombre de Sets/*/set.xml portant le bon gameId == nombre de sets sources
@@ -11,8 +16,8 @@ Contrôles effectués :
 Sortie : rapport lisible sur stdout. Code retour 0 si tout est vert, 1 sinon.
 
 Usage :
-    python tools/beta/verify.py                  # vérifie le .o8g le plus récent de dist/
-    python tools/beta/verify.py --o8g chemin.o8g  # vérifie un .o8g précis
+    python tools/beta/verify.py                     # vérifie les artefacts les plus récents de dist/
+    python tools/beta/verify.py --o8g chemin.o8g    # vérifie un .o8g précis
 """
 from __future__ import annotations
 
@@ -34,8 +39,8 @@ def charger_config() -> dict:
         return json.load(f)
 
 
-def trouver_o8g_le_plus_recent():
-    candidats = sorted(DIST_DIR.glob("*.o8g"), key=lambda p: p.stat().st_mtime, reverse=True)
+def trouver_le_plus_recent(motif: str):
+    candidats = sorted(DIST_DIR.glob(motif), key=lambda p: p.stat().st_mtime, reverse=True)
     return candidats[0] if candidats else None
 
 
@@ -46,16 +51,20 @@ def compter_sets_sources(config: dict) -> int:
     return sum(1 for p in sets_dir.iterdir() if p.is_dir() and (p / "set.xml").exists())
 
 
-def verifier(chemin_o8g: Path, config: dict):
+def verifier(chemin_archive: Path, config: dict, prefixe: str = ""):
+    """Vérifie une archive bêta. `prefixe` situe la définition dans l'archive :
+    "" pour un .o8g (contenu à la racine), "def/" pour un .nupkg."""
     problemes: list[str] = []
     guid_officiel = config["guid_officiel"]
     guid_beta = config["guid_beta"]
     nom_beta = config["nom_beta"]
+    chemin_definition = f"{prefixe}definition.xml"
+    motif_set_xml = rf"^{re.escape(prefixe)}Sets/[^/]+/set\.xml$"
 
     try:
-        zf = zipfile.ZipFile(chemin_o8g, "r")
+        zf = zipfile.ZipFile(chemin_archive, "r")
     except zipfile.BadZipFile as e:
-        return False, [f"archive .o8g corrompue ou invalide : {e}"]
+        return False, [f"archive corrompue ou invalide : {e}"]
 
     with zf:
         mauvais = zf.testzip()
@@ -63,8 +72,8 @@ def verifier(chemin_o8g: Path, config: dict):
             problemes.append(f"fichier corrompu dans l'archive : {mauvais}")
 
         noms = zf.namelist()
-        if "definition.xml" not in noms:
-            problemes.append("definition.xml absent de la racine de l'archive")
+        if chemin_definition not in noms:
+            problemes.append(f"{chemin_definition} absent de l'archive")
 
         guid_officiel_b = guid_officiel.encode("ascii")
         occurrences_residuelles: list[str] = []
@@ -75,7 +84,7 @@ def verifier(chemin_o8g: Path, config: dict):
             donnees = zf.read(nom)
             if guid_officiel_b in donnees:
                 occurrences_residuelles.append(nom)
-            if re.match(r"^Sets/[^/]+/set\.xml$", nom):
+            if re.match(motif_set_xml, nom):
                 try:
                     texte = donnees.decode("utf-8")
                 except UnicodeDecodeError:
@@ -99,8 +108,8 @@ def verifier(chemin_o8g: Path, config: dict):
                 f"(en échec : {', '.join(set_xml_ko) or '-'})"
             )
 
-        if "definition.xml" in noms:
-            texte_def = zf.read("definition.xml").decode("utf-8")
+        if chemin_definition in noms:
+            texte_def = zf.read(chemin_definition).decode("utf-8")
             match_tag = re.search(r"<game\b.*?>", texte_def, flags=re.DOTALL)
             if not match_tag:
                 problemes.append("balise <game> introuvable dans definition.xml de l'archive")
@@ -140,22 +149,34 @@ def main(argv: list[str]) -> int:
     args = analyser_arguments(argv)
     config = charger_config()
 
-    chemin_o8g = args.o8g or trouver_o8g_le_plus_recent()
-    if chemin_o8g is None or not chemin_o8g.exists():
-        print("ERREUR : aucun .o8g trouvé dans tools/beta/dist/ (lancez build.py d'abord).", file=sys.stderr)
+    if args.o8g:
+        cibles = [(args.o8g, "")]
+    else:
+        cibles = []
+        nupkg = trouver_le_plus_recent("*.nupkg")
+        if nupkg:
+            cibles.append((nupkg, "def/"))
+        o8g = trouver_le_plus_recent("*.o8g")
+        if o8g:
+            cibles.append((o8g, ""))
+
+    if not cibles or not all(c.exists() for c, _ in cibles):
+        print("ERREUR : aucun artefact trouvé dans tools/beta/dist/ (lancez build.py d'abord).", file=sys.stderr)
         return 1
 
-    print(f"vérification de {chemin_o8g}")
-    ok, problemes = verifier(chemin_o8g, config)
+    tout_vert = True
+    for chemin, prefixe in cibles:
+        print(f"vérification de {chemin.name}")
+        ok, problemes = verifier(chemin, config, prefixe)
+        if ok:
+            print("  OK : GUID officiel absent, definition.xml conforme, sets patchés au complet, archive saine.")
+        else:
+            tout_vert = False
+            print("  ÉCHEC :")
+            for p in problemes:
+                print(f"    - {p}")
 
-    if ok:
-        print("OK : GUID officiel absent, definition.xml conforme, sets patchés au complet, archive saine.")
-        return 0
-
-    print("ÉCHEC :")
-    for p in problemes:
-        print(f"  - {p}")
-    return 1
+    return 0 if tout_vert else 1
 
 
 if __name__ == "__main__":

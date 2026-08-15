@@ -22,6 +22,7 @@ import json
 import os
 import re
 import shutil
+import subprocess
 import sys
 import zipfile
 from pathlib import Path
@@ -163,7 +164,57 @@ def compter_sets_sources(staging_sets_dir: Path) -> int:
     return sum(1 for p in staging_sets_dir.iterdir() if p.is_dir() and (p / "set.xml").exists())
 
 
+def chemin_o8build() -> Path:
+    local_appdata = os.environ.get("LOCALAPPDATA")
+    if not local_appdata:
+        raise ErreurBuild("variable d'environnement LOCALAPPDATA introuvable")
+    return Path(local_appdata) / "Programs" / "OCTGN" / "o8build.exe"
+
+
+def empaqueter_nupkg(staging_dir: Path, installer_dans_le_feed: bool = False) -> Path:
+    """Empaquetage par l'outil officiel OCTGN.
+
+    o8build valide le jeu (7 tests) puis produit le .nupkg dans le staging.
+    C'est le seul format que le client OCTGN sait consommer : la définition y
+    est placée sous def/, avec nuspec et métadonnées NuGet — une archive zippée
+    à la main, contenu à la racine, ne convient pas.
+    """
+    o8build = chemin_o8build()
+    if not o8build.exists():
+        raise ErreurBuild(
+            f"o8build.exe introuvable ({o8build}). "
+            "Installer OCTGN, ou ajuster le chemin."
+        )
+
+    for ancien in staging_dir.glob("*.nupkg"):
+        ancien.unlink()
+
+    commande = [str(o8build), "-d", str(staging_dir)]
+    if installer_dans_le_feed:
+        commande.append("-i")
+    resultat = subprocess.run(commande, capture_output=True, text=True)
+    if resultat.returncode != 0:
+        raise ErreurBuild(
+            f"o8build a échoué (code {resultat.returncode}) :\n{resultat.stdout}\n{resultat.stderr}"
+        )
+
+    produits = list(staging_dir.glob("*.nupkg"))
+    if not produits:
+        raise ErreurBuild("o8build n'a produit aucun .nupkg")
+
+    destination = DIST_DIR / produits[0].name
+    if destination.exists():
+        destination.unlink()
+    shutil.move(str(produits[0]), str(destination))
+    return destination
+
+
 def empaqueter_o8g(staging_dir: Path, nom_beta: str, version_beta: str) -> Path:
+    """Archive .o8g pour téléchargement direct (canal de repli du feed).
+
+    Contenu à la racine, comme le dossier de définition. Non validé comme
+    format d'installation OCTGN : le canal fiable est le .nupkg ci-dessus.
+    """
     nom_fichier = f"{slugifier(nom_beta)}-{version_beta}.o8g"
     chemin_o8g = DIST_DIR / nom_fichier
     if chemin_o8g.exists():
@@ -171,33 +222,27 @@ def empaqueter_o8g(staging_dir: Path, nom_beta: str, version_beta: str) -> Path:
 
     with zipfile.ZipFile(chemin_o8g, "w", compression=zipfile.ZIP_DEFLATED) as zf:
         for chemin in sorted(staging_dir.rglob("*")):
-            if chemin.is_file():
+            if chemin.is_file() and chemin.suffix != ".nupkg":
                 zf.write(chemin, arcname=chemin.relative_to(staging_dir).as_posix())
 
     return chemin_o8g
 
 
 def installer_localement(staging_dir: Path, guid_beta: str) -> Path:
-    """Copie le contenu du staging vers le GameDatabase local OCTGN.
-    NE crée JAMAIS de jonction ImageDatabase ici (voir TODO ci-dessous)."""
-    local_appdata = os.environ.get("LOCALAPPDATA")
-    if not local_appdata:
-        raise ErreurBuild("variable d'environnement LOCALAPPDATA introuvable")
+    """Installe le paquet bêta dans le feed local d'OCTGN (o8build -i).
 
-    destination = Path(local_appdata) / "Programs" / "OCTGN" / "Data" / "GameDatabase" / guid_beta
-    if destination.exists():
-        shutil.rmtree(destination)
-    shutil.copytree(staging_dir, destination)
+    Le module s'installe ensuite depuis le Games Manager. On ne copie plus
+    directement dans GameDatabase : passer par le feed est le circuit natif,
+    et c'est celui que les testeurs utiliseront.
 
-    # TODO (Lot 0 - spike jonction ImageDatabase, non fait dans ce lot) :
-    # ne PAS créer de jonction/symlink vers ImageDatabase\<guid_officiel> pour
-    # partager les images. Risque non dérisqué : une désinstallation du jeu
-    # bêta (ou un nettoyage OCTGN) pourrait suivre la jonction et supprimer les
-    # ~2 Go d'images du jeu officiel. Tant que le spike Lot 0 n'a pas validé un
-    # mécanisme sûr (copie, hardlinks, jonction testée en désinstallation),
-    # le jeu bêta n'aura pas d'images tant qu'on ne les copie pas explicitement.
-
-    return destination
+    La jonction ImageDatabase n'est volontairement pas créée ici. Le spike du
+    Lot 0 (2026-08-15) a montré qu'aucune API de suppression standard
+    (PowerShell, cmd, .NET) ne traverse une jonction : la créer est sans danger
+    pour les ~2 Go d'images officielles. Mais elle reste un geste
+    d'environnement, pas de build — elle appartient à la procédure
+    d'installation testeur, à terme au module lui-même à son premier lancement.
+    """
+    return empaqueter_nupkg(staging_dir, installer_dans_le_feed=True)
 
 
 def construire(config: dict) -> dict:
@@ -251,16 +296,18 @@ def construire(config: dict) -> dict:
     if len(set_xml_touches) != nb_sets_sources:
         print("      /!\\ décompte incohérent : tous les set.xml n'ont pas été patchés")
 
-    print("[6/6] empaquetage .o8g")
+    print("[6/6] empaquetage")
+    chemin_nupkg = empaqueter_nupkg(STAGING_DIR)
+    print(f"      -> {chemin_nupkg.name} ({chemin_nupkg.stat().st_size / 1024:.0f} Ko, validé par o8build)")
     chemin_o8g = empaqueter_o8g(STAGING_DIR, nom_beta, version_beta)
-    taille_ko = chemin_o8g.stat().st_size / 1024
-    print(f"      -> {chemin_o8g} ({taille_ko:.0f} Ko)")
+    print(f"      -> {chemin_o8g.name} ({chemin_o8g.stat().st_size / 1024:.0f} Ko, téléchargement direct)")
 
     hors_set_xml = [f for f, _ in fichiers_texte if not re.match(r"^Sets/[^/]+/set\.xml$", f)]
 
     return {
         "version_officielle": version_officielle,
         "version_beta": version_beta,
+        "chemin_nupkg": chemin_nupkg,
         "chemin_o8g": chemin_o8g,
         "nb_sets_patches": len(set_xml_touches),
         "nb_sets_sources": nb_sets_sources,
@@ -279,12 +326,12 @@ def analyser_arguments(argv: list[str]) -> argparse.Namespace:
     parser.add_argument(
         "--install",
         action="store_true",
-        help="copie le build vers %%LOCALAPPDATA%%\\Programs\\OCTGN\\Data\\GameDatabase\\<guid_beta>\\ (requiert --yes-install)",
+        help="installe le paquet dans le feed local d'OCTGN, d'où le Games Manager l'installe (requiert --yes-install)",
     )
     parser.add_argument(
         "--yes-install",
         action="store_true",
-        help="confirme explicitement l'installation locale (sans ça, --install est refusé)",
+        help="confirme explicitement l'installation dans le feed local (sans ça, --install est refusé)",
     )
     return parser.parse_args(argv)
 
@@ -303,13 +350,13 @@ def main(argv: list[str]) -> int:
         if not args.yes_install:
             print(
                 "ERREUR : --install refusé sans --yes-install explicite "
-                "(le spike Lot 0 n'a pas encore validé l'installation).",
+                "(il écrit dans le feed local d'OCTGN, hors du repo).",
                 file=sys.stderr,
             )
             return 1
-        print("[install] copie vers le GameDatabase local OCTGN...")
+        print("[install] installation dans le feed local d'OCTGN...")
         destination = installer_localement(STAGING_DIR, config["guid_beta"])
-        print(f"[install] -> {destination}")
+        print(f"[install] -> {destination.name} ; installer le module depuis le Games Manager.")
     else:
         print("[dry-run] build terminé dans tools/beta/dist/, aucune action hors du repo.")
 
@@ -318,7 +365,7 @@ def main(argv: list[str]) -> int:
         f"sets patchés {resultat['nb_sets_patches']}/{resultat['nb_sets_sources']} | "
         f"fichiers hors set.xml touchés {len(resultat['fichiers_hors_set_xml'])} "
         f"({', '.join(resultat['fichiers_hors_set_xml']) or '-'}) | "
-        f"o8g : {resultat['chemin_o8g'].name}"
+        f"nupkg : {resultat['chemin_nupkg'].name}"
     )
     return 0
 

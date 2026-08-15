@@ -31,13 +31,14 @@ isolée du jeu **officiel** (GUID `055c536f-adba-4bc2-acbf-9aefb9756046`),
 python tools/beta/build.py                    # build dans dist/ uniquement (comportement par défaut)
 python tools/beta/build.py --dry-run           # identique, explicite
 python tools/beta/build.py --install --yes-install
-                                                # build + copie vers le GameDatabase local OCTGN
-python tools/beta/verify.py                    # vérifie le .o8g le plus récent de dist/
-python tools/beta/verify.py --o8g chemin.o8g   # vérifie un .o8g précis
+                                                # build + installation dans le feed local d'OCTGN
+python tools/beta/verify.py                    # vérifie les artefacts les plus récents de dist/
+python tools/beta/verify.py --o8g chemin.o8g   # vérifie une archive précise
 ```
 
-`--install` seul (sans `--yes-install`) est **refusé** : le spike Lot 0
-n'a pas encore validé l'installation locale (voir Limites ci-dessous).
+`--install` seul (sans `--yes-install`) est **refusé** : il écrit dans le feed
+local d'OCTGN, donc hors du repo. Une fois installé dans le feed, le module
+s'installe depuis le Games Manager d'OCTGN.
 
 ## Ce que fait `build.py`
 
@@ -59,32 +60,31 @@ n'a pas encore validé l'installation locale (voir Limites ci-dessous).
    correspond au nombre de dossiers de sets sources. L'attribut `id=` de
    chaque set n'est **pas** touché (ce sont des GUID de set, distincts du
    GUID de jeu).
-6. Empaquette le staging en `.o8g` (zip standard, racine = contenu direct du
-   staging, pas de dossier englobant) dans `tools/beta/dist/`, nommé
-   `<nom_beta_slugifié>-<version_beta>.o8g`.
+6. Empaquette le staging via **`o8build.exe`**, l'outil officiel OCTGN
+   (`%LOCALAPPDATA%\Programs\OCTGN\o8build.exe`) : il valide le jeu (7 tests)
+   puis produit le `.nupkg`, seul format que le client OCTGN consomme (la
+   définition y vit sous `def/`, avec nuspec et métadonnées NuGet). Un `.o8g`
+   est également produit comme archive de téléchargement direct.
 
 ## Ce que fait `verify.py`
 
-Ouvre le `.o8g` produit et vérifie : absence totale du GUID officiel dans
-l'archive, conformité de `definition.xml` (id/name/version bêta), nombre de
-`set.xml` patchés = nombre de sets sources, intégrité de l'archive zip.
+Ouvre le `.nupkg` **et** le `.o8g` produits et vérifie sur chacun : absence
+totale du GUID officiel, conformité de `definition.xml` (id/name/version bêta),
+nombre de `set.xml` patchés = nombre de sets sources, intégrité de l'archive.
 Rapport lisible + code retour (0 = vert, 1 = échec).
 
-## Limites de ce lot (Lot 1)
+## Ce que ce lot ne fait pas
 
-- **Pas de jonction `ImageDatabase`.** Le jeu bêta installé n'a donc pas
-  d'images tant qu'elles ne sont pas copiées explicitement. Une jonction
-  vers `ImageDatabase\<guid_officiel>` économiserait ~2 Go, mais le risque
-  qu'une désinstallation du jeu bêta (ou un nettoyage OCTGN) suive la
-  jonction et détruise les images officielles n'est **pas dérisqué**. Voir
-  le TODO dans `build.py` (`installer_localement`).
-- **Installation locale non validée.** `--install` est implémenté mais
-  refuse de s'exécuter sans `--yes-install` : le spike Lot 0 (jonction,
-  comportement d'OCTGN à la désinstallation) n'a pas encore eu lieu.
+- **Pas de jonction `ImageDatabase`.** Le spike du Lot 0 a montré qu'aucune API
+  de suppression standard (PowerShell, `cmd`, .NET) ne traverse une jonction :
+  la créer ne menace pas les ~2 Go d'images officielles. Mais c'est un geste
+  d'environnement, pas de build — il appartient à la procédure d'installation
+  testeur, et à terme au module lui-même à son premier lancement.
+- **Pas de publication.** La distribution (feed, site) est le Lot 3.
 
 ## Prochaines étapes
 
-- **Lot 0** : spike dérisquage de la jonction `ImageDatabase` (comportement
-  à la désinstallation, alternative hardlinks, etc.).
-- **Lot 2** : sets fanmade additionnels (remplir
-  `sets_fanmade_additionnels` dans `config.json`).
+- **Lot 2** : sets fanmade additionnels (remplir `sets_fanmade_additionnels`
+  dans `config.json`) + pack d'images fanmade.
+- **Lot 3** : distribution — feed OCTGN (MyGet ou auto-hébergé) et application
+  web sur la lune o2switch.
