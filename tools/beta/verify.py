@@ -124,15 +124,23 @@ def verifier(chemin_archive: Path, config: dict, prefixe: str = ""):
                     problemes.append("definition.xml : attribut version= introuvable")
                 else:
                     version_archive = match_version.group(1)
-                    offset = config["offset_version_dernier_segment"]
+                    multiplicateur = config["multiplicateur_version_beta"]
+                    revision = config.get("revision_beta", 0)
                     segments = version_archive.split(".")
                     if len(segments) != 4 or not all(s.isdigit() for s in segments):
                         problemes.append(f"definition.xml : version= mal formée : {version_archive!r}")
-                    elif int(segments[-1]) < offset:
-                        problemes.append(
-                            f"definition.xml : dernier segment de version ({segments[-1]}) "
-                            f"inférieur à l'offset bêta attendu ({offset}) — collision possible avec l'officiel"
-                        )
+                    else:
+                        dernier = int(segments[-1])
+                        if dernier % multiplicateur != revision:
+                            problemes.append(
+                                f"definition.xml : dernier segment de version ({dernier}) incohérent "
+                                f"avec revision_beta={revision} (multiplicateur {multiplicateur})"
+                            )
+                        if dernier // multiplicateur == 0:
+                            problemes.append(
+                                f"definition.xml : dernier segment de version ({dernier}) trop bas — "
+                                "collision possible avec une version officielle"
+                            )
 
     return (len(problemes) == 0), problemes
 

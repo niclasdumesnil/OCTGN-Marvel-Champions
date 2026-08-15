@@ -26,6 +26,7 @@ import subprocess
 import sys
 import zipfile
 from pathlib import Path
+from xml.sax.saxutils import escape
 
 TOOLS_BETA_DIR = Path(__file__).resolve().parent
 REPO_ROOT = TOOLS_BETA_DIR.parent.parent
@@ -45,16 +46,29 @@ def charger_config() -> dict:
         return json.load(f)
 
 
-def calculer_version_beta(version_officielle: str, offset: int) -> str:
-    """OCTGN exige 4 segments numériques. Schéma bêta = version officielle
-    avec offset sur le dernier segment, pour ne jamais collisionner avec
-    l'officiel (ex. 0.0.3.96 -> 0.0.3.1096 avec offset=1000)."""
+def calculer_version_beta(version_officielle: str, multiplicateur: int, revision: int) -> str:
+    """OCTGN exige 4 segments numériques.
+
+    Dernier segment bêta = officiel * multiplicateur + revision.
+    Ex. 0.0.3.96, multiplicateur 1000 : révision 0 -> 0.0.3.96000,
+    révision 1 -> 0.0.3.96001, et l'officiel suivant (97) -> 0.0.3.97000.
+
+    Le multiplicateur garantit qu'aucun numéro bêta ne peut égaler un numéro
+    officiel. La révision permet de publier plusieurs builds bêta sur une même
+    base officielle : sans elle, deux builds porteraient le même numéro et
+    OCTGN ne proposerait aucune mise à jour aux testeurs.
+    """
     segments = version_officielle.split(".")
     if len(segments) != 4 or not all(s.isdigit() for s in segments):
         raise ErreurBuild(
             f"version officielle inattendue (4 segments numériques requis) : {version_officielle!r}"
         )
-    segments[-1] = str(int(segments[-1]) + offset)
+    if not 0 <= revision < multiplicateur:
+        raise ErreurBuild(
+            f"revision_beta ({revision}) doit être entre 0 et {multiplicateur - 1} "
+            "(au-delà, elle empiéterait sur la version officielle suivante)"
+        )
+    segments[-1] = str(int(segments[-1]) * multiplicateur + revision)
     return ".".join(segments)
 
 
@@ -132,10 +146,20 @@ def remplacer_guid_partout(racine: Path, guid_officiel: str, guid_beta: str):
     return fichiers_texte_modifies, fichiers_binaires_touches
 
 
-def patcher_definition_xml(definition_path: Path, nom_beta: str, version_beta: str) -> None:
-    """Réécrit name= et version= sur la balise <game ...> de definition.xml.
-    L'attribut id= est déjà traité par remplacer_guid_partout (même valeur
-    que le GUID officiel remplacé partout)."""
+def patcher_definition_xml(
+    definition_path: Path,
+    nom_beta: str,
+    version_beta: str,
+    attributs_supplementaires: dict | None = None,
+) -> list[str]:
+    """Réécrit name=, version= et les attributs configurés sur la balise <game>.
+
+    L'attribut id= est déjà traité par remplacer_guid_partout (même valeur que
+    le GUID officiel remplacé partout). `attributs_supplementaires` permet de
+    surcharger tout autre attribut de <game> (authors, description, tags,
+    gameurl, setsurl, iconurl…) depuis config.json ; un attribut absent de la
+    balise source est ajouté. Retourne la liste des attributs surchargés.
+    """
     if not definition_path.exists():
         raise ErreurBuild(f"definition.xml introuvable après copie : {definition_path}")
 
@@ -154,8 +178,23 @@ def patcher_definition_xml(definition_path: Path, nom_beta: str, version_beta: s
     if n_version != 1:
         raise ErreurBuild("attribut version= introuvable sur la balise <game>")
 
+    surcharges: list[str] = []
+    for attribut, valeur in (attributs_supplementaires or {}).items():
+        if attribut in ("name", "version", "id"):
+            raise ErreurBuild(
+                f"attribut {attribut!r} interdit dans attributs_definition "
+                "(géré par le pipeline : nom_beta, offset de version, GUID)"
+            )
+        echappee = escape(str(valeur), {'"': "&quot;"})
+        tag, n = re.subn(rf'\b{re.escape(attribut)}="[^"]*"', lambda m: f'{attribut}="{echappee}"', tag, count=1)
+        if n == 0:
+            # attribut absent de la source : on l'ajoute avant le > final
+            tag = tag.rstrip()[:-1].rstrip() + f'\n    {attribut}="{echappee}">'
+        surcharges.append(attribut)
+
     texte_patche = texte[: match_tag.start()] + tag + texte[match_tag.end() :]
     definition_path.write_text(texte_patche, encoding="utf-8")
+    return surcharges
 
 
 def compter_sets_sources(staging_sets_dir: Path) -> int:
@@ -249,7 +288,8 @@ def construire(config: dict) -> dict:
     guid_officiel = config["guid_officiel"]
     guid_beta = config["guid_beta"]
     nom_beta = config["nom_beta"]
-    offset = config["offset_version_dernier_segment"]
+    multiplicateur = config["multiplicateur_version_beta"]
+    revision = config.get("revision_beta", 0)
     dossier_source = REPO_ROOT / config["dossier_definition_source"]
 
     definition_source = dossier_source / "definition.xml"
@@ -263,7 +303,7 @@ def construire(config: dict) -> dict:
     if not match_version:
         raise ErreurBuild("impossible de lire la version officielle depuis definition.xml source")
     version_officielle = match_version.group(1)
-    version_beta = calculer_version_beta(version_officielle, offset)
+    version_beta = calculer_version_beta(version_officielle, multiplicateur, revision)
 
     DIST_DIR.mkdir(parents=True, exist_ok=True)
     print(f"[1/6] copie {dossier_source} -> {STAGING_DIR}")
@@ -288,7 +328,14 @@ def construire(config: dict) -> dict:
             print(f"      /!\\ {rel}")
 
     print(f"[4/6] patch definition.xml : name -> {nom_beta!r}, version -> {version_beta!r}")
-    patcher_definition_xml(STAGING_DIR / "definition.xml", nom_beta, version_beta)
+    surcharges = patcher_definition_xml(
+        STAGING_DIR / "definition.xml",
+        nom_beta,
+        version_beta,
+        config.get("attributs_definition"),
+    )
+    if surcharges:
+        print(f"      attributs surchargés : {', '.join(surcharges)}")
 
     nb_sets_sources = compter_sets_sources(STAGING_DIR / "Sets")
     set_xml_touches = [f for f, _ in fichiers_texte if re.match(r"^Sets/[^/]+/set\.xml$", f)]
