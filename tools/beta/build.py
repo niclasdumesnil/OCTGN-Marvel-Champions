@@ -310,6 +310,32 @@ def empaqueter_nupkg(staging_dir: Path, installer_dans_le_feed: bool = False) ->
     return destination
 
 
+def assurer_squelettes_images(staging_dir: Path, guid_officiel: str) -> int:
+    """Crée ImageDatabase\\<officiel>\\Sets\\<id>\\Cards\\Proxies pour chaque set du build.
+
+    OCTGN génère les proxys des cartes sans image via un GetFiles sur
+    Cards\\Proxies SANS vérifier l'existence du dossier : un dossier manquant
+    fait tomber le jeu en pleine partie (constaté deux fois le 2026-08-15,
+    les nettoyages d'images supprimant ces dossiers vides comme orphelins).
+    Recréés à chaque --install, l'environnement s'auto-répare. Créés sous le
+    GUID officiel : la bêta les voit par la jonction ImageDatabase.
+    """
+    local_appdata = os.environ.get("LOCALAPPDATA")
+    if not local_appdata:
+        raise ErreurBuild("variable d'environnement LOCALAPPDATA introuvable")
+    image_sets = Path(local_appdata) / "Programs" / "OCTGN" / "Data" / "ImageDatabase" / guid_officiel / "Sets"
+    crees = 0
+    for set_xml in sorted((staging_dir / "Sets").glob("*/set.xml")):
+        m = re.search(r'\bid="([0-9a-fA-F-]{36})"', set_xml.read_text(encoding="utf-8"))
+        if not m:
+            continue
+        cible = image_sets / m.group(1) / "Cards" / "Proxies"
+        if not cible.exists():
+            cible.mkdir(parents=True, exist_ok=True)
+            crees += 1
+    return crees
+
+
 def empaqueter_o8g(staging_dir: Path, nom_beta: str, version_beta: str) -> Path:
     """Archive .o8g pour téléchargement direct (canal de repli du feed).
 
@@ -473,6 +499,9 @@ def main(argv: list[str]) -> int:
             return 1
         print("[install] installation dans le feed local d'OCTGN...")
         destination = installer_localement(STAGING_DIR, config["guid_beta"])
+        crees = assurer_squelettes_images(STAGING_DIR, config["guid_officiel"])
+        if crees:
+            print(f"[install] squelettes d'images recréés (Cards\\Proxies) : {crees}")
         print(f"[install] -> {destination.name} ; installer le module depuis le Games Manager.")
     else:
         print("[dry-run] build terminé dans tools/beta/dist/, aucune action hors du repo.")
