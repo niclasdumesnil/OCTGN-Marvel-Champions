@@ -18,6 +18,8 @@ Stdlib uniquement (pas de dépendance externe).
 from __future__ import annotations
 
 import argparse
+import base64
+import hashlib
 import json
 import os
 import re
@@ -25,6 +27,7 @@ import shutil
 import subprocess
 import sys
 import zipfile
+from datetime import datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -182,6 +185,42 @@ def remplacer_guid_partout(racine: Path, guid_officiel: str, guid_beta: str):
         fichiers_texte_modifies.append((rel, nb))
 
     return fichiers_texte_modifies, fichiers_binaires_touches
+
+
+def activer_trace_saveload(staging_dir: Path, actif: bool) -> bool:
+    """Bascule DEBUG_SAVELOAD à True dans scripts/plugin.py du staging.
+
+    Le mod officiel garde la trace éteinte : c'est du diagnostic, pas du jeu.
+    La bêta existe justement pour instrumenter, donc elle l'allume par défaut —
+    un testeur qui perd un chargement de sauvegarde laisse ainsi derrière lui un
+    fichier `<sauvegarde>.json.debug.log` exploitable, au lieu d'une fenêtre
+    d'erreur OCTGN déjà refermée.
+
+    Une seule ligne réécrite, dans la copie de staging uniquement : le dossier
+    de définition officiel n'est jamais touché. Écriture en bytes comme
+    `remplacer_guid_partout`, pour ne pas convertir les fins de ligne du fichier.
+
+    Retourne True si la trace est active dans le staging.
+    """
+    if not actif:
+        return False
+    chemin = staging_dir / "scripts" / "plugin.py"
+    if not chemin.exists():
+        raise ErreurBuild(f"plugin.py introuvable dans le staging : {chemin}")
+    texte = chemin.read_bytes().decode("utf-8")
+    texte_patche, nb = re.subn(
+        r"^DEBUG_SAVELOAD\s*=\s*False\s*$", "DEBUG_SAVELOAD = True", texte, flags=re.MULTILINE
+    )
+    if nb == 0:
+        if re.search(r"^DEBUG_SAVELOAD\s*=\s*True\s*$", texte, flags=re.MULTILINE):
+            return True
+        raise ErreurBuild(
+            "ligne 'DEBUG_SAVELOAD = False' introuvable dans scripts/plugin.py : "
+            "l'instrumentation save/load a été retirée ou renommée en amont. "
+            "Mettre debug_saveload à false dans config.json, ou remettre le drapeau."
+        )
+    chemin.write_bytes(texte_patche.encode("utf-8"))
+    return True
 
 
 def patcher_definition_xml(
@@ -372,6 +411,108 @@ def installer_localement(staging_dir: Path, guid_beta: str) -> Path:
     return empaqueter_nupkg(staging_dir, installer_dans_le_feed=True)
 
 
+def estampille_git(racine: Path) -> dict:
+    """Identité du code réellement empaqueté : commit, branche, propreté de l'arbre.
+
+    Un .nupkg ne dit pas d'où il sort. Quand un testeur remonte un bug, la seule
+    question utile est « quel code tournait ? ». L'estampille répond, et signale
+    surtout le cas piégeux : un build fait sur un arbre de travail MODIFIÉ, donc
+    sur du code qui n'existe dans aucun commit.
+
+    Ne fait jamais échouer un build : sans git, l'estampille est simplement vide.
+    """
+    def git(*args: str) -> str:
+        try:
+            r = subprocess.run(
+                ["git", "-C", str(racine), *args], capture_output=True, text=True
+            )
+            return r.stdout.strip() if r.returncode == 0 else ""
+        except OSError:
+            return ""
+
+    return {
+        "sha": git("rev-parse", "--short", "HEAD"),
+        "branche": git("rev-parse", "--abbrev-ref", "HEAD"),
+        "sale": bool(git("status", "--porcelain")),
+    }
+
+
+def formuler_estampille(estampille: dict) -> str:
+    """Estampille en une ligne, destinée à être lue par un humain dans OCTGN."""
+    return "build {} sur {}{}, {}".format(
+        estampille["sha"] or "?",
+        estampille["branche"] or "?",
+        " [ARBRE DE TRAVAIL MODIFIE]" if estampille["sale"] else "",
+        datetime.now().strftime("%Y-%m-%d %H:%M"),
+    )
+
+
+def version_beta_installee(guid_beta: str) -> str | None:
+    """Version du module bêta actuellement installée dans OCTGN, si elle existe."""
+    local_appdata = os.environ.get("LOCALAPPDATA")
+    if not local_appdata:
+        return None
+    definition = (
+        Path(local_appdata) / "Programs" / "OCTGN" / "Data" / "GameDatabase" / guid_beta / "definition.xml"
+    )
+    if not definition.exists():
+        return None
+    match_tag = re.search(r"<game\b.*?>", definition.read_text(encoding="utf-8"), flags=re.DOTALL)
+    if not match_tag:
+        return None
+    match_version = re.search(r'\sversion="([^"]*)"', match_tag.group(0))
+    return match_version.group(1) if match_version else None
+
+
+def ecrire_estampille(staging_dir: Path, marque: str, version_beta: str, nom_beta: str) -> Path:
+    """Écrit BUILD-INFO.txt à la racine du paquet.
+
+    L'estampille a d'abord été injectée dans l'attribut `description` de <game> :
+    mauvaise idée. C'est le seul texte que la carte du Games Manager affiche, et
+    la rallonger a tronqué la description ET fait disparaître l'icône du module
+    (constaté le 2026-08-19 sur la 0.0.3.96009). La description reste donc celle
+    de config.json, et l'estampille voyage dans un fichier du paquet — invisible
+    dans l'interface, mais présent chez le testeur et lisible en dézippant.
+    """
+    # PAS a la racine de la definition : o8build refuse le paquet (code -1,
+    # constate le 2026-08-19). FanMade/ heberge deja des fichiers libres.
+    dossier = staging_dir / "FanMade"
+    dossier.mkdir(parents=True, exist_ok=True)
+    chemin = dossier / "BUILD-INFO.txt"
+    chemin.write_bytes(
+        "\n".join(
+            [
+                f"{nom_beta} {version_beta}",
+                marque,
+                "",
+                "Paquet de test de l'environnement bêta OS-Merlin.",
+                "Ce fichier n'est lu par personne : il sert à savoir quel code tourne.",
+            ]
+        ).encode("utf-8")
+    )
+    return chemin
+
+
+def journaliser_build(chemin_nupkg: Path, version_beta: str, marque: str) -> str:
+    """Ajoute une ligne à dist/builds.log et retourne l'empreinte SHA512 en base64.
+
+    C'est l'empreinte que le feed NuGet doit annoncer : le client vérifie le
+    fichier téléchargé contre elle, et un hash faux fait échouer l'installation
+    sans message exploitable.
+    """
+    empreinte = base64.b64encode(hashlib.sha512(chemin_nupkg.read_bytes()).digest()).decode()
+    ligne = "{}\t{}\t{}\t{} octets\tsha512-b64 {}\n".format(
+        datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        version_beta,
+        marque,
+        chemin_nupkg.stat().st_size,
+        empreinte,
+    )
+    with (DIST_DIR / "builds.log").open("a", encoding="utf-8") as f:
+        f.write(ligne)
+    return empreinte
+
+
 def construire(config: dict) -> dict:
     guid_officiel = config["guid_officiel"]
     guid_beta = config["guid_beta"]
@@ -393,24 +534,38 @@ def construire(config: dict) -> dict:
     version_officielle = match_version.group(1)
     version_beta = calculer_version_beta(version_officielle, multiplicateur, revision)
 
+    # Construire une version déjà installée est un piège silencieux : OCTGN ne
+    # propose aucune mise à jour, et le testeur croit tester le nouveau code
+    # alors qu'il rejoue l'ancien. Constaté le 2026-08-19 sur la 0.0.3.96007.
+    version_installee = version_beta_installee(guid_beta)
+    if version_installee == version_beta:
+        raise ErreurBuild(
+            f"la version bêta {version_beta} est DÉJÀ installée dans OCTGN : aucune mise à "
+            f"jour ne sera proposée et le nouveau code ne sera pas testé. "
+            f"Incrémenter revision_beta (actuellement {revision}) dans config.json."
+        )
+
+    estampille = estampille_git(REPO_ROOT)
+    marque = formuler_estampille(estampille)
+
     DIST_DIR.mkdir(parents=True, exist_ok=True)
-    print(f"[1/6] copie {dossier_source} -> {STAGING_DIR}")
+    print(f"[1/7] copie {dossier_source} -> {STAGING_DIR}")
     copier_definition(dossier_source, STAGING_DIR)
 
     dossiers_sets = config.get("dossiers_sets_supplementaires") or []
     sets_fanmade = config.get("sets_fanmade_additionnels") or []
     noms_ajoutes: list[str] = []
     if dossiers_sets or sets_fanmade:
-        print("[2/6] sets supplémentaires")
+        print("[2/7] sets supplémentaires")
         noms_ajoutes += copier_dossiers_sets(dossiers_sets, STAGING_DIR / "Sets")
         noms_ajoutes += copier_sets_fanmade_additionnels(sets_fanmade, STAGING_DIR / "Sets")
         for nom in noms_ajoutes:
             print(f"      + {nom}")
         print(f"      {len(noms_ajoutes)} set(s) ajouté(s)")
     else:
-        print("[2/6] aucun set supplémentaire configuré")
+        print("[2/7] aucun set supplémentaire configuré")
 
-    print(f"[3/6] remplacement exhaustif du GUID officiel ({guid_officiel} -> {guid_beta})")
+    print(f"[3/7] remplacement exhaustif du GUID officiel ({guid_officiel} -> {guid_beta})")
     fichiers_texte, fichiers_binaires = remplacer_guid_partout(STAGING_DIR, guid_officiel, guid_beta)
     for rel, nb in fichiers_texte:
         print(f"      {rel} ({nb} occurrence(s))")
@@ -419,15 +574,23 @@ def construire(config: dict) -> dict:
         for rel in fichiers_binaires:
             print(f"      /!\\ {rel}")
 
-    print(f"[4/6] patch definition.xml : name -> {nom_beta!r}, version -> {version_beta!r}")
+    print(f"[4/7] patch definition.xml : name -> {nom_beta!r}, version -> {version_beta!r}")
     surcharges = patcher_definition_xml(
         STAGING_DIR / "definition.xml",
         nom_beta,
         version_beta,
         config.get("attributs_definition"),
     )
+    # L'estampille ne touche PAS la description : voir ecrire_estampille().
+    ecrire_estampille(STAGING_DIR, marque, version_beta, nom_beta)
+    print(f"      estampille : {marque} (BUILD-INFO.txt)")
+    if estampille["sale"]:
+        print("      /!\\ arbre de travail MODIFIE : ce paquet contient du code non commite")
     if surcharges:
         print(f"      attributs surchargés : {', '.join(surcharges)}")
+
+    trace_active = activer_trace_saveload(STAGING_DIR, config.get("debug_saveload", False))
+    print("[5/7] trace save/load : {}".format("ACTIVE (DEBUG_SAVELOAD = True)" if trace_active else "inactive"))
 
     remplaces = remplacer_fichiers(STAGING_DIR, config.get("fichiers_remplaces"))
     if remplaces:
@@ -435,15 +598,17 @@ def construire(config: dict) -> dict:
 
     nb_sets_sources = compter_sets_sources(STAGING_DIR / "Sets")
     set_xml_touches = [f for f, _ in fichiers_texte if re.match(r"^Sets/[^/]+/set\.xml$", f)]
-    print(f"[5/6] sets patchés (gameId) : {len(set_xml_touches)}/{nb_sets_sources}")
+    print(f"[6/7] sets patchés (gameId) : {len(set_xml_touches)}/{nb_sets_sources}")
     if len(set_xml_touches) != nb_sets_sources:
         print("      /!\\ décompte incohérent : tous les set.xml n'ont pas été patchés")
 
-    print("[6/6] empaquetage")
+    print("[7/7] empaquetage")
     chemin_nupkg = empaqueter_nupkg(STAGING_DIR)
     print(f"      -> {chemin_nupkg.name} ({chemin_nupkg.stat().st_size / 1024:.0f} Ko, validé par o8build)")
     chemin_o8g = empaqueter_o8g(STAGING_DIR, nom_beta, version_beta)
     print(f"      -> {chemin_o8g.name} ({chemin_o8g.stat().st_size / 1024:.0f} Ko, téléchargement direct)")
+    empreinte = journaliser_build(chemin_nupkg, version_beta, marque)
+    print(f"      sha512-b64 : {empreinte}")
 
     hors_set_xml = [f for f, _ in fichiers_texte if not re.match(r"^Sets/[^/]+/set\.xml$", f)]
 
@@ -456,6 +621,9 @@ def construire(config: dict) -> dict:
         "nb_sets_sources": nb_sets_sources,
         "fichiers_hors_set_xml": hors_set_xml,
         "fichiers_binaires_touches": fichiers_binaires,
+        "estampille": marque,
+        "arbre_sale": estampille["sale"],
+        "sha512_b64": empreinte,
     }
 
 
