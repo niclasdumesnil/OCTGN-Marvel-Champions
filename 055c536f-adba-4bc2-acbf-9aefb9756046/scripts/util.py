@@ -55,10 +55,21 @@ def deserializePile(pileData, group, who = me):
     if pileData is None or len(pileData) == 0:
         return
     if group != shared and who != me and group.controller != me:
+        # remoteCall() passes its arguments through the engine's convertToString(),
+        # which has no case for the .NET objects the JSON deserialiser produces:
+        # they reach the other player as "System.Object[]". Say so rather than
+        # letting the remote side fail out of sight.
+        # Origine : Merlin - diagnostic du chargement de sauvegarde impossible (2026).
+        traceSaveLoad("pile '{}' of {} delegated through remoteCall (arguments are .NET objects)".format(group.name, who))
         remoteCall(who, "deserializePile", [pileData, group, who])
     else:
         for c in pileData:
             card = group.create(c['model'])
+            # An unknown model yields None here and the card is simply missing
+            # from the restored pile, without a word. Name it.
+            # Origine : Merlin - diagnostic du chargement de sauvegarde impossible (2026).
+            if card is None:
+                traceSaveLoad("pile '{}': card model {} is not installed - skipped".format(group.name, c['model']))
 
 
 def serializeCard(card):
@@ -76,6 +87,16 @@ def serializeCard(card):
 
 def deserializeCard(cardData):
     card = table.create(cardData['model'], cardData['position'][0], cardData['position'][1], 1, True)
+    # table.create() returns None when the model is unknown to this installation:
+    # a set that was removed, renamed or never installed. Every line below
+    # dereferences the card, so a single missing model used to abort the whole
+    # load with an opaque AttributeError on NoneType and lose the rest of the
+    # save. Name the culprit and skip that one card instead.
+    # Origine : Merlin - diagnostic du chargement de sauvegarde impossible (2026).
+    if card is None:
+        notify("Save load: card model {} is not installed, card skipped".format(cardData['model']))
+        traceSaveLoad("table: card model {} is not installed - skipped".format(cardData['model']))
+        return None
     if 'markers' in cardData and cardData['markers'] is not None and len(cardData['markers']) > 0:
         for key, qty in {(i['name'], i['model']): i['qty'] for i in cardData['markers']}.items():
             card.markers[key] = qty
