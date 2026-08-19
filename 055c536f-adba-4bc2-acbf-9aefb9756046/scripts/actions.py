@@ -459,7 +459,22 @@ def advanceGame(group = None, x = 0, y = 0):
     if turnNumber() == 0:
         firstPlinList = num(getGlobalVariable("firstPlayer"))
         firstPl = num(list(JavaScriptSerializer().DeserializeObject(getGlobalVariable("playerList")))[firstPlinList])
-        Player(firstPl).setActive()
+        #------------------------------------------------------------
+        # playerList can name a player who is NOT seated in this game: restoring
+        # a save taken in a 2-player game into a solo one puts back
+        # playerList = [2, 1], and Player(2) then raises a .NET null reference
+        # *inside the API constructor*, before any method of ours is called.
+        # That single line was what made "Load Table State..." impossible.
+        # Look the first player up among those actually seated, and fall back on
+        # the first one present rather than on an id that means nothing here.
+        # setActive() is left as is: it IS the method this API version exposes.
+        # Origine : Merlin - chargement de sauvegarde impossible (2026).
+        #------------------------------------------------------------
+        firstPlayers = [p for p in getPlayers() if p._id == firstPl] or getPlayers()
+        if firstPlayers:
+            firstPlayers[0].setActive()
+        else:
+            debug("advanceGame: no player seated, active player left untouched")
     elif currentPhase()[1] == 1:
         doEndHeroPhase()
         remoteCall(getActivePlayer(), "setPhase", [2]) #Must be triggered by active player
