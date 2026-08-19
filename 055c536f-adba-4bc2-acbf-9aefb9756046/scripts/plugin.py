@@ -86,6 +86,53 @@ def traceFailure(step):
     notify("Save/load failed during '{}': {}".format(step, info[1]))
 
 
+def clearMyCards(group = None, x = 0, y = 0):
+    """
+    Delete every card this player owns: their piles, their hand, and the cards
+    they control on the table.
+    Each player has to run this on their own client - OCTGN only lets a player
+    delete the cards they control, which is why a single player looping over
+    everyone else's piles cannot work.
+    Origine : Merlin - nettoyage de la table avant chargement d'une sauvegarde (2026).
+    """
+    mute()
+    for p in me.piles:
+        for c in me.piles[p]:
+            c.delete()
+    for c in table:
+        if c.controller == me:
+            c.delete()
+
+def clearTable():
+    """
+    Empty the table before restoring a save, and say what is at stake first.
+    Restoring on top of a running game stacks both states: the 2022 engine
+    deleted everything without asking, that was reverted, and nothing replaced
+    it - so a load silently doubled every pile.
+    Returns True when the table was cleared, False when the player backed out.
+    Origine : Merlin - nettoyage de la table avant chargement d'une sauvegarde (2026).
+    """
+    if 1 != askChoice("Loading a save needs an empty table.\nEVERY card currently in play, in every pile and every hand, will be deleted first."
+        , ['Clear the table and load', 'Cancel'], ['#dd3737', '#d0d0d0']):
+        traceSaveLoad("load cancelled by {} at the clearing step".format(me))
+        return False
+
+    # Each player clears their own cards, then the host takes the rest: the
+    # shared piles and whatever is left on the table with no controller.
+    for pl in getPlayers():
+        remoteCall(pl, "clearMyCards", [])
+    update()
+    for c in table:
+        c.delete()
+    for pileName in shared.piles:
+        for c in shared.piles[pileName]:
+            c.delete()
+    update()
+    traceSaveLoad("table cleared: {} card(s) left on table, {} in shared piles".format(
+        len(table), sum([len(shared.piles[k]) for k in shared.piles])))
+    return True
+
+
 def saveManual(group, x=0, y=0):
     phase = ""
     if currentPhase()[1] == 1:
@@ -193,15 +240,17 @@ def loadTable(phase):
         if not filename:
             return
 
-        # deleteChoice = askChoice("Do you want to delete all cards on table and in each piles ?", ["Yes", "No"])
-        # if deleteChoice == 1:
-            # for pl in players:
-                # for p in pl.piles:
-                    # [c.delete() for c in pl.piles[p]]
-                    # [c.delete() for c in pl.hand]
-            # [c.delete() for c in table]
-            # for p in shared.piles:
-                # [c.delete() for c in shared.piles[p]]
+        #------------------------------------------------------------
+        # The table has to be empty, otherwise the restored state is stacked on
+        # top of the running game - every pile ends up doubled. The engine used
+        # to delete everything here (2022), it was reverted, and nothing took
+        # its place. Restored, but asking first and letting each player delete
+        # their own cards (see clearMyCards).
+        # Origine : Merlin - nettoyage de la table avant chargement d'une sauvegarde (2026).
+        #------------------------------------------------------------
+        openTraceFile(filename)
+        if not clearTable():
+            return
 
         #------------------------------------------------------------
         # Traced load
@@ -211,7 +260,6 @@ def loadTable(phase):
         # state read before starting (turn number, phase, player count) is what
         # tells a restored save apart from the game it is restored into.
         # Origine : Merlin - diagnostic du chargement de sauvegarde impossible (2026).
-        openTraceFile(filename)
         traceSaveLoad("load by {} (player id {}), mode '{}'".format(me, me._id, phase or "manual"))
         traceSaveLoad("file {}".format(filename))
         traceSaveLoad("state before load: turn {}, phase {}, {} player(s), lock '{}'".format(
