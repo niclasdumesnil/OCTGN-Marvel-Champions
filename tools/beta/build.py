@@ -128,6 +128,29 @@ def copier_dossiers_sets(dossiers: list, staging_sets_dir: Path) -> list[str]:
     conséquence sur le module produit, o8build renommant les dossiers de sets
     par leur GUID à l'empaquetage.
     """
+    # Identifiants des sets DEJA presents dans le staging (Source A : le depot).
+    # Garde-fou paye le 2026-08-20 : des images de mise en place recuperees d'anciens .o8c
+    # avaient ete rangees sous le CODE du pack, alors que ces packs existent deja dans le depot
+    # sous un nom lisible (FMH_Mantis (by BlueHG)). Le meme set serait entre DEUX FOIS dans le
+    # module - 65 collisions sur 41 packs - et rien ici ne l'aurait signale : le build ramasse
+    # les deux sources et leur fait confiance.
+    # Le nom de dossier ne dit rien : seul l'id du set identifie un set.
+    def lire_id(chemin_set_xml: Path) -> str | None:
+        trouve = re.search(
+            r'<set\b[^>]*\bid="([^"]+)"',
+            chemin_set_xml.read_text(encoding="utf-8", errors="ignore"),
+        )
+        return trouve.group(1).lower() if trouve else None
+
+    ids_deja_presents: dict[str, str] = {}
+    if staging_sets_dir.is_dir():
+        for existant in sorted(staging_sets_dir.iterdir()):
+            xml = existant / "set.xml"
+            if xml.exists():
+                identifiant = lire_id(xml)
+                if identifiant:
+                    ids_deja_presents[identifiant] = existant.name
+
     noms_copies: list[str] = []
     for dossier in dossiers:
         racine = Path(dossier)
@@ -141,7 +164,22 @@ def copier_dossiers_sets(dossiers: list, staging_sets_dir: Path) -> list[str]:
             if not (candidat / "set.xml").exists():
                 print(f"      /!\\ ignoré (pas de set.xml) : {candidat.name}")
                 continue
+
+            identifiant = lire_id(candidat / "set.xml")
+            if not identifiant:
+                raise ErreurBuild(f"set.xml sans attribut id : {candidat}")
+
+            # Un set deja fourni par le depot ne doit JAMAIS etre re-injecte : on echoue
+            # bruyamment plutot que de produire un module au contenu double.
+            if identifiant in ids_deja_presents:
+                raise ErreurBuild(
+                    f"set en double : '{candidat.name}' porte l'id {identifiant}, "
+                    f"deja fourni par '{ids_deja_presents[identifiant]}'.\n"
+                    f"      Retirer le dossier de la Source B, ou corriger son id."
+                )
+
             copier_un_set(candidat, candidat.name, staging_sets_dir)
+            ids_deja_presents[identifiant] = candidat.name
             noms_copies.append(candidat.name)
     return noms_copies
 
