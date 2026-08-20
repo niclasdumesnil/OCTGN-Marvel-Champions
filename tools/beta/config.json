@@ -4,7 +4,7 @@
     "nom_beta": "Marvel Champions (BETA)",
     "dossier_definition_source": "055c536f-adba-4bc2-acbf-9aefb9756046",
     "multiplicateur_version_beta": 1000,
-    "revision_beta": 14,
+    "revision_beta": 16,
     "debug_saveload": true,
     "attributs_definition": {
         "authors": "Ourob09, updated by Merlin",
@@ -16,7 +16,7 @@
         "cards/vilback.png": "assets/vilback.png"
     },
     "dossiers_sets_supplementaires": [
-        "C:/OS-Merlin/fichiers/marvel-champions/produits/octgn-sets"
+        "C:/OS-Merlin/fichiers/marvel-champions/produits/octgn-exports/Set Pack"
     ],
     "sets_fanmade_additionnels": []
 }
