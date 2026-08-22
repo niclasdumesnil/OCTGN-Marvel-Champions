@@ -93,6 +93,10 @@
         <property name="DefaultMarkerType" type="String" />
         <property name="DefaultSetupPile" type="String" />
         <property name="DefaultDiscardPile" type="String" />
+        <!-- Pile of the card's OWN player it goes back to when discarded, optionally
+             "<pile>:Bottom". Not DefaultDiscardPile, which names a shared pile.
+             Origine : Merlin - side decks that recycle their cards (SENSE deck). -->
+        <property name="PlayerDiscardPile" type="String" />
         <property name="nbModular" type="String" />
         <property name="mandatoryModular" type="String" />
         <property name="recommendedModular" type="String" />
