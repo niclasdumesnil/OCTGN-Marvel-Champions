@@ -270,6 +270,41 @@ def heroSetup(group=table, x = 0, y = 0):
                 c.moveToTable(playerX(id)+70+shift,tableLocations['hero'][1])
                 shift += 70
 
+        #------------------------------------------------------------
+        # A few heroes start with a side deck of their own: Doctor Strange's
+        # Invocation, Storm's Weather, Iceman's Frostbite, Hercules' Labor and
+        # Gift decks, and now Daredevil's SENSE deck. Each needed a hard-coded
+        # block above, although createCardsFromSet() is already generic - it
+        # only takes an Owner. The identity can name it instead.
+        # Value is a comma separated list of set Owners, each optionally
+        # followed by ":<pile>" when it must not land in the Special pile:
+        # Hercules needs that, having two side decks for one hero.
+        # The deck is shuffled and the pile opened to everyone, as the five
+        # hard-coded blocks do - a SENSE deck is played from the top, so its
+        # cards have to be readable.
+        # ⚠ Keep this property ALONE. Declaring HeroSideDeckShuffle and
+        # HeroSideDeckVisibility beside it, carried by no card, reproducibly
+        # broke the card database: the game threw "object reference not set"
+        # on any group iteration, so loadHero() died on an empty me.Deck
+        # before any setup ran. Removing them fixed it, twice. The mechanism
+        # is not understood - DefaultSetupPile has the same shape and is fine.
+        # Origine : Merlin - generic replacement for the per-hero side deck
+        # blocks, introduced with Daredevil's SENSE deck (Fear No Evil).
+        if hero and heroCard.hasProperty("HeroSideDeck"):
+            for entry in heroCard.properties["HeroSideDeck"].split(","):
+                entry = entry.strip()
+                if not entry:
+                    continue
+                if ":" in entry:
+                    deckOwner, pileName = entry.split(":", 1)
+                    deckOwner, pileName = deckOwner.strip(), pileName.strip()
+                else:
+                    deckOwner, pileName = entry, "Special"
+                deckName = deckOwner.replace("_", " ").title()
+                createCardsFromSet(me.piles[pileName], deckOwner, deckName, False)
+                showGroup(me.piles[pileName], True)
+                me.piles[pileName].visibility = "all"
+
 def countHeros(p):
     heros = 0
     for card in table:

@@ -93,6 +93,14 @@
         <property name="DefaultMarkerType" type="String" />
         <property name="DefaultSetupPile" type="String" />
         <property name="DefaultDiscardPile" type="String" />
+        <!-- Side deck(s) a hero starts with, named by the identity: comma separated set
+             Owners, each optionally "<owner>:<pile>". Loaded in heroSetup().
+             Kept alone on purpose: declaring "HeroSideDeckShuffle"/"HeroSideDeckVisibility"
+             beside it, carried by no card, reproducibly broke the card database (null
+             reference on any group iteration, before any script ran). Cause not understood
+             - do not add a second property here without checking the module still loads.
+             Origine : Merlin - generic side decks, added with Daredevil's SENSE deck. -->
+        <property name="HeroSideDeck" type="String" />
         <property name="nbModular" type="String" />
         <property name="mandatoryModular" type="String" />
         <property name="recommendedModular" type="String" />
