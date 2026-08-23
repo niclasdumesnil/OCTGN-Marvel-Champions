@@ -282,7 +282,7 @@ def heroSetup(group=table, x = 0, y = 0):
         # The deck is shuffled and the pile opened to everyone, as the five
         # hard-coded blocks do - a SENSE deck is played from the top, so its
         # cards have to be readable.
-        # ⚠ Keep this property ALONE. Declaring HeroSideDeckShuffle and
+        # WARNING: keep this property ALONE. Declaring HeroSideDeckShuffle and
         # HeroSideDeckVisibility beside it, carried by no card, reproducibly
         # broke the card database: the game threw "object reference not set"
         # on any group iteration, so loadHero() died on an empty me.Deck
