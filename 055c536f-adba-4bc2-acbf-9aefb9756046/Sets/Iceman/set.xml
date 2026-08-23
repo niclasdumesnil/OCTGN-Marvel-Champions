@@ -40,6 +40,7 @@
       <property name="Faction" value="hero"/>
       <property name="Type" value="upgrade"/>
       <property name="Owner" value="frostbite"/>
+      <property name="PlayerDiscardPile" value="Special"/>
       <property name="Attribute" value="Condition. Ice."/>
       <property name="Text">Permanent.
 Attached enemy gets -1 SCH and -1 ATK.

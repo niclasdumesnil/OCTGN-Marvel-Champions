@@ -93,6 +93,22 @@
         <property name="DefaultMarkerType" type="String" />
         <property name="DefaultSetupPile" type="String" />
         <property name="DefaultDiscardPile" type="String" />
+        <!-- Where a card must go when the hero is set up, when its own text carries no
+             "Setup" keyword for lookForSetup() to find. Read in heroSetup().
+             Origine : Merlin - generic setup of permanents, added with Jessica Jones. -->
+        <property name="DefaultSetupLocation" type="String" />
+        <!-- Side deck(s) a hero starts with, named by the identity: comma separated set
+             Owners, each optionally "<owner>:<pile>". Loaded in heroSetup().
+             Kept alone on purpose: declaring "HeroSideDeckShuffle"/"HeroSideDeckVisibility"
+             beside it, carried by no card, reproducibly broke the card database (null
+             reference on any group iteration, before any script ran). Cause not understood
+             - do not add a second property here without checking the module still loads.
+             Origine : Merlin - generic side decks, added with Daredevil's SENSE deck. -->
+        <property name="HeroSideDeck" type="String" />
+        <!-- Pile of the card's OWN player it goes back to when discarded, optionally
+             "<pile>:Bottom". Not DefaultDiscardPile, which names a shared pile.
+             Origine : Merlin - side decks that recycle their cards (SENSE deck). -->
+        <property name="PlayerDiscardPile" type="String" />
         <property name="nbModular" type="String" />
         <property name="mandatoryModular" type="String" />
         <property name="recommendedModular" type="String" />
