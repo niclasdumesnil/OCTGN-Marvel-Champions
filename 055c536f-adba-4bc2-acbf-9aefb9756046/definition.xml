@@ -110,6 +110,11 @@
              Origine : Merlin - side decks that recycle their cards (SENSE deck). -->
         <property name="PlayerDiscardPile" type="String" />
         <property name="nbModular" type="String" />
+        <!-- Number of underling villains the scenario needs (Fear No Evil): villains with
+             the Underling trait, which carry no main scheme and complete a scenario chosen
+             separately. Read in loadVillain(), which then asks the player to pick one.
+             Origine : Merlin - structure introduced with Fear No Evil. -->
+        <property name="nbUnderling" type="String" />
         <property name="mandatoryModular" type="String" />
         <property name="recommendedModular" type="String" />
 		<property name="LinkedCards" type="String" />

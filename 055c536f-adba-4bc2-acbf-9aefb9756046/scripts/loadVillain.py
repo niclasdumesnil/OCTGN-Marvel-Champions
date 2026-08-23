@@ -47,10 +47,40 @@ Reset the game in order to generate a new deck."""
     if cardSelected[0].hasProperty("CW_Side"):
         setGlobalVariable("CW_Side", cardSelected[0].CW_Side)
 
+    #------------------------------------------------------------
+    # Underling villain, asked for right after the scenario
+    #------------------------------------------------------------
+    # Fear No Evil splits the scenario from the villain: five scenarios carry the
+    # main scheme but no villain, and are played against one of five 'underling'
+    # villains, which have no main scheme of their own. The scenario says so in its
+    # Contents: 'Chosen [[Underling]] villain (see rulebook p. 5).', which the set
+    # xml carries as nbUnderling. A classic scenario brings its own villain, has no
+    # such mention, and is left untouched.
+    # Asked BEFORE the Setup pile is emptied below, and the chosen set is remembered
+    # by name so it can be created once the villain cards are in.
+    # isFanmade=True only skips the 'Release order / Alphabetical' question: five
+    # names do not need a sorting choice.
+    # Origine : Merlin - structure introduced with Fear No Evil.
+    underlingSets = []
+    if cardSelected[0].hasProperty("nbUnderling"):
+        nbUnderling = num(cardSelected[0].nbUnderling)
+        if nbUnderling > 0:
+            underlingSelected = dialogBox_Setup(setupPile(), "underling_setup", None,
+                                                "Which underling villain will you face ?",
+                                                "Select your Underling villain :",
+                                                min = nbUnderling, max = nbUnderling, isFanmade = True)
+            if underlingSelected is None: return
+            for c in underlingSelected:
+                underlingSets.append([c.Owner, c.Name])
+
     # Delete cards in Setup pile, choose Difficulty and load villain Cards.
     deleteCards(setupPile())
     if not loadDifficulty(): return #Difficulty need 'villainSetup' GlobalVariable to be set.
     createCardsFromSet(encounterDeck(), villainSet, villainName, True)
+    # The underling's own cards: they carry DefaultSetupPile, so createCardsFromSet
+    # files them into the Villain pile by itself.
+    for underlingSet in underlingSets:
+        createCardsFromSet(encounterDeck(), underlingSet[0], underlingSet[1], True)
     update()
 
     # Load mandatory modulars for the scenario.
