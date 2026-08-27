@@ -423,6 +423,167 @@ def scenarioSetup(group=table, x = 0, y = 0):
         revealCardOnSetup("Get Through", "57054", tableLocations['mainScheme'][0] + 100, tableLocations['mainScheme'][1])
         revealCardOnSetup("Dense", "57046a", tableLocations['environment'][0], tableLocations['environment'][1])
 
+    #------------------------------------------------------------
+    # Fear No Evil (fanmade) - five scenarios split from their villain (see
+    # nbUnderling in loadVillain.py) : vName here is the scenario's OCTGN card
+    # name, which Nexus writes as the internal slug ('protection_racket_by_ffg'),
+    # not a display name like the official sets above - confirmed by reading the
+    # generated set.xml, not assumed. villainCards[0] is whichever Underling
+    # villain the player chose, already the correct set thanks to nbUnderling.
+    # Origine : Merlin - mise en place cablee en dur pour Fear No Evil (2026).
+    #------------------------------------------------------------
+    elif vName == 'art_museum_heist_by_ffg':
+        # Setup: "Find this encounter set's 4 Art attachments and attach 1 at
+        # random to the villain. Shuffle the other 3 into the encounter deck."
+        # The other 3 are left in the Encounter deck as-is: the unconditional
+        # shuffle(encounterDeck()) below covers that half of the instruction.
+        # The default (non-alternate) face of this card only carries the
+        # "Contents"/"Setup" reference text, with no Threat value at all - the
+        # real playable Stage 1 side is its "b" alternate. NOT flipped here
+        # on purpose (2026-08-26, reverting an earlier attempt): the official
+        # Rhino scenario has the exact same split ("The Break-In!", Core Set)
+        # and is never flipped by script either - its own Setup text reads
+        # "Advance to stage 1B", left for the player to do via the normal
+        # Reveal action (revealHide() in actions.py), which also runs
+        # placeThreatOnScheme() for them. Scripting the flip here would be an
+        # inconsistency with that established convention, not a fix.
+        # Origine : Merlin - voir la fiche de tracabilite pour le detail.
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        underlingCard = initialUnderlingCard(villainCards)
+        underlingCard.moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        underlingVillainSetup([underlingCard])
+        artCards = filter(lambda card: card.Attribute.find("Art.") != -1, encounterDeck())
+        randomArt = rnd(0, len(artCards) - 1)
+        artCards[randomArt].moveToTable(villainX(1, 0) - 35, tableLocations['villain'][1] + 5)
+        artCards[randomArt].sendToBack()
+
+    elif vName == 'the_getaway_by_ffg':
+        # Setup: "Place 1 speed counter here (2 counters instead in expert mode).
+        # Attach the Out Front attachment (129A) to the villain." Speed counters
+        # are tracked with AllPurposeMarker: addMarker() would put them on Threat
+        # instead, since the card is a main_scheme (see isScheme() in addMarker()).
+        # Default face is the "Contents"/"Setup" reference side, no Threat value -
+        # left un-flipped on purpose, see Art Museum Heist above (matches the
+        # official Rhino convention: the player reveals it themselves).
+        # Origine : Merlin - voir la fiche de tracabilite pour le detail.
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        underlingCard = initialUnderlingCard(villainCards)
+        underlingCard.moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        underlingVillainSetup([underlingCard])
+        mainSchemeCards[0].markers[AllPurposeMarker] += 2 if gameDifficulty == "1" else 1
+        revealCardOnSetup("Out Front", "60129a", villainX(1, 0) - 35, tableLocations['villain'][1] + 5, isAttachment=True)
+
+    elif vName == 'protection_racket_by_ffg':
+        # Setup ("manigance multiple") : this scenario has no single shared main
+        # scheme. Each player has THEIR OWN main scheme card (5 different shops,
+        # same stats, different ability) in their own play area ; unused shops
+        # go out of play, per "Set each unused main scheme aside, out of play."
+        # The card differentiates standard (players choose) from expert
+        # (random) ; there is no per-player choice dialog during setup here, so
+        # both modes get a random, distinct shop per player - players can still
+        # swap face-up cards on the table by hand before starting, same tradeoff
+        # already accepted elsewhere in this function for flavor-only randomness
+        # (Loki's Avatar, Kang, Thunderbolts).
+        # Each assigned card is placed on its default face (1A), NOT flipped to
+        # its "b" alternate (the shop's real name/ability/Threat) - reverted
+        # 2026-08-26, see Art Museum Heist above: matches the official Rhino
+        # convention of leaving the reveal (and its threat init) to the
+        # player's own Reveal action, even though this card's own Setup text
+        # explicitly says "...flips it to its 1B side" (Rhino's does too).
+        # Origine : Merlin - voir la fiche de tracabilite pour le detail.
+        underlingCard = initialUnderlingCard(villainCards)
+        underlingCard.moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        underlingVillainSetup([underlingCard])
+        unassignedSchemes = list(mainSchemeCards)
+        for i in range(0, min(len(getPlayers()), len(unassignedSchemes))):
+            randomScheme = rnd(0, len(unassignedSchemes) - 1)
+            chosenScheme = unassignedSchemes.pop(randomScheme)
+            chosenScheme.moveToTable(playerX(i), 0)
+        for c in unassignedSchemes:
+            c.moveTo(removedFromGameDeck())
+
+    elif vName == 'the_raft_breakout_by_ffg':
+        # Setup: "Attach Master Key to the villain. Each player discards cards
+        # from the encounter deck until they discard a Prisoner minion and
+        # reveal that minion." Actually simulated (2026-08-26, was previously
+        # approximated as a random pick with no real discard - see the fiche
+        # de tracabilite): the deck is shuffled here, ahead of this function's
+        # own end-of-setup shuffle, so discarding "from the top" is still a
+        # fair random draw ; then each player discards cards one at a time to
+        # the Encounter discard pile until a Prisoner minion comes up, which
+        # is revealed to that player instead of being discarded.
+        # Default face is the "Contents"/"Setup" reference side, no Threat value -
+        # left un-flipped on purpose, see Art Museum Heist above (matches the
+        # official Rhino convention: the player reveals it themselves).
+        # Origine : Merlin - voir la fiche de tracabilite pour le detail.
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        underlingCard = initialUnderlingCard(villainCards)
+        underlingCard.moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        underlingVillainSetup([underlingCard])
+        revealCardOnSetup("Master Key", "60143", villainX(1, 0) - 35, tableLocations['villain'][1] + 5, isAttachment=True)
+        shuffle(encounterDeck())
+        for i in range(0, len(getPlayers())):
+            prisonerFound = False
+            while len(encounterDeck()) > 0 and not prisonerFound:
+                drawnCard = encounterDeck().top()
+                if drawnCard.Attribute.find("Prisoner.") != -1:
+                    drawnCard.moveToTable(playerX(i), 0)
+                    prisonerFound = True
+                else:
+                    drawnCard.moveTo(encounterDiscardDeck())
+
+    elif vName == 'stop_the_presses_by_ffg':
+        # Setup: "Put the Daily Bugle environment into play. Each player puts a
+        # random Daily Bugle support from this encounter set into play under their
+        # control. Remove each remaining Daily Bugle support from the game."
+        # Default face is the "Contents"/"Setup" reference side, no Threat value -
+        # left un-flipped on purpose, see Art Museum Heist above (matches the
+        # official Rhino convention: the player reveals it themselves).
+        # Origine : Merlin - voir la fiche de tracabilite pour le detail.
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        underlingCard = initialUnderlingCard(villainCards)
+        underlingCard.moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        underlingVillainSetup([underlingCard])
+        revealCardOnSetup("Daily Bugle", "60152", tableLocations['environment'][0], tableLocations['environment'][1])
+        bugleCards = filter(lambda card: card.Attribute.find("Daily Bugle.") != -1, encounterDeck())
+        for i in range(0, min(len(getPlayers()), len(bugleCards))):
+            randomBugle = rnd(0, len(bugleCards) - 1)
+            bugleCards.pop(randomBugle).moveToTable(playerX(i), 0)
+        for c in bugleCards:
+            c.moveTo(removedFromGameDeck())
+
+    elif vName == 'kingpin_by_ffg':
+        # Kingpin is NOT a single card with Standard/Expert alternate faces
+        # like other villains (Rhino, Batroc...): it is two separate card
+        # entities, one per difficulty, each with its own two internal
+        # stages - 60159 (stages A1/A2) for Standard, 60160 (stages B1/B2)
+        # for Expert. Neither entity carries a Standard/Expert property in
+        # set.xml (checked), so villainCards[0] (sorted by CardNumber) would
+        # always resolve to 60159 regardless of gameDifficulty - the generic
+        # else branch below cannot be trusted here, unlike the rest of Fear
+        # No Evil. Its own extra setup step (nemesis reveal vs. Underling
+        # swap on a title clash) stays NOT automated - left for the table to
+        # resolve by hand, see the fiche de tracabilite for why.
+        # The King's Gambit's own default face is likewise a "Contents"/"Setup"
+        # reference side with no Threat value - the real playable Stage 1B
+        # side is its "b" alternate, left un-flipped on purpose (2026-08-26,
+        # reverting an earlier attempt): matches the official Rhino
+        # convention (see Art Museum Heist above), the player reveals it
+        # themselves via the normal Reveal action. Its "When Revealed: Put
+        # Public Support into play, LOW side faceup" text IS cabled below
+        # regardless of that flip - a named card entering play at setup is
+        # its own thing, same convention as Batroc/Thunderbolts elsewhere in
+        # this function. LOW is Public Support's default (non-alternate)
+        # face, per set.xml (Attribute "Low." there, "High." on its "b").
+        # Origine : Merlin - voir la fiche de tracabilite pour le detail.
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        revealCardOnSetup("Public Support", "60163a", tableLocations['environment'][0], tableLocations['environment'][1])
+        if gameDifficulty == "1":
+            kingpinCard = filter(lambda card: card.CardNumber == "60160a", villainCards)
+        else:
+            kingpinCard = filter(lambda card: card.CardNumber == "60159a", villainCards)
+        kingpinCard[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+
     else:
         # If we loaded the encounter deck - add the first villain and main scheme cards to the table
         mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
@@ -711,6 +872,30 @@ def nextSchemeStageSetup(vName = None):
     """
     Specific 'When Revealed' instructions for the next scheme stage (fanmade).
     """
+    # Endgame (Stage 2 of Kingpin's main scheme, 60162) is NOT flipped to its
+    # "b" alternate here on purpose (2026-08-26, reverting an earlier
+    # attempt) - the generic else branch above already finds and places this
+    # entity correctly (60161 -> 60162, a normal "next entity" jump, no
+    # difficulty trap here since Endgame is shared by both Kingpin
+    # difficulties), on its default face 2A. Same convention as The King's
+    # Gambit (see scenarioSetup() above, Art Museum Heist comment): the
+    # player reveals it themselves via the normal Reveal action, which also
+    # runs placeThreatOnScheme() for its "b" face (2B, Threat 7).
+    # Origine : Merlin - voir la fiche de tracabilite pour le detail.
+    if vName == 'kingpin_by_ffg':
+        # Endgame's own "When Revealed" (2A): "Each player finds their
+        # nemesis minion... finds an Underling minion..." stays deliberately
+        # non-automated, same reasoning as the nemesis mechanism in
+        # scenarioSetup() above (title-match ambiguity). Its last sentence,
+        # though, is unambiguous and mechanical: "In expert mode, the first
+        # player finds and reveals the Organized Crime side scheme" - a
+        # named-card reveal, same pattern already used elsewhere in this
+        # file (Batroc's Alert Level, Thunderbolts' Justice Like Lightning).
+        # Reported missing by Merlin after testing Expert mode.
+        # Origine : Merlin - voir la fiche de tracabilite pour le detail.
+        if card.CardNumber == "60162a" and getGlobalVariable("difficulty") == "1":
+            revealCardOnSetup("Organized Crime", "60174", tableLocations['sideScheme'][0], tableLocations['sideScheme'][1])
+
     if vName == "Vermin (by Nugget)":
         if card.CardNumber == "500105a": # Stage 2 main scheme
             revealCardOnSetup("Bringer of Plague", "500112", card.position[0] + 30, card.position[1] + 30)
@@ -737,6 +922,24 @@ def nextVillainStageSetup(vName = None):
     """
     Reveal the next Villain Stage.
     """
+    # Typhoid Mary (Fear No Evil) has no Stage B in Standard mode: Stage A
+    # (60110) IS the whole Standard encounter, Stage B (60111, Bloody Mary's
+    # tougher stats) is a separate entity reserved for Expert mode (see
+    # initialUnderlingCard()), not a stage reached by advancing from A. This
+    # check cannot live inside the vName dispatch below: vName here is the
+    # SCENARIO (one of five Fear No Evil scenarios can lead to Typhoid Mary,
+    # see underlingVillainSetup()), never 'typhoid_mary_by_ffg' itself. Left
+    # unguarded, the generic branch further below would still find 60111 in
+    # the villain deck (it legitimately exists there, for Expert games) and
+    # wrongly swap in the Expert-strength Bloody Mary mid-game. Block it
+    # here instead: defeating Standard Typhoid Mary/Bloody Mary wins the
+    # encounter, there is nothing to advance to.
+    # Origine : Merlin - voir la fiche de tracabilite pour le detail.
+    vCardOnTable = filter(lambda card: card.Type == "villain", table)
+    if len(vCardOnTable) > 0 and vCardOnTable[0].Owner == 'typhoid_mary_by_ffg' and vCardOnTable[0].CardNumber[:-1] == "60110" and gameDifficulty == "0":
+        notify("{} : Typhoid Mary/Bloody Mary has no next stage in Standard mode, she is already defeated for good.".format(me))
+        return
+
     if vName == None: return
 
     elif vName == 'The Wrecking Crew':
@@ -981,6 +1184,23 @@ def nextVillainStageSetup(vName = None):
             vCards[0].moveToTable(vilX, vilY)
             notify("{} advances Villain to the next stage".format(me))
 
+    elif vName == 'kingpin_by_ffg':
+        # Kingpin (see scenarioSetup() above): its two internal stages are
+        # the two alternate faces of the SAME entity (60159 or 60160), not
+        # two separate entities - the generic else branch below would
+        # wrongly look for the "next" CardNumber and pick up the OTHER
+        # difficulty's entity (60159 -> 60160, i.e. "Standard defeated" ->
+        # "Expert stage 1") instead of flipping Kingpin's own stage 1 to its
+        # own stage 2. A plain alternate flip is enough: no marker to carry
+        # over since it stays the same physical card, and neither the A2 nor
+        # the B2 face has a "When Revealed" that needs setup code (checked
+        # in set.xml).
+        # Origine : Merlin - voir la fiche de tracabilite pour le detail.
+        vCardOnTable = filter(lambda card: card.Type == "villain", table)
+        if len(vCardOnTable) > 0:
+            vCardOnTable[0].alternate = "b"
+            notify("{} advances Villain to the next stage".format(me))
+
     else:
         for c in table:
             if isVillain([c]):
@@ -1011,8 +1231,155 @@ def nextVillainStageSetup(vName = None):
                 card.markers[AllPurposeMarker] = currentAllPurpose
                 card.alternate = currentAlternate
                 card.anchor = False
+                # Fear No Evil Underlings need their OWN "When Revealed" text
+                # re-run at every stage advance (Bullseye's Spine, Electro's
+                # charge counters) - dispatched on the villain itself, not
+                # vName (the scenario here), see underlingVillainSetup().
+                # No-ops for anything it does not recognise, official
+                # villains included - safe to call unconditionally.
+                # Origine : Merlin - mise en place cablee en dur pour Fear No Evil (2026).
+                underlingVillainSetup([card])
                 villainSetup(vName)
                 notify("{} advances Villain to the next stage".format(me))
+
+
+def initialUnderlingCard(villainCards):
+    """
+    Fear No Evil (fanmade) - which of the chosen Underling's own villain
+    cards to place on the table at INITIAL setup, before
+    underlingVillainSetup() runs. Bullseye, Electro, Hammerhead and Purple
+    Man already start on the right stage for the chosen difficulty because
+    their stage cards carry a Standard/Expert property in set.xml -
+    createCardsFromSet() excludes Stage I from the villain deck entirely in
+    Expert mode, so villainCards[0] (sorted by CardNumber) is already Stage
+    II there, no code needed.
+    Typhoid Mary's two stages (60110=Stage A, 60111=Stage B) carry NO such
+    property (checked in set.xml, unlike the other four) - both stay in the
+    deck regardless of difficulty, so villainCards[0] always resolves to
+    Stage A. Expert mode is meant to start directly on Stage B (reported by
+    Merlin after testing in Expert and getting Stage A) - checked explicitly
+    here since the data does not filter it for us.
+    Origine : Merlin - voir la fiche de tracabilite pour le detail.
+    """
+    if villainCards[0].Owner == 'typhoid_mary_by_ffg' and getGlobalVariable("difficulty") == "1":
+        expertCard = filter(lambda card: card.CardNumber == "60111a", villainCards)
+        if len(expertCard) > 0:
+            return expertCard[0]
+    return villainCards[0]
+
+
+def underlingVillainSetup(villainCards):
+    """
+    Fear No Evil (fanmade) - own "When Revealed" setup instructions of the
+    Underling villains (Bullseye, Electro, Hammerhead, Purple Man, Typhoid Mary).
+    Dispatched on the villain's own Owner, NOT villainSetup()'s vName: vName stays
+    bound to the SCENARIO there (needed for team-villain scenarios like The
+    Wrecking Crew, where villainCards[0] is only the first of several villains),
+    but Fear No Evil decouples scenario and villain (see nbUnderling in
+    loadVillain.py) - the same Bullseye can be fought from any of five scenarios,
+    so the dispatch key here has to be the villain itself.
+    Called from two places: once at INITIAL setup, right after the villain is
+    placed on the table, from each of the five scenario blocks in
+    scenarioSetup() that can face an Underling ; and again on every later
+    STAGE ADVANCE, from nextVillainStageSetup()'s generic branch, right after
+    the new stage card is placed - unlike villainSetup(), which
+    nextVillainStageSetup() still calls scenario-keyed (vName) for the
+    team-villain scenarios that need it, this function is safe to call
+    unconditionally there: it silently does nothing for any Owner it does not
+    recognise, official villains included.
+    Hammerhead and Purple Man have no setup instruction on any of their
+    villain cards and are not listed here - checked for every stage, not just
+    the first.
+    Typhoid Mary and Kingpin are deliberately left as documented in the fiche
+    de tracabilite, to be treated separately.
+    Origine : Merlin - mise en place cablee en dur pour Fear No Evil (2026).
+    """
+    owner = villainCards[0].Owner
+
+    if owner == 'bullseye_by_ffg':
+        if villainCards[0].CardNumber == "60065": # Stage I
+            # "When Revealed: Set aside Adamantium-Laced Spine (68A)." - moved to
+            # the shared Temporary pile so it cannot be drawn as a random
+            # Encounter card before Stage II explicitly finds it.
+            spineCard = filter(lambda card: card.CardNumber == "60068a", encounterDeck())
+            if len(spineCard) > 0:
+                spineCard[0].moveTo(shared.piles['Temporary'])
+
+        elif villainCards[0].CardNumber == "60066": # Stage II
+            # "When Revealed: Find Adamantium-Laced Spine and attach it to
+            # Bullseye." Two places to look, not one: in standard mode Stage I
+            # ran first and set it aside in the Temporary pile ; in expert
+            # mode Stage I is excluded from the deck entirely (Standard=True /
+            # Expert=False on its card, checked in set.xml) and Stage II is
+            # the very first villain card placed, so the Spine never left the
+            # Encounter deck - Stage I's "set aside" never ran to begin with.
+            # Origine : Merlin - jeu en expert demarre au palier II (2026).
+            spineCard = filter(lambda card: card.CardNumber == "60068a", shared.piles['Temporary'])
+            if len(spineCard) == 0:
+                spineCard = filter(lambda card: card.CardNumber == "60068a", encounterDeck())
+            if len(spineCard) > 0:
+                spineCard[0].moveToTable(villainCards[0].position[0] - 35, villainCards[0].position[1] + 5)
+                spineCard[0].sendToBack()
+
+        elif villainCards[0].CardNumber == "60067": # Stage III
+            # "When Revealed: Find Deranged Bloodlust and reveal it." - a side
+            # scheme (60073), placed next to the villain like Klaw's Defense
+            # Network (villainSetup()) since Fear No Evil scenarios have no
+            # single shared main scheme position to anchor on (Protection
+            # Racket has one main scheme per player, not one to offset from).
+            revealCardOnSetup("Deranged Bloodlust", "60073", villainCards[0].position[0] + 100, villainCards[0].position[1] + 100)
+
+    elif owner == 'electro_by_ffg':
+        if villainCards[0].CardNumber == "60076": # Stage I
+            # "When Revealed: Find Electric Charge, attach it to Electro, and
+            # place 2 per hero charge counters on it." AllPurposeMarker directly,
+            # not addMarker(): Electric Charge is an attachment, addMarker() would
+            # still route it there today, but direct assignment keeps this
+            # explicit rather than relying on addMarker()'s type-dispatch chain.
+            chargeCard = revealCardOnSetup("Electric Charge", "60079", villainX(1, 0) - 35, tableLocations['villain'][1] + 5, isAttachment=True)
+            chargeCard.markers[AllPurposeMarker] += 2 * len(getPlayers())
+
+        elif villainCards[0].CardNumber == "60077": # Stage II - same text as Stage I
+            # Electric Charge is already attached from Stage I by the time this
+            # can be reached in normal play (villain stages only ever advance
+            # forward) - "find and attach" has nothing left to do, only the
+            # counters still apply.
+            chargeCard = filter(lambda card: card.CardNumber == "60079", table)
+            if len(chargeCard) > 0:
+                chargeCard[0].markers[AllPurposeMarker] += 2 * len(getPlayers())
+            else:
+                chargeCard = revealCardOnSetup("Electric Charge", "60079", villainCards[0].position[0] - 35, villainCards[0].position[1] + 5, isAttachment=True)
+                chargeCard.markers[AllPurposeMarker] += 2 * len(getPlayers())
+
+        elif villainCards[0].CardNumber == "60078": # Stage III
+            # "When Revealed: Place 3 charge counters on Electric Charge." - no
+            # find/attach text this time, only the counters.
+            chargeCard = filter(lambda card: card.CardNumber == "60079", table)
+            if len(chargeCard) > 0:
+                chargeCard[0].markers[AllPurposeMarker] += 3
+
+    elif owner == 'typhoid_mary_by_ffg':
+        # Typhoid Mary has stages "A"/"B" (CardNumber 60110*/60111*), not "I"/"II"/
+        # "III" like the other four Underlings - checked in set.xml, not assumed.
+        # villainCards[0] is whichever stage is on the table - Stage A in
+        # Standard, Stage B directly in Expert since 2026-08-26 (see
+        # initialUnderlingCard(), called before this from every scenario
+        # block) - no stage count is hardcoded below either way.
+        # Disturbed Psyche (60112) : "Setup: Put the villain into play on a random
+        # side (and reveal it)." The environment card itself enters play through
+        # the generic "Setup." keyword scan (getSetupCards(), called right after
+        # scenarioSetup() in loadVillain.py) ; only the random starting side
+        # (Typhoid Mary / Bloody Mary persona, same card, alternate "a"/"b" - NOT
+        # the stage letter) is specific to the villain and cabled here. Neither
+        # Stage A face has a "When Revealed" of its own (checked in set.xml: only
+        # a Forced Interrupt on both, never automated in this engine) - nothing
+        # else to do at this point.
+        # Fix: the default (Typhoid Mary) face has no declared alternate
+        # named "a" in set.xml - only "b" (Bloody Mary) is a real alternate,
+        # so the default face is reset like everywhere else in this engine,
+        # with an empty string, not the literal "a".
+        # Origine : Merlin - voir la fiche de tracabilite pour le detail.
+        villainCards[0].alternate = "" if rnd(0, 1) == 0 else "b"
 
 
 def villainSetup(vName = ''):
