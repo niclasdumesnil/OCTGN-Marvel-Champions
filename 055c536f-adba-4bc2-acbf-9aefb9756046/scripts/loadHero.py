@@ -294,6 +294,16 @@ def heroSetup(group=table, x = 0, y = 0):
                 c.moveToTable(playerX(id)+70+shift,tableLocations['hero'][1])
                 shift += 70
                 notify("{} puts {} into play (setup).".format(me, c))
+        # "Starting." cards go to the player's hand
+        #------------------------------------------------------------
+        # Done here, during hero setup, so the cards are already in hand when
+        # startGame() runs: it draws maxHandSize(p) - countHandSize(p), so the
+        # player ends up at their normal hand size, holding these cards.
+        # Origine : Merlin - keyword introduced with Fear No Evil.
+        for c in me.Deck:
+            if lookForStarting(c):
+                c.moveTo(me.hand)
+                notify("{} adds {} to their starting hand (Starting.)".format(me, c))
 
 def countHeros(p):
     heros = 0
