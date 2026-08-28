@@ -6,6 +6,11 @@ from System.Web.Script.Serialization import JavaScriptSerializer
 # 'Load Hero' event
 #------------------------------------------------------------
 
+# Fanmade heroes only exist on mc4db, so the fanmade flow only accepts deck
+# URLs from that site - a marvelcdb URL cannot know these heroes.
+# Origine : Merlin - fanmade deck loading rework (2026).
+FANMADE_DECK_HOST = "mc4db.merlindumesnil.net"
+
 def loadFanmadeHero(group, x = 0, y = 0):
     mute()
     loadHero(group, x, y, True, 0, "fm_hero_setup")
@@ -66,11 +71,29 @@ Reset the game in order to generate a new deck."""
     if choice == 3:
         url = askString("Please enter the URL of the deck you wish to load.", "")
         if url == None: return
+        # Fanmade flow: only an mc4db address is valid (see FANMADE_DECK_HOST).
+        # Origine : Merlin - fanmade deck loading rework (2026).
+        if fanmade and FANMADE_DECK_HOST not in url:
+            whisper("Error: Fanmade decks can only be loaded from {}.".format(FANMADE_DECK_HOST))
+            return
         if not "view/" in url:
             whisper("Error: Invalid URL.")
             return
 
-        aspectCardsList = RemoteCallBlocker.createAPICards(url, False)
+        # The fanmade flow passes the hero picked in the selection dialog so
+        # the API load can refuse a deck built for another hero - without it
+        # the mix would load silently.
+        # Origine : Merlin - trust-the-API deck loading rework (2026).
+        if fanmade:
+            aspectCardsList = RemoteCallBlocker.createAPICards(url, False, heroSet)
+        else:
+            aspectCardsList = RemoteCallBlocker.createAPICards(url, False)
+        # Abort cleanly when the online load failed or was refused - the code
+        # below would crash iterating None.
+        # Origine : Merlin - trust-the-API deck loading rework (2026).
+        if aspectCardsList is None:
+            deleteCards(me.piles["Setup"])
+            return
         if not fanmade:
             cardSelected = me.piles["Setup"].top()
             heroSet = cardSelected.Owner
@@ -88,6 +111,12 @@ Reset the game in order to generate a new deck."""
         universal_prebuilt_List = sorted(universal_prebuilt.keys())
         prebuilt_Choice = askChoice("What Universal Pre-Built deck do you want to load?", universal_prebuilt_List)
         aspectCardsList = RemoteCallBlocker.createAPICards("https://marvelcdb.com/deck/view/{}".format(universal_prebuilt[universal_prebuilt_List[prebuilt_Choice-1]]), True)
+        # Abort cleanly when the online load failed - the code below would
+        # crash iterating None.
+        # Origine : Merlin - trust-the-API deck loading rework (2026).
+        if aspectCardsList is None:
+            deleteCards(me.piles["Setup"])
+            return
 
     # Set all player variables
     pList = list(JavaScriptSerializer().DeserializeObject(getGlobalVariable("playerList")))
@@ -98,7 +127,21 @@ Reset the game in order to generate a new deck."""
     setGlobalVariable("heroesPlayed", str(heroesPlayed))
 
     # Load hero cards
-    heroCards = createCardsFromSet(me.Deck, heroSet, heroName, False)
+    # URL loading (choice 3): the online deck already provided the identity
+    # and the signature cards (see createAPICards), so re-creating the whole
+    # set here would duplicate them - and would also undo any signature card
+    # the deck legitimately replaced (e.g. an ally swapped for a team-up
+    # card, a deck option marvelcdb-style slots can express). Only the set
+    # cards that declare an out-of-deck location (DefaultSetupPile:
+    # obligations, extra hero forms like Ironheart's) are still created,
+    # since no deck can ever carry those. Every other source keeps the full
+    # set creation: out-of-the-box and o8d decks do not bring the extra
+    # cards, and Universal Pre-Built decks bring no hero cards at all.
+    # Origine : Merlin - trust-the-API deck loading rework (2026).
+    if choice == 3:
+        heroCards = createCardsFromSet(me.Deck, heroSet, heroName, False, setupPileOnly = True)
+    else:
+        heroCards = createCardsFromSet(me.Deck, heroSet, heroName, False)
     nemesisCards = createCardsFromSet(me.Nemesis, heroSet + "_nemesis", heroName + "'s Nemesis", False)
 
     # Change Owner for all cards
@@ -449,11 +492,20 @@ def changeOwner(cards, hero_id):
 class RemoteCallBlocker:
     """Methods in this class cannot be remote called because calling them requires using the '.' character, which isn't allowed in remote calls."""
     @staticmethod
-    def createAPICards(url, fanmade = False):
+    def createAPICards(url, aspectOnly = False, expectedHero = None):
         """
-        Create the deck by loading cards from a marvelcdb URL.
-        This function can load the whole deck or only cards that do not belong to the Hero (in this case, parameters 'filter'
-        and 'new_owner' must be specified)
+        Create the deck by loading cards from a marvelcdb-compatible URL
+        (marvelcdb.com or mc4db).
+        aspectOnly: keep only the aspect/basic cards from the slots. Used by
+        the Universal Pre-Built decks, which are built on some hero whose
+        signature cards must not leak into the player's deck.
+        expectedHero: when given, refuse a deck whose hero is not this one
+        (fanmade flow: the player picked a hero in the dialog, the pasted
+        URL must match it).
+        Origine : Merlin - trust-the-API deck loading rework (2026): the
+        parameter 'fanmade' was renamed 'aspectOnly' to say what it does,
+        and the hero cards from the slots are no longer deleted and
+        re-created from the set (see loadHero, choice 3).
         """
         notify("Looking {} for deck.".format(url))
         all_cards = []
@@ -476,14 +528,25 @@ class RemoteCallBlocker:
             deckname = JavaScriptSerializer().DeserializeObject(data)["hero_name"]
             deck = JavaScriptSerializer().DeserializeObject(data)["slots"]
             hero_id = JavaScriptSerializer().DeserializeObject(data)["hero_code"]
-            if not fanmade:
-                heroCards = queryCard({"Type":"hero", "CardNumber":hero_id}, True)
-                heroCard = me.piles["Setup"].create(heroCards[0], 1)
+            if not aspectOnly:
+                # The identity card is not part of the slots, so it is created
+                # here from hero_code - directly in the player's deck, where it
+                # used to be re-created from the set: the set creation is now
+                # limited to the out-of-deck cards (see loadHero, choice 3).
+                # Origine : Merlin - trust-the-API deck loading rework (2026).
+                heroModels = queryCard({"Type":"hero", "CardNumber":hero_id}, True)
+                if len(heroModels) == 0:
+                    whisper("Hero not found in octgn database. Code from marvelcdb url : {}.".format(hero_id))
+                    return
+                heroCard = me.Deck.create(heroModels[0], 1)
+                if expectedHero is not None and heroCard.Owner != expectedHero:
+                    whisper("The deck at this URL is for {}, not for the hero you selected. Load aborted.".format(deckname))
+                    heroCard.delete()
+                    return
                 setupCardModel = queryCard({"Type":"hero_setup", "Owner":heroCard.Owner}, True)
                 if len(setupCardModel) == 0:
                     setupCardModel = queryCard({"Type":"fm_hero_setup", "Owner":heroCard.Owner}, True)
                 setupCard = me.Setup.create(setupCardModel[0], 1)
-                heroCard.delete()
             chars_to_remove = ['[',']']
             rx = '[' + re.escape(''.join(chars_to_remove)) + ']'
             for id in deck:
@@ -496,15 +559,22 @@ class RemoteCallBlocker:
                     notify("Card not found in octgn database. Code from marvelcdb url : {}.".format(cardid))
                     continue 
                 cards = me.Deck.create(cardModel[0], qty)
+                # Hero-owned cards from the slots used to be deleted here and
+                # re-created from the set. They are now kept as the online
+                # deck states them, so a deck that replaces a signature card
+                # (e.g. an ally swapped for a team-up card) loads as built.
+                # Only the Universal Pre-Built path still strips them
+                # (aspectOnly), see the docstring.
+                # Origine : Merlin - trust-the-API deck loading rework (2026).
                 if qty == 1:
                     isAspectCard = cards.Owner == ""
-                    if isAspectCard:
+                    if isAspectCard or not aspectOnly:
                         all_cards.append(cards)
                     else:
                         cards.delete()
                 else:
                     isAspectCard = cards[0].Owner == ""
-                    if isAspectCard:
+                    if isAspectCard or not aspectOnly:
                         all_cards.extend(cards)
                     else:
                         [c.delete() for c in cards]
