@@ -36,6 +36,7 @@ REPO_ROOT = TOOLS_BETA_DIR.parent.parent
 DIST_DIR = TOOLS_BETA_DIR / "dist"
 STAGING_DIR = DIST_DIR / "staging"
 CONFIG_PATH = TOOLS_BETA_DIR / "config.json"
+NOUVEAUTES_PATH = TOOLS_BETA_DIR / "nouveautes.json"
 
 
 class ErreurBuild(Exception):
@@ -585,6 +586,105 @@ def ecrire_script_jonction_images(guid_officiel: str, guid_beta: str, nom_beta: 
     return chemin
 
 
+def packs_hors_upstream(dossier_source: str, noms_ajoutes: list[str]) -> tuple[list[dict], str]:
+    """Sets embarqués par la bêta et absents du mod officiel, calculés depuis git.
+
+    Comparés à `upstream/master` (le mod d'Ourob09) quand la référence est
+    connue localement, sinon à `master`, qui en est le miroir strict. La
+    référence retenue est retournée avec la liste : dire sur quoi la
+    comparaison a porté vaut mieux qu'un chiffre sans provenance, surtout si le
+    dépôt n'a pas été synchronisé depuis longtemps.
+
+    Calculé plutôt qu'écrit à la main, à la différence des fonctionnalités : une
+    liste de packs saisie se désynchronise au premier pack ajouté, sans bruit,
+    et annoncerait aux testeurs un contenu que la bêta n'a pas — ou tairait
+    celui qu'elle a.
+
+    Les sets ajoutés par `sets_fanmade_additionnels` viennent de hors du dépôt :
+    git ne peut rien en dire, ils sont donc ajoutés depuis la liste que le build
+    a réellement copiée.
+
+    Ne fait jamais échouer un build : sans git, la liste est vide et le hub
+    n'affiche simplement pas de section packs.
+    """
+    def git(*args: str) -> str:
+        try:
+            r = subprocess.run(
+                ["git", "-C", str(REPO_ROOT), *args], capture_output=True, text=True
+            )
+            return r.stdout.strip() if r.returncode == 0 else ""
+        except OSError:
+            return ""
+
+    reference = ""
+    for candidate in ("upstream/master", "master"):
+        if git("rev-parse", "--verify", "--quiet", candidate):
+            reference = candidate
+            break
+    if not reference:
+        return [], ""
+
+    chemin_sets = "{}/Sets".format(dossier_source)
+    amont = set(git("ls-tree", "-d", "--name-only", "{}:{}".format(reference, chemin_sets)).splitlines())
+    ici = set(git("ls-tree", "-d", "--name-only", "HEAD:{}".format(chemin_sets)).splitlines())
+    if not amont or not ici:
+        return [], ""
+
+    packs = []
+    for slug in sorted(ici - amont) + sorted(noms_ajoutes):
+        set_xml = REPO_ROOT / dossier_source / "Sets" / slug / "set.xml"
+        nom = slug
+        if set_xml.exists():
+            # Le nom affichable vit dans l'attribut name du set ; le slug n'est
+            # qu'un nom de dossier, illisible pour un testeur.
+            match = re.search(r'<set\b[^>]*\bname="([^"]*)"', set_xml.read_text(encoding="utf-8", errors="replace"))
+            if match:
+                nom = match.group(1)
+        packs.append({"slug": slug, "nom": nom})
+    return packs, reference
+
+
+def ecrire_nouveautes(version_beta: str, marque: str, dossier_source: str, noms_ajoutes: list[str]) -> tuple[Path, int, int]:
+    """Produit dist/nouveautes.json : ce que la bêta apporte, pour le testeur.
+
+    Deux moitiés d'origines différentes, assumées comme telles : les
+    FONCTIONNALITÉS viennent de tools/beta/nouveautes.json, écrites à la main
+    (seul un humain sait dire ce qu'un changement fait pour un joueur) ; les
+    PACKS sont calculés par comparaison git avec l'amont.
+
+    Écrit dans dist/ à côté des artefacts, comme lier-images-beta.bat : c'est le
+    hub qui le sert, et dist/ est ignoré par git.
+
+    Un fichier éditorial absent ou illisible ne fait pas échouer le build — la
+    bêta reste livrable —, mais le dit franchement : la liste s'afficherait
+    amputée sans que personne ne s'en aperçoive.
+    """
+    fonctionnalites = []
+    if NOUVEAUTES_PATH.exists():
+        try:
+            with NOUVEAUTES_PATH.open("r", encoding="utf-8") as f:
+                fonctionnalites = json.load(f).get("fonctionnalites") or []
+        except (json.JSONDecodeError, OSError) as e:
+            print(f"      /!\\ nouveautes.json illisible ({e}) : liste des fonctionnalites VIDE")
+    else:
+        print(f"      /!\\ {NOUVEAUTES_PATH.name} absent : liste des fonctionnalites VIDE")
+
+    packs, reference = packs_hors_upstream(dossier_source, noms_ajoutes)
+
+    chemin = DIST_DIR / "nouveautes.json"
+    contenu = {
+        "version_beta": version_beta,
+        "genere_le": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+        "estampille": marque,
+        "reference_amont": reference,
+        "fonctionnalites": fonctionnalites,
+        "packs": packs,
+    }
+    with chemin.open("w", encoding="utf-8") as f:
+        json.dump(contenu, f, ensure_ascii=False, indent=2)
+    return chemin, len(fonctionnalites), len(packs)
+
+
 def installer_localement(staging_dir: Path, guid_beta: str) -> Path:
     """Installe le paquet bêta dans le feed local d'OCTGN (o8build -i).
 
@@ -800,6 +900,13 @@ def construire(config: dict) -> dict:
     print(f"      -> {chemin_o8g.name} ({chemin_o8g.stat().st_size / 1024:.0f} Ko, téléchargement direct)")
     chemin_jonction = ecrire_script_jonction_images(guid_officiel, guid_beta, nom_beta, marque)
     print(f"      -> {chemin_jonction.name} (jonction des images, à lancer avant l'installation)")
+    chemin_nouveautes, nb_fonctionnalites, nb_packs = ecrire_nouveautes(
+        version_beta, marque, config["dossier_definition_source"], noms_ajoutes
+    )
+    print(
+        f"      -> {chemin_nouveautes.name} ({nb_fonctionnalites} fonctionnalite(s), "
+        f"{nb_packs} pack(s) hors amont)"
+    )
     empreinte = journaliser_build(chemin_nupkg, version_beta, marque)
     print(f"      sha512-b64 : {empreinte}")
 
@@ -811,6 +918,7 @@ def construire(config: dict) -> dict:
         "chemin_nupkg": chemin_nupkg,
         "chemin_o8g": chemin_o8g,
         "chemin_jonction": chemin_jonction,
+        "chemin_nouveautes": chemin_nouveautes,
         "nb_sets_patches": len(set_xml_touches),
         "nb_sets_sources": nb_sets_sources,
         "fichiers_hors_set_xml": hors_set_xml,
