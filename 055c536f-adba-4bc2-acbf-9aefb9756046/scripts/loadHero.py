@@ -7,9 +7,11 @@ from System.Web.Script.Serialization import JavaScriptSerializer
 #------------------------------------------------------------
 
 # Fanmade heroes only exist on mc4db, so the fanmade flow only accepts deck
-# URLs from that site - a marvelcdb URL cannot know these heroes.
+# URLs from that site - a marvelcdb URL cannot know these heroes. The local
+# hosts are accepted too: they are the mc4db development instance, used to
+# test API changes before they are deployed.
 # Origine : Merlin - fanmade deck loading rework (2026).
-FANMADE_DECK_HOST = "mc4db.merlindumesnil.net"
+FANMADE_DECK_HOSTS = ["mc4db.merlindumesnil.net", "localhost", "127.0.0.1"]
 
 def loadFanmadeHero(group, x = 0, y = 0):
     mute()
@@ -71,10 +73,10 @@ Reset the game in order to generate a new deck."""
     if choice == 3:
         url = askString("Please enter the URL of the deck you wish to load.", "")
         if url == None: return
-        # Fanmade flow: only an mc4db address is valid (see FANMADE_DECK_HOST).
+        # Fanmade flow: only an mc4db address is valid (see FANMADE_DECK_HOSTS).
         # Origine : Merlin - fanmade deck loading rework (2026).
-        if fanmade and FANMADE_DECK_HOST not in url:
-            whisper("Error: Fanmade decks can only be loaded from {}.".format(FANMADE_DECK_HOST))
+        if fanmade and not any(host in url for host in FANMADE_DECK_HOSTS):
+            whisper("Error: Fanmade decks can only be loaded from {}.".format(FANMADE_DECK_HOSTS[0]))
             return
         if not "view/" in url:
             whisper("Error: Invalid URL.")
@@ -525,9 +527,18 @@ class RemoteCallBlocker:
             whisper("Error retrieving online deck data, please try again.")
             return
         try:
-            deckname = JavaScriptSerializer().DeserializeObject(data)["hero_name"]
-            deck = JavaScriptSerializer().DeserializeObject(data)["slots"]
-            hero_id = JavaScriptSerializer().DeserializeObject(data)["hero_code"]
+            apiData = JavaScriptSerializer().DeserializeObject(data)
+            deckname = apiData["hero_name"]
+            deck = apiData["slots"]
+            hero_id = apiData["hero_code"]
+            # mc4db adds an out-of-format field 'sideSlots' carrying the
+            # player-built side deck; marvelcdb has no such field. A missing
+            # or unreadable field means no side deck - never an error.
+            # Origine : Merlin - mc4db side deck loading (2026).
+            try:
+                sideDeck = apiData["sideSlots"]
+            except:
+                sideDeck = None
             if not aspectOnly:
                 # The identity card is not part of the slots, so it is created
                 # here from hero_code - directly in the player's deck, where it
@@ -578,6 +589,26 @@ class RemoteCallBlocker:
                         all_cards.extend(cards)
                     else:
                         [c.delete() for c in cards]
+            # Side deck (mc4db only, see above): the cards go to the player's
+            # 'Side Deck' pile, added to definition.xml with this feature.
+            # They join all_cards so changeOwner() marks them like the rest of
+            # the deck. Not applicable to Universal Pre-Built decks.
+            # Origine : Merlin - mc4db side deck loading (2026).
+            if sideDeck is not None and not aspectOnly:
+                for id in sideDeck:
+                    line = re.sub(rx,'',str(id))
+                    line = line.split(',')
+                    cardid = line[0]
+                    qty = int(line[1].strip())
+                    cardModel = queryCard({"CardNumber":cardid}, True)
+                    if len(cardModel) == 0:
+                        notify("Card not found in octgn database. Code from mc4db side deck : {}.".format(cardid))
+                        continue
+                    cards = me.piles["Side Deck"].create(cardModel[0], qty)
+                    if qty == 1:
+                        all_cards.append(cards)
+                    else:
+                        all_cards.extend(cards)
             return all_cards
         except ValueError:
             whisper("Error retrieving online deck data, please try again. If you are trying to load a non published deck make sure you have edited your account to select 'Share Your Decks'")
