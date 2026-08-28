@@ -171,7 +171,19 @@ def copier_dossiers_sets(dossiers: list, staging_sets_dir: Path) -> list[str]:
 
             # Un set deja fourni par le depot ne doit JAMAIS etre re-injecte : on echoue
             # bruyamment plutot que de produire un module au contenu double.
+            #
+            # EXCEPTION : Nexus miroite desormais le set.xml qu'il ecrit dans Set Pack
+            # (Source B) directement dans le depot lui-meme, sous le MEME nom de dossier
+            # <packCode> (055c536f-.../Sets/<packCode>/set.xml) - pour pouvoir tester la
+            # beta puis commiter/PR ce set vers l'amont. Ce doublon-la est VOULU : meme id
+            # ET meme nom de dossier des deux cotes. Le garde-fou d'origine visait un id
+            # identique sous un nom DIFFERENT (bug reel du 2026-08-20, cf. commentaire
+            # ci-dessus) ; il continue de s'appliquer tel quel des que les noms divergent.
+            # Origine : Merlin - miroir du set.xml Nexus vers le depot (workflow beta -> PR).
             if identifiant in ids_deja_presents:
+                if ids_deja_presents[identifiant] == candidat.name:
+                    print(f"      = ignore (deja fourni par le depot, meme dossier) : {candidat.name}")
+                    continue
                 raise ErreurBuild(
                     f"set en double : '{candidat.name}' porte l'id {identifiant}, "
                     f"deja fourni par '{ids_deja_presents[identifiant]}'.\n"
