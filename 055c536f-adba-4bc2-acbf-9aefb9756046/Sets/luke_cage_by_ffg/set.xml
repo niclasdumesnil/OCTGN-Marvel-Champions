@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes'?>
 <set name="Luke Cage" id="a3c3eaa3-8300-4b7a-981d-d77e29778cdf" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
   <cards>
-    <card id="a3c3eaa3-8300-4b7a-981d-d77e29000000" name="luke_cage_by_ffg">
+    <card id="a3c3eaa3-8300-4b7a-981d-d77e29000000" name="Luke Cage">
       <property name="Type" value="hero_setup"/>
       <property name="Owner" value="luke_cage_by_ffg"/>
     </card>
-    <card id="a3c3eaa3-8300-4b7a-981d-d77e29990000" name="luke_cage_by_ffg_nemesis">
+    <card id="a3c3eaa3-8300-4b7a-981d-d77e29990000" name="Luke Cage Nemesis">
       <property name="Type" value="encounter_setup"/>
       <property name="Owner" value="luke_cage_by_ffg_nemesis"/>
     </card>
@@ -98,7 +98,7 @@
       <property name="Resource_Mental" value="1"/>
       <property name="Attribute" value="Thwart."/>
       <property name="Text" value="&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;thwart&lt;/i&gt;): Give Luke Cage a tough status card. Remove 1 threat from a scheme for each tough status card on Luke Cage (to a maximum of 5)."/>
-      <property name="Quote" value="“This is the greatest city in the world. I will not allow it to fall into chaos.” -Luke Cage"/>
+      <property name="Quote" value="“This is the greatest city in the world. I will not allow it to fall into chaos.” –Luke Cage"/>
     </card>
     <card name="&quot;Sweet Christmas!&quot;" id="a3c3eaa3-8300-4b7a-981d-d77e29062006">
       <property name="CardNumber" value="62006"/>
@@ -125,7 +125,7 @@
       <property name="Resource_Mental" value="1"/>
       <property name="Attribute" value="Location."/>
       <property name="Text" value="&lt;b&gt;Response&lt;/b&gt;: After a tough status is discarded from a defender character, exhaust Fogwell's Gym → ready that character."/>
-      <property name="Quote" value="“Busted a lot of punching bags at this old place, and they never kicked me out.” -Luke Cage"/>
+      <property name="Quote" value="“Busted a lot of punching bags at this old place, and they never kicked me out.” –Luke Cage"/>
     </card>
     <card name="Burstein Process" id="a3c3eaa3-8300-4b7a-981d-d77e29062008">
       <property name="CardNumber" value="62008"/>
@@ -139,7 +139,7 @@
       <property name="Resource_Mental" value="1"/>
       <property name="Attribute" value="Condition."/>
       <property name="Text" value="&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust Burstein Process → give Luke Cage a tough status card (2 tough status cards instead if he has none)."/>
-      <property name="Quote" value="“I got skin like steel and muscles to match.” -Luke Cage"/>
+      <property name="Quote" value="“I got skin like steel and muscles to match.” –Luke Cage"/>
     </card>
     <card name="Cruisin' for a Bruisin'" id="a3c3eaa3-8300-4b7a-981d-d77e29062009">
       <property name="CardNumber" value="62009"/>
@@ -182,7 +182,7 @@ Attacks against attached minion deal 2 additional damage and gain overkill.
       <property name="Resource_Physical" value="1"/>
       <property name="Attribute" value="Title."/>
       <property name="Text" value="&lt;b&gt;Hero Response&lt;/b&gt;: After a tough status card is discarded from Luke Cage, exhaust Power Man → draw a card."/>
-      <property name="Quote" value="“Tremble before the power of Power Man! That sounded weird. Luke Cage. Tremble before Luke Cage.” -Luke Cage"/>
+      <property name="Quote" value="“Tremble before the power of Power Man! That sounded weird. Luke Cage. Tremble before Luke Cage.” –Luke Cage"/>
     </card>
     <card name="Iron Fist" id="a3c3eaa3-8300-4b7a-981d-d77e29062012">
       <property name="CardNumber" value="62012"/>
@@ -200,7 +200,7 @@ Attacks against attached minion deal 2 additional damage and gain overkill.
       <property name="Resource_Mental" value="1"/>
       <property name="Attribute" value="Defender. Martial Artist."/>
       <property name="Text" value="&lt;b&gt;Interrupt&lt;/b&gt;: When Iron Fist defends against an enemy attack, prevent damage from that attack equal to Iron Fist's ATK."/>
-      <property name="Quote" value="“I've forgotten more about fighting than you'll ever know.” -Iron Fist"/>
+      <property name="Quote" value="“I've forgotten more about fighting than you'll ever know.” –Iron Fist"/>
     </card>
     <card name="Misty Knight" id="a3c3eaa3-8300-4b7a-981d-d77e29062013">
       <property name="CardNumber" value="62013"/>
@@ -250,7 +250,7 @@ Attacks against attached minion deal 2 additional damage and gain overkill.
       <property name="Resource_Energy" value="1"/>
       <property name="Attribute" value="Tactic."/>
       <property name="Text" value="&lt;b&gt;Hero Response&lt;/b&gt;: After your hero defends, each ally you control gets +1 THW and +1 ATK until the end of the player phase."/>
-      <property name="Quote" value="“It takes a lot more than that to keep me down.” -Luke Cage"/>
+      <property name="Quote" value="“It takes a lot more than that to keep me down.” –Luke Cage"/>
     </card>
     <card name="Innovation" id="e7da07d7-400b-4710-8d02-e53562062016">
       <property name="CardNumber" value="62016"/>
@@ -297,7 +297,7 @@ Double the number of resources this card generates while paying for a Leadership
       <property name="Attribute" value="Maxim."/>
       <property name="Text">Play under any player's control. Max 1 per player.
 Each character you control that has exactly 1 hit point remaining gets +2 THW and +2 ATK.</property>
-      <property name="Quote" value="“No more running.” -Daredevil"/>
+      <property name="Quote" value="“No more running.” –Daredevil"/>
     </card>
     <card name="Hulk" id="a3c3eaa3-8300-4b7a-981d-d77e29062020">
       <property name="CardNumber" value="62020"/>
@@ -410,7 +410,7 @@ Team-Up (&lt;i&gt;Jessica Jones and Luke Cage&lt;/i&gt;). Max 1 per deck.
       <property name="Resource_Energy" value="1"/>
       <property name="Attribute" value="Attack."/>
       <property name="Text" value="&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): Deal 3 damage to an enemy (6 damage instead if you have the [[GIANT]] trait or more remaining hit points than that enemy)."/>
-      <property name="Quote" value="“Puny runt!” -Hulk"/>
+      <property name="Quote" value="“Puny runt!” –Hulk"/>
     </card>
     <card name="Observe" id="a3c3eaa3-8300-4b7a-981d-d77e29062035">
       <property name="CardNumber" value="62035"/>
@@ -423,7 +423,7 @@ Team-Up (&lt;i&gt;Jessica Jones and Luke Cage&lt;/i&gt;). Max 1 per deck.
       <property name="Resource_Energy" value="1"/>
       <property name="Attribute" value="Tactic."/>
       <property name="Text" value="&lt;b&gt;Hero Action&lt;/b&gt;: The villain schemes. Give your hero a tough status card."/>
-      <property name="Quote" value="“There are other ways to see.” -Daredevil"/>
+      <property name="Quote" value="“There are other ways to see.” –Daredevil"/>
     </card>
     <card name="Toughen Up" id="a3c3eaa3-8300-4b7a-981d-d77e29062036">
       <property name="CardNumber" value="62036"/>
@@ -453,6 +453,7 @@ Max 1 per character.
 Attached character gets +1 hit point and gains the [[MARTIAL ARTIST]] trait.</property>
     </card>
     <card name="Internal Injury" id="a3c3eaa3-8300-4b7a-981d-d77e29062028" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
       <property name="CardNumber" value="62028"/>
       <property name="Position" value="28"/>
       <property name="Quantity" value="1"/>
@@ -491,7 +492,7 @@ Attached character gets +1 hit point and gains the [[MARTIAL ARTIST]] trait.</pr
       <property name="Faction" value="encounter"/>
       <property name="Owner" value="luke_cage_by_ffg_nemesis"/>
       <property name="BaseThreat" value="3"/>
-      <property name="Scheme_Crisis" value="1"/>
+      <property name="Scheme_Crisis" value="None"/>
       <property name="Text">Each [[SERPENT SOCIETY]] minion cannot be attacked.
 &lt;b&gt;When Defeated&lt;/b&gt;: The defeating player discards cards from the top of the encounter deck until a [[SERPENT SOCIETY]] minion is discarded and reveals that minion.
 &lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;: You are confused.</property>
@@ -509,7 +510,7 @@ Attached character gets +1 hit point and gains the [[MARTIAL ARTIST]] trait.</pr
       <property name="Attribute" value="Weapon."/>
       <property name="Text">Attach to Cottonmouth. Otherwise, attach to the villain.
 [star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached enemy attacks a character, discard each tough status card from that character.
-&lt;b&gt;Hero Action&lt;/b&gt;: Spend [physical] [physical] resources → discard this card.</property>
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [mental][mental] resources → discard this card.</property>
     </card>
     <card name="Asp" id="a3c3eaa3-8300-4b7a-981d-d77e29062032" size="EncounterCard">
       <property name="DefaultSetupPile" value="Nemesis"/>

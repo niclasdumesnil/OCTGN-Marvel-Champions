@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes'?>
 <set name="Jessica Jones" id="79de0c38-0a41-40e6-b617-9a864607c595" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
   <cards>
-    <card id="79de0c38-0a41-40e6-b617-9a8646000000" name="jessica_jones_by_ffg">
+    <card id="79de0c38-0a41-40e6-b617-9a8646000000" name="Jessica Jones">
       <property name="Type" value="hero_setup"/>
       <property name="Owner" value="jessica_jones_by_ffg"/>
     </card>
-    <card id="79de0c38-0a41-40e6-b617-9a8646990000" name="jessica_jones_by_ffg_nemesis">
+    <card id="79de0c38-0a41-40e6-b617-9a8646990000" name="Jessica Jones Nemesis">
       <property name="Type" value="encounter_setup"/>
       <property name="Owner" value="jessica_jones_by_ffg_nemesis"/>
     </card>
@@ -448,6 +448,7 @@ Team-Up (&lt;i&gt;Jessica Jones and Luke Cage&lt;/i&gt;). Max 1 per deck.
       <property name="Faction" value="basic"/>
       <property name="BaseThreat" value="3"/>
       <property name="Unique" value="True"/>
+      <property name="BaseThreatFixed" value="True"/>
       <property name="Text">Hinder 1[per_hero].
 Prerequisite ([[DEFENDER]]). Victory 0.
 &lt;b&gt;When Defeated&lt;/b&gt;: Each player may search their deck and discard pile for a Team-Up card and add it to their hand. Until the end of the phase, reduce the cost to play each Team-Up card by 1.</property>
@@ -551,6 +552,7 @@ Each ally you control gets +1 hit point.</property>
 &lt;b&gt;Forced Response&lt;/b&gt;: At the end of the round, each player may spend 1 resource of any type. If any player does not, discard this card.</property>
     </card>
     <card name="Work-Life Balance" id="79de0c38-0a41-40e6-b617-9a8646061030" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
       <property name="CardNumber" value="61030"/>
       <property name="Position" value="30"/>
       <property name="Quantity" value="1"/>
