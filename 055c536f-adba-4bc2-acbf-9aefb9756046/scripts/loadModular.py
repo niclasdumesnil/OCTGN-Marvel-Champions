@@ -282,3 +282,16 @@ def campaignEncounter(villainSet = '', x = 0, y = 0):
         createCardsFromSet(campaignDeck(), "standard_skrull_by_kajislav", "Standard Skrull", True)
         createCardsFromSet(campaignDeck(), "expert_skrull_by_kajislav", "Expert Skrull", True)
         createCardsFromSet(campaignDeck(), "skrull_menace_campaign_by_kajislav", "Skrull Menace Campaign", True)
+
+    # Fear No Evil (fanmade). Six scenarios share one campaign set: the five
+    # Underling scenarios plus Kingpin, the campaign's final one. Its cards are
+    # the per-scenario outcome cards (Completed / Failed faces), which carry the
+    # setup consequence the NEXT scenario inherits.
+    # Listed by scenario slug, not by Underling: the villain is chosen separately
+    # here (see nbUnderling in loadVillain.py), so the scenario is the only stable
+    # key - unlike every official box above, where set and scenario are the same.
+    # Loaded unconditionally, like every other campaign set in this function: the
+    # Campaign pile is collapsed by default, standalone players simply ignore it.
+    # Origine : Merlin - cartes de campagne de Fear No Evil (2026).
+    if villainSet == "art_museum_heist_by_ffg" or villainSet == "the_getaway_by_ffg" or villainSet == "protection_racket_by_ffg" or villainSet == "the_raft_breakout_by_ffg" or villainSet == "stop_the_presses_by_ffg" or villainSet == "kingpin_by_ffg":
+        createCardsFromSet(campaignDeck(), "campaign_by_ffg", "Fear No Evil Campaign", True)
