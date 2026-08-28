@@ -271,6 +271,39 @@ def heroSetup(group=table, x = 0, y = 0):
                 shift += 70
 
         #------------------------------------------------------------
+        # Cards that declare their own setup location in the set xml
+        #------------------------------------------------------------
+        # Some cards must be put into play at setup even though their own text
+        # holds no "Setup" keyword, because the instruction sits on the identity
+        # instead: Jessica Jones' alter-ego reads "Setup: Put the Alias
+        # Investigations support into play", while the support itself only reads
+        # "Permanent.". lookForSetup() scans the deck and can never match those,
+        # which is why every such hero so far needed its own hard-coded block
+        # above, with the card number written in the engine.
+        # Letting the card state its own intent - same spirit as the existing
+        # DefaultSetupPile / DefaultDiscardPile properties - means a new pack
+        # ships with its set.xml alone, without patching the engine.
+        # The shift is shared with the "Setup" loop above so the cards line up
+        # next to the hero instead of stacking on each other.
+        # Heroes already covered by a hard-coded block must NOT carry the
+        # property, or their card would be put into play twice.
+        # Origine : Merlin - generic replacement for the per-hero permanent
+        # setup blocks, introduced with the Jessica Jones pack.
+        for c in me.Deck:
+            if c.hasProperty("DefaultSetupLocation") and c.properties["DefaultSetupLocation"].strip().lower() == "table":
+                c.moveToTable(playerX(id)+70+shift,tableLocations['hero'][1])
+                shift += 70
+                notify("{} puts {} into play (setup).".format(me, c))
+        # "Starting." cards go to the player's hand
+        #------------------------------------------------------------
+        # Done here, during hero setup, so the cards are already in hand when
+        # startGame() runs: it draws maxHandSize(p) - countHandSize(p), so the
+        # player ends up at their normal hand size, holding these cards.
+        # Origine : Merlin - keyword introduced with Fear No Evil.
+        for c in me.Deck:
+            if lookForStarting(c):
+                c.moveTo(me.hand)
+                notify("{} adds {} to their starting hand (Starting.)".format(me, c))
         # A few heroes start with a side deck of their own: Doctor Strange's
         # Invocation, Storm's Weather, Iceman's Frostbite, Hercules' Labor and
         # Gift decks, and now Daredevil's SENSE deck. Each needed a hard-coded
