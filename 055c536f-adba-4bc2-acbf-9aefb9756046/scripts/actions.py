@@ -1527,6 +1527,16 @@ def lookForSetup(card):
     """
     return re.search('.*Setup.*', card.properties["Text"])
 
+def lookForStarting(card):
+    """
+    Look for the "Starting." keyword => card joins the player's starting hand
+    Anchored on purpose: an unanchored search would match any card whose text
+    merely mentions "starting" (e.g. "your starting hand") and wrongly pull it
+    out of the deck.
+    Origine : Merlin - keyword introduced with Fear No Evil.
+    """
+    return re.match('Starting\\.', card.properties["Text"])
+
 def lookForToughness(card):
     """
     Adds a Tough status card to a character if such ability is found in card's text
