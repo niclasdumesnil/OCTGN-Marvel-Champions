@@ -424,15 +424,20 @@ def scenarioSetup(group=table, x = 0, y = 0):
         revealCardOnSetup("Dense", "57046a", tableLocations['environment'][0], tableLocations['environment'][1])
 
     #------------------------------------------------------------
-    # Fear No Evil (fanmade) - five scenarios split from their villain (see
-    # nbUnderling in loadVillain.py) : vName here is the scenario's OCTGN card
-    # name, which Nexus writes as the internal slug ('protection_racket_by_ffg'),
-    # not a display name like the official sets above - confirmed by reading the
-    # generated set.xml, not assumed. villainCards[0] is whichever Underling
-    # villain the player chose, already the correct set thanks to nbUnderling.
+    # Fear No Evil - five scenarios split from their villain (see nbUnderling
+    # in loadVillain.py), so villainCards[0] is whichever Underling villain the
+    # player chose, already the correct set.
+    # vName is the scenario's OCTGN card name, a display name like the official
+    # sets above ('Art Museum Heist'). The generator used to emit the internal
+    # slug there ('art_museum_heist_by_ffg'), which showed up as-is in the
+    # scenario picker and sorted under the slug's first letter - fixed on the
+    # generator side, so these blocks now match display names like every
+    # official block in this function. Owner keeps the slug: it stays the key
+    # for everything set-related (createCardsFromSet, campaignEncounter,
+    # underlingVillainSetup).
     # Origine : Merlin - mise en place cablee en dur pour Fear No Evil (2026).
     #------------------------------------------------------------
-    elif vName == 'art_museum_heist_by_ffg':
+    elif vName == 'Art Museum Heist':
         # Setup: "Find this encounter set's 4 Art attachments and attach 1 at
         # random to the villain. Shuffle the other 3 into the encounter deck."
         # The other 3 are left in the Encounter deck as-is: the unconditional
@@ -457,7 +462,7 @@ def scenarioSetup(group=table, x = 0, y = 0):
         artCards[randomArt].moveToTable(villainX(1, 0) - 35, tableLocations['villain'][1] + 5)
         artCards[randomArt].sendToBack()
 
-    elif vName == 'the_getaway_by_ffg':
+    elif vName == 'The Getaway':
         # Setup: "Place 1 speed counter here (2 counters instead in expert mode).
         # Attach the Out Front attachment (129A) to the villain." Speed counters
         # are tracked with AllPurposeMarker: addMarker() would put them on Threat
@@ -473,7 +478,7 @@ def scenarioSetup(group=table, x = 0, y = 0):
         mainSchemeCards[0].markers[AllPurposeMarker] += 2 if gameDifficulty == "1" else 1
         revealCardOnSetup("Out Front", "60129a", villainX(1, 0) - 35, tableLocations['villain'][1] + 5, isAttachment=True)
 
-    elif vName == 'protection_racket_by_ffg':
+    elif vName == 'Protection Racket':
         # Setup ("manigance multiple") : this scenario has no single shared main
         # scheme. Each player has THEIR OWN main scheme card (5 different shops,
         # same stats, different ability) in their own play area ; unused shops
@@ -502,7 +507,7 @@ def scenarioSetup(group=table, x = 0, y = 0):
         for c in unassignedSchemes:
             c.moveTo(removedFromGameDeck())
 
-    elif vName == 'the_raft_breakout_by_ffg':
+    elif vName == 'The Raft Breakout':
         # Setup: "Attach Master Key to the villain. Each player discards cards
         # from the encounter deck until they discard a Prisoner minion and
         # reveal that minion." Actually simulated (2026-08-26, was previously
@@ -532,7 +537,7 @@ def scenarioSetup(group=table, x = 0, y = 0):
                 else:
                     drawnCard.moveTo(encounterDiscardDeck())
 
-    elif vName == 'stop_the_presses_by_ffg':
+    elif vName == 'Stop The Presses!':
         # Setup: "Put the Daily Bugle environment into play. Each player puts a
         # random Daily Bugle support from this encounter set into play under their
         # control. Remove each remaining Daily Bugle support from the game."
@@ -552,7 +557,7 @@ def scenarioSetup(group=table, x = 0, y = 0):
         for c in bugleCards:
             c.moveTo(removedFromGameDeck())
 
-    elif vName == 'kingpin_by_ffg':
+    elif vName == 'Kingpin':
         # Kingpin is NOT a single card with Standard/Expert alternate faces
         # like other villains (Rhino, Batroc...): it is two separate card
         # entities, one per difficulty, each with its own two internal
@@ -882,7 +887,7 @@ def nextSchemeStageSetup(vName = None):
     # player reveals it themselves via the normal Reveal action, which also
     # runs placeThreatOnScheme() for its "b" face (2B, Threat 7).
     # Origine : Merlin - voir la fiche de tracabilite pour le detail.
-    if vName == 'kingpin_by_ffg':
+    if vName == 'Kingpin':
         # Endgame's own "When Revealed" (2A): "Each player finds their
         # nemesis minion... finds an Underling minion..." stays deliberately
         # non-automated, same reasoning as the nemesis mechanism in
@@ -1184,7 +1189,7 @@ def nextVillainStageSetup(vName = None):
             vCards[0].moveToTable(vilX, vilY)
             notify("{} advances Villain to the next stage".format(me))
 
-    elif vName == 'kingpin_by_ffg':
+    elif vName == 'Kingpin':
         # Kingpin (see scenarioSetup() above): its two internal stages are
         # the two alternate faces of the SAME entity (60159 or 60160), not
         # two separate entities - the generic else branch below would

@@ -160,6 +160,34 @@ def getSetupCards():
     shift = 0
     for c in encounterAndDiscardDeck():
         if lookForSetup(c):
+            # A campaign REWARD carrying "Setup." is not a scenario setup
+            # card: it belongs to the player who earned it in an earlier
+            # scenario, and only if the table plays the campaign at all.
+            # Posing it here would hand it out in every game, campaign or not.
+            # File it in the Campaign pile instead, next to the other campaign
+            # cards (campaignEncounter() in loadModular.py) - so it also leaves
+            # the encounter deck, where it could otherwise be drawn as an
+            # encounter card mid-game.
+            # Safety net only: a correctly tagged pack carries
+            # DefaultSetupPile="Campaign" on such a card, which files it before
+            # this function ever sees it. It still catches the packs that
+            # predate that rule - Fantastic Four and Web of Deceit both keep
+            # campaign rewards inside a MODULAR set, so those do reach the
+            # encounter deck today.
+            # Both factions are checked because the corpus uses both: campaign
+            # rewards are tagged "campaign" (33 cards over 6 packs, the
+            # convention), and a pack may still mistag one as "hero" - which is
+            # exactly how Fear No Evil's Typhoid Mary ally was found in play.
+            # Never fires on an encounter-faction card, so the scenario setup
+            # cards this function exists for are untouched. Checked over the
+            # 122 sets of the repo: no card outside those campaign rewards
+            # matches - Stop the Presses!' Daily Bugle supports are hero
+            # faction too, but carry no "Setup." and stay in the encounter deck
+            # where the scenario code filters them.
+            # Origine : Merlin - cartes de campagne de Fear No Evil (2026).
+            if c.Faction == "campaign" or c.Faction == "hero":
+                c.moveTo(campaignDeck())
+                continue
             c.moveToTable(0 + shift, tableLocations['villain'][1] + 100)
             shift += 20
 
