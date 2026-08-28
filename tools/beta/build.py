@@ -444,6 +444,147 @@ def empaqueter_o8g(staging_dir: Path, nom_beta: str, version_beta: str) -> Path:
     return chemin_o8g
 
 
+GABARIT_SCRIPT_JONCTION = """@echo off
+setlocal
+
+rem Prepare l'installation du module {nom_beta} : remplace son
+rem dossier d'images par une jonction vers celui du module officiel, pour que
+rem la beta affiche les cartes sans dupliquer ~2 Go d'images.
+rem
+rem Peut se lancer avant OU apres l'installation de la beta, OCTGN ouvert ou
+rem non. Sans droits admin : une jonction NTFS n'en demande pas.
+rem
+rem Point delicat traite ici : les images de MISE EN PLACE des scenarios sont
+rem livrees dans le paquet du module, donc extraites dans le dossier d'images
+rem de la BETA a l'installation - elles n'existent pas cote officiel. Les
+rem supprimer avec le dossier obligerait a reinstaller la beta pour les
+rem retrouver. Elles sont donc DEPLACEES vers le dossier officiel avant la
+rem creation de la jonction : c'est exactement l'endroit ou elles auraient
+rem atterri si la jonction avait existe des le depart (toute ecriture cote
+rem beta traverse la jonction et tombe cote officiel).
+rem
+rem Ce que ca fait, sans etat d'ame : le dossier d'images de la beta et tout
+rem son contenu sont supprimes, puis remplaces par la jonction. Ce dossier ne
+rem contient jamais rien d'irremplacable - soit il est vide, soit il ne
+rem contient que des proxys de cartes generes par OCTGN faute d'images, qu'il
+rem regenerera au besoin. Les vraies images vivent cote officiel, et la
+rem jonction n'y touche pas (verifie au spike du Lot 0 : les API de
+rem suppression standard de Windows ne traversent pas une jonction).
+rem
+rem ---------------------------------------------------------------------
+rem FICHIER GENERE par tools/beta/build.py a partir de config.json.
+rem Ne pas le modifier a la main : toute retouche sera ecrasee au prochain
+rem build. Corriger le gabarit dans build.py.
+rem Build : {marque}
+rem ---------------------------------------------------------------------
+
+set GUID_OFFICIEL={guid_officiel}
+set GUID_BETA={guid_beta}
+set BASE=%LOCALAPPDATA%\\Programs\\OCTGN\\Data\\ImageDatabase
+set OFFICIEL=%BASE%\\%GUID_OFFICIEL%
+set BETA=%BASE%\\%GUID_BETA%
+
+echo {nom_beta} - liaison des images avec le module officiel
+echo.
+
+if not exist "%OFFICIEL%" (
+    echo [ERREUR] Dossier d'images du module officiel introuvable :
+    echo   "%OFFICIEL%"
+    echo Le module officiel Marvel Champions doit etre installe dans OCTGN
+    echo avant de lancer ce script.
+    echo.
+    pause
+    exit /b 1
+)
+
+rem Jonction deja en place ? On s'arrete la. Sans ce test, robocopy tournerait
+rem d'une jonction vers sa propre cible : il le detecte et ne fait rien (verifie),
+rem mais dependre de ce comportement pour ~2 Go d'images officielles serait
+rem imprudent - le cas est donc ecarte explicitement.
+rem `dir /al` liste les points d'analyse (jonctions, liens) du dossier parent.
+for /f "delims=" %%J in ('dir /al "%BASE%" 2^>nul ^| findstr /i /c:"%GUID_BETA%"') do (
+    echo Les images sont deja liees, rien a faire.
+    echo.
+    pause
+    exit /b 0
+)
+
+if exist "%BETA%" (
+    rem Deplacement des images de mise en place vers l'officiel. /XD Proxies
+    rem laisse de cote les proxys que OCTGN regenere tout seul : inutile de les
+    rem recopier, ils seront jetes avec le reste juste apres.
+    echo Preservation des images de mise en place...
+    robocopy "%BETA%" "%OFFICIEL%" /E /MOVE /XD Proxies /NFL /NDL /NJH /NJS /NC /NS >nul
+    rem robocopy : 0-7 = succes (0 = rien a faire), 8 et plus = echec reel.
+    if errorlevel 8 (
+        echo [ERREUR] Impossible de deplacer les images de mise en place depuis :
+        echo   "%BETA%"
+        echo Fermez OCTGN puis relancez ce script.
+        echo.
+        pause
+        exit /b 1
+    )
+    echo Suppression du dossier d'images de la beta...
+    rmdir /s /q "%BETA%" 2>nul
+    if exist "%BETA%" (
+        echo [ERREUR] Impossible de supprimer :
+        echo   "%BETA%"
+        echo.
+        pause
+        exit /b 1
+    )
+)
+
+echo Creation de la jonction...
+mklink /J "%BETA%" "%OFFICIEL%"
+if errorlevel 1 (
+    echo [ERREUR] La creation de la jonction a echoue.
+    echo.
+    pause
+    exit /b 1
+)
+
+echo.
+echo OK - les images du module officiel sont maintenant visibles depuis la beta,
+echo et les images de mise en place ont ete conservees.
+echo Rien d'autre a faire : installez la beta si ce n'est pas deja fait, ou
+echo relancez-la si une partie etait ouverte.
+echo.
+pause
+"""
+
+
+def ecrire_script_jonction_images(guid_officiel: str, guid_beta: str, nom_beta: str, marque: str) -> Path:
+    """Génère le .bat de pré-installation qui lie les images bêta aux officielles.
+
+    Le module bêta porte un GUID distinct, donc OCTGN lui crée une
+    ImageDatabase vide : sans jonction vers celle du module officiel, aucune
+    carte ne s'affiche. `ensureImageDatabaseJunction()` (scripts/actions.py)
+    tente de la créer seul au lancement d'une partie ; ce script est le canal
+    manuel, pour un poste où l'auto-création échoue.
+
+    Généré plutôt que maintenu à la main : il porte les deux GUID, qui vivent
+    dans config.json. Un fichier committé à côté se serait désynchronisé au
+    premier changement de GUID, silencieusement — le script aurait alors lié
+    ou supprimé le mauvais dossier.
+
+    Écrit dans dist/, à côté du .nupkg et du .o8g : c'est ce que le hub
+    distribue aux testeurs, et dist/ est ignoré par git (pas de fichier généré
+    committé).
+    """
+    chemin = DIST_DIR / "lier-images-beta.bat"
+    contenu = GABARIT_SCRIPT_JONCTION.format(
+        guid_officiel=guid_officiel,
+        guid_beta=guid_beta,
+        nom_beta=nom_beta,
+        marque=marque,
+    )
+    # Fins de ligne Windows explicites : un .bat en LF casse sur certaines
+    # versions de cmd.exe, et le testeur n'aurait aucun message exploitable.
+    chemin.write_bytes(contenu.replace("\n", "\r\n").encode("ascii"))
+    return chemin
+
+
 def installer_localement(staging_dir: Path, guid_beta: str) -> Path:
     """Installe le paquet bêta dans le feed local d'OCTGN (o8build -i).
 
@@ -657,6 +798,8 @@ def construire(config: dict) -> dict:
     print(f"      -> {chemin_nupkg.name} ({chemin_nupkg.stat().st_size / 1024:.0f} Ko, validé par o8build)")
     chemin_o8g = empaqueter_o8g(STAGING_DIR, nom_beta, version_beta)
     print(f"      -> {chemin_o8g.name} ({chemin_o8g.stat().st_size / 1024:.0f} Ko, téléchargement direct)")
+    chemin_jonction = ecrire_script_jonction_images(guid_officiel, guid_beta, nom_beta, marque)
+    print(f"      -> {chemin_jonction.name} (jonction des images, à lancer avant l'installation)")
     empreinte = journaliser_build(chemin_nupkg, version_beta, marque)
     print(f"      sha512-b64 : {empreinte}")
 
@@ -667,6 +810,7 @@ def construire(config: dict) -> dict:
         "version_beta": version_beta,
         "chemin_nupkg": chemin_nupkg,
         "chemin_o8g": chemin_o8g,
+        "chemin_jonction": chemin_jonction,
         "nb_sets_patches": len(set_xml_touches),
         "nb_sets_sources": nb_sets_sources,
         "fichiers_hors_set_xml": hors_set_xml,
