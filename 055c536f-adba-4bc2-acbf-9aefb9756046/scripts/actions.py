@@ -969,6 +969,37 @@ def discard(card, x = 0, y = 0):
     mute()
     card.controller = me
 
+    # A player card can name the pile of its OWN player it goes back to when it
+    # leaves play. Needed by side decks that never lose their cards: Daredevil's
+    # identity reads "When a [[SENSE]] upgrade would leave play, place it on the
+    # bottom of the [[SENSE]] deck instead", and Iceman's Frostbite reads "set
+    # this card aside" - both go back to their own pile, never to a discard one.
+    # The optional ":Bottom" suffix carries that "under": moveTo() alone would
+    # put the card back on top.
+    # Checked BEFORE the Permanent guard on purpose. A card that says where it
+    # returns to is not being discarded, it is being recycled, and the guard -
+    # which is there to stop an accidental discard - would otherwise make the
+    # move impossible: Frostbite carries the Permanent keyword.
+    # Deliberately NOT the existing DefaultDiscardPile property, which names a
+    # SHARED pile (20 player side schemes already point it at "Side Discard", a
+    # pile the player does not have): reusing it here would break them.
+    # Doctor Strange's Invocation keeps its hard-coded branch below.
+    # Origine : Merlin - side decks that recycle their cards, introduced with
+    # Daredevil's SENSE deck (Fear No Evil).
+    if card.hasProperty("PlayerDiscardPile"):
+        target = card.properties["PlayerDiscardPile"]
+        if ":" in target:
+            pileName, position = target.split(":", 1)
+            pileName, position = pileName.strip(), position.strip().lower()
+        else:
+            pileName, position = target.strip(), ""
+        notify("{} puts {} back into {}.".format(me, card, pileName))
+        if position == "bottom":
+            card.moveToBottom(me.piles[pileName])
+        else:
+            card.moveTo(me.piles[pileName])
+        return
+
     if isPermanent(card):
         notify("{} has 'Permanent' keyword and cannot be discarded!".format(card.name))
         return
@@ -1526,6 +1557,16 @@ def lookForSetup(card):
     Look for Villainous keyword => for boost card purpose
     """
     return re.search('.*Setup.*', card.properties["Text"])
+
+def lookForStarting(card):
+    """
+    Look for the "Starting." keyword => card joins the player's starting hand
+    Anchored on purpose: an unanchored search would match any card whose text
+    merely mentions "starting" (e.g. "your starting hand") and wrongly pull it
+    out of the deck.
+    Origine : Merlin - keyword introduced with Fear No Evil.
+    """
+    return re.match('Starting\\.', card.properties["Text"])
 
 def lookForToughness(card):
     """
