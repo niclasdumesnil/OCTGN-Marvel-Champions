@@ -93,6 +93,10 @@
         <property name="DefaultMarkerType" type="String" />
         <property name="DefaultSetupPile" type="String" />
         <property name="DefaultDiscardPile" type="String" />
+        <!-- Where a card must go when the hero is set up, when its own text carries no
+             "Setup" keyword for lookForSetup() to find. Read in heroSetup().
+             Origine : Merlin - generic setup of permanents, added with Jessica Jones. -->
+        <property name="DefaultSetupLocation" type="String" />
         <property name="nbModular" type="String" />
         <property name="mandatoryModular" type="String" />
         <property name="recommendedModular" type="String" />
