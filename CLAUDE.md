@@ -28,6 +28,42 @@ relire le diff :
 Le moteur est en **Python 2 / IronPython** : rester dans le style du fichier (indentation
 4 espaces, docstrings triple-quotes), ne pas moderniser la syntaxe au passage.
 
+⚠️ **ASCII pur obligatoire dans `scripts\*.py`**, commentaire d'Origine compris — même un
+seul accent (`é`, `à`, `ç`...) fait échouer `o8build` (absence de déclaration d'encodage,
+PEP 263), avec un message qui ne pointe que le numéro de ligne. Écrire les commentaires
+d'origine et explications en anglais ASCII, comme le reste du fichier — la fiche de
+traçabilité, elle, reste en français dans le vault. Après toute modification, vérifier
+avant de considérer le lot terminé :
+```python
+import io
+lines = io.open('<fichier.py>', encoding='utf-8').readlines()
+bad = [i for i, l in enumerate(lines, 1) for ch in l if ord(ch) > 127]
+```
+Un résultat non vide = le build va échouer sur ces lignes. Payé deux fois
+(`loadHero.py` puis `setup.py`), voir la mémoire `octgn-engine-ascii-comments`.
+
+---
+
+## 🆕 Au démarrage d'une nouvelle session
+
+1. **Lire `_cadrage.md`** (vault, `C:\OS-Merlin\memoire\projets\OCTGN-Marvel-Champions\_cadrage.md`),
+   section « Journal des lots » — les dernières entrées disent l'état réel : ce qui vient
+   d'être livré, ce qui est encore « en test » (pas validé en jeu), et les chantiers
+   explicitement différés (ex. Kingpin/Typhoid Mary dans
+   `modifications/fear-no-evil-mise-en-place.md` au 2026-08-24). Sans cette lecture, le
+   risque est de refaire un travail déjà fait, ou de proposer un correctif déjà écarté.
+2. **`git status`** — l'arbre de travail accumule du code non commité d'une session à
+   l'autre, c'est normal sur ce chantier (commit seulement sur validation explicite en jeu,
+   jamais poussé sans demande). Ne pas s'alarmer d'un statut chargé, ne rien committer/
+   pousser sans instruction.
+   ➡️ Pour **récupérer les commits d'Ourob09** (ou vérifier si nos PR ont été mergées —
+   il merge sans prévenir), charger le skill **`octgn-sync-upstream`** : il porte la
+   procédure, les contrôles `tools\beta\verifier_rapprochement.py` et les pièges. Un merge
+   propre ne prouve rien ici : les casses de rapprochement sont silencieuses.
+3. **Avant tout `build.py --install`**, vérifier `tools\beta\config.json` →
+   `revision_beta` : le build refuse une révision déjà installée dans OCTGN (message
+   d'erreur explicite) — l'incrémenter d'abord si nécessaire.
+
 ---
 
 ## 📁 Structure du dépôt
@@ -53,7 +89,12 @@ n'a rien à voir avec la vraie cause :
 Start-Process -FilePath "<...>\OCTGN.exe" -WorkingDirectory "<...dossier d'installation>"
 ```
 
-Les vraies erreurs sont dans `Logs\Octgn.log`, pas à l'écran.
+Pour une erreur de **script** (Python planté en jeu), `Logs\Octgn.log` n'aide pas : OCTGN
+n'y écrit **jamais** les erreurs de script (vérifié sur 20 fichiers de log en août 2026,
+cf. `modifications/instrumentation-save-load.md`) — seules les erreurs de démarrage du
+module y apparaissent. Un plantage de script ne s'affiche que dans la fenêtre de jeu et
+disparaît avec elle ; c'est pour ça que la bêta écrit sa propre trace (`DEBUG_SAVELOAD`,
+voir la fiche ci-dessus) à côté du fichier de sauvegarde.
 
 ---
 
@@ -75,8 +116,9 @@ vault — s'y conformer plutôt que d'inventer une variante. Skills utiles :
   `lot0-spike-resultats.md`, `contrat-generation-sets.md`.
 - **Modifications du moteur** : `modifications\` — une fiche par modification (règle 2
   ci-dessus).
-- ⚠️ **Il n'existe pas encore de `doc-utilisation\`** pour ce projet : à créer le jour où
-  la bêta est distribuée à des testeurs, qui auront besoin d'un mode d'emploi.
+- **Utilisation** : `C:\OS-Merlin\memoire\projets\OCTGN-Marvel-Champions\doc-utilisation\`
+  — créée pour l'environnement bêta (`environnement-beta.md`), à tenir à jour à mesure que
+  la bêta se distribue à des testeurs.
 
 **Convention impérative : à chaque lot livré, la doc est mise à jour.** Un lot livré sans
 sa doc est un lot incomplet. Les gabarits, le frontmatter et les règles d'index sont portés

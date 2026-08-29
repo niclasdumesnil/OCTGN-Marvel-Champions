@@ -644,8 +644,8 @@ def packs_hors_upstream(dossier_source: str, noms_ajoutes: list[str]) -> tuple[l
     return packs, reference
 
 
-def ecrire_nouveautes(version_beta: str, marque: str, dossier_source: str, noms_ajoutes: list[str]) -> tuple[Path, int, int]:
-    """Produit dist/nouveautes.json : ce que la bêta apporte, pour le testeur.
+def ecrire_nouveautes(version_beta: str, marque: str, dossier_source: str, noms_ajoutes: list[str]) -> tuple[Path, int, int, int]:
+    """Produit dist/nouveautes.json : ce que la bêta apporte, et ce qu'on demande de tester.
 
     Deux moitiés d'origines différentes, assumées comme telles : les
     FONCTIONNALITÉS viennent de tools/beta/nouveautes.json, écrites à la main
@@ -659,15 +659,22 @@ def ecrire_nouveautes(version_beta: str, marque: str, dossier_source: str, noms_
     bêta reste livrable —, mais le dit franchement : la liste s'afficherait
     amputée sans que personne ne s'en aperçoive.
     """
-    fonctionnalites = []
+    fonctionnalites, tests = [], []
     if NOUVEAUTES_PATH.exists():
         try:
             with NOUVEAUTES_PATH.open("r", encoding="utf-8") as f:
-                fonctionnalites = json.load(f).get("fonctionnalites") or []
+                editorial = json.load(f)
+            fonctionnalites = editorial.get("fonctionnalites") or []
+            # Les TESTS ATTENDUS suivent le meme canal que les fonctionnalites : ecrits a
+            # la main dans le meme fichier, servis par le hub dans leur propre onglet. Une
+            # demande de test n'a de valeur que si elle atteint le testeur au moment ou il
+            # installe la version concernee.
+            # Origine : Merlin - rubrique « tests attendus » de la page beta (2026).
+            tests = editorial.get("tests") or []
         except (json.JSONDecodeError, OSError) as e:
-            print(f"      /!\\ nouveautes.json illisible ({e}) : liste des fonctionnalites VIDE")
+            print(f"      /!\\ nouveautes.json illisible ({e}) : listes VIDES")
     else:
-        print(f"      /!\\ {NOUVEAUTES_PATH.name} absent : liste des fonctionnalites VIDE")
+        print(f"      /!\\ {NOUVEAUTES_PATH.name} absent : listes VIDES")
 
     packs, reference = packs_hors_upstream(dossier_source, noms_ajoutes)
 
@@ -679,10 +686,11 @@ def ecrire_nouveautes(version_beta: str, marque: str, dossier_source: str, noms_
         "reference_amont": reference,
         "fonctionnalites": fonctionnalites,
         "packs": packs,
+        "tests": tests,
     }
     with chemin.open("w", encoding="utf-8") as f:
         json.dump(contenu, f, ensure_ascii=False, indent=2)
-    return chemin, len(fonctionnalites), len(packs)
+    return chemin, len(fonctionnalites), len(packs), len(tests)
 
 
 def installer_localement(staging_dir: Path, guid_beta: str) -> Path:
@@ -900,12 +908,12 @@ def construire(config: dict) -> dict:
     print(f"      -> {chemin_o8g.name} ({chemin_o8g.stat().st_size / 1024:.0f} Ko, téléchargement direct)")
     chemin_jonction = ecrire_script_jonction_images(guid_officiel, guid_beta, nom_beta, marque)
     print(f"      -> {chemin_jonction.name} (jonction des images, à lancer avant l'installation)")
-    chemin_nouveautes, nb_fonctionnalites, nb_packs = ecrire_nouveautes(
+    chemin_nouveautes, nb_fonctionnalites, nb_packs, nb_tests = ecrire_nouveautes(
         version_beta, marque, config["dossier_definition_source"], noms_ajoutes
     )
     print(
         f"      -> {chemin_nouveautes.name} ({nb_fonctionnalites} fonctionnalite(s), "
-        f"{nb_packs} pack(s) hors amont)"
+        f"{nb_packs} pack(s) hors amont, {nb_tests} test(s) attendu(s))"
     )
     empreinte = journaliser_build(chemin_nupkg, version_beta, marque)
     print(f"      sha512-b64 : {empreinte}")

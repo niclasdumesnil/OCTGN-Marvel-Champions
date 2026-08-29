@@ -22,7 +22,15 @@
     "(spécifique à la bêta, ne partira pas en amont).",
     "",
     "À TENIR À JOUR à chaque lot livré, au même titre que la fiche du vault : ce",
-    "fichier est ce que les testeurs lisent."
+    "fichier est ce que les testeurs lisent.",
+    "",
+    "affiche dans son propre onglet sur la page beta du hub. Un test n'est utile que s'il",
+    "TESTS ATTENDUS ('tests') : ce qu'on demande explicitement aux testeurs de vérifier,",
+    "affiché dans son propre onglet sur la page bêta du hub. Un test n'est utile que s'il",
+    "est ACTIONNABLE sans rien savoir du code : dire pourquoi on doute, les étapes exactes,",
+    "le résultat attendu CHIFFRÉ quand c'est possible, et ce qui doit être signalé. Écrire",
+    "« 4 menaces à 2 joueurs », jamais « le bon nombre de menaces ».",
+    "Retirer un test une fois validé : cette liste est une demande en cours, pas un historique."
   ],
   "fonctionnalites": [
     {
@@ -136,6 +144,34 @@
       "en": {
         "titre": "Save/load tracing",
         "texte": "Beta only: every step of a game save or load is written to a trace file, next to the save file. OCTGN never reports script errors anywhere but the game window, where they scroll away; attach this file to a bug report."
+      }
+    }
+  ],
+  "tests": [
+    {
+      "id": "menace-manigance-leader-multi",
+      "joueurs": "2+",
+      "fr": {
+        "titre": "Menace de départ des manigances de leader, à plusieurs joueurs",
+        "pourquoi": "En solo, la manigance principale d'un scénario de leader (Civil War, Synthezoid Smackdown, Valkyrie et Quicksilver) démarrait avec 2 menaces que la carte ne demande pas : elle ne gagne Entrave qu'à partir de deux joueurs, et le moteur ne lisait pas cette condition. C'est corrigé, mais la correction touche AUSSI le cas à plusieurs joueurs — c'est celui-là qu'on veut voir confirmé.",
+        "etapes": [
+          "Lancer une partie à 2 joueurs au moins (le test ne veut rien dire en solo).",
+          "Charger un scénario de leader : Valkyrie ou Quicksilver côté fanmade, ou l'un des six officiels (Iron Man, Captain Marvel, Captain America, Spider-Woman, She-Hulk, Vision).",
+          "Une fois la mise en place terminée, regarder le nombre de marqueurs de menace sur la manigance principale, et lire la ligne correspondante dans le journal de partie."
+        ],
+        "attendu": "2 menaces par héros : 4 à 2 joueurs, 6 à 3, 8 à 4. Le journal annonce ce nombre (« threats from Hinder keyword »). En solo, la même manigance doit au contraire démarrer à 0.",
+        "signaler_si": "Le compte diffère de 2 × le nombre de héros, ou la manigance démarre à 0 alors que vous êtes plusieurs. Préciser le scénario, le nombre de joueurs et la ligne du journal."
+      },
+      "en": {
+        "titre": "Starting threat on leader main schemes, with more than one player",
+        "pourquoi": "In solo, the main scheme of a leader scenario (Civil War, Synthezoid Smackdown, Valkyrie and Quicksilver) started with 2 threats the card never asks for: it only gains Hinder beyond one player, and the engine did not read that condition. This is fixed, but the fix also touches the multiplayer case - that is the one we want confirmed.",
+        "etapes": [
+          "Start a game with at least 2 players (the test means nothing in solo).",
+          "Load a leader scenario: Valkyrie or Quicksilver on the fanmade side, or one of the six official ones (Iron Man, Captain Marvel, Captain America, Spider-Woman, She-Hulk, Vision).",
+          "Once setup is done, look at the threat markers on the main scheme, and read the matching line in the game log."
+        ],
+        "attendu": "2 threats per hero: 4 with 2 players, 6 with 3, 8 with 4. The log states that number (\"threats from Hinder keyword\"). In solo, the same scheme must start at 0 instead.",
+        "signaler_si": "The count differs from 2 x the number of heroes, or the scheme starts at 0 while several of you are playing. Please give the scenario, the player count and the log line."
       }
     }
   ]
