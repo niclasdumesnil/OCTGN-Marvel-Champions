@@ -610,34 +610,34 @@ As an additional cost to change forms, discard 1 card from your hand.
       <property name="Text">Uses (3 pheromone counters).
 &lt;b&gt;Forced Action&lt;/b&gt;: Exhaust this card and remove 1 pheromone counter from it → choose to either play a card that has a printed [energy] resource icon &lt;i&gt;(paying its costs)&lt;/i&gt; or add 2 threat to the main scheme.</property>
       <property name="Quote" value="“Do me a favor...” –Purple Man"/>
-      <alternate name="Suggestion ([mental])" type="b" size="EncounterCard">
-        <property name="DefaultSetupPile" value="Nemesis"/>
-        <property name="CardNumber" value="61033b"/>
-        <property name="Position" value="33"/>
-        <property name="Quantity" value="1"/>
-        <property name="Type" value="obligation"/>
-        <property name="Faction" value="encounter"/>
-        <property name="Owner" value="jessica_jones_by_ffg_nemesis"/>
-        <property name="Boost" value="2"/>
-        <property name="Unique" value="False"/>
-        <property name="Text">Uses (3 pheromone counters).
+    </card>
+    <card name="Suggestion ([mental])" id="79de0c38-0a41-40e6-b617-9a864661033b" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="61033b"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="obligation"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="jessica_jones_by_ffg_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">Uses (3 pheromone counters).
 &lt;b&gt;Forced Action&lt;/b&gt;: Exhaust this card and remove 1 pheromone counter from it → choose to either play a card that has a printed [mental] resource icon &lt;i&gt;(paying its costs)&lt;/i&gt; or add 2 threat to the main scheme.</property>
-        <property name="Quote" value="“Simon didn't say so.” –Purple Man"/>
-      </alternate>
-      <alternate name="Suggestion ([physical])" type="c" size="EncounterCard">
-        <property name="DefaultSetupPile" value="Nemesis"/>
-        <property name="CardNumber" value="61033c"/>
-        <property name="Position" value="33"/>
-        <property name="Quantity" value="1"/>
-        <property name="Type" value="obligation"/>
-        <property name="Faction" value="encounter"/>
-        <property name="Owner" value="jessica_jones_by_ffg_nemesis"/>
-        <property name="Boost" value="2"/>
-        <property name="Unique" value="False"/>
-        <property name="Text">Uses (3 pheromone counters).
+      <property name="Quote" value="“Simon didn't say so.” –Purple Man"/>
+    </card>
+    <card name="Suggestion ([physical])" id="79de0c38-0a41-40e6-b617-9a864661033c" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="61033c"/>
+      <property name="Position" value="33"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="obligation"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="jessica_jones_by_ffg_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">Uses (3 pheromone counters).
 &lt;b&gt;Forced Action&lt;/b&gt;: Exhaust this card and remove 1 pheromone counter from it → choose to either play a card that has a printed [physical] resource icon &lt;i&gt;(paying its costs)&lt;/i&gt; or add 2 threat to the main scheme.</property>
-        <property name="Quote" value="“Nuh-uh-uh.” –Purple Man"/>
-      </alternate>
+      <property name="Quote" value="“Nuh-uh-uh.” –Purple Man"/>
     </card>
   </cards>
 </set>
