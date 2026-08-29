@@ -605,7 +605,13 @@ def scenarioSetup_fm(group=table, x = 0, y = 0):
     vName = getGlobalVariable("villainSetup")
 
     # Move cards from Villain Deck to Encounter and Scheme Decks
-    villainCards = sorted(filter(lambda card: card.Type == "villain", villainDeck()), key=lambda c: c.CardNumber)
+    # A "leader" IS the villain of its scenario (Civil War, Synthezoid Smackdown):
+    # its cards carry Type "leader", never "villain". The official scenarioSetup()
+    # already filters on both (see the same line at the top of this file); the fanmade
+    # one did not, so villainCards came out empty and the generic branch below raised
+    # IndexError on villainCards[0] - in the player's face, with no villain on the table.
+    # Origine : Merlin - premiers scenarios de leader fanmade (Boomguy), 2026.
+    villainCards = sorted(filter(lambda card: (card.Type == "villain" or card.Type == "leader"), villainDeck()), key=lambda c: c.CardNumber)
     mainSchemeCards = sorted(filter(lambda card: card.Type == "main_scheme", mainSchemeDeck()), key=lambda c: c.CardNumber)
     villainEnvCards = sorted(filter(lambda card: card.Type == "environment", encounterDeck()))
     villainAttCards = sorted(filter(lambda card: card.Type == "attachment", encounterDeck()))
@@ -759,6 +765,31 @@ def scenarioSetup_fm(group=table, x = 0, y = 0):
         envCard[0].moveToTable(tableLocations['environment'][0], tableLocations['environment'][1])
         shuffle(sideDeck())
         sideDeck().visibility = "all"
+
+    #------------------------------------------------------------
+    # Leaders (Civil War), cote fanmade
+    #------------------------------------------------------------
+    # Meme mise en place que les six leaders officiels, dont ces blocs reprennent
+    # la forme exacte : la manigance principale du camp, le leader, puis les deux
+    # cartes que le scenario reclame - la manigance annexe du leader (a droite de
+    # la manigance principale) et l'attachement que son texte "Setup" nomme (a
+    # l'emplacement environnement, d'ou le joueur la rattache au leader).
+    # Les manigances sont triees par Stage, comme cote officiel : le camp en
+    # apporte deux (1A puis 2A) et seule la premiere se pose ici.
+    # Origine : Merlin - premiers leaders fanmade (Boomguy), 2026.
+    elif vName == 'Valkyrie':
+        mainSchemeCards = sorted(filter(lambda card: card.Type == "main_scheme", mainSchemeDeck()), key=lambda c: c.Stage)
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        revealCardOnSetup("Valhalla", "208412", tableLocations['mainScheme'][0] + 100, tableLocations['mainScheme'][1])
+        revealCardOnSetup("Shieldmaiden", "208405a", tableLocations['environment'][0], tableLocations['environment'][1])
+
+    elif vName == 'Quicksilver':
+        mainSchemeCards = sorted(filter(lambda card: card.Type == "main_scheme", mainSchemeDeck()), key=lambda c: c.Stage)
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        revealCardOnSetup("Serval Industries", "208311", tableLocations['mainScheme'][0] + 100, tableLocations['mainScheme'][1])
+        revealCardOnSetup("Friction Resistance", "208305", tableLocations['environment'][0], tableLocations['environment'][1])
 
     else:
         # If we loaded the encounter deck - add the first villain and main scheme cards to the table
