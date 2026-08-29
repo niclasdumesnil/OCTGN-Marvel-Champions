@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Valkyrie" id="89221f80-16d6-46db-a7d2-4ad908d70b1b" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="89221f80-16d6-46db-a7d2-4ad908000000" name="Valkyrie">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="valkyrie_by_boomguy"/>
+      <property name="nbModular" value="4"/>
+      <property name="mandatoryModular" value="{'registration': ['Registration', 'Scheme', False], 'synthezoid_registration': ['Synthezoid Registration', 'Scheme', False]}"/>
+      <property name="CW_Side" value="registration"/>
+      <property name="recommendedModular" value="{'mighty_avengers': ['Mighty Avengers', 'Encounter', False], 'the_initiative': ['The Initiative', 'Encounter', False], 'maria_hill_modular': ['Maria Hill', 'Encounter', False], 'dangerous_recruits': ['Dangerous Recruits', 'Encounter', False]}"/>
+    </card>
+    <card name="Valkyrie" id="89221f80-16d6-46db-a7d2-4ad908084001">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="208401"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="leader"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="valkyrie_by_boomguy"/>
+      <property name="HP" value="14"/>
+      <property name="Attack" value="1"/>
+      <property name="Thwart" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Asgard. Avenger."/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: The enemy team finds and attaches Shieldmaiden to Valkyrie.
+&lt;b&gt;[star] Forced Interrupt: &lt;/b&gt; When Valkyrie attacks, if Death-Glow is in play, Valkyrie attacks the character with Death-Glow attached → this attack gains overkill.</property>
+      <property name="Quote" value="“You might be wise to surrender.”"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+    </card>
+    <card name="Valkyrie" id="89221f80-16d6-46db-a7d2-4ad908084002">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="208402"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="leader"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="valkyrie_by_boomguy"/>
+      <property name="HP" value="18"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Asgard. Avenger."/>
+      <property name="Text">Steady.
+&lt;b&gt;When Revealed&lt;/b&gt;: Deal each player an encounter card. Valkyrie cannot take damage this phase.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Valkyrie attacks, if Death-Glow is in play, Valkyrie attacks the character with Death-Glow attached → this attack gains overkill.</property>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+    </card>
+    <card name="Valkyrie" id="89221f80-16d6-46db-a7d2-4ad908084003">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="208403"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="leader"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="valkyrie_by_boomguy"/>
+      <property name="HP" value="18"/>
+      <property name="Attack" value="2"/>
+      <property name="Thwart" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Asgard. Avenger."/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: The enemy team finds and attaches Shieldmaiden to Valkyrie.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Valkyrie attacks, if Death-Glow is in play, Valkyrie attacks the character with Death-Glow attached → this attack gains overkill.</property>
+      <property name="Quote" value="“I am the chooser of the slain.”"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Valkyrie" id="89221f80-16d6-46db-a7d2-4ad908084004">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="208404"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="leader"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="valkyrie_by_boomguy"/>
+      <property name="HP" value="22"/>
+      <property name="Attack" value="3"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Asgard. Avenger."/>
+      <property name="Text">Steady.
+&lt;b&gt;When Revealed&lt;/b&gt;: Deal each player an encounter card. Valkyrie cannot take damage this phase.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Valkyrie attacks, if Death-Glow is in play, Valkyrie attacks the character with Death-Glow attached → this attack gains overkill.</property>
+      <property name="Stage" value="4"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Shieldmaiden" id="89221f80-16d6-46db-a7d2-4ad908084005" size="EncounterCard">
+      <property name="CardNumber" value="208405a"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="valkyrie_by_boomguy"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Permanent.
+Attach to Valkyrie.
+Valkyrie gains Retaliate 1.
+&lt;b&gt;Forced Response&lt;/b&gt;: After an ally enters play, flip this card and attach it to that ally.</property>
+      <alternate name="Death-Glow" type="b" size="EncounterCard">
+        <property name="CardNumber" value="208405b"/>
+        <property name="Position" value="5"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="attachment"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="valkyrie_by_boomguy"/>
+        <property name="Unique" value="False"/>
+        <property name="Attribute" value="Condition."/>
+        <property name="Text">Permanent.
+Attacks against attached character gain overkill.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When attached character is defeated, flip this card and attach it to Valkyrie.</property>
+      </alternate>
+    </card>
+    <card name="Valkyrie's Spear" id="89221f80-16d6-46db-a7d2-4ad908084006" size="EncounterCard">
+      <property name="CardNumber" value="208406"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="valkyrie_by_boomguy"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Attach to Valkyrie.
+When Valkyrie would take any amount of damage, reduce that damage by 1.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you make a basic attack against Valkyrie, give Valkyrie a tough status card → discard this card.
+&lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;: Reveal this card.</property>
+    </card>
+    <card name="Dragonfang" id="89221f80-16d6-46db-a7d2-4ad908084007" size="EncounterCard">
+      <property name="CardNumber" value="208407"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="valkyrie_by_boomguy"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Weapon."/>
+      <property name="Text">Attach to Valkyrie.
+Valkyrie's attacks gain piercing.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend three resources of the same type → discard this attachment.
+&lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;: Reveal this card.</property>
+    </card>
+    <card name="Flight Of The Valkyrior" id="89221f80-16d6-46db-a7d2-4ad908084008" size="EncounterCard">
+      <property name="CardNumber" value="208408"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="valkyrie_by_boomguy"/>
+      <property name="Text">Attach to Valkyrie.
+Valkyrie gains stalwart.
+&lt;b&gt;Forced Response&lt;/b&gt;: After an ally with Death-Glow is defeated, add threat to the main scheme equal to the printed cost of that ally and discard this card.
+&lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;: Reveal this card.</property>
+    </card>
+    <card name="Chooser Of The Slain" id="89221f80-16d6-46db-a7d2-4ad908084009" size="EncounterCard">
+      <property name="CardNumber" value="208409"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="valkyrie_by_boomguy"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Discard cards from the top of your deck until an ally is discarded and put that ally into play and attach Death-Glow to that ally. Choose:
+• Give Valkyrie 2 facedown boost cards.
+• Stun and confuse your identity.</property>
+      <property name="Quote" value="“Your time has come. Die with honor.” –Valkyrie"/>
+    </card>
+    <card name="Visit Valhalla" id="89221f80-16d6-46db-a7d2-4ad908084010" size="EncounterCard">
+      <property name="CardNumber" value="208410"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="valkyrie_by_boomguy"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: The enemy team searches the encounter deck and discard pile for a Valkyrie attachment and reveals it. If Death-Glow is in play, deal indirect damage equal to the number of attachments on Valkyrie to the character with Death-Glow attached."/>
+    </card>
+    <card name="&quot;have At Thee!&quot;" id="89221f80-16d6-46db-a7d2-4ad908084011" size="EncounterCard">
+      <property name="CardNumber" value="208411"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="valkyrie_by_boomguy"/>
+      <property name="Boost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;When Revealed (Alter-Ego)&lt;/b&gt;: The enemy team searches the top 5 cards of the encounter deck and gives 1 as a facedown boost card to Valkyrie. This card gains surge.
+&lt;b&gt;When Revealed (Hero)&lt;/b&gt;: Valkyrie attacks you.</property>
+    </card>
+    <card name="Valhalla" id="89221f80-16d6-46db-a7d2-4ad908084012" size="SchemeCard">
+      <property name="CardNumber" value="208412"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="valkyrie_by_boomguy"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Unique" value="False"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Text" value="&lt;b&gt;When Defeated&lt;/b&gt;: The enemy team searches the encounter deck and discard pile for a Valkyrie attachment and reveals it. Valkyrie activates against the player who defeated this scheme."/>
+    </card>
+  </cards>
+</set>

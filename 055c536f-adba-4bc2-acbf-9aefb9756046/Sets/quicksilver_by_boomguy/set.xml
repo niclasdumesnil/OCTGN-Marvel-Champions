@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Quicksilver" id="87577046-ea8e-43e1-822d-ee940e7805ef" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="87577046-ea8e-43e1-822d-ee940e000000" name="Quicksilver">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="quicksilver_by_boomguy"/>
+      <property name="nbModular" value="4"/>
+      <property name="mandatoryModular" value="{'resistance': ['Resistance', 'Scheme', False], 'synthezoid_resistance': ['Synthezoid Resistance', 'Scheme', False]}"/>
+      <property name="CW_Side" value="resistance"/>
+      <property name="recommendedModular" value="{'new_avengers': ['New Avengers', 'Encounter', False], 'secret_avengers': ['Secret Avengers', 'Encounter', False], 'namor_modular': ['Namor', 'Encounter', False], 'atlanteans': ['Atlanteans', 'Encounter', False]}"/>
+    </card>
+    <card name="Quicksilver" id="87577046-ea8e-43e1-822d-ee940e083001">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="208301"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="leader"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="quicksilver_by_boomguy"/>
+      <property name="HP" value="12"/>
+      <property name="Attack" value="1"/>
+      <property name="Thwart" value="0"/>
+      <property name="Scheme" value="0"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Avenger. Mutant."/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: The enemy team finds Friction Resistance and attaches it to Quicksilver.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Quicksilver activates, do not give him a boost card.</property>
+      <property name="Quote" value="“I've spent my whole life running.”"/>
+      <property name="Stage" value="1"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+    </card>
+    <card name="Quicksilver" id="87577046-ea8e-43e1-822d-ee940e083002">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="208302"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="leader"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="quicksilver_by_boomguy"/>
+      <property name="HP" value="16"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Avenger. Mutant."/>
+      <property name="Text">Steady.
+&lt;b&gt;When Revealed&lt;/b&gt;: Deal each player an encounter card. Quicksilver cannot take damage this phase.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Quicksilver activates, do not give him a boost card.</property>
+      <property name="Quote" value="“Super speed. Look it up.”"/>
+      <property name="Stage" value="2"/>
+      <property name="Standard" value="True"/>
+      <property name="Expert" value="False"/>
+    </card>
+    <card name="Quicksilver" id="87577046-ea8e-43e1-822d-ee940e083003">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="208303"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="leader"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="quicksilver_by_boomguy"/>
+      <property name="HP" value="16"/>
+      <property name="Attack" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Avenger. Mutant."/>
+      <property name="Text">&lt;b&gt;Setup&lt;/b&gt;: The enemy team finds Friction Resistance and attaches it to Quicksilver.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Quicksilver activates, do not give him a boost card.</property>
+      <property name="Quote" value="“Super speed. Look it up.”"/>
+      <property name="Stage" value="3"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Quicksilver" id="87577046-ea8e-43e1-822d-ee940e083004">
+      <property name="DefaultSetupPile" value="Villain"/>
+      <property name="CardNumber" value="208304"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="leader"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="quicksilver_by_boomguy"/>
+      <property name="HP" value="20"/>
+      <property name="HandSize" value="4"/>
+      <property name="Attack" value="2"/>
+      <property name="Thwart" value="1"/>
+      <property name="Scheme" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="HP_Per_Hero" value="True"/>
+      <property name="Attribute" value="Avenger. Mutant."/>
+      <property name="Text">Steady.
+&lt;b&gt;When Revealed&lt;/b&gt;: Deal each player an encounter card. Quicksilver cannot take damage this phase.
+[star] &lt;b&gt;Forced Interrupt&lt;/b&gt;: When Quicksilver activates, do not give him a boost card.</property>
+      <property name="Quote" value="“Is that all you've got?”"/>
+      <property name="Stage" value="4"/>
+      <property name="Standard" value="False"/>
+      <property name="Expert" value="True"/>
+    </card>
+    <card name="Friction Resistance" id="87577046-ea8e-43e1-822d-ee940e083005" size="EncounterCard">
+      <property name="CardNumber" value="208305"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="quicksilver_by_boomguy"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Condition. Superpower."/>
+      <property name="Text">Permanent.
+&lt;i&gt;Super Speed&lt;/i&gt; — &lt;b&gt;Forced Response&lt;/b&gt;: After Quicksilver activates against you, give him a facedown boost card. Then, Quicksilver activates against you again with the same activation type. Do not resolve &lt;i&gt;Super Speed&lt;/i&gt; after this activation.</property>
+      <property name="Quote" value="“Eat my dust.” –Quicksilver"/>
+    </card>
+    <card name="Accelerated Reflex" id="87577046-ea8e-43e1-822d-ee940e083006" size="EncounterCard">
+      <property name="CardNumber" value="208306"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="quicksilver_by_boomguy"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Condition. Superpower."/>
+      <property name="Text">Attach to Quicksilver.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When your hero attacks Quicksilver, he attacks you first. Do not resolve &lt;i&gt;Super Speed&lt;/i&gt; after this attack.
+&lt;b&gt;Hero Response&lt;/b&gt;: After you make a basic attack against Quicksilver, spend [energy][energy] resources → give Quicksilver a facedown boost card and discard this card.
+&lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;: Reveal this card.</property>
+    </card>
+    <card name="Hyper Perception" id="87577046-ea8e-43e1-822d-ee940e083007" size="EncounterCard">
+      <property name="CardNumber" value="208307"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="quicksilver_by_boomguy"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Condition. Superpower."/>
+      <property name="Text">Attach to Quicksilver.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust your hero and spend [mental][mental] resources → give Quicksilver a facedown boost card and discard this card.
+&lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;: Reveal this card.</property>
+    </card>
+    <card name="Reinforced Sinew" id="87577046-ea8e-43e1-822d-ee940e083008" size="EncounterCard">
+      <property name="CardNumber" value="208308"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="attachment"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="quicksilver_by_boomguy"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Condition. Superpower."/>
+      <property name="Text">Attach to Quicksilver.
+&lt;b&gt;Hero Action&lt;/b&gt;: Exhaust your hero and spend [physical] [physical] resources → give Quicksilver a facedown boost card and discard this card.
+&lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;: Reveal this card.</property>
+    </card>
+    <card name="Always Be Running" id="87577046-ea8e-43e1-822d-ee940e083009" size="EncounterCard">
+      <property name="CardNumber" value="208309"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="quicksilver_by_boomguy"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">Surge.
+&lt;b&gt;When Revealed&lt;/b&gt;: Give Quicksilver a facedown boost card.
+&lt;hr&gt;[star] &lt;b&gt;Boost&lt;/b&gt;: After this activation, shuffle this card into the encounter deck.</property>
+    </card>
+    <card name="Double Time" id="87577046-ea8e-43e1-822d-ee940e083010" size="EncounterCard">
+      <property name="CardNumber" value="208310"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="quicksilver_by_boomguy"/>
+      <property name="Boost" value="3"/>
+      <property name="Attribute" value="Superpower."/>
+      <property name="Text">&lt;b&gt;When Revealed&lt;/b&gt;: Give Quicksilver a facedown boost card. Then, choose two of the following (you may choose the same option twice):
+• Deal 1 damage to each character you control.
+• Add 1 threat to each scheme in play.</property>
+      <property name="Quote" value="“Surely you can do better than that.” –Quicksilver"/>
+    </card>
+    <card name="Serval Industries" id="87577046-ea8e-43e1-822d-ee940e083011" size="SchemeCard">
+      <property name="CardNumber" value="208311"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="quicksilver_by_boomguy"/>
+      <property name="Boost" value="2"/>
+      <property name="BaseThreat" value="3"/>
+      <property name="Unique" value="True"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Attribute" value="Location. X-Factor."/>
+      <property name="Text" value="&lt;b&gt;When Defeated&lt;/b&gt;: Shuffle all copies of Always Be Running in the encounter discard pile into the encounter deck. The enemy team searches the encounter deck and discard pile for a Quicksilver attachment and reveals it."/>
+    </card>
+  </cards>
+</set>
