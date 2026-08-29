@@ -325,6 +325,18 @@ def markersUpdate(args):
 def defaultCardAction(args):
     mute()
     if args.card.group == table:
+        # Double-click steps a stat token up by 1 (Shift held: down by 1, when
+        # the client reports held keys on the event). Mouse buttons themselves
+        # cannot be rebound in OCTGN - left is select/drag, right opens the
+        # context menu - so double-click is the only pointer gesture available.
+        # Origine : Merlin - jetons de stat (2026).
+        if args.card.Type == 'stat_token':
+            keys = getattr(args, 'keysDown', None)
+            if keys and any('shift' in str(k).lower() for k in keys):
+                modifyStatToken(args.card, -1)
+            else:
+                modifyStatToken(args.card, 1)
+            return
         if not args.card.isFaceUp or isScheme([args.card]):
              remoteCall(args.card.controller, "revealHide", args.card)
         else:
@@ -757,6 +769,11 @@ def addAnyMarker(card, x = 0, y = 0, qty = 1):
 
 def addMarker(card, x = 0, y = 0, qty = 1):
     mute()
+    # Up arrow doubles as "+1" on a stat token: same gesture players already
+    # use for hit points. Origine : Merlin - jetons de stat (2026).
+    if card.Type == 'stat_token':
+        modifyStatToken(card, qty)
+        return
     card.controller = me
     if card.hasProperty("DefaultMarkerType"):
         if card.DefaultMarkerType == "Any":
@@ -783,6 +800,11 @@ def addMarker(card, x = 0, y = 0, qty = 1):
 
 def removeMarker(card, x = 0, y = 0, qty = 1):
     mute()
+    # Down arrow doubles as "-1" on a stat token.
+    # Origine : Merlin - jetons de stat (2026).
+    if card.Type == 'stat_token':
+        modifyStatToken(card, -qty)
+        return
     card.controller = me
     if card.hasProperty("DefaultMarkerType"):
         if card.DefaultMarkerType == "Any":
@@ -878,14 +900,71 @@ def clearAcceleration(card, x = 0, y = 0):
     card.markers[AccelerationMarker] = 0
     notify("{} removes all Acceleration from {}.".format(me, card))
 
+# Free-standing stat tokens (THW/ATK/DEF/REC), one card each in the hidden
+# "Stat Tokens" set. The displayed value (0-9) IS the card alternate - base
+# face is 0, alternates "b".."j" are 1..9 - so the state needs no marker, no
+# extra card property, and survives save/load with the card itself. Same
+# pattern as the villain stage b-sides already used across the engine.
+# Origine : Merlin - suivi visuel des stats modifiees en partie (2026),
+# principe repris du mod Tainted Grail (jetons a valeur par alternates).
+statTokenIds = {
+    "THW": "7babd7f2-dcfd-4037-aef2-7fa08d2af7dd",
+    "ATK": "3dc2a6bd-a2be-41c1-902c-34affe007df6",
+    "DEF": "e854c4e1-fd4f-42ce-966e-4325fa85abf7",
+    "REC": "9e461229-09ce-45ac-8e14-76f08e77b47a",
+}
+
+def isStatToken(cards, x = 0, y = 0):
+    for c in cards:
+        if c.Type != 'stat_token':
+            return False
+    return True
+
+def statTokenValue(card):
+    """Reads the token value from its current alternate ("" = 0, "b".."j" = 1..9)."""
+    alt = card.alternate
+    if alt == "":
+        return 0
+    return ord(alt[0].lower()) - ord('a')
+
+def modifyStatToken(card, delta):
+    """Steps the token value by delta, clamped to 0-9, by switching alternates."""
+    mute()
+    old = statTokenValue(card)
+    new = max(0, min(9, old + delta))
+    if new == old:
+        return
+    card.alternate = "" if new == 0 else chr(ord('a') + new)
+    notify("{} sets {} to {}.".format(me, card.Name.split(" (")[0], new))
+
+def createStatToken(group=None, x=0, y=0):
+    """Table menu: spawns a THW/ATK/DEF/REC token at the clicked position."""
+    mute()
+    choices = ["THW", "ATK", "DEF", "REC"]
+    colors = ["#0076a8", "#c8102e", "#4c9c2e", "#e0c000"]
+    choice = askChoice("Which stat token?", choices, colors)
+    if choice == 0:
+        return
+    token = table.create(statTokenIds[choices[choice - 1]], x, y, 1, True)
+    notify("{} creates a {} token.".format(me, choices[choice - 1]))
+
 def addAPCounter(card, x=0, y=0, qty=1):
     mute()
+    # Right/Left stay inert on a stat token: without this guard they drop All
+    # Purpose markers on it, which reads as a second, confusing value next to
+    # the one the token displays. Origine : Merlin - jetons de stat (2026).
+    if card.Type == 'stat_token':
+        return
     card.controller = me
     card.markers[AllPurposeMarker] += qty
     notify("{} adds {} Marker(s) on {}.".format(me, qty, card))
 
 def removeAPCounter(card, x = 0, y = 0):
     mute()
+    # Same guard as addAPCounter: no All Purpose markers on a stat token.
+    # Origine : Merlin - jetons de stat (2026).
+    if card.Type == 'stat_token':
+        return
     card.controller = me
     card.markers[AllPurposeMarker] -= 1
     notify("{} removes 1 Marker from {}.".format(me, card))

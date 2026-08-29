@@ -164,10 +164,17 @@
         <size name="EvidenceMotive" width="63" height="88" back="cards/evidmotiveback.png" front="cards/front.png" cornerRadius="4" />
         <size name="EvidenceOpportunity" width="63" height="88" back="cards/evidopportback.png" front="cards/front.png" cornerRadius="4" />
         <size name="StatusCard" width="43" height="24" backWidth="43" backHeight="24" front="cards/statback.png" back="cards/statback.png" cornerRadius="2" />
+        <!-- Free-standing stat tokens (THW/ATK/DEF/REC), value 0-9 carried by the
+             card alternates like villain stage b-sides. Origine : Merlin - suivi
+             visuel des stats modifiees en cours de partie (2026). -->
+        <size name="StatToken" width="32" height="32" backWidth="32" backHeight="32" front="cards/front.png" back="cards/back.png" cornerRadius="0" />
     </card>
     <table name="Table" visibility="undefined" ordered="False" width="800" height="500" background="background/playmat2.png" backgroundStyle="uniformToFill" >
         <groupaction menu="Welcome Screen" default="False" execute="showWelcomeScreen" />
         <groupaction menu="Create Card" default="False" execute="createCard" />
+        <!-- Spawns a free-standing THW/ATK/DEF/REC stat token at the clicked spot.
+             Origine : Merlin - suivi visuel des stats modifiees en partie (2026). -->
+        <groupaction menu="Create Stat Token" default="False" execute="createStatToken" />
         <groupactions menu="Setup">
             <groupaction menu="Load Villain" shortcut="ctrl+V" execute="loadVillain" />
             <groupaction menu="Load FanMade Villain Scenario" execute="loadFanmadeVillain" />
@@ -201,6 +208,13 @@
         <cardaction menu="Move to Bottom of Encounter Deck" execute="bottomEncounterDeck" />
 		<cardaction menu="Add to Victory Display" default="False" shortcut="ctrl+V" execute="moveToVictory" />
         <cardaction menu="Get Position" execute="getPosition" />
+        <!-- Stat tokens change value with the same Up/Down keys players already
+             use for hit points (the addMarker/removeMarker handlers dispatch on
+             the stat_token type); these menu entries make the gesture
+             discoverable from the right-click menu.
+             Origine : Merlin - jetons de stat THW/ATK/DEF/REC (2026). -->
+        <cardaction menu="Stat Token +1" execute="addMarker" showIf="isStatToken" />
+        <cardaction menu="Stat Token -1" execute="removeMarker" showIf="isStatToken" />
         <cardactions menu="Markers">
 			<cardaction menu="Add marker (Choice)" shortcut="F1" execute="addAnyMarker" />
             <cardaction menu="Add marker (Automatic)" shortcut="Up" execute="addMarker" />

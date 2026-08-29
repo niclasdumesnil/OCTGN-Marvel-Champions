@@ -21,6 +21,12 @@
     "(validé chez nous, pas encore soumis), 'en_test' (peut encore bouger), 'beta'",
     "(spécifique à la bêta, ne partira pas en amont).",
     "",
+    "RETRAIT D'UNE ENTRÉE : la page ne liste que ce qui différencie la bêta du mod",
+    "officiel. Une entrée dont la PR est mergée se retire AU RAPPROCHEMENT, jamais",
+    "avant (décision Merlin, 2026-08-29) : tant qu'Ourob09 n'a pas publié et que le",
+    "fork n'a pas mergé l'amont, la fonctionnalité reste une différence pour le",
+    "testeur. Le geste fait partie de la procédure du skill octgn-sync-upstream.",
+    "",
     "À TENIR À JOUR à chaque lot livré, au même titre que la fiche du vault : ce",
     "fichier est ce que les testeurs lisent.",
     "",
@@ -100,7 +106,8 @@
     },
     {
       "id": "chargement-deck-api-sans-recreation",
-      "statut": "a_proposer",
+      "statut": "propose",
+      "pr": 28,
       "fr": {
         "titre": "Votre deck en ligne est chargé tel que construit",
         "texte": "Au chargement par URL, les cartes signature ne sont plus remplacées d'office par celles du set : si vous avez échangé un allié signature contre une carte « en équipe », c'est bien votre choix qui arrive en jeu."
@@ -112,7 +119,8 @@
     },
     {
       "id": "side-deck-mc4db",
-      "statut": "a_proposer",
+      "statut": "propose",
+      "pr": 29,
       "fr": {
         "titre": "Deck annexe mc4db",
         "texte": "Un deck construit sur mc4db avec un deck annexe arrive avec lui : ses cartes sont rangées dans une nouvelle pile « Side Deck », à côté de vos autres piles."
@@ -132,6 +140,18 @@
       "en": {
         "titre": "No more crash on \"An out of the box deck\"",
         "texte": "Picking the printed deck for a hero whose box does not exist yet used to throw a raw Python error. A clear message now points you to the sources that work for every hero."
+      }
+    },
+    {
+      "id": "jetons-de-stat",
+      "statut": "en_test",
+      "fr": {
+        "titre": "Jetons de stat THW / ATK / DEF / REC",
+        "texte": "Quand une stat de héros ou d'allié change en cours de partie, posez un jeton libre sur la table : clic droit sur la table → « Create Stat Token ». Double-clic sur le jeton pour +1, flèches Haut/Bas pour ±1 (0 à 9), comme pour les points de vie. Le visuel reprend les écussons des cartes, et la valeur survit à la sauvegarde."
+      },
+      "en": {
+        "titre": "THW / ATK / DEF / REC stat tokens",
+        "texte": "When a hero or ally stat changes mid-game, drop a free-standing token on the table: right-click the table → \"Create Stat Token\". Double-click the token for +1, or press Up/Down arrows for ±1 (0 to 9), just like hit points. The art matches the card stat badges, and the value survives saving."
       }
     },
     {
