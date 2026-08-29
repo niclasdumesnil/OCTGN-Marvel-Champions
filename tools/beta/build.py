@@ -693,6 +693,68 @@ def ecrire_nouveautes(version_beta: str, marque: str, dossier_source: str, noms_
     return chemin, len(fonctionnalites), len(packs), len(tests)
 
 
+def purger_anciens_paquets(nom_beta: str, garder: int = 2) -> list[str]:
+    """Ne garde que les `garder` versions les plus récentes, dans dist/ ET dans le feed local.
+
+    Chaque build produit ~90 Mo (un .nupkg et un .o8g) et o8build en dépose une
+    copie dans le feed local d'OCTGN. Rien ne les retirait : après une journée de
+    mise au point, dist/ pesait 1,1 Go et le feed 688 Mo, pour des versions dont
+    aucune n'était plus jamais installée. Le hub fait déjà ce ménage côté serveur
+    (scripts/purger-paquets.mjs) ; il manquait côté poste.
+
+    On en garde DEUX, pas une : si un testeur signale un défaut sur la version
+    courante, la précédente est immédiatement réinstallable depuis le feed.
+
+    ⚠️ Le feed local n'est pas à nous : il contient les paquets d'AUTRES jeux
+    OCTGN (Grail, par exemple). Le filtre porte donc sur le nom exact du module
+    bêta, jamais sur l'extension seule.
+    Origine : Merlin - le feed local accumulait 14 versions (2026).
+    """
+    supprimes = []
+
+    def purger(dossier: Path, motifs: list[str]) -> None:
+        if not dossier.is_dir():
+            return
+        fichiers = []
+        for motif in motifs:
+            fichiers.extend(dossier.glob(motif))
+        # Tri par version, extraite du nom : un tri de chaînes classerait 96009
+        # après 96021.
+        def cle(chemin: Path):
+            m = re.search(r"(\d+)\.(\d+)\.(\d+)\.(\d+)", chemin.name)
+            return tuple(int(g) for g in m.groups()) if m else (0, 0, 0, 0)
+
+        par_version: dict[tuple, list[Path]] = {}
+        for f in fichiers:
+            par_version.setdefault(cle(f), []).append(f)
+
+        for version in sorted(par_version, reverse=True)[garder:]:
+            for f in par_version[version]:
+                try:
+                    f.unlink()
+                    supprimes.append(f.name)
+                except OSError:
+                    pass  # fichier verrouillé (OCTGN ouvert) : on laisse, sans faire échouer le build
+
+    purger(DIST_DIR, ["*.nupkg", "*.o8g"])
+
+    feed = chemin_feed_local()
+    if feed is not None:
+        # Nom exact du module, pour ne jamais toucher au paquet d'un autre jeu.
+        purger(feed, [f"{nom_beta}-*.nupkg"])
+
+    return supprimes
+
+
+def chemin_feed_local() -> Path | None:
+    """Dossier LocalFeed d'OCTGN, s'il existe sur ce poste."""
+    local_appdata = os.environ.get("LOCALAPPDATA")
+    if not local_appdata:
+        return None
+    feed = Path(local_appdata) / "Programs" / "OCTGN" / "Data" / "LocalFeed"
+    return feed if feed.is_dir() else None
+
+
 def installer_localement(staging_dir: Path, guid_beta: str) -> Path:
     """Installe le paquet bêta dans le feed local d'OCTGN (o8build -i).
 
@@ -983,6 +1045,13 @@ def main(argv: list[str]) -> int:
         print(f"[install] -> {destination.name} ; installer le module depuis le Games Manager.")
     else:
         print("[dry-run] build terminé dans tools/beta/dist/, aucune action hors du repo.")
+
+    # Ménage APRÈS l'installation, sinon la version qu'o8build vient de déposer dans le
+    # feed s'ajoute à celles qu'on venait de garder et le compte glisse d'un cran à
+    # chaque build. Chaque version pèse ~90 Mo (dist) et ~44 Mo (feed).
+    purges = purger_anciens_paquets(config["nom_beta"])
+    if purges:
+        print(f"[menage] {len(purges)} fichier(s) de versions anterieures retire(s)")
 
     print(
         f"\nrésumé : version {resultat['version_officielle']} -> {resultat['version_beta']} | "
