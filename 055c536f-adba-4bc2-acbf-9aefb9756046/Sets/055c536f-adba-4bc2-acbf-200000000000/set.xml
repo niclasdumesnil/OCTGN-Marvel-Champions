@@ -342,35 +342,5 @@
             <property name="mandatoryModular" value="{'resistance':['Resistance', 'Scheme', False], 'synthezoid_resistance':['Synthezoid Resistance', 'Scheme', False]}"/>
             <property name="recommendedModular" value="{'young_avengers':['Young Avengers', 'Encounter', False], 'scarlet_twins':['Scarlet Twins', 'Encounter', False], 'moon_knight_modular':['Moon Knight', 'Encounter', False], 'royal_guard':['Royal Guard', 'Encounter', False]}"/>
         </card>
-        <card id="055c536f-adba-4bc2-acbf-200000000060" name="Bullseye">
-            <property name="Type" value="villain_setup" />
-            <property name="Owner" value="bullseye"/>
-            <property name="nbModular" value="1"/>
-        </card>
-        <card id="055c536f-adba-4bc2-acbf-200000000062" name="Electro">
-            <property name="Type" value="villain_setup" />
-            <property name="Owner" value="electro"/>
-            <property name="nbModular" value="1"/>
-        </card>
-        <card id="055c536f-adba-4bc2-acbf-200000000062" name="Hammerhead">
-            <property name="Type" value="villain_setup" />
-            <property name="Owner" value="hammerhead"/>
-            <property name="nbModular" value="1"/>
-        </card>
-        <card id="055c536f-adba-4bc2-acbf-200000000062" name="Purple Man">
-            <property name="Type" value="villain_setup" />
-            <property name="Owner" value="purple_man"/>
-            <property name="nbModular" value="1"/>
-        </card>
-        <card id="055c536f-adba-4bc2-acbf-200000000062" name="Typhoid Mary">
-            <property name="Type" value="villain_setup" />
-            <property name="Owner" value="typhoid_mary"/>
-            <property name="nbModular" value="1"/>
-        </card>
-        <card id="055c536f-adba-4bc2-acbf-200000000062" name="Kingpin">
-            <property name="Type" value="villain_setup" />
-            <property name="Owner" value="kingpin"/>
-            <property name="nbModular" value="1"/>
-        </card>
     </cards>
 </set>

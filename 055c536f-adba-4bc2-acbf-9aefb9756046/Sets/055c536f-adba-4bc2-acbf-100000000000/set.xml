@@ -261,25 +261,5 @@
             <property name="Type" value="hero_setup" />
             <property name="Owner" value="hercules" />
         </card>
-        <card id="055c536f-adba-4bc2-acbf-100000000066" name="Daredevil">
-            <property name="Type" value="hero_setup" />
-            <property name="Owner" value="daredevil" />
-        </card>
-        <card id="055c536f-adba-4bc2-acbf-100000000067" name="Echo">
-            <property name="Type" value="hero_setup" />
-            <property name="Owner" value="echo" />
-        </card>
-        <card id="055c536f-adba-4bc2-acbf-100000000068" name="Jessica Jones">
-            <property name="Owner" value="jessica_jones" />
-        </card>
-        <card id="055c536f-adba-4bc2-acbf-100000000069" name="Luke Cage">
-            <property name="Owner" value="luke_cage" />
-        </card>
-        <card id="055c536f-adba-4bc2-acbf-100000000070" name="Elektra">
-            <property name="Owner" value="elektra" />
-        </card>
-        <card id="055c536f-adba-4bc2-acbf-100000000071" name="Iron Fist">
-            <property name="Owner" value="iron_fist" />
-        </card>
     </cards>
 </set>
