@@ -40,94 +40,15 @@
   ],
   "fonctionnalites": [
     {
-      "id": "fear-no-evil",
-      "statut": "propose",
-      "pr": 25,
+      "id": "convergence-mecanismes-generiques",
+      "statut": "a_proposer",
       "fr": {
-        "titre": "Fear No Evil, jouable de bout en bout",
-        "texte": "Le pack complet, avec la mise en place automatique de ses six scénarios, ses cartes de campagne, et le choix du sous-fifre (Bullseye, Electro, Typhoid Mary…) après celui du scénario. Seule la mécanique némésis/sous-fifre reste manuelle."
+        "titre": "Tous les héros passent par les mécanismes génériques",
+        "texte": "Demandé par le mainteneur du mod officiel : les onze héros qui gardaient un traitement particulier dans le moteur (Doctor Strange, Storm, Iceman, Hercules pour leurs pioches annexes ; Wolverine, Vision, Shadowcat, Phoenix, X-23, Wonder Man, Nick Fury pour leurs cartes posées à la mise en place) utilisent désormais les mêmes propriétés génériques que les nouveaux packs. Rien ne doit changer en jeu — si un de ces héros se met en place différemment d'avant (carte en double, pioche manquante, marqueurs absents sur Phoenix Force), signalez-le."
       },
       "en": {
-        "titre": "Fear No Evil, playable end to end",
-        "texte": "The full pack, with automatic setup for its six scenarios, its campaign cards, and the underling choice (Bullseye, Electro, Typhoid Mary…) right after picking the scenario. Only the nemesis/underling mechanic is still manual."
-      }
-    },
-    {
-      "id": "mot-cle-starting",
-      "statut": "propose",
-      "pr": 20,
-      "fr": {
-        "titre": "Mot-clé « Starting. »",
-        "texte": "Une carte portant ce mot-clé rejoint votre main de départ à la mise en place, et vous piochez ensuite jusqu'à votre taille de main normale."
-      },
-      "en": {
-        "titre": "\"Starting.\" keyword",
-        "texte": "A card with this keyword joins your opening hand during setup, and you then draw up to your normal hand size."
-      }
-    },
-    {
-      "id": "setup-generique-permanents",
-      "statut": "propose",
-      "pr": 21,
-      "fr": {
-        "titre": "Permanents mis en jeu automatiquement",
-        "texte": "Les cartes qu'un héros doit poser sur la table à la mise en place arrivent seules, même quand l'instruction est écrite sur l'identité et non sur la carte (Alias Investigations de Jessica Jones, par exemple)."
-      },
-      "en": {
-        "titre": "Permanents put into play automatically",
-        "texte": "Cards a hero must put into play during setup now arrive on their own, even when the instruction sits on the identity rather than on the card itself (Jessica Jones' Alias Investigations, for instance)."
-      }
-    },
-    {
-      "id": "deck-special-generique",
-      "statut": "propose",
-      "pr": 22,
-      "fr": {
-        "titre": "Pioches annexes des héros",
-        "texte": "Les pioches propres à un héros (le deck SENS de Daredevil, par exemple) sont créées et ouvertes automatiquement à la mise en place, sans que le moteur ait besoin d'un cas particulier par héros."
-      },
-      "en": {
-        "titre": "Hero side decks",
-        "texte": "A hero's own side deck (Daredevil's SENSE deck, for instance) is created and revealed automatically during setup, with no per-hero special case in the engine."
-      }
-    },
-    {
-      "id": "frostbite-retour-en-reserve",
-      "statut": "propose",
-      "pr": 24,
-      "fr": {
-        "titre": "Correctif : Frostbite (Iceman) revient en réserve",
-        "texte": "La carte partait dans la défausse au lieu de retourner dans sa pioche dédiée, et un garde-fou empêchait même de la déplacer à la main."
-      },
-      "en": {
-        "titre": "Fix: Frostbite (Iceman) returns to its reserve",
-        "texte": "The card went to the discard pile instead of back to its own deck, and a guard even prevented moving it manually."
-      }
-    },
-    {
-      "id": "chargement-deck-api-sans-recreation",
-      "statut": "propose",
-      "pr": 28,
-      "fr": {
-        "titre": "Votre deck en ligne est chargé tel que construit",
-        "texte": "Au chargement par URL, les cartes signature ne sont plus remplacées d'office par celles du set : si vous avez échangé un allié signature contre une carte « en équipe », c'est bien votre choix qui arrive en jeu."
-      },
-      "en": {
-        "titre": "Your online deck loads exactly as built",
-        "texte": "When loading from a URL, signature cards are no longer overwritten with the set's own: if you swapped a signature ally for a Team-Up card, your choice is what reaches the table."
-      }
-    },
-    {
-      "id": "side-deck-mc4db",
-      "statut": "propose",
-      "pr": 29,
-      "fr": {
-        "titre": "Deck annexe mc4db",
-        "texte": "Un deck construit sur mc4db avec un deck annexe arrive avec lui : ses cartes sont rangées dans une nouvelle pile « Side Deck », à côté de vos autres piles."
-      },
-      "en": {
-        "titre": "mc4db side deck",
-        "texte": "A deck built on mc4db with a side deck now brings it along: those cards land in a new \"Side Deck\" pile, next to your other piles."
+        "titre": "Every hero now goes through the generic mechanisms",
+        "texte": "Requested by the official mod maintainer: the eleven heroes that still had special-case engine code (Doctor Strange, Storm, Iceman, Hercules for their side decks; Wolverine, Vision, Shadowcat, Phoenix, X-23, Wonder Man, Nick Fury for their setup cards) now use the same generic properties as new packs. Nothing should change in play - if one of these heroes sets up differently than before (duplicated card, missing side deck, missing markers on Phoenix Force), please report it."
       }
     },
     {
