@@ -518,7 +518,7 @@ def getPosition(card,x=0,y=0):
     t = getPlayers()
     notify("This cards position is {}".format(card.position))
 
-def createCardsFromSet(group, owner, name, isShared = True):
+def createCardsFromSet(group, owner, name, isShared = True, setupPileOnly = False):
     cardsFromSet = queryCard({"Owner":owner}, True)
     gameDifficulty = int(getGlobalVariable("difficulty"))
     all_cards = []
@@ -551,6 +551,16 @@ def createCardsFromSet(group, owner, name, isShared = True):
             quantity = int(c.properties["Quantity"])
         else:
             quantity = 1
+
+        # setupPileOnly: only create the cards that declare an out-of-deck
+        # location (DefaultSetupPile) - obligations, extra hero forms like
+        # Ironheart's or SP//dr's. Used by the online deck loading, where the
+        # deck cards themselves now come from the marvelcdb/mc4db API and the
+        # set must NOT re-create them (it would duplicate the deck, and undo
+        # any signature card the deck legitimately replaced).
+        # Origine : Merlin - trust-the-API deck loading rework (2026).
+        if setupPileOnly and not c.hasProperty("DefaultSetupPile"):
+            continue
 
         # Create set cards
         if c.Type[-5:] != "setup" and standard and expert:
