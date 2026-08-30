@@ -2,6 +2,7 @@
 <set name="Iceman" id="9612581e-ee76-46fb-89b7-71ae7aac08d7" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
   <cards>
     <card name="Iceman" id="9612581e-ee76-46fb-89b7-71ae7a046001">
+      <property name="HeroSideDeck" value="frostbite"/>
       <property name="CardNumber" value="46001a"/>
       <property name="Position" value="1"/>
       <property name="Quantity" value="1"/>
@@ -18,6 +19,7 @@
       <property name="Quote">"Here comes the coolest hero on the team!"</property>
       <property name="Unique" value="True"/>
       <alternate name="Bobby Drake" type="b">
+        <property name="HeroSideDeck" value="frostbite"/>
         <property name="CardNumber" value="46001b"/>
         <property name="Position" value="1"/>
         <property name="Quantity" value="1"/>

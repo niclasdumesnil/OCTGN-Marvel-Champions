@@ -2,6 +2,7 @@
 <set name="Doctor Strange" id="08cf8438-8367-43e7-8443-46836f7974e4" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
   <cards>
     <card name="Doctor Strange" id="81d1cf04-43ab-4817-8746-18995bc7ddca">
+      <property name="HeroSideDeck" value="invocation"/>
       <property name="CardNumber" value="09001a"/>
       <property name="Position" value="1"/>
       <property name="Quantity" value="1"/>
@@ -17,6 +18,7 @@
       <property name="Quote">"By the Hoary Hosts of Hoggoth!"</property>
       <property name="Unique" value="True"/>
       <alternate name="Stephen Strange" type="b">
+        <property name="HeroSideDeck" value="invocation"/>
         <property name="CardNumber" value="09001b"/>
         <property name="Position" value="1"/>
         <property name="Quantity" value="1"/>

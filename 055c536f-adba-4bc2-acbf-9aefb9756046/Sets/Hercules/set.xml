@@ -2,6 +2,7 @@
 <set name="Hercules" id="01625c2e-06c7-4321-bfd4-9abdc6877046" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
   <cards>
     <card name="Hercules" id="01625c2e-06c7-4321-bfd4-9abdc6059001">
+      <property name="HeroSideDeck" value="hercules_labor_deck:Special:hidden,hercules_gift_deck:Special Discard:hidden"/>
       <property name="CardNumber" value="59001a"/>
       <property name="Position" value="1"/>
       <property name="Quantity" value="1"/>
@@ -17,6 +18,7 @@
       <property name="Text">&lt;i&gt;Atonement&lt;/i&gt; — &lt;b&gt;Response&lt;/b&gt;: After a [[labor]] card is added to the victory display, put the top card of the [[gift]] deck into play. Ready Hercules. You may flip to alter-ego form. (Limit once per phase.)</property>
       <property name="Unique" value="True"/>
       <alternate name="Hercules" type="b">
+        <property name="HeroSideDeck" value="hercules_labor_deck:Special:hidden,hercules_gift_deck:Special Discard:hidden"/>
         <property name="CardNumber" value="59001b"/>
         <property name="Position" value="1"/>
         <property name="Quantity" value="1"/>
