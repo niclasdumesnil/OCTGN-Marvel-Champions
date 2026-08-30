@@ -194,13 +194,6 @@ def heroSetup(group=table, x = 0, y = 0):
         # Specific Hero setup
         #------------------------------------------------------------
 
-        # Doctor Strange
-        if heroPlayed == 'doctor_strange':
-            createCardsFromSet(me.piles['Special'], "invocation", "Invocation", False)
-            showGroup(me.piles['Special'], True)
-            showGroup(me.piles['Special Discard'], False)
-            me.piles['Special'].visibility = "all"
-
         # Spectrum
         if heroPlayed == 'spectrum':
             for c in filter(lambda card: card.Type == "upgrade", me.Deck):
@@ -226,12 +219,6 @@ def heroSetup(group=table, x = 0, y = 0):
             for c in me.piles['Special']:
                 c.moveToTable(playerX(id)+70,tableLocations['hero'][1])
 
-        # Storm
-        if heroPlayed == 'storm':
-            createCardsFromSet(me.piles['Special'], "weather", "Weather", False)
-            showGroup(me.piles['Special'], False)
-            me.piles['Special'].visibility = "all"
-
         # Rogue
         if heroPlayed == 'rogue':
             for c in filter(lambda card: card.CardNumber == "38002", me.Deck):
@@ -245,20 +232,6 @@ def heroSetup(group=table, x = 0, y = 0):
             for c in filter(lambda card: card.CardNumber == "41002a", me.Special):
                 c.moveToTable(playerX(id)+(70*i),tableLocations['hero'][1])
                 i += 1
-
-        # Iceman
-        if heroPlayed == 'iceman':
-            createCardsFromSet(me.piles['Special'], "frostbite", "Frostbite", False)
-            showGroup(me.piles['Special'], True)
-            me.piles['Special'].visibility = "all"
-
-        # Hercules
-        if heroPlayed == 'hercules':
-            createCardsFromSet(me.piles['Special'], "hercules_labor_deck", " Hercules Labor Deck", False)
-            createCardsFromSet(me.piles['Special Discard'], "hercules_gift_deck", " Hercules Gift Deck", False)
-            showGroup(me.piles['Special'], True)
-            showGroup(me.piles['Special Discard'], True)
-            me.piles['Special Discard'].visibility = "none"
 
         #------------------------------------------------------------
         # Specific Fanmade Hero setup
@@ -332,37 +305,47 @@ def heroSetup(group=table, x = 0, y = 0):
                 notify("{} adds {} to their starting hand (Starting.)".format(me, c))
         # A few heroes start with a side deck of their own: Doctor Strange's
         # Invocation, Storm's Weather, Iceman's Frostbite, Hercules' Labor and
-        # Gift decks, and now Daredevil's SENSE deck. Each needed a hard-coded
-        # block above, although createCardsFromSet() is already generic - it
-        # only takes an Owner. The identity can name it instead.
+        # Gift decks, Daredevil's SENSE deck. All of them now load through the
+        # HeroSideDeck property on the identity card - the per-hero blocks
+        # that used to sit above are gone, so a hero must never both carry
+        # the property and keep a block, or its deck is loaded twice.
         # Value is a comma separated list of set Owners, each optionally
-        # followed by ":<pile>" when it must not land in the Special pile:
-        # Hercules needs that, having two side decks for one hero.
-        # The deck is shuffled and the pile opened to everyone, as the five
-        # hard-coded blocks do - a SENSE deck is played from the top, so its
-        # cards have to be readable.
+        # followed by ":<pile>" when it must not land in the Special pile,
+        # and by ":hidden" when the pile's cards must stay secret: Hercules
+        # needs both, his Labor and Gift decks are face-down draw decks
+        # ("reveal the top card" / "put the top card into play"), where a
+        # SENSE deck is played from the top, so its cards must be readable.
+        # Without the flag the pile is opened to everyone, as before.
         # WARNING: keep this property ALONE. Declaring HeroSideDeckShuffle and
         # HeroSideDeckVisibility beside it, carried by no card, reproducibly
         # broke the card database: the game threw "object reference not set"
         # on any group iteration, so loadHero() died on an empty me.Deck
         # before any setup ran. Removing them fixed it, twice. The mechanism
         # is not understood - DefaultSetupPile has the same shape and is fine.
+        # The ":hidden" flag lives inside the same value for that reason.
         # Origine : Merlin - generic replacement for the per-hero side deck
-        # blocks, introduced with Daredevil's SENSE deck (Fear No Evil).
+        # blocks, introduced with Daredevil's SENSE deck (Fear No Evil);
+        # the five original blocks migrated at the maintainer's request
+        # (follow-up to the HeroSideDeck PR).
         if hero and heroCard.hasProperty("HeroSideDeck"):
             for entry in heroCard.properties["HeroSideDeck"].split(","):
                 entry = entry.strip()
                 if not entry:
                     continue
-                if ":" in entry:
-                    deckOwner, pileName = entry.split(":", 1)
-                    deckOwner, pileName = deckOwner.strip(), pileName.strip()
+                parts = [p.strip() for p in entry.split(":")]
+                deckOwner = parts[0]
+                if len(parts) > 1 and parts[1]:
+                    pileName = parts[1]
                 else:
-                    deckOwner, pileName = entry, "Special"
+                    pileName = "Special"
+                hidden = len(parts) > 2 and parts[2].lower() == "hidden"
                 deckName = deckOwner.replace("_", " ").title()
                 createCardsFromSet(me.piles[pileName], deckOwner, deckName, False)
                 showGroup(me.piles[pileName], True)
-                me.piles[pileName].visibility = "all"
+                if hidden:
+                    me.piles[pileName].visibility = "none"
+                else:
+                    me.piles[pileName].visibility = "all"
 
 def countHeros(p):
     heros = 0

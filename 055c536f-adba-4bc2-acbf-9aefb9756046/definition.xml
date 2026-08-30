@@ -114,7 +114,9 @@
              Origine : Merlin - conversion of the per-hero permanent setup blocks. -->
         <property name="DefaultSetupMarkers" type="String" />
         <!-- Side deck(s) a hero starts with, named by the identity: comma separated set
-             Owners, each optionally "<owner>:<pile>". Loaded in heroSetup().
+             Owners, each optionally "<owner>:<pile>" (default pile: Special) and
+             ":hidden" when the pile must stay secret (face-down draw decks like
+             Hercules' Labor and Gift). Loaded in heroSetup().
              Kept alone on purpose: declaring "HeroSideDeckShuffle"/"HeroSideDeckVisibility"
              beside it, carried by no card, reproducibly broke the card database (null
              reference on any group iteration, before any script ran). Cause not understood

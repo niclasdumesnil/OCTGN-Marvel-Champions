@@ -2,6 +2,7 @@
 <set name="Storm" id="775cc394-70e0-4a37-bb3b-5a13b47c9e31" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
   <cards>
     <card name="Storm" id="775cc394-70e0-4a37-bb3b-5a13b4036001">
+      <property name="HeroSideDeck" value="weather"/>
       <property name="CardNumber" value="36001a"/>
       <property name="Position" value="1"/>
       <property name="Quantity" value="1"/>
@@ -16,6 +17,7 @@
       <property name="Text">&lt;i&gt;Weather Control&lt;/i&gt; — &lt;b&gt;Action&lt;/b&gt;: Swap your [[WEATHER]] support in play with a support of your choice from the [[WEATHER]] deck. Resolve the "&lt;b&gt;Special&lt;/b&gt;" ability on your [[WEATHER]] support in play. (Limit once per round).</property>
       <property name="Unique" value="True"/>
       <alternate name="Ororo Munroe" type="b">
+        <property name="HeroSideDeck" value="weather"/>
         <property name="CardNumber" value="36001b"/>
         <property name="Position" value="1"/>
         <property name="Quantity" value="1"/>
