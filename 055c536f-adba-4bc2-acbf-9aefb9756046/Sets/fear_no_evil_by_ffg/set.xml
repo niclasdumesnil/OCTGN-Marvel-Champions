@@ -674,7 +674,7 @@ Your hero gets +1 DEF.</property>
       <property name="Resource_Energy" value="1"/>
       <property name="Text" value="[star] If you are in hero form, you can discard Photographic Reflexes from your hand to play an event tucked under Echo as if it were in your hand. Reduce the cost to play that event by 2. You cannot trigger Echo's &quot;Watch and Learn&quot; ability for that event."/>
     </card>
-    <card name="Photographic Reflexes" id="8bff88d5-017f-44ab-b109-0def9a061040">
+    <card name="Photographic Reflexes" id="8bff88d5-017f-44ab-b109-0def9a60040b">
       <property name="CardNumber" value="60040b"/>
       <property name="Position" value="40"/>
       <property name="Quantity" value="2"/>
@@ -684,7 +684,7 @@ Your hero gets +1 DEF.</property>
       <property name="Resource_Mental" value="1"/>
       <property name="Text" value="[star] If you are in hero form, you can discard Photographic Reflexes from your hand to play an event tucked under Echo as if it were in your hand. Reduce the cost to play that event by 2. You cannot trigger Echo's &quot;Watch and Learn&quot; ability for that event."/>
     </card>
-    <card name="Photographic Reflexes" id="8bff88d5-017f-44ab-b109-0def9a062040">
+    <card name="Photographic Reflexes" id="8bff88d5-017f-44ab-b109-0def9a60040c">
       <property name="CardNumber" value="60040c"/>
       <property name="Position" value="40"/>
       <property name="Quantity" value="2"/>
