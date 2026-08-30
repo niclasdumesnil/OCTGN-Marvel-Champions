@@ -1,4 +1,3 @@
-echo off
-move *.nupkg %LOCALAPPDATA%\Programs\OCTGN\Data\LocalFeed 
-echo on
+@echo off
+for /r "%~dp0" %%i in (*.nupkg) do move /y "%%i" "%LOCALAPPDATA%\Programs\OCTGN\Data\LocalFeed"
 pause

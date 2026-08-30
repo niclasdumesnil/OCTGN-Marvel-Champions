@@ -475,5 +475,8 @@ changelog = {
         "Synthezoid Smackdown Scenario pack added",
         "Wonder Man Hero pack added",
         "Hercules Hero pack added"
+        ]),
+    '0000397': ("0.0.3.97", "29 August 2026", [
+        "Fear No Evil added"
         ])
 }
