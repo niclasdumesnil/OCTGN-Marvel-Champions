@@ -41,7 +41,7 @@
   "fonctionnalites": [
     {
       "id": "convergence-mecanismes-generiques",
-      "statut": "a_proposer",
+      "statut": "propose",
       "fr": {
         "titre": "Tous les héros passent par les mécanismes génériques",
         "texte": "Demandé par le mainteneur du mod officiel : les onze héros qui gardaient un traitement particulier dans le moteur (Doctor Strange, Storm, Iceman, Hercules pour leurs pioches annexes ; Wolverine, Vision, Shadowcat, Phoenix, X-23, Wonder Man, Nick Fury pour leurs cartes posées à la mise en place) utilisent désormais les mêmes propriétés génériques que les nouveaux packs. Rien ne doit changer en jeu — si un de ces héros se met en place différemment d'avant (carte en double, pioche manquante, marqueurs absents sur Phoenix Force), signalez-le."
@@ -49,7 +49,8 @@
       "en": {
         "titre": "Every hero now goes through the generic mechanisms",
         "texte": "Requested by the official mod maintainer: the eleven heroes that still had special-case engine code (Doctor Strange, Storm, Iceman, Hercules for their side decks; Wolverine, Vision, Shadowcat, Phoenix, X-23, Wonder Man, Nick Fury for their setup cards) now use the same generic properties as new packs. Nothing should change in play - if one of these heroes sets up differently than before (duplicated card, missing side deck, missing markers on Phoenix Force), please report it."
-      }
+      },
+      "pr": 32
     },
     {
       "id": "pre-built-heros-non-officiels",
@@ -65,14 +66,27 @@
     },
     {
       "id": "jetons-de-stat",
-      "statut": "en_test",
+      "statut": "propose",
       "fr": {
         "titre": "Jetons de stat THW / ATK / DEF / REC",
-        "texte": "Quand une stat de héros ou d'allié change en cours de partie, posez un jeton libre sur la table : clic droit sur la table → « Create Stat Token ». Double-clic sur le jeton pour +1, flèches Haut/Bas pour ±1 (0 à 9), comme pour les points de vie. Le visuel reprend les écussons des cartes, et la valeur survit à la sauvegarde."
+        "texte": "Quand une stat de héros ou d'allié change en cours de partie, posez un jeton libre sur la table : clic droit sur la table → « Create Special Token ». Flèches Haut/Bas pour ±1 (0 à 9), double-clic pour remettre à zéro. Le visuel reprend les écussons des cartes, et la valeur survit à la sauvegarde."
       },
       "en": {
         "titre": "THW / ATK / DEF / REC stat tokens",
-        "texte": "When a hero or ally stat changes mid-game, drop a free-standing token on the table: right-click the table → \"Create Stat Token\". Double-click the token for +1, or press Up/Down arrows for ±1 (0 to 9), just like hit points. The art matches the card stat badges, and the value survives saving."
+        "texte": "When a hero or ally stat changes mid-game, drop a free-standing token on the table: right-click the table → \"Create Special Token\". Up/Down arrows for +/-1 (0 to 9), double-click to reset. The art matches the card stat badges, and the value survives saving."
+      },
+      "pr": 34
+    },
+    {
+      "id": "jetons-speciaux",
+      "statut": "en_test",
+      "fr": {
+        "titre": "Horloge d'actions et compteurs à cases",
+        "texte": "Trois nouveaux types de jetons libres dans le menu « Create Special Token » : une horloge 0-6 pour compter les actions, et des compteurs à cases qu'on allume une à une (Alt+1 à Alt+4 ou clic droit) — aspects (4 cases classiques, plus un petit jeton 'Pool/Determination) et ressources (4 cases). Un seul geste commun à tous les jetons spéciaux : double-clic = remise à zéro (Alt+0 aussi) ; flèches Haut/Bas = ±1 sur les jetons à valeur. Tout est manuel : le jeton est un pense-bête visible de tous, aucune règle n'y est câblée."
+      },
+      "en": {
+        "titre": "Action clock and checklist counters",
+        "texte": "Three new kinds of free-standing tokens in the \"Create Special Token\" menu: a 0-6 action clock, and checklist counters whose boxes you light one by one (Alt+1 to Alt+4, or right-click) - aspects (the four classic ones, plus a small 'Pool/Determination token) and resources (4 boxes). One single gesture across every special token: double-click = reset (Alt+0 too); Up/Down arrows = +/-1 on value tokens. Everything is manual: the token is a visual reminder everyone can see, no rule is wired to it."
       }
     },
     {

@@ -325,17 +325,15 @@ def markersUpdate(args):
 def defaultCardAction(args):
     mute()
     if args.card.group == table:
-        # Double-click steps a stat token up by 1 (Shift held: down by 1, when
-        # the client reports held keys on the event). Mouse buttons themselves
-        # cannot be rebound in OCTGN - left is select/drag, right opens the
-        # context menu - so double-click is the only pointer gesture available.
-        # Origine : Merlin - jetons de stat (2026).
-        if args.card.Type == 'stat_token':
-            keys = getattr(args, 'keysDown', None)
-            if keys and any('shift' in str(k).lower() for k in keys):
-                modifyStatToken(args.card, -1)
-            else:
-                modifyStatToken(args.card, 1)
+        # Double-click on ANY special token resets it to its base face (value
+        # 0, or every box off) - one single rule across the whole family, per
+        # Merlin. Stepping the value stays on the Up/Down arrows. Mouse
+        # buttons themselves cannot be rebound in OCTGN - left is select/drag,
+        # right opens the context menu - so double-click is the only pointer
+        # gesture available.
+        # Origine : Merlin - jetons de stat (2026), etendu aux jetons speciaux.
+        if args.card.Type in ('stat_token', 'clock_token', 'checklist_token'):
+            resetSpecialToken(args.card)
             return
         if not args.card.isFaceUp or isScheme([args.card]):
              remoteCall(args.card.controller, "revealHide", args.card)
@@ -769,10 +767,15 @@ def addAnyMarker(card, x = 0, y = 0, qty = 1):
 
 def addMarker(card, x = 0, y = 0, qty = 1):
     mute()
-    # Up arrow doubles as "+1" on a stat token: same gesture players already
-    # use for hit points. Origine : Merlin - jetons de stat (2026).
-    if card.Type == 'stat_token':
+    # Up arrow doubles as "+1" on a value token (stat, clock): same gesture
+    # players already use for hit points. Checklist tokens are inert here -
+    # their boxes toggle from the menu, and a marker dropped on them would
+    # read as a second confusing value.
+    # Origine : Merlin - jetons de stat (2026), etendu aux jetons speciaux.
+    if card.Type in valueTokenMax:
         modifyStatToken(card, qty)
+        return
+    if card.Type == 'checklist_token':
         return
     card.controller = me
     if card.hasProperty("DefaultMarkerType"):
@@ -800,10 +803,12 @@ def addMarker(card, x = 0, y = 0, qty = 1):
 
 def removeMarker(card, x = 0, y = 0, qty = 1):
     mute()
-    # Down arrow doubles as "-1" on a stat token.
-    # Origine : Merlin - jetons de stat (2026).
-    if card.Type == 'stat_token':
+    # Down arrow doubles as "-1" on a value token; inert on a checklist.
+    # Origine : Merlin - jetons de stat (2026), etendu aux jetons speciaux.
+    if card.Type in valueTokenMax:
         modifyStatToken(card, -qty)
+        return
+    if card.Type == 'checklist_token':
         return
     card.controller = me
     if card.hasProperty("DefaultMarkerType"):
@@ -914,46 +919,140 @@ statTokenIds = {
     "REC": "9e461229-09ce-45ac-8e14-76f08e77b47a",
 }
 
+# Two more free-standing token families, same alternate-as-state pattern:
+# - clock_token: a 0-6 action clock. The alternate IS the value ("1".."6").
+# - checklist_token: independent boxes. The alternate is the sorted digits
+#   of the lit boxes ("13" = boxes 1 and 3) - the XSD allows any string as
+#   an alternate type, so the code needs no lookup table. Aspects come as
+#   two tokens (the four classic ones, plus a 2-box one for 'Pool and
+#   Determination) rather than one 6-box token: 2^6 faces was a gas factory.
+# Everything stays manual: the tokens are visual reminders the player drives,
+# no game rule is wired to them.
+# Origine : Merlin - jetons speciaux (horloge, compteurs a cases), 2026.
+specialTokenIds = {
+    "Action Clock": "4f2a322f-0d3a-4315-ad65-e046b9805e47",
+    "Aspect Counter": "7e23fb75-f532-43c3-9a0f-575c9876b9d2",
+    "Extra Aspect Counter": "b2b1a6c7-2aa1-45dd-adfc-e4bc0479d05f",
+    "Resource Counter": "071e3cef-963e-44fb-bd14-642003c96b80",
+}
+
+# Highest value per counting token type (stat tokens 0-9, clock 0-6).
+valueTokenMax = {
+    'stat_token': 9,
+    'clock_token': 6,
+}
+
 def isStatToken(cards, x = 0, y = 0):
     for c in cards:
         if c.Type != 'stat_token':
             return False
     return True
 
+def isValueToken(cards, x = 0, y = 0):
+    """showIf: tokens holding a single value (stat 0-9, clock 0-6)."""
+    for c in cards:
+        if c.Type not in valueTokenMax:
+            return False
+    return True
+
+def isChecklistToken(cards, x = 0, y = 0):
+    for c in cards:
+        if c.Type != 'checklist_token':
+            return False
+    return True
+
+def isSpecialToken(cards, x = 0, y = 0):
+    for c in cards:
+        if c.Type not in ('stat_token', 'clock_token', 'checklist_token'):
+            return False
+    return True
+
 def statTokenValue(card):
-    """Reads the token value from its current alternate ("" = 0, "b".."j" = 1..9)."""
+    """Reads a value token's value from its current alternate.
+
+    Stat tokens use the historical letters ("b".."j" = 1..9), the clock uses
+    the value itself ("1".."6"); base face is always 0.
+    """
     alt = card.alternate
     if alt == "":
         return 0
-    return ord(alt[0].lower()) - ord('a')
+    if alt[0].lower().isalpha():
+        return ord(alt[0].lower()) - ord('a')
+    return num(alt)
 
 def modifyStatToken(card, delta):
-    """Steps the token value by delta, clamped to 0-9, by switching alternates."""
+    """Steps a value token by delta, clamped to its own 0-max range."""
     mute()
+    maxValue = valueTokenMax.get(card.Type, 9)
     old = statTokenValue(card)
-    new = max(0, min(9, old + delta))
+    new = max(0, min(maxValue, old + delta))
     if new == old:
         return
-    card.alternate = "" if new == 0 else chr(ord('a') + new)
+    if new == 0:
+        card.alternate = ""
+    elif card.Type == 'clock_token':
+        card.alternate = str(new)
+    else:
+        card.alternate = chr(ord('a') + new)
     notify("{} sets {} to {}.".format(me, card.Name.split(" (")[0], new))
 
-def createStatToken(group=None, x=0, y=0):
-    """Table menu: spawns a THW/ATK/DEF/REC token at the clicked position."""
+def resetSpecialToken(card, x = 0, y = 0):
+    """Back to the base face: value 0, or every box off."""
     mute()
-    choices = ["THW", "ATK", "DEF", "REC"]
-    colors = ["#0076a8", "#c8102e", "#4c9c2e", "#e0c000"]
-    choice = askChoice("Which stat token?", choices, colors)
-    if choice == 0:
+    if card.alternate == "":
         return
-    token = table.create(statTokenIds[choices[choice - 1]], x, y, 1, True)
-    notify("{} creates a {} token.".format(me, choices[choice - 1]))
+    card.alternate = ""
+    notify("{} resets {}.".format(me, card.Name.split(" (")[0]))
+
+def checklistBoxCount(card):
+    """4 boxes on the standard counters, 2 on the extra-aspects one."""
+    return 2 if "Extra" in card.Name else 4
+
+def toggleTokenBox(card, box):
+    """Lights or clears one box of a checklist token by rebuilding the code."""
+    mute()
+    # A box the token does not have (5-6 on a 4-box counter) would point to a
+    # non-declared alternate: refuse it instead of blanking the token.
+    if box > checklistBoxCount(card):
+        whisper("{} has no box {}.".format(card.Name.split(" (")[0], box))
+        return
+    lit = set(int(c) for c in card.alternate) if card.alternate != "" else set()
+    if box in lit:
+        lit.discard(box)
+    else:
+        lit.add(box)
+    card.alternate = "".join(str(b) for b in sorted(lit))
+    state = "lights box" if box in lit else "clears box"
+    notify("{} {} {} on {}.".format(me, state, box, card.Name.split(" (")[0]))
+
+def toggleBox1(card, x = 0, y = 0): toggleTokenBox(card, 1)
+def toggleBox2(card, x = 0, y = 0): toggleTokenBox(card, 2)
+def toggleBox3(card, x = 0, y = 0): toggleTokenBox(card, 3)
+def toggleBox4(card, x = 0, y = 0): toggleTokenBox(card, 4)
+
+def createSpecialToken(tokenName, x, y):
+    mute()
+    ids = dict(statTokenIds)
+    ids.update(specialTokenIds)
+    table.create(ids[tokenName], x, y, 1, True)
+    notify("{} creates a {} token.".format(me, tokenName))
+
+def createTokenTHW(group=None, x=0, y=0): createSpecialToken("THW", x, y)
+def createTokenATK(group=None, x=0, y=0): createSpecialToken("ATK", x, y)
+def createTokenDEF(group=None, x=0, y=0): createSpecialToken("DEF", x, y)
+def createTokenREC(group=None, x=0, y=0): createSpecialToken("REC", x, y)
+def createTokenClock(group=None, x=0, y=0): createSpecialToken("Action Clock", x, y)
+def createTokenAspects(group=None, x=0, y=0): createSpecialToken("Aspect Counter", x, y)
+def createTokenAspectsExtra(group=None, x=0, y=0): createSpecialToken("Extra Aspect Counter", x, y)
+def createTokenResources(group=None, x=0, y=0): createSpecialToken("Resource Counter", x, y)
 
 def addAPCounter(card, x=0, y=0, qty=1):
     mute()
-    # Right/Left stay inert on a stat token: without this guard they drop All
-    # Purpose markers on it, which reads as a second, confusing value next to
-    # the one the token displays. Origine : Merlin - jetons de stat (2026).
-    if card.Type == 'stat_token':
+    # Right/Left stay inert on every special token: without this guard they
+    # drop All Purpose markers on it, which reads as a second, confusing
+    # value next to the one the token displays.
+    # Origine : Merlin - jetons de stat (2026), etendu aux jetons speciaux.
+    if card.Type in ('stat_token', 'clock_token', 'checklist_token'):
         return
     card.controller = me
     card.markers[AllPurposeMarker] += qty
@@ -961,9 +1060,9 @@ def addAPCounter(card, x=0, y=0, qty=1):
 
 def removeAPCounter(card, x = 0, y = 0):
     mute()
-    # Same guard as addAPCounter: no All Purpose markers on a stat token.
-    # Origine : Merlin - jetons de stat (2026).
-    if card.Type == 'stat_token':
+    # Same guard as addAPCounter: no All Purpose markers on a special token.
+    # Origine : Merlin - jetons de stat (2026), etendu aux jetons speciaux.
+    if card.Type in ('stat_token', 'clock_token', 'checklist_token'):
         return
     card.controller = me
     card.markers[AllPurposeMarker] -= 1

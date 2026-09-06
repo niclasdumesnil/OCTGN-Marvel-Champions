@@ -181,9 +181,20 @@
     <table name="Table" visibility="undefined" ordered="False" width="800" height="500" background="background/playmat2.png" backgroundStyle="uniformToFill" >
         <groupaction menu="Welcome Screen" default="False" execute="showWelcomeScreen" />
         <groupaction menu="Create Card" default="False" execute="createCard" />
-        <!-- Spawns a free-standing THW/ATK/DEF/REC stat token at the clicked spot.
-             Origine : Merlin - suivi visuel des stats modifiees en partie (2026). -->
-        <groupaction menu="Create Stat Token" default="False" execute="createStatToken" />
+        <!-- Free-standing helper tokens, spawned at the clicked spot: stat values
+             (THW/ATK/DEF/REC, 0-9), a 0-6 action clock, and manual checklist
+             counters (aspects, resources). One direct entry per token, no dialog.
+             Origine : Merlin - jetons speciaux (2026). -->
+        <groupactions menu="Create Special Token">
+            <groupaction menu="THW Token" default="False" execute="createTokenTHW" />
+            <groupaction menu="ATK Token" default="False" execute="createTokenATK" />
+            <groupaction menu="DEF Token" default="False" execute="createTokenDEF" />
+            <groupaction menu="REC Token" default="False" execute="createTokenREC" />
+            <groupaction menu="Action Clock (0-6)" default="False" execute="createTokenClock" />
+            <groupaction menu="Aspect Counter (4 boxes)" default="False" execute="createTokenAspects" />
+            <groupaction menu="Extra Aspect Counter ('Pool / Determination)" default="False" execute="createTokenAspectsExtra" />
+            <groupaction menu="Resource Counter" default="False" execute="createTokenResources" />
+        </groupactions>
         <groupactions menu="Setup">
             <groupaction menu="Load Villain" shortcut="ctrl+V" execute="loadVillain" />
             <groupaction menu="Load FanMade Villain Scenario" execute="loadFanmadeVillain" />
@@ -217,13 +228,28 @@
         <cardaction menu="Move to Bottom of Encounter Deck" execute="bottomEncounterDeck" />
 		<cardaction menu="Add to Victory Display" default="False" shortcut="ctrl+V" execute="moveToVictory" />
         <cardaction menu="Get Position" execute="getPosition" />
-        <!-- Stat tokens change value with the same Up/Down keys players already
-             use for hit points (the addMarker/removeMarker handlers dispatch on
-             the stat_token type); these menu entries make the gesture
-             discoverable from the right-click menu.
-             Origine : Merlin - jetons de stat THW/ATK/DEF/REC (2026). -->
-        <cardaction menu="Stat Token +1" execute="addMarker" showIf="isStatToken" />
-        <cardaction menu="Stat Token -1" execute="removeMarker" showIf="isStatToken" />
+        <!-- Special tokens (stat values, action clock, checklists). Value tokens
+             change with the same Up/Down keys players already use for hit points
+             (the addMarker/removeMarker handlers dispatch on the token types);
+             checklist boxes toggle from this menu only, and Reset returns any
+             token to its base face. Origine : Merlin - jetons speciaux (2026). -->
+        <!-- Shortcuts are repeated inside the labels because OCTGN's context
+             menu does not render the shortcut attribute. -->
+        <cardactions menu="Special Token">
+            <cardaction menu="+1 (Up)" execute="addMarker" showIf="isValueToken" />
+            <cardaction menu="-1 (Down)" execute="removeMarker" showIf="isValueToken" />
+            <!-- Bare digits ("1".."4", "0") were tried first and are REFUSED by
+                 the toolchain ("Key combination '0' is invalid", o8build) - WPF
+                 key gestures need a modifier on printable keys, which is why
+                 this game file never binds a bare letter either. Hence alt+N,
+                 same family as the status shortcuts (alt+s, alt+c, alt+t).
+                 Origine : Merlin - jetons speciaux (2026). -->
+            <cardaction menu="Reset (Alt+0, double-click)" shortcut="alt+0" execute="resetSpecialToken" showIf="isSpecialToken" />
+            <cardaction menu="Toggle Box 1 (Alt+1)" shortcut="alt+1" execute="toggleBox1" showIf="isChecklistToken" />
+            <cardaction menu="Toggle Box 2 (Alt+2)" shortcut="alt+2" execute="toggleBox2" showIf="isChecklistToken" />
+            <cardaction menu="Toggle Box 3 (Alt+3)" shortcut="alt+3" execute="toggleBox3" showIf="isChecklistToken" />
+            <cardaction menu="Toggle Box 4 (Alt+4)" shortcut="alt+4" execute="toggleBox4" showIf="isChecklistToken" />
+        </cardactions>
         <cardactions menu="Markers">
 			<cardaction menu="Add marker (Choice)" shortcut="F1" execute="addAnyMarker" />
             <cardaction menu="Add marker (Automatic)" shortcut="Up" execute="addMarker" />

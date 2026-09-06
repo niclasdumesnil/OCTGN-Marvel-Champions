@@ -49,5 +49,56 @@
 			<alternate name="REC Token (8)" size="StatToken" type="i"><property name="Type" value="stat_token" /></alternate>
 			<alternate name="REC Token (9)" size="StatToken" type="j"><property name="Type" value="stat_token" /></alternate>
 		</card>
+		<card id="4f2a322f-0d3a-4315-ad65-e046b9805e47" name="Action Clock (0)" size="StatToken">
+			<property name="Type" value="clock_token" />
+			<alternate name="Action Clock (1)" size="StatToken" type="1"><property name="Type" value="clock_token" /></alternate>
+			<alternate name="Action Clock (2)" size="StatToken" type="2"><property name="Type" value="clock_token" /></alternate>
+			<alternate name="Action Clock (3)" size="StatToken" type="3"><property name="Type" value="clock_token" /></alternate>
+			<alternate name="Action Clock (4)" size="StatToken" type="4"><property name="Type" value="clock_token" /></alternate>
+			<alternate name="Action Clock (5)" size="StatToken" type="5"><property name="Type" value="clock_token" /></alternate>
+			<alternate name="Action Clock (6)" size="StatToken" type="6"><property name="Type" value="clock_token" /></alternate>
+		</card>
+		<card id="7e23fb75-f532-43c3-9a0f-575c9876b9d2" name="Aspect Counter" size="StatToken">
+			<property name="Type" value="checklist_token" />
+			<alternate name="Aspect Counter (1)" size="StatToken" type="1"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Aspect Counter (2)" size="StatToken" type="2"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Aspect Counter (3)" size="StatToken" type="3"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Aspect Counter (4)" size="StatToken" type="4"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Aspect Counter (1,2)" size="StatToken" type="12"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Aspect Counter (1,3)" size="StatToken" type="13"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Aspect Counter (1,4)" size="StatToken" type="14"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Aspect Counter (2,3)" size="StatToken" type="23"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Aspect Counter (2,4)" size="StatToken" type="24"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Aspect Counter (3,4)" size="StatToken" type="34"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Aspect Counter (1,2,3)" size="StatToken" type="123"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Aspect Counter (1,2,4)" size="StatToken" type="124"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Aspect Counter (1,3,4)" size="StatToken" type="134"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Aspect Counter (2,3,4)" size="StatToken" type="234"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Aspect Counter (1,2,3,4)" size="StatToken" type="1234"><property name="Type" value="checklist_token" /></alternate>
+		</card>
+		<card id="b2b1a6c7-2aa1-45dd-adfc-e4bc0479d05f" name="Extra Aspect Counter" size="StatToken">
+			<property name="Type" value="checklist_token" />
+			<alternate name="Extra Aspect Counter (1)" size="StatToken" type="1"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Extra Aspect Counter (2)" size="StatToken" type="2"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Extra Aspect Counter (1,2)" size="StatToken" type="12"><property name="Type" value="checklist_token" /></alternate>
+		</card>
+		<card id="071e3cef-963e-44fb-bd14-642003c96b80" name="Resource Counter" size="StatToken">
+			<property name="Type" value="checklist_token" />
+			<alternate name="Resource Counter (1)" size="StatToken" type="1"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Resource Counter (2)" size="StatToken" type="2"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Resource Counter (3)" size="StatToken" type="3"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Resource Counter (4)" size="StatToken" type="4"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Resource Counter (1,2)" size="StatToken" type="12"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Resource Counter (1,3)" size="StatToken" type="13"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Resource Counter (1,4)" size="StatToken" type="14"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Resource Counter (2,3)" size="StatToken" type="23"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Resource Counter (2,4)" size="StatToken" type="24"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Resource Counter (3,4)" size="StatToken" type="34"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Resource Counter (1,2,3)" size="StatToken" type="123"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Resource Counter (1,2,4)" size="StatToken" type="124"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Resource Counter (1,3,4)" size="StatToken" type="134"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Resource Counter (2,3,4)" size="StatToken" type="234"><property name="Type" value="checklist_token" /></alternate>
+			<alternate name="Resource Counter (1,2,3,4)" size="StatToken" type="1234"><property name="Type" value="checklist_token" /></alternate>
+		</card>
 	</cards>
 </set>
