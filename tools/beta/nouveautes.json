@@ -79,7 +79,7 @@
     },
     {
       "id": "jetons-speciaux",
-      "statut": "en_test",
+      "statut": "a_proposer",
       "fr": {
         "titre": "Horloge d'actions et compteurs à cases",
         "texte": "Trois nouveaux types de jetons libres dans le menu « Create Special Token » : une horloge 0-6 pour compter les actions, et des compteurs à cases qu'on allume une à une (Alt+1 à Alt+4 ou clic droit) — aspects (4 cases classiques, plus un petit jeton 'Pool/Determination) et ressources (4 cases). Un seul geste commun à tous les jetons spéciaux : double-clic = remise à zéro (Alt+0 aussi) ; flèches Haut/Bas = ±1 sur les jetons à valeur. Tout est manuel : le jeton est un pense-bête visible de tous, aucune règle n'y est câblée."
