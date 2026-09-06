@@ -1653,8 +1653,21 @@ def placeThreatOnScheme(card):
             add_hinder = 0
             description_search = re.search('.*Hinder (\d+).?\[per_.*\].*', card.properties["Text"], re.IGNORECASE)
             if description_search:
-                add_hinder = int(description_search.group(1)) * nb_players
-                log_msg += " + {} threats from Hinder keyword".format(add_hinder)
+                # Some main schemes only GAIN the keyword beyond one player: "If there
+                # is more than 1 player on your team, this stage gains hinder 2[per_hero]."
+                # The search above matches the keyword wherever it sits in the text, so
+                # the condition in front of it was ignored and a solo game started with
+                # 2 threats that the card never asks for. Ten cards are worded this way,
+                # every stage 1B of Civil War and Synthezoid Smackdown - the leader
+                # scenarios, always played against one of these schemes.
+                # Origine : Merlin - constate en jeu en solo (Valkyrie, puis She-Hulk),
+                # 2026.
+                conditional = re.search('more than 1 player|more than one player', card.properties["Text"], re.IGNORECASE)
+                if conditional and nb_players < 2:
+                    log_msg += " + no threat from Hinder (the card only gains it beyond one player)"
+                else:
+                    add_hinder = int(description_search.group(1)) * nb_players
+                    log_msg += " + {} threats from Hinder keyword".format(add_hinder)
 
             # Edge cases: add threats when revealed (but only if not already found Hinder text because the reminder contains the searched text)
             # This is mainly due to inconsistent wording between beginning of the game before Hinder keyword arrived
