@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Fear No Evil Expansion #1" id="7d2994c6-ae51-4958-9edc-06b3dc5e8434" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="7d2994c6-ae51-4958-9edc-06b3dc000000" name="Eyes On The Prize">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="eyes_on_the_prize_by_designhacker"/>
+      <property name="nbModular" value="2"/>
+      <property name="mandatoryModular" value="{'bullseye_by_ffg': ['Bullseye', 'Encounter', False]}"/>
+      <property name="recommendedModular" value="{'ransacked_armory': ['Ransacked Armory', 'Encounter', False], 'tracksuit_mafia_by_ffg': ['Tracksuit Mafia', 'Encounter', False]}"/>
+    </card>
+    <card id="7d2994c6-ae51-4958-9edc-06b3dc990000" name="Energetic Enemy">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="energetic_enemy_by_designhacker"/>
+      <property name="nbModular" value="2"/>
+      <property name="mandatoryModular" value="{'electro_by_ffg': ['Electro', 'Encounter', False]}"/>
+      <property name="recommendedModular" value="{'sinister_syndicate': ['Sinister Syndicate', 'Encounter', False], 'zzzax': ['Zzzax', 'Encounter', False]}"/>
+    </card>
+    <card id="7d2994c6-ae51-4958-9edc-06b3dc000002" name="Enforcer Entanglements">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="enforcer_entanglements_by_designhacker"/>
+      <property name="nbModular" value="1"/>
+      <property name="mandatoryModular" value="{'hammerhead_by_ffg': ['Hammerhead', 'Encounter', False], 'cops_by_ffg': ['Cops', 'Encounter', False]}"/>
+      <property name="recommendedModular" value="{'ransacked_armory': ['Ransacked Armory', 'Encounter', False]}"/>
+    </card>
+    <card id="7d2994c6-ae51-4958-9edc-06b3dc000003" name="Violet Violence">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="violet_violence_by_designhacker"/>
+      <property name="nbModular" value="2"/>
+      <property name="mandatoryModular" value="{'purple_man_by_ffg': ['Purple Man', 'Encounter', False]}"/>
+      <property name="recommendedModular" value="{'streets_of_mayhem': ['Streets of Mayhem', 'Encounter', False], 'tracksuit_mafia_by_ffg': ['Tracksuit Mafia', 'Encounter', False]}"/>
+    </card>
+    <card id="7d2994c6-ae51-4958-9edc-06b3dc000004" name="Double Trouble">
+      <property name="Type" value="fm_villain_setup"/>
+      <property name="Owner" value="double_trouble_by_designhacker"/>
+      <property name="nbModular" value="2"/>
+      <property name="mandatoryModular" value="{'typhoid_mary_by_ffg': ['Typhoid Mary', 'Encounter', False]}"/>
+      <property name="recommendedModular" value="{'tracksuit_mafia_by_ffg': ['Tracksuit Mafia', 'Encounter', False], 'sinister_syndicate': ['Sinister Syndicate', 'Encounter', False]}"/>
+    </card>
+    <card name="Eyes On The Prize" id="7d2994c6-ae51-4958-9edc-06b3dc086001" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="208601a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="eyes_on_the_prize_by_designhacker"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Bullseye (I) and Bullseye (II). (Bullseye (II) and Bullseye (III) instead for expert mode.) Bullseye and Standard encounter sets. Two modular encounter sets (Ransacked Armory &amp; Tracksuit Mafia).
+
+&lt;b&gt;Setup&lt;/b&gt;: Each player finds an ally in their deck, puts it into play, and deals damage to it until it has 1 hit point remaining.</property>
+      <property name="Quote" value="You have just stopped Bullseye from “completing his important work”. He doesn't take kindly to that."/>
+      <property name="Stage" value="1A"/>
+      <alternate name="Eyes On The Prize" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="208601b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="eyes_on_the_prize_by_designhacker"/>
+        <property name="BaseThreat" value="2"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="9"/>
+        <property name="Unique" value="False"/>
+        <property name="Text">Treat each acceleration token in play as a [amplify] icon instead.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When a boost card on Bullseye is turned faceup, if it is not a Bullseye card, discard it and give him another boost card instead. (Limit once per activation.)
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Stage" value="1B"/>
+      </alternate>
+    </card>
+    <card name="Energetic Enemy" id="7d2994c6-ae51-4958-9edc-06b3dc086002" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="208602a"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="energetic_enemy_by_designhacker"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Electro (I) and Electro (II). (Electro (II) and Electro (III) instead for expert mode.) Electro and Standard encounter sets. Two modular encounter sets (Sinister Syndicate &amp; Zzzax).
+
+&lt;b&gt;Setup&lt;/b&gt;: Each player who has no cards with a printed [energy] resource in their hand seeks a card from their deck with a printed [energy] resource and adds it to their hand.</property>
+      <property name="Quote" value="Electro has filled the air with static electricity. Try shuffling your feet on some carpet, maybe?"/>
+      <property name="Stage" value="1A"/>
+      <alternate name="Energetic Enemy" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="208602b"/>
+        <property name="Position" value="2"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="energetic_enemy_by_designhacker"/>
+        <property name="BaseThreat" value="2"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="9"/>
+        <property name="Unique" value="False"/>
+        <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Spend [mental] [physical] resources → move a charge counter from Electric Charge to a card you control and ready it.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Electro would attack, if there are no charge counters on Electric Charge, she schemes with +1 SCH instead.
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Stage" value="1B"/>
+      </alternate>
+    </card>
+    <card name="Enforcer Entanglements" id="7d2994c6-ae51-4958-9edc-06b3dc086003" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="208603a"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="enforcer_entanglements_by_designhacker"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Hammerhead (I) and Hammerhead (II). (Hammerhead (II) and Hammerhead (III) instead for expert mode.) Hammerhead, Cops, and Standard encounter sets. One modular encounter set (Ransacked Armory).
+
+&lt;b&gt;Setup&lt;/b&gt;: The first player puts the topmost minion in the encounter deck into play engaged with them. (&lt;i&gt;Shuffle&lt;/i&gt;.)</property>
+      <property name="Quote" value="Mercenaries, Maggia, and local law enforcement don't really see eye to eye."/>
+      <property name="Stage" value="1A"/>
+      <alternate name="Enforcer Entanglements" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="208603b"/>
+        <property name="Position" value="3"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="enforcer_entanglements_by_designhacker"/>
+        <property name="BaseThreat" value="2"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="8"/>
+        <property name="Unique" value="False"/>
+        <property name="Text">While you are stunned, [[Police]] minions engaged with you attack the [[Criminal]] or [[Mercenary]] character with the fewest remaining hit points instead.
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Stage" value="1B"/>
+      </alternate>
+    </card>
+    <card name="Violet Violence" id="7d2994c6-ae51-4958-9edc-06b3dc086004" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="208604a"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="violet_violence_by_designhacker"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Purple Man (I) and Purple Man (II). (Purple Man (II) and Purple Man (III) instead for expert mode.) Purple Man and Standard encounter sets. Two modular encounter sets (Streets of Mayhem &amp; Tracksuit Mafia).
+
+&lt;b&gt;Setup&lt;/b&gt;: Each player searches the encounter deck for an [[Influenced]] minion and reveals it. (&lt;i&gt;Shuffle&lt;/i&gt;.)</property>
+      <property name="Quote" value="Purple Man is commanding wave after wave of innocent civilians under his influence. Stop him!"/>
+      <property name="Stage" value="1A"/>
+      <alternate name="Violet Violence" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="208604b"/>
+        <property name="Position" value="4"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="violet_violence_by_designhacker"/>
+        <property name="BaseThreat" value="2"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="9"/>
+        <property name="Unique" value="False"/>
+        <property name="Text">&lt;b&gt;Forced Interrupt&lt;/b&gt;: When a [[Civilian]] minion would be discarded, shuffle it into the encounter deck instead.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend a [wild] resource → choose to either stun or confuse an [[Influenced]] minion.
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Stage" value="1B"/>
+      </alternate>
+    </card>
+    <card name="Double Trouble" id="7d2994c6-ae51-4958-9edc-06b3dc086005" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Scheme"/>
+      <property name="CardNumber" value="208605a"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="main_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="double_trouble_by_designhacker"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;Contents&lt;/b&gt;: Typhoid Mary (A). (Typhoid Mary (B) instead for expert mode.) Typhoid Mary and Standard encounter sets. Two modular encounter sets (Tracksuit Mafia &amp; Sinister Syndicate).
+
+&lt;b&gt;Setup&lt;/b&gt;: Reveal the Establish Trust side scheme. Reveal the Disturbed Psyche environment and resolve its “&lt;b&gt;Setup&lt;/b&gt;” ability. Give the villain a tough status card.</property>
+      <property name="Quote" value="Poor Mary Walker has not one, but two alternate identities that have the ability to cause serious issues for herself and others."/>
+      <property name="Stage" value="1A"/>
+      <alternate name="Double Trouble" type="b" size="SchemeCard">
+        <property name="DefaultSetupPile" value="Scheme"/>
+        <property name="CardNumber" value="208605b"/>
+        <property name="Position" value="5"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="main_scheme"/>
+        <property name="Faction" value="encounter"/>
+        <property name="Owner" value="double_trouble_by_designhacker"/>
+        <property name="BaseThreat" value="2"/>
+        <property name="EscalationThreat" value="1"/>
+        <property name="Threat" value="9"/>
+        <property name="Unique" value="False"/>
+        <property name="Text">Reduce the amount of damage the villain takes from each attack by 1 for each Typhoid Mary card attached to her.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: After a token is placed on Disturbed Psyche, find a non-unique Typhoid Mary attachment and attach it to the villain. Replace its printed text box with: “Permanent.”
+&lt;b&gt;If this stage is completed, the players lose the game.&lt;/b&gt;</property>
+        <property name="Stage" value="1B"/>
+      </alternate>
+    </card>
+  </cards>
+</set>
