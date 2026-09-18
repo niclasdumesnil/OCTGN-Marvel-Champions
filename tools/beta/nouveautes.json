@@ -40,6 +40,18 @@
   ],
   "fonctionnalites": [
     {
+      "id": "scenario-par-code-mission",
+      "statut": "a_proposer",
+      "fr": {
+        "titre": "Monter un scénario avec son code mission mc4db",
+        "texte": "Sur mc4db, chaque configuration de scénario a un « code mission » que l'on peut copier. Dans OCTGN : clic droit sur la table → Setup → « Load Scenario (mc4db mission code) », collez le code, et la table se monte entièrement — vilain, sets modulaires et difficulté tels que vous les avez choisis sur le site, sans répondre aux trois questions habituelles. Si un des packs nécessaires n'est pas installé chez vous, rien n'est chargé et la liste des sets manquants s'affiche."
+      },
+      "en": {
+        "titre": "Set a scenario up from its mc4db mission code",
+        "texte": "Every scenario setup on mc4db has a copyable \"mission code\". In OCTGN: right-click the table → Setup → \"Load Scenario (mc4db mission code)\", paste the code, and the table is set up in full - villain, modular sets and difficulty exactly as picked on the site, without going through the usual three questions. If one of the required packs is not installed, nothing is loaded and the missing set codes are listed."
+      }
+    },
+    {
       "id": "convergence-mecanismes-generiques",
       "statut": "propose",
       "fr": {

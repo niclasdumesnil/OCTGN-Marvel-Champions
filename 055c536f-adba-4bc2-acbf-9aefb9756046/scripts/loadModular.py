@@ -10,9 +10,14 @@ def loadFanmadeEncounter(group, x = 0, y = 0):
     mute()
     specificEncounter(group, nbModular = 1, setupType = "fm_encounter_setup")
 
-def loadEncounter(group, nbModular = 1):
+def loadEncounter(group, nbModular = 1, mission = None):
     mute()
     villainName = getGlobalVariable("villainSetup")
+    # A mission code already names its modular sets: they are loaded as chosen,
+    # and the recommended/choose question is skipped.
+    # Origine : Merlin - chargement par code mission mc4db (2026).
+    if mission is not None:
+        return missionEncounter(group, mission)
     if nbModular > 0:
         setupChoice = askChoice("Would you like to take on recommended modular encounter set(s) ?", ["Yes", "Let me choose which one(s)", "Oops! Let's start over from the beginning!"])
         if setupChoice == 0 or setupChoice == 3:
@@ -295,3 +300,45 @@ def campaignEncounter(villainSet = '', x = 0, y = 0):
     # Origine : Merlin - cartes de campagne de Fear No Evil (2026).
     if villainSet == "art_museum_heist_by_ffg" or villainSet == "the_getaway_by_ffg" or villainSet == "protection_racket_by_ffg" or villainSet == "the_raft_breakout_by_ffg" or villainSet == "stop_the_presses_by_ffg" or villainSet == "kingpin_by_ffg":
         createCardsFromSet(campaignDeck(), "campaign_by_ffg", "Fear No Evil Campaign", True)
+
+def missionEncounter(group, mission):
+    """
+    Modular sets of a mission code, loaded without a question. Mirrors
+    specificEncounter() - same destination pile, same Hood exception, same
+    cleanup - only the selection comes from the code instead of the dialog.
+    Origine : Merlin - chargement par code mission mc4db (2026).
+    """
+    mute()
+    vName = getGlobalVariable("villainSetup")
+    names = missionSetNames(mission["modulars"])
+    for setCode in mission["modulars"]:
+        setName = names.get(setCode, setCode)
+        if vName == 'The Hood':
+            createCardsFromSet(specialDeck(), setCode, setName, True)
+        else:
+            createCardsFromSet(group, setCode, setName, True)
+    deleteCards(setupPile())
+    return True
+
+def missionSetNames(setCodes):
+    """
+    Display names of the modular sets, read off their setup cards, in ONE pass -
+    the Setup pile has to be filled from queryCard() first (see missionSetupCards
+    in loadVillain.py). The query is narrowed to the sets wanted: asking by Type
+    alone would create the 278 encounter setup cards of the game to read a
+    handful of names.
+    Only used for the log line; the cards themselves are found by Owner.
+    Origine : Merlin - chargement par code mission mc4db (2026).
+    """
+    names = {}
+    if len(setCodes) == 0:
+        return names
+    for setCode in setCodes:
+        for setupType in ("encounter_setup", "fm_encounter_setup"):
+            for model in queryCard({"Type": setupType, "Owner": setCode}, True):
+                setupPile().create(model, 1)
+    update()
+    for c in setupPile():
+        if c.Owner in setCodes:
+            names[c.Owner] = c.Name
+    return names

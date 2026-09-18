@@ -198,6 +198,12 @@
         <groupactions menu="Setup">
             <groupaction menu="Load Villain" shortcut="ctrl+V" execute="loadVillain" />
             <groupaction menu="Load FanMade Villain Scenario" execute="loadFanmadeVillain" />
+            <!-- Sets a table up from an mc4db mission code: the code names the villain
+                 set, the modular sets and the difficulty sets, so the three questions of
+                 Load Villain are answered by it. Works for official and fan-made packs
+                 alike - the scenario's own setup card says which flow it belongs to.
+                 Origine : Merlin - chargement par code mission mc4db (2026). -->
+            <groupaction menu="Load Scenario (mc4db mission code)" execute="loadScenarioByCode" />
             <groupaction menu="Load Hero" shortcut="ctrl+H" execute="loadHero" />
             <groupaction menu="Load FanMade Hero Deck" execute="loadFanmadeHero" />
         </groupactions>
