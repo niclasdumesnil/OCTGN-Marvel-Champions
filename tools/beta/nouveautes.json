@@ -40,6 +40,18 @@
   ],
   "fonctionnalites": [
     {
+      "id": "mot-cle-starting-markup",
+      "statut": "a_proposer",
+      "fr": {
+        "titre": "Cartes « Starting. » : celles en gras arrivent aussi en main",
+        "texte": "Le moteur ne reconnaissait le mot-clé Starting. que sur les cartes dont le texte commence par le mot nu. Perception innée et Inspiration innée (pack Jessica Jones) l'écrivent en gras et restaient donc dans la pioche, sans le moindre message — alors qu'Agression innée, dans le même pack, fonctionnait. Les six cartes du mot-clé arrivent désormais en main de départ."
+      },
+      "en": {
+        "titre": "\"Starting.\" cards: the bold ones now reach your hand too",
+        "texte": "The engine only recognised the Starting. keyword on cards whose text begins with the bare word. Innate Perception and Innate Inspiration (Jessica Jones pack) write it in bold and were silently left in the deck - while Innate Aggression, in the very same pack, worked. All six cards carrying the keyword now reach the starting hand."
+      }
+    },
+    {
       "id": "environnement-homme-absorbant",
       "statut": "propose",
       "fr": {
