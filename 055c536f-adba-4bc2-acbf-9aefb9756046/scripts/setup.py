@@ -1445,6 +1445,35 @@ def villainSetup(vName = ''):
 
 
     if vName == 'Absorbing Man':
+        if msCardOnTable[0].CardNumber == "04079a": # Stage 1 main scheme
+            # "None Shall Pass" asks for an environment before the first turn:
+            # "Discard cards from the encounter deck until an environment is
+            # discarded. Put that card into play and shuffle the encounter
+            # discard pile into the encounter deck."
+            # Nothing did it, so the scenario started with no environment at all
+            # and an encounter deck still in its dealt order.
+            # The cards are really discarded one by one from the top, as the
+            # card says: taking the first environment straight out of the deck
+            # would leave the cards above it in place, and the shuffle that ends
+            # the instruction exists precisely to undo that peek.
+            # Origine : Merlin - regle de la manigance principale 04079a.
+            envCard = None
+            while len(encounterDeck()) > 0:
+                topCard = encounterDeck()[0]
+                topCard.moveTo(encounterDiscardDeck())
+                if topCard.Type == "environment":
+                    envCard = topCard
+                    break
+            if envCard is not None:
+                envCard.moveToTable(tableLocations['environment'][0], tableLocations['environment'][1])
+                notify("{} enters play as the environment.".format(envCard.Name))
+            else:
+                notify("No environment found in the encounter deck.")
+            for c in encounterDiscardDeck():
+                c.moveTo(encounterDeck())
+            update()
+            shuffle(encounterDeck())
+
         if vCardOnTable[0].CardNumber == "04077": # Absorbing Man II
             revealCardOnSetup("Super Absorbing Power", "04092", ssX, ssY)
 
