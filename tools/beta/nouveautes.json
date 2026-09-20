@@ -40,6 +40,19 @@
   ],
   "fonctionnalites": [
     {
+      "id": "environnement-homme-absorbant",
+      "statut": "propose",
+      "fr": {
+        "titre": "L'Homme Absorbant pose son environnement",
+        "texte": "La manigance principale du scénario de l'Homme Absorbant demande, avant le premier tour, de défausser des cartes de la rencontre jusqu'à en révéler un environnement, de le mettre en jeu, puis de remettre la défausse dans la pioche et de la mélanger. Le moteur ne le faisait pas : la partie démarrait sans environnement. C'est fait automatiquement à la mise en place, et le journal annonce l'environnement révélé."
+      },
+      "en": {
+        "titre": "Absorbing Man now sets up its environment",
+        "texte": "The scenario's stage 1 main scheme asks, before the first turn, to discard cards from the encounter deck until an environment is discarded, put it into play, then shuffle the discard pile back into the deck. Nothing did it, so the game started with no environment at all. It now happens during setup, and the log names the environment that came up."
+      },
+      "pr": 36
+    },
+    {
       "id": "scenario-par-code-mission",
       "statut": "a_proposer",
       "fr": {
