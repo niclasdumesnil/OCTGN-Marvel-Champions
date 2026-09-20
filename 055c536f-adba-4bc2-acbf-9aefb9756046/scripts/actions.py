@@ -332,7 +332,10 @@ def defaultCardAction(args):
         # right opens the context menu - so double-click is the only pointer
         # gesture available.
         # Origine : Merlin - jetons de stat (2026), etendu aux jetons speciaux.
-        if args.card.Type in ('stat_token', 'clock_token', 'checklist_token'):
+        # Le test passe par isSpecialToken et n'enumere PAS les types ici :
+        # la famille etait ecrite en clair a quatre endroits, et l'ajout des
+        # jetons de ressource en a oublie trois - dont ce double-clic.
+        if isSpecialToken([args.card]):
             resetSpecialToken(args.card)
             return
         if not args.card.isFaceUp or isScheme([args.card]):
@@ -1069,7 +1072,7 @@ def addAPCounter(card, x=0, y=0, qty=1):
     # drop All Purpose markers on it, which reads as a second, confusing
     # value next to the one the token displays.
     # Origine : Merlin - jetons de stat (2026), etendu aux jetons speciaux.
-    if card.Type in ('stat_token', 'clock_token', 'checklist_token'):
+    if isSpecialToken([card]):
         return
     card.controller = me
     card.markers[AllPurposeMarker] += qty
@@ -1079,7 +1082,7 @@ def removeAPCounter(card, x = 0, y = 0):
     mute()
     # Same guard as addAPCounter: no All Purpose markers on a special token.
     # Origine : Merlin - jetons de stat (2026), etendu aux jetons speciaux.
-    if card.Type in ('stat_token', 'clock_token', 'checklist_token'):
+    if isSpecialToken([card]):
         return
     card.controller = me
     card.markers[AllPurposeMarker] -= 1
