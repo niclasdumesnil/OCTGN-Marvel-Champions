@@ -100,5 +100,37 @@
 			<alternate name="Resource Counter (2,3,4)" size="StatToken" type="234"><property name="Type" value="checklist_token" /></alternate>
 			<alternate name="Resource Counter (1,2,3,4)" size="StatToken" type="1234"><property name="Type" value="checklist_token" /></alternate>
 		</card>
+		<card id="fcb21620-0398-4b7d-b191-d9c0f16766a4" name="Physical Resource (0)" size="StatToken">
+			<property name="Type" value="resource_token" />
+			<alternate name="Physical Resource (1)" size="StatToken" type="b"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Physical Resource (2)" size="StatToken" type="c"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Physical Resource (3)" size="StatToken" type="d"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Physical Resource (4)" size="StatToken" type="e"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Physical Resource (5)" size="StatToken" type="f"><property name="Type" value="resource_token" /></alternate>
+		</card>
+		<card id="ead1d5fe-c6de-4d09-a4cf-cdc51dff8874" name="Energy Resource (0)" size="StatToken">
+			<property name="Type" value="resource_token" />
+			<alternate name="Energy Resource (1)" size="StatToken" type="b"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Energy Resource (2)" size="StatToken" type="c"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Energy Resource (3)" size="StatToken" type="d"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Energy Resource (4)" size="StatToken" type="e"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Energy Resource (5)" size="StatToken" type="f"><property name="Type" value="resource_token" /></alternate>
+		</card>
+		<card id="d063bef3-690b-471a-9303-d20107ee2ed4" name="Mental Resource (0)" size="StatToken">
+			<property name="Type" value="resource_token" />
+			<alternate name="Mental Resource (1)" size="StatToken" type="b"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Mental Resource (2)" size="StatToken" type="c"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Mental Resource (3)" size="StatToken" type="d"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Mental Resource (4)" size="StatToken" type="e"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Mental Resource (5)" size="StatToken" type="f"><property name="Type" value="resource_token" /></alternate>
+		</card>
+		<card id="18a521b2-e7c3-4782-ad90-c0fd01a4a9ef" name="Wild Resource (0)" size="StatToken">
+			<property name="Type" value="resource_token" />
+			<alternate name="Wild Resource (1)" size="StatToken" type="b"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Wild Resource (2)" size="StatToken" type="c"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Wild Resource (3)" size="StatToken" type="d"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Wild Resource (4)" size="StatToken" type="e"><property name="Type" value="resource_token" /></alternate>
+			<alternate name="Wild Resource (5)" size="StatToken" type="f"><property name="Type" value="resource_token" /></alternate>
+		</card>
 	</cards>
 </set>

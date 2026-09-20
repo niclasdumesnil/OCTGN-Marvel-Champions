@@ -929,6 +929,17 @@ statTokenIds = {
 # Everything stays manual: the tokens are visual reminders the player drives,
 # no game rule is wired to them.
 # Origine : Merlin - jetons speciaux (horloge, compteurs a cases), 2026.
+# One counting token per resource, 0-5, same grammar as the stat tokens: some
+# cards ask the player to accumulate resources of a given type on them (Deadpool's
+# Blackout and Tic-Tac-Toe), and the printed card has no room to show it.
+# Origine : Merlin - jetons de ressource (2026).
+resourceTokenIds = {
+    "Physical": "fcb21620-0398-4b7d-b191-d9c0f16766a4",
+    "Energy": "ead1d5fe-c6de-4d09-a4cf-cdc51dff8874",
+    "Mental": "d063bef3-690b-471a-9303-d20107ee2ed4",
+    "Wild": "18a521b2-e7c3-4782-ad90-c0fd01a4a9ef",
+}
+
 specialTokenIds = {
     "Action Clock": "4f2a322f-0d3a-4315-ad65-e046b9805e47",
     "Aspect Counter": "7e23fb75-f532-43c3-9a0f-575c9876b9d2",
@@ -940,6 +951,7 @@ specialTokenIds = {
 valueTokenMax = {
     'stat_token': 9,
     'clock_token': 6,
+    'resource_token': 5,
 }
 
 def isStatToken(cards, x = 0, y = 0):
@@ -963,7 +975,7 @@ def isChecklistToken(cards, x = 0, y = 0):
 
 def isSpecialToken(cards, x = 0, y = 0):
     for c in cards:
-        if c.Type not in ('stat_token', 'clock_token', 'checklist_token'):
+        if c.Type not in ('stat_token', 'clock_token', 'checklist_token', 'resource_token'):
             return False
     return True
 
@@ -1034,6 +1046,7 @@ def createSpecialToken(tokenName, x, y):
     mute()
     ids = dict(statTokenIds)
     ids.update(specialTokenIds)
+    ids.update(resourceTokenIds)
     table.create(ids[tokenName], x, y, 1, True)
     notify("{} creates a {} token.".format(me, tokenName))
 
@@ -1045,6 +1058,10 @@ def createTokenClock(group=None, x=0, y=0): createSpecialToken("Action Clock", x
 def createTokenAspects(group=None, x=0, y=0): createSpecialToken("Aspect Counter", x, y)
 def createTokenAspectsExtra(group=None, x=0, y=0): createSpecialToken("Extra Aspect Counter", x, y)
 def createTokenResources(group=None, x=0, y=0): createSpecialToken("Resource Counter", x, y)
+def createTokenPhysical(group=None, x=0, y=0): createSpecialToken("Physical", x, y)
+def createTokenEnergy(group=None, x=0, y=0): createSpecialToken("Energy", x, y)
+def createTokenMental(group=None, x=0, y=0): createSpecialToken("Mental", x, y)
+def createTokenWild(group=None, x=0, y=0): createSpecialToken("Wild", x, y)
 
 def addAPCounter(card, x=0, y=0, qty=1):
     mute()

@@ -194,6 +194,10 @@
             <groupaction menu="Aspect Counter (4 boxes)" default="False" execute="createTokenAspects" />
             <groupaction menu="Extra Aspect Counter ('Pool / Determination)" default="False" execute="createTokenAspectsExtra" />
             <groupaction menu="Resource Counter" default="False" execute="createTokenResources" />
+            <groupaction menu="Physical Resources (0-5)" default="False" execute="createTokenPhysical" />
+            <groupaction menu="Energy Resources (0-5)" default="False" execute="createTokenEnergy" />
+            <groupaction menu="Mental Resources (0-5)" default="False" execute="createTokenMental" />
+            <groupaction menu="Wild Resources (0-5)" default="False" execute="createTokenWild" />
         </groupactions>
         <groupactions menu="Setup">
             <groupaction menu="Load Villain" shortcut="ctrl+V" execute="loadVillain" />

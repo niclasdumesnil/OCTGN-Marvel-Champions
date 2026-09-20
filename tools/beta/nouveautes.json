@@ -40,6 +40,18 @@
   ],
   "fonctionnalites": [
     {
+      "id": "jetons-de-ressource",
+      "statut": "en_test",
+      "fr": {
+        "titre": "Jetons de ressource Physique / Énergie / Mental / Illimité",
+        "texte": "Quatre nouveaux jetons libres dans « Create Special Token », un par type de ressource, avec un compteur de 0 à 5. Ils servent aux cartes qui font accumuler des ressources d'un type donné sur elles — Blackout et Tic-Tac-Toe de Deadpool, par exemple — là où la carte imprimée n'a pas la place de le montrer. Mêmes gestes que les jetons de stat : flèches Haut/Bas pour ±1, double-clic pour remettre à zéro."
+      },
+      "en": {
+        "titre": "Physical / Energy / Mental / Wild resource tokens",
+        "texte": "Four new free-standing tokens in “Create Special Token”, one per resource type, counting 0 to 5. They are meant for cards that have you pile resources of a given type onto them — Deadpool's Blackout and Tic-Tac-Toe, for instance — where the printed card has no room to show it. Same gestures as the stat tokens: Up/Down arrows for +/-1, double-click to reset."
+      }
+    },
+    {
       "id": "mot-cle-starting-markup",
       "statut": "a_proposer",
       "fr": {
