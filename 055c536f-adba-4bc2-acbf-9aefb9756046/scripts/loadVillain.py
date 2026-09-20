@@ -333,6 +333,7 @@ def fetchMissionSets(code):
             "expert": missionValue(apiData, "expert_set_code"),
             "setCards": {},
             "missing": [],
+            "fanmadeOwners": None,
         }
         # One card code per set, used to find a set again when this collection
         # names it differently (see resolveMissionOwners).
@@ -399,9 +400,65 @@ def resolveMissionOwners(mission):
         resolved.append(resolveSetOwner(setCode, mission))
     mission["modulars"] = resolved
 
+# Setup card types of the fanmade sets imported by hand into this collection.
+# Origine : Merlin - chargement par code mission (2026).
+MISSION_FANMADE_SETUP_TYPES = [
+    "fm_villain_setup",
+    "fm_encounter_setup",
+    "fm_hero_setup",
+    "fm_hidden_setup",
+]
+
+def normalizeSetCode(setCode):
+    """
+    A set code reduced to what both namings agree on: lower case, no fanmade
+    prefix, no separator, no "by". The site says dark_matter_by_xb where this
+    collection says fm_dark_matter_XB, kazar_by_matty where it says
+    Ka-Zar_by_Matty - the prefix, the case, the dash and the "by" all move, the
+    words never do.
+    Kept deliberately strict: the author is part of the key, so purple_man_by_ffg
+    stays distinct from purple_man_by_designhacker, which are two different packs
+    about the same character.
+    Origine : Merlin - chargement par code mission (2026).
+    """
+    code = setCode.lower()
+    cut = code.find("_")
+    if code.startswith("fm") and cut > 0 and cut <= 4:
+        code = code[cut + 1:]
+    for ch in ["'", "-", ".", " "]:
+        code = code.replace(ch, "")
+    code = code.replace("_by_", "_")
+    return code.replace("_", "")
+
+def fanmadeOwners(mission):
+    """
+    The Owner of every hand-imported fanmade set, indexed by normalized code.
+    Built at most once per mission, and only when a code has already failed the
+    two cheaper lookups: the game database does not expose Owner on a card
+    model, so the setup cards have to be created to be read. Restricted to the
+    fanmade setup types on purpose - that is where the naming diverges, and it
+    keeps the count to a few dozen cards instead of every set in the collection.
+    Origine : Merlin - chargement par code mission (2026).
+    """
+    if mission["fanmadeOwners"] is not None:
+        return mission["fanmadeOwners"]
+    index = {}
+    pile = tempPile(True)
+    for setupType in MISSION_FANMADE_SETUP_TYPES:
+        for model in queryCard({"Type": setupType}, True):
+            pile.create(model, 1)
+    update()
+    for c in pile:
+        index.setdefault(normalizeSetCode(c.Owner), c.Owner)
+    deleteCards(pile)
+    mission["fanmadeOwners"] = index
+    return index
+
 def resolveSetOwner(setCode, mission):
     """
     The Owner to use for a set code, unchanged when it already matches one.
+    Three ways of asking, cheapest first: the code itself, then the probe card
+    the site hands over, then the naming of the fanmade sets imported here.
     Notes down the codes this collection knows nothing about as it goes, so the
     availability check does not have to ask the same questions all over again.
     """
@@ -409,19 +466,17 @@ def resolveSetOwner(setCode, mission):
         return setCode
     if len(queryCard({"Owner": setCode}, True)) > 0:
         return setCode
-    if setCode not in mission["setCards"]:
-        mission["missing"].append(setCode)
-        return setCode
-    cards = queryCard({"CardNumber": mission["setCards"][setCode]}, True)
-    if len(cards) == 0:
-        mission["missing"].append(setCode)
-        return setCode
     owner = ""
-    tempPile(True).create(cards[0], 1)
-    update()
-    for c in tempPile(True):
-        owner = c.Owner
-    deleteCards(tempPile(True))
+    if setCode in mission["setCards"]:
+        cards = queryCard({"CardNumber": mission["setCards"][setCode]}, True)
+        if len(cards) > 0:
+            tempPile(True).create(cards[0], 1)
+            update()
+            for c in tempPile(True):
+                owner = c.Owner
+            deleteCards(tempPile(True))
+    if owner == "" or owner == setCode:
+        owner = fanmadeOwners(mission).get(normalizeSetCode(setCode), "")
     if owner == "" or owner == setCode:
         mission["missing"].append(setCode)
         return setCode
