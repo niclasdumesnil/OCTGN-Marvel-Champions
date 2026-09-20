@@ -489,7 +489,7 @@ Your hero gets +1 ATK.</property>
       <property name="Cost" value="2"/>
       <property name="Unique" value="False"/>
       <property name="Attribute" value="Condition."/>
-      <property name="Text">&lt;b&gt;Starting.&lt;/b&gt; (&lt;i&gt;You may add this card to your hand before drawing your starting hand.&lt;/i&gt;)
+      <property name="Text">Starting. (&lt;i&gt;You may add this card to your hand before drawing your starting hand.&lt;/i&gt;)
 Your hero gets +1 THW.</property>
       <property name="Quote" value="WHOOOSH!"/>
     </card>
@@ -502,7 +502,7 @@ Your hero gets +1 THW.</property>
       <property name="Cost" value="2"/>
       <property name="Unique" value="False"/>
       <property name="Attribute" value="Condition."/>
-      <property name="Text">&lt;b&gt;Starting.&lt;/b&gt; (&lt;i&gt;You may add this card to your hand before drawing your starting hand.&lt;/i&gt;)
+      <property name="Text">Starting. (&lt;i&gt;You may add this card to your hand before drawing your starting hand.&lt;/i&gt;)
 Each ally you control gets +1 hit point.</property>
       <property name="Quote" value="PA –PA-POW!"/>
     </card>
