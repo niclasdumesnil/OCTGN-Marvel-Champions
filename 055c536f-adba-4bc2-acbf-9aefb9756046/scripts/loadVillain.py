@@ -122,6 +122,16 @@ Reset the game in order to generate a new deck."""
             toShuffle = i[2]
             createCardsFromSet(pile, k, setName, True)
             showGroup(pile, toShuffle)
+            # This set has just been loaded because the scenario requires it.
+            # A mission code lists it TOO - the site counts it in the scenario
+            # contents, the setup card knows it as mandatory - so loading it
+            # again from the modular list would put its cards on the table
+            # twice. Seen on Unus: its Gene Pool side scheme, which lives in
+            # the Infinites set, came up twice.
+            # Origine : Merlin - chargement par code mission (2026).
+            if mission is not None and k in mission["modulars"]:
+                mission["modulars"].remove(k)
+                notify("{} is part of the scenario and was already loaded.".format(setName))
 
     # Load other modulars then setup Scenario.
     nbModular = int(getGlobalVariable("nbModular"))
