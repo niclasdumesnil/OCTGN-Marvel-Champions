@@ -1170,6 +1170,16 @@ def revealHide(card, x = 0, y = 0):
 
 def discard(card, x = 0, y = 0):
     mute()
+    # A special token is not a card. It has no deck to go back to, so the
+    # generic branch at the end of this function used to drop it into the
+    # player's Deck Discard, where it sat among real cards and came back in the
+    # deck at the next reshuffle. Discarding one means taking it off the table.
+    # Checked first: none of the tests below mean anything for a token.
+    # Origine : Merlin - jetons speciaux (2026).
+    if isSpecialToken([card]):
+        notify("{} removes the {} token.".format(me, card.Name.split(" (")[0]))
+        card.delete()
+        return
     card.controller = me
 
     # A player card can name the pile of its OWN player it goes back to when it
