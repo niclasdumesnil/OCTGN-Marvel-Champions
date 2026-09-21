@@ -1574,9 +1574,13 @@ def lookForStarting(card):
     Anchored on purpose: an unanchored search would match any card whose text
     merely mentions "starting" (e.g. "your starting hand") and wrongly pull it
     out of the deck.
+    The markup in front of the keyword is skipped, because card text is not
+    consistent about it - Innate Aggression writes "Starting." plain while
+    Innate Perception, in the SAME set, writes "<b>Starting.</b>". Matching
+    on the bare word leaves those cards sitting in the deck, silently.
     Origine : Merlin - keyword introduced with Fear No Evil.
     """
-    return re.match('Starting\\.', card.properties["Text"])
+    return re.match('\\s*(<[^>]+>\\s*)*Starting\\.', card.properties["Text"])
 
 def lookForToughness(card):
     """
