@@ -1,0 +1,24 @@
+# Fins de ligne : ne rien normaliser sur les fichiers que l'amont stocke en CRLF.
+#
+# Ce depot est un fork. `core.autocrlf` vaut `true` sur la machine, donc git
+# convertit CRLF -> LF a l'ajout : un fichier que l'amont a commite en CRLF
+# repart en LF dans notre blob des qu'on y touche, et le diff couvre alors le
+# FICHIER ENTIER pour une ligne utile. Paye sur `actions.py` le 2026-09-20
+# (1947 insertions / 1931 suppressions pour une ligne de regex), ce qui rendait
+# toute pull request impossible et promettait un conflit integral au prochain
+# rapprochement.
+#
+# `-text` desactive la conversion dans les deux sens : le blob garde les octets
+# du fichier de travail. Ce n'est PAS `binary` (= `-diff -merge -text`), qui
+# ferait perdre les diffs lisibles.
+#
+# Liste volontairement COURTE et nominative. Un `* -text` global ferait basculer
+# 154 fichiers d'un coup (leur blob est en LF, leur copie de travail en CRLF) :
+# du bruit pur, sans aucune divergence reelle a corriger. Mesure du 2026-09-21 :
+# sur 626 fichiers communs avec l'amont, un seul divergeait.
+#
+# Pour etendre : verifier d'abord ce que l'amont stocke, avec
+#   git show upstream/master:<chemin> | file -
+# et n'ajouter ici que les fichiers reellement en CRLF cote amont.
+055c536f-adba-4bc2-acbf-9aefb9756046/scripts/actions.py -text
+055c536f-adba-4bc2-acbf-9aefb9756046/definition.xml -text
