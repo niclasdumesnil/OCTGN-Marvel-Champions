@@ -41,7 +41,7 @@
   "fonctionnalites": [
     {
       "id": "jetons-de-ressource",
-      "statut": "en_test",
+      "statut": "a_proposer",
       "fr": {
         "titre": "Jetons de ressource Physique / Énergie / Mental / Illimité",
         "texte": "Quatre nouveaux jetons libres dans « Create Special Token », un par type de ressource, avec un compteur de 0 à 5. Ils servent aux cartes qui font accumuler des ressources d'un type donné sur elles — Blackout et Tic-Tac-Toe de Deadpool, par exemple — là où la carte imprimée n'a pas la place de le montrer. Mêmes gestes que les jetons de stat : flèches Haut/Bas pour ±1, double-clic pour remettre à zéro."
@@ -103,7 +103,7 @@
     },
     {
       "id": "pre-built-heros-non-officiels",
-      "statut": "en_test",
+      "statut": "a_proposer",
       "fr": {
         "titre": "Plus de plantage sur « An out of the box deck »",
         "texte": "Choisir le deck de la boîte pour un héros dont la boîte n'existe pas encore affichait une erreur Python brute. Un message clair vous oriente désormais vers les sources qui fonctionnent pour tous les héros."
