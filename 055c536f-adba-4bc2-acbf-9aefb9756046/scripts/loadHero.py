@@ -52,6 +52,20 @@ Reset the game in order to generate a new deck."""
         if cardSelected is None: return
         heroSet = cardSelected[0].Owner
         heroName = cardSelected[0].Name
+        # pre_built only carries the box-printed decks FFG has actually
+        # shipped. A hero whose pack lands here before its box exists has no
+        # entry, and pre_built[heroSet] raised a raw KeyError straight into the
+        # player's face - jessica_jones_by_ffg and luke_cage_by_ffg are in that
+        # state right now, and any hero added the same way will be too.
+        # No decklist for them exists anywhere in the repo to build one from,
+        # and inventing one would misrepresent an unreleased product.
+        # Sent back to the source menu instead: "marvelcdb URL" and "Universal
+        # Pre-Built deck" both work for any hero already, the latter being
+        # keyed by aspect rather than by hero.
+        # Origine : Merlin - constate en jeu par deux testeurs (2026).
+        if heroSet not in pre_built:
+            whisper("No out-of-the-box deck is known yet for {}. Try 'A marvelcdb deck (URL)' or 'A Universal Pre-Built deck' instead.".format(heroName))
+            return
         me.setGlobalVariable("heroPlayed", heroSet)
         aspectCardsList = createCards(me.Deck, pre_built[heroSet].keys(), pre_built[heroSet])
         deleteCards(me.piles["Setup"])
