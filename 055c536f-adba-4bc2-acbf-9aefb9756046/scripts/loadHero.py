@@ -553,6 +553,21 @@ class RemoteCallBlocker:
                     notify("Card not found in octgn database. Code from marvelcdb url : {}.".format(cardid))
                     continue 
                 cards = me.Deck.create(cardModel[0], qty)
+                # A card that declares an out-of-deck location (DefaultSetupPile)
+                # is never a deck card: loadHero (choice 3) re-creates it from
+                # the set in that pile (setupPileOnly), with the set quantity.
+                # The online deck lists it all the same - every marvelcdb
+                # Psylocke decklist carries '41002a': 2 - so keeping it here
+                # left the 2 Psi-Knives both in the deck and on the table
+                # (put into play from the Special pile by heroSetup).
+                # Not applied to the Universal Pre-Built path (aspectOnly),
+                # which already strips every hero-owned card below.
+                # Origine : Merlin - fix, Psi-Knife duplicated on URL deck load (2026).
+                if not aspectOnly:
+                    createdCards = [cards] if qty == 1 else list(cards)
+                    if len(createdCards) > 0 and createdCards[0] is not None and createdCards[0].hasProperty("DefaultSetupPile"):
+                        [c.delete() for c in createdCards]
+                        continue
                 # Hero-owned cards from the slots used to be deleted here and
                 # re-created from the set. They are now kept as the online
                 # deck states them, so a deck that replaces a signature card
