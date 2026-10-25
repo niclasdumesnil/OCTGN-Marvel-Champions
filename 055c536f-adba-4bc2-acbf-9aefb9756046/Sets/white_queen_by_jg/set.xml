@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="White Queen" id="bed6bcde-424c-4e6e-ae91-832fcbdb69fe" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="bed6bcde-424c-4e6e-ae91-832fcb000000" name="White Queen">
+      <property name="Type" value="fm_hero_setup"/>
+      <property name="Owner" value="white_queen_by_jg"/>
+    </card>
+    <card id="bed6bcde-424c-4e6e-ae91-832fcb990000" name="White Queen Nemesis">
+      <property name="Type" value="fm_encounter_setup"/>
+      <property name="Owner" value="white_queen_by_jg_nemesis"/>
+    </card>
+    <card name="White Queen" id="bed6bcde-424c-4e6e-ae91-832fcb079001">
+      <property name="CardNumber" value="207901a"/>
+      <property name="Position" value="1"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="hero"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="white_queen_by_jg"/>
+      <property name="HP" value="10"/>
+      <property name="HandSize" value="5"/>
+      <property name="Attack" value="2"/>
+      <property name="Thwart" value="3"/>
+      <property name="Defense" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="X-Men."/>
+      <property name="Text" value="&lt;i&gt;Illusion&lt;/i&gt; — &lt;b&gt;Interrupt&lt;/b&gt;: &lt;i&gt;(defense)&lt;/i&gt;: When a minion initiates an attack, spend [mental]  → that minion attacks another enemy instead. Deal 1 damage to your hero and both enemies. (Once per phase.)"/>
+      <property name="Quote" value="“The whole world is watching, children. Be amazing.”"/>
+      <alternate name="Emma Frost" type="b">
+        <property name="CardNumber" value="207901b"/>
+        <property name="Position" value="1"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="alter_ego"/>
+        <property name="Faction" value="hero"/>
+        <property name="Owner" value="white_queen_by_jg"/>
+        <property name="HP" value="10"/>
+        <property name="HandSize" value="6"/>
+        <property name="Recovery" value="4"/>
+        <property name="Unique" value="True"/>
+        <property name="Attribute" value="Mutant."/>
+        <property name="Text" value="&lt;b&gt;Forced Response&lt;/b&gt;: After you change to this form, if Diamond Form is in play, flip it. You may shuffle 1 card from your discard pile into your deck."/>
+        <property name="Quote" value="&quot;I'd die for those children! And if you've put them in danger - -so will you!&quot;"/>
+      </alternate>
+    </card>
+    <card name="Telepath Form" id="bed6bcde-424c-4e6e-ae91-832fcb079002">
+      <property name="CardNumber" value="207902a"/>
+      <property name="Position" value="2"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="white_queen_by_jg"/>
+      <property name="Cost" value="0"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Text">Power form. Setup. Permanent.
+You gain the [[Psionic]] trait.
+&lt;b&gt;Hero Action&lt;/b&gt;: Spend [mental] and exhaust this card → flip this card.</property>
+      <property name="Quote" value="“And, yes, I am a massive snob, and there was no need for you all to think it at once.”"/>
+      <alternate name="Diamond Form" type="b">
+        <property name="CardNumber" value="207902b"/>
+        <property name="Position" value="2"/>
+        <property name="Quantity" value="1"/>
+        <property name="Type" value="upgrade"/>
+        <property name="Faction" value="hero"/>
+        <property name="Owner" value="white_queen_by_jg"/>
+        <property name="Cost" value="0"/>
+        <property name="Unique" value="False"/>
+        <property name="Resource_Physical" value="1"/>
+        <property name="Text">Power form. Permanent. Your hero gets -2 THW, +1 ATK, and +2 DEF.
+&lt;b&gt;Forced Response (Hero)&lt;/b&gt;: After you take damage from an attack, if that attack had piercing or you took more than 3 damage, exhaust this card, flip it, and exhaust your hero.</property>
+      </alternate>
+    </card>
+    <card name="Stepford Cuckoos" id="bed6bcde-424c-4e6e-ae91-832fcb079003">
+      <property name="CardNumber" value="207903"/>
+      <property name="Position" value="3"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="ally"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="white_queen_by_jg"/>
+      <property name="Cost" value="4"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="1"/>
+      <property name="AttackCost" value="1"/>
+      <property name="Thwart" value="0"/>
+      <property name="ThwartCost" value="1"/>
+      <property name="Unique" value="True"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Five-In-One. Psionic. X-Men."/>
+      <property name="Text">Stepford Cuckoos get +1 THW and +1 ATK for each psi counter on them.
+&lt;b&gt;Interrupt&lt;/b&gt;: When an encounter card is revealed, exhaust and place 1 psi counter here &lt;i&gt;(to a maximum of 3)&lt;/i&gt; — discard that card instead. Then, that player surges.</property>
+    </card>
+    <card name="Frost International" id="bed6bcde-424c-4e6e-ae91-832fcb079004">
+      <property name="CardNumber" value="207904"/>
+      <property name="Position" value="4"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="support"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="white_queen_by_jg"/>
+      <property name="Cost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Business. Location."/>
+      <property name="Text" value="&lt;b&gt;Alter-Ego Action&lt;/b&gt;: Exhaust this card → look at the top 2 cards of your deck. Add 1 to your hand and place the other on the top or bottom of your deck."/>
+      <property name="Quote" value="“I think our world just got a lot more complicated.”"/>
+    </card>
+    <card name="Cerebra" id="bed6bcde-424c-4e6e-ae91-832fcb079005">
+      <property name="CardNumber" value="207905"/>
+      <property name="Position" value="5"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="white_queen_by_jg"/>
+      <property name="Cost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Item. Psionic. Tech."/>
+      <property name="Text" value="&lt;b&gt;Response&lt;/b&gt;: After you resolve your &lt;i&gt;&quot;Illusion&quot;&lt;/i&gt; ability, if you have the [[Psionic]] trait, exhaust this card → deal 2 damage to the target of the attack. Remove 2 threat from a side scheme."/>
+    </card>
+    <card name="Omega Level Telepath" id="bed6bcde-424c-4e6e-ae91-832fcb079006">
+      <property name="CardNumber" value="207906"/>
+      <property name="Position" value="6"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="white_queen_by_jg"/>
+      <property name="Cost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Psionic. Skill."/>
+      <property name="Text" value="&lt;b&gt;Resource&lt;/b&gt;: Exhaust this card → generate the printed resource on your form card."/>
+      <property name="Quote" value="&quot;Come on, Emma. Picture it in your mind. Focus.&quot;"/>
+    </card>
+    <card name="Latent Power Boost" id="bed6bcde-424c-4e6e-ae91-832fcb079007">
+      <property name="CardNumber" value="207907"/>
+      <property name="Position" value="7"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="upgrade"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="white_queen_by_jg"/>
+      <property name="Cost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Psionic. Training."/>
+      <property name="Text">Attach to an [[X-Men]] or [[X-Force]] ally.
+Attached ally gets +2 THW, +2 ATK, and +1 hit point. It cannot have other upgrades or attachments attached.</property>
+      <property name="Quote" value="&quot;For years, I'd always dismissed Iceman... but the truth is, his powers are almost without limit!&quot;"/>
+    </card>
+    <card name="Psi Shield" id="bed6bcde-424c-4e6e-ae91-832fcb079008">
+      <property name="CardNumber" value="207908"/>
+      <property name="Position" value="8"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="white_queen_by_jg"/>
+      <property name="Cost" value="0"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Physical" value="1"/>
+      <property name="Attribute" value="Defense. Psionic."/>
+      <property name="Text" value="&lt;b&gt;Hero Interrupt&lt;/b&gt; (&lt;i&gt;defense&lt;/i&gt;): When an enemy attacks, declare White Queen the defender without exhausting her. She gets +1 DEF for this attack. If she is in Diamond Form, deal 2 damage to the attacking enemy."/>
+    </card>
+    <card name="Frustrate" id="bed6bcde-424c-4e6e-ae91-832fcb079009">
+      <property name="CardNumber" value="207909"/>
+      <property name="Position" value="9"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="white_queen_by_jg"/>
+      <property name="Cost" value="1"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Energy" value="1"/>
+      <property name="Attribute" value="Psionic. Thwart."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;thwart&lt;/i&gt;): Find a minion not in play and reveal it → remove 3 threat from a scheme. If White Queen is in:
+• Telepath Form, confuse an enemy.
+• Diamond Form, deal 2 damage to an enemy.</property>
+    </card>
+    <card name="Psi Strike" id="bed6bcde-424c-4e6e-ae91-832fcb079010">
+      <property name="CardNumber" value="207910"/>
+      <property name="Position" value="10"/>
+      <property name="Quantity" value="3"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="white_queen_by_jg"/>
+      <property name="Cost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Attribute" value="Attack. Psionic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt; (&lt;i&gt;attack&lt;/i&gt;): Choose an enemy.
+If White Queen is in:
+• Telepath Form, deal 4 damage to that enemy and stun it.
+• Diamond Form, deal 6 damage to that enemy.</property>
+    </card>
+    <card name="Quick Reaction" id="bed6bcde-424c-4e6e-ae91-832fcb079011">
+      <property name="CardNumber" value="207911"/>
+      <property name="Position" value="11"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="white_queen_by_jg"/>
+      <property name="Cost" value="0"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Mental" value="1"/>
+      <property name="Text">&lt;b&gt;Interrupt&lt;/b&gt;: When the villain activates, change your form. You may flip your form card.
+&lt;b&gt;Action&lt;/b&gt;: Change your form. You may flip your form card.</property>
+    </card>
+    <card name="Mind Swap" id="bed6bcde-424c-4e6e-ae91-832fcb079012">
+      <property name="CardNumber" value="207912"/>
+      <property name="Position" value="12"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="event"/>
+      <property name="Faction" value="hero"/>
+      <property name="Owner" value="white_queen_by_jg"/>
+      <property name="Cost" value="0"/>
+      <property name="Unique" value="False"/>
+      <property name="Resource_Wild" value="1"/>
+      <property name="Attribute" value="Psionic."/>
+      <property name="Text">&lt;b&gt;Hero Action&lt;/b&gt;: Choose another friendly character. Add that character's THW or ATK to your matching power until the end of the round. If you chose:
+• THW, confuse that character.
+• ATK, stun that character.</property>
+    </card>
+    <card name="Phoenix Force Rift" id="bed6bcde-424c-4e6e-ae91-832fcb079013" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="207913"/>
+      <property name="Position" value="13"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="obligation"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="white_queen_by_jg"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Text">&lt;b&gt;&lt;i&gt;Give to the Emma Frost player.&lt;/i&gt;&lt;/b&gt;
+You may flip to alter-ego form. Choose:
+• Exhaust Emma Frost and discard 1 card from your hand → remove this card from the game.
+• Discard 2 cards you control from play. If no cards were discarded this way, this card gains surge. Discard this obligation.</property>
+    </card>
+    <card name="Attack On The School" id="bed6bcde-424c-4e6e-ae91-832fcb079014" size="SchemeCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="207914"/>
+      <property name="Position" value="14"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="side_scheme"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="white_queen_by_jg_nemesis"/>
+      <property name="Boost" value="3"/>
+      <property name="BaseThreat" value="4"/>
+      <property name="Unique" value="False"/>
+      <property name="BaseThreatFixed" value="True"/>
+      <property name="Scheme_Hazard" value="1"/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: Each player exhausts 1 ally or support they control. Find a copy of the Hellfire Pawn minion and reveal it. If X-Mansion is in play, discard it."/>
+      <property name="Quote" value="The Hellfire Club's attack on the Institute has devastated the building and injured many of the students."/>
+    </card>
+    <card name="Sebastian Shaw" id="bed6bcde-424c-4e6e-ae91-832fcb079015" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="207915"/>
+      <property name="Position" value="15"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="white_queen_by_jg_nemesis"/>
+      <property name="HP" value="5"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="True"/>
+      <property name="Attribute" value="Hellfire."/>
+      <property name="Text">Toughness. Villainous. Sebastian Shaw cannot attack other enemies.
+&lt;b&gt;Forced Interrupt&lt;/b&gt;: When Sebastian Shaw would take damage, reduce the amount of damage he takes by 1 and give him a facedown boost card.
+&lt;i&gt;(White Queen's nemesis minion.)&lt;/i&gt;</property>
+    </card>
+    <card name="Hellfire Pawn" id="bed6bcde-424c-4e6e-ae91-832fcb079016" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="207916"/>
+      <property name="Position" value="16"/>
+      <property name="Quantity" value="2"/>
+      <property name="Type" value="minion"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="white_queen_by_jg_nemesis"/>
+      <property name="HP" value="3"/>
+      <property name="Attack" value="2"/>
+      <property name="Scheme" value="1"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Hellfire."/>
+      <property name="Text">Guard. Patrol. Incite 1.
+&lt;i&gt;(White Queen's nemesis minion.)&lt;/i&gt;</property>
+      <property name="Quote" value="&quot;Fais ce que tu voudras.&quot; (Do what thou wilt) -Hellfire Club Motto"/>
+    </card>
+    <card name="Hellfire Assault" id="bed6bcde-424c-4e6e-ae91-832fcb079017" size="EncounterCard">
+      <property name="DefaultSetupPile" value="Nemesis"/>
+      <property name="CardNumber" value="207917"/>
+      <property name="Position" value="17"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="treachery"/>
+      <property name="Faction" value="encounter"/>
+      <property name="Owner" value="white_queen_by_jg_nemesis"/>
+      <property name="Boost" value="2"/>
+      <property name="Unique" value="False"/>
+      <property name="Attribute" value="Hellfire."/>
+      <property name="Text" value="&lt;b&gt;When Revealed&lt;/b&gt;: The players as a group take indirect damage equal to 1 [per_hero] more than the total number of [[Psionic]] and [[Hellfire]] cards in play."/>
+      <property name="Quote" value="“Here's to the future, my friends. The Hellfire Club is dead. Long live the Hellfire Club.”"/>
+    </card>
+  </cards>
+</set>
