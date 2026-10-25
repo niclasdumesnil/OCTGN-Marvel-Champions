@@ -40,7 +40,18 @@ Reset the game in order to generate a new deck."""
     villainSet = cardSelected[0].Owner
     villainName = cardSelected[0].Name
     setGlobalVariable("villainSetup", villainName)
-    nbModular = cardSelected[0].nbModular
+    # Read like the two properties just below, which already guard themselves.
+    # A setup card that carries no nbModular handed an empty string to the
+    # global variable, and the int() conversion below (loadEncounter call)
+    # threw a raw ValueError in the player's face, with nothing set up. It
+    # happens on any scenario whose setup card omits the property - a leader
+    # has no main scheme to state one. Absent means "no modular set", which
+    # loadEncounter() already treats as nothing to ask.
+    # Origine : Merlin - constate en jeu sur les premiers sets de leader (2026).
+    if cardSelected[0].hasProperty("nbModular"):
+        nbModular = cardSelected[0].nbModular
+    else:
+        nbModular = 0
     setGlobalVariable("nbModular", nbModular)
     if cardSelected[0].hasProperty("recommendedModular"):
         setGlobalVariable("recommendedModular", cardSelected[0].recommendedModular)

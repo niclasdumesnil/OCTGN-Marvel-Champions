@@ -38,6 +38,31 @@ def revealCardOnSetup(cName, cNumber, posX, posY, isAttachment=False, inSideDeck
 #------------------------------------------------------------
 # Scenario setup
 #------------------------------------------------------------
+def revealFanmadeCardOnSetup(cName, cNumber, cOwner, posX, posY, isAttachment=False):
+    """
+    Same as revealCardOnSetup(), with a fallback on the card NAME when the number finds
+    nothing. A fan-made set gets renumbered whenever its author reworks it: the Valkyrie
+    leader cards moved from 2084xx to 2087xx when her set was merged into
+    "civil_war_expansion_1_by_boomguy". revealCardOnSetup() only looks by CardNumber and
+    fails quietly (one notify in the log): Shieldmaiden and Valhalla stayed in the
+    encounter deck, and the player had to put them out by hand.
+    The number stays the normal path - it tells two cards with the same name apart; the
+    NAME + OWNER pair is only a safety net, since a fan-made set keeps its card names and
+    its set code when it is renumbered.
+    Origine : Merlin - leaders fanmade de Boomguy, renumerotation de septembre 2026.
+    """
+    card = filter(lambda c: c.CardNumber == cNumber, encounterAndDiscardDeck())
+    if len(card) == 0:
+        card = filter(lambda c: c.Name == cName and c.Owner == cOwner, encounterAndDiscardDeck())
+    if len(card) == 0:
+        notify("{} card not found in encounter deck nor encounter discard!".format(cName))
+        return None
+    card[0].moveToTable(posX, posY)
+    if isAttachment:
+        card[0].sendToBack()
+    return card[0]
+
+
 def scenarioSetup(group=table, x = 0, y = 0):
     # Global Variables
     gameDifficulty = getGlobalVariable("difficulty")
@@ -605,7 +630,13 @@ def scenarioSetup_fm(group=table, x = 0, y = 0):
     vName = getGlobalVariable("villainSetup")
 
     # Move cards from Villain Deck to Encounter and Scheme Decks
-    villainCards = sorted(filter(lambda card: card.Type == "villain", villainDeck()), key=lambda c: c.CardNumber)
+    # A "leader" IS the villain of its scenario (Civil War, Synthezoid Smackdown):
+    # its cards carry Type "leader", never "villain". The official scenarioSetup()
+    # already filters on both (see the same line at the top of this file); the fanmade
+    # one did not, so villainCards came out empty and the generic branch below raised
+    # IndexError on villainCards[0] - in the player's face, with no villain on the table.
+    # Origine : Merlin - premiers scenarios de leader fanmade (Boomguy), 2026.
+    villainCards = sorted(filter(lambda card: (card.Type == "villain" or card.Type == "leader"), villainDeck()), key=lambda c: c.CardNumber)
     mainSchemeCards = sorted(filter(lambda card: card.Type == "main_scheme", mainSchemeDeck()), key=lambda c: c.CardNumber)
     villainEnvCards = sorted(filter(lambda card: card.Type == "environment", encounterDeck()))
     villainAttCards = sorted(filter(lambda card: card.Type == "attachment", encounterDeck()))
@@ -759,6 +790,35 @@ def scenarioSetup_fm(group=table, x = 0, y = 0):
         envCard[0].moveToTable(tableLocations['environment'][0], tableLocations['environment'][1])
         shuffle(sideDeck())
         sideDeck().visibility = "all"
+
+    #------------------------------------------------------------
+    # Leaders (Civil War), fan-made side
+    #------------------------------------------------------------
+    # Same setup as the six official leaders, whose blocks these follow exactly:
+    # the side's main scheme, the leader, then the two cards the scenario asks
+    # for - the leader's side scheme (right of the main scheme) and the
+    # attachment its "Setup" text names (in the environment slot, from where the
+    # player attaches it to the leader).
+    # Main schemes are sorted by Stage, as on the official side: the side brings
+    # two (1A then 2A) and only the first one is put out here.
+    # Cards are looked up with revealFanmadeCardOnSetup(), which falls back on the
+    # name when the number has changed: these four numbers were still the ones from
+    # before both sets were merged into "civil_war_expansion_1_by_boomguy", and
+    # neither Shieldmaiden nor Valhalla was put out (found in play, 2026-09-21).
+    # Origine : Merlin - premiers leaders fanmade (Boomguy), 2026.
+    elif vName == 'Valkyrie':
+        mainSchemeCards = sorted(filter(lambda card: card.Type == "main_scheme", mainSchemeDeck()), key=lambda c: c.Stage)
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        revealFanmadeCardOnSetup("Valhalla", "208723", "valkyrie_by_boomguy", tableLocations['mainScheme'][0] + 100, tableLocations['mainScheme'][1])
+        revealFanmadeCardOnSetup("Shieldmaiden", "208716a", "valkyrie_by_boomguy", tableLocations['environment'][0], tableLocations['environment'][1])
+
+    elif vName == 'Quicksilver':
+        mainSchemeCards = sorted(filter(lambda card: card.Type == "main_scheme", mainSchemeDeck()), key=lambda c: c.Stage)
+        mainSchemeCards[0].moveToTable(tableLocations['mainScheme'][0], tableLocations['mainScheme'][1])
+        villainCards[0].moveToTable(villainX(1, 0), tableLocations['villain'][1])
+        revealFanmadeCardOnSetup("Serval Industries", "208711", "quicksilver_by_boomguy", tableLocations['mainScheme'][0] + 100, tableLocations['mainScheme'][1])
+        revealFanmadeCardOnSetup("Friction Resistance", "208705", "quicksilver_by_boomguy", tableLocations['environment'][0], tableLocations['environment'][1])
 
     else:
         # If we loaded the encounter deck - add the first villain and main scheme cards to the table
