@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Stat Tokens" id="611ba116-df62-4f4a-ba4e-23988003e3d8" gameId="055c536f-adba-4bc2-acbf-9aefb9756046" gameVersion="0.0.0.0" version="1.0.0.0" hidden="true">
+	<cards>
+		<card id="7babd7f2-dcfd-4037-aef2-7fa08d2af7dd" name="THW Token (0)" size="StatToken">
+			<property name="Type" value="stat_token" />
+			<alternate name="THW Token (1)" size="StatToken" type="b"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="THW Token (2)" size="StatToken" type="c"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="THW Token (3)" size="StatToken" type="d"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="THW Token (4)" size="StatToken" type="e"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="THW Token (5)" size="StatToken" type="f"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="THW Token (6)" size="StatToken" type="g"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="THW Token (7)" size="StatToken" type="h"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="THW Token (8)" size="StatToken" type="i"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="THW Token (9)" size="StatToken" type="j"><property name="Type" value="stat_token" /></alternate>
+		</card>
+		<card id="3dc2a6bd-a2be-41c1-902c-34affe007df6" name="ATK Token (0)" size="StatToken">
+			<property name="Type" value="stat_token" />
+			<alternate name="ATK Token (1)" size="StatToken" type="b"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="ATK Token (2)" size="StatToken" type="c"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="ATK Token (3)" size="StatToken" type="d"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="ATK Token (4)" size="StatToken" type="e"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="ATK Token (5)" size="StatToken" type="f"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="ATK Token (6)" size="StatToken" type="g"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="ATK Token (7)" size="StatToken" type="h"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="ATK Token (8)" size="StatToken" type="i"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="ATK Token (9)" size="StatToken" type="j"><property name="Type" value="stat_token" /></alternate>
+		</card>
+		<card id="e854c4e1-fd4f-42ce-966e-4325fa85abf7" name="DEF Token (0)" size="StatToken">
+			<property name="Type" value="stat_token" />
+			<alternate name="DEF Token (1)" size="StatToken" type="b"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="DEF Token (2)" size="StatToken" type="c"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="DEF Token (3)" size="StatToken" type="d"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="DEF Token (4)" size="StatToken" type="e"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="DEF Token (5)" size="StatToken" type="f"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="DEF Token (6)" size="StatToken" type="g"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="DEF Token (7)" size="StatToken" type="h"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="DEF Token (8)" size="StatToken" type="i"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="DEF Token (9)" size="StatToken" type="j"><property name="Type" value="stat_token" /></alternate>
+		</card>
+		<card id="9e461229-09ce-45ac-8e14-76f08e77b47a" name="REC Token (0)" size="StatToken">
+			<property name="Type" value="stat_token" />
+			<alternate name="REC Token (1)" size="StatToken" type="b"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="REC Token (2)" size="StatToken" type="c"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="REC Token (3)" size="StatToken" type="d"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="REC Token (4)" size="StatToken" type="e"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="REC Token (5)" size="StatToken" type="f"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="REC Token (6)" size="StatToken" type="g"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="REC Token (7)" size="StatToken" type="h"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="REC Token (8)" size="StatToken" type="i"><property name="Type" value="stat_token" /></alternate>
+			<alternate name="REC Token (9)" size="StatToken" type="j"><property name="Type" value="stat_token" /></alternate>
+		</card>
+	</cards>
+</set>
